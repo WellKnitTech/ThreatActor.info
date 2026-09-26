@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Metasploit Wrap Up: Belgian Waffles, Chocolates, and…Modules-Frites?](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-belgian-waffles-chocolates-and-modules-frites)
+  Rapid7 - 2026-09-25T
+

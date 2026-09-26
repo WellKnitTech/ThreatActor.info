@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [War Bros Didn’t Always Rule Silicon Valley](https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/)
+  Wired - 2026-09-25T
 - [Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer](https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html)
   The Hacker News - 2026-09-24T
 

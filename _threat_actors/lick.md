@@ -39,6 +39,4 @@ Ransomware Variant of Kirk
   The Hacker News - 2026-09-24T
 - [17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360](https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html)
   The Hacker News - 2026-09-24T
-- [Placeholder domain used in dev docs now serves ClickFix attacks](https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/)
-  BleepingComputer - 2026-09-23T
 

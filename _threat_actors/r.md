@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data](https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html)
-  The Hacker News - 2026-09-25T
-- [WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV](https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html)
-  The Hacker News - 2026-09-25T
-- [Russia's Hybrid Cyber-Physical War in Europe Heats Up](https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe)
-  DarkReading - 2026-09-25T
-- [Altra Running Promo Codes: 10% Off September 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-09-25T
-- [Litter-Robot Promo Codes: Up to $150 Off](https://www.wired.com/story/litter-robot-promo-code/)
-  Wired - 2026-09-25T
+- [At Meta Connect, the company’s smart glasses were everywhere](https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/)
+  TechCrunch - 2026-09-26T
+- [Quince Luggage Is Affordable but Doesn’t Feel Cheap (2026)](https://www.wired.com/story/quince-wants-to-be-your-new-away-luggage/)
+  Wired - 2026-09-26T
+- [Crusoe abandons $1.25B plan to use Boom turbines at AI data centers](https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/)
+  TechCrunch - 2026-09-25T
+- [Automattic has a new board after failed attempt to put CEO on leave](https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/)
+  TechCrunch - 2026-09-25T
+- [3 Consulting Myths Debunked by Unit 42 Experts](https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/)
+  Unit 42 - 2026-09-25T
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T07:06:12Z",
+  "updated": "2026-09-26T07:03:25Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,7 +19,321 @@
     "Rapid7"
   ],
   "actor_news": {
+    "R": [
+      {
+        "title": "At Meta Connect, the company’s smart glasses were everywhere",
+        "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+        "date": "2026-09-26T01:08:57+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Quince Luggage Is Affordable but Doesn’t Feel Cheap (2026)",
+        "link": "https://www.wired.com/story/quince-wants-to-be-your-new-away-luggage/",
+        "date": "2026-09-26T00:02:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+        "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+        "date": "2026-09-25T23:11:10+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Automattic has a new board after failed attempt to put CEO on leave",
+        "link": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+        "date": "2026-09-25T23:04:34+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "3 Consulting Myths Debunked by Unit 42 Experts",
+        "link": "https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/",
+        "date": "2026-09-25T23:00:28+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "BooM": [
+      {
+        "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+        "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+        "date": "2026-09-25T23:11:10+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+        "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+        "date": "2026-09-25T23:11:10+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+        "link": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+        "date": "2026-09-25T17:29:46+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk",
+        "link": "https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk/",
+        "date": "2026-09-25T16:58:20+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+        "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+        "date": "2026-09-25T15:44:02+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Metasploit Wrap Up: Belgian Waffles, Chocolates, and…Modules-Frites?",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-belgian-waffles-chocolates-and-modules-frites",
+        "date": "2026-09-25T14:38:05+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Owl": [
+      {
+        "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+        "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+        "date": "2026-09-25T22:20:47+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Meta opens early access program for new Muse features",
+        "link": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+        "date": "2026-09-25T20:34:53+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
+        "link": "https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/",
+        "date": "2026-09-25T20:30:40+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "The Aeropod automates soil aeration without robotics — see it at TechCrunch Disrupt",
+        "link": "https://techcrunch.com/2026/09/25/the-aeropod-automates-soil-aeration-without-robotics-see-it-at-techcrunch-disrupt/",
+        "date": "2026-09-25T17:30:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Astra and Opus just passed Turing’s other test",
+        "link": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
+        "date": "2026-09-25T17:24:36+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+        "date": "2026-09-25T16:57:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+        "link": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+        "date": "2026-09-25T20:14:41+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "What We Missed: Google Gemini Joins the AI Escape Party",
+        "link": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
+        "date": "2026-09-25T17:56:23+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "The Trump Administration Is Trying to Get Musk and X Out of a $137 Million EU Fine",
+        "link": "https://www.wired.com/story/trump-administration-is-trying-to-get-musk-and-x-out-of-a-dollar137-million-eu-fine/",
+        "date": "2026-09-25T11:32:17+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Frozen": [
+      {
+        "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
+        "link": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
+        "date": "2026-09-25T19:38:59+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+        "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+        "date": "2026-09-25T18:48:06+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+        "date": "2026-09-25T04:33:44-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Payload": [
+      {
+        "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+        "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+        "date": "2026-09-25T18:48:06+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+        "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+        "date": "2026-09-24T16:53:35-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Clop": [
+      {
+        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+        "date": "2026-09-25T16:57:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Cl0p": [
+      {
+        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+        "date": "2026-09-25T16:57:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+        "date": "2026-09-25T16:57:55-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+        "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+        "date": "2026-09-24T19:59:06+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Hunt": [
+      {
+        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+        "date": "2026-09-25T16:57:55-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "‘Primetime’ Exposes the Ego-Driven Core of Vigilante Pedophile Hunting",
+        "link": "https://www.wired.com/story/primetime-exposes-the-ego-driven-core-of-vigilante-pedophile-hunting/",
+        "date": "2026-09-25T10:45:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Hunters": [
+      {
+        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+        "date": "2026-09-25T16:57:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ShinyHunters": [
+      {
+        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+        "date": "2026-09-25T16:57:55-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Korean": [
+      {
+        "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+        "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+        "date": "2026-09-25T16:05:55+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Sea Turtle": [
+      {
+        "title": "War Bros Didn’t Always Rule Silicon Valley",
+        "link": "https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/",
+        "date": "2026-09-25T15:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "DN": [
+      {
+        "title": "War Bros Didn’t Always Rule Silicon Valley",
+        "link": "https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/",
+        "date": "2026-09-25T15:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+        "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+        "date": "2026-09-24T19:59:06+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Metasploit": [
+      {
+        "title": "Metasploit Wrap Up: Belgian Waffles, Chocolates, and…Modules-Frites?",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-belgian-waffles-chocolates-and-modules-frites",
+        "date": "2026-09-25T14:38:05+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Waffle": [
+      {
+        "title": "Metasploit Wrap Up: Belgian Waffles, Chocolates, and…Modules-Frites?",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-belgian-waffles-chocolates-and-modules-frites",
+        "date": "2026-09-25T14:38:05+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+        "date": "2026-09-25T13:24:20-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Agents can now set up your website’s security with Turnstile Spin",
+        "link": "https://blog.cloudflare.com/turnstile-spin/",
+        "date": "2026-09-25T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
+        "date": "2026-09-24T20:32:50+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+        "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+        "date": "2026-09-24T14:44:21+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "core": [
+      {
+        "title": "‘Primetime’ Exposes the Ego-Driven Core of Vigilante Pedophile Hunting",
+        "link": "https://www.wired.com/story/primetime-exposes-the-ego-driven-core-of-vigilante-pedophile-hunting/",
+        "date": "2026-09-25T10:45:00+00:00",
+        "source": "Wired"
+      }
+    ],
     "One": [
+      {
+        "title": "How to Record Your Screen on Any Phone",
+        "link": "https://www.wired.com/story/how-to-record-your-screen-on-any-phone/",
+        "date": "2026-09-25T10:30:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
         "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
@@ -39,48 +353,10 @@
         "source": "The Hacker News"
       },
       {
-        "title": "Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story",
-        "link": "https://www.wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side/",
-        "date": "2026-09-24T20:50:33+00:00",
-        "source": "Wired"
-      },
-      {
         "title": "SASE Converges Network &amp; Security Into One Cloud Solution",
         "link": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
         "date": "2026-09-23T22:29:10+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "R": [
-      {
-        "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-        "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-        "date": "2026-09-25T10:19:22+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-        "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-        "date": "2026-09-25T10:16:34+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
-        "link": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
-        "date": "2026-09-25T07:00:00+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Altra Running Promo Codes: 10% Off September 2026",
-        "link": "https://www.wired.com/story/altra-promo-code/",
-        "date": "2026-09-25T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Litter-Robot Promo Codes: Up to $150 Off",
-        "link": "https://www.wired.com/story/litter-robot-promo-code/",
-        "date": "2026-09-25T05:00:00+00:00",
-        "source": "Wired"
       }
     ],
     "DDE": [
@@ -91,96 +367,28 @@
         "source": "The Hacker News"
       }
     ],
-    "PL": [
+    "RIP (Phoenix) Ransomware": [
       {
-        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-        "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-        "date": "2026-09-25T10:16:34+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Maytag Promo Codes: 15% Off Appliances",
-        "link": "https://www.wired.com/story/maytag-promo-code/",
-        "date": "2026-09-25T05:00:00+00:00",
+        "title": "10 Best Coffee Subscriptions (2026), Tested by Caffeine Hounds",
+        "link": "https://www.wired.com/story/best-coffee-subscription/",
+        "date": "2026-09-25T09:01:00+00:00",
         "source": "Wired"
-      },
-      {
-        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-        "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-        "date": "2026-09-24T23:40:18+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
-        "link": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
-        "date": "2026-09-24T21:04:03+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-        "link": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-        "date": "2026-09-24T20:57:32+05:30",
-        "source": "The Hacker News"
       }
     ],
-    "Ra": [
+    "APT41": [
       {
-        "title": "Altra Running Promo Codes: 10% Off September 2026",
-        "link": "https://www.wired.com/story/altra-promo-code/",
-        "date": "2026-09-25T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Therabody Promo Codes: 15% Off September 2026",
-        "link": "https://www.wired.com/story/therabody-promo-code/",
-        "date": "2026-09-25T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story",
-        "link": "https://www.wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side/",
-        "date": "2026-09-24T20:50:33+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
-        "date": "2026-09-24T20:32:50+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-        "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-        "date": "2026-09-24T19:59:06+05:30",
-        "source": "The Hacker News"
+        "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
+        "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+        "date": "2026-09-25T07:35:14-04:00",
+        "source": "BleepingComputer"
       }
     ],
-    "BRONZE BUTLER": [
+    "Desktop": [
       {
-        "title": "Gametime Promo Code: Save on Tickets in September 2026",
-        "link": "https://www.wired.com/story/gametime-promo-code/",
-        "date": "2026-09-25T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-        "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-        "date": "2026-09-24T19:59:06+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Tick": [
-      {
-        "title": "Gametime Promo Code: Save on Tickets in September 2026",
-        "link": "https://www.wired.com/story/gametime-promo-code/",
-        "date": "2026-09-25T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-        "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-        "date": "2026-09-24T19:59:06+05:30",
-        "source": "The Hacker News"
+        "title": "Microsoft: Recent Windows updates cause desktop loading issues",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+        "date": "2026-09-25T06:30:38-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "BOK": [
@@ -191,38 +399,12 @@
         "source": "Wired"
       }
     ],
-    "Light": [
-      {
-        "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-        "link": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
-        "date": "2026-09-25T05:00:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "AnDROid": [
       {
         "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
         "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
         "date": "2026-09-24T23:40:18+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Meet Feather, the startup building the ‘Android of robotics’ for developers",
-        "link": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
-        "date": "2026-09-24T18:52:38+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS",
-        "link": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
-        "date": "2026-09-24T17:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "New RemControl Android banking malware targets users in Europe and Canada",
-        "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
-        "date": "2026-09-23T17:25:13-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Root": [
@@ -267,12 +449,6 @@
         "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
         "date": "2026-09-24T14:44:21+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-        "date": "2026-09-23T18:46:01-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "ONI": [
@@ -289,49 +465,7 @@
         "source": "DarkReading"
       }
     ],
-    "Anony": [
-      {
-        "title": "Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story",
-        "link": "https://www.wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side/",
-        "date": "2026-09-24T20:50:33+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Sport": [
-      {
-        "title": "Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story",
-        "link": "https://www.wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side/",
-        "date": "2026-09-24T20:50:33+00:00",
-        "source": "Wired"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
-        "date": "2026-09-24T20:32:50+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-        "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-        "date": "2026-09-24T14:44:21+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-        "date": "2026-09-23T15:53:54-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "InfraTrust report warns network management systems under attack",
-        "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-        "date": "2026-09-23T10:35:26-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "DN": [
+    "BRONZE BUTLER": [
       {
         "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
         "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
@@ -339,74 +473,12 @@
         "source": "The Hacker News"
       }
     ],
-    "Hacked": [
+    "Tick": [
       {
         "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
         "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
         "date": "2026-09-24T19:59:06+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-        "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-        "date": "2026-09-24T05:38:53-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Alco": [
-      {
-        "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
-        "link": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
-        "date": "2026-09-24T19:00:42+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "PRISM": [
-      {
-        "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
-        "link": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
-        "date": "2026-09-24T19:00:42+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "Databricks buys Row Zero and is scouting for more startups to acquire",
-        "link": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
-        "date": "2026-09-24T17:07:55+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Brick": [
-      {
-        "title": "Databricks buys Row Zero and is scouting for more startups to acquire",
-        "link": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
-        "date": "2026-09-24T17:07:55+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Payload": [
-      {
-        "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
-        "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
-        "date": "2026-09-24T16:53:35-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Turla": [
-      {
-        "title": "TechCrunch Founder Summit 2026: Everything you need to know ",
-        "link": "https://techcrunch.com/2026/09/24/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-        "date": "2026-09-24T16:46:47+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Google tests letting Gemini call businesses for you",
-        "link": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-        "date": "2026-09-24T16:00:00+00:00",
-        "source": "TechCrunch"
       }
     ],
     "ghost": [
@@ -449,52 +521,12 @@
         "source": "Elastic"
       }
     ],
-    "Ank": [
-      {
-        "title": "New RemControl Android banking malware targets users in Europe and Canada",
-        "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
-        "date": "2026-09-23T17:25:13-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "INC Ransom": [
       {
         "title": "An INC Ransomware Affiliate’s BYOVD Buffet",
         "link": "https://labs.beazley.security/articles/an-inc-ransomware-affiliates-byovd-buffet",
         "date": "2026-09-23T07:00:00.000Z",
         "source": "Beazley Security Labs Articles"
-      }
-    ],
-    "Careto": [
-      {
-        "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
-        "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
-        "date": "2026-09-22T21:12:37+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Iron": [
-      {
-        "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-        "link": "https://blog.cloudflare.com/worker-previews/",
-        "date": "2026-09-22T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Viro": [
-      {
-        "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-        "link": "https://blog.cloudflare.com/worker-previews/",
-        "date": "2026-09-22T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Python": [
-      {
-        "title": "Python Workers are now generally available",
-        "link": "https://blog.cloudflare.com/python-workers-ga/",
-        "date": "2026-09-21T13:00:00+00:00",
-        "source": "Cloudflare"
       }
     ]
   }

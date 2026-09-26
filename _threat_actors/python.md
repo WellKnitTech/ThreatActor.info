@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Python Workers are now generally available](https://blog.cloudflare.com/python-workers-ga/)
-  Cloudflare - 2026-09-21T
-
