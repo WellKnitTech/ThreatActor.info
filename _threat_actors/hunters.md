@@ -33,6 +33,8 @@ Hunters International is a ransomware group first identified in October 2023, be
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks](https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/)
+  BleepingComputer - 2026-09-26T
 - [ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw](https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/)
   BleepingComputer - 2026-09-25T
 

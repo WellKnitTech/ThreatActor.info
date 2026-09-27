@@ -35,6 +35,4 @@ Ransomware Jigsaw Ransomware variant
 
 - [ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw](https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/)
   BleepingComputer - 2026-09-25T
-- [Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer](https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html)
-  The Hacker News - 2026-09-24T
 

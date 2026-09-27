@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [At Meta Connect, the company’s smart glasses were everywhere](https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/)
+- [PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair](https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/)
+  TechCrunch - 2026-09-27T
+- [Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India](https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/)
+  TechCrunch - 2026-09-27T
+- [Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials](https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html)
+  The Hacker News - 2026-09-26T
+- [Insurers claim AI is already increasing healthcare costs](https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/)
   TechCrunch - 2026-09-26T
-- [Quince Luggage Is Affordable but Doesn’t Feel Cheap (2026)](https://www.wired.com/story/quince-wants-to-be-your-new-away-luggage/)
-  Wired - 2026-09-26T
-- [Crusoe abandons $1.25B plan to use Boom turbines at AI data centers](https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/)
-  TechCrunch - 2026-09-25T
-- [Automattic has a new board after failed attempt to put CEO on leave](https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/)
-  TechCrunch - 2026-09-25T
-- [3 Consulting Myths Debunked by Unit 42 Experts](https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/)
-  Unit 42 - 2026-09-25T
+- [TikTok agrees to pay at least $100M in Alabama settlement](https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/)
+  TechCrunch - 2026-09-26T
 

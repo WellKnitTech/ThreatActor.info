@@ -39,6 +39,4 @@ ransomware
   Cloudflare - 2026-09-25T
 - [SectopRAT Returns, Hiding Inside a Legitimate Application](https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application)
   DarkReading - 2026-09-24T
-- [17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360](https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html)
-  The Hacker News - 2026-09-24T
 
