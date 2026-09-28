@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T07:34:04Z",
+  "updated": "2026-09-28T08:11:33Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,47 +19,131 @@
     "Rapid7"
   ],
   "actor_news": {
-    "Careto": [
+    "R": [
       {
-        "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
-        "link": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
-        "date": "2026-09-27T01:40:30+00:00",
+        "title": "Truecaller takes its scam intelligence to the open web as it looks beyond caller ID",
+        "link": "https://techcrunch.com/2026/09/27/truecaller-takes-its-scam-intelligence-to-the-open-web-as-it-looks-beyond-caller-id/",
+        "date": "2026-09-28T04:30:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+        "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+        "date": "2026-09-28T03:30:15-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+        "date": "2026-09-28T02:24:19-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Anthropic’s CEO is about to have dinner with President Trump",
+        "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+        "date": "2026-09-27T20:34:28+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Can Muse overcome Meta’s trust issues?",
+        "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+        "date": "2026-09-27T19:57:30+00:00",
         "source": "TechCrunch"
       }
     ],
-    "R": [
+    "DN": [
       {
-        "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
-        "link": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
-        "date": "2026-09-27T01:40:30+00:00",
-        "source": "TechCrunch"
+        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+        "date": "2026-09-28T02:24:19-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-        "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-        "date": "2026-09-27T01:30:00+00:00",
-        "source": "TechCrunch"
+        "title": "What’s the Best Pet DNA Test? We Tested the Most Popular Ones",
+        "link": "https://www.wired.com/story/best-pet-dna-test-kits/",
+        "date": "2026-09-27T11:02:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "PL": [
+      {
+        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+        "date": "2026-09-28T02:24:19-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-        "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-        "date": "2026-09-26T23:52:52+05:30",
+        "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+        "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+        "date": "2026-09-27T13:17:57+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Insurers claim AI is already increasing healthcare costs",
-        "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-        "date": "2026-09-26T21:02:06+00:00",
-        "source": "TechCrunch"
+        "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "date": "2026-09-27T12:02:37-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "TikTok agrees to pay at least $100M in Alabama settlement",
-        "link": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/",
-        "date": "2026-09-26T20:24:45+00:00",
-        "source": "TechCrunch"
+        "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+        "date": "2026-09-27T09:38:40-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+        "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+        "date": "2026-09-26T17:16:40+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Mars": [
+      {
+        "title": "Best Party Speakers (2026): JBL, Sony, Marshall, and More",
+        "link": "https://www.wired.com/story/best-party-speaker/",
+        "date": "2026-09-27T11:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "One": [
+      {
+        "title": "What’s the Best Pet DNA Test? We Tested the Most Popular Ones",
+        "link": "https://www.wired.com/story/best-pet-dna-test-kits/",
+        "date": "2026-09-27T11:02:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Some Pancreatic Cells Are Just One Genetic Tweak Away From Treating Diabetes",
+        "link": "https://www.wired.com/story/pancreatic-cells-just-one-genetic-tweak-away-from-treating-diabetes/",
+        "date": "2026-09-27T09:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+        "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+        "date": "2026-09-25T10:19:22+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+        "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+        "date": "2026-09-24T23:40:18+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "SASE Converges Network &amp; Security Into One Cloud Solution",
+        "link": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
+        "date": "2026-09-23T22:29:10+00:00",
+        "source": "DarkReading"
       }
     ],
     "Ra": [
+      {
+        "title": "You Don’t Need to Pay for Distraction-Blocking Software",
+        "link": "https://www.wired.com/story/you-dont-need-to-pay-for-distraction-blocking-software/",
+        "date": "2026-09-27T10:15:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
         "link": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
@@ -83,11 +167,59 @@
         "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
         "date": "2026-09-26T15:03:34-04:00",
         "source": "BleepingComputer"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "The Data Center Backlash Should Also Be a Climate Reckoning. It Isn’t Yet",
+        "link": "https://www.wired.com/story/data-center-backlash-climate-reckoning/",
+        "date": "2026-09-27T10:00:00+00:00",
+        "source": "Wired"
       },
       {
-        "title": "I created an interactive digital avatar of myself — and you can talk to it",
-        "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-        "date": "2026-09-26T14:00:00+00:00",
+        "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+        "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+        "date": "2026-09-26T23:52:52+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
+        "link": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
+        "date": "2026-09-23T20:53:38+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+        "date": "2026-09-27T09:38:40-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+        "date": "2026-09-25T13:24:20-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Agents can now set up your website’s security with Turnstile Spin",
+        "link": "https://blog.cloudflare.com/turnstile-spin/",
+        "date": "2026-09-25T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
+        "date": "2026-09-24T20:32:50+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Careto": [
+      {
+        "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
+        "link": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
+        "date": "2026-09-27T01:40:30+00:00",
         "source": "TechCrunch"
       }
     ],
@@ -115,64 +247,6 @@
         "link": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
         "date": "2026-09-25T17:56:23+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "The Trump Administration Is Trying to Get Musk and X Out of a $137 Million EU Fine",
-        "link": "https://www.wired.com/story/trump-administration-is-trying-to-get-musk-and-x-out-of-a-dollar137-million-eu-fine/",
-        "date": "2026-09-25T11:32:17+00:00",
-        "source": "Wired"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-        "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-        "date": "2026-09-26T23:52:52+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-        "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-        "date": "2026-09-24T23:22:43+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
-        "link": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
-        "date": "2026-09-23T20:53:38+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-        "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-        "date": "2026-09-26T17:16:40+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-        "date": "2026-09-26T15:03:34-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-        "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-        "date": "2026-09-26T14:19:53+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "12 Best White Elephant Gifts, Plus a Prank Box to Put Them In (2026)",
-        "link": "https://www.wired.com/gallery/best-white-elephant-gifts-2026/",
-        "date": "2026-09-26T11:36:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-        "date": "2026-09-26T08:28:41-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "RTM": [
@@ -189,12 +263,6 @@
         "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
         "date": "2026-09-26T15:25:22+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-        "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-        "date": "2026-09-24T23:22:43+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Hunt": [
@@ -209,12 +277,6 @@
         "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
         "date": "2026-09-25T16:57:55-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "‘Primetime’ Exposes the Ego-Driven Core of Vigilante Pedophile Hunting",
-        "link": "https://www.wired.com/story/primetime-exposes-the-ego-driven-core-of-vigilante-pedophile-hunting/",
-        "date": "2026-09-25T10:45:00+00:00",
-        "source": "Wired"
       }
     ],
     "Hunters": [
@@ -275,14 +337,6 @@
         "source": "TechCrunch"
       }
     ],
-    "Owl": [
-      {
-        "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-        "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-        "date": "2026-09-25T22:20:47+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Frozen": [
       {
         "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
@@ -331,22 +385,6 @@
         "source": "The Hacker News"
       }
     ],
-    "Sea Turtle": [
-      {
-        "title": "War Bros Didn’t Always Rule Silicon Valley",
-        "link": "https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/",
-        "date": "2026-09-25T15:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "DN": [
-      {
-        "title": "War Bros Didn’t Always Rule Silicon Valley",
-        "link": "https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/",
-        "date": "2026-09-25T15:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "Metasploit": [
       {
         "title": "Metasploit Wrap Up: Belgian Waffles, Chocolates, and…Modules-Frites?",
@@ -363,82 +401,12 @@
         "source": "Rapid7"
       }
     ],
-    "RNS": [
-      {
-        "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-        "date": "2026-09-25T13:24:20-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Agents can now set up your website’s security with Turnstile Spin",
-        "link": "https://blog.cloudflare.com/turnstile-spin/",
-        "date": "2026-09-25T13:00:00+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
-        "date": "2026-09-24T20:32:50+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "core": [
-      {
-        "title": "‘Primetime’ Exposes the Ego-Driven Core of Vigilante Pedophile Hunting",
-        "link": "https://www.wired.com/story/primetime-exposes-the-ego-driven-core-of-vigilante-pedophile-hunting/",
-        "date": "2026-09-25T10:45:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "One": [
-      {
-        "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-        "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-        "date": "2026-09-25T10:19:22+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-        "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-        "date": "2026-09-24T23:40:18+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-        "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-        "date": "2026-09-24T23:22:43+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "SASE Converges Network &amp; Security Into One Cloud Solution",
-        "link": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
-        "date": "2026-09-23T22:29:10+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "DDE": [
       {
         "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
         "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
         "date": "2026-09-25T10:16:34+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-        "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-        "date": "2026-09-25T07:35:14-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Desktop": [
-      {
-        "title": "Microsoft: Recent Windows updates cause desktop loading issues",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-        "date": "2026-09-25T06:30:38-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "AnDROid": [
@@ -454,22 +422,6 @@
         "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
         "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
         "date": "2026-09-24T23:40:18+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-        "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-        "date": "2026-09-24T23:22:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "JCrypt": [
-      {
-        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-        "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-        "date": "2026-09-24T23:22:43+05:30",
         "source": "The Hacker News"
       }
     ],

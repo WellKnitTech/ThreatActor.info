@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [War Bros Didn’t Always Rule Silicon Valley](https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/)
-  Wired - 2026-09-25T
+- [CISA orders feds to patch exploited Citrix flaws by Wednesday](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/)
+  BleepingComputer - 2026-09-28T
+- [What’s the Best Pet DNA Test? We Tested the Most Popular Ones](https://www.wired.com/story/best-pet-dna-test-kits/)
+  Wired - 2026-09-27T
 

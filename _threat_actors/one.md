@@ -33,11 +33,13 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [What’s the Best Pet DNA Test? We Tested the Most Popular Ones](https://www.wired.com/story/best-pet-dna-test-kits/)
+  Wired - 2026-09-27T
+- [Some Pancreatic Cells Are Just One Genetic Tweak Away From Treating Diabetes](https://www.wired.com/story/pancreatic-cells-just-one-genetic-tweak-away-from-treating-diabetes/)
+  Wired - 2026-09-27T
 - [Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data](https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html)
   The Hacker News - 2026-09-25T
 - [Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions](https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html)
-  The Hacker News - 2026-09-24T
-- [ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories](https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html)
   The Hacker News - 2026-09-24T
 - [SASE Converges Network &amp; Security Into One Cloud Solution](https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud)
   DarkReading - 2026-09-23T
