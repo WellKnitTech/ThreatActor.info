@@ -30,9 +30,3 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [12 Best White Elephant Gifts, Plus a Prank Box to Put Them In (2026)](https://www.wired.com/gallery/best-white-elephant-gifts-2026/)
-  Wired - 2026-09-26T
-

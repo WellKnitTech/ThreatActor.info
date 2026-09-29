@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [You Don’t Need to Pay for Distraction-Blocking Software](https://www.wired.com/story/you-dont-need-to-pay-for-distraction-blocking-software/)
-  Wired - 2026-09-27T
-- [PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair](https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/)
-  TechCrunch - 2026-09-27T
-- [Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells](https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html)
-  The Hacker News - 2026-09-26T
-- [Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link](https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html)
-  The Hacker News - 2026-09-26T
-- [ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks](https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/)
-  BleepingComputer - 2026-09-26T
+- [OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions](https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html)
+  The Hacker News - 2026-09-29T
+- [Why OT Resilience Is Now a Boardroom Imperative](https://www.paloaltonetworks.com/blog/2026/09/why-ot-resilience-is-now-a-boardroom-imperative/)
+  Palo Alto Networks - 2026-09-29T
+- [Apple patches CoreGraphics zero-day flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/)
+  BleepingComputer - 2026-09-29T
+- [Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks](https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html)
+  The Hacker News - 2026-09-29T
+- [IAM for AI agents: A Practical Enterprise Framework](https://thehackernews.com/2026/09/iam-for-ai-agent.html)
+  The Hacker News - 2026-09-28T
 

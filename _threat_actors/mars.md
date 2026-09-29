@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Best Party Speakers (2026): JBL, Sony, Marshall, and More](https://www.wired.com/story/best-party-speaker/)
-  Wired - 2026-09-27T
-

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:11:33Z",
+  "updated": "2026-09-29T07:52:01Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,187 +19,225 @@
     "Rapid7"
   ],
   "actor_news": {
+    "Python": [
+      {
+        "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+        "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+        "date": "2026-09-29T11:38:25+05:30",
+        "source": "The Hacker News"
+      }
+    ],
     "R": [
       {
-        "title": "Truecaller takes its scam intelligence to the open web as it looks beyond caller ID",
-        "link": "https://techcrunch.com/2026/09/27/truecaller-takes-its-scam-intelligence-to-the-open-web-as-it-looks-beyond-caller-id/",
-        "date": "2026-09-28T04:30:00+00:00",
-        "source": "TechCrunch"
+        "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+        "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+        "date": "2026-09-29T11:38:25+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
-        "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
-        "date": "2026-09-28T03:30:15-04:00",
-        "source": "BleepingComputer"
+        "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+        "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+        "date": "2026-09-29T10:42:32+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-        "date": "2026-09-28T02:24:19-04:00",
-        "source": "BleepingComputer"
+        "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+        "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+        "date": "2026-09-29T10:15:20+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Anthropic’s CEO is about to have dinner with President Trump",
-        "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-        "date": "2026-09-27T20:34:28+00:00",
-        "source": "TechCrunch"
+        "title": "Why OT Resilience Is Now a Boardroom Imperative",
+        "link": "https://www.paloaltonetworks.com/blog/2026/09/why-ot-resilience-is-now-a-boardroom-imperative/",
+        "date": "2026-09-29T07:05:25+00:00",
+        "source": "Palo Alto Networks"
       },
       {
-        "title": "Can Muse overcome Meta’s trust issues?",
-        "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-        "date": "2026-09-27T19:57:30+00:00",
+        "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+        "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+        "date": "2026-09-29T05:13:43+00:00",
         "source": "TechCrunch"
       }
     ],
-    "DN": [
+    "Lv": [
       {
-        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-        "date": "2026-09-28T02:24:19-04:00",
+        "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+        "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+        "date": "2026-09-29T10:42:32+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+        "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+        "date": "2026-09-29T10:42:32+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Why OT Resilience Is Now a Boardroom Imperative",
+        "link": "https://www.paloaltonetworks.com/blog/2026/09/why-ot-resilience-is-now-a-boardroom-imperative/",
+        "date": "2026-09-29T07:05:25+00:00",
+        "source": "Palo Alto Networks"
+      },
+      {
+        "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+        "date": "2026-09-29T03:33:12-04:00",
         "source": "BleepingComputer"
       },
       {
-        "title": "What’s the Best Pet DNA Test? We Tested the Most Popular Ones",
-        "link": "https://www.wired.com/story/best-pet-dna-test-kits/",
-        "date": "2026-09-27T11:02:00+00:00",
+        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+        "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+        "date": "2026-09-29T00:48:01+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "IAM for AI agents: A Practical Enterprise Framework",
+        "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+        "date": "2026-09-28T23:50:38+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Thor": [
+      {
+        "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+        "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+        "date": "2026-09-29T10:42:32+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "OCT": [
+      {
+        "title": "50% Off Blue Apron Promo Codes | October 2026",
+        "link": "https://www.wired.com/story/blue-apron-coupon/",
+        "date": "2026-09-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Target Promo Code: $50 Off | October 2026",
+        "link": "https://www.wired.com/story/target-promo-code/",
+        "date": "2026-09-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026",
+        "link": "https://www.wired.com/story/nordvpn-coupon/",
+        "date": "2026-09-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Motorola Coupon Code for October 2026",
+        "link": "https://www.wired.com/story/motorola-coupon-code/",
+        "date": "2026-09-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Home Depot Promo Codes: 30% Off in October 2026",
+        "link": "https://www.wired.com/story/home-depot-promo-code/",
+        "date": "2026-09-29T05:00:00+00:00",
         "source": "Wired"
       }
     ],
     "PL": [
       {
-        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-        "date": "2026-09-28T02:24:19-04:00",
+        "title": "Uplift Promo Codes: $300 Off",
+        "link": "https://www.wired.com/story/uplift-desk-coupon-code/",
+        "date": "2026-09-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026",
+        "link": "https://www.wired.com/story/nordvpn-coupon/",
+        "date": "2026-09-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+        "date": "2026-09-29T03:33:12-04:00",
         "source": "BleepingComputer"
       },
       {
-        "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-        "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-        "date": "2026-09-27T13:17:57+05:30",
+        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+        "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+        "date": "2026-09-29T00:48:01+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-        "date": "2026-09-27T12:02:37-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-        "date": "2026-09-27T09:38:40-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-        "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-        "date": "2026-09-26T17:16:40+05:30",
+        "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+        "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+        "date": "2026-09-28T23:12:18+05:30",
         "source": "The Hacker News"
       }
     ],
-    "Mars": [
+    "core": [
       {
-        "title": "Best Party Speakers (2026): JBL, Sony, Marshall, and More",
-        "link": "https://www.wired.com/story/best-party-speaker/",
-        "date": "2026-09-27T11:30:00+00:00",
-        "source": "Wired"
+        "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+        "date": "2026-09-29T03:33:12-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+        "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+        "date": "2026-09-29T00:48:01+05:30",
+        "source": "The Hacker News"
       }
     ],
     "One": [
       {
-        "title": "What’s the Best Pet DNA Test? We Tested the Most Popular Ones",
-        "link": "https://www.wired.com/story/best-pet-dna-test-kits/",
-        "date": "2026-09-27T11:02:00+00:00",
+        "title": "Nothing’s New Headphone (1) Pro Are Made for the Studio",
+        "link": "https://www.wired.com/story/nothings-new-headphone-1-pro-are-made-for-the-studio/",
+        "date": "2026-09-29T01:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Some Pancreatic Cells Are Just One Genetic Tweak Away From Treating Diabetes",
-        "link": "https://www.wired.com/story/pancreatic-cells-just-one-genetic-tweak-away-from-treating-diabetes/",
-        "date": "2026-09-27T09:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-        "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-        "date": "2026-09-25T10:19:22+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-        "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-        "date": "2026-09-24T23:40:18+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "SASE Converges Network &amp; Security Into One Cloud Solution",
-        "link": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
-        "date": "2026-09-23T22:29:10+00:00",
+        "title": "One Packet Can Crash OT Servers in Industrial Sectors",
+        "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+        "date": "2026-09-28T21:13:04+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "You Don’t Need to Pay for Distraction-Blocking Software",
-        "link": "https://www.wired.com/story/you-dont-need-to-pay-for-distraction-blocking-software/",
-        "date": "2026-09-27T10:15:00+00:00",
-        "source": "Wired"
       },
       {
-        "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
-        "link": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
-        "date": "2026-09-27T01:40:30+00:00",
+        "title": "The AI boom took over Climate Week and not everyone is happy about it",
+        "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+        "date": "2026-09-28T19:21:59+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-        "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-        "date": "2026-09-26T17:16:40+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-        "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-        "date": "2026-09-26T15:25:22+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-        "date": "2026-09-26T15:03:34-04:00",
-        "source": "BleepingComputer"
+        "title": "The iPhone Duo may already have its first killer app: a virtual Walkman",
+        "link": "https://techcrunch.com/2026/09/28/the-iphone-duo-may-already-have-its-first-killer-app-a-virtual-walkman/",
+        "date": "2026-09-28T16:47:49+00:00",
+        "source": "TechCrunch"
       }
     ],
-    "ONI": [
+    "APT3": [
       {
-        "title": "The Data Center Backlash Should Also Be a Climate Reckoning. It Isn’t Yet",
-        "link": "https://www.wired.com/story/data-center-backlash-climate-reckoning/",
-        "date": "2026-09-27T10:00:00+00:00",
-        "source": "Wired"
-      },
+        "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+        "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+        "date": "2026-09-29T00:30:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT-C-23": [
       {
-        "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-        "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-        "date": "2026-09-26T23:52:52+05:30",
+        "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+        "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+        "date": "2026-09-29T00:05:42+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
-        "link": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
-        "date": "2026-09-23T20:53:38+00:00",
-        "source": "DarkReading"
       }
     ],
     "RNS": [
       {
+        "title": "OpenAI reportedly ditches model over safety concerns",
+        "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+        "date": "2026-09-28T23:39:20+00:00",
+        "source": "TechCrunch"
+      },
+      {
         "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
         "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
         "date": "2026-09-27T09:38:40-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-        "date": "2026-09-25T13:24:20-04:00",
         "source": "BleepingComputer"
       },
       {
@@ -215,32 +253,26 @@
         "source": "DarkReading"
       }
     ],
-    "Careto": [
+    "AnDROid": [
       {
-        "title": "PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair",
-        "link": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
-        "date": "2026-09-27T01:40:30+00:00",
-        "source": "TechCrunch"
+        "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+        "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+        "date": "2026-09-28T23:08:33+05:30",
+        "source": "The Hacker News"
       }
     ],
     "Mini": [
       {
-        "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-        "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-        "date": "2026-09-27T01:30:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-        "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-        "date": "2026-09-26T10:19:46-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
-        "link": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-        "date": "2026-09-25T20:14:41+05:30",
+        "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+        "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+        "date": "2026-09-28T23:08:33+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+        "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+        "date": "2026-09-28T17:29:50+00:00",
+        "source": "TechCrunch"
       },
       {
         "title": "What We Missed: Google Gemini Joins the AI Escape Party",
@@ -249,92 +281,232 @@
         "source": "DarkReading"
       }
     ],
-    "RTM": [
+    "Aurora": [
       {
-        "title": "Levoit’s new air purifier is for the pet odors that have taken over your apartment",
-        "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
-        "date": "2026-09-26T17:00:00+00:00",
+        "title": "Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds",
+        "link": "https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/",
+        "date": "2026-09-28T22:58:35+00:00",
         "source": "TechCrunch"
       }
     ],
-    "Lick": [
+    "Shark": [
       {
-        "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-        "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-        "date": "2026-09-26T15:25:22+05:30",
+        "title": "Shark’s NeverChange Air Purifier Is Nearly Half Off Right Now",
+        "link": "https://www.wired.com/story/shark-air-purifier-deal-october-2026/",
+        "date": "2026-09-28T21:28:20+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
+        "link": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
+        "date": "2026-09-28T20:23:58+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+        "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+        "date": "2026-09-28T19:30:53+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+        "link": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+        "date": "2026-09-28T05:25:29-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+        "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+        "date": "2026-09-28T19:30:53+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+        "link": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+        "date": "2026-09-28T13:00:00+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+        "link": "https://blog.cloudflare.com/voidzero-update/",
+        "date": "2026-09-28T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "BooM": [
+      {
+        "title": "The AI boom took over Climate Week and not everyone is happy about it",
+        "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+        "date": "2026-09-28T19:21:59+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Shadow": [
+      {
+        "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+        "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+        "date": "2026-09-28T17:28:00+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+        "link": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+        "date": "2026-09-28T10:00:10-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "hermes": [
+      {
+        "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+        "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+        "date": "2026-09-28T17:16:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Telegram": [
+      {
+        "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+        "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+        "date": "2026-09-28T17:16:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "APT41": [
+      {
+        "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+        "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+        "date": "2026-09-28T16:52:38+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Locker": [
+      {
+        "title": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
+        "link": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
+        "date": "2026-09-28T16:51:25+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "First": [
+      {
+        "title": "The iPhone Duo may already have its first killer app: a virtual Walkman",
+        "link": "https://techcrunch.com/2026/09/28/the-iphone-duo-may-already-have-its-first-killer-app-a-virtual-walkman/",
+        "date": "2026-09-28T16:47:49+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Space Lasers Are About to Get Their First Real Test Generating Energy",
+        "link": "https://www.wired.com/story/space-lasers-are-about-to-get-their-first-real-test-generating-energy/",
+        "date": "2026-09-28T11:00:00+00:00",
+        "source": "Wired"
       }
     ],
     "Hunt": [
       {
-        "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-        "date": "2026-09-26T15:03:34-04:00",
+        "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+        "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+        "date": "2026-09-28T15:49:10-04:00",
         "source": "BleepingComputer"
       },
       {
-        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-        "date": "2026-09-25T16:57:55-04:00",
+        "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+        "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+        "date": "2026-09-28T15:08:57+00:00",
+        "source": "KrebsOnSecurity"
+      },
+      {
+        "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+        "date": "2026-09-26T15:03:34-04:00",
         "source": "BleepingComputer"
       }
     ],
     "Hunters": [
       {
-        "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-        "date": "2026-09-26T15:03:34-04:00",
+        "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+        "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+        "date": "2026-09-28T15:49:10-04:00",
         "source": "BleepingComputer"
       },
       {
-        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-        "date": "2026-09-25T16:57:55-04:00",
+        "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+        "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+        "date": "2026-09-28T15:08:57+00:00",
+        "source": "KrebsOnSecurity"
+      },
+      {
+        "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+        "date": "2026-09-26T15:03:34-04:00",
         "source": "BleepingComputer"
       }
     ],
     "ShinyHunters": [
       {
+        "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+        "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+        "date": "2026-09-28T15:49:10-04:00",
+        "source": "BleepingComputer"
+      },
+      {
         "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
         "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
         "date": "2026-09-26T15:03:34-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-        "date": "2026-09-25T16:57:55-04:00",
-        "source": "BleepingComputer"
       }
     ],
-    "Ank": [
+    "IPA": [
       {
-        "title": "12 Best White Elephant Gifts, Plus a Prank Box to Put Them In (2026)",
-        "link": "https://www.wired.com/gallery/best-white-elephant-gifts-2026/",
-        "date": "2026-09-26T11:36:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Payload": [
-      {
-        "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-        "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-        "date": "2026-09-26T10:19:46-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-        "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-        "date": "2026-09-25T18:48:06+05:30",
+        "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+        "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+        "date": "2026-09-28T14:38:21+05:30",
         "source": "The Hacker News"
       }
     ],
-    "BooM": [
+    "SunCrypt": [
       {
-        "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-        "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-        "date": "2026-09-25T23:11:10+00:00",
-        "source": "TechCrunch"
+        "title": "Best External Hard Drives (2026): SanDisk, Samsung, and More",
+        "link": "https://www.wired.com/story/best-portable-external-storage-drives/",
+        "date": "2026-09-28T13:15:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "Bose Launches New Wired Earbuds After More Than a Decade",
+        "link": "https://www.wired.com/story/bose-to-release-wired-headphones-after-10-years/",
+        "date": "2026-09-28T13:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "global": [
+      {
+        "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+        "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+        "date": "2026-09-28T12:51:49+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "DN": [
+      {
+        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+        "date": "2026-09-28T02:24:19-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+        "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+        "date": "2026-09-26T23:52:52+05:30",
+        "source": "The Hacker News"
       }
     ],
     "Frozen": [
@@ -343,46 +515,6 @@
         "link": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
         "date": "2026-09-25T19:38:59+00:00",
         "source": "Ars Technica"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-        "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-        "date": "2026-09-25T18:48:06+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Clop": [
-      {
-        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-        "date": "2026-09-25T16:57:55-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Cl0p": [
-      {
-        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-        "date": "2026-09-25T16:57:55-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-        "date": "2026-09-25T16:57:55-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Korean": [
-      {
-        "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-        "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-        "date": "2026-09-25T16:05:55+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Metasploit": [
@@ -399,70 +531,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-belgian-waffles-chocolates-and-modules-frites",
         "date": "2026-09-25T14:38:05+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-        "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-        "date": "2026-09-25T10:16:34+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-        "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-        "date": "2026-09-24T23:40:18+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Root": [
-      {
-        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-        "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-        "date": "2026-09-24T23:40:18+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
-        "date": "2026-09-24T13:30:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "First": [
-      {
-        "title": "A Decision Model Breaks Like Any Other Language Model: A First Look at Jev",
-        "link": "https://blog.checkpoint.com/ai-security/jev-is-not-a-language-model-but-it-breaks-like-one-prompt-injection-against-a-typed-decision-model/",
-        "date": "2026-09-24T13:00:58+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Shark": [
-      {
-        "title": "Trust, but verify: Atomic claim checking against LLM hallucinations",
-        "link": "https://www.elastic.co/blog/atomic-claim-checking-against-llm-hallucinations",
-        "date": "2026-09-24T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "Cobalt": [
-      {
-        "title": "Elastic Cloud on Azure gets a speed boost: Compute-optimized instances on Azure Cobalt ARM",
-        "link": "https://www.elastic.co/blog/elastic-cloud-azure-cobalt-arm",
-        "date": "2026-09-24T00:00:00+00:00",
-        "source": "Elastic"
-      }
-    ],
-    "INC Ransom": [
-      {
-        "title": "An INC Ransomware Affiliate’s BYOVD Buffet",
-        "link": "https://labs.beazley.security/articles/an-inc-ransomware-affiliates-byovd-buffet",
-        "date": "2026-09-23T07:00:00.000Z",
-        "source": "Beazley Security Labs Articles"
       }
     ]
   }

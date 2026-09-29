@@ -33,14 +33,12 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [What’s the Best Pet DNA Test? We Tested the Most Popular Ones](https://www.wired.com/story/best-pet-dna-test-kits/)
-  Wired - 2026-09-27T
-- [Some Pancreatic Cells Are Just One Genetic Tweak Away From Treating Diabetes](https://www.wired.com/story/pancreatic-cells-just-one-genetic-tweak-away-from-treating-diabetes/)
-  Wired - 2026-09-27T
-- [Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data](https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html)
-  The Hacker News - 2026-09-25T
-- [Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions](https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html)
-  The Hacker News - 2026-09-24T
-- [SASE Converges Network &amp; Security Into One Cloud Solution](https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud)
-  DarkReading - 2026-09-23T
+- [Nothing’s New Headphone (1) Pro Are Made for the Studio](https://www.wired.com/story/nothings-new-headphone-1-pro-are-made-for-the-studio/)
+  Wired - 2026-09-29T
+- [One Packet Can Crash OT Servers in Industrial Sectors](https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine)
+  DarkReading - 2026-09-28T
+- [The AI boom took over Climate Week and not everyone is happy about it](https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/)
+  TechCrunch - 2026-09-28T
+- [The iPhone Duo may already have its first killer app: a virtual Walkman](https://techcrunch.com/2026/09/28/the-iphone-duo-may-already-have-its-first-killer-app-a-virtual-walkman/)
+  TechCrunch - 2026-09-28T
 

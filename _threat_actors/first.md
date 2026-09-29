@@ -33,6 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [A Decision Model Breaks Like Any Other Language Model: A First Look at Jev](https://blog.checkpoint.com/ai-security/jev-is-not-a-language-model-but-it-breaks-like-one-prompt-injection-against-a-typed-decision-model/)
-  Check Point - 2026-09-24T
+- [The iPhone Duo may already have its first killer app: a virtual Walkman](https://techcrunch.com/2026/09/28/the-iphone-duo-may-already-have-its-first-killer-app-a-virtual-walkman/)
+  TechCrunch - 2026-09-28T
+- [Space Lasers Are About to Get Their First Real Test Generating Energy](https://www.wired.com/story/space-lasers-are-about-to-get-their-first-real-test-generating-energy/)
+  Wired - 2026-09-28T
 

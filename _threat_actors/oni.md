@@ -33,10 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Data Center Backlash Should Also Be a Climate Reckoning. It Isn’t Yet](https://www.wired.com/story/data-center-backlash-climate-reckoning/)
-  Wired - 2026-09-27T
 - [Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials](https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html)
   The Hacker News - 2026-09-26T
-- [GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks](https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks)
-  DarkReading - 2026-09-23T
 
