@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Bose Launches New Wired Earbuds After More Than a Decade](https://www.wired.com/story/bose-to-release-wired-headphones-after-10-years/)
-  Wired - 2026-09-28T
-

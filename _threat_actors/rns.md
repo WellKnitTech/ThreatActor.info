@@ -33,12 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [OpenAI reportedly ditches model over safety concerns](https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/)
-  TechCrunch - 2026-09-28T
-- [Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/)
-  BleepingComputer - 2026-09-27T
-- [Agents can now set up your website’s security with Turnstile Spin](https://blog.cloudflare.com/turnstile-spin/)
-  Cloudflare - 2026-09-25T
-- [SectopRAT Returns, Hiding Inside a Legitimate Application](https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application)
-  DarkReading - 2026-09-24T
+- [Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution](https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution)
+  DarkReading - 2026-09-29T
+- [OpenAI Delays Release of Latest Model Over Safety Concerns](https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/)
+  Wired - 2026-09-29T
 

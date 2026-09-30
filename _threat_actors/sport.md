@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Range Rover Sport Electric: Price, Specs, Availability](https://www.wired.com/story/range-rover-sport-electric-arrives-with-more-for-less/)
+  Wired - 2026-09-29T
+

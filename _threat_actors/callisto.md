@@ -37,3 +37,9 @@ The Callisto Group is an advanced threat actor whose known targets include milit
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor](https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html)
+  The Hacker News - 2026-09-29T
+
