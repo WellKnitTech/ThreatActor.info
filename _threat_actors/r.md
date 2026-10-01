@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution](https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html)
-  The Hacker News - 2026-09-30T
-- [South Africa Seeks Help After Cyberattack Targets Air Traffic Control](https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control)
-  DarkReading - 2026-09-30T
-- [The 6 Best Laptop Docking Stations to Unlock the Full Desktop Experience (2026)](https://www.wired.com/gallery/best-laptop-docking-stations/)
-  Wired - 2026-09-30T
-- [Fanatics Promo Code: 10% Off](https://www.wired.com/story/fanatics-promo-code/)
-  Wired - 2026-09-30T
-- [30% Off Canon Promo Codes | October 2026](https://www.wired.com/story/canon-promo-code/)
-  Wired - 2026-09-30T
+- [Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
+  The Hacker News - 2026-10-01T
+- [Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft](https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html)
+  The Hacker News - 2026-10-01T
+- [MetaMask Security Incident Prompts Exit of Affected Ethereum Validators](https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html)
+  The Hacker News - 2026-10-01T
+- [Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs](https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html)
+  The Hacker News - 2026-10-01T
+- [Dyson Promo Codes: 25% Off in October 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-10-01T
 

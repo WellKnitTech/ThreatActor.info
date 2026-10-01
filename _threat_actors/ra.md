@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [South Africa Seeks Help After Cyberattack Targets Air Traffic Control](https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control)
+- [Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
+  The Hacker News - 2026-10-01T
+- [Paramount+ Coupon Codes and Deals for 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
+  Wired - 2026-10-01T
+- [Metamask discloses security incident affecting its infrastructure](https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/)
+  BleepingComputer - 2026-10-01T
+- [Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets](https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html)
+  The Hacker News - 2026-09-30T
+- [Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure](https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure)
   DarkReading - 2026-09-30T
-- [Better together: Celebrating the 2026–2027 Elastic Partner Awards](https://www.elastic.co/blog/elastic-partner-awards-2026)
-  Elastic - 2026-09-30T
-- [America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch](https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/)
-  TechCrunch - 2026-09-29T
-- [Range Rover Sport Electric: Price, Specs, Availability](https://www.wired.com/story/range-rover-sport-electric-arrives-with-more-for-less/)
-  Wired - 2026-09-29T
-- [a16z-backed EliseAI raises $350M, doubles valuation to $4B](https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/)
-  TechCrunch - 2026-09-29T
 

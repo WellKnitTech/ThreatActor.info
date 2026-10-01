@@ -33,6 +33,8 @@ Ransomware Jigsaw Ransomware variant
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Bitget hacked via zero-day in third-party security products](https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/)
+  BleepingComputer - 2026-09-30T
 - [Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts](https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts)
   DarkReading - 2026-09-28T
 

@@ -33,12 +33,10 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Cloudflare plans to issue quantum-safe TLS certificates](https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/)
+  Ars Technica - 2026-09-30T
 - [Cloudflare Announces Public Certificate Authority for the Post-Quantum Web](https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web)
   DarkReading - 2026-09-29T
-- [Preventing quantum downgrade attacks against IPsec](https://blog.cloudflare.com/ipsec-downgrade-protection/)
-  Cloudflare - 2026-09-29T
-- [Is your domain using post-quantum encryption? Now you can see for yourself](https://blog.cloudflare.com/post-quantum-visibility/)
-  Cloudflare - 2026-09-29T
 - [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs/)
   Cloudflare - 2026-09-29T
 - [Using AI to chart a course for our post-quantum migration](https://blog.cloudflare.com/ai-driven-cryptography-discovery/)

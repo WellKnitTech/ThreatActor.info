@@ -36,10 +36,6 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Dutch police arrest ShinyHunters hacker accused of planning two murders](https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders/)
-  TechCrunch - 2026-09-29T
 - [FBI tells ShinyHunters members to turn themselves in after recent arrest](https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/)
   BleepingComputer - 2026-09-29T
-- [Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation](https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html)
-  The Hacker News - 2026-09-29T
 

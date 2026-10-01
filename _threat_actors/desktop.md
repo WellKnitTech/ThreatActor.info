@@ -33,8 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The 6 Best Laptop Docking Stations to Unlock the Full Desktop Experience (2026)](https://www.wired.com/gallery/best-laptop-docking-stations/)
-  Wired - 2026-09-30T
 - [Signal adds encypted local backup support to iOS, desktop apps](https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/)
   BleepingComputer - 2026-09-29T
 

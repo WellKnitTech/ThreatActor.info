@@ -33,8 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [30% Off Canon Promo Codes | October 2026](https://www.wired.com/story/canon-promo-code/)
-  Wired - 2026-09-30T
-- [LG Promo Codes and Coupons for October 2026](https://www.wired.com/story/lg-promo-code/)
-  Wired - 2026-09-30T
+- [Dyson Promo Codes: 25% Off in October 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-10-01T
+- [AT&T Promo Codes: $50 Off This October 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-10-01T
+- [eBay Coupons: 20% Off in October 2026](https://www.wired.com/story/ebay-coupon-code/)
+  Wired - 2026-10-01T
+- [Newegg Promo Codes and Coupons for October 2026](https://www.wired.com/story/newegg-promo-code/)
+  Wired - 2026-10-01T
+- [20% Off Samsung Promo Code | October 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-10-01T
 

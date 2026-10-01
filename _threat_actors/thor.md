@@ -39,6 +39,4 @@ ransomware
   Cloudflare - 2026-09-29T
 - [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority/)
   Cloudflare - 2026-09-29T
-- [OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions](https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html)
-  The Hacker News - 2026-09-29T
 

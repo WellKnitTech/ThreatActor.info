@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution](https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html)
+- [Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
+  The Hacker News - 2026-10-01T
+- [Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs](https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html)
+  The Hacker News - 2026-10-01T
+- [NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026](https://www.wired.com/story/nordvpn-coupon/)
+  Wired - 2026-10-01T
+- [Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets](https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html)
   The Hacker News - 2026-09-30T
-- [Apple Pay finally launches in India after years on the sidelines](https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/)
-  TechCrunch - 2026-09-30T
-- [Apple Zero-Day Vulnerability Weaponized in Targeted Attacks](https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks)
-  DarkReading - 2026-09-29T
-- [Away’s New Series 3 Luggage Plays It Safe—That’s the Point](https://www.wired.com/story/away-launches-series-3-luggage/)
-  Wired - 2026-09-29T
-- [Dutch police arrest ShinyHunters hacker accused of planning two murders](https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders/)
-  TechCrunch - 2026-09-29T
+- [Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks](https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html)
+  The Hacker News - 2026-09-30T
 

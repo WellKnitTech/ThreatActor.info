@@ -33,6 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents](https://blog.cloudflare.com/voidzero-update/)
-  Cloudflare - 2026-09-28T
+- [Microsoft to block Entra ID script injection attacks starting October](https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/)
+  BleepingComputer - 2026-09-30T
 

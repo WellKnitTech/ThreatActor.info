@@ -37,3 +37,9 @@ Cyber Alliance is a hacktivist group that has demonstrated capabilities in explo
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Higher education is under siege, and fragmented security is making it harder to respond](https://www.rapid7.com/blog/post/it-higher-education-under-siege-fragmented-security)
+  Rapid7 - 2026-09-30T
+
