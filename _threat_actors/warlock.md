@@ -30,3 +30,9 @@ Warlock is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Warlock Ransomware Hits Large Spanish, Portuguese Orgs](https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese)
+  DarkReading - 2026-10-01T
+

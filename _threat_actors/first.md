@@ -30,3 +30,11 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Robotaxi operators will face fines for blocking first responders](https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/)
+  TechCrunch - 2026-10-02T
+- [World’s first enhanced geothermal power plant completed in just 23 months](https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/)
+  TechCrunch - 2026-10-01T
+

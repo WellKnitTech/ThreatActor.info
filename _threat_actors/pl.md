@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
+- [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
+  The Hacker News - 2026-10-02T
+- [Fortinet warns of critical FortiMail flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/)
+  BleepingComputer - 2026-10-01T
+- [World’s first enhanced geothermal power plant completed in just 23 months](https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/)
+  TechCrunch - 2026-10-01T
+- [How Financial Services Companies Can Modernize Their Software Supply Chain](https://thehackernews.com/2026/10/how-financial-services-companies-can.html)
   The Hacker News - 2026-10-01T
-- [Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs](https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html)
-  The Hacker News - 2026-10-01T
-- [NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026](https://www.wired.com/story/nordvpn-coupon/)
-  Wired - 2026-10-01T
-- [Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets](https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html)
-  The Hacker News - 2026-09-30T
-- [Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks](https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html)
-  The Hacker News - 2026-09-30T
+- [California governor vetoes bill banning use of ‘pervert glasses’ to secretly record people](https://techcrunch.com/2026/10/01/california-governor-vetoes-bill-banning-use-of-pervert-glasses-to-secretly-record-people/)
+  TechCrunch - 2026-10-01T
 

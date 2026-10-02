@@ -30,3 +30,9 @@ Not a RaaS yet.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SASE in the AI Era: Why Secure Global Connectivity Matters More Than Ever](https://blog.checkpoint.com/harmony-sase/sase-in-the-ai-era-why-secure-global-connectivity-matters-more-than-ever/)
+  Check Point - 2026-10-01T
+

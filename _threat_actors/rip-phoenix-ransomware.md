@@ -30,9 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Microsoft to block Entra ID script injection attacks starting October](https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/)
-  BleepingComputer - 2026-09-30T
-

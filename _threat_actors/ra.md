@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
+- [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
+  The Hacker News - 2026-10-02T
+- [Robotaxi operators will face fines for blocking first responders](https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/)
+  TechCrunch - 2026-10-02T
+- [Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers](https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html)
   The Hacker News - 2026-10-01T
-- [Paramount+ Coupon Codes and Deals for 2026](https://www.wired.com/story/paramount-plus-coupon-code/)
-  Wired - 2026-10-01T
-- [Metamask discloses security incident affecting its infrastructure](https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/)
-  BleepingComputer - 2026-10-01T
-- [Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets](https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html)
-  The Hacker News - 2026-09-30T
-- [Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure](https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure)
-  DarkReading - 2026-09-30T
+- [Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation](https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/)
+  TechCrunch - 2026-10-01T
+- [Alleged KillSec Ransomware Mastermind a 16-Year-Old](https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old)
+  DarkReading - 2026-10-01T
 

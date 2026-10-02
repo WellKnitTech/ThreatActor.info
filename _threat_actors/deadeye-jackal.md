@@ -41,3 +41,11 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [OpenAI cuts ties with 3 safety researchers, WSJ reports](https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/)
+  TechCrunch - 2026-10-01T
+- [AI Search is now generally available](https://blog.cloudflare.com/ai-search-ga/)
+  Cloudflare - 2026-10-01T
+

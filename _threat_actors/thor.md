@@ -30,13 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Cloudflare Announces Public Certificate Authority for the Post-Quantum Web](https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web)
-  DarkReading - 2026-09-29T
-- [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs/)
-  Cloudflare - 2026-09-29T
-- [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority/)
-  Cloudflare - 2026-09-29T
-

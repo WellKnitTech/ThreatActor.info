@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google releases Gemini 4 Argon, called its most powerful model yet](https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/)
-  TechCrunch - 2026-09-30T
+- [Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version](https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html)
+  The Hacker News - 2026-10-01T
 

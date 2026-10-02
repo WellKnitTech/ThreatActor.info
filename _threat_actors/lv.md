@@ -33,6 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [FBI tells ShinyHunters members to turn themselves in after recent arrest](https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/)
-  BleepingComputer - 2026-09-29T
+- [Introducing Workers KV Instant — powered by Quicksilver](https://blog.cloudflare.com/workers-kv-instant/)
+  Cloudflare - 2026-10-01T
 

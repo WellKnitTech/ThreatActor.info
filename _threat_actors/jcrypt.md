@@ -30,9 +30,3 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted](https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html)
-  The Hacker News - 2026-09-30T
-
