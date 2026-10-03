@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
-  The Hacker News - 2026-10-02T
-- [Design Within Reach Promo Codes: 30% Off | October 2026](https://www.wired.com/story/design-within-reach-promo-code/)
-  Wired - 2026-10-02T
-- [Squarespace Promo Codes: 20% Off in October 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-10-02T
-- [Whoop Promo Codes: 20% Off This October 2026](https://www.wired.com/story/whoop-promo-code/)
-  Wired - 2026-10-02T
-- [Hotels.com Coupon Codes for October 2026](https://www.wired.com/story/hotels-com-coupon/)
-  Wired - 2026-10-02T
+- [Klook Promo Code: 25% Off October 2026](https://www.wired.com/story/klook-promo-code/)
+  Wired - 2026-10-03T
+- [Surfshark Promo Codes: 87% Off | October 2026](https://www.wired.com/story/surfshark-coupon/)
+  Wired - 2026-10-03T
+- [50% Off DoorDash Promo Code | October 2026](https://www.wired.com/story/doordash-promo-code/)
+  Wired - 2026-10-03T
+- [20% Off Brooks Promo Code | October 2026](https://www.wired.com/story/brooks-promo-code/)
+  Wired - 2026-10-03T
+- [Chewy Promo Codes: $20 Off October 2026](https://www.wired.com/story/chewy-promo-code/)
+  Wired - 2026-10-03T
 

@@ -30,11 +30,3 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Russian state hackers use new RedFlick technique to push malware](https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/)
-  BleepingComputer - 2026-09-30T
-- [Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net](https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net)
-  DarkReading - 2026-09-30T
-

@@ -30,3 +30,9 @@ Ransomware Packaged with Petya PDFBewerbungsmappe.exe
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling](https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html)
+  The Hacker News - 2026-10-02T
+

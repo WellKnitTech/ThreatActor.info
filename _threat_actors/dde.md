@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half](https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder)
-  DarkReading - 2026-09-30T
-

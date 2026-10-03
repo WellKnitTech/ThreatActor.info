@@ -30,3 +30,9 @@ Ransomware Based on HiddenTear, but heavily modified keygen
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [US sanctions Tren de Aragua gang members in ATM hacks crackdown](https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/)
+  BleepingComputer - 2026-10-02T
+

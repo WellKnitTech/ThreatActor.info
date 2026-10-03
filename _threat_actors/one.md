@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Amazon releases its own Jev clone as decision models flood the web](https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/)
-  TechCrunch - 2026-10-01T
-- [One year later, Tesla and Musk still don’t have a good definition of ‘abundance’](https://techcrunch.com/2026/10/01/one-year-later-tesla-and-musk-are-still-dont-have-a-good-definition-of-abundance/)
-  TechCrunch - 2026-10-01T
+- [Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign](https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html)
+  The Hacker News - 2026-10-02T
+- [TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/)
+  TechCrunch - 2026-10-02T
+- [Updates on our pledge to make Cloudflare features accessible to everyone](https://blog.cloudflare.com/enterprise-for-all-update/)
+  Cloudflare - 2026-10-02T
 - [One year later: Sovereign AI and the fight for choice](https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/)
   Cloudflare - 2026-10-01T
 - [The Day-One Hole in Zero Trust Architecture](https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/)
   BleepingComputer - 2026-10-01T
-- [Monetization Gateway beta: charge AI agents for consumption with HTTP 402](https://blog.cloudflare.com/monetization-gateway-beta/)
-  Cloudflare - 2026-09-30T
 

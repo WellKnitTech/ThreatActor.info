@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [When AI agents swarm, can banks keep up?](https://www.elastic.co/blog/banks-ai-agents-visibility)
-  Elastic - 2026-09-30T
-

@@ -33,8 +33,6 @@ Ransomware mpritsken@priest.com
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets](https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html)
-  The Hacker News - 2026-09-30T
 - [Attackers have been exploiting critical Zimbra flaw to steal emails](https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/)
   Ars Technica - 2026-09-30T
 

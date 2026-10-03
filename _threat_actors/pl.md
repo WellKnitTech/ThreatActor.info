@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
-  The Hacker News - 2026-10-02T
-- [Fortinet warns of critical FortiMail flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/)
-  BleepingComputer - 2026-10-01T
-- [World’s first enhanced geothermal power plant completed in just 23 months](https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/)
-  TechCrunch - 2026-10-01T
-- [How Financial Services Companies Can Modernize Their Software Supply Chain](https://thehackernews.com/2026/10/how-financial-services-companies-can.html)
-  The Hacker News - 2026-10-01T
-- [California governor vetoes bill banning use of ‘pervert glasses’ to secretly record people](https://techcrunch.com/2026/10/01/california-governor-vetoes-bill-banning-use-of-pervert-glasses-to-secretly-record-people/)
-  TechCrunch - 2026-10-01T
+- [Apple changes full-disk access permissions to curb abuse from AI agents](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/)
+  Ars Technica - 2026-10-02T
+- [This Shoe Company’s Instagram Ad With a Frat Is Pissing People Off](https://www.wired.com/story/this-shoe-companys-instagram-ad-with-a-frat-is-pissing-people-off/)
+  Wired - 2026-10-02T
+- [Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents](https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/)
+  TechCrunch - 2026-10-02T
+- [Frontline Education breach exposes school district employee data](https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/)
+  BleepingComputer - 2026-10-02T
+- [Less than 24 hours to apply for a  Side Event at Founder Summit 2026](https://techcrunch.com/2026/10/02/less-than-24-hours-to-apply-for-a-side-event-at-founder-summit-2026/)
+  TechCrunch - 2026-10-02T
 

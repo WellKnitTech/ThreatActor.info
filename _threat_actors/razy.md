@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs—and It Worked](https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/)
+  Wired - 2026-10-02T
+

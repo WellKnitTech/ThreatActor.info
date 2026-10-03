@@ -43,9 +43,3 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation](https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/)
-  TechCrunch - 2026-10-01T
-

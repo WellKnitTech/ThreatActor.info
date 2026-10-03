@@ -30,9 +30,3 @@ Frag is a relatively new ransomware and data extortion group first seen in Febru
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Higher education is under siege, and fragmented security is making it harder to respond](https://www.rapid7.com/blog/post/it-higher-education-under-siege-fragmented-security)
-  Rapid7 - 2026-09-30T
-

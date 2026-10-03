@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
-  The Hacker News - 2026-10-02T
-- [Robotaxi operators will face fines for blocking first responders](https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/)
+- [Sanders introduces bill to ban the federal government from using Flock](https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/)
+  TechCrunch - 2026-10-03T
+- [This Shoe Company’s Instagram Ad With a Frat Is Pissing People Off](https://www.wired.com/story/this-shoe-companys-instagram-ad-with-a-frat-is-pissing-people-off/)
+  Wired - 2026-10-02T
+- [TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/)
   TechCrunch - 2026-10-02T
-- [Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers](https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html)
-  The Hacker News - 2026-10-01T
-- [Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation](https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/)
-  TechCrunch - 2026-10-01T
-- [Alleged KillSec Ransomware Mastermind a 16-Year-Old](https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old)
-  DarkReading - 2026-10-01T
+- [Is Your Organization Ready for 2027's AI Accountability Era?](https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-)
+  DarkReading - 2026-10-02T
+- [Paramount and Warner Bros. Discovery to become Skydance](https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/)
+  TechCrunch - 2026-10-02T
 

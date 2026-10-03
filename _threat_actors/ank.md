@@ -33,8 +33,6 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Experience What It’s Like to Travel in the Occupied West Bank](https://www.wired.com/story/experience-what-its-like-to-travel-in-the-occupied-west-bank/)
-  Wired - 2026-10-01T
-- [When AI agents swarm, can banks keep up?](https://www.elastic.co/blog/banks-ai-agents-visibility)
-  Elastic - 2026-09-30T
+- [SWIFT Banking &amp; Government Middleware Enables RCE](https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce)
+  DarkReading - 2026-10-02T
 

@@ -30,3 +30,9 @@ Mimic is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Malicious Linux Implants Mimic Asian Mail Security Products](https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security)
+  DarkReading - 2026-10-02T
+

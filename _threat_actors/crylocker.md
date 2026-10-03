@@ -33,8 +33,6 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Support for modern cryptographic algorithms in Workers](https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/)
-  Cloudflare - 2026-10-01T
-- [Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft](https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html)
-  The Hacker News - 2026-10-01T
+- [Microsoft’s X account hacked in crypto pump-and-dump scheme](https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/)
+  BleepingComputer - 2026-10-02T
 

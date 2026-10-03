@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Best Smart Cat Trackers of 2026: Fi Mini vs. Tractive](https://www.wired.com/story/best-smart-cat-tracker/)
+  Wired - 2026-10-02T
 - [Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version](https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html)
   The Hacker News - 2026-10-01T
 
