@@ -35,3 +35,9 @@ Security Service/MI5[33] – Domestic counter terrorism and counter espionage in
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
+  The Hacker News - 2026-10-03T
+

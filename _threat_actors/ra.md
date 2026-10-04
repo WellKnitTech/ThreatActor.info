@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html)
+  The Hacker News - 2026-10-03T
+- [Federal judge calls Flock ‘indiscriminate mass surveillance’](https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/)
+  TechCrunch - 2026-10-03T
 - [Sanders introduces bill to ban the federal government from using Flock](https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/)
   TechCrunch - 2026-10-03T
 - [This Shoe Company’s Instagram Ad With a Frat Is Pissing People Off](https://www.wired.com/story/this-shoe-companys-instagram-ad-with-a-frat-is-pissing-people-off/)
   Wired - 2026-10-02T
 - [TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/)
-  TechCrunch - 2026-10-02T
-- [Is Your Organization Ready for 2027's AI Accountability Era?](https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-)
-  DarkReading - 2026-10-02T
-- [Paramount and Warner Bros. Discovery to become Skydance](https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/)
   TechCrunch - 2026-10-02T
 

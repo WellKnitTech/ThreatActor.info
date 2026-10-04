@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Klook Promo Code: 25% Off October 2026](https://www.wired.com/story/klook-promo-code/)
-  Wired - 2026-10-03T
-- [Surfshark Promo Codes: 87% Off | October 2026](https://www.wired.com/story/surfshark-coupon/)
-  Wired - 2026-10-03T
-- [50% Off DoorDash Promo Code | October 2026](https://www.wired.com/story/doordash-promo-code/)
-  Wired - 2026-10-03T
-- [20% Off Brooks Promo Code | October 2026](https://www.wired.com/story/brooks-promo-code/)
-  Wired - 2026-10-03T
-- [Chewy Promo Codes: $20 Off October 2026](https://www.wired.com/story/chewy-promo-code/)
-  Wired - 2026-10-03T
+- [ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members](https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html)
+  The Hacker News - 2026-10-04T
+- [China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing](https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html)
+  The Hacker News - 2026-10-04T
+- [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
+  The Hacker News - 2026-10-03T
+- [Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html)
+  The Hacker News - 2026-10-03T
+- [Federal judge calls Flock ‘indiscriminate mass surveillance’](https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/)
+  TechCrunch - 2026-10-03T
 

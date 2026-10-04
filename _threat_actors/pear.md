@@ -30,3 +30,9 @@ ABOUT US: <br/> <br/>"Pure Extraction And Ransom (PEAR) Team is the community of
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Jack Dorsey’s Bitchat disappears from app stores in India after government order](https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/)
+  TechCrunch - 2026-10-03T
+

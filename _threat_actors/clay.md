@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/)
-  TechCrunch - 2026-10-02T
-
