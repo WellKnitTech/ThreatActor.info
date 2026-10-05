@@ -33,6 +33,8 @@ Rebrand of RALord
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Meta Glasses Nova (Gen 3) Review: Not Much New](https://www.wired.com/review/meta-glasses-gen-3/)
+  Wired - 2026-10-04T
 - [The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations](https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html)
   The Hacker News - 2026-10-03T
 

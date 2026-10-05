@@ -30,3 +30,9 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Keurig Alta First-Look: No More Plastic K-Cups](https://www.wired.com/story/keurig-alta-coffee-brewer/)
+  Wired - 2026-10-04T
+

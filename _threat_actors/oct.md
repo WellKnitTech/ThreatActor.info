@@ -33,14 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hoka Coupon Codes: 30% Off in October 2026](https://www.wired.com/story/hoka-coupon-code/)
-  Wired - 2026-10-03T
-- [Chewy Promo Codes: $20 Off October 2026](https://www.wired.com/story/chewy-promo-code/)
-  Wired - 2026-10-03T
-- [20% Off Brooks Promo Code | October 2026](https://www.wired.com/story/brooks-promo-code/)
-  Wired - 2026-10-03T
-- [50% Off DoorDash Promo Code | October 2026](https://www.wired.com/story/doordash-promo-code/)
-  Wired - 2026-10-03T
 - [Klook Promo Code: 25% Off October 2026](https://www.wired.com/story/klook-promo-code/)
+  Wired - 2026-10-03T
+- [Surfshark Promo Codes: 87% Off | October 2026](https://www.wired.com/story/surfshark-coupon/)
   Wired - 2026-10-03T
 

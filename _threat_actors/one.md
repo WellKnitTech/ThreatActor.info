@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The Best Gifts Under $25 for Everyone on Your List (2026)](https://www.wired.com/story/best-gifts-under-25-2026/)
+  Wired - 2026-10-04T
+- [Elusive ‘Geoneutrinos’ Are Building a New Map of Earth’s Volatile Interior](https://www.wired.com/story/elusive-geoneutrinos-are-building-a-new-map-of-earths-volatile-interior/)
+  Wired - 2026-10-04T
 - [Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign](https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html)
   The Hacker News - 2026-10-02T
-- [TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/)
-  TechCrunch - 2026-10-02T
 - [Updates on our pledge to make Cloudflare features accessible to everyone](https://blog.cloudflare.com/enterprise-for-all-update/)
   Cloudflare - 2026-10-02T
 - [One year later: Sovereign AI and the fight for choice](https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/)
   Cloudflare - 2026-10-01T
-- [The Day-One Hole in Zero Trust Architecture](https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/)
-  BleepingComputer - 2026-10-01T
 
