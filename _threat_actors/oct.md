@@ -33,8 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Klook Promo Code: 25% Off October 2026](https://www.wired.com/story/klook-promo-code/)
-  Wired - 2026-10-03T
-- [Surfshark Promo Codes: 87% Off | October 2026](https://www.wired.com/story/surfshark-coupon/)
-  Wired - 2026-10-03T
+- [80 Best Prime Day Deals We’re Shopping This October (2026)](https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-06-2026/)
+  Wired - 2026-10-06T
+- [Verizon Promo Codes: $200 Verizon Gift Cards | October 2026](https://www.wired.com/story/verizon-promo-code/)
+  Wired - 2026-10-06T
+- [Hostinger Promo Code: 79% Off for October 2026](https://www.wired.com/story/hostinger-coupon-code/)
+  Wired - 2026-10-06T
+- [Alo Discount Code: 20% Off October 2026](https://www.wired.com/story/alo-yoga-discount-code/)
+  Wired - 2026-10-06T
+- [PlayStation Discount Code: 15% Off | October 2026](https://www.wired.com/story/playstation-discount-code/)
+  Wired - 2026-10-06T
 

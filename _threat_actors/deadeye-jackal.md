@@ -46,10 +46,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 - [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
   The Hacker News - 2026-10-03T
-- [Sean Parker is rebuilding Stability AI around music](https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/)
-  TechCrunch - 2026-10-02T
-- [OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling](https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html)
-  The Hacker News - 2026-10-02T
 - [Introducing Web Search API via AI Gateway](https://blog.cloudflare.com/introducing-web-search-api/)
   Cloudflare - 2026-10-02T
 

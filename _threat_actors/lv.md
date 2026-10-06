@@ -33,8 +33,6 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?](https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/)
-  TechCrunch - 2026-10-04T
 - [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
   The Hacker News - 2026-10-03T
 - [Introducing Workers KV Instant — powered by Quicksilver](https://blog.cloudflare.com/workers-kv-instant/)

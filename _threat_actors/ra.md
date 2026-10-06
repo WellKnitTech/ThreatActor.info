@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions](https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/)
-  TechCrunch - 2026-10-04T
-- [Rural Data Centers Are in for a Big Federal Tax Break](https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/)
-  Wired - 2026-10-04T
-- [Anthropic asks Claude users to share voice data for AI model training](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/)
-  BleepingComputer - 2026-10-04T
-- [Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html)
-  The Hacker News - 2026-10-03T
-- [Federal judge calls Flock ‘indiscriminate mass surveillance’](https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/)
-  TechCrunch - 2026-10-03T
+- [FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach](https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html)
+  The Hacker News - 2026-10-06T
+- [Sony Coupons: 45% Off Sony Headphones and Sony Cameras October 2026](https://www.wired.com/story/sony-promo-code/)
+  Wired - 2026-10-06T
+- [ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes](https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes)
+  DarkReading - 2026-10-05T
+- [⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests](https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html)
+  The Hacker News - 2026-10-05T
+- [At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI](https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/)
+  TechCrunch - 2026-10-05T
 

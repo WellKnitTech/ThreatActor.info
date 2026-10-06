@@ -36,8 +36,8 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach](https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html)
+  The Hacker News - 2026-10-06T
 - [ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members](https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html)
   The Hacker News - 2026-10-04T
-- [ShinyHunters hacker reportedly detained in Jordan, aiding FBI](https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/)
-  BleepingComputer - 2026-10-03T
 

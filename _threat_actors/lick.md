@@ -30,3 +30,11 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits](https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html)
+  The Hacker News - 2026-10-06T
+- [TikTok rolls out an AI shopping assistant and one-click checkout](https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/)
+  TechCrunch - 2026-10-05T
+
