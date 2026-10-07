@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Atlassian warns of critical file-access flaw in Jira, Confluence](https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/)
+  BleepingComputer - 2026-10-06T
 - [ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes](https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes)
   DarkReading - 2026-10-05T
 - [One year later: the power of 1.1.1.1 interns](https://blog.cloudflare.com/one-year-later-1111-interns/)

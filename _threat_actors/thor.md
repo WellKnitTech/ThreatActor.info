@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits](https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/)
+  BleepingComputer - 2026-10-06T
+

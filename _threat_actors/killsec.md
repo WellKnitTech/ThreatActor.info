@@ -33,9 +33,3 @@ Killsec is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Alleged KillSec Ransomware Mastermind a 16-Year-Old](https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old)
-  DarkReading - 2026-10-01T
-

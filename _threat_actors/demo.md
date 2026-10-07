@@ -30,9 +30,3 @@ Ransomware only encrypts .jpg files
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [5 startups that caught VCs’ attention at the latest PearX demo day](https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/)
-  TechCrunch - 2026-10-05T
-

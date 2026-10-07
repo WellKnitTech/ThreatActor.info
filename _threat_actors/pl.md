@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account](https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html)
-  The Hacker News - 2026-10-06T
-- [PlayStation Discount Code: 15% Off | October 2026](https://www.wired.com/story/playstation-discount-code/)
+- [You Probably Aren’t Going to Get the Plague](https://www.wired.com/story/what-we-know-about-plague-russia/)
   Wired - 2026-10-06T
-- [Engineer sentenced for locking over 3,000 devices on employer network](https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/)
-  BleepingComputer - 2026-10-06T
-- [Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2](https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html)
-  The Hacker News - 2026-10-05T
-- [Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access](https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html)
-  The Hacker News - 2026-10-05T
+- [Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell](https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/)
+  TechCrunch - 2026-10-06T
+- [Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product](https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/)
+  TechCrunch - 2026-10-06T
+- [AI computing startup Lambda to raise $4B ahead of planned IPO](https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/)
+  TechCrunch - 2026-10-06T
+- [Apple AirPods Max 2 Are $120 Off Right Now During Prime Day (2026)](https://www.wired.com/story/apple-airpods-max-2-deal-october-2026/)
+  Wired - 2026-10-06T
 

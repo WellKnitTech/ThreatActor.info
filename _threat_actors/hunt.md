@@ -36,6 +36,4 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 
 - [FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach](https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html)
   The Hacker News - 2026-10-06T
-- [ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members](https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html)
-  The Hacker News - 2026-10-04T
 

@@ -30,3 +30,9 @@ Lambda is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [AI computing startup Lambda to raise $4B ahead of planned IPO](https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/)
+  TechCrunch - 2026-10-06T
+

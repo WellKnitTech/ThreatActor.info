@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T08:32:06Z",
+  "updated": "2026-10-07T08:07:51Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,337 +19,71 @@
     "Rapid7"
   ],
   "actor_news": {
-    "ATLAS": [
+    "DN": [
       {
-        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-        "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-        "date": "2026-10-06T12:28:56+05:30",
+        "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+        "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+        "date": "2026-10-07T12:27:54+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+        "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+        "date": "2026-10-07T00:08:55+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+        "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+        "date": "2026-10-06T11:16:44-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "R": [
       {
-        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-        "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-        "date": "2026-10-06T12:28:56+05:30",
+        "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+        "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+        "date": "2026-10-07T12:27:54+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-        "date": "2026-10-06T12:26:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-        "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-        "date": "2026-10-06T11:30:30+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-        "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-        "date": "2026-10-06T10:52:55+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "80 Best Prime Day Deals We’re Shopping This October (2026)",
-        "link": "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-06-2026/",
-        "date": "2026-10-06T08:09:42+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-        "date": "2026-10-06T12:26:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-        "date": "2026-10-04T12:52:05+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Hunters": [
-      {
-        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-        "date": "2026-10-06T12:26:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-        "date": "2026-10-04T12:52:05+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-        "date": "2026-10-06T12:26:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Sony Coupons: 45% Off Sony Headphones and Sony Cameras October 2026",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-10-06T05:00:00+00:00",
+        "title": "The 13 Amazon Device Deals Actually Worth Snagging This Prime Day",
+        "link": "https://www.wired.com/story/best-amazon-alexa-device-deals-prime-day-10-07-2026/",
+        "date": "2026-10-07T07:50:08+00:00",
         "source": "Wired"
       },
       {
-        "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-        "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-        "date": "2026-10-05T21:25:08+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-        "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-        "date": "2026-10-05T19:50:43+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI",
-        "link": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
-        "date": "2026-10-05T18:07:07+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "ShinyHunters": [
-      {
-        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-        "date": "2026-10-06T12:26:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-        "date": "2026-10-04T12:52:05+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-        "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-        "date": "2026-10-06T11:30:30+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "PlayStation Discount Code: 15% Off | October 2026",
-        "link": "https://www.wired.com/story/playstation-discount-code/",
-        "date": "2026-10-06T05:00:00+00:00",
+        "title": "7 Best Prime Day Kindle Deals (2026): Save Up to $150",
+        "link": "https://www.wired.com/story/best-kindle-prime-day-deals-10-07-2026/",
+        "date": "2026-10-07T07:34:54+00:00",
         "source": "Wired"
       },
       {
-        "title": "Engineer sentenced for locking over 3,000 devices on employer network",
-        "link": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
-        "date": "2026-10-06T04:19:24-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-        "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-        "date": "2026-10-05T17:16:25+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-        "link": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-        "date": "2026-10-05T16:08:50+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-        "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-        "date": "2026-10-06T10:52:55+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-        "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-        "date": "2026-10-05T18:29:00+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Payload": [
-      {
-        "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-        "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-        "date": "2026-10-06T10:52:55+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "OCT": [
-      {
-        "title": "80 Best Prime Day Deals We’re Shopping This October (2026)",
-        "link": "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-06-2026/",
-        "date": "2026-10-06T08:09:42+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Verizon Promo Codes: $200 Verizon Gift Cards | October 2026",
-        "link": "https://www.wired.com/story/verizon-promo-code/",
-        "date": "2026-10-06T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Hostinger Promo Code: 79% Off for October 2026",
-        "link": "https://www.wired.com/story/hostinger-coupon-code/",
-        "date": "2026-10-06T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Alo Discount Code: 20% Off October 2026",
-        "link": "https://www.wired.com/story/alo-yoga-discount-code/",
-        "date": "2026-10-06T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "PlayStation Discount Code: 15% Off | October 2026",
-        "link": "https://www.wired.com/story/playstation-discount-code/",
-        "date": "2026-10-06T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Stinger": [
-      {
-        "title": "Hostinger Promo Code: 79% Off for October 2026",
-        "link": "https://www.wired.com/story/hostinger-coupon-code/",
-        "date": "2026-10-06T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Play": [
-      {
-        "title": "PlayStation Discount Code: 15% Off | October 2026",
-        "link": "https://www.wired.com/story/playstation-discount-code/",
-        "date": "2026-10-06T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "One": [
-      {
-        "title": "Sony Coupons: 45% Off Sony Headphones and Sony Cameras October 2026",
-        "link": "https://www.wired.com/story/sony-promo-code/",
-        "date": "2026-10-06T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-        "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-        "date": "2026-10-05T18:29:00+00:00",
+        "title": "Spotify expands audiobooks to over 180 markets",
+        "link": "https://techcrunch.com/2026/10/07/spotify-expands-audiobooks-to-over-180-markets/",
+        "date": "2026-10-07T07:00:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "One year later: the power of 1.1.1.1 interns",
-        "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-        "date": "2026-10-05T13:00:00+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-        "link": "https://blog.cloudflare.com/enterprise-for-all-update/",
-        "date": "2026-10-02T13:00:00+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "One year later: Sovereign AI and the fight for choice",
-        "link": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
-        "date": "2026-10-01T13:04:19+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Sport": [
-      {
-        "title": "Sportsman's Warehouse Promo Code: Save in October 2026",
-        "link": "https://www.wired.com/story/sportsmans-warehouse-promo-code/",
-        "date": "2026-10-06T05:00:00+00:00",
+        "title": "I Found the 20 Best Prime Day Tech and Gadget Deals (October 2026)",
+        "link": "https://www.wired.com/story/best-prime-day-tech-deals-10-06-2026/",
+        "date": "2026-10-07T00:34:56+00:00",
         "source": "Wired"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-        "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-        "date": "2026-10-05T21:25:08+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "One year later: the power of 1.1.1.1 interns",
-        "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-        "date": "2026-10-05T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Spectre": [
-      {
-        "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-        "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-        "date": "2026-10-05T19:50:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI",
-        "link": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
-        "date": "2026-10-05T18:07:07+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
-        "link": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-        "date": "2026-10-05T17:29:22+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "5 startups that caught VCs’ attention at the latest PearX demo day",
-        "link": "https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/",
-        "date": "2026-10-05T17:26:44+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Demo": [
-      {
-        "title": "5 startups that caught VCs’ attention at the latest PearX demo day",
-        "link": "https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/",
-        "date": "2026-10-05T17:26:44+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "pear": [
-      {
-        "title": "5 startups that caught VCs’ attention at the latest PearX demo day",
-        "link": "https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/",
-        "date": "2026-10-05T17:26:44+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "OpenAI launches visual ads that appear alongside image generation results",
-        "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-        "date": "2026-10-05T15:14:24+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
-        "link": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
-        "date": "2026-10-05T09:01:45-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "NMoreira": [
+      {
+        "title": "Spotify expands audiobooks to over 180 markets",
+        "link": "https://techcrunch.com/2026/10/07/spotify-expands-audiobooks-to-over-180-markets/",
+        "date": "2026-10-07T07:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "India’s JioHotstar takes partnership route for Middle East expansion",
+        "link": "https://techcrunch.com/2026/10/06/indias-jiohotstar-takes-partnership-route-for-middle-east-expansion/",
+        "date": "2026-10-06T17:14:07+00:00",
+        "source": "TechCrunch"
+      },
       {
         "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
         "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
@@ -363,13 +97,399 @@
         "source": "Cloudflare"
       }
     ],
-    "Ank": [
+    "OCT": [
       {
-        "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
-        "link": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
-        "date": "2026-10-05T16:43:35+00:00",
+        "title": "I Found the 20 Best Prime Day Tech and Gadget Deals (October 2026)",
+        "link": "https://www.wired.com/story/best-prime-day-tech-deals-10-06-2026/",
+        "date": "2026-10-07T00:34:56+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "113 Best Prime Day Deals We’re Shopping This October (2026)",
+        "link": "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-06-2026/",
+        "date": "2026-10-07T00:32:13+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "We’re Tracking October Prime Day Live (2026)",
+        "link": "https://www.wired.com/live/amazon-prime-day-live-tracker-october-06-2026/",
+        "date": "2026-10-06T20:47:43+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Amazon Prime Day Deals Under $50 in October 2026",
+        "link": "https://www.wired.com/story/best-amazon-prime-day-deals-under-50-10-06-2026/",
+        "date": "2026-10-06T20:43:38+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "The keys to the Internet change on October 11. Are you ready?",
+        "link": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+        "date": "2026-10-06T17:50:11+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+        "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+        "date": "2026-10-07T00:08:55+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+        "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+        "date": "2026-10-06T11:16:44-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Final": [
+      {
+        "title": "Jaguar Finally Reveals Its Biggest Gamble: the Type 01",
+        "link": "https://www.wired.com/story/jaguar-finally-reveals-its-biggest-gamble-the-type-01/",
+        "date": "2026-10-07T00:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "PL": [
+      {
+        "title": "You Probably Aren’t Going to Get the Plague",
+        "link": "https://www.wired.com/story/what-we-know-about-plague-russia/",
+        "date": "2026-10-06T23:09:20+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",
+        "link": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
+        "date": "2026-10-06T22:53:09+00:00",
         "source": "TechCrunch"
       },
+      {
+        "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+        "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+        "date": "2026-10-06T22:34:03+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+        "link": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+        "date": "2026-10-06T20:00:30+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Apple AirPods Max 2 Are $120 Off Right Now During Prime Day (2026)",
+        "link": "https://www.wired.com/story/apple-airpods-max-2-deal-october-2026/",
+        "date": "2026-10-06T18:43:27+00:00",
+        "source": "Wired"
+      }
+    ],
+    "First": [
+      {
+        "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+        "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+        "date": "2026-10-06T22:34:03+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+        "date": "2026-10-06T15:21:53-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+        "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+        "date": "2026-10-06T22:34:03+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "We’re Tracking October Prime Day Live (2026)",
+        "link": "https://www.wired.com/live/amazon-prime-day-live-tracker-october-06-2026/",
+        "date": "2026-10-06T20:47:43+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "How AI decision models could change content moderation",
+        "link": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+        "date": "2026-10-06T20:35:20+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+        "link": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+        "date": "2026-10-06T20:00:30+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Learn all about scaling, fundraising, founder how-tos, and more at TechCrunch Founder Summit, November 4",
+        "link": "https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/",
+        "date": "2026-10-06T16:18:45+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ramp": [
+      {
+        "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+        "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+        "date": "2026-10-06T22:34:03+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Light": [
+      {
+        "title": "Best Prime Day Digital Wall Calendar Deals: Skylight, Everblog, Apolosign (2026)",
+        "link": "https://www.wired.com/story/prime-day-digital-wall-calendar-deals-10-06-2026/",
+        "date": "2026-10-06T21:30:41+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Sea Turtle": [
+      {
+        "title": "Silicon Valley’s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet",
+        "link": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/",
+        "date": "2026-10-06T20:47:01+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+        "date": "2026-10-06T20:32:58+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+        "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+        "date": "2026-10-06T10:52:55+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+        "date": "2026-10-06T20:32:58+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Payload": [
+      {
+        "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+        "date": "2026-10-06T20:32:58+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+        "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+        "date": "2026-10-06T10:52:55+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Critical Healthcare Systems Aren't Quantum-Ready",
+        "link": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
+        "date": "2026-10-06T20:30:27+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Shark": [
+      {
+        "title": "Best Amazon Prime Day Vacuum Deals: Dyson, Shark, and Robot Vacuums (2026)",
+        "link": "https://www.wired.com/story/prime-day-vacuum-deals-10-06-2026/",
+        "date": "2026-10-06T20:06:46+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Lambda": [
+      {
+        "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+        "link": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+        "date": "2026-10-06T20:00:30+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Ako": [
+      {
+        "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets &amp; Security Teams",
+        "link": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
+        "date": "2026-10-06T17:15:24+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets &amp; Security Teams",
+        "link": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
+        "date": "2026-10-06T17:15:24+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Defender": [
+      {
+        "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
+        "link": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
+        "date": "2026-10-06T16:59:24+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Turla": [
+      {
+        "title": "Learn all about scaling, fundraising, founder how-tos, and more at TechCrunch Founder Summit, November 4",
+        "link": "https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/",
+        "date": "2026-10-06T16:18:45+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+        "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+        "date": "2026-10-06T16:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "ATLAS": [
+      {
+        "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+        "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+        "date": "2026-10-06T13:34:59-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+        "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+        "date": "2026-10-06T12:28:56+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Critical Arbitrary File Read Vulnerability in Atlassian Data Center Products (CVE-2026-21589)",
+        "link": "https://labs.beazley.security/advisories/BSL-A1224",
+        "date": "2026-10-06T05:00:00.000Z",
+        "source": "Beazley Security Labs Advisories"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+        "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+        "date": "2026-10-06T13:34:59-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
+        "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+        "date": "2026-10-05T21:25:08+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "One year later: the power of 1.1.1.1 interns",
+        "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+        "date": "2026-10-05T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+        "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+        "date": "2026-10-06T12:33:54-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Hunt": [
+      {
+        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+        "date": "2026-10-06T12:26:57+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Hunters": [
+      {
+        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+        "date": "2026-10-06T12:26:57+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "ShinyHunters": [
+      {
+        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+        "date": "2026-10-06T12:26:57+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Survey": [
+      {
+        "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
+        "link": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+        "date": "2026-10-06T12:00:31+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Blind": [
+      {
+        "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
+        "link": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+        "date": "2026-10-06T10:00:33+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "Thor": [
+      {
+        "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+        "link": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+        "date": "2026-10-06T07:31:48-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "ONI": [
+      {
+        "title": "Critical Server-Side Request Forgery Vulnerability in SonicWall SMA1000 (CVE-2026-102255)",
+        "link": "https://labs.beazley.security/advisories/BSL-A1223",
+        "date": "2026-10-06T05:00:00.000Z",
+        "source": "Beazley Security Labs Advisories"
+      }
+    ],
+    "Spectre": [
+      {
+        "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+        "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+        "date": "2026-10-05T19:50:43+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Anony": [
+      {
+        "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+        "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+        "date": "2026-10-05T13:19:53-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "One": [
+      {
+        "title": "One year later: the power of 1.1.1.1 interns",
+        "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+        "date": "2026-10-05T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Root": [
+      {
+        "title": "New Dell System Update flaw lets hackers gain root privileges",
+        "link": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+        "date": "2026-10-05T10:53:06-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ank": [
       {
         "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
         "link": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
@@ -383,80 +503,6 @@
         "source": "DarkReading"
       }
     ],
-    "Anony": [
-      {
-        "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
-        "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
-        "date": "2026-10-05T13:19:53-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Root": [
-      {
-        "title": "New Dell System Update flaw lets hackers gain root privileges",
-        "link": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
-        "date": "2026-10-05T10:53:06-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-        "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-        "date": "2026-10-03T20:08:46+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Introducing Web Search API via AI Gateway",
-        "link": "https://blog.cloudflare.com/introducing-web-search-api/",
-        "date": "2026-10-02T13:28:10+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-        "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-        "date": "2026-10-03T20:08:46+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Introducing Workers KV Instant — powered by Quicksilver",
-        "link": "https://blog.cloudflare.com/workers-kv-instant/",
-        "date": "2026-10-01T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "MI5": [
-      {
-        "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-        "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-        "date": "2026-10-03T20:08:46+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Warlock": [
-      {
-        "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-        "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-        "date": "2026-10-03T20:06:33+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
-        "date": "2026-10-01T13:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
-        "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-        "date": "2026-10-03T19:12:34-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Emotet": [
       {
         "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
@@ -465,44 +511,20 @@
         "source": "DarkReading"
       }
     ],
+    "Deadeye Jackal": [
+      {
+        "title": "Introducing Web Search API via AI Gateway",
+        "link": "https://blog.cloudflare.com/introducing-web-search-api/",
+        "date": "2026-10-02T13:28:10+00:00",
+        "source": "Cloudflare"
+      }
+    ],
     "Protected": [
       {
         "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
         "link": "https://blog.cloudflare.com/protected-quick-tunnels/",
         "date": "2026-10-02T13:00:00+00:00",
         "source": "Cloudflare"
-      }
-    ],
-    "Mimic": [
-      {
-        "title": "Malicious Linux Implants Mimic Asian Mail Security Products",
-        "link": "https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security",
-        "date": "2026-10-02T13:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Killsec": [
-      {
-        "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
-        "date": "2026-10-01T21:37:50+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Conti": [
-      {
-        "title": "Memory executives expect RAM shortage to continue through 2028",
-        "link": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
-        "date": "2026-10-01T17:49:56+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "global": [
-      {
-        "title": "SASE in the AI Era: Why Secure Global Connectivity Matters More Than Ever",
-        "link": "https://blog.checkpoint.com/harmony-sase/sase-in-the-ai-era-why-secure-global-connectivity-matters-more-than-ever/",
-        "date": "2026-10-01T13:02:57+00:00",
-        "source": "Check Point"
       }
     ]
   }

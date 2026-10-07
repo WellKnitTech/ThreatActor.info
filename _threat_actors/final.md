@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Jaguar Finally Reveals Its Biggest Gamble: the Type 01](https://www.wired.com/story/jaguar-finally-reveals-its-biggest-gamble-the-type-01/)
+  Wired - 2026-10-07T
+

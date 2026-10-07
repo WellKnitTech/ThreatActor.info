@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach](https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html)
-  The Hacker News - 2026-10-06T
-- [Sony Coupons: 45% Off Sony Headphones and Sony Cameras October 2026](https://www.wired.com/story/sony-promo-code/)
+- [Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product](https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/)
+  TechCrunch - 2026-10-06T
+- [We’re Tracking October Prime Day Live (2026)](https://www.wired.com/live/amazon-prime-day-live-tracker-october-06-2026/)
   Wired - 2026-10-06T
-- [ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes](https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes)
-  DarkReading - 2026-10-05T
-- [⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests](https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html)
-  The Hacker News - 2026-10-05T
-- [At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI](https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/)
-  TechCrunch - 2026-10-05T
+- [How AI decision models could change content moderation](https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/)
+  TechCrunch - 2026-10-06T
+- [AI computing startup Lambda to raise $4B ahead of planned IPO](https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/)
+  TechCrunch - 2026-10-06T
+- [Learn all about scaling, fundraising, founder how-tos, and more at TechCrunch Founder Summit, November 4](https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/)
+  TechCrunch - 2026-10-06T
 

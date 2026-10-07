@@ -33,6 +33,10 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Spotify expands audiobooks to over 180 markets](https://techcrunch.com/2026/10/07/spotify-expands-audiobooks-to-over-180-markets/)
+  TechCrunch - 2026-10-07T
+- [India’s JioHotstar takes partnership route for Middle East expansion](https://techcrunch.com/2026/10/06/indias-jiohotstar-takes-partnership-route-for-middle-east-expansion/)
+  TechCrunch - 2026-10-06T
 - [The Credential Layer Is Expanding Faster Than Security Teams Can See It](https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html)
   The Hacker News - 2026-10-05T
 - [Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure](https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/)

@@ -35,9 +35,3 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI](https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/)
-  TechCrunch - 2026-10-05T
-

@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- ['BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates](https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates)
+  DarkReading - 2026-10-06T
+

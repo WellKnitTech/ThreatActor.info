@@ -33,6 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google Gemini could soon get full access to your Mac’s files, apps and the web](https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/)
-  BleepingComputer - 2026-10-03T
+- [Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes](https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html)
+  The Hacker News - 2026-10-07T
+- [Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes](https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/)
+  BleepingComputer - 2026-10-06T
 

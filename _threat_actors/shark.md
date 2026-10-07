@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Amazon Prime Day Vacuum Deals: Dyson, Shark, and Robot Vacuums (2026)](https://www.wired.com/story/prime-day-vacuum-deals-10-06-2026/)
+  Wired - 2026-10-06T
+

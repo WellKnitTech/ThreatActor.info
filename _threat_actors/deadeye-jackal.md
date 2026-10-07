@@ -44,8 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
-  The Hacker News - 2026-10-03T
 - [Introducing Web Search API via AI Gateway](https://blog.cloudflare.com/introducing-web-search-api/)
   Cloudflare - 2026-10-02T
 

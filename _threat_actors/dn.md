@@ -30,3 +30,13 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer](https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html)
+  The Hacker News - 2026-10-07T
+- [Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes](https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html)
+  The Hacker News - 2026-10-07T
+- [Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes](https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/)
+  BleepingComputer - 2026-10-06T
+

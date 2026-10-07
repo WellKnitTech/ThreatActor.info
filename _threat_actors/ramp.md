@@ -30,3 +30,9 @@ Ramp is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product](https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/)
+  TechCrunch - 2026-10-06T
+

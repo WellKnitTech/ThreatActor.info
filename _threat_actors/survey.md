@@ -30,3 +30,9 @@ Ransomware Still in development, shows FileIce survey
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Licensing costs driving 90 percent of VMware users to explore options: Survey](https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/)
+  Ars Technica - 2026-10-06T
+

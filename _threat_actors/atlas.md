@@ -33,6 +33,10 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Atlassian warns of critical file-access flaw in Jira, Confluence](https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/)
+  BleepingComputer - 2026-10-06T
 - [Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products](https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html)
   The Hacker News - 2026-10-06T
+- [Critical Arbitrary File Read Vulnerability in Atlassian Data Center Products (CVE-2026-21589)](https://labs.beazley.security/advisories/BSL-A1224)
+  Beazley Security Labs Advisories - 2026-10-06T
 

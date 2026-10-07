@@ -30,11 +30,3 @@ Warlock is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html)
-  The Hacker News - 2026-10-03T
-- [Warlock Ransomware Hits Large Spanish, Portuguese Orgs](https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese)
-  DarkReading - 2026-10-01T
-

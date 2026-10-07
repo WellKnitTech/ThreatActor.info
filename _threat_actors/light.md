@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Prime Day Digital Wall Calendar Deals: Skylight, Everblog, Apolosign (2026)](https://www.wired.com/story/prime-day-digital-wall-calendar-deals-10-06-2026/)
+  Wired - 2026-10-06T
+

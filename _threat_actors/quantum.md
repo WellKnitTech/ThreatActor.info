@@ -30,3 +30,9 @@ Quantum is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Critical Healthcare Systems Aren't Quantum-Ready](https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready)
+  DarkReading - 2026-10-06T
+

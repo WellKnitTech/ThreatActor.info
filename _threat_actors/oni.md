@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Critical Server-Side Request Forgery Vulnerability in SonicWall SMA1000 (CVE-2026-102255)](https://labs.beazley.security/advisories/BSL-A1223)
+  Beazley Security Labs Advisories - 2026-10-06T
+

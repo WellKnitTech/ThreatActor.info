@@ -30,3 +30,9 @@ Ransomware Jigsaw Ransomware variant
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ASOS confirms data breach after “HACKED” in-app notifications](https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/)
+  BleepingComputer - 2026-10-06T
+
