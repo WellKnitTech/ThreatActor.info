@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [You Probably Aren’t Going to Get the Plague](https://www.wired.com/story/what-we-know-about-plague-russia/)
-  Wired - 2026-10-06T
-- [Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell](https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/)
-  TechCrunch - 2026-10-06T
-- [Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product](https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/)
-  TechCrunch - 2026-10-06T
-- [AI computing startup Lambda to raise $4B ahead of planned IPO](https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/)
-  TechCrunch - 2026-10-06T
-- [Apple AirPods Max 2 Are $120 Off Right Now During Prime Day (2026)](https://www.wired.com/story/apple-airpods-max-2-deal-october-2026/)
-  Wired - 2026-10-06T
+- [The Best Prime Day Apple Deals (2026) Are About to Expire](https://www.wired.com/story/best-prime-day-apple-deals-10-07-2026/)
+  Wired - 2026-10-08T
+- [Evolution of Web3 in Cloud Supply Chain Attacks](https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/)
+  Unit 42 - 2026-10-07T
+- [SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances](https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html)
+  The Hacker News - 2026-10-07T
+- [Four Compliance Frameworks, One Security Team. How Universities Can Stop Drowning in Regulatory Risk](https://www.rapid7.com/blog/post/it-compliance-frameworks-for-universities-drowning-in-regulatory-risk)
+  Rapid7 - 2026-10-07T
+- [Greenairy is building smart plant towers to clean the air in your office](https://techcrunch.com/2026/10/07/greenairy-is-building-smart-plant-towers-to-clean-the-air-in-your-office/)
+  TechCrunch - 2026-10-07T
 

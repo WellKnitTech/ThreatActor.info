@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Best Prime Day Digital Wall Calendar Deals: Skylight, Everblog, Apolosign (2026)](https://www.wired.com/story/prime-day-digital-wall-calendar-deals-10-06-2026/)
-  Wired - 2026-10-06T
+- [The Science Behind the Nobel-Winning Technology That Controls Neurons With Light](https://www.wired.com/story/the-science-behind-the-nobel-winning-technology-that-controls-neurons-with-light/)
+  Wired - 2026-10-07T
 

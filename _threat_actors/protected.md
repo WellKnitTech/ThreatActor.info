@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Protected Quick Tunnels: simple accountless authentication for your next dev project](https://blog.cloudflare.com/protected-quick-tunnels/)
-  Cloudflare - 2026-10-02T
-

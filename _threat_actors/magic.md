@@ -30,3 +30,9 @@ Ransomware Based on EDA2
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search ](https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026)
+  Elastic - 2026-10-07T
+

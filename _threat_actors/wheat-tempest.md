@@ -30,3 +30,9 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [CIA officer admits to creating fake top secret government program to steal over $190M, including gold bars](https://techcrunch.com/2026/10/07/cia-officer-admits-to-creating-fake-top-secret-government-program-to-steal-over-190-million-including-gold-bars/)
+  TechCrunch - 2026-10-07T
+

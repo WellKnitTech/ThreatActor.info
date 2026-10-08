@@ -33,6 +33,12 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [The 28 Best Prime Day Tech Deals Will Expire Tonight](https://www.wired.com/story/best-prime-day-tech-deals-10-07-2026/)
+  Wired - 2026-10-07T
+- [SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances](https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html)
+  The Hacker News - 2026-10-07T
+- [SonicWall warns of max severity SSRF flaw in SMA1000 gateways](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/)
+  BleepingComputer - 2026-10-07T
 - [Critical Server-Side Request Forgery Vulnerability in SonicWall SMA1000 (CVE-2026-102255)](https://labs.beazley.security/advisories/BSL-A1223)
   Beazley Security Labs Advisories - 2026-10-06T
 

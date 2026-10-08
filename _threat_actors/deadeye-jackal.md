@@ -44,6 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Introducing Web Search API via AI Gateway](https://blog.cloudflare.com/introducing-web-search-api/)
-  Cloudflare - 2026-10-02T
+- [Tropical Storm Isaias Set to Be First Atlantic Hurricane of 2026 Season](https://www.wired.com/story/tropical-storm-isaias-first-atlantic-hurricane-2026/)
+  Wired - 2026-10-07T
+- [Nous Research confirms it hit $1.5B valuation, launches AI agents for business users](https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/)
+  TechCrunch - 2026-10-07T
+- [Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search ](https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026)
+  Elastic - 2026-10-07T
 

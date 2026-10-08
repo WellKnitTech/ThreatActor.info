@@ -33,8 +33,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product](https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/)
-  TechCrunch - 2026-10-06T
+- [Tropical Storm Isaias Set to Be First Atlantic Hurricane of 2026 Season](https://www.wired.com/story/tropical-storm-isaias-first-atlantic-hurricane-2026/)
+  Wired - 2026-10-07T
 - [Hackers exploit 32 zero-days on first day of Pwn2Own Ireland](https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/)
   BleepingComputer - 2026-10-06T
 
