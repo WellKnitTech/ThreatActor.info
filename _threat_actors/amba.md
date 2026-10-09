@@ -30,3 +30,9 @@ Ransomware Websites only amba@riseup.net
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Elon Musk questions Ambani’s influence as Starlink India launch stalls](https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/)
+  TechCrunch - 2026-10-08T
+

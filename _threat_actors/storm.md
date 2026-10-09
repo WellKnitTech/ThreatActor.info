@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Tropical Storm Isaias Set to Be First Atlantic Hurricane of 2026 Season](https://www.wired.com/story/tropical-storm-isaias-first-atlantic-hurricane-2026/)
-  Wired - 2026-10-07T
-

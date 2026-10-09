@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks](https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html)
-  The Hacker News - 2026-10-08T
-- [MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data](https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html)
-  The Hacker News - 2026-10-08T
-- [Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm](https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html)
-  The Hacker News - 2026-10-08T
-- [50 Best Last Minute Prime Day Deals You Can Still Shop Today (2026)](https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-07-2026/)
-  Wired - 2026-10-08T
-- [India rejects Elon Musk’s claim of discrimination over Starlink launch](https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/)
-  TechCrunch - 2026-10-08T
+- [FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions](https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html)
+  The Hacker News - 2026-10-09T
+- [30% VistaPrint Coupon & Promo Codes | October 2026](https://www.wired.com/story/vistaprint-coupon-code/)
+  Wired - 2026-10-09T
+- [Herman Miller Promo Codes: 40% Off October 2026](https://www.wired.com/story/herman-miller-promo-code/)
+  Wired - 2026-10-09T
+- [H&R Block Coupon: 25% Off DIY + Tax Pro Assist](https://www.wired.com/story/hr-block-coupon/)
+  Wired - 2026-10-09T
+- [Chewy Promo Codes: $20 Off October 2026](https://www.wired.com/story/chewy-promo-code/)
+  Wired - 2026-10-09T
 

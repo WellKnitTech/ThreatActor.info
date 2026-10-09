@@ -33,8 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [30 Best Amazon Prime Day Deals Under $50 (October 2026)](https://www.wired.com/story/best-amazon-prime-day-deals-under-50-10-06-2026/)
-  Wired - 2026-10-07T
-- [The keys to the Internet change on October 11. Are you ready?](https://blog.cloudflare.com/root-ksk-2024-rollover/)
-  Cloudflare - 2026-10-06T
+- [30% VistaPrint Coupon & Promo Codes | October 2026](https://www.wired.com/story/vistaprint-coupon-code/)
+  Wired - 2026-10-09T
+- [Herman Miller Promo Codes: 40% Off October 2026](https://www.wired.com/story/herman-miller-promo-code/)
+  Wired - 2026-10-09T
+- [Chewy Promo Codes: $20 Off October 2026](https://www.wired.com/story/chewy-promo-code/)
+  Wired - 2026-10-09T
+- [Instacart Promo Code: $15 Off | October 2026](https://www.wired.com/story/instacart-promo/code/)
+  Wired - 2026-10-09T
+- [Valvoline Coupons and Promo Codes for October 2026](https://www.wired.com/story/valvoline-coupons/)
+  Wired - 2026-10-09T
 

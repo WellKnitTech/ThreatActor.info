@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Best Shark Prime Day Vacuum Deals (2026)](https://www.wired.com/story/shark-prime-day-vacuum-deals-10-07-2026/)
-  Wired - 2026-10-07T
-

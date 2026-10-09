@@ -30,11 +30,3 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Tropical Storm Isaias Set to Be First Atlantic Hurricane of 2026 Season](https://www.wired.com/story/tropical-storm-isaias-first-atlantic-hurricane-2026/)
-  Wired - 2026-10-07T
-- [Hackers exploit 32 zero-days on first day of Pwn2Own Ireland](https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/)
-  BleepingComputer - 2026-10-06T
-

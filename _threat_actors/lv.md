@@ -33,6 +33,8 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Valvoline Coupons and Promo Codes for October 2026](https://www.wired.com/story/valvoline-coupons/)
+  Wired - 2026-10-09T
 - [ClickFix Attacks Evolve to Better Hide Malicious Payloads](https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads)
   DarkReading - 2026-10-06T
 

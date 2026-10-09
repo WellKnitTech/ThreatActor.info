@@ -37,3 +37,9 @@ Flax Typhoon is a Chinese state-sponsored threat actor that primarily targets or
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions](https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html)
+  The Hacker News - 2026-10-09T
+

@@ -35,8 +35,4 @@ Ransomware Jigsaw Ransomware variant
 
 - [Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland](https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/)
   BleepingComputer - 2026-10-08T
-- [Shaq Got Hacked. Now He’s Pitching for a VPN](https://www.wired.com/story/how-a-weirdly-chill-celebrity-thinks-about-personal-cybersecurity/)
-  Wired - 2026-10-07T
-- [ASOS confirms data breach after “HACKED” in-app notifications](https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/)
-  BleepingComputer - 2026-10-06T
 
