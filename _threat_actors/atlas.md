@@ -35,6 +35,4 @@ Ransomware
 
 - [CVE-2026-21589: Critical unauthenticated arbitrary file access in Atlassian products](https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products)
   Rapid7 - 2026-10-07T
-- [Critical Arbitrary File Read Vulnerability in Atlassian Data Center Products (CVE-2026-21589)](https://labs.beazley.security/advisories/BSL-A1224)
-  Beazley Security Labs Advisories - 2026-10-06T
 

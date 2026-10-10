@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Lowe’s Promo Codes and Deals: Up to $300 Off Appliances](https://www.wired.com/story/lowes-promo-code/)
-  Wired - 2026-10-09T
-- [Livestream Replay: Watch ‘Uncanny Valley’ on Women, Tech, and Power](https://www.wired.com/story/come-see-uncanny-valley-live/)
-  Wired - 2026-10-09T
-- [Evolution of Web3 in Cloud Supply Chain Attacks](https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/)
-  Unit 42 - 2026-10-07T
-- [SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances](https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html)
-  The Hacker News - 2026-10-07T
-- [Four compliance frameworks, one security team: Why fragmented university security raises regulatory risk](https://www.rapid7.com/blog/post/it-compliance-frameworks-for-universities-drowning-in-regulatory-risk)
-  Rapid7 - 2026-10-07T
+- [Disney Plus Discount Codes: 52% Off October 2026](https://www.wired.com/story/disney-plus-discounts/)
+  Wired - 2026-10-10T
+- [Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories](https://thehackernews.com/2026/10/credential-stealing-github-actions.html)
+  The Hacker News - 2026-10-10T
+- [P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands](https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html)
+  The Hacker News - 2026-10-09T
+- [Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access](https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html)
+  The Hacker News - 2026-10-09T
+- [Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash](https://blog.cloudflare.com/clef-faster-cheaper-multimodal/)
+  Cloudflare - 2026-10-09T
 

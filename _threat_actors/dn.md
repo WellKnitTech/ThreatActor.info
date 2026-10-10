@@ -35,6 +35,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 
 - [FakeGit malware campaign returns with 17,610 malicious GitHub repos](https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/)
   BleepingComputer - 2026-10-08T
-- [Microsoft Teams to get support for third-party deepfake detection tools](https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/)
-  BleepingComputer - 2026-10-08T
 

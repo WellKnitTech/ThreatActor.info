@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions](https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html)
-  The Hacker News - 2026-10-09T
-- [FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails](https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html)
-  The Hacker News - 2026-10-09T
-- [ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories](https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html)
-  The Hacker News - 2026-10-08T
-- [ICE Emails Discuss Using Palantir-Supported Tool to Investigate Voter Fraud](https://www.wired.com/story/ice-emails-discuss-using-palantir-supported-tool-to-investigate-voter-fraud/)
-  Wired - 2026-10-08T
-- [UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML](https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html)
-  The Hacker News - 2026-10-08T
+- [Altra Running Promo Codes: 10% Off October 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-10-10T
+- [FBI Arrests Founder of Ransomware Negotiation Firm](https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/)
+  KrebsOnSecurity - 2026-10-10T
+- [AI Scramble Drives Cybersecurity M&amp;A Boom](https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom)
+  DarkReading - 2026-10-09T
+- [Batteries are now cheaper than natural gas turbines used at many data centers](https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/)
+  TechCrunch - 2026-10-09T
+- [TechCrunch Disrupt 2026: Gamma’s Grant Lee, Engine’s Elia Wallen, and GV’s Crystal Huang on landing your first 1,000 customers](https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-gammas-grant-lee-engines-elia-wallen-and-gvs-crystal-huang-on-landing-your-first-1000-customers/)
+  TechCrunch - 2026-10-09T
 

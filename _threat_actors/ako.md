@@ -30,9 +30,3 @@ Once installed, Ako will attempt to delete Volume Shadow Copies and disable reco
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [IANS' Kakolowski: How AI Is Reshaping CISO Budgets &amp; Security Teams](https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams)
-  DarkReading - 2026-10-06T
-

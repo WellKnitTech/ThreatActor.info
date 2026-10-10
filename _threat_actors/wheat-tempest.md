@@ -30,3 +30,9 @@ Microsoft threat actor profile. Origin/Threat: Financially motivated.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Dunking on Dating App Profiles Is Content Gold. People Are Getting Sick of It](https://www.wired.com/story/dunking-on-dating-app-profiles-is-content-gold-people-are-getting-sick-of-it/)
+  Wired - 2026-10-09T
+

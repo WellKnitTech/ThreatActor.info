@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [How Luna Moth Runs Data Extortion Like a Business](https://blog.checkpoint.com/security/how-luna-moth-runs-data-extortion-like-a-business/)
+  Check Point - 2026-10-09T
+

@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [AI Scramble Drives Cybersecurity M&amp;A Boom](https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom)
+  DarkReading - 2026-10-09T
+

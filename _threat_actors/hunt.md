@@ -34,6 +34,12 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack](https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html)
+  The Hacker News - 2026-10-09T
+- [What We Missed: FBI Strikes Back at ShinyHunters](https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack)
+  DarkReading - 2026-10-09T
+- [FBI arrests another suspected ShinyHunters hacker after agency breach](https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/)
+  BleepingComputer - 2026-10-09T
 - [ShinyHunters Extorted Boeing Spin-off Prior to Arrests](https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/)
   KrebsOnSecurity - 2026-10-07T
 

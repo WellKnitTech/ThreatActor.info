@@ -35,6 +35,4 @@ Ransomware
 
 - [Venezuelan Cartel's Malware Honcho Nabbed for ATM Jackpotting](https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting)
   DarkReading - 2026-10-08T
-- [16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases](https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html)
-  The Hacker News - 2026-10-08T
 

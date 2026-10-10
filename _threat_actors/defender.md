@@ -35,6 +35,4 @@ Ransomware
 
 - [Anthropic Gives Vetted Defenders Fewer Claude Guardrails](https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails)
   DarkReading - 2026-10-07T
-- ['BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates](https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates)
-  DarkReading - 2026-10-06T
 

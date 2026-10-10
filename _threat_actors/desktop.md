@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Best Mac Desktop to Buy (2026): Mac Mini, Mac Studio, or iMac?](https://www.wired.com/story/best-mac-desktop/)
+  Wired - 2026-10-09T
+

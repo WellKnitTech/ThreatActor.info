@@ -43,9 +43,3 @@ Tick is a cyber espionage group with likely Chinese origins that has been active
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML](https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html)
-  The Hacker News - 2026-10-08T
-

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions](https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html)
-  The Hacker News - 2026-10-09T
-- [30% VistaPrint Coupon & Promo Codes | October 2026](https://www.wired.com/story/vistaprint-coupon-code/)
-  Wired - 2026-10-09T
-- [Herman Miller Promo Codes: 40% Off October 2026](https://www.wired.com/story/herman-miller-promo-code/)
-  Wired - 2026-10-09T
-- [H&R Block Coupon: 25% Off DIY + Tax Pro Assist](https://www.wired.com/story/hr-block-coupon/)
-  Wired - 2026-10-09T
-- [Chewy Promo Codes: $20 Off October 2026](https://www.wired.com/story/chewy-promo-code/)
-  Wired - 2026-10-09T
+- [eBay Coupons: 20% Off in October 2026](https://www.wired.com/story/ebay-coupon-code/)
+  Wired - 2026-10-10T
+- [Altra Running Promo Codes: 10% Off October 2026](https://www.wired.com/story/altra-promo-code/)
+  Wired - 2026-10-10T
+- [Home Depot Promo Codes: 30% Off in October 2026](https://www.wired.com/story/home-depot-promo-code/)
+  Wired - 2026-10-10T
+- [Disney Plus Discount Codes: 52% Off October 2026](https://www.wired.com/story/disney-plus-discounts/)
+  Wired - 2026-10-10T
+- [30% Off Canon Promo Codes | October 2026](https://www.wired.com/story/canon-promo-code/)
+  Wired - 2026-10-10T
 

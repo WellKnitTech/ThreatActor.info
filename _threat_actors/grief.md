@@ -30,3 +30,9 @@ captcha prevents indexing
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [LumenUs helps automate tedious paperwork in times of grief](https://techcrunch.com/2026/10/09/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/)
+  TechCrunch - 2026-10-09T
+
