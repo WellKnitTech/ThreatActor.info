@@ -33,8 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Best Mac Desktop to Buy (2026): Mac Mini, Mac Studio, or iMac?](https://www.wired.com/story/best-mac-desktop/)
-  Wired - 2026-10-09T
 - [Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives](https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives)
   DarkReading - 2026-10-07T
 

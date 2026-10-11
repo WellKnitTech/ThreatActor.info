@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Best Lego Gifts for Brick Builders (2026): Smart Bricks, Video Games, and More](https://www.wired.com/gallery/gifts-for-lego-lovers/)
+  Wired - 2026-10-10T
+

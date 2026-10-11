@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [eBay Coupons: 20% Off in October 2026](https://www.wired.com/story/ebay-coupon-code/)
-  Wired - 2026-10-10T
-- [Altra Running Promo Codes: 10% Off October 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-10-10T
-- [Home Depot Promo Codes: 30% Off in October 2026](https://www.wired.com/story/home-depot-promo-code/)
-  Wired - 2026-10-10T
-- [Disney Plus Discount Codes: 52% Off October 2026](https://www.wired.com/story/disney-plus-discounts/)
-  Wired - 2026-10-10T
-- [30% Off Canon Promo Codes | October 2026](https://www.wired.com/story/canon-promo-code/)
-  Wired - 2026-10-10T
+- [P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands](https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html)
+  The Hacker News - 2026-10-11T
+- [Microsoft’s Satya Nadella says AI models need an ‘emergency brake’](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)
+  TechCrunch - 2026-10-10T
+- [Apple discloses deal to hire team and license tech from personalized podcast startup Huxe](https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/)
+  TechCrunch - 2026-10-10T
+- [Petra Power looks to modernize energy for data centers and defense vehicles](https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/)
+  TechCrunch - 2026-10-10T
+- [The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't](https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html)
+  The Hacker News - 2026-10-10T
 
