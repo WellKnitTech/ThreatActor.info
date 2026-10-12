@@ -33,6 +33,10 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Aaron Sorkin’s ‘Social Reckoning’ is off to a weak start](https://techcrunch.com/2026/10/11/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/)
+  TechCrunch - 2026-10-11T
+- [California’s Tallest and Most Iconic Trees Are Getting Heatstroke](https://www.wired.com/story/californias-tallest-and-most-iconic-trees-are-getting-heat-stroke/)
+  Wired - 2026-10-11T
 - [GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys](https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html)
   The Hacker News - 2026-10-09T
 - [Max severity SonicWall SMA1000 flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/)

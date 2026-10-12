@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft’s Satya Nadella says AI models need an ‘emergency brake’](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)
-  TechCrunch - 2026-10-10T
-- [Petra Power looks to modernize energy for data centers and defense vehicles](https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/)
-  TechCrunch - 2026-10-10T
-- [Cloudflare acquires Deno to improve its Workers programming model](https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/)
-  TechCrunch - 2026-10-10T
-- [The Best Smart Scales for Tracking Weight and Body Composition (2026)](https://www.wired.com/gallery/best-smart-scales/)
-  Wired - 2026-10-10T
-- [ARTEX AI, Claude agents used in cyberattacks on South Korean banks](https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/)
-  BleepingComputer - 2026-10-10T
+- [CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records](https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html)
+  The Hacker News - 2026-10-12T
+- [Efferon wants to eradicate the devastating toll of pediatric sepsis](https://techcrunch.com/2026/10/11/efferon-wants-to-eradicate-the-devastating-toll-of-pediatric-sepsis/)
+  TechCrunch - 2026-10-11T
+- [13 Best Gifts Every Traveler Should Have (2026)](https://www.wired.com/story/best-gifts-for-travelers/)
+  Wired - 2026-10-11T
+- [Nippon Columbia malware incident exposes 8.6 million karaoke fan records](https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/)
+  BleepingComputer - 2026-10-11T
+- [These Midterm Races Will Decide Data Centers’ Political Fate](https://www.wired.com/story/midterm-races-decide-data-centers-political-fate/)
+  Wired - 2026-10-11T
 

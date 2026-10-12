@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [eBay Coupons: 20% Off in October 2026](https://www.wired.com/story/ebay-coupon-code/)
-  Wired - 2026-10-10T
-- [Altra Running Promo Codes: 10% Off October 2026](https://www.wired.com/story/altra-promo-code/)
-  Wired - 2026-10-10T
 - [Home Depot Promo Codes: 30% Off in October 2026](https://www.wired.com/story/home-depot-promo-code/)
-  Wired - 2026-10-10T
-- [Disney Plus Discount Codes: 52% Off October 2026](https://www.wired.com/story/disney-plus-discounts/)
   Wired - 2026-10-10T
 - [30% Off Canon Promo Codes | October 2026](https://www.wired.com/story/canon-promo-code/)
   Wired - 2026-10-10T
+- [LG Promo Codes and Coupons for October 2026](https://www.wired.com/story/lg-promo-code/)
+  Wired - 2026-10-10T
+- [Disney Plus Discount Codes: 52% Off October 2026](https://www.wired.com/story/disney-plus-discounts/)
+  Wired - 2026-10-10T
+- [Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies](https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html)
+  The Hacker News - 2026-10-09T
 
