@@ -30,9 +30,3 @@ Payload is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [ClickFix Attacks Evolve to Better Hide Malicious Payloads](https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads)
-  DarkReading - 2026-10-06T
-

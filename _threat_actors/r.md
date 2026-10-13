@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records](https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html)
-  The Hacker News - 2026-10-12T
-- [The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know](https://techcrunch.com/2026/10/11/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/)
-  TechCrunch - 2026-10-12T
-- [Will the HomeView be Apple’s first smart home success?](https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/)
-  TechCrunch - 2026-10-11T
-- [Aaron Sorkin’s ‘Social Reckoning’ is off to a weak start](https://techcrunch.com/2026/10/11/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/)
-  TechCrunch - 2026-10-11T
-- [48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next](https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/)
-  TechCrunch - 2026-10-11T
+- [Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies](https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html)
+  The Hacker News - 2026-10-13T
+- [20% Off Samsung Promo Code | October 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-10-13T
+- [ExpressVPN Coupons: 80% Off](https://www.wired.com/story/expressvpn-coupons/)
+  Wired - 2026-10-13T
+- [Squarespace Promo Codes: 20% Off in October 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-10-13T
+- [Newegg Promo Codes and Coupons for October 2026](https://www.wired.com/story/newegg-promo-code/)
+  Wired - 2026-10-13T
 

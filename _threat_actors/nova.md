@@ -33,6 +33,6 @@ Rebrand of RALord
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Humans Watched This Supernova Explode Nearly a Millennium Ago. Now You Can See It in High Definition](https://www.wired.com/story/humans-watched-this-supernova-explode-nearly-a-millennium-ago-now-you-can-see-it-in-high-definition/)
-  Wired - 2026-10-10T
+- [Driven by Innovation: Our Latest Analyst Wins and Product Momentum in Network & AI Security](https://www.paloaltonetworks.com/blog/2026/10/driven-by-innovation-our-latest-analyst-wins-and-product-momentum-in-network-ai-security/)
+  Palo Alto Networks - 2026-10-08T
 

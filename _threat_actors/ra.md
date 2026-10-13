@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records](https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html)
-  The Hacker News - 2026-10-12T
-- [Efferon wants to eradicate the devastating toll of pediatric sepsis](https://techcrunch.com/2026/10/11/efferon-wants-to-eradicate-the-devastating-toll-of-pediatric-sepsis/)
-  TechCrunch - 2026-10-11T
-- [13 Best Gifts Every Traveler Should Have (2026)](https://www.wired.com/story/best-gifts-for-travelers/)
-  Wired - 2026-10-11T
-- [Nippon Columbia malware incident exposes 8.6 million karaoke fan records](https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/)
-  BleepingComputer - 2026-10-11T
-- [These Midterm Races Will Decide Data Centers’ Political Fate](https://www.wired.com/story/midterm-races-decide-data-centers-political-fate/)
-  Wired - 2026-10-11T
+- [Prominent Ransomware Negotiator Faces Extortion Charges](https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges)
+  DarkReading - 2026-10-12T
+- [Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him](https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/)
+  Wired - 2026-10-12T
+- [WindBorne wins a hefty US Air Force contract for its balloon data](https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/)
+  TechCrunch - 2026-10-12T
+- [This AI startup says it can generate permit-ready blueprints in minutes](https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/)
+  TechCrunch - 2026-10-12T
+- [Filter, reshape, and redact logs before export with Transformers](https://blog.cloudflare.com/transformers-on-logpush/)
+  Cloudflare - 2026-10-12T
 

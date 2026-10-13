@@ -33,10 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies](https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html)
+  The Hacker News - 2026-10-13T
+- [Honeyjar offers AI tools to improve PR and comms at every company](https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/)
+  TechCrunch - 2026-10-12T
+- [Peer Pressure Works on AI Agents: How One Change of Mind Can Tip the Whole Team](https://blog.checkpoint.com/security/peer-pressure-ai-agents/)
+  Check Point - 2026-10-12T
 - [Can the AI industry persuade data center opponents by getting rid of NDAs?](https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/)
   TechCrunch - 2026-10-11T
-- [Man admits to running network of 15,000 money mules for cybercriminals](https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/)
-  BleepingComputer - 2026-10-09T
 - [Four compliance frameworks, one security team: Why fragmented university security raises regulatory risk](https://www.rapid7.com/blog/post/it-compliance-frameworks-for-universities-drowning-in-regulatory-risk)
   Rapid7 - 2026-10-07T
 
