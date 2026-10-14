@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:55:37Z",
+  "generated_at": "2026-10-14T07:05:09Z",
   "actors": [
     {
       "kind": "actor",
@@ -48696,6 +48696,18 @@
     },
     {
       "kind": "technique",
+      "title": "DNS",
+      "mitre_id": "T0869.001",
+      "permalink": "/techniques/T0869.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Publish/Subscribe Protocols",
+      "mitre_id": "T0869.002",
+      "permalink": "/techniques/T0869.002/"
+    },
+    {
+      "kind": "technique",
       "title": "Execution through API",
       "mitre_id": "T0871",
       "permalink": "/techniques/T0871/"
@@ -50874,6 +50886,12 @@
     },
     {
       "kind": "technique",
+      "title": "Deliver Malicious Application via Other Means",
+      "mitre_id": "T1476",
+      "permalink": "/techniques/T1476/"
+    },
+    {
+      "kind": "technique",
       "title": "Execution Guardrails",
       "mitre_id": "T1480",
       "permalink": "/techniques/T1480/"
@@ -53034,6 +53052,12 @@
     },
     {
       "kind": "technique",
+      "title": "AI Result Poisoning",
+      "mitre_id": "T1608.007",
+      "permalink": "/techniques/T1608.007/"
+    },
+    {
+      "kind": "technique",
       "title": "Container Administration Command",
       "mitre_id": "T1609",
       "permalink": "/techniques/T1609/"
@@ -53712,6 +53736,12 @@
     },
     {
       "kind": "technique",
+      "title": "Impair Autonomous Defenses",
+      "mitre_id": "T1685.007",
+      "permalink": "/techniques/T1685.007/"
+    },
+    {
+      "kind": "technique",
       "title": "Disable or Modify System Firewall",
       "mitre_id": "T1686",
       "permalink": "/techniques/T1686/"
@@ -53853,6 +53883,90 @@
       "title": "Wi-Fi",
       "mitre_id": "T1695.003",
       "permalink": "/techniques/T1695.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "Anti-Automation Evasion",
+      "mitre_id": "T1696",
+      "permalink": "/techniques/T1696/"
+    },
+    {
+      "kind": "technique",
+      "title": "Automate CAPTCHA Completion",
+      "mitre_id": "T1696.001",
+      "permalink": "/techniques/T1696.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Avoid CAPTCHA",
+      "mitre_id": "T1696.002",
+      "permalink": "/techniques/T1696.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Steal Application Specific Passwords",
+      "mitre_id": "T1697",
+      "permalink": "/techniques/T1697/"
+    },
+    {
+      "kind": "technique",
+      "title": "Indirect Prompt Injection",
+      "mitre_id": "T1698",
+      "permalink": "/techniques/T1698/"
+    },
+    {
+      "kind": "technique",
+      "title": "Direct Prompt Injection",
+      "mitre_id": "T1699",
+      "permalink": "/techniques/T1699/"
+    },
+    {
+      "kind": "technique",
+      "title": "AI-Enabled Exfiltration",
+      "mitre_id": "T1700",
+      "permalink": "/techniques/T1700/"
+    },
+    {
+      "kind": "technique",
+      "title": "Command and Scripting Interpreter",
+      "mitre_id": "T1701",
+      "permalink": "/techniques/T1701/"
+    },
+    {
+      "kind": "technique",
+      "title": "PowerShell",
+      "mitre_id": "T1701.001",
+      "permalink": "/techniques/T1701.001/"
+    },
+    {
+      "kind": "technique",
+      "title": "Windows Command Shell",
+      "mitre_id": "T1701.002",
+      "permalink": "/techniques/T1701.002/"
+    },
+    {
+      "kind": "technique",
+      "title": "Unix Shell",
+      "mitre_id": "T1701.003",
+      "permalink": "/techniques/T1701.003/"
+    },
+    {
+      "kind": "technique",
+      "title": "Visual Basic",
+      "mitre_id": "T1701.004",
+      "permalink": "/techniques/T1701.004/"
+    },
+    {
+      "kind": "technique",
+      "title": "Python",
+      "mitre_id": "T1701.005",
+      "permalink": "/techniques/T1701.005/"
+    },
+    {
+      "kind": "technique",
+      "title": "JavaScript",
+      "mitre_id": "T1701.006",
+      "permalink": "/techniques/T1701.006/"
     }
   ],
   "campaigns": [

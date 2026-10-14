@@ -44,8 +44,10 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access](https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html)
-  The Hacker News - 2026-10-09T
-- [Elastic named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Search ](https://www.elastic.co/blog/elastic-leader-gartner-magic-quadrant-enterprise-ai-search-2026)
-  Elastic - 2026-10-07T
+- [Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave](https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html)
+  The Hacker News - 2026-10-14T
+- [Science Corporation implants its vision-restoring chip in its first Stargardt disease patient](https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/)
+  TechCrunch - 2026-10-13T
+- [Check Point Research Discovers High Risk Vulnerabilities in LiteLLM, One of the Most Widely Used LLM Gateways](https://blog.checkpoint.com/security/check-point-research-discovers-high-risk-vulnerabilities-in-litellm-one-of-the-most-widely-used-llm-gateways/)
+  Check Point - 2026-10-13T
 

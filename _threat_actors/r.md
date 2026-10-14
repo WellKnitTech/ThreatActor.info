@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies](https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html)
-  The Hacker News - 2026-10-13T
-- [20% Off Samsung Promo Code | October 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-10-13T
-- [ExpressVPN Coupons: 80% Off](https://www.wired.com/story/expressvpn-coupons/)
-  Wired - 2026-10-13T
-- [Squarespace Promo Codes: 20% Off in October 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-10-13T
-- [Newegg Promo Codes and Coupons for October 2026](https://www.wired.com/story/newegg-promo-code/)
-  Wired - 2026-10-13T
+- [Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave](https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html)
+  The Hacker News - 2026-10-14T
+- [Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug](https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html)
+  The Hacker News - 2026-10-14T
+- [OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room](https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html)
+  The Hacker News - 2026-10-14T
+- [Walgreens Photo Coupons: Up to 70% Off This October](https://www.wired.com/story/walgreens-photo-coupon/)
+  Wired - 2026-10-14T
+- [Castlery Promo Codes: 15% Off for October 2026](https://www.wired.com/story/castlery-promo-code/)
+  Wired - 2026-10-14T
 

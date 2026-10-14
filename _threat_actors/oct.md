@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [20% Off Samsung Promo Code | October 2026](https://www.wired.com/story/samsung-promo-codes/)
-  Wired - 2026-10-13T
-- [Squarespace Promo Codes: 20% Off in October 2026](https://www.wired.com/story/squarespace-promo-code/)
-  Wired - 2026-10-13T
-- [Newegg Promo Codes and Coupons for October 2026](https://www.wired.com/story/newegg-promo-code/)
-  Wired - 2026-10-13T
-- [B&H Photo Promo Codes and Deals This October 2026](https://www.wired.com/story/bh-photo-coupon/)
-  Wired - 2026-10-13T
-- [Booking.com Promo Codes: 20% Off | October 2026](https://www.wired.com/story/booking-com-promo-code/)
-  Wired - 2026-10-13T
+- [Walgreens Photo Coupons: Up to 70% Off This October](https://www.wired.com/story/walgreens-photo-coupon/)
+  Wired - 2026-10-14T
+- [Castlery Promo Codes: 15% Off for October 2026](https://www.wired.com/story/castlery-promo-code/)
+  Wired - 2026-10-14T
+- [Tuft & Needle Promo Codes: 30% Off | October 2026](https://www.wired.com/story/tuft-and-needle-promo-code/)
+  Wired - 2026-10-14T
+- [Dyson Promo Codes: 25% Off in October 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-10-14T
+- [Corsair Discount Code: Up to 50% Off for October 2026](https://www.wired.com/story/corsair-coupon/)
+  Wired - 2026-10-14T
 

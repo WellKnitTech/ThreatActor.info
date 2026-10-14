@@ -23,12 +23,6 @@
       "domain": "ics"
     }
   ],
-  "T0807": [
-    {
-      "tactic_id": "TA0104",
-      "domain": "ics"
-    }
-  ],
   "T0809": [
     {
       "tactic_id": "TA0107",
@@ -273,12 +267,6 @@
       "domain": "ics"
     }
   ],
-  "T0853": [
-    {
-      "tactic_id": "TA0104",
-      "domain": "ics"
-    }
-  ],
   "T0858": [
     {
       "tactic_id": "TA0104",
@@ -358,6 +346,18 @@
     }
   ],
   "T0869": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "ics"
+    }
+  ],
+  "T0869.001": [
+    {
+      "tactic_id": "TA0101",
+      "domain": "ics"
+    }
+  ],
+  "T0869.002": [
     {
       "tactic_id": "TA0101",
       "domain": "ics"
@@ -2917,6 +2917,12 @@
       "domain": "mobile"
     }
   ],
+  "T1476": [
+    {
+      "tactic_id": "TA0108",
+      "domain": "mobile"
+    }
+  ],
   "T1480": [
     {
       "tactic_id": "TA0005",
@@ -5461,6 +5467,12 @@
       "domain": "enterprise"
     }
   ],
+  "T1608.007": [
+    {
+      "tactic_id": "TA0042",
+      "domain": "enterprise"
+    }
+  ],
   "T1609": [
     {
       "tactic_id": "TA0104",
@@ -6171,6 +6183,12 @@
       "domain": "enterprise"
     }
   ],
+  "T1685.007": [
+    {
+      "tactic_id": "TA0112",
+      "domain": "enterprise"
+    }
+  ],
   "T1686": [
     {
       "tactic_id": "TA0112",
@@ -6360,6 +6378,90 @@
   "T1695.003": [
     {
       "tactic_id": "TA0107",
+      "domain": "ics"
+    }
+  ],
+  "T1696": [
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
+  ],
+  "T1696.001": [
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
+  ],
+  "T1696.002": [
+    {
+      "tactic_id": "TA0005",
+      "domain": "enterprise"
+    }
+  ],
+  "T1697": [
+    {
+      "tactic_id": "TA0031",
+      "domain": "enterprise"
+    }
+  ],
+  "T1698": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
+  ],
+  "T1699": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "enterprise"
+    }
+  ],
+  "T1700": [
+    {
+      "tactic_id": "TA0036",
+      "domain": "enterprise"
+    }
+  ],
+  "T1701": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T1701.001": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T1701.002": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T1701.003": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T1701.004": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T1701.005": [
+    {
+      "tactic_id": "TA0104",
+      "domain": "ics"
+    }
+  ],
+  "T1701.006": [
+    {
+      "tactic_id": "TA0104",
       "domain": "ics"
     }
   ]
