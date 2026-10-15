@@ -33,9 +33,3 @@ ShinyHunters is a cybercriminal group of unknown origin that is motivated by fin
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [What We Missed: FBI Strikes Back at ShinyHunters](https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack)
-  DarkReading - 2026-10-09T
-

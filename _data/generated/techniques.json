@@ -932,12 +932,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may communicate using the Domain Name System (DNS) application layer protocol to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.\nThe DNS protocol serves an administrative function in computer networking and thus may be very common in environments. DNS traffic may also be allowed even before network authentication is completed. DNS packets contain many fields and headers in which data can be concealed. Often known as DNS tunneling, adversaries may abuse DNS to communicate with systems under their control within a victim network while also mimicking normal, expected traffic.(Citation: PAN DNS Tunneling)(Citation: Medium DnsTunneling)\n\nDNS beaconing may be used to send commands to remote systems via DNS queries. A DNS beacon is created by tunneling DNS traffic (i.e. Protocol Tunneling). The commands may be embedded into different DNS records, for example, TXT or A records.(Citation: OilRig Uses Updated BONDUPDATER to Target Middle Eastern Government)\n DNS beacons may be difficult to detect because the beacons infrequently communicate with infected devices.(Citation: DNS Beacons) Infrequent communication conceals the malicious DNS traffic with normal DNS traffic.\n\nAdversaries may also use DNS over TLS (DoT) or HTTPS (DoH) for resolving C2 servers. This encrypts the DNS requests and allows the malware to lookup C2 servers without being detected by security systems (e.g., DNS filtering based on indicators of compromise). \n",
     "tactic_ids": [
       "TA0101"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Publish/Subscribe Protocols",
@@ -948,12 +948,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may communicate using publish/subscribe (pub/sub) application layer protocols to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and broker.\n\nProtocols such as MQTT are widely used in Internet-of-Things (IoT) and operational technology environments where devices are resource constrained and there is limited or unreliable network bandwidth. The protocol follows a publish/subscribe design, with message distribution managed by a centralized broker. Publishers categorize their messages by topics, while subscribers receive messages according to their subscribed topics. An adversary may abuse publish/subscribe protocols to communicate with systems under their control from behind a message broker while also blending in with normal, expected traffic.\n",
     "tactic_ids": [
       "TA0101"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Execution through API",
@@ -6866,12 +6866,12 @@
       "mobile"
     ],
     "domain": "mobile",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may direct victims to download malicious applications via ways that avoid an authorized application store (e.g. Google Play Store or Apple App Store). For example, victims may be directed to downloading  a malicious APK directly from a domain. Adversaries may wish to avoid placing malicious applications in an authorized application store due to increased potential risk of detection or other reasons.\n\nDelivery methods for malicious applications include:\n\n* Spearphishing Attachment: including the mobile application package as an attachment to an email\n* Spearphishing Link: including a link to the mobile application package within an email, text message (e.g. SMS, iMessage, WhatsApp, etc.), web site, QR code, or other means.\n* Third-Party Application Store: installing the mobile application package from a third-party application store, as opposed to an authorized app store that the device implicitly trusts as part of its default behavior. Third-party application stores may not apply the same level of scrutiny to applications as enforced by an authorized application store.(Citation: IBTimes-ThirdParty)(Citation: TrendMicro-RootingMalware)(Citation: TrendMicro-FlappyBird) \n\nSome Android malware comes with functionality to install additional applications, either automatically or when the adversary instructs it to.(Citation: android-trojan-steals-paypal-2fa)",
     "tactic_ids": [
       "TA0108"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Execution Guardrails",
@@ -12738,12 +12738,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may manipulate publicly accessible web content to influence generative AI systems or AI-powered search engines into retrieving, citing, or recommending attacker-controlled information.(Citation: Digiday AI Result Poisoning)(Citation: Netcraft AI Summaries)\n\nUnlike traditional SEO Poisoning, which primarily attempts to influence the ordering of conventional search results, AI Result Poisoning targets systems that synthesize information from multiple sources and provide a direct answer to the user. Adversaries may create malicious or misleading websites, publish fabricated claims, generate supporting articles, or establish multiple apparently independent sources that reinforce the same information. These sources may then be retrieved by AI systems using web search or retrieval-augmented generation and incorporated into generated responses. \n\nAdversaries may use this technique to recommend or link to phishing sites, fraudulent online stores, malicious downloads, impersonation pages, or other attacker-controlled infrastructure.(Citation: dev.to Abusing AI Chatbot Recommendations)(Citation: darkreading geo poisoning)(Citation: darkreading ai result poisoning) It can also be used to promote misinformation or fabricated claims without requiring access to the underlying AI model, system prompt, or application infrastructure.(Citation: Lasso Security AI Engine Poisoning) Because the malicious content can resemble ordinary marketing, editorial, or informational material, traditional prompt injection and malware-focused detections may not identify the activity. ",
     "tactic_ids": [
       "TA0042"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Container Administration Command",
@@ -14570,12 +14570,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may use methods like Indirect Prompt Injection to disrupt, disable, or otherwise impair autonomous defensive capabilities such as LLM-assisted processing of malware, artifacts, or activity.(Citation: Prompt Injection LLM-Powered SOC Assistants) This behavior may cause a system to ignore data, fail to alert on malicious activity, abort analysis, or to be disabled completely. \n\nAdversaries may include content in malware implants that mimic an LLM prompt scaffold that contains fake system messages in order to convince the LLM that it has encountered an error.(Citation: MacOS.Gaslight Prompt Injection)(Citation: Gaslight AI triage prompt injection) Depending on the type of error, the LLM may abort analysis, truncate, or refuse to continue. Adversaries may also embed prompts in malware intended to stop agents or systems from analyzing the malware.(Citation: Shai-Hulud May 2026) ",
     "tactic_ids": [
       "TA0112"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Disable or Modify System Firewall",
@@ -14982,12 +14982,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may employ various means to evade or complete automation checks. Automation checks distinguish human users from bot traffic and prevent bots from reaching the web pages protected by automation checks. For example, a user may be required to solve a CAPTCHA challenge before accessing a form or login page. Traditional CAPTCHAs ask the user to decipher a string of characters, type the characters into a box, and submit the form. reCAPTCHA asks the user to identify images, click a checkbox, or evaluate the user’s behavior from mouse movement and device cookies.(Citation: CAPTCHAS Cloudflare) \n\nAdversaries may pay for a service that forwards the CAPTCHA challenge to a remote human worker. The human service then solves the CAPTCHA on behalf of the bot.(Citation: CAPTCHA Bypass) AI tools, such as CapSolver, can also be used to automatically solve CAPTCHA challenges.(Citation: Capsolver) ",
     "tactic_ids": [
       "TA0005"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Automate CAPTCHA Completion",
@@ -14998,12 +14998,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may attempt to use bots to successfully solve CAPTCHA challenges. CAPTCHA challenges are typically used by defenders to detect and prevent bot and spam traffic from accessing protected webpages. CAPTCHAs are automated tests often placed before login screens or form fields. Traditional CAPTCHAs ask the user to decipher a string of characters, type the characters into a box, and submit the form. reCAPTCHA asks the user to identify images, click a checkbox, or evaluate the user’s behavior from mouse movement and device cookies.(Citation: CAPTCHAS Cloudflare) \n\nAdversaries may use scripts or toolkits to automatically solve the CAPTCHA puzzle. For example, adversaries may develop a script that uses the ImageMagick toolkit to solve the CAPTCHA puzzles to then create multiple valid accounts. ImageMagick tool can convert the images into a RGB complemented image. The CAPTCHA challenge may be solved by identifying and comparing attributes of the RGB images to select the expected image.(Citation: Free Trial PurpleUrchin) Once the CAPTCHA challenge is solved, the adversary’s script may access the protected page. After accessing the protected the page, the adversary may submit valid forms to the target. ",
     "tactic_ids": [
       "TA0005"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Avoid CAPTCHA",
@@ -15014,12 +15014,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may avoid CAPTCHA challenges by mimicking human behavior. Automation tests, such as CAPTCHA, are typically used by defenders to detect and prevent bot and spam traffic from accessing protected webpages. CAPTCHAs are often placed before login screens or form fields. Traditional CAPTCHAs ask the user to decipher a string of characters, type the characters into a box, and submit the form. reCAPTCHA asks the user to identify images, click a checkbox, or evaluate the user’s behavior from mouse movement and device cookies.(Citation: CAPTCHAS Cloudflare) \n\nAdversaries may attempt to avoid CAPTCHA challenges by constructing a bot that mimics human behavior through browser automation. The automated browser may mimic a human by Masquerading a Browser Fingerprint and through attributes such as session history, IP reputation, and the use of browser APIs.(Citation: CAPTCHA Bypass Olostep) For example, adversaries may use Selenium browsers to simulate a human user. In the Selenium browsers, JavaScript is injected into the website’s Document Object Model (DOM). The injected script may modify browser attributes such as Audio Context and Voice engines, graphic rendering, installed fonts, and browser navigator objects.(Citation: Sentinel CAPTCHA Bypass)",
     "tactic_ids": [
       "TA0005"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Steal Application Specific Passwords",
@@ -15030,12 +15030,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may steal Application Specific Passwords (ASPs) to gain access to Valid Accounts, bypassing multifactor authentication (MFA) methods. ASPs are passwords typically used to give third-party applications or legacy devices (which do not support MFA methods) account access.(Citation: Application Specific Passwords)(Citation: Application Specific Passwords Push Sec) \n \nAn adversary may socially engineer a user into providing an ASP(Citation: UNC6293 ASP Creative Phishing Attack)(Citation: Application Specific Passwords Phishing) (using methods like Phishing for Information), generate an ASP for an already compromised account,(Citation: Mandiant APT42-untangling)(Citation: TAG APT42) or obtain an ASP stored on a system. Afterward, adversaries may use the ASP to access Valid Accounts and, in some cases, maintain Persistence, bypassing any form of MFA set on the account. ",
     "tactic_ids": [
       "TA0031"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Indirect Prompt Injection",
@@ -15046,12 +15046,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may deliver malicious prompts to an LLM indirectly by embedding the prompts in content that the adversary expects may be processed by an LLM.(Citation: NIST indirect prompt injection) These prompts can be included in web pages,(Citation: Palo Alto Indirect Prompt Injection ITW) documents, emails, tickets,(Citation: Snyk Indirect Prompt Injection) code, or other sources that an agent, copilot, or other AI system may retrieve and process. When an LLM processes this content, the embedded instructions may cause the system to perform unintended behaviors.(Citation: GTIG AI Threats Sep 2026) \n\nAdversaries may use indirect prompt injection to Impair Autonomous Defenses, and for unauthorized execution of any capabilities available to the LLM. ",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Direct Prompt Injection",
@@ -15062,12 +15062,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may input malicious prompts directly into an LLM’s user interface.(Citation: NIST Direct Prompt Injection) The prompts can be designed to bypass safeguards, manipulate context, override previous instructions, or coerce the LLM into unauthorized behavior.(Citation: OWASP Prompt Injection) \n\nAdversaries may use direct prompt injection to Generate Content prohibited by the LLM's guardrails or to induce the system to utilize its capabilities in unintended or prohibited ways.(Citation: Gemini AI Misuse Jan 2025)(Citation: Palo Alto Prompt Injection) Adversaries may achieve this by instructing the LLM to ignore previous instructions or safety rules, or by impersonating a role such as a researcher or privileged user.(Citation: Cybersec Guru Prompt Injection) ",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "AI-Enabled Exfiltration",
@@ -15078,12 +15078,12 @@
       "enterprise"
     ],
     "domain": "enterprise",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may utilize Direct Prompt Injection, Indirect Prompt Injection or other methods to instruct enterprise AI agents to exfiltrate data.(Citation: Prompt-Injection Exfil)(Citation: Anthropic Report Sep 2026) When enterprise systems incorporate the use of AI assistants or other AI agents, adversaries may abuse these systems to weaponize sanctioned tools available to the agent.(Citation: Google Security State of Prompt Injections) \n\nAs an AI agent processes queries or ingests data, an injected prompt can cause the agent to use its tool connections in unauthorized or unintended ways. When AI agents are induced to exfiltrate data, other exfiltration techniques likely apply as well to transfer the information out of the network, such as Exfiltration to Code Repository or Exfiltration Over Web Service.(Citation: Google Cloud AI Risk Sep 2026)(Citation: Barracuda Prompt Injection Phishing Emails)",
     "tactic_ids": [
       "TA0036"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Command and Scripting Interpreter",
@@ -15094,12 +15094,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms within industrial control system environments. Most systems come with some built-in command-line interface and scripting capabilities, for example, macOS and Linux distributions include some flavor of Unix Shell while Windows installations include the Windows Command Shell and PowerShell. Some also have cross-platform interpreters such as Python, as well as those commonly associated with client applications such as JavaScript and Visual Basic. Many controllers have command-line interfaces for management purposes. \n\nAdversaries may abuse these technologies in various ways as a means of executing arbitrary commands. Commands and scripts can be embedded in Initial Access payloads delivered to victims as lure documents or as secondary payloads downloaded from an existing C2. Adversaries may also execute commands through interactive terminals/shells, as well as utilize various Remote Services (e.g., Telnet, SSH, RDP, etc.) often found in industrial control system environments to achieve remote Execution.(Citation: Powershell Remote Commands)(Citation: Cisco IOS Software Integrity Assurance - Command History)(Citation: Remote Shell Execution in Python)",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "PowerShell",
@@ -15110,12 +15110,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may abuse PowerShell commands and scripts for execution. PowerShell is a powerful interactive command-line interface and scripting environment included in the Windows operating system.(Citation: TechNet PowerShell) Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code. Examples include the <code>Start-Process</code> cmdlet which can be used to run an executable and the <code>Invoke-Command</code> cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use PowerShell to connect to remote systems).\n\nPowerShell may also be used to download and run executables from the Internet, which can be executed from disk or in memory without touching disk.\n\nPowerShell commands/scripts can also be executed without directly invoking the <code>powershell.exe</code> binary through interfaces to PowerShell's underlying <code>System.Management.Automation</code> assembly DLL exposed through the .NET framework and Windows Common Language Interface (CLI).(Citation: Sixdub PowerPick Jan 2016)(Citation: SilentBreak Offensive PS Dec 2015)(Citation: Microsoft PSfromCsharp APR 2014)\n\nWithin industrial control system networks, adversaries may abuse the use of PowerShell on overlap assets that run on Microsoft Windows operating systems (Workstations, Data Historians, Human Machine Interfaces, Application Servers, Jump Hosts, etc.).",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Windows Command Shell",
@@ -15126,12 +15126,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may abuse the Windows command shell for execution. The Windows command shell (cmd) is the primary command prompt on Windows systems which is used in industrial control system environments. The Windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. The command prompt can be invoked remotely via  Remote Services (e.g., Telnet, SSH, RDP, etc.) \n\nBatch files (ex: .bat or .cmd) also provide the shell with a list of sequential commands to run, as well as normal scripting operations such as conditionals and loops. Common uses of batch files include long or repetitive tasks, or the need to run the same set of commands on multiple systems. \n\nAdversaries may leverage cmd to execute various commands and payloads. Common uses include cmd to execute a single command, or abusing cmd interactively with input and output forwarded over a command and control channel. \n\nWithin industrial control system networks, adversaries may abuse the use of Windows Command Shell on overlap assets that run on Microsoft Windows operating systems (Workstations, Data Historians, Human Machine Interfaces, Application Servers, Jump Hosts, etc.). ",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Unix Shell",
@@ -15142,12 +15142,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may abuse Unix shell commands and scripts for execution. Unix shells are the primary command prompt on Linux, macOS, and ESXi systems, though many variations of the Unix shell exist (e.g. sh, ash, bash, zsh, etc.) depending on the specific OS or distribution.(Citation: DieNet Bash)(Citation: Apple ZShell) Unix shells can control every aspect of a system, with certain commands requiring elevated privileges.\n\nUnix shells also support scripts that enable sequential execution of commands as well as other typical programming operations such as conditionals and loops. Common uses of shell scripts include long or repetitive tasks, or the need to run the same set of commands on multiple systems.\n\nAdversaries may abuse Unix shells to execute various commands or payloads. Interactive shells may be accessed through command and control channels or during lateral movement such as with Remote Services. Adversaries may also leverage shell scripts to deliver and execute multiple commands on victims or as part of payloads used for persistence.\n\nWithin Industrial control system networks, workstations, control servers, hypervisors, networking devices, and embedded devices that run on linux platforms may allow for Unix command shell access or stripped-down shells to implement a subset of commands. Industrial automation equipment generally does not offer command shells as a native user interface.",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Visual Basic",
@@ -15158,12 +15158,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may abuse Visual Basic (VB) for execution. VB is a programming language created by Microsoft with interoperability with many Windows technologies such as Component Object Model and the Native API through the Windows API. Although tagged as legacy with no planned future evolutions, VB is integrated and supported in the .NET Framework and cross-platform .NET Core.(Citation: VB .NET Mar 2020)(Citation: VB Microsoft)\n\nDerivative languages based on VB have also been created, such as Visual Basic for Applications (VBA) and VBScript. VBA is an event-driven programming language built into Microsoft Office, as well as several third-party applications.(Citation: Microsoft VBA)(Citation: Wikipedia VBA) VBA enables documents to contain macros used to automate the execution of tasks and other functionality on the host. VBScript is a default scripting language on Windows hosts and can also be used in place of JavaScript on HTML Application (HTA) webpages served to Internet Explorer (though most modern browsers do not come with VBScript support).(Citation: Microsoft VBScript)\n\nAdversaries may use VB payloads to execute malicious commands. Common malicious usage includes automating execution of behaviors with VBScript or embedding VBA content into Spearphishing Attachment payloads (which may also involve Mark-of-the-Web Bypass to enable execution).\n\nWithin industrial control system networks, adversaries may abuse the use of VB and VBScript on overlap assets that run on Microsoft Windows operating systems, especially in cases where legacy versions are still used in operations (Workstations, Data Historians, Human Machine Interfaces, Application Servers, Jump Hosts, etc.).  ",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "Python",
@@ -15174,12 +15174,12 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may abuse Python commands and scripts for execution. Python is a very popular scripting/programming language, with capabilities to perform many functions. Python can be executed interactively from the command-line (via the <code>python.exe</code> interpreter) or via scripts (.py) that can be written and distributed to different systems. Python code can also be compiled into binary executables.(Citation: Zscaler APT31 Covid-19 October 2020)\n\nPython comes with many built-in packages to interact with the underlying system, such as file operations and device I/O. Within industrial control system environments, Python libraries have been developed to implement multiple ICS protocols to establish communications with field devices. Adversaries can use these libraries or develop their own to execute commands on workstation, control server assets or send remote command messages to manipulate the industrial process through exisiting ICS protocols. \n\n",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   },
   {
     "title": "JavaScript",
@@ -15190,11 +15190,11 @@
       "ics"
     ],
     "domain": "ics",
+    "attack_version": "20.0",
     "layout": "technique",
     "description": "Adversaries may abuse various implementations of JavaScript for execution. JavaScript is a platform-independent scripting language (compiled just-in-time at runtime) commonly associated with scripts in webpages, though JavaScript can be executed in runtime environments outside the browser.(Citation: NodeJS)\n\nJScript is the Microsoft implementation of the same scripting standard. JScript is interpreted via the Windows Script engine and thus integrated with many components of Windows such as the Component Object Model and Internet Explorer HTML Application (HTA) pages.(Citation: JScrip May 2018)(Citation: Microsoft JScript 2007)(Citation: Microsoft Windows Scripts)\n\nAdversaries may abuse various implementations of JavaScript to execute various behaviors. Common uses include hosting malicious scripts on websites as part of a Drive-by Compromise or downloading and executing these script files as secondary payloads. Since these payloads are text-based, it is also very common for adversaries to obfuscate their content as part of Obfuscated Files or Information.\n\nWithin industrial control system networks, adversaries most commonly abuse the use of JavaScript on overlap assets that run on operating system platforms similar to Enterprise devices. \n",
     "tactic_ids": [
       "TA0104"
-    ],
-    "attack_version": "20.0"
+    ]
   }
 ]

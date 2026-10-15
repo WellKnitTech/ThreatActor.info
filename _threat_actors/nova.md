@@ -30,9 +30,3 @@ Rebrand of RALord
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Driven by Innovation: Our Latest Analyst Wins and Product Momentum in Network & AI Security](https://www.paloaltonetworks.com/blog/2026/10/driven-by-innovation-our-latest-analyst-wins-and-product-momentum-in-network-ai-security/)
-  Palo Alto Networks - 2026-10-08T
-

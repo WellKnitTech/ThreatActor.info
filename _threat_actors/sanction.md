@@ -30,3 +30,9 @@ Ransomware Based on HiddenTear, but heavily modified keygen
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [U.K. Sanctions Cryptomus for RU Money Laundering](https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/)
+  KrebsOnSecurity - 2026-10-14T
+

@@ -63,6 +63,12 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Breville Eye Q Toaster Review: Neat Sensors, but Less-Than-Perfect Toast](https://www.wired.com/review/breville-eye-q-toaster/)
+  Wired - 2026-10-14T
+
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 
