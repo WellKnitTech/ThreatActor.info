@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ancestry Coupons│50% Off│October 2026](https://www.wired.com/story/ancestry-coupon-codes/)
-  Wired - 2026-10-15T
-- [Design Within Reach Promo Codes: 30% Off | October 2026](https://www.wired.com/story/design-within-reach-promo-code/)
-  Wired - 2026-10-15T
-- [Groupon Promo Codes: 60% Off in October 2026](https://www.wired.com/story/groupon-promo-code/)
-  Wired - 2026-10-15T
-- [ABT Promo Codes & Discounts for October 2026](https://www.wired.com/story/abt-promo-code/)
-  Wired - 2026-10-15T
-- [Hotels.com Coupon Codes for October 2026](https://www.wired.com/story/hotels-com-coupon/)
-  Wired - 2026-10-15T
+- [HP Coupon Codes and Deals October 2026](https://www.wired.com/story/hp-coupon-code/)
+  Wired - 2026-10-16T
+- [Surfshark Promo Codes: 87% Off | October 2026](https://www.wired.com/story/surfshark-coupon/)
+  Wired - 2026-10-16T
+- [Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16](https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/)
+  TechCrunch - 2026-10-15T
+- [Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday](https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday)
+  DarkReading - 2026-10-13T
+- [Patch Tuesday - October 2026](https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026)
+  Rapid7 - 2026-10-13T
 

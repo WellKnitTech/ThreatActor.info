@@ -41,9 +41,3 @@ BANISHED KITTEN is an Iranian state-nexus adversary active since at least 2008. 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [‘Dune: Part Three’ Cowriter Brian K. Vaughan Has a New Comic on the Way](https://www.wired.com/story/new-york-comic-con-interview/)
-  Wired - 2026-10-14T
-

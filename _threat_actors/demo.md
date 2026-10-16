@@ -33,6 +33,6 @@ Ransomware only encrypts .jpg files
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution](https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html)
-  The Hacker News - 2026-10-14T
+- [Democrats Are Gearing Up to Investigate the Trump Administration. It Won’t Be Easy](https://www.wired.com/story/democrats-are-gearing-up-to-investigate-the-trump-administration-it-wont-be-so-easy/)
+  Wired - 2026-10-15T
 

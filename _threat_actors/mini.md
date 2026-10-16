@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Intero Biosystems wants drugmakers to test on mini human intestines, not animals](https://techcrunch.com/2026/10/14/intero-biosystems-wants-drugmakers-to-test-on-mini-human-intestines-not-animals/)
-  TechCrunch - 2026-10-14T
+- [Democrats Are Gearing Up to Investigate the Trump Administration. It Won’t Be Easy](https://www.wired.com/story/democrats-are-gearing-up-to-investigate-the-trump-administration-it-wont-be-so-easy/)
+  Wired - 2026-10-15T
 

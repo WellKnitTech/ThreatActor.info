@@ -33,10 +33,8 @@ parser needs to be built
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis](https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/)
+- [Volvo makes a bigger bet on Nvidia for hands-free automated driving](https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/)
   TechCrunch - 2026-10-15T
 - [Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug](https://blog.cloudflare.com/hyperdrive-mysql/)
   Cloudflare - 2026-10-14T
-- [NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM](https://www.paloaltonetworks.com/blog/2026/10/nhs-england-evolves-its-cybersecurity-strategy-with-palo-alto-networks/)
-  Palo Alto Networks - 2026-10-13T
 

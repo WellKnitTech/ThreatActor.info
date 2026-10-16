@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [JackRabbit MG Cargo Bike Review (2026): Compact and Powerful](https://www.wired.com/review/jackrabbit-mg-cargo-electric-bicycle/)
-  Wired - 2026-10-14T
-
