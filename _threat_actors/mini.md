@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Democrats Are Gearing Up to Investigate the Trump Administration. It Won’t Be Easy](https://www.wired.com/story/democrats-are-gearing-up-to-investigate-the-trump-administration-it-wont-be-so-easy/)
-  Wired - 2026-10-15T
+- [Securing AI Agents from Discovery to Runtime: Check Point on Google Cloud’s Gemini Enterprise](https://blog.checkpoint.com/securing-the-cloud/securing-ai-agents-from-discovery-to-runtime-check-point-on-google-clouds-gemini-enterprise/)
+  Check Point - 2026-10-16T
 

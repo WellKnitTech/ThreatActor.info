@@ -30,9 +30,3 @@ Ransomware VaultCrypt family
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Russian Influence Operation Widely Targets Latin America](https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america)
-  DarkReading - 2026-10-14T
-

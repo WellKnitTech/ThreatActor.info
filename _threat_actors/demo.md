@@ -33,6 +33,6 @@ Ransomware only encrypts .jpg files
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Democrats Are Gearing Up to Investigate the Trump Administration. It Won’t Be Easy](https://www.wired.com/story/democrats-are-gearing-up-to-investigate-the-trump-administration-it-wont-be-so-easy/)
-  Wired - 2026-10-15T
+- [Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug](https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html)
+  The Hacker News - 2026-10-16T
 

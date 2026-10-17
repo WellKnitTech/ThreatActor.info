@@ -30,11 +30,3 @@ parser needs to be built
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Volvo makes a bigger bet on Nvidia for hands-free automated driving](https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/)
-  TechCrunch - 2026-10-15T
-- [Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug](https://blog.cloudflare.com/hyperdrive-mysql/)
-  Cloudflare - 2026-10-14T
-

@@ -30,9 +30,3 @@ Ransomware mpritsken@priest.com
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)](https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1)
-  Rapid7 - 2026-10-14T
-
