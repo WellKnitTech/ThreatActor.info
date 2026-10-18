@@ -37,8 +37,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   DarkReading - 2026-10-16T
 - [Elorian’s first AI model wants to reason with images, not just about them](https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/)
   TechCrunch - 2026-10-16T
-- [Microsoft Surface Laptop Ultra Review: The First Real AI PC](https://www.wired.com/review/microsoft-surface-laptop-ultra/)
-  Wired - 2026-10-16T
 - [F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud](https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud)
   DarkReading - 2026-10-15T
 

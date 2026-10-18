@@ -33,6 +33,10 @@ Ransomware Identifies victim locations w/Google Maps API
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Encryption Is Getting Squeezed From All Sides](https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/)
+  Wired - 2026-10-17T
+- [Don’t Let a Crypto Inheritance Get Stuck on the Blockchain](https://www.wired.com/story/crypto-inheritance-how-to/)
+  Wired - 2026-10-17T
 - [OpenAI models hacked a crypto wallet and breached more websites](https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/)
   Ars Technica - 2026-10-16T
 

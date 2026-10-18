@@ -33,8 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [The Best Digital Wall Calendar (2026): Skylight, Everblog, Greenlight](https://www.wired.com/story/are-digital-wall-calendars-worth-it/)
-  Wired - 2026-10-16T
+- [The Best LED Grow Lights for Houseplants This Winter (2026)](https://www.wired.com/story/best-led-grow-lights/)
+  Wired - 2026-10-17T
 - [Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles](https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching)
   DarkReading - 2026-10-14T
 

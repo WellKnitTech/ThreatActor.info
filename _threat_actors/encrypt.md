@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Encryption Is Getting Squeezed From All Sides](https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/)
+  Wired - 2026-10-17T
+
