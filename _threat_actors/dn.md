@@ -39,8 +39,8 @@ It’s directed to English speaking users, therefore is able to infect worldwide
   DarkReading - 2026-10-16T
 - [Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform](https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield)
   DarkReading - 2026-10-16T
-- [Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’](https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/)
-  Wired - 2026-10-16T
 - [ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More](https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html)
   The Hacker News - 2026-10-16T
+- [Fake Calendar Invites Target Thousands of Organizations in Microsoft Credential-Phishing Campaign](https://blog.checkpoint.com/securing-user-and-access/fake-calendar-invites-target-thousands-of-organizations-in-microsoft-credential-phishing-campaign/)
+  Check Point - 2026-10-15T
 
