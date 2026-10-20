@@ -37,9 +37,3 @@ YoroTrooper’s main targets are government or energy organizations in Azerbaija
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks](https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html)
-  The Hacker News - 2026-10-15T
-

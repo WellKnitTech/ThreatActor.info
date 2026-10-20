@@ -33,12 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’](https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/)
-  TechCrunch - 2026-10-18T
+- [PSA: Patch your Plex media server before someone hacks it](https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/)
+  Ars Technica - 2026-10-19T
+- [ReactOS reaches major milestone with NTFS install support](https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/)
+  Ars Technica - 2026-10-19T
+- [Introducing Clairic, a new System One class of extraction models](https://blog.cloudflare.com/clairic-extraction-model/)
+  Cloudflare - 2026-10-19T
 - [How SentinelOne Blocked APT29's CaptiveCrunch Campaign](https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/)
   SentinelOne - 2026-10-16T
 - [Inside the Q3 2026 Brand Phishing Report: Microsoft Now Accounts for One in Three Brand Impersonation](https://blog.checkpoint.com/security/inside-the-q3-2026-brand-phishing-report-microsoft-now-accounts-for-one-in-three-brand-impersonation/)
   Check Point - 2026-10-16T
-- [Cloudflare and OpenAI: Making AI discovery better for everyone](https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/)
-  Cloudflare - 2026-10-15T
 

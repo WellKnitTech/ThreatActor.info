@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Elastic Security integration with Google Distributed Cloud: Closing the velocity gap in air-gapped environments](https://www.elastic.co/blog/elastic-security-integration-with-google-distributed-cloud)
-  Elastic - 2026-10-16T
-

@@ -49,9 +49,3 @@ China-based cyber threat group. It has previously used newsworthy events as lure
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Magnesium May Not Reach Your Brain, Despite Supplement Label Promises](https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises/)
-  Wired - 2026-10-18T
-

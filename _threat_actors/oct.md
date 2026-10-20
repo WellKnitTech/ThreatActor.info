@@ -33,6 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Microsoft: October Windows update may break Smart App Control](https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/)
-  BleepingComputer - 2026-10-16T
+- [eBay Coupons: 20% Off in October 2026](https://www.wired.com/story/ebay-coupon-code/)
+  Wired - 2026-10-20T
+- [AT&T Promo Codes: $50 Off This October 2026](https://www.wired.com/story/att-promo-code/)
+  Wired - 2026-10-20T
+- [Home Chef Promo Codes for October 2026](https://www.wired.com/story/home-chef-promo-code/)
+  Wired - 2026-10-20T
+- [Whoop Promo Codes: 20% Off This October 2026](https://www.wired.com/story/whoop-promo-code/)
+  Wired - 2026-10-20T
+- [30% Off Canon Promo Codes | October 2026](https://www.wired.com/story/canon-promo-code/)
+  Wired - 2026-10-20T
 
