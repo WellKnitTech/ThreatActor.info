@@ -33,10 +33,8 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor](https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html)
-  The Hacker News - 2026-10-19T
-- [Best Power Bank Deals: Laptops, MagSafe, and More](https://www.wired.com/story/power-bank-deals-october-2026/)
-  Wired - 2026-10-19T
+- [Revolut outage disrupts online banking operations worldwide](https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/)
+  BleepingComputer - 2026-10-20T
 - [WordPress SEO plugin Rank Math compromised to backdoor websites](https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/)
   BleepingComputer - 2026-10-19T
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T07:08:05Z",
+  "updated": "2026-10-21T07:01:24Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,257 +19,259 @@
     "Rapid7"
   ],
   "actor_news": {
-    "Royal": [
+    "PHP": [
       {
-        "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-        "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-        "date": "2026-10-20T11:23:16+05:30",
+        "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+        "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+        "date": "2026-10-21T10:27:50+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "PHP warns it plans to release 2 emergency patches imminently",
+        "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+        "date": "2026-10-21T02:12:18+00:00",
+        "source": "Ars Technica"
+      },
+      {
+        "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+        "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+        "date": "2026-10-20T16:56:43-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Critical Remote Code Execution Vulnerabilities in PHP (CVE-2026-109618 & CVE-2026-109619)",
+        "link": "https://labs.beazley.security/advisories/BSL-A1233",
+        "date": "2026-10-20T07:00:00.000Z",
+        "source": "Beazley Security Labs Advisories"
       }
     ],
     "R": [
       {
-        "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-        "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-        "date": "2026-10-20T11:23:16+05:30",
+        "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+        "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+        "date": "2026-10-21T10:27:50+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-        "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-        "date": "2026-10-20T09:35:58+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
-        "link": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
-        "date": "2026-10-20T07:01:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "eBay Coupons: 20% Off in October 2026",
-        "link": "https://www.wired.com/story/ebay-coupon-code/",
-        "date": "2026-10-20T05:00:00+00:00",
+        "title": "Udemy Coupon Codes: 20% Off October 2026",
+        "link": "https://www.wired.com/story/udemy-promo-code/",
+        "date": "2026-10-21T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "AT&T Promo Codes: $50 Off This October 2026",
-        "link": "https://www.wired.com/story/att-promo-code/",
-        "date": "2026-10-20T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-        "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-        "date": "2026-10-20T09:35:58+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
-        "link": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
-        "date": "2026-10-19T19:55:01+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-        "date": "2026-10-16T13:20:03-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-        "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-        "date": "2026-10-20T09:35:58+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
-        "link": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
-        "date": "2026-10-20T07:01:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-        "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-        "date": "2026-10-19T23:02:13+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
-        "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-        "date": "2026-10-19T22:35:42+00:00",
-        "source": "Unit 42"
-      },
-      {
-        "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-        "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-        "date": "2026-10-19T21:58:47+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
-        "link": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
-        "date": "2026-10-20T07:01:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Adorama Camera Coupon Codes & Promo Codes: October 2026",
-        "link": "https://www.wired.com/story/adorama-promo-code/",
-        "date": "2026-10-20T05:00:00+00:00",
+        "title": "Home Depot Promo Codes: 30% Off in October 2026",
+        "link": "https://www.wired.com/story/home-depot-promo-code/",
+        "date": "2026-10-21T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-        "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-        "date": "2026-10-19T21:58:47+05:30",
-        "source": "The Hacker News"
+        "title": "TurboTax Full Service Coupons This October 2026",
+        "link": "https://www.wired.com/story/turbotax-coupon/",
+        "date": "2026-10-21T05:00:00+00:00",
+        "source": "Wired"
       },
       {
-        "title": "Researchers Infiltrate Microsoft Tech Support Scam Operation",
-        "link": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
-        "date": "2026-10-19T21:13:41+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Introducing Clairic, a new System One class of extraction models",
-        "link": "https://blog.cloudflare.com/clairic-extraction-model/",
-        "date": "2026-10-19T17:48:26+00:00",
-        "source": "Cloudflare"
+        "title": "Ulta Promo Codes: Up to 20% Off in October 2026",
+        "link": "https://www.wired.com/story/ulta-coupon/",
+        "date": "2026-10-21T05:00:00+00:00",
+        "source": "Wired"
       }
     ],
     "OCT": [
       {
-        "title": "eBay Coupons: 20% Off in October 2026",
-        "link": "https://www.wired.com/story/ebay-coupon-code/",
-        "date": "2026-10-20T05:00:00+00:00",
+        "title": "Udemy Coupon Codes: 20% Off October 2026",
+        "link": "https://www.wired.com/story/udemy-promo-code/",
+        "date": "2026-10-21T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "AT&T Promo Codes: $50 Off This October 2026",
-        "link": "https://www.wired.com/story/att-promo-code/",
-        "date": "2026-10-20T05:00:00+00:00",
+        "title": "Home Depot Promo Codes: 30% Off in October 2026",
+        "link": "https://www.wired.com/story/home-depot-promo-code/",
+        "date": "2026-10-21T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Home Chef Promo Codes for October 2026",
-        "link": "https://www.wired.com/story/home-chef-promo-code/",
-        "date": "2026-10-20T05:00:00+00:00",
+        "title": "TurboTax Full Service Coupons This October 2026",
+        "link": "https://www.wired.com/story/turbotax-coupon/",
+        "date": "2026-10-21T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "Whoop Promo Codes: 20% Off This October 2026",
-        "link": "https://www.wired.com/story/whoop-promo-code/",
-        "date": "2026-10-20T05:00:00+00:00",
+        "title": "Ulta Promo Codes: Up to 20% Off in October 2026",
+        "link": "https://www.wired.com/story/ulta-coupon/",
+        "date": "2026-10-21T05:00:00+00:00",
         "source": "Wired"
       },
       {
-        "title": "30% Off Canon Promo Codes | October 2026",
-        "link": "https://www.wired.com/story/canon-promo-code/",
-        "date": "2026-10-20T05:00:00+00:00",
+        "title": "20% Off Sephora Promo Code | October 2026",
+        "link": "https://www.wired.com/story/sephora-promo-code/",
+        "date": "2026-10-21T05:00:00+00:00",
         "source": "Wired"
       }
     ],
-    "CryLocker": [
+    "Ra": [
       {
-        "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-        "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-        "date": "2026-10-19T23:02:13+05:30",
+        "title": "20% Off Sephora Promo Code | October 2026",
+        "link": "https://www.wired.com/story/sephora-promo-code/",
+        "date": "2026-10-21T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+        "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+        "date": "2026-10-20T22:39:53+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-        "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-        "date": "2026-10-19T19:44:07+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "OpenAI models hacked a crypto wallet and breached more websites",
-        "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-        "date": "2026-10-16T20:59:01+00:00",
-        "source": "Ars Technica"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-        "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-        "date": "2026-10-19T22:49:27+00:00",
+        "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+        "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+        "date": "2026-10-20T22:24:02+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+        "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+        "date": "2026-10-20T22:20:16+00:00",
+        "source": "Cloudflare"
+      },
+      {
+        "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+        "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+        "date": "2026-10-20T21:45:47+00:00",
+        "source": "DarkReading"
       }
     ],
-    "Ank": [
+    "PL": [
       {
-        "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-        "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-        "date": "2026-10-19T21:58:47+05:30",
+        "title": "PHP warns it plans to release 2 emergency patches imminently",
+        "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+        "date": "2026-10-21T02:12:18+00:00",
+        "source": "Ars Technica"
+      },
+      {
+        "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+        "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+        "date": "2026-10-20T23:01:23+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+        "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+        "date": "2026-10-20T21:08:52+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Best Power Bank Deals: Laptops, MagSafe, and More",
-        "link": "https://www.wired.com/story/power-bank-deals-october-2026/",
-        "date": "2026-10-19T20:55:15+00:00",
-        "source": "Wired"
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "date": "2026-10-20T21:02:27+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-        "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-        "date": "2026-10-19T17:24:51-04:00",
+        "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+        "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+        "date": "2026-10-20T20:46:42-04:00",
         "source": "BleepingComputer"
       }
     ],
-    "Deadeye Jackal": [
+    "RNS": [
       {
-        "title": "Researchers Infiltrate Microsoft Tech Support Scam Operation",
-        "link": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
-        "date": "2026-10-19T21:13:41+00:00",
-        "source": "DarkReading"
+        "title": "PHP warns it plans to release 2 emergency patches imminently",
+        "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+        "date": "2026-10-21T02:12:18+00:00",
+        "source": "Ars Technica"
       },
       {
-        "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-        "date": "2026-10-16T23:18:45+05:30",
+        "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+        "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+        "date": "2026-10-20T22:24:02+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+        "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+        "date": "2026-10-20T17:02:59+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research",
-        "link": "https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research",
-        "date": "2026-10-16T13:00:00+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "RNS": [
+        "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+        "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+        "date": "2026-10-20T16:56:43-04:00",
+        "source": "BleepingComputer"
+      },
       {
         "title": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
         "link": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
         "date": "2026-10-19T19:55:01+00:00",
         "source": "DarkReading"
+      }
+    ],
+    "APT3": [
+      {
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "date": "2026-10-20T21:02:27+05:30",
+        "source": "The Hacker News"
       },
       {
         "title": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
         "link": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
         "date": "2026-10-19T19:19:33+00:00",
         "source": "DarkReading"
-      },
+      }
+    ],
+    "INC Ransom": [
       {
-        "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-        "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-        "date": "2026-10-17T10:32:48-04:00",
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "date": "2026-10-20T21:02:27+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Qilin": [
+      {
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "date": "2026-10-20T21:02:27+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Zilla": [
+      {
+        "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+        "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+        "date": "2026-10-20T20:46:42-04:00",
         "source": "BleepingComputer"
-      },
+      }
+    ],
+    "Mini": [
       {
-        "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-        "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
-        "date": "2026-10-16T19:13:59+00:00",
-        "source": "DarkReading"
+        "title": "Google is bringing a more personal version of its Gemini AI assistant to your car",
+        "link": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
+        "date": "2026-10-20T20:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Assembly": [
+      {
+        "title": "GM to close Detroit battery-assembly plant, but not for reasons you might think",
+        "link": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/",
+        "date": "2026-10-20T19:32:43+00:00",
+        "source": "TechCrunch"
       }
     ],
     "One": [
+      {
+        "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+        "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+        "date": "2026-10-20T18:29:44+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
+        "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+        "date": "2026-10-20T17:12:48+00:00",
+        "source": "TechCrunch"
+      },
       {
         "title": "PSA: Patch your Plex media server before someone hacks it",
         "link": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
@@ -287,54 +289,170 @@
         "link": "https://blog.cloudflare.com/clairic-extraction-model/",
         "date": "2026-10-19T17:48:26+00:00",
         "source": "Cloudflare"
+      }
+    ],
+    "Rector": [
+      {
+        "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+        "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+        "date": "2026-10-20T18:29:44+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "APT28": [
+      {
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+        "date": "2026-10-20T16:36:25+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Putter Panda": [
+      {
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+        "date": "2026-10-20T16:36:25+05:30",
+        "source": "The Hacker News"
       },
       {
         "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
         "link": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
         "date": "2026-10-16T18:01:06+00:00",
         "source": "SentinelOne"
-      },
-      {
-        "title": "Inside the Q3 2026 Brand Phishing Report: Microsoft Now Accounts for One in Three Brand Impersonation",
-        "link": "https://blog.checkpoint.com/security/inside-the-q3-2026-brand-phishing-report-microsoft-now-accounts-for-one-in-three-brand-impersonation/",
-        "date": "2026-10-16T13:00:47+00:00",
-        "source": "Check Point"
       }
     ],
-    "APT3": [
+    "APT2": [
       {
-        "title": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
-        "link": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
-        "date": "2026-10-19T19:19:33+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-        "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-        "date": "2026-10-19T18:35:45+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-        "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-        "date": "2026-10-19T15:36:40+05:30",
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+        "date": "2026-10-20T16:36:25+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-        "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
-        "date": "2026-10-16T19:49:30+00:00",
-        "source": "DarkReading"
+        "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
+        "link": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
+        "date": "2026-10-16T18:01:06+00:00",
+        "source": "SentinelOne"
+      }
+    ],
+    "Zlader": [
+      {
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+        "date": "2026-10-20T16:36:25+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Clock": [
+      {
+        "title": "Hatch Sleep Clock Review: A Contactless Sleep Tracker (2026)",
+        "link": "https://www.wired.com/review/review-hatch-sleep-clock/",
+        "date": "2026-10-20T16:03:17+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Streamer": [
+      {
+        "title": "Streaming guide JustWatch becomes a streamer itself",
+        "link": "https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself/",
+        "date": "2026-10-20T16:01:24+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Chaos": [
+      {
+        "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+        "link": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+        "date": "2026-10-20T15:07:43+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+        "link": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+        "date": "2026-10-20T15:07:43+00:00",
+        "source": "Wired"
       },
       {
-        "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
-        "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
-        "date": "2026-10-16T19:22:12+00:00",
+        "title": "Researchers Infiltrate Microsoft Tech Support Scam Operation",
+        "link": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
+        "date": "2026-10-19T21:13:41+00:00",
         "source": "DarkReading"
+      }
+    ],
+    "RIP (Phoenix) Ransomware": [
+      {
+        "title": "Introducing tsrs: A port of TypeScript to Rust",
+        "link": "https://blog.cloudflare.com/typescript-rust-port/",
+        "date": "2026-10-20T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+        "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+        "date": "2026-10-20T12:41:45+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+        "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+        "date": "2026-10-20T09:35:58+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
+        "link": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
+        "date": "2026-10-19T19:55:01+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Trojan": [
+      {
+        "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+        "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+        "date": "2026-10-20T12:41:45+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Royal": [
+      {
+        "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+        "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+        "date": "2026-10-20T11:23:16+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Final": [
+      {
+        "title": "How ‘Final Fantasy VII Revelation’ Strikes the Balance Between Old and New",
+        "link": "https://www.wired.com/story/final-fantasy-vii-revelation/",
+        "date": "2026-10-20T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Aggressive Inventory Zombies": [
+      {
+        "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+        "link": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+        "date": "2026-10-20T07:18:35-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "Revolut outage disrupts online banking operations worldwide",
+        "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+        "date": "2026-10-20T05:46:44-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+        "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+        "date": "2026-10-19T17:24:51-04:00",
+        "source": "BleepingComputer"
       }
     ],
     "Rapid": [
@@ -349,18 +467,6 @@
         "link": "https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229",
         "date": "2026-10-16T13:31:56+00:00",
         "source": "Rapid7"
-      },
-      {
-        "title": "Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research",
-        "link": "https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research",
-        "date": "2026-10-16T13:00:00+00:00",
-        "source": "Rapid7"
-      },
-      {
-        "title": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
-        "link": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
-        "date": "2026-10-15T22:10:08+00:00",
-        "source": "DarkReading"
       }
     ],
     "Lv": [
@@ -409,26 +515,12 @@
         "source": "Check Point"
       }
     ],
-    "Root": [
+    "CryLocker": [
       {
-        "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-        "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-        "date": "2026-10-19T11:59:44+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-        "date": "2026-10-16T23:18:45+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Demo": [
-      {
-        "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-        "date": "2026-10-16T23:18:45+05:30",
-        "source": "The Hacker News"
+        "title": "OpenAI models hacked a crypto wallet and breached more websites",
+        "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "date": "2026-10-16T20:59:01+00:00",
+        "source": "Ars Technica"
       }
     ],
     "Hacked": [
@@ -445,12 +537,20 @@
         "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
         "date": "2026-10-16T20:34:37+00:00",
         "source": "DarkReading"
+      }
+    ],
+    "DN": [
+      {
+        "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+        "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+        "date": "2026-10-16T19:49:30+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "Continuous accountability for Verified bots",
-        "link": "https://blog.cloudflare.com/verified-bots-accountability/",
-        "date": "2026-10-16T13:00:00+00:00",
-        "source": "Cloudflare"
+        "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
+        "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
+        "date": "2026-10-16T19:22:12+00:00",
+        "source": "DarkReading"
       }
     ],
     "First": [
@@ -459,31 +559,9 @@
         "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
         "date": "2026-10-16T19:22:12+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
-        "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
-        "date": "2026-10-15T21:55:07+00:00",
-        "source": "DarkReading"
       }
     ],
     "APT29": [
-      {
-        "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
-        "link": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
-        "date": "2026-10-16T18:01:06+00:00",
-        "source": "SentinelOne"
-      }
-    ],
-    "Putter Panda": [
-      {
-        "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
-        "link": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
-        "date": "2026-10-16T18:01:06+00:00",
-        "source": "SentinelOne"
-      }
-    ],
-    "APT2": [
       {
         "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
         "link": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
@@ -505,38 +583,6 @@
         "link": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
         "date": "2026-10-16T17:47:54+00:00",
         "source": "Unit 42"
-      }
-    ],
-    "Caramel Tsunami": [
-      {
-        "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-        "date": "2026-10-16T13:20:03-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Securing AI Agents from Discovery to Runtime: Check Point on Google Cloud’s Gemini Enterprise",
-        "link": "https://blog.checkpoint.com/securing-the-cloud/securing-ai-agents-from-discovery-to-runtime-check-point-on-google-clouds-gemini-enterprise/",
-        "date": "2026-10-16T13:05:29+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Clop": [
-      {
-        "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
-        "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
-        "date": "2026-10-15T21:55:07+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Cl0p": [
-      {
-        "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
-        "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
-        "date": "2026-10-15T21:55:07+00:00",
-        "source": "DarkReading"
       }
     ]
   }

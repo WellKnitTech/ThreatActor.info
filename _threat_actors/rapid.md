@@ -37,8 +37,4 @@ ransomware
   Rapid7 - 2026-10-19T
 - [Rapid7 Analysis: GitLab CI/CD Regex Integer Overflow (CVE-2026-97229)](https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229)
   Rapid7 - 2026-10-16T
-- [Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research](https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research)
-  Rapid7 - 2026-10-16T
-- [SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape](https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape)
-  DarkReading - 2026-10-15T
 

@@ -33,12 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [PHP warns it plans to release 2 emergency patches imminently](https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/)
+  Ars Technica - 2026-10-21T
+- [Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate](https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/)
+  TechCrunch - 2026-10-20T
+- [Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns](https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html)
+  The Hacker News - 2026-10-20T
+- [PHP warns admins of two critical flaws, emergency patches coming tomorrow](https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/)
+  BleepingComputer - 2026-10-20T
 - ['AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery](https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery)
   DarkReading - 2026-10-19T
-- [ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs](https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps)
-  DarkReading - 2026-10-19T
-- [Drupal patches critical RCE flaws, warns exploits may emerge soon](https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/)
-  BleepingComputer - 2026-10-17T
-- [Enterprise AI Enters Risk Management Phase as Security Concerns Rise](https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise)
-  DarkReading - 2026-10-16T
 

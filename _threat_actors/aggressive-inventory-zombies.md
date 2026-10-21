@@ -31,3 +31,9 @@ Aggressive Inventory Zombies is a threat actor involved in a large-scale phishin
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Ahold Delhaize: Cyberattack affects services across US and Europe](https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/)
+  BleepingComputer - 2026-10-20T
+

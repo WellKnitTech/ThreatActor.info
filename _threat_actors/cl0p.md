@@ -141,9 +141,3 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 [5] [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/)
 [6] [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud](https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud)
-  DarkReading - 2026-10-15T
-

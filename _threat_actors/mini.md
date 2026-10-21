@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Securing AI Agents from Discovery to Runtime: Check Point on Google Cloud’s Gemini Enterprise](https://blog.checkpoint.com/securing-the-cloud/securing-ai-agents-from-discovery-to-runtime-check-point-on-google-clouds-gemini-enterprise/)
-  Check Point - 2026-10-16T
+- [Google is bringing a more personal version of its Gemini AI assistant to your car](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)
+  TechCrunch - 2026-10-20T
 

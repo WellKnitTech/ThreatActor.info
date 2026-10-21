@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet](https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/)
+- [20% Off Sephora Promo Code | October 2026](https://www.wired.com/story/sephora-promo-code/)
+  Wired - 2026-10-21T
+- [Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software](https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html)
+  The Hacker News - 2026-10-20T
+- [Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate](https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/)
   TechCrunch - 2026-10-20T
-- [Adorama Camera Coupon Codes & Promo Codes: October 2026](https://www.wired.com/story/adorama-promo-code/)
-  Wired - 2026-10-20T
-- [Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor](https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html)
-  The Hacker News - 2026-10-19T
-- [Researchers Infiltrate Microsoft Tech Support Scam Operation](https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation)
-  DarkReading - 2026-10-19T
-- [Introducing Clairic, a new System One class of extraction models](https://blog.cloudflare.com/clairic-extraction-model/)
-  Cloudflare - 2026-10-19T
+- [8 eMudhra certificates are compromised. Here's what you need to know](https://blog.cloudflare.com/emudhra-certificate-compromise/)
+  Cloudflare - 2026-10-20T
+- [Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys](https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys)
+  DarkReading - 2026-10-20T
 

@@ -77,8 +77,6 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 
 - [BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs](https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs)
   DarkReading - 2026-10-16T
-- [Continuous accountability for Verified bots](https://blog.cloudflare.com/verified-bots-accountability/)
-  Cloudflare - 2026-10-16T
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

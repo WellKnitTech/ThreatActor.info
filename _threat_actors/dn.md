@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic](https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html)
-  The Hacker News - 2026-10-19T
 - [Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk](https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk)
   DarkReading - 2026-10-16T
 - [Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform](https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield)

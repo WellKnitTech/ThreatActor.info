@@ -30,3 +30,9 @@ Chaos is a rapidly evolving Ransomware-as-a-Service (RaaS) group first observed 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding](https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/)
+  Wired - 2026-10-20T
+

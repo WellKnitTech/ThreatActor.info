@@ -60,3 +60,9 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA](https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html)
+  The Hacker News - 2026-10-20T
+

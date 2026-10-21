@@ -35,6 +35,4 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 
 - [Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform](https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield)
   DarkReading - 2026-10-16T
-- [F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud](https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud)
-  DarkReading - 2026-10-15T
 
