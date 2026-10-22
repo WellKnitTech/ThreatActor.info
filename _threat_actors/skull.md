@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Bose Is Buying Skullcandy. It’s Not as Weird as It Sounds](https://www.wired.com/story/bose-acquires-skullcandy-october-2026/)
+  Wired - 2026-10-21T
+

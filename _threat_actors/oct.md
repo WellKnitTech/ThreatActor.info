@@ -33,14 +33,8 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Udemy Coupon Codes: 20% Off October 2026](https://www.wired.com/story/udemy-promo-code/)
-  Wired - 2026-10-21T
-- [Home Depot Promo Codes: 30% Off in October 2026](https://www.wired.com/story/home-depot-promo-code/)
-  Wired - 2026-10-21T
-- [TurboTax Full Service Coupons This October 2026](https://www.wired.com/story/turbotax-coupon/)
-  Wired - 2026-10-21T
-- [Ulta Promo Codes: Up to 20% Off in October 2026](https://www.wired.com/story/ulta-coupon/)
-  Wired - 2026-10-21T
-- [20% Off Sephora Promo Code | October 2026](https://www.wired.com/story/sephora-promo-code/)
-  Wired - 2026-10-21T
+- [Microsoft says October updates didn’t actually fix VPN issues](https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/)
+  BleepingComputer - 2026-10-21T
+- [Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)](https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/)
+  Unit 42 - 2026-10-20T
 

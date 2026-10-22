@@ -33,14 +33,12 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election](https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html)
-  The Hacker News - 2026-10-20T
-- [Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/)
-  TechCrunch - 2026-10-20T
-- [PSA: Patch your Plex media server before someone hacks it](https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/)
-  Ars Technica - 2026-10-19T
-- [ReactOS reaches major milestone with NTFS install support](https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/)
-  Ars Technica - 2026-10-19T
-- [Introducing Clairic, a new System One class of extraction models](https://blog.cloudflare.com/clairic-extraction-model/)
-  Cloudflare - 2026-10-19T
+- [Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown](https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/)
+  TechCrunch - 2026-10-21T
+- [Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique](https://www.sentinelone.com/blog/stopping-php2shell-how-sentinelone-protects-customers-from-this-attack-technique/)
+  SentinelOne - 2026-10-21T
+- [7 Best Phones You Can’t Buy in the US (2026)](https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/)
+  Wired - 2026-10-21T
+- [OpenAI agents disabled safety monitoring, one lied about it](https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/)
+  BleepingComputer - 2026-10-21T
 

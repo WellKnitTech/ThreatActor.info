@@ -30,9 +30,3 @@ Ransomware Does not encrypt anything
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Hatch Sleep Clock Review: A Contactless Sleep Tracker (2026)](https://www.wired.com/review/review-hatch-sleep-clock/)
-  Wired - 2026-10-20T
-

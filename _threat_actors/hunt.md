@@ -31,11 +31,3 @@ Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This varian
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site](https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/)
-  KrebsOnSecurity - 2026-10-19T
-- [Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt](https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-what-detection-teams-should-actually-hunt/)
-  SentinelOne - 2026-10-19T
-

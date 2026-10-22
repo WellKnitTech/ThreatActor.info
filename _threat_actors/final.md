@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [How ‘Final Fantasy VII Revelation’ Strikes the Balance Between Old and New](https://www.wired.com/story/final-fantasy-vii-revelation/)
-  Wired - 2026-10-20T
-

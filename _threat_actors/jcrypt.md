@@ -30,9 +30,3 @@ Ransomware written in C#. Fortunately, all current versions of the MafiaWare666 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [How SentinelOne Blocked APT29's CaptiveCrunch Campaign](https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/)
-  SentinelOne - 2026-10-16T
-

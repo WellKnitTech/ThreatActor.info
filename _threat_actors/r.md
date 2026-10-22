@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert](https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html)
-  The Hacker News - 2026-10-21T
-- [Udemy Coupon Codes: 20% Off October 2026](https://www.wired.com/story/udemy-promo-code/)
-  Wired - 2026-10-21T
-- [Home Depot Promo Codes: 30% Off in October 2026](https://www.wired.com/story/home-depot-promo-code/)
-  Wired - 2026-10-21T
-- [TurboTax Full Service Coupons This October 2026](https://www.wired.com/story/turbotax-coupon/)
-  Wired - 2026-10-21T
-- [Ulta Promo Codes: Up to 20% Off in October 2026](https://www.wired.com/story/ulta-coupon/)
-  Wired - 2026-10-21T
+- [China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack](https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html)
+  The Hacker News - 2026-10-22T
+- [UAE Transitions 50% of Gov't Services to Agentic AI](https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai)
+  DarkReading - 2026-10-22T
+- [Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched](https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/)
+  Wired - 2026-10-22T
+- [Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases](https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html)
+  The Hacker News - 2026-10-22T
+- [Tesla says it will start selling Cybercabs by end of year](https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/)
+  TechCrunch - 2026-10-22T
 

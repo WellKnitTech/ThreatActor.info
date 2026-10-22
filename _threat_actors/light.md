@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Eufy Security Wall Light Cam S4 Deal: Save $80 on This Versatile Gadget](https://www.wired.com/story/eufy-security-camera-deals-october-2026/)
+  Wired - 2026-10-21T
+

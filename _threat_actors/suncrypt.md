@@ -34,3 +34,9 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The Best Art TV Deals: Samsung Frame, Hisense Canvas, and More (2026)](https://www.wired.com/story/art-tv-samsung-frame-tv-sale-october-2026/)
+  Wired - 2026-10-21T
+

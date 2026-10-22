@@ -100,9 +100,3 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 [14] [Cybersecurity Advisory SVR TTP May 2021](https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf)
 [15] [Unit 42 SolarStorm December 2020](https://unit42.paloaltonetworks.com/solarstorm-supply-chain-attack-timeline/)
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [How SentinelOne Blocked APT29's CaptiveCrunch Campaign](https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/)
-  SentinelOne - 2026-10-16T
-
