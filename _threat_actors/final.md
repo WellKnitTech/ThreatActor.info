@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant](https://www.wired.com/story/greenlight-hub-voice-assistant-feature/)
+  Wired - 2026-10-22T
+

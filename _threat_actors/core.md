@@ -30,3 +30,9 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Anker Soundcore Space 2 Are at Their Lowest Price Ever](https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/)
+  Wired - 2026-10-22T
+

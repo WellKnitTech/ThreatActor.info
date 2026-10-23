@@ -33,12 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown](https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/)
-  TechCrunch - 2026-10-21T
+- [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/)
+  TechCrunch - 2026-10-23T
+- [PHP2Shell Update: One in ten organizations impacted as Europe bears the brunt](https://blog.checkpoint.com/ai-security/php2shell-one-in-ten-organizations-impacted-as-europe-bears-the-brunt/)
+  Check Point - 2026-10-22T
+- [Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed](https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html)
+  The Hacker News - 2026-10-22T
+- [I Worked for a Whole Day Using Only the iPhone Duo. Here’s How It Went](https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/)
+  Wired - 2026-10-22T
 - [Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique](https://www.sentinelone.com/blog/stopping-php2shell-how-sentinelone-protects-customers-from-this-attack-technique/)
   SentinelOne - 2026-10-21T
-- [7 Best Phones You Can’t Buy in the US (2026)](https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/)
-  Wired - 2026-10-21T
-- [OpenAI agents disabled safety monitoring, one lied about it](https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/)
-  BleepingComputer - 2026-10-21T
 

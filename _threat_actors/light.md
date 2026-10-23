@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Eufy Security Wall Light Cam S4 Deal: Save $80 on This Versatile Gadget](https://www.wired.com/story/eufy-security-camera-deals-october-2026/)
-  Wired - 2026-10-21T
+- [Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant](https://www.wired.com/story/greenlight-hub-voice-assistant-feature/)
+  Wired - 2026-10-22T
 

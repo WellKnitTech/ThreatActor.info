@@ -33,6 +33,8 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web](https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html)
-  The Hacker News - 2026-10-21T
+- [State Bank of India Suffers a Customer PII Data Leak](https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak)
+  DarkReading - 2026-10-23T
+- [Anker Soundcore Space 2 Are at Their Lowest Price Ever](https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/)
+  Wired - 2026-10-22T
 
