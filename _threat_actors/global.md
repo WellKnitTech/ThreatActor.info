@@ -33,8 +33,8 @@ Not a RaaS yet.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Why Caribbean Threats Cascade Into Global Cyber-Risk](https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk)
+  DarkReading - 2026-10-23T
 - [eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable](https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html)
-  The Hacker News - 2026-10-22T
-- [INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown](https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html)
   The Hacker News - 2026-10-22T
 

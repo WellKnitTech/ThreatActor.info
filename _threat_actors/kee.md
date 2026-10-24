@@ -35,8 +35,4 @@ ransomware
 
 - [Enterprises keep buying software upgrades that IT thinks will make things worse](https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/)
   Ars Technica - 2026-10-21T
-- [As AI Is Reshaping the Data Center, Security Has to Keep Up.](https://blog.checkpoint.com/hybrid-mesh/as-ai-is-reshaping-the-data-center-security-has-to-keep-up/)
-  Check Point - 2026-10-21T
-- [Keeping AI Agents on Task: Check Point Advances AI Agent Safety with NVIDIA OpenShell Reference Architecture](https://blog.checkpoint.com/ai-security/keeping-ai-agents-on-task-check-point-advances-ai-agent-safety-with-nvidia-openshell-reference-architecture/)
-  Check Point - 2026-10-21T
 

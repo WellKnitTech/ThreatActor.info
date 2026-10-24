@@ -37,6 +37,8 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Arc browser sunsets December 22 as The Browser Company doubles down on Dia](https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/)
-  TechCrunch - 2026-10-22T
+- [Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday](https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/)
+  Wired - 2026-10-23T
+- [Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could](https://www.wired.com/review/samsung-galazy-z-flip8/)
+  Wired - 2026-10-23T
 

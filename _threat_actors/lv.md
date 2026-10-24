@@ -30,3 +30,9 @@ parser needs to be built
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ](https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/)
+  TechCrunch - 2026-10-23T
+

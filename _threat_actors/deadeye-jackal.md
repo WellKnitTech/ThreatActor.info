@@ -44,6 +44,6 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [How Fraudulent Airline Support Numbers Exploit Search Results and AI-Generated Answers](https://blog.checkpoint.com/research/how-fraudulent-airline-support-numbers-exploit-search-results-and-ai-generated-answers/)
-  Check Point - 2026-10-21T
+- [Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
+  The Hacker News - 2026-10-23T
 

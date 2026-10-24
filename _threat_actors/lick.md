@@ -33,8 +33,6 @@ Ransomware Variant of Kirk
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks](https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/)
-  BleepingComputer - 2026-10-21T
-- [Decades-Old Windows Utility Powers Modern ClickFix Attack](https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack)
-  DarkReading - 2026-10-21T
+- [Turtle Beach Vulcan II XP Review: Clicky Compromise](https://www.wired.com/review/turtle-beach-vulcan-xp-ii/)
+  Wired - 2026-10-23T
 

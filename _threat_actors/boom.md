@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The Social Society Helping Women Join the AI Boom](https://www.wired.com/story/aged-intelligence-society-interview/)
-  Wired - 2026-10-22T
-

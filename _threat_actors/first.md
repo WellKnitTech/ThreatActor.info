@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [What to Know About Shamonda Virus Following the First Reported Human Infection](https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/)
-  Wired - 2026-10-22T
-- [Canva releases its first image generation model](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/)
-  TechCrunch - 2026-10-22T
+- [Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels](https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/)
+  TechCrunch - 2026-10-23T
 

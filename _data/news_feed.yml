@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T06:55:35Z",
+  "updated": "2026-10-24T06:51:31Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,155 +21,283 @@
   "actor_news": {
     "R": [
       {
-        "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback",
-        "link": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
-        "date": "2026-10-23T04:22:57+00:00",
+        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+        "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+        "date": "2026-10-24T00:20:13+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+        "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+        "date": "2026-10-23T23:24:08+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+        "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+        "date": "2026-10-23T23:20:47+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Startups don’t need to go viral to win customers",
+        "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
+        "date": "2026-10-23T23:07:45+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-        "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-        "date": "2026-10-23T04:00:00+00:00",
+        "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+        "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+        "date": "2026-10-23T23:05:49+00:00",
         "source": "TechCrunch"
-      },
+      }
+    ],
+    "Tk": [
       {
-        "title": "State Bank of India Suffers a Customer PII Data Leak",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
-        "date": "2026-10-23T03:30:00+00:00",
-        "source": "DarkReading"
-      },
+        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+        "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+        "date": "2026-10-24T00:20:13+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Ruby": [
       {
-        "title": "Left alone with nothing to do, AI agents started playing",
-        "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-        "date": "2026-10-23T00:45:37+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-        "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-        "date": "2026-10-23T00:35:35+05:30",
+        "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+        "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+        "date": "2026-10-23T23:24:08+05:30",
         "source": "The Hacker News"
       }
     ],
     "Ra": [
       {
-        "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback",
-        "link": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
-        "date": "2026-10-23T04:22:57+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-        "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-        "date": "2026-10-23T04:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-        "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-        "date": "2026-10-22T23:42:43+05:30",
+        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+        "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+        "date": "2026-10-23T23:20:47+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-        "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-        "date": "2026-10-22T23:15:44+05:30",
-        "source": "The Hacker News"
+        "title": "Startups don’t need to go viral to win customers",
+        "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
+        "date": "2026-10-23T23:07:45+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
-        "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
-        "date": "2026-10-22T23:15:00+00:00",
+        "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+        "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+        "date": "2026-10-23T23:05:49+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "date": "2026-10-23T21:59:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+        "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+        "date": "2026-10-23T20:57:56+00:00",
+        "source": "DarkReading"
       }
     ],
-    "Ank": [
+    "APT3": [
       {
-        "title": "State Bank of India Suffers a Customer PII Data Leak",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
-        "date": "2026-10-23T03:30:00+00:00",
-        "source": "DarkReading"
+        "title": "Startups don’t need to go viral to win customers",
+        "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
+        "date": "2026-10-23T23:07:45+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "Anker Soundcore Space 2 Are at Their Lowest Price Ever",
-        "link": "https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/",
-        "date": "2026-10-22T18:03:44+00:00",
-        "source": "Wired"
+        "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+        "link": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+        "date": "2026-10-23T19:25:13+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Play": [
       {
+        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "date": "2026-10-23T21:59:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
         "title": "Left alone with nothing to do, AI agents started playing",
         "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
         "date": "2026-10-23T00:45:37+00:00",
         "source": "TechCrunch"
       }
     ],
-    "One": [
+    "Christmas": [
       {
-        "title": "Left alone with nothing to do, AI agents started playing",
-        "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-        "date": "2026-10-23T00:45:37+00:00",
+        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "date": "2026-10-23T21:59:19+00:00",
         "source": "TechCrunch"
-      },
-      {
-        "title": "PHP2Shell Update: One in ten organizations impacted as Europe bears the brunt",
-        "link": "https://blog.checkpoint.com/ai-security/php2shell-one-in-ten-organizations-impacted-as-europe-bears-the-brunt/",
-        "date": "2026-10-22T17:15:13+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-        "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-        "date": "2026-10-22T12:04:10+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "I Worked for a Whole Day Using Only the iPhone Duo. Here’s How It Went",
-        "link": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-        "date": "2026-10-22T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
-        "link": "https://www.sentinelone.com/blog/stopping-php2shell-how-sentinelone-protects-customers-from-this-attack-technique/",
-        "date": "2026-10-21T19:21:11+00:00",
-        "source": "SentinelOne"
       }
     ],
     "PL": [
       {
-        "title": "Left alone with nothing to do, AI agents started playing",
-        "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-        "date": "2026-10-23T00:45:37+00:00",
+        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "date": "2026-10-23T21:59:19+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-        "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-        "date": "2026-10-23T00:35:17+05:30",
+        "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+        "link": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+        "date": "2026-10-23T19:25:13+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Metasploit Wrap Up: Langflow, MongoDB, and More",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
+        "date": "2026-10-23T15:38:56+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+        "date": "2026-10-23T14:10:43+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
-        "link": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
-        "date": "2026-10-22T23:50:41+00:00",
+        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "date": "2026-10-23T13:10:45+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Turla": [
+      {
+        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
+        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+        "date": "2026-10-23T20:03:14+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
-        "date": "2026-10-22T20:42:17+00:00",
+        "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026 ",
+        "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+        "date": "2026-10-23T19:06:23+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
+        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+        "date": "2026-10-23T20:03:14+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PHP": [
+      {
+        "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+        "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+        "date": "2026-10-23T19:41:23+00:00",
         "source": "DarkReading"
       },
       {
-        "title": "Save $150 on the Apple Mac Mini M4, but There’s a Catch",
-        "link": "https://www.wired.com/story/mac-mini-m4-deal-october-2026/",
-        "date": "2026-10-22T15:30:31+00:00",
+        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
+        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+        "date": "2026-10-23T19:00:34+00:00",
+        "source": "Unit 42"
+      },
+      {
+        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "date": "2026-10-23T16:55:43+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "date": "2026-10-23T13:10:45+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+        "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+        "date": "2026-10-23T11:38:05-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "OCT": [
+      {
+        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
+        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+        "date": "2026-10-23T19:00:34+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
+        "link": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
+        "date": "2026-10-23T18:27:32+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
+        "link": "https://www.wired.com/review/samsung-galazy-z-flip8/",
+        "date": "2026-10-23T11:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Bringing post-quantum cryptography to geographically fenced key management",
+        "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+        "date": "2026-10-23T18:06:56+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Bringing post-quantum cryptography to geographically fenced key management",
+        "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+        "date": "2026-10-23T18:06:56+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "One": [
+      {
+        "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
+        "link": "https://www.wired.com/gallery/iphone-buying-guide/",
+        "date": "2026-10-23T17:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+        "date": "2026-10-23T16:55:05-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
+        "link": "https://www.wired.com/review/samsung-galazy-z-flip8/",
+        "date": "2026-10-23T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "TDM Neo Hybrid Headphones Review: Two-in-One Woes",
+        "link": "https://www.wired.com/review/tdm-neo-hybrid-headphones/",
+        "date": "2026-10-23T10:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "8 Things to Know About the iPhone Duo",
+        "link": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
+        "date": "2026-10-23T09:15:00+00:00",
         "source": "Wired"
       }
     ],
     "RNS": [
+      {
+        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "date": "2026-10-23T16:55:43+05:30",
+        "source": "The Hacker News"
+      },
       {
         "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
         "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
@@ -187,60 +315,124 @@
         "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
         "date": "2026-10-22T07:41:48-04:00",
         "source": "BleepingComputer"
-      },
-      {
-        "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-        "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-        "date": "2026-10-21T18:16:26-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk",
-        "link": "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable",
-        "date": "2026-10-21T15:29:09+00:00",
-        "source": "DarkReading"
       }
     ],
-    "global": [
+    "Done": [
       {
-        "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-        "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-        "date": "2026-10-22T23:42:43+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-        "link": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
-        "date": "2026-10-22T19:08:22+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier",
-        "link": "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
-        "date": "2026-10-22T22:34:54+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-        "date": "2026-10-21T16:31:48-04:00",
+        "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+        "date": "2026-10-23T16:55:05-04:00",
         "source": "BleepingComputer"
       }
     ],
     "First": [
       {
-        "title": "What to Know About Shamonda Virus Following the First Reported Human Infection",
-        "link": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
-        "date": "2026-10-22T22:26:57+00:00",
-        "source": "Wired"
+        "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+        "link": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+        "date": "2026-10-23T16:26:29+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Fusion": [
+      {
+        "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+        "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+        "date": "2026-10-23T16:20:28+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Metasploit": [
+      {
+        "title": "Metasploit Wrap Up: Langflow, MongoDB, and More",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
+        "date": "2026-10-23T15:38:56+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Python": [
+      {
+        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+        "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+        "date": "2026-10-23T15:06:00+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Aware": [
+      {
+        "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+        "date": "2026-10-23T14:54:41-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+        "date": "2026-10-23T14:10:43+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Demo": [
+      {
+        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+        "date": "2026-10-23T14:10:43+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "BB": [
+      {
+        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+        "date": "2026-10-23T14:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "global": [
+      {
+        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+        "date": "2026-10-23T14:00:00+00:00",
+        "source": "DarkReading"
       },
       {
-        "title": "Canva releases its first image generation model",
-        "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-        "date": "2026-10-22T19:00:00+00:00",
-        "source": "TechCrunch"
+        "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+        "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+        "date": "2026-10-22T23:42:43+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Lick": [
+      {
+        "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
+        "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
+        "date": "2026-10-23T10:45:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Vulcan": [
+      {
+        "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
+        "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
+        "date": "2026-10-23T10:45:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Mars": [
+      {
+        "title": "The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars",
+        "link": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
+        "date": "2026-10-23T09:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ank": [
+      {
+        "title": "State Bank of India Suffers a Customer PII Data Leak",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+        "date": "2026-10-23T03:30:00+00:00",
+        "source": "DarkReading"
       }
     ],
     "Storm-0940": [
@@ -259,135 +451,11 @@
         "source": "DarkReading"
       }
     ],
-    "SunCrypt": [
-      {
-        "title": "Arc browser sunsets December 22 as The Browser Company doubles down on Dia",
-        "link": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
-        "date": "2026-10-22T20:01:51+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "BooM": [
-      {
-        "title": "The Social Society Helping Women Join the AI Boom",
-        "link": "https://www.wired.com/story/aged-intelligence-society-interview/",
-        "date": "2026-10-22T19:56:32+00:00",
-        "source": "Wired"
-      }
-    ],
-    "OCT": [
-      {
-        "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-        "link": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-        "date": "2026-10-22T18:43:53+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
-        "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
-        "date": "2026-10-22T18:38:47+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "PHP2Shell: Log4Shell at AI Speed — A CISO’s Perspective",
-        "link": "https://blog.checkpoint.com/ai-security/php2shell-log4shell-at-ai-speed-a-cisos-perspective/",
-        "date": "2026-10-22T18:09:32+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "PHP2Shell Update: One in ten organizations impacted as Europe bears the brunt",
-        "link": "https://blog.checkpoint.com/ai-security/php2shell-one-in-ten-organizations-impacted-as-europe-bears-the-brunt/",
-        "date": "2026-10-22T17:15:13+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-        "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-        "date": "2026-10-22T12:04:10+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-        "link": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-        "date": "2026-10-22T09:09:12-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
-        "link": "https://www.sentinelone.com/blog/stopping-php2shell-how-sentinelone-protects-customers-from-this-attack-technique/",
-        "date": "2026-10-21T19:21:11+00:00",
-        "source": "SentinelOne"
-      }
-    ],
-    "core": [
-      {
-        "title": "Anker Soundcore Space 2 Are at Their Lowest Price Ever",
-        "link": "https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/",
-        "date": "2026-10-22T18:03:44+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Save $150 on the Apple Mac Mini M4, but There’s a Catch",
-        "link": "https://www.wired.com/story/mac-mini-m4-deal-october-2026/",
-        "date": "2026-10-22T15:30:31+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-        "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-        "date": "2026-10-21T18:16:26-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
     "Hacked": [
       {
         "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
         "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
         "date": "2026-10-22T15:12:51-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-        "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-        "date": "2026-10-21T17:43:27-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "QP": [
-      {
-        "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-        "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-        "date": "2026-10-22T12:08:31+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Final": [
-      {
-        "title": "Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant",
-        "link": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
-        "date": "2026-10-22T10:01:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Light": [
-      {
-        "title": "Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant",
-        "link": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
-        "date": "2026-10-22T10:01:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Thor": [
-      {
-        "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
-        "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-        "date": "2026-10-22T04:27:11-04:00",
         "source": "BleepingComputer"
       }
     ],
@@ -397,18 +465,6 @@
         "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
         "date": "2026-10-21T21:48:52+00:00",
         "source": "Ars Technica"
-      },
-      {
-        "title": "As AI Is Reshaping the Data Center, Security Has to Keep Up.",
-        "link": "https://blog.checkpoint.com/hybrid-mesh/as-ai-is-reshaping-the-data-center-security-has-to-keep-up/",
-        "date": "2026-10-21T13:00:12+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "Keeping AI Agents on Task: Check Point Advances AI Agent Safety with NVIDIA OpenShell Reference Architecture",
-        "link": "https://blog.checkpoint.com/ai-security/keeping-ai-agents-on-task-check-point-advances-ai-agent-safety-with-nvidia-openshell-reference-architecture/",
-        "date": "2026-10-21T11:31:24+00:00",
-        "source": "Check Point"
       }
     ],
     "Survey": [
@@ -417,90 +473,6 @@
         "link": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
         "date": "2026-10-21T20:03:14+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk",
-        "link": "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable",
-        "date": "2026-10-21T15:29:09+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Red Alert": [
-      {
-        "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
-        "link": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
-        "date": "2026-10-21T19:19:17+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-        "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-        "date": "2026-10-21T18:16:26-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Decades-Old Windows Utility Powers Modern ClickFix Attack",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
-        "date": "2026-10-21T13:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Desktop": [
-      {
-        "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-        "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-        "date": "2026-10-21T17:43:27-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Lazarus": [
-      {
-        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-        "date": "2026-10-21T16:31:48-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Lazarus Group": [
-      {
-        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-        "date": "2026-10-21T16:31:48-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Quantum": [
-      {
-        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-        "date": "2026-10-21T16:31:48-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Aware": [
-      {
-        "title": "Optiv Launches CyberBOT Cybersecurity Awareness Training Program",
-        "link": "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program",
-        "date": "2026-10-21T15:44:48+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "How Fraudulent Airline Support Numbers Exploit Search Results and AI-Generated Answers",
-        "link": "https://blog.checkpoint.com/research/how-fraudulent-airline-support-numbers-exploit-search-results-and-ai-generated-answers/",
-        "date": "2026-10-21T13:00:48+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "OpenAI agents disabled safety monitoring, one lied about it",
-        "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-        "date": "2026-10-21T12:26:53-04:00",
-        "source": "BleepingComputer"
       }
     ]
   }
