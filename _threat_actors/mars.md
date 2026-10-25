@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars](https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/)
-  Wired - 2026-10-23T
-

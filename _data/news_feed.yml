@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T06:51:31Z",
+  "updated": "2026-10-25T07:15:39Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,175 +21,143 @@
   "actor_news": {
     "R": [
       {
-        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-        "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-        "date": "2026-10-24T00:20:13+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-        "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-        "date": "2026-10-23T23:24:08+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-        "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-        "date": "2026-10-23T23:20:47+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Startups don’t need to go viral to win customers",
-        "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
-        "date": "2026-10-23T23:07:45+00:00",
+        "title": "Starlink seems to be working normally again in Ukraine",
+        "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+        "date": "2026-10-24T20:46:34+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-        "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-        "date": "2026-10-23T23:05:49+00:00",
+        "title": "Will AI expose the rickety infrastructure of the internet?",
+        "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+        "date": "2026-10-24T20:15:33+00:00",
         "source": "TechCrunch"
-      }
-    ],
-    "Tk": [
+      },
       {
-        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-        "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-        "date": "2026-10-24T00:20:13+05:30",
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "date": "2026-10-24T19:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+        "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+        "date": "2026-10-24T16:39:29+05:30",
         "source": "The Hacker News"
-      }
-    ],
-    "Ruby": [
+      },
       {
-        "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-        "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-        "date": "2026-10-23T23:24:08+05:30",
+        "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+        "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+        "date": "2026-10-24T16:33:33+05:30",
         "source": "The Hacker News"
       }
     ],
     "Ra": [
       {
-        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-        "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-        "date": "2026-10-23T23:20:47+05:30",
+        "title": "Starlink seems to be working normally again in Ukraine",
+        "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+        "date": "2026-10-24T20:46:34+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Will AI expose the rickety infrastructure of the internet?",
+        "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+        "date": "2026-10-24T20:15:33+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "date": "2026-10-24T19:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
+        "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+        "date": "2026-10-24T15:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+        "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+        "date": "2026-10-24T11:55:57+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Startups don’t need to go viral to win customers",
-        "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
-        "date": "2026-10-23T23:07:45+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-        "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-        "date": "2026-10-23T23:05:49+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-        "date": "2026-10-23T21:59:19+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
-        "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
-        "date": "2026-10-23T20:57:56+00:00",
-        "source": "DarkReading"
       }
     ],
     "APT3": [
       {
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "date": "2026-10-24T19:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+        "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+        "date": "2026-10-24T12:00:00+00:00",
+        "source": "Wired"
+      },
+      {
         "title": "Startups don’t need to go viral to win customers",
         "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
         "date": "2026-10-23T23:07:45+00:00",
         "source": "TechCrunch"
-      },
+      }
+    ],
+    "DN": [
       {
-        "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
-        "link": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
-        "date": "2026-10-23T19:25:13+00:00",
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "date": "2026-10-24T19:00:00+00:00",
         "source": "TechCrunch"
       }
     ],
-    "Play": [
+    "Python": [
       {
-        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-        "date": "2026-10-23T21:59:19+00:00",
-        "source": "TechCrunch"
+        "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+        "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+        "date": "2026-10-24T16:39:29+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Left alone with nothing to do, AI agents started playing",
-        "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-        "date": "2026-10-23T00:45:37+00:00",
-        "source": "TechCrunch"
+        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+        "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+        "date": "2026-10-23T15:06:00+05:30",
+        "source": "The Hacker News"
       }
     ],
-    "Christmas": [
+    "Deadeye Jackal": [
       {
-        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-        "date": "2026-10-23T21:59:19+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "PL": [
-      {
-        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-        "date": "2026-10-23T21:59:19+00:00",
-        "source": "TechCrunch"
+        "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+        "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+        "date": "2026-10-24T16:06:33+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
-        "link": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
-        "date": "2026-10-23T19:25:13+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Metasploit Wrap Up: Langflow, MongoDB, and More",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
-        "date": "2026-10-23T15:38:56+00:00",
-        "source": "Rapid7"
+        "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+        "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+        "date": "2026-10-24T14:34:24+05:30",
+        "source": "The Hacker News"
       },
       {
         "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
         "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
         "date": "2026-10-23T14:10:43+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-        "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-        "date": "2026-10-23T13:10:45+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Turla": [
-      {
-        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
-        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
-        "date": "2026-10-23T20:03:14+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026 ",
-        "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-        "date": "2026-10-23T19:06:23+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
-        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
-        "date": "2026-10-23T20:03:14+00:00",
-        "source": "TechCrunch"
       }
     ],
     "PHP": [
+      {
+        "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+        "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+        "date": "2026-10-24T15:30:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+        "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+        "date": "2026-10-24T12:00:00+00:00",
+        "source": "Wired"
+      },
       {
         "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
         "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
@@ -207,18 +175,168 @@
         "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
         "date": "2026-10-23T16:55:43+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "Demo": [
+      {
+        "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
+        "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+        "date": "2026-10-24T15:00:00+00:00",
+        "source": "TechCrunch"
       },
       {
-        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-        "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-        "date": "2026-10-23T13:10:45+05:30",
+        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+        "date": "2026-10-23T14:10:43+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "One": [
+      {
+        "title": "These clever apps show off the iPhone Duo’s potential",
+        "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+        "date": "2026-10-24T15:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
+        "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+        "date": "2026-10-24T14:15:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "9 Unique Apps to Try on the iPhone Duo",
+        "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+        "date": "2026-10-24T10:45:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
+        "link": "https://www.wired.com/gallery/iphone-buying-guide/",
+        "date": "2026-10-23T17:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+        "date": "2026-10-23T16:55:05-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Final": [
+      {
+        "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
+        "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+        "date": "2026-10-24T14:15:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "PL": [
+      {
+        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+        "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+        "date": "2026-10-24T12:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+        "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+        "date": "2026-10-24T11:55:57+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-        "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-        "date": "2026-10-23T11:38:05-04:00",
+        "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+        "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+        "date": "2026-10-24T10:17:32-04:00",
         "source": "BleepingComputer"
+      },
+      {
+        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "date": "2026-10-23T21:59:19+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Metasploit Wrap Up: Langflow, MongoDB, and More",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
+        "date": "2026-10-23T15:38:56+00:00",
+        "source": "Rapid7"
+      }
+    ],
+    "Tk": [
+      {
+        "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+        "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+        "date": "2026-10-24T10:17:32-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+        "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+        "date": "2026-10-24T00:20:13+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "BB": [
+      {
+        "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
+        "link": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
+        "date": "2026-10-24T09:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+        "date": "2026-10-23T14:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "James": [
+      {
+        "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
+        "link": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
+        "date": "2026-10-24T09:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ruby": [
+      {
+        "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+        "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+        "date": "2026-10-23T23:24:08+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Play": [
+      {
+        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "date": "2026-10-23T21:59:19+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Christmas": [
+      {
+        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "date": "2026-10-23T21:59:19+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Turla": [
+      {
+        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
+        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+        "date": "2026-10-23T20:03:14+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Lv": [
+      {
+        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
+        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+        "date": "2026-10-23T20:03:14+00:00",
+        "source": "TechCrunch"
       }
     ],
     "OCT": [
@@ -234,12 +352,6 @@
         "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
         "link": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
         "date": "2026-10-23T18:27:32+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
-        "link": "https://www.wired.com/review/samsung-galazy-z-flip8/",
-        "date": "2026-10-23T11:30:00+00:00",
         "source": "Wired"
       }
     ],
@@ -259,38 +371,6 @@
         "source": "Cloudflare"
       }
     ],
-    "One": [
-      {
-        "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
-        "link": "https://www.wired.com/gallery/iphone-buying-guide/",
-        "date": "2026-10-23T17:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-        "date": "2026-10-23T16:55:05-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
-        "link": "https://www.wired.com/review/samsung-galazy-z-flip8/",
-        "date": "2026-10-23T11:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "TDM Neo Hybrid Headphones Review: Two-in-One Woes",
-        "link": "https://www.wired.com/review/tdm-neo-hybrid-headphones/",
-        "date": "2026-10-23T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "8 Things to Know About the iPhone Duo",
-        "link": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-        "date": "2026-10-23T09:15:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "RNS": [
       {
         "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
@@ -299,21 +379,9 @@
         "source": "The Hacker News"
       },
       {
-        "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-        "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-        "date": "2026-10-23T00:35:17+05:30",
-        "source": "The Hacker News"
-      },
-      {
         "title": "Railway warns devs to rotate secrets after potential breach",
         "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
         "date": "2026-10-22T17:25:31-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "GitLab warns of new max severity code execution vulnerability",
-        "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-        "date": "2026-10-22T07:41:48-04:00",
         "source": "BleepingComputer"
       }
     ],
@@ -325,36 +393,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "First": [
-      {
-        "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
-        "link": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
-        "date": "2026-10-23T16:26:29+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Fusion": [
-      {
-        "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
-        "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
-        "date": "2026-10-23T16:20:28+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "Metasploit": [
       {
         "title": "Metasploit Wrap Up: Langflow, MongoDB, and More",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
         "date": "2026-10-23T15:38:56+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "Python": [
-      {
-        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-        "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-        "date": "2026-10-23T15:06:00+05:30",
-        "source": "The Hacker News"
       }
     ],
     "Aware": [
@@ -365,66 +409,12 @@
         "source": "BleepingComputer"
       }
     ],
-    "Deadeye Jackal": [
-      {
-        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-        "date": "2026-10-23T14:10:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Demo": [
-      {
-        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-        "date": "2026-10-23T14:10:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
-        "date": "2026-10-23T14:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "global": [
       {
         "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
         "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
         "date": "2026-10-23T14:00:00+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-        "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-        "date": "2026-10-22T23:42:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Lick": [
-      {
-        "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
-        "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
-        "date": "2026-10-23T10:45:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Vulcan": [
-      {
-        "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
-        "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
-        "date": "2026-10-23T10:45:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Mars": [
-      {
-        "title": "The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars",
-        "link": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
-        "date": "2026-10-23T09:00:00+00:00",
-        "source": "Wired"
       }
     ],
     "Ank": [

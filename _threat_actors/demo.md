@@ -33,6 +33,8 @@ Ransomware only encrypts .jpg files
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)
+  TechCrunch - 2026-10-24T
 - [Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
   The Hacker News - 2026-10-23T
 

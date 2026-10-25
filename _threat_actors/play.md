@@ -141,6 +141,4 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 
 - [Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell](https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/)
   TechCrunch - 2026-10-23T
-- [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/)
-  TechCrunch - 2026-10-23T
 

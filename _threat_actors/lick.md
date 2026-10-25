@@ -30,9 +30,3 @@ Ransomware Variant of Kirk
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Turtle Beach Vulcan II XP Review: Clicky Compromise](https://www.wired.com/review/turtle-beach-vulcan-xp-ii/)
-  Wired - 2026-10-23T
-
