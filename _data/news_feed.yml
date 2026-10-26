@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T07:15:39Z",
+  "updated": "2026-10-26T07:23:21Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -21,66 +21,318 @@
   "actor_news": {
     "R": [
       {
-        "title": "Starlink seems to be working normally again in Ukraine",
-        "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
-        "date": "2026-10-24T20:46:34+00:00",
+        "title": "The best apps for tracking your reading and discovering new books",
+        "link": "https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/",
+        "date": "2026-10-26T01:10:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Will AI expose the rickety infrastructure of the internet?",
-        "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
-        "date": "2026-10-24T20:15:33+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-        "date": "2026-10-24T19:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-        "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-        "date": "2026-10-24T16:39:29+05:30",
+        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+        "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+        "date": "2026-10-25T23:14:09+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-        "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-        "date": "2026-10-24T16:33:33+05:30",
+        "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "date": "2026-10-25T22:49:46+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+        "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+        "date": "2026-10-25T21:31:16+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead",
+        "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
+        "date": "2026-10-25T20:20:08+00:00",
+        "source": "TechCrunch"
       }
     ],
     "Ra": [
       {
-        "title": "Starlink seems to be working normally again in Ukraine",
-        "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
-        "date": "2026-10-24T20:46:34+00:00",
+        "title": "The best apps for tracking your reading and discovering new books",
+        "link": "https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/",
+        "date": "2026-10-26T01:10:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Will AI expose the rickety infrastructure of the internet?",
-        "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
-        "date": "2026-10-24T20:15:33+00:00",
+        "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+        "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+        "date": "2026-10-25T21:31:16+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-        "date": "2026-10-24T19:00:00+00:00",
+        "title": "The hottest AI wearables and gadgets you should know about",
+        "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+        "date": "2026-10-25T14:10:00+00:00",
         "source": "TechCrunch"
       },
       {
-        "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
-        "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-        "date": "2026-10-24T15:00:00+00:00",
+        "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+        "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+        "date": "2026-10-25T12:24:29+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets",
+        "link": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+        "date": "2026-10-25T12:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Hacked": [
+      {
+        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+        "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+        "date": "2026-10-25T23:14:09+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+        "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+        "date": "2026-10-22T15:12:51-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+        "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+        "date": "2026-10-25T23:14:09+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "Conti": [
+      {
+        "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "date": "2026-10-25T22:49:46+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "global": [
+      {
+        "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "date": "2026-10-25T22:49:46+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+        "date": "2026-10-23T14:00:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "PHP": [
+      {
+        "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "date": "2026-10-25T22:49:46+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+        "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+        "date": "2026-10-24T15:30:00+00:00",
         "source": "TechCrunch"
+      },
+      {
+        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+        "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+        "date": "2026-10-24T12:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+        "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+        "date": "2026-10-23T19:41:23+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
+        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+        "date": "2026-10-23T19:00:34+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "PL": [
+      {
+        "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "date": "2026-10-25T22:49:46+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
+        "link": "https://www.wired.com/gallery/best-folding-phones/",
+        "date": "2026-10-25T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
+        "link": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+        "date": "2026-10-25T10:15:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+        "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+        "date": "2026-10-24T12:00:00+00:00",
+        "source": "Wired"
       },
       {
         "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
         "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
         "date": "2026-10-24T11:55:57+05:30",
         "source": "The Hacker News"
+      }
+    ],
+    "First": [
+      {
+        "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+        "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+        "date": "2026-10-25T21:31:16+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "bert": [
+      {
+        "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead",
+        "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
+        "date": "2026-10-25T20:20:08+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "RNS": [
+      {
+        "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead",
+        "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
+        "date": "2026-10-25T20:20:08+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "date": "2026-10-23T16:55:43+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Railway warns devs to rotate secrets after potential breach",
+        "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+        "date": "2026-10-22T17:25:31-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Thor": [
+      {
+        "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead",
+        "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
+        "date": "2026-10-25T20:20:08+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Demo": [
+      {
+        "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+        "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+        "date": "2026-10-25T12:24:29+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
+        "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+        "date": "2026-10-24T15:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "One": [
+      {
+        "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
+        "link": "https://www.wired.com/gallery/best-folding-phones/",
+        "date": "2026-10-25T11:30:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
+        "link": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+        "date": "2026-10-25T10:15:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "These clever apps show off the iPhone Duo’s potential",
+        "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+        "date": "2026-10-24T15:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
+        "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+        "date": "2026-10-24T14:15:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "9 Unique Apps to Try on the iPhone Duo",
+        "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+        "date": "2026-10-24T10:45:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "SunCrypt": [
+      {
+        "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
+        "link": "https://www.wired.com/gallery/best-folding-phones/",
+        "date": "2026-10-25T11:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Havoc": [
+      {
+        "title": "Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later",
+        "link": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
+        "date": "2026-10-25T10:30:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Play": [
+      {
+        "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
+        "link": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+        "date": "2026-10-25T10:15:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
+        "link": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+        "date": "2026-10-25T10:15:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Kee": [
+      {
+        "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
+        "link": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+        "date": "2026-10-25T10:15:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
+        "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
+        "date": "2026-10-21T21:48:52+00:00",
+        "source": "Ars Technica"
+      }
+    ],
+    "Locker": [
+      {
+        "title": "Hyve Smart Package Locker Review: Protecting Your Holiday Deliveries",
+        "link": "https://www.wired.com/review/hyve-smart-package-locker/",
+        "date": "2026-10-25T10:01:00+00:00",
+        "source": "Wired"
       }
     ],
     "APT3": [
@@ -95,12 +347,6 @@
         "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
         "date": "2026-10-24T12:00:00+00:00",
         "source": "Wired"
-      },
-      {
-        "title": "Startups don’t need to go viral to win customers",
-        "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
-        "date": "2026-10-23T23:07:45+00:00",
-        "source": "TechCrunch"
       }
     ],
     "DN": [
@@ -137,90 +383,6 @@
         "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
         "date": "2026-10-24T14:34:24+05:30",
         "source": "The Hacker News"
-      },
-      {
-        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-        "date": "2026-10-23T14:10:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
-        "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
-        "date": "2026-10-24T15:30:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-        "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-        "date": "2026-10-24T12:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
-        "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
-        "date": "2026-10-23T19:41:23+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
-        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-        "date": "2026-10-23T19:00:34+00:00",
-        "source": "Unit 42"
-      },
-      {
-        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-        "date": "2026-10-23T16:55:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Demo": [
-      {
-        "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
-        "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-        "date": "2026-10-24T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-        "date": "2026-10-23T14:10:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "One": [
-      {
-        "title": "These clever apps show off the iPhone Duo’s potential",
-        "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
-        "date": "2026-10-24T15:00:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
-        "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
-        "date": "2026-10-24T14:15:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "9 Unique Apps to Try on the iPhone Duo",
-        "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
-        "date": "2026-10-24T10:45:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
-        "link": "https://www.wired.com/gallery/iphone-buying-guide/",
-        "date": "2026-10-23T17:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-        "date": "2026-10-23T16:55:05-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Final": [
@@ -229,38 +391,6 @@
         "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
         "date": "2026-10-24T14:15:00+00:00",
         "source": "TechCrunch"
-      }
-    ],
-    "PL": [
-      {
-        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-        "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-        "date": "2026-10-24T12:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-        "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-        "date": "2026-10-24T11:55:57+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-        "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-        "date": "2026-10-24T10:17:32-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-        "date": "2026-10-23T21:59:19+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Metasploit Wrap Up: Langflow, MongoDB, and More",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
-        "date": "2026-10-23T15:38:56+00:00",
-        "source": "Rapid7"
       }
     ],
     "Tk": [
@@ -277,28 +407,6 @@
         "source": "The Hacker News"
       }
     ],
-    "BB": [
-      {
-        "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
-        "link": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
-        "date": "2026-10-24T09:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
-        "date": "2026-10-23T14:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "James": [
-      {
-        "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
-        "link": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
-        "date": "2026-10-24T09:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
     "Ruby": [
       {
         "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
@@ -307,52 +415,12 @@
         "source": "The Hacker News"
       }
     ],
-    "Play": [
-      {
-        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-        "date": "2026-10-23T21:59:19+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Christmas": [
-      {
-        "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-        "date": "2026-10-23T21:59:19+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Turla": [
-      {
-        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
-        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
-        "date": "2026-10-23T20:03:14+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now ",
-        "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
-        "date": "2026-10-23T20:03:14+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "OCT": [
       {
-        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
+        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
         "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
         "date": "2026-10-23T19:00:34+00:00",
         "source": "Unit 42"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
-        "link": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
-        "date": "2026-10-23T18:27:32+00:00",
-        "source": "Wired"
       }
     ],
     "CryLocker": [
@@ -369,20 +437,6 @@
         "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
         "date": "2026-10-23T18:06:56+00:00",
         "source": "Cloudflare"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-        "date": "2026-10-23T16:55:43+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Railway warns devs to rotate secrets after potential breach",
-        "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-        "date": "2026-10-22T17:25:31-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "Done": [
@@ -409,7 +463,7 @@
         "source": "BleepingComputer"
       }
     ],
-    "global": [
+    "BB": [
       {
         "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
         "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
@@ -439,22 +493,6 @@
         "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
         "date": "2026-10-22T20:42:17+00:00",
         "source": "DarkReading"
-      }
-    ],
-    "Hacked": [
-      {
-        "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-        "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-        "date": "2026-10-22T15:12:51-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Kee": [
-      {
-        "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
-        "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
-        "date": "2026-10-21T21:48:52+00:00",
-        "source": "Ars Technica"
       }
     ],
     "Survey": [

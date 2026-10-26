@@ -48,6 +48,4 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
   The Hacker News - 2026-10-24T
 - [Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet](https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html)
   The Hacker News - 2026-10-24T
-- [Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
-  The Hacker News - 2026-10-23T
 

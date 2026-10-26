@@ -72,6 +72,12 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity](https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html)
+  The Hacker News - 2026-10-25T
+
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 

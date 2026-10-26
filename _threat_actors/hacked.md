@@ -33,6 +33,8 @@ Ransomware Jigsaw Ransomware variant
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers](https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html)
+  The Hacker News - 2026-10-25T
 - [LiteLLM release pipeline hacked to distribute info-stealer malware](https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/)
   BleepingComputer - 2026-10-22T
 

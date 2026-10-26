@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Starlink seems to be working normally again in Ukraine](https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/)
-  TechCrunch - 2026-10-24T
-- [Will AI expose the rickety infrastructure of the internet?](https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/)
-  TechCrunch - 2026-10-24T
-- [The AI graveyard: a running list of projects and startups that didn’t make it](https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
-  TechCrunch - 2026-10-24T
-- [Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software](https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html)
-  The Hacker News - 2026-10-24T
-- [Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline](https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html)
-  The Hacker News - 2026-10-24T
+- [The best apps for tracking your reading and discovering new books](https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/)
+  TechCrunch - 2026-10-26T
+- [Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers](https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html)
+  The Hacker News - 2026-10-25T
+- [PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity](https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html)
+  The Hacker News - 2026-10-25T
+- [Grok releases the first seven minutes of its AI-generated ‘Odyssey’](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/)
+  TechCrunch - 2026-10-25T
+- [‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead](https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/)
+  TechCrunch - 2026-10-25T
 

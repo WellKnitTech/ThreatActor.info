@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Starlink seems to be working normally again in Ukraine](https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/)
-  TechCrunch - 2026-10-24T
-- [Will AI expose the rickety infrastructure of the internet?](https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/)
-  TechCrunch - 2026-10-24T
-- [The AI graveyard: a running list of projects and startups that didn’t make it](https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
-  TechCrunch - 2026-10-24T
-- [Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)
-  TechCrunch - 2026-10-24T
-- [CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud](https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html)
-  The Hacker News - 2026-10-24T
+- [The best apps for tracking your reading and discovering new books](https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/)
+  TechCrunch - 2026-10-26T
+- [Grok releases the first seven minutes of its AI-generated ‘Odyssey’](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/)
+  TechCrunch - 2026-10-25T
+- [The hottest AI wearables and gadgets you should know about](https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/)
+  TechCrunch - 2026-10-25T
+- [OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication](https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html)
+  The Hacker News - 2026-10-25T
+- [Scientists Trapped an Antimatter Particle for Months to Study Its Secrets](https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/)
+  Wired - 2026-10-25T
 

@@ -33,14 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity](https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html)
+  The Hacker News - 2026-10-25T
+- [6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola](https://www.wired.com/gallery/best-folding-phones/)
+  Wired - 2026-10-25T
+- [Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool](https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/)
+  Wired - 2026-10-25T
 - [The PHP Meltdown Shows How AI Makes Bugs More Exploitable](https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/)
   Wired - 2026-10-24T
 - [CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud](https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html)
   The Hacker News - 2026-10-24T
-- [BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot](https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/)
-  BleepingComputer - 2026-10-24T
-- [Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell](https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/)
-  TechCrunch - 2026-10-23T
-- [Metasploit Wrap Up: Langflow, MongoDB, and More](https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more)
-  Rapid7 - 2026-10-23T
 

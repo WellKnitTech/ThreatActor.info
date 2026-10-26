@@ -139,6 +139,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell](https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/)
-  TechCrunch - 2026-10-23T
+- [Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool](https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/)
+  Wired - 2026-10-25T
 

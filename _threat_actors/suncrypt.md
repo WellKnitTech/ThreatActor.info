@@ -37,6 +37,6 @@ SunCrypt ransomware was discovered in October 2019 and in August 2020 it was add
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday](https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/)
-  Wired - 2026-10-23T
+- [6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola](https://www.wired.com/gallery/best-folding-phones/)
+  Wired - 2026-10-25T
 
