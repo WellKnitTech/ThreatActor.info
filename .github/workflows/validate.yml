@@ -67,6 +67,7 @@ jobs:
         GH_TOKEN: ${{ github.token }}
       run: |
         set +e
+        mkdir -p tmp
         bundle exec ruby scripts/test-import-health.rb > tmp/import-health-test.out 2>&1
         code=$?
         cat tmp/import-health-test.out
