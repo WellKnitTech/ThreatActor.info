@@ -69,7 +69,10 @@ rows = reports.map do |filename, payload|
 end
 
 quarantined = reports.count { |filename, payload| payload['quarantined'] == true || report_status(filename, payload) == 'quarantined' }
-degraded = reports.count { |_filename, payload| payload['status'].to_s == 'stale_fallback' }
+degraded = reports.count do |filename, payload|
+  %w[stale_fallback degraded].include?(payload['status'].to_s) ||
+    report_status(filename, payload) == 'degraded'
+end
 failed = reports.count { |filename, payload| %w[failed error invalid].include?(report_status(filename, payload)) }
 healthy = reports.length - quarantined - failed - degraded
 
@@ -82,11 +85,13 @@ body = <<~MARKDOWN
 
   Summary: **#{healthy} healthy**, **#{degraded} degraded**, **#{quarantined} quarantined**, **#{failed} failed**.
 
-  Quarantined sources are diagnostic-only and are not applied automatically. A failed
-  workflow remains failed; a stale fallback is applied with degraded health and visible provenance.
+  Quarantined sources are diagnostic-only and are not applied automatically. Non-critical
+  enrichment sources may finish as degraded without failing the weekly pipeline; a failed
+  critical source or validation gate still fails the workflow. A stale fallback is applied
+  with degraded health and visible provenance.
 MARKDOWN
 
 FileUtils.mkdir_p(File.dirname(output_path))
 File.write(output_path, body)
-puts body
+# Soft-degraded enrichment must not fail the job; only hard failures do.
 exit 1 if failed.positive? && ENV['FAIL_ON_SOURCE_FAILURE'] == '1'

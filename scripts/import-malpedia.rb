@@ -296,13 +296,22 @@ class MalpediaImporter
     actor_ids.each { |actor_id| queue << actor_id }
     details = {}
     mutex = Mutex.new
+    rate_limit_error = nil
     workers = Array.new([DETAIL_WORKERS, actor_ids.length].min) do
       Thread.new do
         loop do
+          break if rate_limit_error
+
           actor_id = queue.pop(true)
           detail = http_get_json(build_uri("/api/get/actor/#{URI.encode_www_form_component(actor_id)}"))
           mutex.synchronize { details[actor_id] = detail }
         rescue ThreadError
+          break
+        rescue RateLimitError => e
+          mutex.synchronize do
+            rate_limit_error ||= e
+            queue.clear
+          end
           break
         rescue StandardError => e
           warn "Skipping detail for #{actor_id}: #{e.message}"
@@ -310,6 +319,8 @@ class MalpediaImporter
       end
     end
     workers.each(&:join)
+    raise rate_limit_error if rate_limit_error
+
     actor_ids.each_with_object({}) do |actor_id, ordered|
       ordered[actor_id] = details[actor_id] if details.key?(actor_id)
     end
@@ -646,11 +657,17 @@ class MalpediaImporter
   end
 
   def wait_for_request_slot
-    now = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-    if @last_request_at
-      sleep([REQUEST_INTERVAL_SECONDS - (now - @last_request_at), 0].max)
+    sleep_for = nil
+    @metrics_mutex.synchronize do
+      now = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+      if @last_request_at
+        sleep_for = [REQUEST_INTERVAL_SECONDS - (now - @last_request_at), 0].max
+      end
+      # Reserve the next slot before sleeping so concurrent detail workers cannot
+      # stampede past the 2s fair-use interval.
+      @last_request_at = now + (sleep_for || 0)
     end
-    @last_request_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    sleep(sleep_for) if sleep_for&.positive?
   end
 
   def response_body_bytes(response)

@@ -15,5 +15,10 @@ abort 'production workflow does not invoke quality-gated runner' unless runner.i
 abort 'runner does not bound per-source retries' unless runner.include?('SourceImport::SourceExecution')
 abort 'production workflow retries the full import universe' if pipeline.match?(/while \(\( attempt <= max_attempts \)\)/)
 abort 'production workflow does not set a source retry bound' unless pipeline.include?('IMPORT_SOURCE_MAX_ATTEMPTS')
+abort 'runner caches source deadlines across phases' if runner.match?(/SOURCE_DEADLINES\[.*?\]\s*\|\|=/)
+abort 'runner does not mark mitre-attack as critical' unless runner.match?(/key:\s*'mitre-attack'[\s\S]*?critical:\s*true/)
+abort 'runner does not soft-isolate non-critical failures' unless runner.include?('soft_failures') && runner.include?('write_degraded_report')
+abort 'runner still fetches Malpedia details on the scheduled path' unless runner.match?(/key:\s*'malpedia'[\s\S]*?fetch_args:\s*%w\[--no-details\]/)
+abort 'runner does not skip urlhaus without an abuse.ch Auth-Key' unless runner.include?("%w[malwarebazaar urlhaus]")
 
 puts 'automated import runner contract checks passed'

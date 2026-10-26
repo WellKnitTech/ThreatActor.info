@@ -45,9 +45,9 @@ THREATFOX_API_KEY
 
 The environment should permit deployments from `main` only. The import jobs
 must declare `environment: data-import` before the environment secret is
-available to their steps. A missing ThreatFox key is safe: the importer writes
-a deterministic `no_auth_key` snapshot and marks the source unavailable rather
-than inventing data.
+available to their steps. A missing ThreatFox / abuse.ch Auth-Key is safe for scheduled runs: MalwareBazaar
+and URLhaus are skipped when no key is configured, and ThreatFox writes a
+deterministic `no_auth_key` snapshot rather than inventing data.
 
 Malpedia currently uses its public API endpoints and does not require a
 repository secret for this importer. If Malpedia credentials are introduced,
@@ -57,10 +57,13 @@ wiring it into a workflow.
 ## Malpedia request policy
 
 The Malpedia importer performs three collection requests and, when details are
-enabled, one detail request per actor. It therefore uses the following guardrails:
+enabled, one detail request per actor. The canonical automated runner passes
+`--no-details` so weekly jobs stay inside the per-source deadline; use a
+targeted `workflow_dispatch` with `source=malpedia` if you need details.
+Guardrails:
 
-- Requests are serialized with a 2-second interval (at most 30 requests per
-  minute).
+- Requests are serialized with a mutexed 2-second interval (at most 30 requests
+  per minute), including across parallel detail workers.
 - The first HTTP 429 raises a typed rate-limit error and stops the actor loop;
   it is not swallowed and followed by more requests.
 - The response's `Retry-After` value is included in diagnostics when supplied.

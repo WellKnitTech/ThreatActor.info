@@ -28,6 +28,27 @@ class ImportHealthTest < Minitest::Test
     end
   end
 
+  def test_degraded_enrichment_does_not_fail_health_summary
+    Dir.mktmpdir do |dir|
+      File.write(File.join(dir, 'degraded-malpedia-report.json'), JSON.pretty_generate(
+        'source' => 'malpedia', 'status' => 'degraded',
+        'error' => 'source deadline exceeded', 'diagnostic' => 'source deadline exceeded'
+      ))
+      File.write(File.join(dir, 'plan-mitre-attack-report.json'), JSON.pretty_generate(
+        'source' => 'mitre-attack', 'status' => 'completed', 'record_count' => 10
+      ))
+      output, status = Open3.capture2e({ 'FAIL_ON_SOURCE_FAILURE' => '1' },
+                                       'ruby', File.join(ROOT, 'scripts/summarize-import-health.rb'),
+                                       dir, File.join(dir, 'health.md'))
+
+      assert status.success?, output
+      assert_includes output, '`malpedia` | degraded'
+      assert_includes output, '1 healthy'
+      assert_includes output, '1 degraded'
+      assert_includes output, '0 failed'
+    end
+  end
+
   def test_standardized_evidence_names_failed_sources
     Dir.mktmpdir do |dir|
       reports = File.join(dir, 'reports')

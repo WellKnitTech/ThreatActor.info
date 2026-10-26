@@ -57,6 +57,11 @@ ruby scripts/verify-weekly-data-workflow.rb
 ruby scripts/verify-import-sources-workflow.rb
 ruby scripts/test-import-runner-contract.rb
 
+echo "Running import deadline and soft-fail regression tests..."
+ruby test/import_deadline_phases_test.rb
+ruby test/bounded_source_runner_critical_test.rb
+ruby scripts/test-import-health.rb
+
 echo "Checking for removed persona content..."
 ruby scripts/check-persona-content.rb
 

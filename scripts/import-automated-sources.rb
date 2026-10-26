@@ -22,8 +22,15 @@ Source = Struct.new(
   :report_name,
   :fetch_args,
   :fetch_limit,
+  :critical,
   keyword_init: true
-)
+) do
+  # Critical sources must succeed for the weekly pipeline to publish. Enrichment
+  # sources soft-fail so a single upstream outage cannot wipe the whole run.
+  def critical?
+    critical == true
+  end
+end
 
 # Each source has a `priority` integer; `SOURCES` is sorted at load time. Lower runs first.
 # Policy: MITRE first; then STIX/JSON/static feeds; tabular; markdown-derived; HTML scrapers last.
@@ -37,7 +44,8 @@ SOURCES_UNSORTED = [
     snapshot_root: 'data/imports/mitre-attack',
     report_name: 'mitre-attack-report.json',
     fetch_args: %w[],
-    fetch_limit: false
+    fetch_limit: false,
+    critical: true
   ),
   Source.new(
     priority: 2,
@@ -82,6 +90,9 @@ SOURCES_UNSORTED = [
     script: 'scripts/import-malpedia.rb',
     snapshot_root: 'data/imports/malpedia',
     report_name: 'malpedia-report.json',
+    # Weekly/scheduled runs stay within the per-source deadline by skipping the
+    # multi-thousand detail crawl; operators can still dispatch with details.
+    fetch_args: %w[--no-details],
     fetch_limit: true
   ),
   Source.new(
@@ -371,9 +382,9 @@ def selected_sources(options)
 
   if ENV['MALWAREBAZAAR_API_KEY'].to_s.strip.empty? && ENV['THREATFOX_API_KEY'].to_s.strip.empty?
     selected = selected.reject do |source|
-      next false unless source.key == 'malwarebazaar'
+      next false unless %w[malwarebazaar urlhaus].include?(source.key)
 
-      warn 'Skipping malwarebazaar: no abuse.ch Auth-Key is configured (report-only source)'
+      warn "Skipping #{source.key}: no abuse.ch Auth-Key is configured (report-only source)"
       true
     end
   end
@@ -383,18 +394,16 @@ end
 IMPORT_OUTPUT_MUTEX = Mutex.new
 IMPORT_METRICS_MUTEX = Mutex.new
 SOURCE_STATS_MUTEX = Mutex.new
-SOURCE_DEADLINES_MUTEX = Mutex.new
 SOURCE_STATS = Hash.new do |hash, key|
   hash[key] = { 'attempts' => 0, 'request_count' => 0, 'status' => nil, 'elapsed_ms' => 0, 'started' => nil }
 end
-SOURCE_DEADLINES = {}
 
-def with_source_deadline(source_key)
-  deadline = SOURCE_DEADLINES_MUTEX.synchronize do
-    SOURCE_DEADLINES[source_key] ||= Process.clock_gettime(Process::CLOCK_MONOTONIC) +
-                                     SourceImport::SourceExecution.source_deadline_seconds
-  end
-  SourceImport::SourceExecution.with_source_deadline(deadline_at: deadline) { yield }
+# Fresh deadline per phase invocation. Retries inside the block still share the
+# Thread-local deadline from SourceExecution.with_source_deadline. Do not cache
+# deadlines across fetch/plan and import — wall-clock between phases routinely
+# exceeds IMPORT_SOURCE_DEADLINE_SECONDS and would abort healthy imports.
+def with_source_deadline(_source_key)
+  SourceImport::SourceExecution.with_source_deadline { yield }
 end
 
 def source_stats(key)
@@ -556,18 +565,44 @@ def write_metrics(path, metrics, started_at, started_monotonic, date)
   File.write(path, JSON.pretty_generate(payload))
 end
 
-failures = []
+critical_failures = []
+soft_failures = []
 failed_sources = Set.new
 metrics = []
 run_started_at = Time.now.utc.iso8601
 run_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 at_exit { write_metrics(options[:metrics_json], metrics, run_started_at, run_started, options[:date]) }
 
+def record_source_failure(source, message, critical_failures:, soft_failures:, failed_sources:, options:)
+  failed_sources << source.key
+  entry = "#{source.key}: #{message}"
+  if source.critical?
+    critical_failures << entry
+  else
+    soft_failures << entry
+    write_degraded_report(options, source, message)
+    warn "Continuing after non-critical #{source.key} failure: #{message}"
+  end
+end
+
+def write_degraded_report(options, source, message)
+  FileUtils.mkdir_p(options[:report_dir])
+  path = File.join(options[:report_dir], "degraded-#{source.report_name}")
+  payload = {
+    'source' => source.key,
+    'status' => 'degraded',
+    'critical' => source.critical?,
+    'error' => message.to_s,
+    'diagnostic' => message.to_s
+  }
+  File.write(path, JSON.pretty_generate(payload) + "\n")
+end
+
 # Clean any stale plan/import reports from previous runs so we never mix
 # report shapes (e.g. ransomlook's old array reports with normal object summaries).
 if options[:plan] || options[:apply]
   FileUtils.mkdir_p(options[:report_dir])
-  Dir[File.join(options[:report_dir], '{plan,import}-*.json')].each do |f|
+  Dir[File.join(options[:report_dir], '{plan,import,degraded}-*.json')].each do |f|
     FileUtils.rm_f(f)
   end
 end
@@ -577,9 +612,17 @@ selected = selected_sources(options)
 # Fetch and plan every source first. No importer is allowed to write until all
 # selected plans and their snapshot gates have passed. Each source owns its
 # snapshot and report paths, so these phases can safely overlap.
+# Fail-fast only after a critical source failure (or when --continue-on-error is off
+# and the caller still opts into universe-wide stop via that legacy flag alone —
+# default is soft-isolation for enrichment sources).
 puts "\nFetch/plan workers: #{options[:workers]}"
+fail_fast_policy = if options[:continue_on_error]
+                     false
+                   else
+                     ->(source) { source.critical? }
+                   end
 runner = SourceImport::BoundedSourceRunner.new(selected, workers: options[:workers],
-                                               fail_fast: !options[:continue_on_error])
+                                               fail_fast: fail_fast_policy)
 runner.run do |source|
   snapshot = snapshot_path(source, options[:date])
   IMPORT_OUTPUT_MUTEX.synchronize { puts "\n== #{source.label} (#{source.key}) ==" }
@@ -590,19 +633,37 @@ runner.run do |source|
 end.each do |result|
   source = result.item
   if result.error
-    failures << "#{source.key}: #{result.error.message}"
-    failed_sources << source.key
+    record_source_failure(source, result.error.message,
+                          critical_failures: critical_failures, soft_failures: soft_failures,
+                          failed_sources: failed_sources, options: options)
     warn "Continuing after #{source.key} failure: #{result.error.message}" if options[:continue_on_error]
   elsif result.skipped
-    failures << "#{source.key}: skipped after an earlier source failure"
+    message = 'skipped after an earlier critical source failure'
     failed_sources << source.key
     set_source_stat(source.key, 'status', 'skipped')
+    if source.critical?
+      critical_failures << "#{source.key}: #{message}"
+    else
+      soft_failures << "#{source.key}: #{message}"
+      write_degraded_report(options, source, message)
+    end
   end
 end
 
-validate_plan_reports(options, metrics) if options[:apply] && options[:plan] && (failures.empty? || options[:continue_on_error])
+can_proceed = critical_failures.empty? || options[:continue_on_error]
+if can_proceed && options[:apply] && options[:plan]
+  # Drop plan reports for failed sources so threshold validation does not treat
+  # their error payloads as anomalies for the remaining healthy sources.
+  failed_sources.each do |key|
+    source = selected.find { |candidate| candidate.key == key }
+    next unless source
 
-if options[:apply] && (failures.empty? || options[:continue_on_error])
+    FileUtils.rm_f(report_path(options, source, 'plan'))
+  end
+  validate_plan_reports(options, metrics)
+end
+
+if can_proceed && options[:apply]
   selected.reject { |source| failed_sources.include?(source.key) }.each do |source|
     snapshot = snapshot_path(source, options[:date])
     begin
@@ -610,19 +671,27 @@ if options[:apply] && (failures.empty? || options[:continue_on_error])
         import_source(source, snapshot, options, metrics)
       end
     rescue StandardError => e
-      failures << "#{source.key}: #{e.message}"
-      raise unless options[:continue_on_error]
+      record_source_failure(source, e.message,
+                            critical_failures: critical_failures, soft_failures: soft_failures,
+                            failed_sources: failed_sources, options: options)
+      break if source.critical? && !options[:continue_on_error]
 
-      warn "Continuing after #{source.key} failure: #{e.message}"
+      warn "Continuing after #{source.key} failure: #{e.message}" if options[:continue_on_error]
     end
   end
 end
 
-regenerate_outputs(metrics) if options[:apply] && options[:regenerate] && (failures.empty? || options[:continue_on_error])
+regenerate_outputs(metrics) if options[:apply] && options[:regenerate] &&
+                               (critical_failures.empty? || options[:continue_on_error])
 
-unless failures.empty?
-  warn "\nImport run completed with failures:"
-  failures.each { |failure| warn "- #{failure}" }
+unless soft_failures.empty?
+  warn "\nNon-critical source failures (pipeline continued):"
+  soft_failures.each { |failure| warn "- #{failure}" }
+end
+
+unless critical_failures.empty?
+  warn "\nCritical source failures:"
+  critical_failures.each { |failure| warn "- #{failure}" }
   exit 1 unless options[:continue_on_error]
 end
 
