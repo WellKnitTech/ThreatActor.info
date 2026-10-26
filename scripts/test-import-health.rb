@@ -12,18 +12,29 @@ class ImportHealthTest < Minitest::Test
   SUMMARIZE = File.join(ROOT, 'scripts/summarize-import-health.rb')
   EVIDENCE = File.join(ROOT, 'scripts/write-import-evidence.rb')
 
+  def spawn_ruby(env, *args)
+    clean = {
+      'PATH' => ENV.fetch('PATH', ''),
+      'HOME' => ENV.fetch('HOME', ''),
+      'LANG' => ENV['LANG'],
+      'LC_ALL' => ENV['LC_ALL'],
+      'TMPDIR' => ENV['TMPDIR']
+    }.merge(env).compact
+    # Avoid leaking BUNDLE_* into children: under `bundle exec` that can make a
+    # plain ruby script exit non-zero with empty stdout/stderr.
+    Open3.capture2e(clean, RbConfig.ruby, *args)
+  end
+
   def summarize(report_dir, health_path, diagnostics_dir, env: {})
-    merged = ENV.to_h.merge(env)
-    Open3.capture2e(merged,
-                    RbConfig.ruby, SUMMARIZE,
-                    report_dir, health_path, diagnostics_dir)
+    spawn_ruby(env, SUMMARIZE, report_dir, health_path, diagnostics_dir)
   end
 
   def test_command_failure_is_reported_as_failed_and_not_healthy
     Dir.mktmpdir do |dir|
       reports = File.join(dir, 'reports')
       diagnostics = File.join(dir, 'failure-diagnostics')
-      FileUtils.mkdir_p([reports, diagnostics])
+      FileUtils.mkdir_p(reports)
+      FileUtils.mkdir_p(diagnostics)
       File.write(File.join(reports, 'failure-fetch-urlhaus-report.json'), JSON.pretty_generate(
         'source' => 'urlhaus', 'status' => 'failed', 'failure_stage' => 'fetch',
         'error' => 'HTTP 401', 'diagnostic' => 'abuse.ch URLhaus: HTTP 401'
@@ -43,7 +54,8 @@ class ImportHealthTest < Minitest::Test
     Dir.mktmpdir do |dir|
       reports = File.join(dir, 'reports')
       diagnostics = File.join(dir, 'failure-diagnostics')
-      FileUtils.mkdir_p([reports, diagnostics])
+      FileUtils.mkdir_p(reports)
+      FileUtils.mkdir_p(diagnostics)
       File.write(File.join(reports, 'degraded-malpedia-report.json'), JSON.pretty_generate(
         'source' => 'malpedia', 'status' => 'degraded',
         'error' => 'source deadline exceeded', 'diagnostic' => 'source deadline exceeded'
@@ -68,8 +80,9 @@ class ImportHealthTest < Minitest::Test
       FileUtils.mkdir_p(reports)
       File.write(File.join(reports, 'failure-urlhaus-report.json'), JSON.generate('source' => 'urlhaus', 'status' => 'failed'))
       output = File.join(dir, 'evidence.json')
-      system(ENV.to_h.merge('IMPORT_REPORT_DIR' => reports, 'IMPORT_STATUS' => 'failed'),
-             RbConfig.ruby, EVIDENCE, output)
+      _out, status = spawn_ruby({ 'IMPORT_REPORT_DIR' => reports, 'IMPORT_STATUS' => 'failed' },
+                                EVIDENCE, output)
+      assert status.success?, _out
       assert_equal ['urlhaus'], JSON.parse(File.read(output)).fetch('failed_sources')
     end
   end
@@ -105,10 +118,10 @@ class ImportHealthTest < Minitest::Test
       assert_includes health_output, '1 failed'
 
       evidence_path = File.join(dir, 'evidence.json')
-      evidence_output, evidence_status = Open3.capture2e(
-        ENV.to_h.merge('IMPORT_REPORT_DIR' => reports, 'FAILURE_DIAGNOSTICS_DIR' => diagnostics,
-                       'IMPORT_STATUS' => 'failed'),
-        RbConfig.ruby, EVIDENCE, evidence_path
+      evidence_output, evidence_status = spawn_ruby(
+        { 'IMPORT_REPORT_DIR' => reports, 'FAILURE_DIAGNOSTICS_DIR' => diagnostics,
+          'IMPORT_STATUS' => 'failed' },
+        EVIDENCE, evidence_path
       )
 
       assert evidence_status.success?, evidence_output
