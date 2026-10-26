@@ -5,6 +5,7 @@ require 'fileutils'
 require 'minitest/autorun'
 require 'open3'
 require 'tmpdir'
+require 'rbconfig'
 
 class ImportHealthTest < Minitest::Test
   ROOT = File.expand_path('..', __dir__)
@@ -12,8 +13,9 @@ class ImportHealthTest < Minitest::Test
   EVIDENCE = File.join(ROOT, 'scripts/write-import-evidence.rb')
 
   def summarize(report_dir, health_path, diagnostics_dir, env: {})
-    Open3.capture2e(env,
-                    'ruby', SUMMARIZE,
+    merged = ENV.to_h.merge(env)
+    Open3.capture2e(merged,
+                    RbConfig.ruby, SUMMARIZE,
                     report_dir, health_path, diagnostics_dir)
   end
 
@@ -66,8 +68,8 @@ class ImportHealthTest < Minitest::Test
       FileUtils.mkdir_p(reports)
       File.write(File.join(reports, 'failure-urlhaus-report.json'), JSON.generate('source' => 'urlhaus', 'status' => 'failed'))
       output = File.join(dir, 'evidence.json')
-      system({ 'IMPORT_REPORT_DIR' => reports, 'IMPORT_STATUS' => 'failed' },
-             'ruby', EVIDENCE, output)
+      system(ENV.to_h.merge('IMPORT_REPORT_DIR' => reports, 'IMPORT_STATUS' => 'failed'),
+             RbConfig.ruby, EVIDENCE, output)
       assert_equal ['urlhaus'], JSON.parse(File.read(output)).fetch('failed_sources')
     end
   end
@@ -104,9 +106,9 @@ class ImportHealthTest < Minitest::Test
 
       evidence_path = File.join(dir, 'evidence.json')
       evidence_output, evidence_status = Open3.capture2e(
-        { 'IMPORT_REPORT_DIR' => reports, 'FAILURE_DIAGNOSTICS_DIR' => diagnostics,
-          'IMPORT_STATUS' => 'failed' },
-        'ruby', EVIDENCE, evidence_path
+        ENV.to_h.merge('IMPORT_REPORT_DIR' => reports, 'FAILURE_DIAGNOSTICS_DIR' => diagnostics,
+                       'IMPORT_STATUS' => 'failed'),
+        RbConfig.ruby, EVIDENCE, evidence_path
       )
 
       assert evidence_status.success?, evidence_output

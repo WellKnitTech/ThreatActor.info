@@ -58,19 +58,37 @@ jobs:
       run: bundle exec ruby test/bounded_source_runner_critical_test.rb
 
     - name: Import health test command failure
-      run: bundle exec ruby scripts/test-import-health.rb --name /test_command_failure_is_reported/
+      run: |
+        set +e
+        bundle exec ruby scripts/test-import-health.rb --name test_command_failure_is_reported_as_failed_and_not_healthy > /tmp/health-test.out 2>&1
+        code=$?
+        cat /tmp/health-test.out
+        cat /tmp/health-test.out >> "$GITHUB_STEP_SUMMARY"
+        exit $code
 
     - name: Import health test degraded enrichment
-      run: bundle exec ruby scripts/test-import-health.rb --name /test_degraded_enrichment/
+      run: |
+        set +e
+        bundle exec ruby scripts/test-import-health.rb --name test_degraded_enrichment_does_not_fail_health_summary > /tmp/health-test.out 2>&1
+        code=$?
+        cat /tmp/health-test.out
+        cat /tmp/health-test.out >> "$GITHUB_STEP_SUMMARY"
+        exit $code
 
     - name: Import health test evidence names
-      run: bundle exec ruby scripts/test-import-health.rb --name /test_standardized_evidence/
+      run: bundle exec ruby scripts/test-import-health.rb --name test_standardized_evidence_names_failed_sources
 
     - name: Import health test diagnostic reporting
-      run: bundle exec ruby scripts/test-import-health.rb --name /test_command_failure_diagnostic/
+      run: |
+        set +e
+        bundle exec ruby scripts/test-import-health.rb --name test_command_failure_diagnostic_is_reported_by_health_and_evidence > /tmp/health-test.out 2>&1
+        code=$?
+        cat /tmp/health-test.out
+        cat /tmp/health-test.out >> "$GITHUB_STEP_SUMMARY"
+        exit $code
 
     - name: Import health test pipeline contract
-      run: bundle exec ruby scripts/test-import-health.rb --name /test_canonical_pipeline/
+      run: bundle exec ruby scripts/test-import-health.rb --name test_canonical_pipeline_keeps_health_and_evidence_on_failure
 
     # Mirrors scripts/validate.sh: generators → JSON schemas → content → jekyll doctor → build → parse api/*.json
     - name: Full validation pipeline
