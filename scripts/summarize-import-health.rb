@@ -93,5 +93,8 @@ MARKDOWN
 
 FileUtils.mkdir_p(File.dirname(output_path))
 File.write(output_path, body)
+$stdout.sync = true
+puts body
+$stdout.flush
 # Soft-degraded enrichment must not fail the job; only hard failures do.
 exit 1 if failed.positive? && ENV['FAIL_ON_SOURCE_FAILURE'] == '1'
