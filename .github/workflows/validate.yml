@@ -57,8 +57,20 @@ jobs:
     - name: Import soft-fail runner regression
       run: bundle exec ruby test/bounded_source_runner_critical_test.rb
 
-    - name: Import health degraded reporting
-      run: bundle exec ruby scripts/test-import-health.rb
+    - name: Import health test command failure
+      run: bundle exec ruby scripts/test-import-health.rb --name /test_command_failure_is_reported/
+
+    - name: Import health test degraded enrichment
+      run: bundle exec ruby scripts/test-import-health.rb --name /test_degraded_enrichment/
+
+    - name: Import health test evidence names
+      run: bundle exec ruby scripts/test-import-health.rb --name /test_standardized_evidence/
+
+    - name: Import health test diagnostic reporting
+      run: bundle exec ruby scripts/test-import-health.rb --name /test_command_failure_diagnostic/
+
+    - name: Import health test pipeline contract
+      run: bundle exec ruby scripts/test-import-health.rb --name /test_canonical_pipeline/
 
     # Mirrors scripts/validate.sh: generators → JSON schemas → content → jekyll doctor → build → parse api/*.json
     - name: Full validation pipeline
