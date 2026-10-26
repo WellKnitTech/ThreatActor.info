@@ -45,6 +45,21 @@ jobs:
     - name: Check source freshness
       run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
 
+    - name: Import runner contract and workflow safety
+      run: |
+        ruby scripts/verify-weekly-data-workflow.rb
+        ruby scripts/verify-import-sources-workflow.rb
+        ruby scripts/test-import-runner-contract.rb
+
+    - name: Import deadline phase regression
+      run: bundle exec ruby test/import_deadline_phases_test.rb
+
+    - name: Import soft-fail runner regression
+      run: bundle exec ruby test/bounded_source_runner_critical_test.rb
+
+    - name: Import health degraded reporting
+      run: bundle exec ruby scripts/test-import-health.rb
+
     # Mirrors scripts/validate.sh: generators → JSON schemas → content → jekyll doctor → build → parse api/*.json
     - name: Full validation pipeline
       run: bash scripts/validate.sh
