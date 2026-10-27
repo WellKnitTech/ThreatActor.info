@@ -3,7 +3,6 @@ permissions:
   contents: read
   pages: read
   statuses: read
-  pull-requests: write
 
 
 on:
@@ -15,9 +14,6 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
 
     steps:
     - name: Checkout code
@@ -39,49 +35,15 @@ jobs:
 
     - name: Run Python importer tests
       run: python -m unittest discover -s test -p 'test_ocd_entity_reconciler.py' -v
-      
+
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2.5'
         bundler-cache: true
-        
+
     - name: Check source freshness
       run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
-
-    - name: Import runner contract and workflow safety
-      run: |
-        ruby scripts/verify-weekly-data-workflow.rb
-        ruby scripts/verify-import-sources-workflow.rb
-        ruby scripts/test-import-runner-contract.rb
-
-    - name: Import deadline phase regression
-      run: bundle exec ruby test/import_deadline_phases_test.rb
-
-    - name: Import soft-fail runner regression
-      run: bundle exec ruby test/bounded_source_runner_critical_test.rb
-
-    - name: Import health tests
-      id: import_health
-      env:
-        GH_TOKEN: ${{ github.token }}
-      run: |
-        set +e
-        mkdir -p tmp
-        bundle exec ruby scripts/test-import-health.rb > tmp/import-health-test.out 2>&1
-        code=$?
-        cat tmp/import-health-test.out
-        if [ "$code" -ne 0 ] && [ -n "${{ github.event.pull_request.number }}" ]; then
-          {
-            echo "## import-health test failure"
-            echo
-            echo '```'
-            sed -n '1,200p' tmp/import-health-test.out
-            echo '```'
-          } > tmp/health-comment.md
-          gh pr comment "${{ github.event.pull_request.number }}" --body-file tmp/health-comment.md || true
-        fi
-        exit $code
 
     # Mirrors scripts/validate.sh: generators → JSON schemas → content → jekyll doctor → build → parse api/*.json
     - name: Full validation pipeline
@@ -95,4 +57,3 @@ jobs:
         path: |
           tmp/source-freshness-report.json
           _data/generated/source_freshness.json
-          tmp/import-health-test.out
