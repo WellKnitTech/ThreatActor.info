@@ -48,4 +48,34 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
 
     refute status.success?, stderr
   end
+
+  def test_open_pr_git_add_must_not_stage_gitignored_tmp_paths
+    pipeline = File.read(PIPELINE)
+    poisoned = pipeline.sub(
+      /git add -- "\$\{add_paths\[@\]\}"/,
+      'git add _data/actors tmp/source-delta-report.json'
+    )
+    refute_equal pipeline, poisoned, 'expected to locate the open-PR git add command'
+
+    Tempfile.create(['import-pipeline', '.yml']) do |file|
+      file.write(poisoned)
+      file.flush
+      _stdout, stderr, status = Timeout.timeout(3) do
+        Open3.capture3(RbConfig.ruby, SCRIPT, file.path)
+      end
+
+      refute status.success?, stderr
+      assert_match(/gitignored paths|must not stage gitignored tmp/i, stderr)
+    end
+  end
+
+  def test_open_pr_step_uses_porcelain_and_mitre_collections
+    pipeline = File.read(PIPELINE)
+
+    assert_match(/git status --porcelain/, pipeline)
+    %w[_campaigns _techniques _tactics _mitigations].each do |collection|
+      assert_match(/#{Regexp.escape(collection)}/, pipeline[/stage_paths=\((.*?)\)/m, 1].to_s)
+    end
+    refute_match(/git add[^\n]*\btmp\//, pipeline)
+  end
 end

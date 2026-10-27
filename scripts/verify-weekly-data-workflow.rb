@@ -4,7 +4,10 @@
 # the rendered workflow text so a future edit cannot quietly restore an admin
 # merge, hide source failures, or omit run evidence.
 
+require 'open3'
+
 workflow_path = ARGV.fetch(0) { File.expand_path("../.github/workflows/weekly-data.yml", __dir__) }
+repo_root = File.expand_path('..', __dir__)
 workflow = File.read(workflow_path)
 pipeline_path = if File.basename(workflow_path).start_with?('weekly-data')
                   File.expand_path('../.github/workflows/import-pipeline.yml', __dir__)
@@ -26,6 +29,36 @@ def update_data_job_has_write_permissions?(workflow)
   job_lines[(permissions_start + 1)..]&.take(2) == ["      contents: write\n", "      pull-requests: write\n"]
 end
 
+# Extract concrete path arguments from `git add` / `git add --` in the open-PR
+# step. Ignores shell arrays/variables so temporary fixture workflows still work.
+def git_add_paths(pipeline_text)
+  open_pr = pipeline_text[%r{- name: Open weekly data pull request\n.*?(?=\n      - name: |\z)}m]
+  return [] unless open_pr
+
+  paths = []
+  open_pr.scan(/^\s*git add(?:\s+--)?\s+(.+)$/) do |args|
+    args[0].split(/\s+/).each do |token|
+      next if token.empty? || token.start_with?('$', '"$', "'$")
+      next if token.include?('${') || token.include?('"') || token.include?("'")
+      paths << token
+    end
+  end
+  paths.uniq
+end
+
+def gitignored_paths(repo_root, paths)
+  return [] if paths.empty?
+
+  ignored = []
+  paths.each do |path|
+    _stdout, _stderr, status = Open3.capture3(
+      'git', '-C', repo_root, 'check-ignore', '-q', '--', path
+    )
+    ignored << path if status.success?
+  end
+  ignored
+end
+
 combined = "#{workflow}\n#{pipeline}"
 failures << "workflow must not contain an admin merge bypass" if combined.match?(/gh\s+pr\s+merge[^\n]*--admin\b/)
 failures << "workflow must queue a normal protected auto-merge" unless combined.match?(/gh\s+pr\s+merge\s+\"\$branch\"\s+--auto\s+--squash\s+--delete-branch/)
@@ -44,6 +77,8 @@ failures << "workflow must upload performance metrics" unless pipeline.match?(/t
 failures << "workflow must write standardized evidence before upload" unless pipeline.match?(/Write standardized import evidence/) && pipeline.match?(/write-import-evidence\.rb tmp\/import-evidence\.json/) && pipeline.match?(/job\.status == 'failure'/) && pipeline.match?(/tmp\/(?:cache-manifest|performance-metrics)\.json/)
 failures << "workflow artifacts must fail when required evidence is absent" unless pipeline.match?(/if-no-files-found: error/) && pipeline.match?(/retention-days: 90/)
 failures << "workflow must validate before opening the pull request" unless pipeline.index("- name: Validate JSON schemas") && pipeline.index("- name: Open weekly data pull request") && pipeline.index("- name: Validate JSON schemas") < pipeline.index("- name: Open weekly data pull request")
+failures << "open-PR step must detect untracked changes with git status --porcelain" unless pipeline.match?(/git status --porcelain/)
+failures << "open-PR step must not stage gitignored tmp/ reports" if pipeline.match?(/git add[^\n]*\btmp\//)
 # Scheduled path must quarantine anomalous plans by default. A manual
 # workflow_dispatch may opt into --allow-plan-anomalies only when gated by the
 # allow_anomalies input; never pass the flag unconditionally in default args.
@@ -53,6 +88,22 @@ failures << "workflow must not unconditionally apply anomalous plans" if uncondi
 failures << "workflow allow_anomalies input must gate --allow-plan-anomalies" if pipeline.match?(/--allow-plan-anomalies/) &&
                                                                               !pipeline.match?(/ALLOW_PLAN_ANOMALIES/) &&
                                                                               !workflow.match?(/allow_anomalies:/)
+
+add_paths = git_add_paths(pipeline)
+# stage_paths array is the source of truth when git add uses a shell variable.
+if add_paths.empty? && pipeline.match?(/stage_paths=\(/)
+  array_block = pipeline[/stage_paths=\((.*?)\)/m, 1].to_s
+  add_paths = array_block.scan(/^\s*([A-Za-z0-9_\/.\-]+)\s*$/).flatten
+end
+ignored_add_paths = gitignored_paths(repo_root, add_paths)
+unless ignored_add_paths.empty?
+  failures << "open-PR git add must not reference gitignored paths: #{ignored_add_paths.join(', ')}"
+end
+%w[_campaigns _techniques _tactics _mitigations].each do |collection|
+  unless add_paths.include?(collection) || pipeline.match?(/stage_paths=\([\s\S]*?\b#{Regexp.escape(collection)}\b/)
+    failures << "open-PR staging must include regenerated MITRE collection #{collection}"
+  end
+end
 
 if failures.empty?
   puts "Weekly data workflow safety checks passed."
