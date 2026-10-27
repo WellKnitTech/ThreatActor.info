@@ -37,6 +37,17 @@ permalink: /operation-harvest/
 - **WinRAR**
 - **Winnti**
 - **nbtscan**
+- **BadPotato**: 
+- **Impacket**: 
+- **Mimikatz**: 
+- **PlugX**: 
+- **ProcDump**: 
+- **PsExec**: 
+- **RottenPotato**: 
+- **SMBExec**: 
+- **WinRAR**: 
+- **Winnti**: 
+- **nbtscan**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

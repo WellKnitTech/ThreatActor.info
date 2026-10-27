@@ -16,8 +16,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "c4417bfb-717f-48d9-bd56-bc9e85d07c19"
     source_record_ids: ["c4417bfb-717f-48d9-bd56-bc9e85d07c19"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "prolock"
-  source_retrieved_at: "2026-10-27T17:22:17Z"
+  source_retrieved_at: "2026-10-27T20:36:11Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

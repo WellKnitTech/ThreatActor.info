@@ -20,11 +20,17 @@ provenance:
     source_files: ["ThreatIntel/TrendMicroThreatGroups.md","Tools/DefenseEvasion.md","Tools/LOLBAS.md"]
     source_label: "TargetCompany"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Defense Evasion: ["GMER","PCHunter"]
       LOLBAS: ["WMIC"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "targetcompany"
-  source_retrieved_at: "2026-10-27T17:19:21Z"
+  source_retrieved_at: "2026-10-27T20:34:01Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--f180e21f-86c1-5c9b-9334-76b97417f1f8"
+    source_record_modified: "2024-05-26T19:57:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"

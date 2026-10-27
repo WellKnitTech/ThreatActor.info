@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "022c995a-f1ba-498f-b67e-92ef01fd06a3"
     source_record_ids: ["022c995a-f1ba-498f-b67e-92ef01fd06a3"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "www.ic3.gov"
@@ -34,7 +34,7 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
     source_label: "FiveHands"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["GrabFF","Mimikatz","Router Scan"]
       Defense Evasion: ["PCHunter"]
@@ -61,7 +61,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "FiveHands / HelloKitty"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "SonicWall"
@@ -76,5 +76,5 @@ provenance:
           source_file: "Vulnerabilities/NetworkEdge.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "fivehands"
-  source_retrieved_at: "2026-10-27T17:21:10Z"
+  source_retrieved_at: "2026-10-27T20:35:20Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

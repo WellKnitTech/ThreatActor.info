@@ -29,6 +29,7 @@ permalink: /operation-electric-powder/
 
 ## Malware and Tools
 - **SysJoker**
+- **SysJoker**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

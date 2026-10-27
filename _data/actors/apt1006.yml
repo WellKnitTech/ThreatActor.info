@@ -15,7 +15,7 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_lusca"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["2021-07","2022","BIOPASS RAT: New Malware Sniffs Victims via Live Streaming<","Operation “FishMedley”","https://www.trendmicro.com/en_us/research/21/g/biopass-rat-new-malware-sniffs-victims-via-live-streaming.html","https://www.welivesecurity.com/en/eset-research/operation-fishmedley/"]
+operations: ["2021-07","2022","2023 Early","2023-12","2024-09","BIOPASS RAT: New Malware Sniffs Victims via Live Streaming<","Earth Lusca Employs New Linux Backdoor","Earth Lusca Uses Geopolitical Lure to Target Taiwan Before Elections","Earth Lusca Uses KTLVdoor Backdoor for Multiplatform Intrusion","Operation “FishMedley”","Uses Cobalt Strike for Lateral Movement","https://www.trendmicro.com/en_us/research/21/g/biopass-rat-new-malware-sniffs-victims-via-live-streaming.html","https://www.trendmicro.com/en_us/research/23/i/earth-lusca-employs-new-linux-backdoor.html","https://www.trendmicro.com/en_us/research/24/b/earth-lusca-uses-geopolitical-lure-to-target-taiwan.html","https://www.trendmicro.com/en_us/research/24/i/earth-lusca-ktlvdoor.html","https://www.welivesecurity.com/en/eset-research/operation-fishmedley/"]
 malware:
   - "Umbreon"
   - "China Chopper"
@@ -28,6 +28,20 @@ malware:
   - name: "SprySOCKS"
   - name: "Spyder"
   - name: "Winnti"
+  - name: "AntSword"
+  - name: "BadPotato"
+  - name: "Behinder"
+  - name: "Doraemon"
+  - name: "EarthWorm"
+  - name: "FRP"
+  - name: "HUC Port Banner Scanner"
+  - name: "KTLVdoor"
+  - name: "Mimikatz"
+  - name: "PipeMon"
+  - name: "WinRAR"
+  - name: "fscan"
+  - name: "lcx"
+  - name: "nbtscan"
 software:
   - name: "Mimikatz"
     mitre_id: "S0002"
@@ -277,17 +291,20 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "4de6af3d-8242-44c6-80eb-9eee83a62823"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "earth_lusca"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_lusca"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "39150b30-61af-4d9c-9682-1595e145f3c1"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
@@ -296,21 +313,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "3f8b7c98-7484-523f-9d58-181274e6fc8f"
     source_record_ids: ["3f8b7c98-7484-523f-9d58-181274e6fc8f"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1006"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034"
   reddrip7_apt_digital_weapon:
     actor_folder: "Earth Lusca"
@@ -318,5 +335,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Earth%20Lusca/Earth%20Lusca_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
 source: "MITRE ATT&CK"

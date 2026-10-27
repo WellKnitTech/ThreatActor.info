@@ -24,12 +24,12 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/it-threat-evolution-q2-2019/91994/","https://securelist.com/roaming-mantis-uses-dns-hijacking-to-infect-android-smartphones/85178/","https://securelist.com/roaming-mantis-dabbles-in-mining-and-phishing-multilingually/85607/","https://securelist.com/roaming-mantis-part-3/88071/","https://securelist.com/roaming-mantis-part-iv/90332/","https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/moqhao-related-android-spyware-targeting-japan-and-korea-found-on-google-play/","https://securelist.com/roaming-mantis-part-v/96250/","https://www.cybereason.com/blog/research/fakespy-masquerades-as-postal-service-apps-around-the-world","https://securelist.com/roaming-mantis-reaches-europe/105596/","https://securelist.com/roaming-mantis-dns-changer-in-malicious-mobile-app/108464/"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "unknown"
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "d8f07834-98d8-473b-a247-9b54aa4571a1"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -38,14 +38,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "roamingmantis"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "roaming_mantis"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/roaming_mantis"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "b27beb94-ce25-11e8-8e11-2f1a59bd0e91"
   misp_galaxy:
     meta_keys: ["refs","synonyms","threat-actor-classification"]
@@ -54,11 +54,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b27beb94-ce25-11e8-8e11-2f1a59bd0e91"
     source_record_ids: ["b27beb94-ce25-11e8-8e11-2f1a59bd0e91"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   reddrip7_apt_digital_weapon:
     actor_folder: "Roaming Mantis"
     actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Roaming%20Mantis/README.md"
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Roaming%20Mantis/Roaming%20Mantis_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"

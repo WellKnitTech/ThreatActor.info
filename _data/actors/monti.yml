@@ -15,8 +15,8 @@ provenance:
     origin_category: "Group in development"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "storm1194"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "monti"
-  source_retrieved_at: "2026-10-27T17:18:51Z"
+  source_retrieved_at: "2026-10-27T20:33:38Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:29:58Z",
+  "generated_at": "2026-10-27T20:42:39Z",
   "config_path": "data/imports/source_freshness.yml",
   "imports_root": "data/imports",
   "summary": {
@@ -12,7 +12,7 @@
     {
       "source_key": "apt-groups-operations",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:36Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:25Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,
@@ -23,7 +23,7 @@
     {
       "source_key": "aptmap",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:27Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:14Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,
@@ -34,7 +34,7 @@
     {
       "source_key": "aptnotes",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:38Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:27Z",
       "age_days": 0.01,
       "max_age_days": 21,
       "is_stale": false,
@@ -45,7 +45,7 @@
     {
       "source_key": "breach-hq-threat-actors",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:15Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:52Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -56,7 +56,7 @@
     {
       "source_key": "bushido-breach-reports",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:06Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:42Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -67,7 +67,7 @@
     {
       "source_key": "curated-intel-moveit-transfer",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:07Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:44Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -78,7 +78,7 @@
     {
       "source_key": "dragos-threat-groups",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:31Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:41:06Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -89,7 +89,7 @@
     {
       "source_key": "etda-thaicert",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:13Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:01Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,
@@ -100,7 +100,7 @@
     {
       "source_key": "eternal-liberty",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:29Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:17Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,
@@ -111,7 +111,7 @@
     {
       "source_key": "google-cloud-apt-groups",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:13Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:49Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -122,7 +122,7 @@
     {
       "source_key": "malpedia",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:21Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:08Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,
@@ -133,7 +133,7 @@
     {
       "source_key": "malwarebazaar",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:41Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:41:16Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -144,7 +144,7 @@
     {
       "source_key": "microsoft-threat-actor-list",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:32Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:19Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,
@@ -155,7 +155,7 @@
     {
       "source_key": "misp-galaxy",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:17:59Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:32:44Z",
       "age_days": 0.01,
       "max_age_days": 14,
       "is_stale": false,
@@ -166,7 +166,7 @@
     {
       "source_key": "mitre-attack",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:17:53Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:32:39Z",
       "age_days": 0.01,
       "max_age_days": 14,
       "is_stale": false,
@@ -188,7 +188,7 @@
     {
       "source_key": "ransomlook",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:27:46Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:21Z",
       "age_days": 0.0,
       "max_age_days": 14,
       "is_stale": false,
@@ -199,7 +199,7 @@
     {
       "source_key": "ransomware-tool-matrix",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:27:56Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:32Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -210,7 +210,7 @@
     {
       "source_key": "ransomware-vulnerability-matrix",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:00Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:36Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -221,7 +221,7 @@
     {
       "source_key": "rapid7-aba-detections",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:18:40Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:33:29Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,
@@ -232,7 +232,7 @@
     {
       "source_key": "reddrip7-apt-digital-weapon",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:27:48Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:24Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -243,7 +243,7 @@
     {
       "source_key": "russian-apt-tool-matrix",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:04Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:40Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -254,7 +254,7 @@
     {
       "source_key": "sophos-threat-profiles",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:12Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:40:48Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -265,7 +265,7 @@
     {
       "source_key": "threatfox",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:39Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:41:14Z",
       "age_days": 0.0,
       "max_age_days": 7,
       "is_stale": false,
@@ -276,7 +276,7 @@
     {
       "source_key": "unit42-threat-actor-groups",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:35Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:41:10Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -287,7 +287,7 @@
     {
       "source_key": "urlhaus",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:28:45Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:41:19Z",
       "age_days": 0.0,
       "max_age_days": 30,
       "is_stale": false,
@@ -298,7 +298,7 @@
     {
       "source_key": "wiz-cloud-threat-landscape",
       "latest_snapshot": "2026-10-27",
-      "latest_snapshot_timestamp": "2026-10-27T17:17:56Z",
+      "latest_snapshot_timestamp": "2026-10-27T20:32:42Z",
       "age_days": 0.01,
       "max_age_days": 30,
       "is_stale": false,

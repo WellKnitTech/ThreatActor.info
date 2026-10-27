@@ -29,6 +29,7 @@ This actor may be related to 'Iridium'. (AdvIntel) “Achilles” is an English-
 
 ## Malware and Tools
 - **RDP**
+- **RDP**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

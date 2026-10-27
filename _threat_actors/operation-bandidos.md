@@ -27,6 +27,7 @@ permalink: /operation-bandidos/
 
 ## Malware and Tools
 - **Bandook**
+- **Bandook**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

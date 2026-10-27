@@ -16,8 +16,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "bba537f8-76ce-5064-b0e3-a6748db839cf"
     source_record_ids: ["bba537f8-76ce-5064-b0e3-a6748db839cf"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "arcane"
-  source_retrieved_at: "2026-10-27T17:22:34Z"
+  source_retrieved_at: "2026-10-27T20:36:23Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

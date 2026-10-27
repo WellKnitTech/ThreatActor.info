@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "JadePuffer"
-aliases: ["Storm-3168","JADEPUFFER","JadePuffer"]
+aliases: ["JADEPUFFER","JadePuffer","Storm-3168"]
 description: "JADEPUFFER is an agentic threat actor that executed a fully autonomous ransomware operation, leveraging a Large Language Model to automate the entire attack chain from initial access to data destructio"
 permalink: /jadepuffer/
 ---

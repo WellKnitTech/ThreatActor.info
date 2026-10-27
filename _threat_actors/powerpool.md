@@ -43,6 +43,14 @@ Malware developers have started to use the zero-day exploit for Task Scheduler c
 - **PowerSploit**: 
 - **Quarks PwDump**: 
 - **SMBExec**: 
+- **JackOfHearts**: 
+- **KingOfHearts**: 
+- **LaZagne**: 
+- **Mimikatz**: 
+- **ProcDump**: 
+- **PsExec**: 
+- **QueenOfClubs**: 
+- **QueenOfHearts**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

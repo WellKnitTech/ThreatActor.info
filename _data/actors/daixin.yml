@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "a1a445c4-708e-42f2-afdf-6d904328dafb"
     source_record_ids: ["a1a445c4-708e-42f2-afdf-6d904328dafb"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "CISA Alert aa22-294a"
@@ -28,10 +28,10 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","Tools/Exfiltration.md"]
     source_label: "Daixin"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Exfiltration: ["RClone"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "daixin"
-  source_retrieved_at: "2026-10-27T17:19:12Z"
+  source_retrieved_at: "2026-10-27T20:33:54Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

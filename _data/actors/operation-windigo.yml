@@ -5,11 +5,17 @@ url: "/operation-windigo"
 country: "[\"Russia\"]"
 source_name: "ETDA / ThaiCERT Threat Group Cards"
 source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
-malware: ["CDorked","Calfbot","Ebury"]
+malware:
+  - "CDorked"
+  - "Calfbot"
+  - "Ebury"
+  - name: "CDorked"
+  - name: "Calfbot"
+  - name: "Ebury"
 provenance:
   etda_thai_group_cards:
     mitre_group_ids: ["G0124"]
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "59bca5af-b3b0-4973-8988-e8c011dccbae"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

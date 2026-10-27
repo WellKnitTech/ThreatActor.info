@@ -12,13 +12,13 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "316700c9-382f-4846-a537-02b2749a397c"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "resumelooters"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/resumelooters"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "76dbe26b-8b39-40f5-bc2b-9620004f388e"
   misp_galaxy:
     meta_keys: ["refs","name-attribution"]
@@ -27,4 +27,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "76dbe26b-8b39-40f5-bc2b-9620004f388e"
     source_record_ids: ["76dbe26b-8b39-40f5-bc2b-9620004f388e"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

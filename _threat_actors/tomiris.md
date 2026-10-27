@@ -38,6 +38,18 @@ permalink: /tomiris/
 - **Topinambour**
 - **Tunnus**
 - **Warzone RAT**
+- **JLOGRAB**: 
+- **JLORAT**: 
+- **KopiLuwak**: 
+- **Meterpreter**: 
+- **RATel**: 
+- **RocketMan**: 
+- **Roopy**: 
+- **Telemiris**: 
+- **Tomiris**: 
+- **Topinambour**: 
+- **Tunnus**: 
+- **Warzone RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

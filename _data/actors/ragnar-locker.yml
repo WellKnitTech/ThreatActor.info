@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "e69f9836-873a-43d3-92a8-97ab783a4171"
     source_record_ids: ["e69f9836-873a-43d3-92a8-97ab783a4171"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "www.sygnia.co"
@@ -28,7 +28,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "RagnarLocker"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Defense Evasion: ["VirtualBox"]
       Discovery: ["Advanced Port Scanner","Dsquery","PsInfo","SoftPerfect LanSearchPro"]
@@ -45,7 +45,7 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md"]
     source_label: "RagnarLocker"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "Windows"
@@ -60,5 +60,5 @@ provenance:
           source_file: "Vulnerabilities/Microsoft.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "ragnarlocker"
-  source_retrieved_at: "2026-10-27T17:18:48Z"
+  source_retrieved_at: "2026-10-27T20:33:35Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

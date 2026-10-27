@@ -265,7 +265,7 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 2670c199-9e61-49ea-b587-467cff960c5c
-    source_retrieved_at: '2026-10-27T17:18:12Z'
+    source_retrieved_at: '2026-10-27T20:33:00Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -287,10 +287,10 @@ provenance:
     source_record_id: e6c09b63-a424-4d9e-b7f7-b752cbbca02a
     source_record_ids:
     - e6c09b63-a424-4d9e-b7f7-b752cbbca02a
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: blackcat
-  source_retrieved_at: '2026-10-27T17:20:20Z'
+  source_retrieved_at: '2026-10-27T20:34:44Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -299,5 +299,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Ambitious Scorpius

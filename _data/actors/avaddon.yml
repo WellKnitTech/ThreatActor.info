@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "fdfbe721-abd1-4760-8e52-f23306f6cb80"
     source_record_ids: ["fdfbe721-abd1-4760-8e52-f23306f6cb80"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "cloud.google.com"
@@ -28,7 +28,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Offsec.md"]
     source_label: "Avaddon"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["Mimikatz","SharpDump"]
       Defense Evasion: ["GMER","PowerTool","TDSSKiller"]
@@ -37,5 +37,5 @@ provenance:
       OffSec: ["PowerShell Empire","PowerSploit"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "avaddon"
-  source_retrieved_at: "2026-10-27T17:23:08Z"
+  source_retrieved_at: "2026-10-27T20:36:43Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

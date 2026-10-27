@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Infraud Organization"
-aliases: ["Operation “Shadow Web”","Infraud Organization"]
+aliases: ["Infraud Organization","Operation “Shadow Web”"]
 description: "(Bank Info Security) The Infraud Organization ran an online forum dedicated to criminal activity that federal prosecutors claim had more than 10,000 members in March 2017. The site used the slogan 'In "
 permalink: /infraud-organization/
 ---
@@ -27,6 +27,7 @@ permalink: /infraud-organization/
 
 ## Malware and Tools
 - **FastPOS**
+- **FastPOS**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Various]"]

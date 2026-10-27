@@ -42,18 +42,18 @@ provenance:
     sample_titles: ["Dalbit (m00nlight): Chinese Hacker Group's APT Attack Campaign"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Ahnlab"]
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "d6e1986f-377f-4077-81f9-c1b59ef649d8"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dalbit"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dalbit"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "be4ea668-6a74-44d9-946e-e98e64a8855b"
   misp_galaxy:
     meta_keys: ["country","refs"]
@@ -62,4 +62,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "be4ea668-6a74-44d9-946e-e98e64a8855b"
     source_record_ids: ["be4ea668-6a74-44d9-946e-e98e64a8855b"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

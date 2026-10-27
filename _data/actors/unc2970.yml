@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc2970"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc2970"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "e40cf515-f155-46d4-b174-88b38383f9bb"
   misp_galaxy:
     meta_keys: ["country","origin:UNC2970","refs","name-attribution"]
@@ -23,4 +23,10 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e40cf515-f155-46d4-b174-88b38383f9bb"
     source_record_ids: ["e40cf515-f155-46d4-b174-88b38383f9bb"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--477d538c-2f40-5258-ae2d-f941d76dab72"
+    source_record_modified: "2024-03-11T17:38:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"

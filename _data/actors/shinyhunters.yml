@@ -1,282 +1,524 @@
-name: "ShinyHunters"
-aliases: ["Bling Libra","Shiny Hunters","ShinyCorp","ShinyHunters","Storm-3127","UNC5537","UNC6240","White Dev 100","shinyhunters"]
-description: "ShinyHunters is a cyber criminal collective that has been active since at least 2019 operating under the ShinyCorp persona. ShinyHunters has targeted multiple industries and geographic regions gathering legitimate credentials and personally identifiable information (PII) for resale or extortion of victims. ShinyHunters has been associated with the broader collective called The Community, also known as The Com whose members have also included Scattered Spider and LAPSUS$. Public reporting has mentioned a variety of names for operations ShinyHunters members have reportedly conducted with members of other groups, including “Scattered Lapsus Hunters,” “Scattered Lapsus Shiny Hunters,” and “SLSH.” [ElecticIQ Buyukkaya_ShinyHunters_Sept2025](https://blog.eclecticiq.com/shinyhunters-calling-financially-motivated-data-extortion-group-targeting-enterprise-cloud-applications) [SOCRadar_ShinyHunters_Mar2024](https://socradar.io/dark-web-profile-shinyhunters/) [Unit42KelleyVaya_BlingLibra_Aug2024](https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/) [Intel471_SH_Aug2021](https://www.intel471.com/blog/shinyhunters-data-breach-mitre-attack) [FBI_SHLMS_May2026](https://www.ic3.gov/PSA/2026/PSA260515) [Google_SHOracle_Jun2026](https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit) [Mandiant_SHDataTheft_Jan2026](https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft) [Google Salesforce JUN 2025](https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion) "
+---
+name: ShinyHunters
+aliases:
+- Bling Libra
+- Shiny Hunters
+- ShinyCorp
+- ShinyHunters
+- Storm-3127
+- UNC5537
+- UNC6240
+- White Dev 100
+- shinyhunters
+description: 'ShinyHunters is a cyber criminal collective that has been active since
+  at least 2019 operating under the ShinyCorp persona. ShinyHunters has targeted multiple
+  industries and geographic regions gathering legitimate credentials and personally
+  identifiable information (PII) for resale or extortion of victims. ShinyHunters
+  has been associated with the broader collective called The Community, also known
+  as The Com whose members have also included Scattered Spider and LAPSUS$. Public
+  reporting has mentioned a variety of names for operations ShinyHunters members have
+  reportedly conducted with members of other groups, including “Scattered Lapsus Hunters,”
+  “Scattered Lapsus Shiny Hunters,” and “SLSH.” [ElecticIQ Buyukkaya_ShinyHunters_Sept2025](https://blog.eclecticiq.com/shinyhunters-calling-financially-motivated-data-extortion-group-targeting-enterprise-cloud-applications)
+  [SOCRadar_ShinyHunters_Mar2024](https://socradar.io/dark-web-profile-shinyhunters/)
+  [Unit42KelleyVaya_BlingLibra_Aug2024](https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/)
+  [Intel471_SH_Aug2021](https://www.intel471.com/blog/shinyhunters-data-breach-mitre-attack)
+  [FBI_SHLMS_May2026](https://www.ic3.gov/PSA/2026/PSA260515) [Google_SHOracle_Jun2026](https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit)
+  [Mandiant_SHDataTheft_Jan2026](https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft)
+  [Google Salesforce JUN 2025](https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion) '
 url: "/shinyhunters"
-country: "[\"[Unknown]\"]"
-confidence: "high"
-external_id: "G1057"
-external_url: "https://attack.mitre.org/groups/G1057"
-mitre_id: "G1057"
-mitre_url: "https://attack.mitre.org/groups/G1057"
-source_name: "MISP Galaxy"
-source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shinyhunters"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["000. Now it is being offered for free on hacker forums.","2020-01","2020-03","2020-05","2020-06","2020-07","2020-11","2021-01","2021-04","2021-05","2021-08","2021-12","2023-06","2023-08","2024-04","2024-05","2024-06","2024-12","2025-01","2025-05","2025-06","2025-07","2025-08","25 million user records leak online from popular math app Mathway","8.3M records for sale","A hacker claims to have stolen over 500GB of data from Microsoft's private GitHub repositories","AT&T denies data breach after hacker auctions 70 million user database","Adidas Data Breach Linked to Third-Party Vendor","Advance Auto Parts data breach impacts 2.3 million people","Air France and KLM disclose data breaches impacting customers","Allianz Life confirms data breach impacts majority of 1.4 million customers","An allegedly stolen Wattpad database containing 270 million records were being sold in private sales for over $100","BleepingComputer has learned.","Bonobos clothing store suffers a data breach","BreachForums Resurfaces on Original Dark Web (.onion) Address","BreachForums Returns Just Weeks After FBI Seizure - Honeypot or Blunder?","BreachForums Returns Under the Control of ShinyHunters Hackers","ChatBooks","Cylance confirms data breach linked to 'third-party' platform","Data of 560 million Ticketmaster customers for sale after alleged breach","Dior begins sending data breach notifications to U.S. customers","Fashion giant Chanel hit in wave of Salesforce data theft attacks","Google suffers data breach in ongoing Salesforce data theft attacks","Google: Hackers target Salesforce accounts in data extortion attacks","Hacker leaks 15 million records from Tokopedia","Hacker leaks 20 million alleged BigBasket user records for free","Hacker leaks 40 million user records from popular Wishbone app","Hacker leaks data of 2.28 million dating site users","Hacker leaks data of millions of Teespring users","Hacker leaks full database of 77 million Nitro PDF user records","Hacker posts 1.9 million Pixlr user records for free on forum","Hackers sell stolen user data from HomeChef","Havenly discloses data breach after 1.3M accounts leaked online","Indonesia's largest online store","Louis Vuitton says regional data breaches tied to same cyberattack","Massive AT&T data breach exposes call logs of 109 million customers","Neiman Marcus data breach: 31 million email addresses found exposed","Now it’s Tiffany: Another LVMH luxury brand hit by hackers","Online learning platform Unacademy has suffered a data breach after a hacker gained access to their database and started selling the account information for close to 22 million users.","Pandora confirms data breach amid ongoing Salesforce data theft attacks","Pizza Hut Australia customer data hacked","Popular stock photo service hit by data breach","PowerSchool hacker now extorting individual school districts","Promo.com discloses data breach after 22M user records leaked online","Shifting Strategies: ShinyHunters and Known Cyber Threat Actors Change Tactics","ShinyHunters claims Santander breach","ShinyHunters claims to have more than 1 million customers’ information","ShinyHunters dump partial database of broker firm Upstox","ShinyHunters hacker leaks 5.22GB worth of Mashable.com database","ShinyHunters leak database of Indian wedding portal WedMeGood","Tech unicorn Dave admits to security breach impacting 7.5 million users","This time","Updating: Two Telegram channels and two accounts banned","and BreachForums goes down","and Chronicle","hacker leaks 70GB database","https://databreaches.net/2025/05/26/now-its-tiffany-another-lvmh-luxury-brand-hit-by-hackers/","https://databreaches.net/2025/08/12/updating-two-telegram-channels-and-two-accounts-banned-one-bounty-offered-and-breachforums-goes-down/","https://hackread.com/breachforums-resurface-original-dark-web-onion-address/","https://thehackernews.com/2024/05/breachforums-returns-just-weeks-after.html","https://www.bleepingcomputer.com/news/security/advance-auto-parts-data-breach-impacts-23-million-people/","https://www.bleepingcomputer.com/news/security/air-france-and-klm-disclose-data-breaches-impacting-customers/","https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/","https://www.bleepingcomputer.com/news/security/atandt-confirms-data-for-73-million-customers-leaked-on-hacker-forum/","https://www.bleepingcomputer.com/news/security/atandt-denies-data-breach-after-hacker-auctions-70-million-user-database/","https://www.bleepingcomputer.com/news/security/bonobos-clothing-store-suffers-a-data-breach-hacker-leaks-70gb-database/","https://www.bleepingcomputer.com/news/security/cylance-confirms-data-breach-linked-to-third-party-platform/","https://www.bleepingcomputer.com/news/security/data-of-560-million-ticketmaster-customers-for-sale-after-alleged-breach/","https://www.bleepingcomputer.com/news/security/dior-begins-sending-data-breach-notifications-to-us-customers/","https://www.bleepingcomputer.com/news/security/fashion-giant-chanel-hit-in-wave-of-salesforce-data-theft-attacks/","https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/","https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/","https://www.bleepingcomputer.com/news/security/hacker-leaks-20-million-alleged-bigbasket-user-records-for-free/","https://www.bleepingcomputer.com/news/security/hacker-leaks-full-database-of-77-million-nitro-pdf-user-records/","https://www.bleepingcomputer.com/news/security/hacker-posts-19-million-pixlr-user-records-for-free-on-forum/","https://www.bleepingcomputer.com/news/security/hacker-sells-22-million-unacademy-user-records-after-data-breach/","https://www.bleepingcomputer.com/news/security/hackers-sell-stolen-user-data-from-homechef-chatbooks-and-chronicle/","https://www.bleepingcomputer.com/news/security/havenly-discloses-data-breach-after-13m-accounts-leaked-online/","https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/","https://www.bleepingcomputer.com/news/security/massive-atandt-data-breach-exposes-call-logs-of-109-million-customers/","https://www.bleepingcomputer.com/news/security/microsofts-github-account-hacked-private-repositories-stolen/","https://www.bleepingcomputer.com/news/security/neiman-marcus-data-breach-31-million-email-addresses-found-exposed/","https://www.bleepingcomputer.com/news/security/pandora-confirms-data-breach-amid-ongoing-salesforce-data-theft-attacks/","https://www.bleepingcomputer.com/news/security/popular-stock-photo-service-hit-by-data-breach-83m-records-for-sale/","https://www.bleepingcomputer.com/news/security/powerschool-hacker-now-extorting-individual-school-districts/","https://www.bleepingcomputer.com/news/security/promocom-discloses-data-breach-after-22m-user-records-leaked-online/","https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/","https://www.bleepingcomputer.com/news/security/shinyhunters-claims-santander-breach-selling-data-for-30m-customers/","https://www.bleepingcomputer.com/news/security/wattpad-data-breach-exposes-account-info-for-millions-of-users/","https://www.databreaches.net/confused-about-the-drama-with-the-new-breachforums-reading-this-will-either-help-you-or-make-your-head-spin/","https://www.databreaches.net/major-indian-fashion-retailer-hacked-and-data-leaked/","https://www.databreaches.net/pizza-hut-australia-customer-data-hacked-shinyhunters-claims-to-have-more-than-1-million-customers-information/","https://www.hackread.com/breachforums-returns-with-shinyhunters-hackers/","https://www.hackread.com/shinyhunters-broker-firm-upstox-database-leak/","https://www.hackread.com/shinyhunters-hacker-leaks-mashable-database/","https://www.hackread.com/shinyhunters-leak-india-wedmegood-database/","https://www.riskbasedsecurity.com/2021/01/25/shinyhunters-wave-3-one-hacker-exposes-over-125-million-credentials/","https://www.riskbasedsecurity.com/2021/04/21/shifting-strategies-shinyhunters-and-known-cyber-threat-actors-change-tactics/","https://www.securityweek.com/adidas-data-breach-linked-to-third-party-vendor/","https://www.zdnet.com/article/25-million-user-records-leak-online-from-popular-math-app-mathway/","https://www.zdnet.com/article/hacker-leaks-15-million-records-from-tokopedia-indonesias-largest-online-store/","https://www.zdnet.com/article/hacker-leaks-data-of-2-28-million-dating-site-users/","https://www.zdnet.com/article/hacker-leaks-data-of-millions-of-teespring-users/","https://www.zdnet.com/article/hacker-selling-40-million-user-records-from-popular-wishbone-app/","https://www.zdnet.com/article/tech-unicorn-dave-admits-to-security-breach-impacting-7-5-million-users/","one bounty offered","selling data for 30M customers","the victim is a Fortune India 500 List company: Mumbai-headquartered Aditya Birla Group (ABG)."]
-malware: ["Unknown Logger","CyberGate","Cyber Eye RAT","Xploit"]
+country: '["[Unknown]"]'
+confidence: high
+external_id: G1057
+external_url: https://attack.mitre.org/groups/G1057
+mitre_id: G1057
+mitre_url: https://attack.mitre.org/groups/G1057
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/shinyhunters
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+operations:
+- 000. Now it is being offered for free on hacker forums.
+- 2020-01
+- 2020-03
+- 2020-05
+- 2020-06
+- 2020-07
+- 2020-11
+- 2021-01
+- 2021-04
+- 2021-05
+- 2021-08
+- 2021-12
+- 2023-06
+- 2023-08
+- 2024-04
+- 2024-05
+- 2024-06
+- 2024-12
+- 2025-01
+- 2025-05
+- 2025-06
+- 2025-07
+- 2025-08
+- 25 million user records leak online from popular math app Mathway
+- 8.3M records for sale
+- A hacker claims to have stolen over 500GB of data from Microsoft's private GitHub
+  repositories
+- AT&T denies data breach after hacker auctions 70 million user database
+- Adidas Data Breach Linked to Third-Party Vendor
+- Advance Auto Parts data breach impacts 2.3 million people
+- Air France and KLM disclose data breaches impacting customers
+- Allianz Life confirms data breach impacts majority of 1.4 million customers
+- An allegedly stolen Wattpad database containing 270 million records were being sold
+  in private sales for over $100
+- BleepingComputer has learned.
+- Bonobos clothing store suffers a data breach
+- BreachForums Resurfaces on Original Dark Web (.onion) Address
+- BreachForums Returns Just Weeks After FBI Seizure - Honeypot or Blunder?
+- BreachForums Returns Under the Control of ShinyHunters Hackers
+- ChatBooks
+- Cylance confirms data breach linked to 'third-party' platform
+- Data of 560 million Ticketmaster customers for sale after alleged breach
+- Dior begins sending data breach notifications to U.S. customers
+- Fashion giant Chanel hit in wave of Salesforce data theft attacks
+- Google suffers data breach in ongoing Salesforce data theft attacks
+- 'Google: Hackers target Salesforce accounts in data extortion attacks'
+- Hacker leaks 15 million records from Tokopedia
+- Hacker leaks 20 million alleged BigBasket user records for free
+- Hacker leaks 40 million user records from popular Wishbone app
+- Hacker leaks data of 2.28 million dating site users
+- Hacker leaks data of millions of Teespring users
+- Hacker leaks full database of 77 million Nitro PDF user records
+- Hacker posts 1.9 million Pixlr user records for free on forum
+- Hackers sell stolen user data from HomeChef
+- Havenly discloses data breach after 1.3M accounts leaked online
+- Indonesia's largest online store
+- Louis Vuitton says regional data breaches tied to same cyberattack
+- Massive AT&T data breach exposes call logs of 109 million customers
+- 'Neiman Marcus data breach: 31 million email addresses found exposed'
+- 'Now it’s Tiffany: Another LVMH luxury brand hit by hackers'
+- Online learning platform Unacademy has suffered a data breach after a hacker gained
+  access to their database and started selling the account information for close to
+  22 million users.
+- Pandora confirms data breach amid ongoing Salesforce data theft attacks
+- Pizza Hut Australia customer data hacked
+- Popular stock photo service hit by data breach
+- PowerSchool hacker now extorting individual school districts
+- Promo.com discloses data breach after 22M user records leaked online
+- 'Shifting Strategies: ShinyHunters and Known Cyber Threat Actors Change Tactics'
+- ShinyHunters claims Santander breach
+- ShinyHunters claims to have more than 1 million customers’ information
+- ShinyHunters dump partial database of broker firm Upstox
+- ShinyHunters hacker leaks 5.22GB worth of Mashable.com database
+- ShinyHunters leak database of Indian wedding portal WedMeGood
+- Tech unicorn Dave admits to security breach impacting 7.5 million users
+- This time
+- 'Updating: Two Telegram channels and two accounts banned'
+- and BreachForums goes down
+- and Chronicle
+- hacker leaks 70GB database
+- https://databreaches.net/2025/05/26/now-its-tiffany-another-lvmh-luxury-brand-hit-by-hackers/
+- https://databreaches.net/2025/08/12/updating-two-telegram-channels-and-two-accounts-banned-one-bounty-offered-and-breachforums-goes-down/
+- https://hackread.com/breachforums-resurface-original-dark-web-onion-address/
+- https://thehackernews.com/2024/05/breachforums-returns-just-weeks-after.html
+- https://www.bleepingcomputer.com/news/security/advance-auto-parts-data-breach-impacts-23-million-people/
+- https://www.bleepingcomputer.com/news/security/air-france-and-klm-disclose-data-breaches-impacting-customers/
+- https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/
+- https://www.bleepingcomputer.com/news/security/atandt-confirms-data-for-73-million-customers-leaked-on-hacker-forum/
+- https://www.bleepingcomputer.com/news/security/atandt-denies-data-breach-after-hacker-auctions-70-million-user-database/
+- https://www.bleepingcomputer.com/news/security/bonobos-clothing-store-suffers-a-data-breach-hacker-leaks-70gb-database/
+- https://www.bleepingcomputer.com/news/security/cylance-confirms-data-breach-linked-to-third-party-platform/
+- https://www.bleepingcomputer.com/news/security/data-of-560-million-ticketmaster-customers-for-sale-after-alleged-breach/
+- https://www.bleepingcomputer.com/news/security/dior-begins-sending-data-breach-notifications-to-us-customers/
+- https://www.bleepingcomputer.com/news/security/fashion-giant-chanel-hit-in-wave-of-salesforce-data-theft-attacks/
+- https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/
+- https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/
+- https://www.bleepingcomputer.com/news/security/hacker-leaks-20-million-alleged-bigbasket-user-records-for-free/
+- https://www.bleepingcomputer.com/news/security/hacker-leaks-full-database-of-77-million-nitro-pdf-user-records/
+- https://www.bleepingcomputer.com/news/security/hacker-posts-19-million-pixlr-user-records-for-free-on-forum/
+- https://www.bleepingcomputer.com/news/security/hacker-sells-22-million-unacademy-user-records-after-data-breach/
+- https://www.bleepingcomputer.com/news/security/hackers-sell-stolen-user-data-from-homechef-chatbooks-and-chronicle/
+- https://www.bleepingcomputer.com/news/security/havenly-discloses-data-breach-after-13m-accounts-leaked-online/
+- https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/
+- https://www.bleepingcomputer.com/news/security/massive-atandt-data-breach-exposes-call-logs-of-109-million-customers/
+- https://www.bleepingcomputer.com/news/security/microsofts-github-account-hacked-private-repositories-stolen/
+- https://www.bleepingcomputer.com/news/security/neiman-marcus-data-breach-31-million-email-addresses-found-exposed/
+- https://www.bleepingcomputer.com/news/security/pandora-confirms-data-breach-amid-ongoing-salesforce-data-theft-attacks/
+- https://www.bleepingcomputer.com/news/security/popular-stock-photo-service-hit-by-data-breach-83m-records-for-sale/
+- https://www.bleepingcomputer.com/news/security/powerschool-hacker-now-extorting-individual-school-districts/
+- https://www.bleepingcomputer.com/news/security/promocom-discloses-data-breach-after-22m-user-records-leaked-online/
+- https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/
+- https://www.bleepingcomputer.com/news/security/shinyhunters-claims-santander-breach-selling-data-for-30m-customers/
+- https://www.bleepingcomputer.com/news/security/wattpad-data-breach-exposes-account-info-for-millions-of-users/
+- https://www.databreaches.net/confused-about-the-drama-with-the-new-breachforums-reading-this-will-either-help-you-or-make-your-head-spin/
+- https://www.databreaches.net/major-indian-fashion-retailer-hacked-and-data-leaked/
+- https://www.databreaches.net/pizza-hut-australia-customer-data-hacked-shinyhunters-claims-to-have-more-than-1-million-customers-information/
+- https://www.hackread.com/breachforums-returns-with-shinyhunters-hackers/
+- https://www.hackread.com/shinyhunters-broker-firm-upstox-database-leak/
+- https://www.hackread.com/shinyhunters-hacker-leaks-mashable-database/
+- https://www.hackread.com/shinyhunters-leak-india-wedmegood-database/
+- https://www.riskbasedsecurity.com/2021/01/25/shinyhunters-wave-3-one-hacker-exposes-over-125-million-credentials/
+- https://www.riskbasedsecurity.com/2021/04/21/shifting-strategies-shinyhunters-and-known-cyber-threat-actors-change-tactics/
+- https://www.securityweek.com/adidas-data-breach-linked-to-third-party-vendor/
+- https://www.zdnet.com/article/25-million-user-records-leak-online-from-popular-math-app-mathway/
+- https://www.zdnet.com/article/hacker-leaks-15-million-records-from-tokopedia-indonesias-largest-online-store/
+- https://www.zdnet.com/article/hacker-leaks-data-of-2-28-million-dating-site-users/
+- https://www.zdnet.com/article/hacker-leaks-data-of-millions-of-teespring-users/
+- https://www.zdnet.com/article/hacker-selling-40-million-user-records-from-popular-wishbone-app/
+- https://www.zdnet.com/article/tech-unicorn-dave-admits-to-security-breach-impacting-7-5-million-users/
+- one bounty offered
+- selling data for 30M customers
+- 'the victim is a Fortune India 500 List company: Mumbai-headquartered Aditya Birla
+  Group (ABG).'
+malware:
+- Unknown Logger
+- CyberGate
+- Cyber Eye RAT
+- Xploit
 software:
-  - name: "Tor"
-    mitre_id: "S0183"
-    url: "https://attack.mitre.org/software/S0183"
-    type: "tool"
-    stix_id: "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68"
-    description: "Tor is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. Tor utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generat"
+- name: Tor
+  mitre_id: S0183
+  url: https://attack.mitre.org/software/S0183
+  type: tool
+  stix_id: tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68
+  description: 'Tor is a software suite and network that provides increased anonymity
+    on the Internet. It creates a multi-hop proxy network and utilizes multilayer
+    encryption to protect both the message and routing information. Tor utilizes "Onion
+    Routing," in which messages are encrypted with multiple layers of encryption;
+    at each step in the proxy network, the topmost layer is decrypted and the contents
+    forwarded on to the next node until it reaches its destination. (Citation: Dingledine
+    Tor The Second-Generat'
 ttps:
-  - technique_id: "T1560.002"
-    technique_name: "Archive via Library"
-    url: "https://attack.mitre.org/techniques/T1560/002"
-    stix_id: "attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6"
-  - technique_id: "T1550.001"
-    technique_name: "Application Access Token"
-    url: "https://attack.mitre.org/techniques/T1550/001"
-    stix_id: "attack-pattern--f005e783-57d4-4837-88ad-dbe7faee1c51"
-  - technique_id: "T1210"
-    technique_name: "Exploitation of Remote Services"
-    url: "https://attack.mitre.org/techniques/T1210"
-    stix_id: "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82"
-  - technique_id: "T1573.002"
-    technique_name: "Asymmetric Cryptography"
-    url: "https://attack.mitre.org/techniques/T1573/002"
-    stix_id: "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada"
-  - technique_id: "T1585.002"
-    technique_name: "Email Accounts"
-    url: "https://attack.mitre.org/techniques/T1585/002"
-    stix_id: "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a"
-  - technique_id: "T1082"
-    technique_name: "System Information Discovery"
-    url: "https://attack.mitre.org/techniques/T1082"
-    stix_id: "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1"
-  - technique_id: "T1105"
-    technique_name: "Ingress Tool Transfer"
-    url: "https://attack.mitre.org/techniques/T1105"
-    stix_id: "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-  - technique_id: "T1190"
-    technique_name: "Exploit Public-Facing Application"
-    url: "https://attack.mitre.org/techniques/T1190"
-    stix_id: "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c"
-  - technique_id: "T1530"
-    technique_name: "Data from Cloud Storage"
-    url: "https://attack.mitre.org/techniques/T1530"
-    stix_id: "attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7"
-  - technique_id: "T1059.007"
-    technique_name: "JavaScript"
-    url: "https://attack.mitre.org/techniques/T1059/007"
-    stix_id: "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d"
-  - technique_id: "T1078"
-    technique_name: "Valid Accounts"
-    url: "https://attack.mitre.org/techniques/T1078"
-    stix_id: "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
-  - technique_id: "T1567"
-    technique_name: "Exfiltration Over Web Service"
-    url: "https://attack.mitre.org/techniques/T1567"
-    stix_id: "attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807"
-  - technique_id: "T1598.003"
-    technique_name: "Spearphishing Link"
-    url: "https://attack.mitre.org/techniques/T1598/003"
-    stix_id: "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230"
-  - technique_id: "T1203"
-    technique_name: "Exploitation for Client Execution"
-    url: "https://attack.mitre.org/techniques/T1203"
-    stix_id: "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63"
-  - technique_id: "T1528"
-    technique_name: "Steal Application Access Token"
-    url: "https://attack.mitre.org/techniques/T1528"
-    stix_id: "attack-pattern--890c9858-598c-401d-a4d5-c67ebcdd703a"
-  - technique_id: "T1083"
-    technique_name: "File and Directory Discovery"
-    url: "https://attack.mitre.org/techniques/T1083"
-    stix_id: "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
-  - technique_id: "T1588.002"
-    technique_name: "Tool"
-    url: "https://attack.mitre.org/techniques/T1588/002"
-    stix_id: "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0"
-  - technique_id: "T1213.003"
-    technique_name: "Code Repositories"
-    url: "https://attack.mitre.org/techniques/T1213/003"
-    stix_id: "attack-pattern--cff94884-3b1c-4987-a70b-6d5643c621c3"
-  - technique_id: "T1684"
-    technique_name: "Social Engineering"
-    url: "https://attack.mitre.org/techniques/T1684"
-    stix_id: "attack-pattern--41e4d77a-6275-4976-9e35-785985598519"
-  - technique_id: "T1552.001"
-    technique_name: "Credentials In Files"
-    url: "https://attack.mitre.org/techniques/T1552/001"
-    stix_id: "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc"
-  - technique_id: "T1078.004"
-    technique_name: "Cloud Accounts"
-    url: "https://attack.mitre.org/techniques/T1078/004"
-    stix_id: "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65"
-  - technique_id: "T1078.002"
-    technique_name: "Domain Accounts"
-    url: "https://attack.mitre.org/techniques/T1078/002"
-    stix_id: "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f"
-  - technique_id: "T1016"
-    technique_name: "System Network Configuration Discovery"
-    url: "https://attack.mitre.org/techniques/T1016"
-    stix_id: "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0"
-  - technique_id: "T1491.001"
-    technique_name: "Internal Defacement"
-    url: "https://attack.mitre.org/techniques/T1491/001"
-    stix_id: "attack-pattern--8c41090b-aa47-4331-986b-8c9a51a91103"
-  - technique_id: "T1036.005"
-    technique_name: "Match Legitimate Resource Name or Location"
-    url: "https://attack.mitre.org/techniques/T1036/005"
-    stix_id: "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
-  - technique_id: "T1219"
-    technique_name: "Remote Access Tools"
-    url: "https://attack.mitre.org/techniques/T1219"
-    stix_id: "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7"
-  - technique_id: "T1598"
-    technique_name: "Phishing for Information"
-    url: "https://attack.mitre.org/techniques/T1598"
-    stix_id: "attack-pattern--cca0ccb6-a068-4574-a722-b1556f86833a"
-  - technique_id: "T1195.001"
-    technique_name: "Compromise Software Dependencies and Development Tools"
-    url: "https://attack.mitre.org/techniques/T1195/001"
-    stix_id: "attack-pattern--191cc6af-1bb2-4344-ab5f-28e496638720"
-  - technique_id: "T1657"
-    technique_name: "Financial Theft"
-    url: "https://attack.mitre.org/techniques/T1657"
-    stix_id: "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3"
-  - technique_id: "T1580"
-    technique_name: "Cloud Infrastructure Discovery"
-    url: "https://attack.mitre.org/techniques/T1580"
-    stix_id: "attack-pattern--57a3d31a-d04f-4663-b2da-7df8ec3f8c9d"
-  - technique_id: "T1018"
-    technique_name: "Remote System Discovery"
-    url: "https://attack.mitre.org/techniques/T1018"
-    stix_id: "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735"
-  - technique_id: "T1059.009"
-    technique_name: "Cloud API"
-    url: "https://attack.mitre.org/techniques/T1059/009"
-    stix_id: "attack-pattern--55bb4471-ff1f-43b4-88c1-c9384ec47abf"
-  - technique_id: "T1583.004"
-    technique_name: "Server"
-    url: "https://attack.mitre.org/techniques/T1583/004"
-    stix_id: "attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337"
-  - technique_id: "T1072"
-    technique_name: "Software Deployment Tools"
-    url: "https://attack.mitre.org/techniques/T1072"
-    stix_id: "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414"
-  - technique_id: "T1588.007"
-    technique_name: "Artificial Intelligence"
-    url: "https://attack.mitre.org/techniques/T1588/007"
-    stix_id: "attack-pattern--0cc222f5-c3ff-48e6-9f52-3314baf9d37e"
-  - technique_id: "T1110"
-    technique_name: "Brute Force"
-    url: "https://attack.mitre.org/techniques/T1110"
-    stix_id: "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd"
-  - technique_id: "T1213.006"
-    technique_name: "Databases"
-    url: "https://attack.mitre.org/techniques/T1213/006"
-    stix_id: "attack-pattern--248d3fe1-7fe1-4d71-91c7-8bb7ef35cad3"
-  - technique_id: "T1589.001"
-    technique_name: "Credentials"
-    url: "https://attack.mitre.org/techniques/T1589/001"
-    stix_id: "attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161"
-  - technique_id: "T1593.003"
-    technique_name: "Code Repositories"
-    url: "https://attack.mitre.org/techniques/T1593/003"
-    stix_id: "attack-pattern--70910fbd-58dc-4c1c-8c48-814d11fcd022"
-  - technique_id: "T1583.001"
-    technique_name: "Domains"
-    url: "https://attack.mitre.org/techniques/T1583/001"
-    stix_id: "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3"
-  - technique_id: "T1090.003"
-    technique_name: "Multi-hop Proxy"
-    url: "https://attack.mitre.org/techniques/T1090/003"
-    stix_id: "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d"
-  - technique_id: "T1587.004"
-    technique_name: "Exploits"
-    url: "https://attack.mitre.org/techniques/T1587/004"
-    stix_id: "attack-pattern--bbc3cba7-84ae-410d-b18b-16750731dfa2"
-  - technique_id: "T1485"
-    technique_name: "Data Destruction"
-    url: "https://attack.mitre.org/techniques/T1485"
-    stix_id: "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c"
-  - technique_id: "T1619"
-    technique_name: "Cloud Storage Object Discovery"
-    url: "https://attack.mitre.org/techniques/T1619"
-    stix_id: "attack-pattern--8565825b-21c8-4518-b75e-cbc4c717a156"
-  - technique_id: "T1069.003"
-    technique_name: "Cloud Groups"
-    url: "https://attack.mitre.org/techniques/T1069/003"
-    stix_id: "attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2"
-  - technique_id: "T1595.002"
-    technique_name: "Vulnerability Scanning"
-    url: "https://attack.mitre.org/techniques/T1595/002"
-    stix_id: "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4"
-attck_techniques: ["T1016","T1018","T1036.005","T1059.007","T1059.009","T1069.003","T1072","T1078","T1078.002","T1078.004","T1082","T1083","T1090.003","T1105","T1110","T1190","T1195.001","T1203","T1210","T1213.003","T1213.006","T1219","T1485","T1491.001","T1528","T1530","T1550.001","T1552.001","T1560.002","T1567","T1573.002","T1580","T1583.001","T1583.004","T1585.002","T1587.004","T1588.002","T1588.007","T1589.001","T1593.003","T1595.002","T1598","T1598.003","T1619","T1657","T1684"]
-attck_software: ["S0183"]
+- technique_id: T1560.002
+  technique_name: Archive via Library
+  url: https://attack.mitre.org/techniques/T1560/002
+  stix_id: attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6
+- technique_id: T1550.001
+  technique_name: Application Access Token
+  url: https://attack.mitre.org/techniques/T1550/001
+  stix_id: attack-pattern--f005e783-57d4-4837-88ad-dbe7faee1c51
+- technique_id: T1210
+  technique_name: Exploitation of Remote Services
+  url: https://attack.mitre.org/techniques/T1210
+  stix_id: attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82
+- technique_id: T1573.002
+  technique_name: Asymmetric Cryptography
+  url: https://attack.mitre.org/techniques/T1573/002
+  stix_id: attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada
+- technique_id: T1585.002
+  technique_name: Email Accounts
+  url: https://attack.mitre.org/techniques/T1585/002
+  stix_id: attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a
+- technique_id: T1082
+  technique_name: System Information Discovery
+  url: https://attack.mitre.org/techniques/T1082
+  stix_id: attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1
+- technique_id: T1105
+  technique_name: Ingress Tool Transfer
+  url: https://attack.mitre.org/techniques/T1105
+  stix_id: attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add
+- technique_id: T1190
+  technique_name: Exploit Public-Facing Application
+  url: https://attack.mitre.org/techniques/T1190
+  stix_id: attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c
+- technique_id: T1530
+  technique_name: Data from Cloud Storage
+  url: https://attack.mitre.org/techniques/T1530
+  stix_id: attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7
+- technique_id: T1059.007
+  technique_name: JavaScript
+  url: https://attack.mitre.org/techniques/T1059/007
+  stix_id: attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d
+- technique_id: T1078
+  technique_name: Valid Accounts
+  url: https://attack.mitre.org/techniques/T1078
+  stix_id: attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81
+- technique_id: T1567
+  technique_name: Exfiltration Over Web Service
+  url: https://attack.mitre.org/techniques/T1567
+  stix_id: attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807
+- technique_id: T1598.003
+  technique_name: Spearphishing Link
+  url: https://attack.mitre.org/techniques/T1598/003
+  stix_id: attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230
+- technique_id: T1203
+  technique_name: Exploitation for Client Execution
+  url: https://attack.mitre.org/techniques/T1203
+  stix_id: attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63
+- technique_id: T1528
+  technique_name: Steal Application Access Token
+  url: https://attack.mitre.org/techniques/T1528
+  stix_id: attack-pattern--890c9858-598c-401d-a4d5-c67ebcdd703a
+- technique_id: T1083
+  technique_name: File and Directory Discovery
+  url: https://attack.mitre.org/techniques/T1083
+  stix_id: attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18
+- technique_id: T1588.002
+  technique_name: Tool
+  url: https://attack.mitre.org/techniques/T1588/002
+  stix_id: attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0
+- technique_id: T1213.003
+  technique_name: Code Repositories
+  url: https://attack.mitre.org/techniques/T1213/003
+  stix_id: attack-pattern--cff94884-3b1c-4987-a70b-6d5643c621c3
+- technique_id: T1684
+  technique_name: Social Engineering
+  url: https://attack.mitre.org/techniques/T1684
+  stix_id: attack-pattern--41e4d77a-6275-4976-9e35-785985598519
+- technique_id: T1552.001
+  technique_name: Credentials In Files
+  url: https://attack.mitre.org/techniques/T1552/001
+  stix_id: attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc
+- technique_id: T1078.004
+  technique_name: Cloud Accounts
+  url: https://attack.mitre.org/techniques/T1078/004
+  stix_id: attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65
+- technique_id: T1078.002
+  technique_name: Domain Accounts
+  url: https://attack.mitre.org/techniques/T1078/002
+  stix_id: attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f
+- technique_id: T1016
+  technique_name: System Network Configuration Discovery
+  url: https://attack.mitre.org/techniques/T1016
+  stix_id: attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0
+- technique_id: T1491.001
+  technique_name: Internal Defacement
+  url: https://attack.mitre.org/techniques/T1491/001
+  stix_id: attack-pattern--8c41090b-aa47-4331-986b-8c9a51a91103
+- technique_id: T1036.005
+  technique_name: Match Legitimate Resource Name or Location
+  url: https://attack.mitre.org/techniques/T1036/005
+  stix_id: attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2
+- technique_id: T1219
+  technique_name: Remote Access Tools
+  url: https://attack.mitre.org/techniques/T1219
+  stix_id: attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7
+- technique_id: T1598
+  technique_name: Phishing for Information
+  url: https://attack.mitre.org/techniques/T1598
+  stix_id: attack-pattern--cca0ccb6-a068-4574-a722-b1556f86833a
+- technique_id: T1195.001
+  technique_name: Compromise Software Dependencies and Development Tools
+  url: https://attack.mitre.org/techniques/T1195/001
+  stix_id: attack-pattern--191cc6af-1bb2-4344-ab5f-28e496638720
+- technique_id: T1657
+  technique_name: Financial Theft
+  url: https://attack.mitre.org/techniques/T1657
+  stix_id: attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3
+- technique_id: T1580
+  technique_name: Cloud Infrastructure Discovery
+  url: https://attack.mitre.org/techniques/T1580
+  stix_id: attack-pattern--57a3d31a-d04f-4663-b2da-7df8ec3f8c9d
+- technique_id: T1018
+  technique_name: Remote System Discovery
+  url: https://attack.mitre.org/techniques/T1018
+  stix_id: attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735
+- technique_id: T1059.009
+  technique_name: Cloud API
+  url: https://attack.mitre.org/techniques/T1059/009
+  stix_id: attack-pattern--55bb4471-ff1f-43b4-88c1-c9384ec47abf
+- technique_id: T1583.004
+  technique_name: Server
+  url: https://attack.mitre.org/techniques/T1583/004
+  stix_id: attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337
+- technique_id: T1072
+  technique_name: Software Deployment Tools
+  url: https://attack.mitre.org/techniques/T1072
+  stix_id: attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414
+- technique_id: T1588.007
+  technique_name: Artificial Intelligence
+  url: https://attack.mitre.org/techniques/T1588/007
+  stix_id: attack-pattern--0cc222f5-c3ff-48e6-9f52-3314baf9d37e
+- technique_id: T1110
+  technique_name: Brute Force
+  url: https://attack.mitre.org/techniques/T1110
+  stix_id: attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd
+- technique_id: T1213.006
+  technique_name: Databases
+  url: https://attack.mitre.org/techniques/T1213/006
+  stix_id: attack-pattern--248d3fe1-7fe1-4d71-91c7-8bb7ef35cad3
+- technique_id: T1589.001
+  technique_name: Credentials
+  url: https://attack.mitre.org/techniques/T1589/001
+  stix_id: attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161
+- technique_id: T1593.003
+  technique_name: Code Repositories
+  url: https://attack.mitre.org/techniques/T1593/003
+  stix_id: attack-pattern--70910fbd-58dc-4c1c-8c48-814d11fcd022
+- technique_id: T1583.001
+  technique_name: Domains
+  url: https://attack.mitre.org/techniques/T1583/001
+  stix_id: attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3
+- technique_id: T1090.003
+  technique_name: Multi-hop Proxy
+  url: https://attack.mitre.org/techniques/T1090/003
+  stix_id: attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d
+- technique_id: T1587.004
+  technique_name: Exploits
+  url: https://attack.mitre.org/techniques/T1587/004
+  stix_id: attack-pattern--bbc3cba7-84ae-410d-b18b-16750731dfa2
+- technique_id: T1485
+  technique_name: Data Destruction
+  url: https://attack.mitre.org/techniques/T1485
+  stix_id: attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c
+- technique_id: T1619
+  technique_name: Cloud Storage Object Discovery
+  url: https://attack.mitre.org/techniques/T1619
+  stix_id: attack-pattern--8565825b-21c8-4518-b75e-cbc4c717a156
+- technique_id: T1069.003
+  technique_name: Cloud Groups
+  url: https://attack.mitre.org/techniques/T1069/003
+  stix_id: attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2
+- technique_id: T1595.002
+  technique_name: Vulnerability Scanning
+  url: https://attack.mitre.org/techniques/T1595/002
+  stix_id: attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4
+attck_techniques:
+- T1016
+- T1018
+- T1036.005
+- T1059.007
+- T1059.009
+- T1069.003
+- T1072
+- T1078
+- T1078.002
+- T1078.004
+- T1082
+- T1083
+- T1090.003
+- T1105
+- T1110
+- T1190
+- T1195.001
+- T1203
+- T1210
+- T1213.003
+- T1213.006
+- T1219
+- T1485
+- T1491.001
+- T1528
+- T1530
+- T1550.001
+- T1552.001
+- T1560.002
+- T1567
+- T1573.002
+- T1580
+- T1583.001
+- T1583.004
+- T1585.002
+- T1587.004
+- T1588.002
+- T1588.007
+- T1589.001
+- T1593.003
+- T1595.002
+- T1598
+- T1598.003
+- T1619
+- T1657
+- T1684
+attck_software:
+- S0183
 attck_references:
-  - source: "mitre-attack"
-    url: "https://attack.mitre.org/groups/G1057"
-    external_id: "G1057"
-    description: ""
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G1057
+  external_id: G1057
+  description: ''
 sources:
-  - source: "mitre-attack"
-    imported_at: "2026-10-27T17:28:50Z"
-    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+- source: mitre-attack
+  imported_at: '2026-10-27T17:28:50Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   etda_thai_group_cards:
-    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
-    source_record_id: "92cc31c7-3c18-4ae2-9f9b-649b6cb029e1"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
-    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+    source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
+    source_record_id: 92cc31c7-3c18-4ae2-9f9b-649b6cb029e1
+    source_retrieved_at: '2026-10-27T20:33:01Z'
+    source_transforms:
+    - normalized-name
+    - deduplicated-aliases
+    - normalized-optional-fields
+    - adapted-for-threatactor-info
   eternal_liberty:
     aliases_by_entity:
-      PWC: ["White Dev 100"]
-    confidence: "High"
-    license_status: "No explicit upstream license; approved as the sole no-license import exception."
-    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
-    source_record_id: "shinyhunters"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
-    source_version: "1.2"
-    type: "Organized Crime"
+      PWC:
+      - White Dev 100
+    confidence: High
+    license_status: No explicit upstream license; approved as the sole no-license
+      import exception.
+    source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
+    source_record_id: shinyhunters
+    source_retrieved_at: '2026-10-27T20:33:17Z'
+    source_version: '1.2'
+    type: Organized Crime
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "shinyhunters"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shinyhunters"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
-    source_uuid: "d4fd0a30-15d4-4dfd-bf98-beff5fe34c33"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: unc5537
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc5537
+    source_retrieved_at: '2026-10-27T20:41:42Z'
+    source_uuid: b8c6da46-4c9a-4075-b9f3-3b5ef7bd3534
   microsoft_threat_actor_list:
-    categories: ["Financially motivated"]
-    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
-    microsoft_name: "Storm-3127"
-    origin_category: "Financially motivated"
-    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
-    source_record_id: "storm3127"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    categories:
+    - Financially motivated
+    license_status: Microsoft publishes this workbook for public reuse and regular
+      updates; imports preserve source attribution and importer provenance.
+    microsoft_name: Storm-3127
+    origin_category: Financially motivated
+    source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
+    source_record_id: storm3127
+    source_retrieved_at: '2026-10-27T20:33:19Z'
   misp_galaxy:
-    meta_keys: ["refs","links","name-attribution"]
-    source_cluster: "threat-actor.json"
-    source_clusters: ["threat-actor.json","ransomware.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "d4fd0a30-15d4-4dfd-bf98-beff5fe34c33"
-    source_record_ids: ["d4fd0a30-15d4-4dfd-bf98-beff5fe34c33","ea3f99ec-76ad-5c71-950d-9324e3d48811"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    meta_keys:
+    - refs
+    - links
+    - name-attribution
+    source_cluster: threat-actor.json
+    source_clusters:
+    - threat-actor.json
+    - ransomware.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: d4fd0a30-15d4-4dfd-bf98-beff5fe34c33
+    source_record_ids:
+    - d4fd0a30-15d4-4dfd-bf98-beff5fe34c33
+    - ea3f99ec-76ad-5c71-950d-9324e3d48811
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
-    attack_version: "20.0"
+    attack_version: '20.0'
     attack_version_by_domain:
-      enterprise: "20.0"
-      ics: "20.0"
-      mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      enterprise: '20.0'
+      ics: '20.0'
+      mobile: '20.0'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
-      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
-      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
-    source_record_id: "G1057"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
-    stix_intrusion_set_id: "intrusion-set--5e30362d-935b-4b1c-8bf2-96c7b7b7e299"
-  source_dataset_url: "https://www.ransomlook.io/api/groups"
-  source_record_id: "shinyhunters"
-  source_retrieved_at: "2026-10-27T17:23:30Z"
-  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+      enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+      ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
+      mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
+    source_record_id: G1057
+    source_retrieved_at: '2026-10-27T20:41:25Z'
+    stix_intrusion_set_id: intrusion-set--5e30362d-935b-4b1c-8bf2-96c7b7b7e299
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: shinyhunters
+  source_retrieved_at: '2026-10-27T20:36:58Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
   unit42_threat_actor_groups:
-    source_dataset_url: "https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/"
-    source_name: "Palo Alto Networks Unit 42 Threat Actor Groups"
-    source_record_id: "Bling Libra"
-    source_retrieved_at: "2026-10-27T17:28:35Z"
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T20:41:10Z'
+    source_record_id: Bling Libra
+  wiz_cloud_threat_landscape:
+    source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
+    source_name: Wiz Cloud Threat Landscape
+    source_record_id: threat-actor--d083a682-3a37-51ad-9787-4978d9041f7c
+    source_record_modified: '2024-09-19T12:11:00.000Z'
+    source_retrieved_at: '2026-10-27T20:32:42Z'

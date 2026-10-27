@@ -20,13 +20,13 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "a4ede8f6-c5bf-4791-97d0-f192fc1ae406"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "plushdaemon"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/plushdaemon"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "bdb9ac86-fd43-41e1-a06e-7cff2b5a922d"
   misp_galaxy:
     meta_keys: ["country","refs","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","name-attribution"]
@@ -35,4 +35,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "bdb9ac86-fd43-41e1-a06e-7cff2b5a922d"
     source_record_ids: ["bdb9ac86-fd43-41e1-a06e-7cff2b5a922d","3a97e7d2-d3f3-4a6c-bd5f-0e82fcc08ae6"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

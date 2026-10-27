@@ -27,6 +27,7 @@ permalink: /tempting-cedar-spyware/
 
 ## Malware and Tools
 - **Tempting Cedar Spyware**
+- **Tempting Cedar Spyware**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Lebanon"]

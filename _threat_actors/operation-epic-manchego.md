@@ -31,6 +31,11 @@ permalink: /operation-epic-manchego/
 - **Formbook**
 - **Matiex**
 - **njRAT**
+- **AZORult**: 
+- **Agent Tesla**: 
+- **Formbook**: 
+- **Matiex**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

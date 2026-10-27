@@ -459,13 +459,23 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
+  dragos_threat_groups:
+    source_name: Dragos Threat Groups
+    source_dataset_url: https://www.dragos.com/threat-groups
+    source_retrieved_at: '2026-10-27T20:41:06Z'
+    source_record_id: MAGNALLIUM
+    source_urls:
+    - https://www.dragos.com/threat/magnallium
   etda_thai_group_cards:
     mitre_group_ids:
     - G0064
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 958e1f46-a2b6-4beb-8cb0-ddc90c08368e
-    source_retrieved_at: '2026-10-27T17:18:12Z'
+    source_retrieved_at: '2026-10-27T20:33:00Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -475,7 +485,7 @@ provenance:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: apt33
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt33
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: 4f69ec6d-cb6b-42af-b8e2-920a2aa4be10
   microsoft_threat_actor_list:
     license_status: Microsoft publishes this workbook for public reuse and regular
@@ -484,7 +494,7 @@ provenance:
     origin_category: Iran
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: peachsandstorm
-    source_retrieved_at: '2026-10-27T17:18:32Z'
+    source_retrieved_at: '2026-10-27T20:33:19Z'
   misp_galaxy:
     meta_keys:
     - attribution-confidence
@@ -522,21 +532,21 @@ provenance:
     - 99bbbe25-45af-492f-a7ff-7cbc57828bac
     - 8f6f8a49-8a22-4494-a4c0-5a341444339a
     - 4c0f085a-70b1-5ee6-a45a-dc368f03e701
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0064
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f
   reddrip7_apt_digital_weapon:
     actor_folder: APT33
@@ -546,12 +556,11 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-10-27T17:29:20Z'
-  dragos_threat_groups:
-    source_name: Dragos Threat Groups
-    source_dataset_url: https://www.dragos.com/threat-groups
-    source_retrieved_at: '2026-10-27T17:28:31Z'
-    source_record_id: MAGNALLIUM
-    source_urls:
-    - https://www.dragos.com/threat/magnallium
+    source_retrieved_at: '2026-10-27T20:41:59Z'
+  wiz_cloud_threat_landscape:
+    source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
+    source_name: Wiz Cloud Threat Landscape
+    source_record_id: threat-actor--be0cb573-ab8d-58e4-b682-8c8b06e74cc6
+    source_record_modified: '2025-06-24T10:23:00.000Z'
+    source_retrieved_at: '2026-10-27T20:32:42Z'
 source: MITRE ATT&CK

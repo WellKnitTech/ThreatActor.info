@@ -13,8 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "065110c5-574a-4466-a336-e6c5f3ef86c4"
     source_record_ids: ["065110c5-574a-4466-a336-e6c5f3ef86c4"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "qlocker"
-  source_retrieved_at: "2026-10-27T17:18:44Z"
+  source_retrieved_at: "2026-10-27T20:33:32Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

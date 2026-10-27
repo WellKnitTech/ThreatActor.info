@@ -16,8 +16,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "904e9735-74f6-4fac-b498-91fddd49fe64"
     source_record_ids: ["904e9735-74f6-4fac-b498-91fddd49fe64","636e0d8f-629c-57c1-ab01-6f20fef588b5"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "bjorka"
-  source_retrieved_at: "2026-10-27T17:20:38Z"
+  source_retrieved_at: "2026-10-27T20:34:57Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

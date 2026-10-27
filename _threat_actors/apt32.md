@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT32"
-aliases: ["APT 32","APT-32","APT-C-00","APT32","ATK17","BISMUTH","Canvas Cyclone","Cobalt Kitty","G0050","OCEAN BUFFALO","Ocean Buffalo","Ocean Lotus","OceanLotus","OceanLotus Group","POND LOACH","Sea Lotus","SeaLotus","TIN WOODLAWN","海莲花 - APT-C-00","Bismuth","Hive0013","Tin Woodlawn","Woodlawn","Scarlet Ioke","SectorF01"]
+aliases: ["APT 32","APT-32","APT-C-00","APT-LY-100","APT32","ATK 17","ATK17","BISMUTH","Bismuth","Canvas Cyclone","Cobalt Kitty","G0050","Hive0013","Lotus Bane","OCEAN BUFFALO","Ocean Buffalo","Ocean Lotus","OceanLotus","OceanLotus Group","Operation “Cobalt Kitty”","Operation “PhantomLance”","POND LOACH","Pond Loach","Scarlet Ioke","Sea Lotus","SeaLotus","SectorF01","TIN WOODLAWN","Tin Woodlawn","Woodlawn","海莲花 - APT-C-00"]
 description: "APT32 is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journ"
 permalink: /apt32/
 ---

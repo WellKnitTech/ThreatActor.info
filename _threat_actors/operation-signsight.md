@@ -28,6 +28,8 @@ permalink: /operation-signsight/
 ## Malware and Tools
 - **Mimikatz**
 - **PhantomNet**
+- **Mimikatz**: 
+- **PhantomNet**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

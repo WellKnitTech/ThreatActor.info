@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD REBELLION"
-aliases: ["Black Basta","BlackBasta","Black_Basta","Cardina","Curly Spider (CrowdStrike)","Dark Scorpius","GOLD REBELLION","Gold Rebellion","Lockean","Storm-1811 (Microsoft)","UNC4393","WANDERING SPIDER","Wandering Spider","White Dev 115"]
+aliases: ["Black Basta","BlackBasta","Black_Basta","CURLY SPIDER","Cardina","Cardinal","Curly Spider (CrowdStrike)","Dark Scorpius","GOLD REBELLION","Gold Rebellion","Lockean","STAC5777","Storm-1811","Storm-1811 (Microsoft)","UNC4393","WANDERING SPIDER","Wandering Spider","White Dev 115"]
 description: "GOLD REBELLION is a financially motivated cybercriminal threat group that operates the Black Basta name-and-shame ransomware. The group posted its first victim to its leak site in April 2022 and has co"
 permalink: /gold-rebellion/
 ---

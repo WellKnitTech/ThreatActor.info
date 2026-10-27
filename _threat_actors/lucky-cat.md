@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Lucky Cat"
-aliases: ["Lucky Cat","TA413","White Dev 9","Luckycat"]
+aliases: ["Lucky Cat","Luckycat","TA413","White Dev 9"]
 description: "A series of attacks, targeting both Indian military research and south Asian shipping organizations, demonstrate the minimum level of effort required to successfully compromise a target and steal sensi"
 permalink: /lucky-cat/
 ---
@@ -43,6 +43,10 @@ A series of attacks, targeting both Indian military research and south Asian shi
 - **Killer RAT**
 - **ExileRAT**: 
 - **Sepulcher**: 
+- **Comfoo**: 
+- **Lucky Cat**: 
+- **Sojax**: 
+- **WMI Ghost**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

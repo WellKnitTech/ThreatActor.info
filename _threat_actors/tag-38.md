@@ -28,6 +28,8 @@ permalink: /tag-38/
 ## Malware and Tools
 - **FRP**
 - **ShadowPad Winnti**
+- **FRP**: 
+- **ShadowPad Winnti**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

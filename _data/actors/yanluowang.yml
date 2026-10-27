@@ -12,7 +12,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://darktrace.com/blog/inside-the-yanluowang-leak-organization-members-and-tactics"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "china"
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -21,7 +21,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "476de1fe-d9b7-441a-8cb9-e6648189be3b"
     source_record_ids: ["476de1fe-d9b7-441a-8cb9-e6648189be3b"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "blog.talosintelligence.com"
@@ -37,7 +37,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Yanluowang"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["GrabChrome","GrabFF","KeeThief","Mimikatz","NirSoft WebBrowserPassView"]
       Discovery: ["AdFind","Cent Browser","S3 Browser","SoftPerfect NetScan"]
@@ -47,5 +47,5 @@ provenance:
       RMM Tools: ["LogMeIn","ScreenConnect","TeamViewer"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "yanluowang"
-  source_retrieved_at: "2026-10-27T17:25:59Z"
+  source_retrieved_at: "2026-10-27T20:38:43Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

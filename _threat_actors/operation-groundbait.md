@@ -27,6 +27,7 @@ permalink: /operation-groundbait/
 
 ## Malware and Tools
 - **Prikormka**
+- **Prikormka**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Ukraine"]

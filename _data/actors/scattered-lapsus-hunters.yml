@@ -15,7 +15,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "scattered_lapsus_hunters"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/scattered_lapsus_hunters"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "c216b83d-f298-438c-be47-0506ec773d8f"
   misp_galaxy:
     meta_keys: ["name-attribution","refs","synonyms","links"]
@@ -24,7 +24,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c216b83d-f298-438c-be47-0506ec773d8f"
     source_record_ids: ["c216b83d-f298-438c-be47-0506ec773d8f","f18a87a4-55f0-599d-a286-97e47cdc64a1"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "scatteredlapsusshunters"
   source_retrieved_at: "2026-05-17T06:17:25Z"

@@ -28,6 +28,8 @@ permalink: /earth-minotaur/
 ## Malware and Tools
 - **DarkNimbus**
 - **MOONSHINE**
+- **DarkNimbus**: 
+- **MOONSHINE**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

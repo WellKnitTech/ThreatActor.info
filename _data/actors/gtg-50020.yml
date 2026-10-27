@@ -12,7 +12,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "gtg-50020"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-50020"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "6a389572-4464-4126-b1b9-cda9bce19536"
   misp_galaxy:
     meta_keys: ["refs"]
@@ -21,4 +21,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "6a389572-4464-4126-b1b9-cda9bce19536"
     source_record_ids: ["6a389572-4464-4126-b1b9-cda9bce19536"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

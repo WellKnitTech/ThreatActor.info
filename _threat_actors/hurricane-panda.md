@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "HURRICANE PANDA"
-aliases: ["HURRICANE PANDA","Operation “Poisoned Hurricane”","Hurricane Panda"]
+aliases: ["HURRICANE PANDA","Hurricane Panda","Operation “Poisoned Hurricane”"]
 description: "We have investigated their intrusions since 2013 and have been battling them nonstop over the last year at several large telecommunications and technology companies. The determination of this China-bas"
 permalink: /hurricane-panda/
 ---

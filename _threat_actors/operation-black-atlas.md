@@ -31,6 +31,11 @@ permalink: /operation-black-atlas/
 - **Gorynych**
 - **ModPOS**
 - **NewPosThings**
+- **Alina POS**: 
+- **BlackPOS**: 
+- **Gorynych**: 
+- **ModPOS**: 
+- **NewPosThings**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

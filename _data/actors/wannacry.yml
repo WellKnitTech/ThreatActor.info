@@ -19,7 +19,7 @@ provenance:
     sample_titles: ["Investigation: WannaCry cyber attack and the NHS"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["NAO UK"]
   misp_galaxy:
     meta_keys: ["date","payment-method","price","refs","synonyms"]
@@ -28,7 +28,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "d62ab8d5-4ba1-4c45-8a63-13fdb099b33c"
     source_record_ids: ["d62ab8d5-4ba1-4c45-8a63-13fdb099b33c"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_vulnerability_matrix:
     references:
       - title: "cisa.gov"
@@ -51,7 +51,7 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md"]
     source_label: "WannaCry"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "MS Server Products"

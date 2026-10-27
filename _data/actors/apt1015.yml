@@ -5,6 +5,7 @@ aliases:
 - DEV-0875
 - DEV-0971
 - G1015
+- LUCR-3
 - Muddled Libra
 - Octo Tempest
 - Octo Tempest (Microsoft)
@@ -600,6 +601,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 campaigns:
 - name: C0027
   campaign_id: C0027
@@ -621,7 +625,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-10-27T17:29:27Z'
+    source_retrieved_at: '2026-10-27T20:42:06Z'
     reports:
     - organization: Coinbase
       breach_date: February 2023
@@ -657,12 +661,12 @@ provenance:
     source_links:
     - https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/
     - https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: others
   etda_thai_group_cards:
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 863b90f7-7e0a-45d4-b815-072442335e05
-    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_retrieved_at: '2026-10-27T20:33:01Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -685,14 +689,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: scatterswine
-    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_retrieved_at: '2026-10-27T20:33:17Z'
     source_version: '1.2'
     type: Organized Crime
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: scattered_spider
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/scattered_spider
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: 3b238f3a-c67a-4a9e-b474-dc3897e00129
   microsoft_threat_actor_list:
     categories:
@@ -703,7 +707,7 @@ provenance:
     origin_category: Financially motivated
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: octotempest
-    source_retrieved_at: '2026-10-27T17:18:32Z'
+    source_retrieved_at: '2026-10-27T20:33:19Z'
   misp_galaxy:
     meta_keys:
     - origin:DEV-0971
@@ -730,21 +734,21 @@ provenance:
     - 3b238f3a-c67a-4a9e-b474-dc3897e00129
     - 3d77fb6c-cfb4-5563-b0be-7aa1ad535337
     - 565b1ffa-6aa0-534d-a7bd-82ae942dd813
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1015
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b
   ransomware_tool_matrix:
     actor_roles:
@@ -817,7 +821,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Scattered Spider / Scattered Spider*
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Credential Theft:
       - GitGuardian
@@ -914,6 +918,12 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Muddled Libra
+  wiz_cloud_threat_landscape:
+    source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
+    source_name: Wiz Cloud Threat Landscape
+    source_record_id: threat-actor--6884df7a-cb54-5436-b071-d5d65caafa53
+    source_record_modified: '2025-06-30T13:25:00.000Z'
+    source_retrieved_at: '2026-10-27T20:32:42Z'
 source: MITRE ATT&CK

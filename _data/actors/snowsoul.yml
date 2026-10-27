@@ -12,7 +12,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "snowsoul"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/snowsoul"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "2adf3d89-8659-4f9c-aa6c-054cad3cc3fd"
   misp_galaxy:
     meta_keys: ["refs"]
@@ -21,4 +21,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "2adf3d89-8659-4f9c-aa6c-054cad3cc3fd"
     source_record_ids: ["2adf3d89-8659-4f9c-aa6c-054cad3cc3fd"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

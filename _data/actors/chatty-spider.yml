@@ -4,12 +4,21 @@ description: "A cybercriminal actor known to carry out \"callback phishing\" soc
 url: "/chatty-spider"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0252"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "Back Orifice"
   - name: "Back Orifice 2000"
   - name: "CyberGate"
   - name: "Cyber Eye RAT"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "storm-0252"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0252"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
+    source_uuid: "7a609a0b-8c24-424b-aa85-393d97bbd470"
   microsoft_threat_actor_list:
     categories: ["Group in development"]
     license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
@@ -17,7 +26,7 @@ provenance:
     origin_category: "Group in development"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "storm0252"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
     source_cluster: "tidal-groups.json"
@@ -25,4 +34,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "99c648f7-be33-42d0-af39-231b1e0951ee"
     source_record_ids: ["99c648f7-be33-42d0-af39-231b1e0951ee"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

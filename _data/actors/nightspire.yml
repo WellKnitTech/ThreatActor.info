@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "35aa3c2a-eea0-480a-b338-c82808643026"
     source_record_ids: ["35aa3c2a-eea0-480a-b338-c82808643026","da06e334-31b3-5c4e-93ce-0f5b4d926208"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "www.s-rminform.com"
@@ -28,7 +28,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md"]
     source_label: "NightSpire"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Discovery: ["Everything.exe"]
       Exfiltration: ["MEGA","WinSCP"]
@@ -57,7 +57,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "NightSpire"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "Fortinet"
@@ -67,5 +67,5 @@ provenance:
           source_file: "Vulnerabilities/NetworkEdge.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "nightspire"
-  source_retrieved_at: "2026-10-27T17:25:15Z"
+  source_retrieved_at: "2026-10-27T20:38:10Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

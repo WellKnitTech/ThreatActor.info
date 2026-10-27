@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TeamPCP"
-aliases: ["DeadCatx3","PCPCat","SHADOW-WATER-058","ShellForce","TeamPCP","UNC6780","Altered Spider","PCPcat","CanisterWorm","Storm-2999"]
+aliases: ["Altered Spider","CanisterWorm","DeadCatx3","PCPCat","PCPcat","SHADOW-WATER-058","ShellForce","Storm-2999","TeamPCP","UNC6780"]
 description: "TeamPCP is a threat actor that has executed a coordinated series of supply chain attacks, compromising widely-used open source tools such as Trivy, KICS, and LiteLLM to deploy credential-stealing malwa"
 permalink: /teampcp/
 ---

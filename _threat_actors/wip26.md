@@ -28,6 +28,8 @@ permalink: /wip26/
 ## Malware and Tools
 - **CMD365**
 - **CMDEmber**
+- **CMD365**: 
+- **CMDEmber**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

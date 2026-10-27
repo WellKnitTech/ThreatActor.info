@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "FIN7"
-aliases: ["APT-C-11","ATK 32","ATK32","Anunak","CARBON SPIDER","Calcium","Carbanak","Carbanak - APT-C-11","Carbanak Group","Carbon Spider","CarbonSpider","Coreid","Coried","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","Gold Niagara","GrayAlpha","ITG14","JokerStash","Navigator","Navigator Group","Sangria Tempest","TAG-CR1","WILD COMET","Elbrus","Magecart Group 7","TelePort Crew"]
+aliases: ["APT-C-11","ATK 32","ATK32","Anunak","CARBON SPIDER","Calcium","Carbanak","Carbanak - APT-C-11","Carbanak Group","Carbon Spider","CarbonSpider","Coreid","Coried","ELBRUS","Elbrus","FIN7","G0008","G0046","GOLD NIAGARA","Gold Niagara","GrayAlpha","ITG14","JokerStash","Magecart Group 7","Navigator","Navigator Group","Sangria Tempest","TAG-CR1","TelePort Crew","WILD COMET"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud s"
 permalink: /fin7/
 ---
@@ -176,7 +176,7 @@ FIN7 is a financially-motivated threat group that has been active since 2013. FI
 - [T1686](https://attack.mitre.org/techniques/T1686/)
 
 ## Notable Indicators of Compromise (IOCs)
-*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 13 public reports that may contain IOCs; see Source Attribution for dataset links.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 12 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **PowerSource**: 

@@ -23,10 +23,10 @@ provenance:
     source_record_id: 000fb0bf-8be3-4ff1-8bbd-cc0513bcdd89
     source_record_ids:
     - 000fb0bf-8be3-4ff1-8bbd-cc0513bcdd89
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: robinhood
-  source_retrieved_at: '2026-10-27T17:19:51Z'
+  source_retrieved_at: '2026-10-27T20:34:21Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -35,5 +35,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Pilfering Scorpius

@@ -1,5 +1,5 @@
 name: "APT30"
-aliases: ["APT30","ATK1","Billbug","BRONZE ELGIN","DRAGONFISH","G0013","G0030","Lotus BLossom","Lotus Blossom","LOTUS PANDA","LotusBlossom","RADIUM","Raspberry Typhoon","Red Salamander","Spring Dragon","ST Group","ISTHMUS CASTLE"]
+aliases: ["APT30","ATK1","Billbug","BRONZE ELGIN","DRAGONFISH","G0013","G0030","ISTHMUS CASTLE","Lotus BLossom","Lotus Blossom","LOTUS PANDA","LotusBlossom","RADIUM","Raspberry Typhoon","Red Salamander","Spring Dragon","ST Group"]
 description: "APT30 is a threat group suspected to be associated with the Chinese government. While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches. [FireEye APT30](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/05/20081935/rpt-apt30.pdf) [Baumgartner Golovkin Naikon 2015](https://securelist.com/the-naikon-apt/69953/)"
 url: "/apt0013"
 country: "China"
@@ -68,12 +68,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "raspberry_typhoon"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/raspberry_typhoon"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "37f012df-54d8-4b3d-a288-af47240430ea"
   mitre:
     attack_version: "20.0"
@@ -81,13 +84,13 @@ provenance:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0013"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd"
 source: "MITRE ATT&CK"

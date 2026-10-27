@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BITWISE SPIDER"
-aliases: ["BITWISE SPIDER","Bitwise Spider","Operation “Cronos”","Gold Mystic","White Janus"]
+aliases: ["BITWISE SPIDER","Bitwise Spider","Gold Mystic","Operation “Cronos”","White Janus"]
 description: "BITWISE SPIDER has recently and quickly become a significant player in the big game hunting (BGH) landscape. Their dedicated leak site (DLS) has received the highest number of victims posted each month"
 permalink: /bitwise-spider/
 ---

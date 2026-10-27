@@ -27,6 +27,7 @@ permalink: /operation-tunnelsnake/
 
 ## Malware and Tools
 - **Moriya**
+- **Moriya**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

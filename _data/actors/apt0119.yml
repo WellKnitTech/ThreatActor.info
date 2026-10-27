@@ -1,5 +1,5 @@
 name: "Indrik Spider"
-aliases: ["DEV-0243","Evil Corp","EvilCorp","GOLD DRAKE","Indrik Spider","INDRIK SPIDER","Manatee Tempest","UNC2165"]
+aliases: ["DEV-0243","Evil Corp","EvilCorp","GOLD DRAKE","INDRIK SPIDER","Indrik Spider","Manatee Tempest","UNC2165"]
 description: "Indrik Spider is a Russia-based cybercriminal group that has been active since at least 2014. Indrik Spider initially started with the Dridex banking Trojan, and then by 2017 they began running ransomware operations using BitPaymer, WastedLocker, and Hades ransomware. Following U.S. sanctions and an indictment in 2019, Indrik Spider changed their tactics and diversified their toolset. [Crowdstrike Indrik November 2018](https://www.crowdstrike.com/blog/big-game-hunting-the-evolution-of-indrik-spider-from-dridex-wire-fraud-to-bitpaymer-targeted-ransomware/) [Crowdstrike EvilCorp March 2021](https://www.crowdstrike.com/blog/hades-ransomware-successor-to-indrik-spiders-wastedlocker/) [Treasury EvilCorp Dec 2019](https://home.treasury.gov/news/press-releases/sm845)"
 url: "/apt0119"
 country: "Russia"
@@ -211,12 +211,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "indrik_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/indrik_spider"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "658314bc-3bb8-48d2-913a-c528607b75c8"
   misp_galaxy:
     meta_keys: ["country","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","microsoft-origin-threat","sector"]
@@ -225,21 +228,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "658314bc-3bb8-48d2-913a-c528607b75c8"
     source_record_ids: ["658314bc-3bb8-48d2-913a-c528607b75c8","3c7ad595-1940-40fc-b9ca-3e649c1e5d87","b19bc1a0-2489-56ae-aa61-ed147310363e"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0119"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07"
   reddrip7_apt_digital_weapon:
     actor_folder: "INDRIK SPIDER"
@@ -247,5 +250,11 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/INDRIK%20SPIDER/INDRIK%20SPIDER_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--b7e938f7-8118-5627-a3dd-ab48cbe3d42a"
+    source_record_modified: "2024-08-28T06:36:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"
 source: "MITRE ATT&CK"

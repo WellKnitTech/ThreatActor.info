@@ -1,5 +1,5 @@
 name: "Prophet Spider"
-aliases: ["GOLD MELODY","UNC961","Prophet Spider","Gold Melody"]
+aliases: ["GOLD MELODY","Gold Melody","Prophet Spider","UNC961"]
 description: "PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primarily gains access to victims by compromising vulnerable web servers, which commonly involves leveraging a variety of publicly disclosed vulnerabilities. The adversary has likely functioned as an access broker — handing off access to a third party to deploy ransomware — in multiple instances."
 url: "/prophet-spider"
 last_updated: "2026-10-27"
@@ -20,14 +20,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "goldmelody"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "prophet_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/prophet_spider"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "eb0b100c-8a4e-4859-b6f8-eebd66c3d20c"
   misp_galaxy:
     meta_keys: ["country","origin:GOLD MELODY","origin:UNC961","refs","synonyms","group_attack_id","observed_motivations","owner","source","tags","target_categories","name-attribution"]
@@ -36,7 +36,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "eb0b100c-8a4e-4859-b6f8-eebd66c3d20c"
     source_record_ids: ["eb0b100c-8a4e-4859-b6f8-eebd66c3d20c","e47b2958-b7c4-4fe1-a006-03137db91963"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     actor_roles: ["initial_access_broker"]
     references:
@@ -73,7 +73,7 @@ provenance:
     source_files: ["GroupProfiles/ProphetSpider.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
     source_label: "Prophet Spider"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["Mimikatz"]
       Discovery: ["TXPortMap"]
@@ -115,7 +115,7 @@ provenance:
     source_files: ["GroupProfiles/ProphetSpider.md","Vulnerabilities/Applications.md","Vulnerabilities/Virtualization.md"]
     source_label: "Prophet Spider"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "Apache"
@@ -210,3 +210,9 @@ provenance:
           cves: ["CVE-2021-22941"]
           source_links: ["https://www.crowdstrike.com/en-us/blog/prophet-spider-exploits-citrix-sharefile/"]
           source_file: "Vulnerabilities/Virtualization.md"
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--69651dda-8a84-5af2-b49e-038df494bfb4"
+    source_record_modified: "2024-01-18T13:25:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"

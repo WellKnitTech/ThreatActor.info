@@ -20,7 +20,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md"]
     source_label: "Zola"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["Mimikatz"]
       Defense Evasion: ["Defender Control","EMCO UnLock IT","ProcessHacker"]
@@ -28,5 +28,5 @@ provenance:
       LOLBAS: ["BCDEdit","Process Explorer"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "zola"
-  source_retrieved_at: "2026-10-27T17:22:05Z"
+  source_retrieved_at: "2026-10-27T20:36:02Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

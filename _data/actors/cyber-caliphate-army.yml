@@ -1,5 +1,5 @@
 name: "Cyber Caliphate Army"
-aliases: ["ATK 133","CCA","Cyber Caliphate Army","Cyber Caliphate Army (CCA)","CyberCaliphate","Islamic State Hacking Division","TAG-CT6","UUC","United Cyber Caliphate","United Cyber Caliphate (UCC)","ATK133"]
+aliases: ["ATK 133","ATK133","CCA","Cyber Caliphate Army","Cyber Caliphate Army (CCA)","CyberCaliphate","Islamic State Hacking Division","TAG-CT6","UUC","United Cyber Caliphate","United Cyber Caliphate (UCC)"]
 description: "Cyber Caliphate Army is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/cyber-caliphate-army"
 country: "[\"[ISIS]\"]"
@@ -14,12 +14,12 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://ent.siteintelgroup.com/index.php?option=com_customproperties&view=search&task=tag&bind_to_category=content:37&tagId=697","https://en.wikipedia.org/wiki/Islamic_State_Hacking_Division"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "middle-east"
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "82cebb46-cbb7-49b5-8405-1f04b46f1b5c"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -28,14 +28,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "cybercaliphatearmy"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Cyber Terrorists"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "cyber_caliphate_army"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cyber_caliphate_army"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "76f6ad4e-2ff3-4ccb-b81d-18162f290af0"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

@@ -7,7 +7,29 @@ first_seen: "2022"
 last_activity: "2022"
 source_name: "ETDA / ThaiCERT Threat Group Cards"
 source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
-malware: ["BINBASH","CAKETAP","MIGLOGCLEANER","SLAPSTICK","STEELCORGI","STEELHOUND","SUN4ME","Tiny SHell","WINGCRACK","WINGHOOK","WIPERIGHT"]
+malware:
+  - "BINBASH"
+  - "CAKETAP"
+  - "MIGLOGCLEANER"
+  - "SLAPSTICK"
+  - "STEELCORGI"
+  - "STEELHOUND"
+  - "SUN4ME"
+  - "Tiny SHell"
+  - "WINGCRACK"
+  - "WINGHOOK"
+  - "WIPERIGHT"
+  - name: "BINBASH"
+  - name: "CAKETAP"
+  - name: "MIGLOGCLEANER"
+  - name: "SLAPSTICK"
+  - name: "STEELCORGI"
+  - name: "STEELHOUND"
+  - name: "SUN4ME"
+  - name: "Tiny SHell"
+  - name: "WINGCRACK"
+  - name: "WINGHOOK"
+  - name: "WIPERIGHT"
 provenance:
   aptnotes:
     earliest_report_year: "2022"
@@ -17,12 +39,12 @@ provenance:
     sample_titles: ["An Overview of UNC2891"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Mandiant"]
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "d2fd8a6e-0f59-4f61-b42c-17b66cc17c9 1"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -31,6 +53,6 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "unc2891"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"

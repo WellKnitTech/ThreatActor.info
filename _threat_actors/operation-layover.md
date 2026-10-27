@@ -29,6 +29,9 @@ permalink: /operation-layover/
 - **AsyncRAT**
 - **CyberGate RAT**
 - **njRAT**
+- **AsyncRAT**: 
+- **CyberGate RAT**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Nigeria"]

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "OnionDog"
-aliases: ["OnionDog","APT-C-03"]
+aliases: ["APT-C-03","OnionDog"]
 description: "This threat actor targets the South Korean government, transportation, and energy sectors."
 permalink: /oniondog/
 ---

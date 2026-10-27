@@ -1,5 +1,5 @@
 name: "TERBIUM"
-aliases: ["TERBIUM","Terbium","Shamoon","Disttrack"]
+aliases: ["Disttrack","Shamoon","TERBIUM","Terbium"]
 description: "Microsoft Threat Intelligence identified similarities between this recent attack and previous 2012 attacks against tens of thousands of computers belonging to organizations in the energy sector. Microsoft Threat Intelligence refers to the activity group behind these attacks as TERBIUM, following our internal practice of assigning rogue actors chemical element names."
 url: "/terbium"
 country: "[\"[Unknown]\"]"
@@ -19,7 +19,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://en.wikipedia.org/wiki/Shamoon","http://www.nytimes.com/2012/10/24/business/global/cyberattack-on-saudi-oil-firm-disquiets-us.html"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "iran"
   aptnotes:
     earliest_report_year: "2012"
@@ -29,12 +29,12 @@ provenance:
     sample_titles: ["Recovering From Shamoon","The Full Shamoon: How the Devastating Malware Was Inserted Into Networks","Shamoon 3 Targets Oil and Gas Organization"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Fidelis","IBM","Palo Alto Networks"]
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "1bf39f2e-9b29-47aa-8b36-fc3fe2a41cc4"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -45,14 +45,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "terbium"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "terbium"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/terbium"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "46670c51-fea4-45d6-bdd4-62e85a5c7404"
   misp_galaxy:
     meta_keys: ["refs","targeted-sector"]
@@ -61,4 +61,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "46670c51-fea4-45d6-bdd4-62e85a5c7404"
     source_record_ids: ["46670c51-fea4-45d6-bdd4-62e85a5c7404","99784b80-6298-45ba-885c-0ed37bfd8324"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

@@ -15,8 +15,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "4ecf9aa9-69c8-4347-a9c6-cb4a5481ac8c"
     source_record_ids: ["4ecf9aa9-69c8-4347-a9c6-cb4a5481ac8c"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "cooming"
-  source_retrieved_at: "2026-10-27T17:19:22Z"
+  source_retrieved_at: "2026-10-27T20:34:01Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

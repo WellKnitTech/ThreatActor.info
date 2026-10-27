@@ -30,6 +30,8 @@ permalink: /operation-armor-piercer/
 ## Malware and Tools
 - **NetWire RC**
 - **Warzone RAT**
+- **NetWire RC**: 
+- **Warzone RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Pakistan"]

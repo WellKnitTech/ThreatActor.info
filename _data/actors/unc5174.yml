@@ -1,5 +1,5 @@
 name: "UNC5174"
-aliases: ["Uteus","UNC5174"]
+aliases: ["UNC5174","Uteus"]
 description: "UNC5174, a Chinese state-sponsored threat actor, has been identified by Mandiant for exploiting critical vulnerabilities in F5 BIG-IP and ScreenConnect. They have been linked to targeting research and education institutions, businesses, charities, NGOs, and government organizations in Southeast Asia, the U.S., and the UK. UNC5174 is believed to have connections to China's Ministry of State Security and has been observed using custom tooling and the SUPERSHELL framework in their operations. The actor has shown indications of transitioning from hacktivist collectives to working as a contractor for Chinese intelligence agencies."
 url: "/unc5174"
 source_name: "MISP Galaxy"
@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc5174"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc5174"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "0b158297-ee47-48ef-9346-0cb0f9cb348a"
   misp_galaxy:
     meta_keys: ["origin:UNC5174","refs","synonyms","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","name-attribution"]
@@ -22,11 +22,17 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "0b158297-ee47-48ef-9346-0cb0f9cb348a"
     source_record_ids: ["0b158297-ee47-48ef-9346-0cb0f9cb348a","21df749a-1e70-4c11-921c-071a61d9a900"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   reddrip7_apt_digital_weapon:
     actor_folder: "UNC5174"
     actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC5174/README.md"
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC5174/UNC5174_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--59582752-5104-56c4-b809-83f1d0aaa754"
+    source_record_modified: "2024-04-30T06:42:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"

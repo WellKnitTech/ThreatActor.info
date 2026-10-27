@@ -29,6 +29,7 @@ permalink: /avalanche/
 
 ## Malware and Tools
 - **Avalanche**
+- **Avalanche**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Russia"]

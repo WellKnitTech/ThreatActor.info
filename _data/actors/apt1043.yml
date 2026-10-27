@@ -374,13 +374,16 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   apt_groups_operations:
     sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
     source_dataset_url: https://apt.threattracking.com/
     source_links:
     - https://blog.talosintelligence.com/the-blackbyte-ransomware-group-is/
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: unknown
   misp_galaxy:
     meta_keys:
@@ -403,21 +406,21 @@ provenance:
     source_record_ids:
     - 94f5c644-d36a-59b0-b7e2-7a1d3413443d
     - 1c43524e-0f2e-4468-b6b6-8a37f1d0ea87
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1043
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a
   ransomware_tool_matrix:
     references:
@@ -443,7 +446,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: BlackByte
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Defense Evasion:
       - Dell Client driver (BYOVD)
@@ -475,7 +478,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: BlackByte
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-10-27T17:28:00Z'
+    source_retrieved_at: '2026-10-27T20:40:36Z'
     vulnerabilities_by_category:
       Virtualization:
       - vendor: VMware
@@ -488,7 +491,7 @@ provenance:
         source_file: Vulnerabilities/Virtualization.md
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: blackbyte
-  source_retrieved_at: '2026-10-27T17:19:10Z'
+  source_retrieved_at: '2026-10-27T20:33:53Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -497,6 +500,6 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Powerful Scorpius
 source: MITRE ATT&CK

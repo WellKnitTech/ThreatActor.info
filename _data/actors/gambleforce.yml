@@ -19,13 +19,13 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "4442e431-c4f1-4528-9b28-46ea479be9cc"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "gambleforce"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gambleforce"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "94ce7925-1a37-4b02-a25b-b87a389c92b3"
   misp_galaxy:
     meta_keys: ["refs","name-attribution"]
@@ -34,4 +34,10 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "94ce7925-1a37-4b02-a25b-b87a389c92b3"
     source_record_ids: ["94ce7925-1a37-4b02-a25b-b87a389c92b3"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--9af81023-9771-57e7-ae3f-ac2c94ac2bf3"
+    source_record_modified: "2024-01-18T13:25:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"

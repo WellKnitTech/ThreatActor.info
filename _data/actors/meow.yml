@@ -10,5 +10,11 @@ source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "meow"
-  source_retrieved_at: "2026-10-27T17:19:14Z"
+  source_retrieved_at: "2026-10-27T20:33:56Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--937980fa-5efd-5b25-99b6-05854c082371"
+    source_record_modified: "2024-01-18T13:25:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"
