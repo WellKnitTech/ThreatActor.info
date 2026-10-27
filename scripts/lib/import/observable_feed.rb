@@ -29,18 +29,13 @@ module ObservableFeed
     payload = JSON.parse(response.body)
     raise 'response must be a JSON object or array' unless payload.is_a?(Hash) || payload.is_a?(Array)
     query_status = payload.is_a?(Hash) ? payload['query_status'].to_s.strip : ''
-    if payload.is_a?(Hash) && !payload['data'].is_a?(Array)
-      status_label = query_status.empty? ? 'missing query_status' : "query_status=#{query_status}"
-      keys = payload.keys.map(&:to_s).sort.join(',')
-      data_class = payload.key?('data') ? payload['data'].class.name : 'absent'
-      raise "non-array abuse.ch payload (#{status_label}; data=#{data_class}; keys=#{keys})"
-    end
+    rows = records_from_payload(payload)
     FileUtils.mkdir_p(output)
     data = JSON.pretty_generate(payload) + "\n"
     File.write(File.join(output, 'data.json'), data)
     checksum = Digest::SHA256.hexdigest(data)
     query_status = 'ok' if query_status.empty?
-    manifest.merge!('retrieved_at' => Time.now.utc.iso8601, 'record_count' => Array(payload.is_a?(Hash) ? payload['data'] : payload).length,
+    manifest.merge!('retrieved_at' => Time.now.utc.iso8601, 'record_count' => rows.length,
                     'source_checksum_sha256' => checksum, 'data_file' => 'data.json', 'query_status' => query_status)
     File.write(File.join(output, 'manifest.yml'), YAML.dump(manifest))
     puts "Fetched #{manifest['record_count']} records into #{output}"
@@ -53,7 +48,7 @@ module ObservableFeed
     path = File.directory?(snapshot) ? File.join(snapshot, 'data.json') : snapshot
     validate_snapshot!(snapshot_root) if write || File.directory?(snapshot)
     payload = JSON.parse(File.read(path))
-    rows = Array(payload.is_a?(Hash) ? payload['data'] : payload)
+    rows = records_from_payload(payload)
     total_rows = rows.length
     rows = rows.first(MAX_RECORDS)
     rows = rows.first(limit) if limit
@@ -102,6 +97,28 @@ module ObservableFeed
     puts "[#{source_key} #{write ? 'IMPORT' : 'PLAN'}] records=#{records.length} matched=#{report['matched_actors']} quarantined=#{report['quarantined']}"
   rescue JSON::ParserError, Psych::Exception => error
     raise "snapshot is malformed: #{error.message}"
+  end
+
+  # abuse.ch URLhaus recent endpoint returns `{ "query_status":"ok", "urls":[...]}`
+  # while MalwareBazaar/ThreatFox-style payloads use `"data":[...]`.
+  def records_from_payload(payload)
+    return Array(payload) if payload.is_a?(Array)
+    raise 'response must be a JSON object or array' unless payload.is_a?(Hash)
+
+    return payload['data'] if payload['data'].is_a?(Array)
+    return payload['urls'] if payload['urls'].is_a?(Array)
+
+    query_status = payload['query_status'].to_s.strip
+    status_label = query_status.empty? ? 'missing query_status' : "query_status=#{query_status}"
+    keys = payload.keys.map(&:to_s).sort.join(',')
+    data_class = if payload.key?('data')
+                   payload['data'].class.name
+                 elsif payload.key?('urls')
+                   "urls=#{payload['urls'].class.name}"
+                 else
+                   'absent'
+                 end
+    raise "non-array abuse.ch payload (#{status_label}; data=#{data_class}; keys=#{keys})"
   end
 
   private

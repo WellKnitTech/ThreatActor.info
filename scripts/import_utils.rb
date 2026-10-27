@@ -14,9 +14,9 @@ module ImportUtils
     AliasResolver.build_alias_index(actors)
   end
 
-  def find_match(candidate_name, candidate_aliases, index, mitre_id: nil, external_id: nil)
+  def find_match(candidate_name, candidate_aliases, index, mitre_id: nil, external_id: nil, actors: nil)
     AliasResolver.find_match_extended(candidate_name, candidate_aliases, index,
-                                      mitre_id: mitre_id, external_id: external_id)
+                                      mitre_id: mitre_id, external_id: external_id, actors: actors)
   end
 
   # dataset_urls: Hash like { 'enterprise' => url, ... } or a single URL string

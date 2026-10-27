@@ -205,7 +205,13 @@ class Unit42ThreatActorGroupsImporter
 
   def apply_updates(updates, manifest)
     updates.each do |update|
-      actor = YAML.safe_load(File.read(update[:data_path]), permitted_classes: [], aliases: true) || {}
+      data_path = update[:data_path].to_s
+      if data_path.empty? || !File.file?(data_path)
+        warn "Skipping Unit 42 update for #{update[:actor_name]}: missing actor data path #{data_path.inspect}"
+        next
+      end
+
+      actor = YAML.safe_load(File.read(data_path), permitted_classes: [], aliases: true) || {}
       actor['aliases'] = (Array(actor['aliases']) + update[:aliases]).uniq.sort
       actor['provenance'] ||= {}
       actor['provenance']['unit42_threat_actor_groups'] = {
@@ -216,7 +222,7 @@ class Unit42ThreatActorGroupsImporter
       }
       actor['source_name'] ||= SOURCE_NAME
       actor['source_attribution'] ||= SOURCE_ATTRIBUTION
-      File.write(update[:data_path], YAML.dump(actor))
+      File.write(data_path, YAML.dump(actor))
     end
   end
 

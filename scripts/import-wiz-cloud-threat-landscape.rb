@@ -217,7 +217,13 @@ class WizCloudThreatLandscapeImporter
 
   def apply_updates(matched, manifest)
     matched.each do |entry|
-      actor = YAML.safe_load(File.read(entry[:data_path]), permitted_classes: [], aliases: true) || {}
+      data_path = entry[:data_path].to_s
+      if data_path.empty? || !File.file?(data_path)
+        warn "Skipping Wiz update for #{entry[:actor_name]}: missing actor data path #{data_path.inspect}"
+        next
+      end
+
+      actor = YAML.safe_load(File.read(data_path), permitted_classes: [], aliases: true) || {}
       actor['provenance'] ||= {}
       actor['provenance']['wiz_cloud_threat_landscape'] = {
         'source_name' => SOURCE_NAME,
@@ -230,7 +236,7 @@ class WizCloudThreatLandscapeImporter
       actor['aliases'] = (Array(actor['aliases']) + entry[:aliases]).uniq.sort
       actor['source_name'] ||= SOURCE_NAME
       actor['source_attribution'] ||= SOURCE_ATTRIBUTION
-      File.write(entry[:data_path], YAML.dump(actor))
+      File.write(data_path, YAML.dump(actor))
     end
   end
 

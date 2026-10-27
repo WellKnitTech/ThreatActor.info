@@ -333,6 +333,7 @@ BODY
     groups = resolver.groups_using_software(stix_id).filter_map do |gid|
       m = group_slug_map[gid]
       next unless m
+      next if m['url'].to_s.strip.empty?
 
       { 'name' => m['name'], 'url' => m['url'], 'country' => nil, 'risk_level' => nil }
     end

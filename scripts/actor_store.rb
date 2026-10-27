@@ -53,7 +53,7 @@ module ActorStore
     analyst_notes
   ].freeze
 
-  TRANSIENT_FIELDS = %w[references].freeze
+  TRANSIENT_FIELDS = %w[references __data_path __page_path].freeze
 
   URI_FIELDS = %w[external_url mitre_url source_record_url source_license_url].freeze
 
@@ -63,15 +63,29 @@ module ActorStore
 
   def load_all
     if Dir.exist?(ACTORS_DIR)
-      actors = Dir.glob(File.join(ACTORS_DIR, '*.yml')).sort.map do |path|
-        safe_load_yaml_file(path)
-      end.compact
+      actors = Dir.glob(File.join(ACTORS_DIR, '*.yml')).sort.filter_map do |path|
+        actor = safe_load_yaml_file(path)
+        next unless actor.is_a?(Hash)
+
+        actor['__data_path'] = path
+        actor['__page_path'] = "_threat_actors#{actor['url']}.md" if actor['url'].to_s.strip != ''
+        actor
+      end
       return actors unless actors.empty?
     end
 
     return [] unless File.exist?(LEGACY_DATA_FILE)
 
-    Array(safe_load_yaml_file(LEGACY_DATA_FILE))
+    Array(safe_load_yaml_file(LEGACY_DATA_FILE)).each { |actor| attach_paths!(actor) if actor.is_a?(Hash) }
+  end
+
+  def attach_paths!(actor)
+    slug = slug_for(actor['url'])
+    return actor if slug.empty?
+
+    actor['__data_path'] ||= File.join(ACTORS_DIR, "#{slug}.yml")
+    actor['__page_path'] ||= "_threat_actors/#{slug}.md"
+    actor
   end
 
   def save_all(actors)
@@ -105,6 +119,7 @@ module ActorStore
   def serialize_actor(actor)
     normalized = ensure_aliases!(normalize_actor(actor))
     TRANSIENT_FIELDS.each { |field| normalized.delete(field) }
+    normalized.delete_if { |key, _| key.to_s.start_with?('__') }
     normalize_uri_fields!(normalized)
     lines = []
 

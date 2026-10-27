@@ -584,6 +584,10 @@ end
 def regenerate_outputs(metrics)
   run_command(['ruby', 'scripts/generate-pages.rb', '--force'], metrics: metrics, phase: 'regeneration')
   run_command(['ruby', 'scripts/generate-indexes.rb'], metrics: metrics, phase: 'regeneration')
+  # MITRE software pages can retain fallback /apt####/ actor URLs when group matching
+  # is ambiguous; rewrite to canonical actor paths (or drop) before content validation.
+  run_command(['ruby', 'scripts/repair-malware-actor-urls.rb', '--drop-unresolved'],
+              metrics: metrics, phase: 'regeneration')
   run_command(['ruby', 'scripts/validate-content.rb'], metrics: metrics, phase: 'regeneration')
 end
 

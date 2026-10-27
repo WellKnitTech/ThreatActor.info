@@ -134,6 +134,53 @@ class ObservableImportersTest < Minitest::Test
     end
   end
 
+  def test_urlhaus_fetch_accepts_urls_array_when_data_absent
+    Dir.mktmpdir do |dir|
+      body = {
+        'query_status' => 'ok',
+        'urls' => [
+          {
+            'id' => '99',
+            'url' => 'https://example.test/payload.exe',
+            'urlhaus_link' => 'https://urlhaus.abuse.ch/url/99/',
+            'threat' => 'malware_download',
+            'tags' => ['exe'],
+            'dateadded' => '2026-10-27 00:00:00'
+          }
+        ]
+      }.to_json
+      response = Net::HTTPOK.new('1.1', '200', 'OK')
+      response.define_singleton_method(:body) { body }
+      fake_http = Object.new
+      fake_http.define_singleton_method(:request) { |_request| response }
+      singleton = Net::HTTP.singleton_class
+      singleton.class_eval do
+        alias_method :__urlhaus_urls_test_start, :start
+        define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
+      end
+      UrlhausImporter.new.run(['fetch', '--output', dir])
+      manifest = YAML.safe_load(File.read(File.join(dir, 'manifest.yml')), permitted_classes: [], aliases: false)
+      assert_equal 1, manifest['record_count']
+      assert_equal 'ok', manifest['query_status']
+      payload = JSON.parse(File.read(File.join(dir, 'data.json')))
+      assert_equal [{'id' => '99', 'url' => 'https://example.test/payload.exe',
+                     'urlhaus_link' => 'https://urlhaus.abuse.ch/url/99/',
+                     'threat' => 'malware_download', 'tags' => ['exe'],
+                     'dateadded' => '2026-10-27 00:00:00'}], payload['urls']
+
+      report = File.join(dir, 'report.json')
+      UrlhausImporter.new.send(:process_snapshot, dir, report_path: report)
+      parsed = JSON.parse(File.read(report))
+      assert_equal 1, parsed['total_records']
+      assert_equal 1, parsed['records']
+    ensure
+      singleton.class_eval do
+        alias_method :start, :__urlhaus_urls_test_start
+        remove_method :__urlhaus_urls_test_start
+      end
+    end
+  end
+
   def test_malformed_snapshots_fail_closed
     [
       [MalwareBazaarImporter, File.join(ROOT, 'malwarebazaar', 'malformed.payload')],

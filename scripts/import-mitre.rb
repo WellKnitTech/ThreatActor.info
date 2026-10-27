@@ -9,6 +9,7 @@ require 'digest'
 require 'json'
 require 'net/http'
 require 'optparse'
+require 'set'
 require 'time'
 require 'uri'
 require 'yaml'
@@ -406,7 +407,8 @@ class MitreAttackImporter
                                                 dataset_url: dataset_urls['enterprise'])
 
       match = ImportUtils.find_match(incoming['name'], incoming['aliases'], alias_index,
-                                   mitre_id: incoming['mitre_id'], external_id: incoming['external_id'])
+                                   mitre_id: incoming['mitre_id'], external_id: incoming['external_id'],
+                                   actors: existing_actors)
 
       if match && match[:confidence] == :high
         next if @options[:new_only]
@@ -478,10 +480,23 @@ class MitreAttackImporter
     by_canonical_name = existing_actors.each_with_object({}) do |existing, memo|
       next unless existing.is_a?(Hash)
 
-      key = ImportUtils.canonical_key(existing['name'])
-      next if key.nil? || key.empty?
+      terms = [existing['name'], *Array(existing['aliases'])]
+      terms.each do |term|
+        key = ImportUtils.canonical_key(term)
+        next if key.nil? || key.empty?
 
-      memo[key] ||= existing
+        # Keep the first actor for a term; collisions are handled by find_match.
+        memo[key] ||= existing
+      end
+    end
+
+    known_urls = existing_actors.each_with_object(Set.new) do |existing, memo|
+      next unless existing.is_a?(Hash)
+
+      url = existing['url'].to_s.strip
+      next if url.empty?
+
+      memo << "#{url.sub(%r{/\z}, '')}/"
     end
 
     map = {}
@@ -491,7 +506,8 @@ class MitreAttackImporter
 
       stix_id = is['id']
       match = ImportUtils.find_match(actor['name'], actor['aliases'], alias_index,
-                                     mitre_id: actor['mitre_id'], external_id: actor['external_id'])
+                                     mitre_id: actor['mitre_id'], external_id: actor['external_id'],
+                                     actors: existing_actors)
       mitre_id_key = actor['mitre_id'].to_s.strip
       mitre_match = mitre_id_key.empty? ? nil : by_mitre_id[mitre_id_key]
       name_key = ImportUtils.canonical_key(actor['name'])
@@ -505,8 +521,18 @@ class MitreAttackImporter
                     name_match
                   end
 
-      url = canonical ? canonical['url'] : actor['url']
-      map[stix_id] = { 'name' => actor['name'], 'url' => url }
+      # Prefer a known curated actor URL. For unmatched / review-only groups, only
+      # emit the MITRE-derived /apt####/ path when that actor already exists so
+      # malware pages never gain dangling actor links.
+      display_name = (canonical && canonical['name']) || actor['name']
+      raw_url = canonical ? canonical['url'] : actor['url']
+      normalized = "#{raw_url.to_s.sub(%r{/\z}, '')}/"
+      url = if canonical || known_urls.include?(normalized)
+              normalized
+            end
+      entry = { 'name' => display_name }
+      entry['url'] = url if url
+      map[stix_id] = entry
     end
     map
   end
