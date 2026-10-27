@@ -3,6 +3,8 @@
 # Shared helpers for MITRE ATT&CK STIX import.
 # Source: https://github.com/mitre-attack/attack-stix-data
 
+require_relative '../lib/liquid_safe_text'
+
 module MitreCommon
   SOURCE_ATTRIBUTION = '© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.'.freeze
   RAW_BASE = 'https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master'.freeze
@@ -86,6 +88,7 @@ module MitreCommon
 
     out = desc.to_s.gsub(/\[([^\]]+)\]\([^)]+\)/, '\1')
     out = out.gsub(/&amp;/, '&').gsub(/&lt;/, '<').gsub(/&gt;/, '>').gsub(/&quot;/, '"')
+    out = LiquidSafeText.sanitize(out)
     out = "#{out[0..1997]}..." if out.length > 2000
     out
   end

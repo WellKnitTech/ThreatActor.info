@@ -12,6 +12,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'lib/liquid_safe_text'
 
 # Importer for MISP Galaxy threat actor data
 # Source: https://github.com/MISP/misp-galaxy
@@ -432,7 +433,7 @@ class MispGalaxyImporter
       name: name,
       record_key: record_key,
       aliases: aliases,
-      description: misp['description'] || '',
+      description: LiquidSafeText.sanitize(misp['description'] || ''),
       url: url,
       country: country,
       risk_level: risk_level,
@@ -886,11 +887,13 @@ class MispGalaxyImporter
   def create_page_file(candidate)
     filename = File.join(PAGE_DIR, "#{candidate[:url].gsub(/^\//, '')}.md")
 
+    safe_description = LiquidSafeText.sanitize(candidate[:description])
+
     front_matter = YAML.dump(
       'layout' => 'threat_actor',
       'title' => candidate[:name],
       'aliases' => candidate[:aliases],
-      'description' => candidate[:description],
+      'description' => safe_description,
       'permalink' => "#{candidate[:url]}/"
     ).sub(/\A---\n/, '')
 
@@ -899,7 +902,7 @@ class MispGalaxyImporter
 
       ## Introduction
 
-      #{candidate[:description]}
+      #{safe_description}
 
       ## Activities and Tactics
 

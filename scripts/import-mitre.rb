@@ -17,6 +17,7 @@ require 'yaml'
 require_relative 'actor_store'
 require_relative 'front_matter_yaml'
 require_relative 'import_utils'
+require_relative 'lib/liquid_safe_text'
 require_relative 'mitre/mitre_common'
 require_relative 'mitre/stix_loader'
 require_relative 'mitre/relationship_resolver'
@@ -477,16 +478,27 @@ class MitreAttackImporter
       end
     end
 
-    by_canonical_name = existing_actors.each_with_object({}) do |existing, memo|
+    # Index canonical name/alias keys, but drop keys that collide across actors so
+    # an ambiguous alias cannot be selected via the name_match fallback when
+    # find_match already returned :ambiguous (or would have, for that shared term).
+    collision_keys = Set.new
+    by_canonical_name = {}
+    existing_actors.each do |existing|
       next unless existing.is_a?(Hash)
 
       terms = [existing['name'], *Array(existing['aliases'])]
       terms.each do |term|
         key = ImportUtils.canonical_key(term)
         next if key.nil? || key.empty?
+        next if collision_keys.include?(key)
 
-        # Keep the first actor for a term; collisions are handled by find_match.
-        memo[key] ||= existing
+        if by_canonical_name.key?(key) && by_canonical_name[key] != existing
+          by_canonical_name.delete(key)
+          collision_keys << key
+          next
+        end
+
+        by_canonical_name[key] ||= existing
       end
     end
 
@@ -515,6 +527,9 @@ class MitreAttackImporter
 
       canonical = if match && match[:confidence] == :high
                     existing_actors[match[:position]]
+                  elsif match && match[:confidence] == :ambiguous
+                    # Do not fall through to name_match for ambiguous alias hits.
+                    mitre_match
                   elsif mitre_match
                     mitre_match
                   elsif name_match
@@ -647,7 +662,7 @@ class MitreAttackImporter
     yaml_lines << 'layout: threat_actor'
     yaml_lines << FrontMatterYaml.json_scalar_line('title', actor['name'])
     yaml_lines << FrontMatterYaml.json_array_line('aliases', actor['aliases'] || [])
-    desc_slice = actor['description'].to_s.gsub("\n", ' ')[0..200]
+    desc_slice = LiquidSafeText.sanitize(actor['description'].to_s).gsub("\n", ' ')[0..200]
     yaml_lines << FrontMatterYaml.json_scalar_line('description', desc_slice)
     permalink = actor['url'].to_s.gsub(%r{/\z}, '')
     yaml_lines << "permalink: #{permalink}/"

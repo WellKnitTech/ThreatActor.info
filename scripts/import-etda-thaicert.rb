@@ -13,6 +13,7 @@ require 'time'
 require 'uri'
 require 'yaml'
 require_relative 'actor_store'
+require_relative 'lib/liquid_safe_text'
 
 class EtdaThaicertImporter
   class UnsupportedResponseFormatError < StandardError; end
@@ -1003,14 +1004,16 @@ class EtdaThaicertImporter
   end
 
   def sanitize_text(value)
-    value.to_s
-         .gsub(/<br\s*\/?>/i, ' ')
-         .gsub(/<[^>]*>/, ' ')
-         .gsub(/&quot;/, '"')
-         .gsub(/&#39;/, "'")
-         .gsub(/&amp;/, '&')
-         .gsub(/\s+/, ' ')
-         .strip
+    LiquidSafeText.sanitize(
+      value.to_s
+           .gsub(/<br\s*\/?>/i, ' ')
+           .gsub(/<[^>]*>/, ' ')
+           .gsub(/&quot;/, '"')
+           .gsub(/&#39;/, "'")
+           .gsub(/&amp;/, '&')
+           .gsub(/\s+/, ' ')
+           .strip
+    )
   end
 
   def sanitize_url(value)

@@ -27,6 +27,41 @@ collections:
     output: true
     permalink: /mitigations/:path/
 
+# Collection markdown bodies are generated prose (importers / generate-pages), not
+# Liquid templates. Disable Liquid rendering so stray {{...}} / {%...%} from upstream
+# intel sources cannot break `jekyll build --safe`. Layouts still render with Liquid.
+defaults:
+  - scope:
+      path: ""
+      type: threat_actors
+    values:
+      render_with_liquid: false
+  - scope:
+      path: ""
+      type: malware
+    values:
+      render_with_liquid: false
+  - scope:
+      path: ""
+      type: techniques
+    values:
+      render_with_liquid: false
+  - scope:
+      path: ""
+      type: tactics
+    values:
+      render_with_liquid: false
+  - scope:
+      path: ""
+      type: campaigns
+    values:
+      render_with_liquid: false
+  - scope:
+      path: ""
+      type: mitigations
+    values:
+      render_with_liquid: false
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
