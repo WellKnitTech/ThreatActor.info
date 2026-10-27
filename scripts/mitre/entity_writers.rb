@@ -150,7 +150,10 @@ class MitreEntityWriters
       meta = group_slug_map[gid]
       next unless meta
 
-      { 'name' => meta['name'], 'url' => meta['url'] }
+      entry = { 'name' => meta['name'] }
+      url = meta['url'].to_s.strip
+      entry['url'] = url unless url.empty?
+      entry
     end
 
     fm = {
@@ -196,7 +199,12 @@ BODY
     unless groups.empty?
       body << "### Groups\n\n"
       groups.sort_by { |g| g['name'].to_s.downcase }.each do |g|
-        body << "- [#{g['name']}](#{g['url']})\n"
+        url = g['url'].to_s.strip
+        body << if url.empty?
+                  "- #{g['name']}\n"
+                else
+                  "- [#{g['name']}](#{url})\n"
+                end
       end
       body << "\n"
     end
@@ -213,7 +221,9 @@ BODY
   end
 
   def remove_legacy_technique_page(eid)
+    current_path = File.join(DIRS[:techniques], "#{technique_filename(eid)}.md")
     legacy_path = File.join(DIRS[:techniques], "#{eid.gsub('.', '-').downcase}.md")
+    return if File.expand_path(legacy_path) == File.expand_path(current_path)
 
     File.delete(legacy_path) if File.exist?(legacy_path)
   end

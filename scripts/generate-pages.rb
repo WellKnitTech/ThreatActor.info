@@ -21,6 +21,7 @@ require 'digest'
 require_relative 'actor_store'
 require_relative 'front_matter_yaml'
 require_relative 'ioc_yaml_reader'
+require_relative 'lib/liquid_safe_text'
 
 PAGE_DIR = '_threat_actors'
 
@@ -96,7 +97,7 @@ def build_front_matter(actor)
   lines << FrontMatterYaml.json_array_line('aliases', actor['aliases'] || [])
 
   if actor['description']
-    slice = actor['description'].gsub("\n", ' ')[0..200]
+    slice = sanitize_description(actor['description']).gsub("\n", ' ')[0..200]
     lines << FrontMatterYaml.json_scalar_line('description', slice)
   end
 
@@ -935,7 +936,9 @@ sections << "## References"
     sections << ""
   end
   
-  sections.join("\n")
+  # Collection markdown bodies must not contain Liquid delimiters; Jekyll renders
+  # them with Liquid by default and ETDA-style {{Actor, Alias}} markers crash builds.
+  LiquidSafeText.sanitize(sections.join("\n"))
 end
 
 def build_deterministic_narrative(actor)
@@ -953,10 +956,12 @@ def build_deterministic_narrative(actor)
 end
 
 def sanitize_description(value)
-  value.to_s
-       .gsub(/\s+/, ' ')
-       .gsub(/\(Citation:\s*[^)]+\)/i, '')
-       .strip
+  LiquidSafeText.sanitize(
+    value.to_s
+         .gsub(/\s+/, ' ')
+         .gsub(/\(Citation:\s*[^)]+\)/i, '')
+         .strip
+  )
 end
 
 def build_metadata_fallback_description(actor)

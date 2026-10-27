@@ -5,6 +5,7 @@ require 'set'
 require 'yaml'
 
 require_relative 'ioc_yaml_reader'
+require_relative 'lib/liquid_safe_text'
 
 class ContentValidator
   REQUIRED_ACTOR_FIELDS = %w[name aliases description url].freeze
@@ -223,6 +224,16 @@ class ContentValidator
   FILENAME_PATTERN = /\b[\w.-]+\.[A-Za-z0-9]{2,12}\b/.freeze
   CVE_PATTERN = /\bCVE-\d{4}-\d{4,7}\b/i.freeze
   ATTACK_TECHNIQUE_PATTERN = /\bT\d{4}(?:\.\d{3})?\b/i.freeze
+  # Collection markdown bodies must not contain raw Liquid delimiters; Jekyll will
+  # attempt to evaluate them during `jekyll build --safe` and can raise SyntaxError.
+  LIQUID_COLLECTION_DIRS = %w[
+    _threat_actors
+    _malware
+    _techniques
+    _tactics
+    _campaigns
+    _mitigations
+  ].freeze
 
   def initialize
     @errors = []
@@ -254,6 +265,7 @@ class ContentValidator
     validate_malware_actor_links
     validate_threat_actor_malware_links
     validate_duplicate_ioc_sections
+    validate_collection_liquid_delimiters
 
     print_results
     exit_with_code
@@ -975,6 +987,35 @@ class ContentValidator
       warning = "IOC #{normalized_value.inspect} (#{type}) appears on multiple pages: #{sorted_paths.join(', ')}"
       sorted_paths.each do |page_path|
         add_warning(page_path, warning)
+      end
+    end
+  end
+
+  def validate_collection_liquid_delimiters
+    puts 'Checking collection markdown bodies for raw Liquid delimiters...'
+
+    LIQUID_COLLECTION_DIRS.each do |dir|
+      next unless Dir.exist?(dir)
+
+      Dir.glob(File.join(dir, '*.md')).sort.each do |path|
+        begin
+          page = parse_page(path)
+        rescue StandardError => e
+          add_error(path, "Page parsing error: #{e.message}")
+          next
+        end
+
+        body = page[:body].to_s
+        next unless LiquidSafeText.contains_liquid_delimiters?(body)
+
+        delimiters = []
+        delimiters << '{{' if body.include?('{{')
+        delimiters << '{%' if body.include?('{%')
+        add_error(
+          path,
+          "Collection markdown body contains raw Liquid delimiter(s) (#{delimiters.join(', ')}); " \
+          'sanitize imported prose or unwrap ETDA-style {{Actor, Alias}} markers before jekyll build'
+        )
       end
     end
   end

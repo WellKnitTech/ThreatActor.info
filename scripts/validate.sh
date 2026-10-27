@@ -69,6 +69,8 @@ bundle exec ruby test/actor_store_data_path_test.rb
 bundle exec ruby test/malware_actor_urls_test.rb
 bundle exec ruby test/import_dragos_unit42_data_path_test.rb
 bundle exec ruby test/verify_weekly_data_workflow_test.rb
+bundle exec ruby test/liquid_safe_text_test.rb
+bundle exec ruby test/import_mitre_group_slug_map_test.rb
 
 echo "Checking for removed persona content..."
 ruby scripts/check-persona-content.rb
