@@ -12,6 +12,7 @@ See also: [Importers](importers.md), [Data flows](data-flows.md), [Supersession 
    ```bash
    ruby scripts/generate-pages.rb --force
    ruby scripts/generate-indexes.rb
+   ruby scripts/repair-malware-actor-urls.rb --drop-unresolved
    ruby scripts/validate-content.rb
    ```
 
@@ -28,7 +29,7 @@ See also: [Importers](importers.md), [Data flows](data-flows.md), [Supersession 
    - `_data/generated/*` and `api/*` (and IOC shards under `_data/generated/iocs_by_type/` when present)
    - `_malware/` when MITRE or other importers touch collection pages
 
-   [`scripts/import-automated-sources.rb`](../scripts/import-automated-sources.rb) with `--apply` already runs `generate-pages --force`, `generate-indexes`, and `validate-content` before opening a PR; the PR should include these paths when you merge automated import branches.
+   [`scripts/import-automated-sources.rb`](../scripts/import-automated-sources.rb) with `--apply` already runs `generate-pages --force`, `generate-indexes`, `repair-malware-actor-urls --drop-unresolved`, and `validate-content` before opening a PR; the PR should include these paths when you merge automated import branches.
 
 ## `--force` vs local skips
 

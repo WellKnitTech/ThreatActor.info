@@ -64,6 +64,10 @@ bundle exec ruby scripts/test-import-health.rb
 bundle exec ruby test/validate_import_plans_test.rb
 bundle exec ruby test/plan_anomaly_quarantine_test.rb
 bundle exec ruby scripts/test-observable-importers.rb
+bundle exec ruby test/alias_resolver_disambiguation_test.rb
+bundle exec ruby test/actor_store_data_path_test.rb
+bundle exec ruby test/malware_actor_urls_test.rb
+bundle exec ruby test/import_dragos_unit42_data_path_test.rb
 bundle exec ruby test/verify_weekly_data_workflow_test.rb
 
 echo "Checking for removed persona content..."
@@ -73,6 +77,7 @@ echo "Running page and index generators..."
 echo "(Indexes are regenerated here so _data/generated/ and api/ stay aligned before validation and build.)"
 ruby scripts/generate-pages.rb --force
 ruby scripts/generate-indexes.rb
+ruby scripts/repair-malware-actor-urls.rb --drop-unresolved
 
 echo "Running JSON Schema validator..."
 ruby scripts/validate-json-schemas.rb
