@@ -522,10 +522,63 @@ def import_source(source, snapshot, options, metrics)
   end
 end
 
-def validate_plan_reports(options, metrics)
-  command = ['ruby', 'scripts/validate-import-plans.rb', '--report-dir', options[:report_dir], '--config', 'data/imports/plan_thresholds.yml']
-  command << '--allow-anomalies' if options[:allow_plan_anomalies]
+def write_quarantine_report(options, source_key, issues, summary)
+  FileUtils.mkdir_p(options[:report_dir])
+  path = File.join(options[:report_dir], "quarantine-#{source_key}-report.json")
+  payload = {
+    'source' => source_key,
+    'status' => 'quarantined',
+    'quarantined' => true,
+    'summary' => summary.to_s,
+    'issues' => Array(issues),
+    'diagnostic' => Array(issues).join('; ')
+  }
+  File.write(path, JSON.pretty_generate(payload) + "\n")
+  path
+end
+
+def quarantine_plan_anomalies!(options, failed_sources)
+  anomalies_path = File.join(options[:report_dir], 'plan-anomalies.json')
+  return [] unless File.file?(anomalies_path)
+
+  payload = JSON.parse(File.read(anomalies_path))
+  anomalies = Array(payload.is_a?(Hash) ? payload['anomalies'] : payload)
+  quarantined = []
+  anomalies.each do |item|
+    next unless item.is_a?(Hash)
+
+    source_key = item['source'].to_s
+    next if source_key.empty?
+
+    failed_sources << source_key
+    write_quarantine_report(options, source_key, item['issues'], item['summary'])
+    plan_glob = File.join(options[:report_dir], "plan-#{source_key}*.json")
+    Dir[plan_glob].each { |path| FileUtils.rm_f(path) }
+    quarantined << source_key
+    warn "Quarantining #{source_key} due to plan anomalies: #{Array(item['issues']).join('; ')}"
+  end
+  quarantined
+end
+
+def validate_plan_reports(options, metrics, failed_sources:)
+  anomalies_path = File.join(options[:report_dir], 'plan-anomalies.json')
+  command = [
+    'ruby', 'scripts/validate-import-plans.rb',
+    '--report-dir', options[:report_dir],
+    '--config', 'data/imports/plan_thresholds.yml',
+    '--anomalies-json', anomalies_path
+  ]
+  # Weekly/scheduled path always continues after threshold anomalies so healthy
+  # sources can still import. Anomalous sources are quarantined below unless the
+  # operator explicitly opts into applying them with --allow-plan-anomalies.
+  command << '--allow-anomalies'
   run_command(command, metrics: metrics, phase: 'validation')
+  return if options[:allow_plan_anomalies]
+
+  quarantined = quarantine_plan_anomalies!(options, failed_sources)
+  return if quarantined.empty?
+
+  warn "Quarantined #{quarantined.length} source(s) with plan anomalies; continuing with healthy sources."
 end
 
 def regenerate_outputs(metrics)
@@ -602,9 +655,10 @@ end
 # report shapes (e.g. ransomlook's old array reports with normal object summaries).
 if options[:plan] || options[:apply]
   FileUtils.mkdir_p(options[:report_dir])
-  Dir[File.join(options[:report_dir], '{plan,import,degraded}-*.json')].each do |f|
+  Dir[File.join(options[:report_dir], '{plan,import,degraded,quarantine}-*.json')].each do |f|
     FileUtils.rm_f(f)
   end
+  FileUtils.rm_f(File.join(options[:report_dir], 'plan-anomalies.json'))
 end
 
 selected = selected_sources(options)
@@ -660,7 +714,7 @@ if can_proceed && options[:apply] && options[:plan]
 
     FileUtils.rm_f(report_path(options, source, 'plan'))
   end
-  validate_plan_reports(options, metrics)
+  validate_plan_reports(options, metrics, failed_sources: failed_sources)
 end
 
 if can_proceed && options[:apply]

@@ -61,6 +61,10 @@ echo "Running import deadline and soft-fail regression tests..."
 bundle exec ruby test/import_deadline_phases_test.rb
 bundle exec ruby test/bounded_source_runner_critical_test.rb
 bundle exec ruby scripts/test-import-health.rb
+bundle exec ruby test/validate_import_plans_test.rb
+bundle exec ruby test/plan_anomaly_quarantine_test.rb
+bundle exec ruby scripts/test-observable-importers.rb
+bundle exec ruby test/verify_weekly_data_workflow_test.rb
 
 echo "Checking for removed persona content..."
 ruby scripts/check-persona-content.rb

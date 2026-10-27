@@ -17,6 +17,11 @@ on:
         default: all
         type: choice
         options: [all, fetch, plan, import]
+      allow_anomalies:
+        description: 'Apply plan-threshold anomalous sources instead of quarantining them'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -30,4 +35,5 @@ jobs:
     with:
       source: ${{ inputs.source || '' }}
       phase: ${{ inputs.phase || 'all' }}
+      allow_anomalies: ${{ inputs.allow_anomalies || false }}
     secrets: inherit

@@ -123,7 +123,9 @@ class ObservableImportersTest < Minitest::Test
         define_method(:start) { |_host, _port, **_kwargs, &block| block.call(fake_http) }
       end
       error = assert_raises(RuntimeError) { UrlhausImporter.new.run(['fetch', '--output', dir]) }
-      assert_includes error.message, 'response data must be an array'
+      assert_match(/non-array abuse\.ch payload/, error.message)
+      assert_match(/query_status=ok/, error.message)
+      assert_match(/data=absent/, error.message)
     ensure
       singleton.class_eval do
         alias_method :start, :__urlhaus_shape_test_start

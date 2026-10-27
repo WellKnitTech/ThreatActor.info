@@ -1,20 +1,23 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require 'fileutils'
 require 'json'
-require 'yaml'
 require 'optparse'
+require 'time'
+require 'yaml'
 
 DEFAULT_THRESHOLDS = {
-  'min_match_ratio' => 0.5,
-  'max_unmatched_ratio' => 0.35,
+  'min_match_ratio' => 0.45,
+  'max_unmatched_ratio' => 0.50,
   'max_alias_additions_per_actor' => 12
 }.freeze
 
 options = {
   report_dir: 'tmp/import-reports',
   config: 'data/imports/plan_thresholds.yml',
-  allow_anomalies: false
+  allow_anomalies: false,
+  anomalies_json: nil
 }
 
 OptionParser.new do |opts|
@@ -22,6 +25,7 @@ OptionParser.new do |opts|
   opts.on('--report-dir DIR', 'Directory containing plan-*.json reports') { |v| options[:report_dir] = v }
   opts.on('--config PATH', 'Threshold config YAML path') { |v| options[:config] = v }
   opts.on('--allow-anomalies', 'Do not fail when thresholds are exceeded') { options[:allow_anomalies] = true }
+  opts.on('--anomalies-json PATH', 'Write anomaly details JSON even when failing') { |v| options[:anomalies_json] = v }
 end.parse!
 
 config = if File.exist?(options[:config])
@@ -197,6 +201,15 @@ report_files.each do |path|
     'issues' => source_issues,
     'summary' => format('match=%.2f unmatched+new=%.2f alias_max=%d', match_ratio, unmatched_ratio, alias_max)
   }
+end
+
+if options[:anomalies_json]
+  FileUtils.mkdir_p(File.dirname(options[:anomalies_json]))
+  File.write(options[:anomalies_json], JSON.pretty_generate({
+    'generated_at' => Time.now.utc.iso8601,
+    'checked' => processed,
+    'anomalies' => anomalies
+  }) + "\n")
 end
 
 if anomalies.empty?

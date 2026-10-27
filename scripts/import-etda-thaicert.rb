@@ -225,10 +225,51 @@ class EtdaThaicertImporter
                     @options[:snapshot]
                   end
     payload = JSON.parse(File.read(groups_path))
+    # Fetch writes already-normalized records (string keys after JSON round-trip).
+    # Re-running the raw-source normalizer would drop every row because those
+    # records use display_name/raw_name instead of upstream name fields.
+    restored = restore_normalized_records(payload)
+    return restored unless restored.empty?
+
     normalize_source_payload(payload)
   rescue Errno::ENOENT
     warn "Snapshot file not found: #{groups_path}"
     exit 1
+  end
+
+  def restore_normalized_records(payload)
+    rows = payload.is_a?(Array) ? payload : []
+    return [] if rows.empty?
+    return [] unless rows.all? { |row| row.is_a?(Hash) && (row.key?('canonical_key') || row.key?('display_name') || row.key?('raw_name')) }
+
+    rows.filter_map do |row|
+      record = {
+        raw_name: sanitize_text(row['raw_name'] || row['display_name'] || row['name']),
+        display_name: sanitize_text(row['display_name'] || row['raw_name'] || row['name']),
+        canonical_key: sanitize_text(row['canonical_key']).empty? ? nil : sanitize_text(row['canonical_key']),
+        aliases: normalize_string_array(row['aliases']),
+        description: sanitize_text(row['description']),
+        url: sanitize_text(row['url']),
+        country: sanitize_text(row['country']),
+        sector_focus: normalize_string_array(row['sector_focus']),
+        operations: normalize_string_array(row['operations']),
+        malware: normalize_string_array(row['malware']),
+        first_seen: row['first_seen'],
+        last_activity: row['last_activity'],
+        source_record_id: row['source_record_id'].to_s,
+        source_record_url: sanitize_url(row['source_record_url']),
+        source_dataset_url: row['source_dataset_url'] || @options[:source_url],
+        source_retrieved_at: row['source_retrieved_at'] || Time.now.utc.iso8601,
+        mitre_group_ids: Array(row['mitre_group_ids']),
+        mitre_technique_ids: Array(row['mitre_technique_ids']),
+        source_transforms: Array(row['source_transforms'])
+      }
+      record[:canonical_key] ||= normalize_key(record[:display_name])
+      next if record[:canonical_key].to_s.empty? || record[:display_name].to_s.empty?
+      next if @overrides[:excluded_group_keys].include?(record[:canonical_key])
+
+      record
+    end
   end
 
   def filter_records(records)
@@ -615,7 +656,7 @@ class EtdaThaicertImporter
   end
 
   def build_report(evaluation)
-    {
+    report = {
       timestamp: Time.now.utc.iso8601,
       source: SOURCE_NAME,
       total_candidates: evaluation.length,
@@ -635,6 +676,12 @@ class EtdaThaicertImporter
         }
       end
     }
+    if evaluation.empty?
+      report[:status] = 'source_empty'
+      report[:source_empty] = true
+      report[:empty_reason] = 'ETDA/ThaiCERT snapshot contained no normalized group records'
+    end
+    report
   end
 
   def print_report(evaluation)
@@ -806,9 +853,12 @@ class EtdaThaicertImporter
   def normalize_record(record)
     return nil unless record.is_a?(Hash)
 
-    # Handle both direct format and MISP galaxy format (value/description/meta)
-    raw_name = first_non_empty(record['name'], record['group_name'], record['group'], record['title'], record['actor'], record['value'])
-    raw_name = first_non_empty(record[:name], record[:group_name], record[:group], record[:title], record[:actor], record[:value]) if raw_name.nil?
+    # Handle both direct format and MISP galaxy format (value/description/meta).
+    # Also accept already-normalized snapshot fields (display_name/raw_name).
+    raw_name = first_non_empty(record['name'], record['group_name'], record['group'], record['title'], record['actor'], record['value'],
+                               record['display_name'], record['raw_name'])
+    raw_name = first_non_empty(record[:name], record[:group_name], record[:group], record[:title], record[:actor], record[:value],
+                               record[:display_name], record[:raw_name]) if raw_name.nil?
     raw_name = sanitize_text(raw_name)
     return nil if raw_name.empty?
 

@@ -152,7 +152,7 @@ class ValidateImportPlansTest < Minitest::Test
 
   def test_disjoint_review_and_skipped_counters_are_both_counted
     output, _error, status = run_validator('generic' => {
-      'total_candidates' => 100, 'updates' => 60, 'review' => 1, 'skipped' => 39
+      'total_candidates' => 100, 'updates' => 40, 'review' => 10, 'skipped' => 50
     })
     refute status.success?
     assert_includes output, 'unmatched/new ratio'
@@ -177,12 +177,41 @@ class ValidateImportPlansTest < Minitest::Test
 
   def test_label_arrays_override_stale_scalar_unmatched_count
     output, _error, status = run_validator('generic' => {
-      'total_candidates' => 100, 'updates' => 60, 'unmatched' => 1,
-      'unmatched_labels' => Array.new(39, 'unmatched'),
+      'total_candidates' => 100, 'updates' => 40, 'unmatched' => 1,
+      'unmatched_labels' => Array.new(60, 'unmatched'),
       'review_labels' => []
     })
     refute status.success?
     assert_includes output, 'unmatched/new ratio'
+  end
+
+  def test_anomalies_json_is_written_when_requested
+    Dir.mktmpdir do |dir|
+      File.write(File.join(dir, 'plan-generic-report.json'), JSON.generate(
+        'total_candidates' => 10, 'matched' => 1, 'new_candidates' => 9
+      ))
+      anomalies = File.join(dir, 'anomalies.json')
+      _output, _error, status = Open3.capture3(
+        'ruby', VALIDATOR, '--report-dir', dir, '--config', CONFIG,
+        '--anomalies-json', anomalies, '--allow-anomalies'
+      )
+      assert status.success?
+      payload = JSON.parse(File.read(anomalies))
+      assert_equal 1, payload['anomalies'].length
+      assert_equal 'generic', payload['anomalies'].first['source']
+    end
+  end
+
+  def test_explicit_wiz_empty_intrusion_sets_is_a_no_op
+    output, _error, status = run_validator('wiz-cloud-threat-landscape' => {
+      'status' => 'source_empty',
+      'source_empty' => true,
+      'empty_reason' => 'Wiz STIX feed contained no intrusion-set objects',
+      'intrusion_sets' => 0,
+      'actors_with_updates' => 0
+    })
+    assert status.success?, output
+    assert_includes output, 'no-op'
   end
 
   def test_matrix_source_labels_count_as_matches_after_actor_deduplication

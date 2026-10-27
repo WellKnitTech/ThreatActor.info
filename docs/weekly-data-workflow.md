@@ -45,21 +45,25 @@ log, and failure diagnostics. The artifact is uploaded even when a fetch,
 plan, validation, or build step fails. The summary is also written to the job
 summary and used as the pull-request body.
 
-`workflow_dispatch` accepts a source key and a phase (`all`, `fetch`, `plan`,
-or `import`). `fetch` creates or refreshes a snapshot, `plan` evaluates an
-existing snapshot without applying it, and `import` applies an existing plan
-without fetching. Failed sources retry at most three times at source scope
-with a fresh per-source deadline for each phase (fetch/plan vs import);
-authentication, licensing, schema, and validation failures are never retried,
-and the workflow does not replay the full source universe. HTTP 429 waits for
-a capped `Retry-After` before retrying that source only. In particular, the
-Malpedia importer spaces requests by 2 seconds, stops at the first 429, and
-the scheduled runner fetches Malpedia without per-actor detail payloads so the
-source stays inside the deadline.
+`workflow_dispatch` accepts a source key, a phase (`all`, `fetch`, `plan`,
+or `import`), and an optional `allow_anomalies` boolean. `fetch` creates or
+refreshes a snapshot, `plan` evaluates an existing snapshot without applying
+it, and `import` applies an existing plan without fetching. Failed sources
+retry at most three times at source scope with a fresh per-source deadline for
+each phase (fetch/plan vs import); authentication, licensing, schema, and
+validation failures are never retried, and the workflow does not replay the
+full source universe. HTTP 429 waits for a capped `Retry-After` before
+retrying that source only. In particular, the Malpedia importer spaces
+requests by 2 seconds, stops at the first 429, and the scheduled runner
+fetches Malpedia without per-actor detail payloads so the source stays inside
+the deadline.
 
-MITRE ATT&CK is the only critical automated source: its failure fails the run.
-Other enrichment sources soft-fail as `degraded`, are omitted from apply, and
-do not block validation or the weekly PR for the sources that succeeded. The
-workflow does not use Actions `continue-on-error`, and it never passes
-`--allow-plan-anomalies`; quarantined or anomalous plans therefore remain
-diagnostic-only.
+MITRE ATT&CK is the only critical automated source: its fetch/plan/import
+failure fails the run. Other enrichment sources soft-fail as `degraded`, are
+omitted from apply, and do not block validation or the weekly PR for the
+sources that succeeded. Plan-threshold anomalies and empty-report shape
+failures quarantine the affected source and continue importing healthy
+sources; they no longer abort the entire weekly run. The workflow does not
+use Actions `continue-on-error`. Scheduled runs never apply anomalous plans;
+set `allow_anomalies=true` on a manual dispatch only when an operator
+intentionally wants those sources applied anyway.
