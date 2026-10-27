@@ -194,7 +194,24 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet; then
+          # Include generated MITRE collections from import/regenerate; detect
+          # both tracked edits and new untracked files (git diff alone misses
+          # untracked paths). tmp/ reports stay artifact-only and must never
+          # be staged because tmp/ is gitignored.
+          stage_paths=(
+            _data/actors
+            _threat_actors
+            _data/generated
+            _malware
+            api
+            data/imports
+            _campaigns
+            _techniques
+            _tactics
+            _mitigations
+          )
+
+          if [[ -z "$(git status --porcelain -- "${stage_paths[@]}")" ]]; then
             echo "No weekly data changes detected."
             exit 0
           fi
@@ -203,7 +220,25 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add _data/actors _threat_actors _data/generated _malware api data/imports tmp/source-delta-report.json
+
+          add_paths=()
+          for path in "${stage_paths[@]}"; do
+            [[ -e "$path" ]] || continue
+            if git check-ignore -q "$path"; then
+              echo "Refusing to stage gitignored path: $path" >&2
+              exit 1
+            fi
+            add_paths+=("$path")
+          done
+          if [[ ${#add_paths[@]} -eq 0 ]]; then
+            echo "No stageable weekly data paths found."
+            exit 0
+          fi
+          git add -- "${add_paths[@]}"
+          if git diff --cached --quiet; then
+            echo "No stageable weekly data changes detected."
+            exit 0
+          fi
           git commit -m "Weekly threat data refresh"
           git push -u origin "$branch"
           gh pr create \
@@ -213,4 +248,7 @@ jobs:
             --body-file tmp/import-health.md
 
           # Queue normal protected auto-merge; never bypass branch rules.
-          gh pr merge "$branch" --auto --squash --delete-branch
+          # Soft-fail when the repository has not enabled auto-merge or when
+          # protection requirements leave the PR open for normal review.
+          gh pr merge "$branch" --auto --squash --delete-branch || \
+            echo "Auto-merge was not queued; leaving pull request open for normal review."
