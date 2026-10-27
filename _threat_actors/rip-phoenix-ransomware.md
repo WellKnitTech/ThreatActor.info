@@ -30,3 +30,13 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento](https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html)
+  The Hacker News - 2026-10-26T
+- [Rising Borrowing Costs Shouldn’t Delay Your Security: Meet Firewall-as-a-Subscription](https://blog.checkpoint.com/security/rising-borrowing-costs-shouldnt-delay-your-security-meet-firewall-as-a-subscription/)
+  Check Point - 2026-10-26T
+- [The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It](https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/)
+  Wired - 2026-10-26T
+

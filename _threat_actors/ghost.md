@@ -35,3 +35,9 @@ aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began at
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [WIRED Ghost Stories](https://www.wired.com/ghost-stories/)
+  Wired - 2026-10-26T
+

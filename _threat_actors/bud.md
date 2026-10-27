@@ -30,3 +30,9 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Budgets Are Stalling Firewall Deals. Here’s How Partners Can Get Them Moving Again](https://blog.checkpoint.com/security/budgets-are-stalling-firewall-deals-heres-how-partners-can-get-them-moving-again/)
+  Check Point - 2026-10-26T
+

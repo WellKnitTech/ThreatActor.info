@@ -30,9 +30,3 @@ Ransomware has GUI
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Hyve Smart Package Locker Review: Protecting Your Holiday Deliveries](https://www.wired.com/review/hyve-smart-package-locker/)
-  Wired - 2026-10-25T
-

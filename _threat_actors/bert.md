@@ -37,9 +37,3 @@ BERT ransomware (also tracked as Water Pombero) first emerged in April 2025, rap
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead](https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/)
-  TechCrunch - 2026-10-25T
-
