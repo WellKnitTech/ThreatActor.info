@@ -20,5 +20,8 @@ abort 'runner does not mark mitre-attack as critical' unless runner.match?(/key:
 abort 'runner does not soft-isolate non-critical failures' unless runner.include?('soft_failures') && runner.include?('write_degraded_report')
 abort 'runner still fetches Malpedia details on the scheduled path' unless runner.match?(/key:\s*'malpedia'[\s\S]*?fetch_args:\s*%w\[--no-details\]/)
 abort 'runner does not skip urlhaus without an abuse.ch Auth-Key' unless runner.include?("%w[malwarebazaar urlhaus]")
+abort 'runner does not quarantine plan anomalies by default' unless runner.include?('quarantine_plan_anomalies!') && runner.include?('write_quarantine_report')
+abort 'runner does not keep --allow-plan-anomalies as an explicit apply override' unless runner.include?('allow_plan_anomalies')
+abort 'pipeline does not expose allow_anomalies dispatch gating' unless pipeline.include?('ALLOW_PLAN_ANOMALIES') && pipeline.include?('--allow-plan-anomalies')
 
 puts 'automated import runner contract checks passed'

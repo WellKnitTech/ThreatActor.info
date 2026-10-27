@@ -44,7 +44,15 @@ failures << "workflow must upload performance metrics" unless pipeline.match?(/t
 failures << "workflow must write standardized evidence before upload" unless pipeline.match?(/Write standardized import evidence/) && pipeline.match?(/write-import-evidence\.rb tmp\/import-evidence\.json/) && pipeline.match?(/job\.status == 'failure'/) && pipeline.match?(/tmp\/(?:cache-manifest|performance-metrics)\.json/)
 failures << "workflow artifacts must fail when required evidence is absent" unless pipeline.match?(/if-no-files-found: error/) && pipeline.match?(/retention-days: 90/)
 failures << "workflow must validate before opening the pull request" unless pipeline.index("- name: Validate JSON schemas") && pipeline.index("- name: Open weekly data pull request") && pipeline.index("- name: Validate JSON schemas") < pipeline.index("- name: Open weekly data pull request")
-failures << "workflow must not allow quarantined/anomalous plans to be applied" if combined.match?(/--allow-plan-anomalies/)
+# Scheduled path must quarantine anomalous plans by default. A manual
+# workflow_dispatch may opt into --allow-plan-anomalies only when gated by the
+# allow_anomalies input; never pass the flag unconditionally in default args.
+unconditional_allow = pipeline.match?(/args=\(.*--allow-plan-anomalies/) &&
+                      !pipeline.match?(/ALLOW_PLAN_ANOMALIES/)
+failures << "workflow must not unconditionally apply anomalous plans" if unconditional_allow
+failures << "workflow allow_anomalies input must gate --allow-plan-anomalies" if pipeline.match?(/--allow-plan-anomalies/) &&
+                                                                              !pipeline.match?(/ALLOW_PLAN_ANOMALIES/) &&
+                                                                              !workflow.match?(/allow_anomalies:/)
 
 if failures.empty?
   puts "Weekly data workflow safety checks passed."

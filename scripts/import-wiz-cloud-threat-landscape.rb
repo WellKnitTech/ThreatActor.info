@@ -97,12 +97,12 @@ class WizCloudThreatLandscapeImporter
   def plan_or_import
     manifest = load_manifest
     stix = load_stix
-    matched = match_updates(stix, manifest)
-    report = build_report(matched, manifest)
+    plan = match_updates(stix, manifest)
+    report = build_report(plan, manifest)
 
     print_report(report)
     File.write(@options[:report_json], JSON.pretty_generate(report)) if @options[:report_json]
-    apply_updates(matched, manifest) if @options[:write]
+    apply_updates(plan[:matched], manifest) if @options[:write]
   end
 
   def load_manifest
@@ -119,18 +119,29 @@ class WizCloudThreatLandscapeImporter
     JSON.parse(File.read(path))
   end
 
-  def match_updates(stix, manifest)
+  def match_updates(stix, _manifest)
     objects = Array(stix['objects'])
-    intrusion_sets = objects.select { |obj| obj['type'] == 'intrusion-set' }
-    relationships = objects.select { |obj| obj['type'] == 'relationship' }
+    object_type_counts = objects.filter_map { |obj| obj['type'] if obj.is_a?(Hash) }.tally
+    # Prefer STIX intrusion-set objects; fall back to threat-actor if the feed
+    # shape drifts while still exposing named adversary records.
+    intrusion_sets = objects.select { |obj| obj.is_a?(Hash) && obj['type'] == 'intrusion-set' }
+    if intrusion_sets.empty?
+      intrusion_sets = objects.select { |obj| obj.is_a?(Hash) && obj['type'] == 'threat-actor' }
+    end
+    relationships = objects.select { |obj| obj.is_a?(Hash) && obj['type'] == 'relationship' }
 
     existing = ActorStore.load_all
     alias_index = ImportUtils.build_alias_index(existing)
 
-    intrusion_sets.filter_map do |entry|
-      names = [entry['name'], *Array(entry['aliases'])].compact
+    matched = []
+    unmatched_labels = []
+
+    intrusion_sets.each do |entry|
       match = ImportUtils.find_match(entry['name'], Array(entry['aliases']), alias_index)
-      next unless match && match[:confidence] == :high
+      unless match && match[:confidence] == :high
+        unmatched_labels << (entry['name'] || entry['id']).to_s
+        next
+      end
 
       actor = existing[match[:position]]
 
@@ -138,7 +149,7 @@ class WizCloudThreatLandscapeImporter
         rel['source_ref'] == entry['id'] && %w[uses attributed-to].include?(rel['relationship_type'])
       end
 
-      {
+      matched << {
         actor_name: actor['name'],
         data_path: actor['__data_path'],
         stix_id: entry['id'],
@@ -147,25 +158,58 @@ class WizCloudThreatLandscapeImporter
         related_object_refs: actor_relationships.map { |rel| rel['target_ref'] }.uniq.sort
       }
     end
+
+    {
+      intrusion_sets: intrusion_sets,
+      matched: matched,
+      unmatched_labels: unmatched_labels,
+      object_type_counts: object_type_counts
+    }
   end
 
-  def build_report(matched, manifest)
-    {
+  def build_report(plan, manifest)
+    matched = plan[:matched]
+    unmatched_labels = plan[:unmatched_labels]
+    intrusion_count = Array(plan[:intrusion_sets]).length
+    object_types = plan[:object_type_counts] || {}
+    report = {
       timestamp: Time.now.utc.iso8601,
       source: SOURCE_NAME,
       source_url: manifest['source_url'] || STIX_URL,
       retrieved_at: manifest['retrieved_at'],
+      intrusion_sets: intrusion_count,
+      parsed_records: intrusion_count,
+      matched: matched.length,
       actors_with_updates: matched.length,
+      unmatched: unmatched_labels.length,
+      unmatched_labels: unmatched_labels,
       updates: matched.sort_by { |record| record[:actor_name] }
     }
+    if intrusion_count.zero?
+      report[:status] = 'source_empty'
+      report[:source_empty] = true
+      report[:object_type_counts] = object_types
+      report[:empty_reason] = if object_types.empty?
+                                'Wiz STIX feed contained no objects'
+                              else
+                                "Wiz STIX feed contained no intrusion-set/threat-actor objects (types=#{object_types.keys.sort.join(',')})"
+                              end
+    end
+    report
   end
 
   def print_report(report)
     puts "\n=== #{SOURCE_NAME} Import Plan ==="
     puts "Source URL: #{report[:source_url]}"
     puts "Retrieved at: #{report[:retrieved_at]}"
+    puts "Intrusion sets: #{report[:intrusion_sets]}"
+    puts "Matched actors: #{report[:matched]}"
+    puts "Unmatched labels: #{report[:unmatched]}"
     puts "Actors with updates: #{report[:actors_with_updates]}"
-    report[:updates].each do |entry|
+    if report[:status].to_s == 'source_empty'
+      puts "Empty source: #{report[:empty_reason]}"
+    end
+    Array(report[:updates]).each do |entry|
       puts "  - #{entry[:actor_name]} | aliases +#{entry[:aliases].length} | related refs #{entry[:related_object_refs].length}"
     end
     puts "\n=== Run with import to apply ===" unless @options[:write]

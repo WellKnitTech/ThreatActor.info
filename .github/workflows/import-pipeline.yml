@@ -18,6 +18,11 @@ on:
         required: false
         default: ''
         type: string
+      allow_anomalies:
+        description: 'Apply plan-threshold anomalous sources instead of quarantining them'
+        required: false
+        default: false
+        type: boolean
     secrets:
       THREATFOX_API_KEY:
         required: false
@@ -63,6 +68,7 @@ jobs:
           REQUESTED_SOURCE: ${{ inputs.source }}
           REQUESTED_PHASE: ${{ inputs.phase || 'all' }}
           REQUESTED_LIMIT: ${{ inputs.limit || '' }}
+          ALLOW_PLAN_ANOMALIES: ${{ inputs.allow_anomalies }}
           IMPORT_JOB_DEADLINE_SECONDS: '2400'
           IMPORT_SOURCE_DEADLINE_SECONDS: '600'
           IMPORT_DETAIL_DEADLINE_SECONDS: '10'
@@ -79,6 +85,9 @@ jobs:
           fi
           if [[ -n "$REQUESTED_LIMIT" ]]; then
             args+=(--limit "$REQUESTED_LIMIT")
+          fi
+          if [[ "${ALLOW_PLAN_ANOMALIES}" == "true" ]]; then
+            args+=(--allow-plan-anomalies)
           fi
           case "$REQUESTED_PHASE" in
             all) args+=(--apply) ;;

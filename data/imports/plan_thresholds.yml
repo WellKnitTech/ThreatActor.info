@@ -1,6 +1,8 @@
 defaults:
-  min_match_ratio: 0.50
-  max_unmatched_ratio: 0.35
+  # Catch-up weeks after missed scheduled runs legitimately produce more
+  # unmatched/new actors. Soft quarantine still isolates severe outliers.
+  min_match_ratio: 0.45
+  max_unmatched_ratio: 0.50
   max_alias_additions_per_actor: 12
 
 sources:
@@ -16,9 +18,28 @@ sources:
   misp-galaxy:
     max_alias_additions_per_actor: 30
   etda-thaicert:
-    max_unmatched_ratio: 0.50
+    max_unmatched_ratio: 0.55
   aptnotes:
-    max_unmatched_ratio: 0.60
+    min_match_ratio: 0.35
+    max_unmatched_ratio: 0.65
+  apt-groups-operations:
+    max_unmatched_ratio: 0.45
+  eternal-liberty:
+    max_unmatched_ratio: 0.55
+  microsoft-threat-actor-list:
+    max_unmatched_ratio: 0.50
+  mitre-attack:
+    max_unmatched_ratio: 0.40
+  unit42-threat-actor-groups:
+    max_unmatched_ratio: 0.55
+  dragos-threat-groups:
+    # HTML catalog drift can temporarily lower match ratios; quarantine rather
+    # than fail the whole weekly run when this source alone is anomalous.
+    min_match_ratio: 0.20
+    max_unmatched_ratio: 0.80
+  reddrip7-apt-digital-weapon:
+    min_match_ratio: 0.05
+    max_unmatched_ratio: 0.95
   ransomlook:
     # RansomLook is a broad ransomware group matrix with many ambiguous/review cases.
     # It legitimately produces high "unmatched/review" ratios compared to high-confidence

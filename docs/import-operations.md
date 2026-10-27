@@ -27,10 +27,15 @@ inputs are:
 
 - `source`: optional source key, such as `malpedia` or `threatfox`.
 - `phase`: `fetch`, `plan`, `import`, or `all`.
+- `allow_anomalies`: optional boolean; when true, apply sources that fail plan
+  threshold checks instead of quarantining them. Scheduled runs leave this
+  false so anomalous plans stay diagnostic-only while healthy sources still
+  import and open the weekly PR.
 
 `fetch` creates a snapshot only. `plan` reads an existing snapshot without
 applying it. `import` applies an existing snapshot with `--no-fetch`. `all` is
-the normal end-to-end path.
+the normal end-to-end path. Plan-threshold anomalies quarantine the affected
+source by default and do not abort the rest of the apply phase.
 
 ## Secrets and environments
 

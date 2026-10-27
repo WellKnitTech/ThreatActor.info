@@ -28,14 +28,17 @@ module ObservableFeed
 
     payload = JSON.parse(response.body)
     raise 'response must be a JSON object or array' unless payload.is_a?(Hash) || payload.is_a?(Array)
+    query_status = payload.is_a?(Hash) ? payload['query_status'].to_s.strip : ''
     if payload.is_a?(Hash) && !payload['data'].is_a?(Array)
-      raise 'response data must be an array'
+      status_label = query_status.empty? ? 'missing query_status' : "query_status=#{query_status}"
+      keys = payload.keys.map(&:to_s).sort.join(',')
+      data_class = payload.key?('data') ? payload['data'].class.name : 'absent'
+      raise "non-array abuse.ch payload (#{status_label}; data=#{data_class}; keys=#{keys})"
     end
     FileUtils.mkdir_p(output)
     data = JSON.pretty_generate(payload) + "\n"
     File.write(File.join(output, 'data.json'), data)
     checksum = Digest::SHA256.hexdigest(data)
-    query_status = payload.is_a?(Hash) ? payload['query_status'].to_s.strip : ''
     query_status = 'ok' if query_status.empty?
     manifest.merge!('retrieved_at' => Time.now.utc.iso8601, 'record_count' => Array(payload.is_a?(Hash) ? payload['data'] : payload).length,
                     'source_checksum_sha256' => checksum, 'data_file' => 'data.json', 'query_status' => query_status)
