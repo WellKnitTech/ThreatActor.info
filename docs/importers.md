@@ -130,14 +130,16 @@ existing-actor enrichment. It writes dated snapshots under
 `data/imports/malpedia/<YYYY-MM-DD>/` and does not create new actors.
 
 The fetch path reads the actor list and aggregate metadata, then optionally
-retrieves per-actor detail payloads for malware-family relationships. Because
-that detail path can require hundreds of requests, the importer deliberately
-uses a 2-second interval between requests. HTTP 429 is a terminal rate-limit
+retrieves per-actor detail payloads for malware-family relationships. The
+canonical automated runner passes `--no-details` so weekly jobs stay inside the
+per-source deadline; use a targeted `workflow_dispatch` with `source=malpedia`
+when detail payloads are required. Because the detail path can require hundreds
+of requests, the importer deliberately uses a mutexed 2-second interval between
+requests (including across detail workers). HTTP 429 is a terminal rate-limit
 signal for the fetch: the importer stops immediately, preserves the upstream
 `Retry-After` value in the error message when provided, and does not continue
 requesting actor details. The weekly workflow also suppresses its normal
-failure retry after a 429. Do not parallelize Malpedia requests or repeatedly
-manually dispatch the workflow.
+failure retry after a 429. Do not repeatedly manually dispatch the workflow.
 
 ```bash
 ruby scripts/import-malpedia.rb fetch --output data/imports/malpedia/$(date -u +%F)

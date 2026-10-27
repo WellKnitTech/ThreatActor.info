@@ -49,11 +49,17 @@ summary and used as the pull-request body.
 or `import`). `fetch` creates or refreshes a snapshot, `plan` evaluates an
 existing snapshot without applying it, and `import` applies an existing plan
 without fetching. Failed sources retry at most three times at source scope
-with a per-source deadline; authentication, licensing, schema, and validation
-failures are never retried, and the workflow does not replay the full source
-universe. HTTP 429 waits for a capped `Retry-After` before retrying that
-source only. In particular, the Malpedia importer spaces requests by 2 seconds
-and stops at the first 429 rather than continuing through the actor list.
-The workflow does not use `continue-on-error`, and it never passes
-`--allow-plan-anomalies`; quarantined or anomalous sources therefore remain
+with a fresh per-source deadline for each phase (fetch/plan vs import);
+authentication, licensing, schema, and validation failures are never retried,
+and the workflow does not replay the full source universe. HTTP 429 waits for
+a capped `Retry-After` before retrying that source only. In particular, the
+Malpedia importer spaces requests by 2 seconds, stops at the first 429, and
+the scheduled runner fetches Malpedia without per-actor detail payloads so the
+source stays inside the deadline.
+
+MITRE ATT&CK is the only critical automated source: its failure fails the run.
+Other enrichment sources soft-fail as `degraded`, are omitted from apply, and
+do not block validation or the weekly PR for the sources that succeeded. The
+workflow does not use Actions `continue-on-error`, and it never passes
+`--allow-plan-anomalies`; quarantined or anomalous plans therefore remain
 diagnostic-only.

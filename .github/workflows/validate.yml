@@ -14,7 +14,7 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -35,13 +35,13 @@ jobs:
 
     - name: Run Python importer tests
       run: python -m unittest discover -s test -p 'test_ocd_entity_reconciler.py' -v
-      
+
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2.5'
         bundler-cache: true
-        
+
     - name: Check source freshness
       run: ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-freshness-report.json
 

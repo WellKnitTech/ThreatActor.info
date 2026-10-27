@@ -2,6 +2,10 @@
 
 # Runs independent source jobs with a bounded worker pool. Results stay in input
 # order; fail-fast prevents queued work from starting, while active work drains.
+#
+# fail_fast may be true, false, or a callable that receives the failed item and
+# returns whether remaining queued work should be cancelled (e.g. only cancel
+# after a critical source fails).
 module SourceImport
   class BoundedSourceRunner
     Result = Struct.new(:item, :value, :error, :skipped, keyword_init: true)
@@ -37,7 +41,7 @@ module SourceImport
               results[index] = Result.new(item: item, value: value)
             rescue StandardError => error
               results[index] = Result.new(item: item, error: error)
-              mutex.synchronize { cancelled = true } if @fail_fast
+              mutex.synchronize { cancelled = true } if fail_fast_for?(item)
             end
           rescue ThreadError
             break
@@ -49,6 +53,17 @@ module SourceImport
         results[index] ||= Result.new(item: @items[index], skipped: true)
       end
       results
+    end
+
+    private
+
+    def fail_fast_for?(item)
+      case @fail_fast
+      when true then true
+      when false then false
+      else
+        @fail_fast.call(item)
+      end
     end
   end
 end
