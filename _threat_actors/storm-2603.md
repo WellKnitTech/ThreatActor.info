@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Storm-2603"
-aliases: ["Storm-2603"]
+aliases: ["Storm-2603","Longlegs"]
 description: "The group Microsoft tracks as Storm-2603 is assessed with medium confidence to be a China-based threat actor. Microsoft has not identified links between Storm-2603 and other known Chinese threat actors"
 permalink: /storm-2603/
 ---
@@ -24,7 +24,10 @@ The group Microsoft tracks as Storm-2603 is assessed with medium confidence to b
 
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
-| Microsoft Products | MS Server Products | SharePoint Server | CVE-2025-49704, CVE-2025-49706 |
+| File Transfer Servers, Group Profile | CentreStack | Gladinet CentreStack | CVE-2025-14611 |
+| Group Profile, Microsoft Products | MS Server Products | SharePoint Server | CVE-2025-49704, CVE-2025-49706 |
+| Applications, Group Profile | SmarterTools | SmarterMail | CVE-2026-23760 |
+| Applications, Group Profile | SolarWinds | SolarWinds Web Help Desk | CVE-2025-40551 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

@@ -21,7 +21,7 @@ ALPHA SPIDER is a threat actor known for developing and operating the Alphv rans
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Group Profile, Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-4966 |
-| Applications, Group Profile | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |
+| Group Profile | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |
 | Group Profile | Linux System Utilities | Polkit pkexec | CVE-2021-4034 |
 | Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2021-31207, CVE-2021-34473, CVE-2021-34523 |
 | Group Profile, Network Edge | Pulse Secure / Ivanti | Ivanti EPM Cloud Services Appliance (CSA) | CVE-2021-44529 |

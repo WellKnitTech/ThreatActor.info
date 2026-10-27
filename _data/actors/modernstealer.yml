@@ -1,0 +1,27 @@
+name: "ModernStealer"
+aliases: ["ModernStealer"]
+description: "ModernStealer is linked to underground posts offering sensitive military, government, nuclear, and aerospace material, with connections to a Session contact identifier and a Telegram account named Sassoon Don. Analysts identified five ModernStealer listings and eight government-related listings, including references to Pakistan’s NUST and SUPARCO, as well as US defense entities. The shared identifier suggests operational overlap with other identities, but does not confirm a direct link between them. The actor exemplifies the importance of tracking durable identifiers over forum names in threat intelligence."
+url: "/modernstealer"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/modernstealer"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "SPACESHIP"
+  - name: "Nuclear RAT"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "modernstealer"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/modernstealer"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "f06cd97d-3e32-4f45-99a3-c1415b1f5760"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f06cd97d-3e32-4f45-99a3-c1415b1f5760"
+    source_record_ids: ["f06cd97d-3e32-4f45-99a3-c1415b1f5760"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

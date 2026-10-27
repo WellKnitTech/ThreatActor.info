@@ -1,5 +1,5 @@
 name: "SALTY SPIDER"
-aliases: ["SALTY SPIDER","KuKu","SalLoad","Kookoo","Sality","Kukacka","SaliCode","Salty Spider"]
+aliases: ["Kookoo","KuKu","Kukacka","SALTY SPIDER","SalLoad","SaliCode","Sality","Salty Spider"]
 description: "Beginning in January 2018 and persisting through the first half of the year, CrowdStrike Intelligence observed SALTY SPIDER, developer and operator of the long-running Sality botnet, distribute malware designed to target cryptocurrency users."
 url: "/salty-spider"
 country: "Russia"
@@ -8,24 +8,42 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/salty_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2014-04","2018-12","DNS hijacking is still going strong and the Win32/Sality operators have added this technique to their long-lasting botnet. This blog post describes how the malware guesses router passwords as part of its campaign to misdirect users","Sality has terrorized computer users since 2003","a year when personal digital assistants (PDAs) made tech headlines and office PCs ran Windows XP. Over the intervening years users traded their PDAs for smartphones and desktops migrated to newer operating systems and digital workplace solutions. Sality","however","https://threatvector.cylance.com/en_us/home/cylance-vs-sality-malware.html","https://www.welivesecurity.com/2014/04/02/win32sality-newest-component-a-routers-primary-dns-changer-named-win32rbrute/","send spam and infect new victims.","survived the breakneck pace of technological innovation and continues to threaten organizations today."]
+malware:
+  - name: "Sality"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.crowdstrike.com/blog/who-is-salty-spider/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "russia"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "f1ea7365-0f0a-44c5-afc4-13fdf0d874b7"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Salty Spider"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "saltyspider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "salty_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/salty_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "7e37be6b-5a94-45f3-bdeb-f494c520eee3"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "7e37be6b-5a94-45f3-bdeb-f494c520eee3"
     source_record_ids: ["7e37be6b-5a94-45f3-bdeb-f494c520eee3"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

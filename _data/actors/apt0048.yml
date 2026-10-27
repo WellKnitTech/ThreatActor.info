@@ -2,6 +2,7 @@ name: "RTM"
 aliases: ["G0048","RTM"]
 description: "RTM is a cybercriminal group that has been active since at least 2015 and is primarily interested in users of remote banking systems in Russia and neighboring countries. The group uses a Trojan by the same name (RTM). [ESET RTM Feb 2017](https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf)"
 url: "/apt0048"
+country: "[\"Russia\"]"
 confidence: "high"
 external_id: "G0048"
 external_url: "https://attack.mitre.org/groups/G0048"
@@ -12,7 +13,19 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/rtm"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Backdoor.Oldrea","RemoteCMD","RTM","Back Orifice","Back Orifice 2000","CyberGate","Cyber Eye RAT","Remote Utilities","RemotePC","Cobalt Strike"]
+malware:
+  - "Backdoor.Oldrea"
+  - "RemoteCMD"
+  - "RTM"
+  - "Back Orifice"
+  - "Back Orifice 2000"
+  - "CyberGate"
+  - "Cyber Eye RAT"
+  - "Remote Utilities"
+  - "RemotePC"
+  - "Cobalt Strike"
+  - name: "AtNow"
+  - name: "RTM"
 software:
   - name: "RTM"
     mitre_id: "S0148"
@@ -63,34 +76,54 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0048"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "72d3f856-6883-4840-bf43-a3dd24c61bbc"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      ESET: ["RTM"]
+      MITRE: ["G0048"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "rtm"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "rtm"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/rtm"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "88100602-8e8b-11e9-bb7c-1bf20b58e305"
   misp_galaxy:
-    meta_keys: ["refs","synonyms","group_attack_id","observed_countries","source"]
+    meta_keys: ["refs","synonyms","group_attack_id","observed_countries","source","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "88100602-8e8b-11e9-bb7c-1bf20b58e305"
     source_record_ids: ["88100602-8e8b-11e9-bb7c-1bf20b58e305","666ab5f0-3ef1-4e74-8a10-65c60a7d1acd"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0048"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f"
 source: "MITRE ATT&CK"

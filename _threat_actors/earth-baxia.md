@@ -34,6 +34,8 @@ Earth Baxia is a threat actor opearting out of China, targeting government organ
 - **Xploit**
 - **Cobalt Strike**
 - **CrossRat**
+- **Cobalt Strike**: 
+- **EAGLEDOOR**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

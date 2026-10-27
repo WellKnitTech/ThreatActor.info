@@ -10,6 +10,8 @@ permalink: /cosmic-lynx/
 Cosmic Lynx is a Russia-based BEC cybercriminal organization that has significantly impacted the email threat landscape with sophisticated, high-dollar phishing attacks.
 
 ## Activities and Tactics
+**Country of Origin**: 🇷🇺 Russia
+
 
 
 
@@ -30,7 +32,8 @@ Cosmic Lynx is a Russia-based BEC cybercriminal organization that has significan
 - **Cyber Eye RAT**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

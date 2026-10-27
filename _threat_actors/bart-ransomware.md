@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Bart ransomware"
 aliases: ["Locky Bart","Bart ransomware"]
-description: "Bart ransomware is distributed by the same Russian Cyber Mafia behind Dridex 220 and Locky.  Bart doesn't communicate with a command and control (C&C) server, so it can encrypt files without being conn"
+description: "Bart ransomware is distributed by the same Russian Cyber Mafia behind Dridex 220 and Locky. Bart doesn't communicate with a command and control (C&C) server, so it can encrypt files without being conne"
 permalink: /bart-ransomware/
 ---
 

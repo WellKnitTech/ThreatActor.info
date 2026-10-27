@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Snatch"
-aliases: ["Snatch","Snatch group","Snatch ransomware","Snatch gang"]
+aliases: ["Snatch","Snatch gang","Snatch group","Snatch ransomware"]
 description: "ransomware"
 permalink: /snatch/
 ---
@@ -22,7 +22,12 @@ ransomware
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| LOLBAS | BCDEdit, ServiceControl (sc.exe) |
+| OffSec | Cobalt Strike, Meterpreter |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

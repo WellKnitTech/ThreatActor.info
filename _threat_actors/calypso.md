@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Calypso"
-aliases: ["BRONZE MEDLEY","Calypso"]
+aliases: ["BRONZE MEDLEY","Bronze Medley","Calypso","Red Lamassu","Snail"]
 description: "For the first time, the activity of the Calypso group was detected by specialists of PT Expert Security Center in March 2019, during the work to detect cyber threats. As a result, many malware samples "
 permalink: /calypso/
 ---
@@ -12,6 +12,8 @@ For the first time, the activity of the Calypso group was detected by specialist
 ## Activities and Tactics
 **Targeted Sectors**: Government, Administration
 
+**Country of Origin**: 🇨🇳 China
+
 
 **First Seen**: 2019
 
@@ -19,7 +21,12 @@ For the first time, the activity of the Calypso group was detected by specialist
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2021-03**
+- **2021-08**
+- **4 Chinese APT Groups Identified Targeting Mail Server of Afghan Telecommunications Firm Roshan**
+- **Exchange servers under siege from at least 10 APT groups**
+- **https://www.recordedfuture.com/chinese-APT-groups-target-afghan-telecommunications-firm/**
+- **https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -32,9 +39,30 @@ For the first time, the activity of the Calypso group was detected by specialist
 - **CyberGate**
 - **Cyber Eye RAT**
 - **Xpert**
+- **Byeby**: 
+- **Calypso RAT**: 
+- **DCSync**: 
+- **DoublePulsar**: 
+- **EarthWorm**: 
+- **EternalBlue**: 
+- **EternalRomance**: 
+- **FlyingDutchman**: 
+- **Hussar**: 
+- **Living off the Land**: 
+- **Mimikatz**: 
+- **OS_Check_445**: 
+- **PlugX**: 
+- **Quarks PwDump**: 
+- **SysInternals**: 
+- **TCP Port Scanner**: 
+- **Whitebird**: 
+- **ZXPortMap**: 
+- **nbtscan**: 
+- **netcat**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: China
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

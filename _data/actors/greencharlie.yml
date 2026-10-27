@@ -1,0 +1,14 @@
+name: "GreenCharlie"
+aliases: ["GreenCharlie"]
+description: "(Recorded Future) In August 2024, open sources revealed that US political campaign officials and affiliates were targeted as part of Mint Sandstorm and 'APT 42' operations. In this report, we discuss threat activity associated with the Iran-nexus group we track as GreenCharlie, which overlaps with 'Magic Hound, APT 35, Cobalt Illusion, Charming Kitten'. Recorded Future has tracked Iran-linked GreenCharlie activity and malicious infrastructure since 2020. Our global Network Intelligence capability has allowed us to identify and track a large and rapidly evolving cluster of infrastructure used to support GreenCharlie cyber-espionage campaigns. Now, we have been able to link this network to the recent targeting of US political campaigns."
+url: "/greencharlie"
+country: "[\"Iran\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["GORBLE","NOKNOK","POWERSTAR","TAMECAT"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "2af4b14c-a108-4e9c-a87a-11c6b77de3df"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

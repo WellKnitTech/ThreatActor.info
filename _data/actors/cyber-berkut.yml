@@ -1,5 +1,5 @@
 name: "Cyber Berkut"
-aliases: ["Cyber Berkut"]
+aliases: ["Cyber Berkut","Kiberberkut"]
 description: "Cyber Berkut is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/cyber-berkut"
 country: "Russia"
@@ -9,18 +9,35 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cyber_berkut"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["'Cyber Berkut' Hackers Target Major Ukrainian Bank","2014-03","2014-07","2015-01","2015-05","Cyber Berkut Graduates From DDoS Stunts to Purveyor of Cyber Attack Tools","German government websites","Nato websites disabled by cyber attack on eve of Crimea vote","https://www.ft.com/content/b822d5cc-ace6-11e3-8ba3-00144feab7de","https://www.recordedfuture.com/cyber-berkut-analysis/","https://www.reuters.com/article/us-germany-cyberattack/pro-russian-group-claims-cyber-attack-on-german-government-websites-idUSKBN0KG15320150107","https://www.themoscowtimes.com/2014/07/04/cyber-berkut-hackers-target-major-ukrainian-bank-a37033","including Chancellor Angela Merkel’s page","shortly before their leaders were to meet.","were hacked on Wednesday in an attack claimed by a group demanding Berlin end support for the Ukrainian government"]
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.threatconnect.com/blog/russia-hacks-bellingcat-mh17-investigation/#.V-wnrubaeEU.twitter"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "russia"
+  etda_thai_group_cards:
+    mitre_group_ids: ["G1532"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "c375b720-a3ec-464a-a81d-891c24f3e325"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Bellingcat: ["Cyber Berkut"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "cyberberkut"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Hacktivists"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "cyber_berkut"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cyber_berkut"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "4d9f68ba-cb2b-40bf-ba4b-6a5a9f2e1cf8"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

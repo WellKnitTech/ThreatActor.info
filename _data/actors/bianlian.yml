@@ -1,17 +1,201 @@
-name: "Bianlian"
-aliases: ["Hydra","Bianlian"]
-description: "BianLian used subtle techniques to exploit, enumerate, and move laterally in victim networks to remain undetected and aggressively worked to counter Endpoint Detection & Response (EDR) protections during the encryption phase of their operations. The group has displayed signs of being new to the practical business aspects of ransomware and associated logistics. Generally they seemed to be experiencing the growing pains of a group of talented hackers new to this aspect of criminal extortion.\n\nInfrastructure associated with the BianLian group first appeared online in December 2021 and their toolset appears to have been under active development since then. Finally, we have observed the BianLian threat actor tripling their known command and control (C2) infrastructure in the month of August, suggesting a possible increase in the actor’s operational tempo."
+---
+name: Bianlian
+aliases:
+- BianLian
+- Bianlian
+- Hydra
+- bianlian_group
+description: |-
+  BianLian used subtle techniques to exploit, enumerate, and move laterally in victim networks to remain undetected and aggressively worked to counter Endpoint Detection & Response (EDR) protections during the encryption phase of their operations. The group has displayed signs of being new to the practical business aspects of ransomware and associated logistics. Generally they seemed to be experiencing the growing pains of a group of talented hackers new to this aspect of criminal extortion.
+
+  Infrastructure associated with the BianLian group first appeared online in December 2021 and their toolset appears to have been under active development since then. Finally, we have observed the BianLian threat actor tripling their known command and control (C2) infrastructure in the month of August, suggesting a possible increase in the actor’s operational tempo.
 url: "/bianlian"
-source_name: "MISP Galaxy"
-source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+last_updated: '2026-10-27'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+source_record_url: https://www.ransomlook.io/group/bianlian
 malware:
-  - name: "Xploit"
+- name: Xploit
 provenance:
   misp_galaxy:
-    meta_keys: ["TTP","links","ransomnotes","ransomnotes-files","ransomnotes-refs","refs","synonyms"]
-    source_cluster: "ransomware.json"
-    source_clusters: ["ransomware.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
-    source_record_id: "2019d150-6073-4e3f-b6a5-64b919a87ce9"
-    source_record_ids: ["2019d150-6073-4e3f-b6a5-64b919a87ce9"]
-    source_retrieved_at: "2026-05-06T22:01:13Z"
+    meta_keys:
+    - TTP
+    - links
+    - ransomnotes
+    - ransomnotes-files
+    - ransomnotes-refs
+    - refs
+    - synonyms
+    source_cluster: ransomware.json
+    source_clusters:
+    - ransomware.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json
+    source_record_id: 2019d150-6073-4e3f-b6a5-64b919a87ce9
+    source_record_ids:
+    - 2019d150-6073-4e3f-b6a5-64b919a87ce9
+    source_retrieved_at: '2026-05-06T22:01:13Z'
+  ransomware_tool_matrix:
+    references:
+    - title: CISA Alert aa23-136a
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a
+      date: 16 May 2023
+      source_file: ThreatIntel/CISAThreatGroups.md
+    - title: www.welivesecurity.com
+      url: https://www.welivesecurity.com/en/eset-research/shifting-sands-ransomhub-edrkillshifter/
+      date: 26 March 2025
+      source_file: GroupProfiles/BianLian.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Ransomware
+      Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix
+      is used here as a secondary ransomware tradecraft reference, not as sole attribution
+      evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - GroupProfiles/BianLian.md
+    - ThreatIntel/CISAThreatGroups.md
+    - Tools/CredentialTheft.md
+    - Tools/DiscoveryEnum.md
+    - Tools/Exfiltration.md
+    - Tools/LOLBAS.md
+    - Tools/Offsec.md
+    - Tools/RMM-Tools.md
+    source_label: Bian Lian / BianLian
+    source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:27:56Z'
+    tools_by_category:
+      Credential Theft:
+      - RDP Recognizer
+      Discovery:
+      - Advanced IP Scanner
+      - Advanced Port Scanner
+      - PingCastle
+      - SharpShares
+      - SoftPerfect NetScan
+      - WKTools
+      Exfiltration:
+      - MEGA
+      - RClone
+      LOLBAS:
+      - PsExec
+      OffSec:
+      - Impacket
+      RMM Tools:
+      - AmmyyAdmin
+      - AnyDesk
+      - Atera
+      - ScreenConnect
+      - Splashtop
+      - TeamViewer
+  ransomware_vulnerability_matrix:
+    references:
+    - title: checkpoint.com
+      url: https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: reliaquest.com
+      url: https://reliaquest.com/blog/threat-spotlight-reliaquest-uncovers-vulnerability-behind-sap-netweaver-compromise/
+      source_file: Vulnerabilities/Applications.md
+    - title: thedfirreport.com
+      url: https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: thedfirreport.com
+      url: https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: thedfirreport.com
+      url: https://thedfirreport.com/2025/04/28/navigating-through-the-fog/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: welivesecurity.com
+      url: https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: www.guidepointsecurity.com
+      url: https://www.guidepointsecurity.com/blog/bianlian-gos-for-powershell-after-teamcity-exploitation/
+      source_file: Vulnerabilities/Applications.md
+    source_attribution: Vulnerability observations were reviewed from the BushidoUK
+      Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix).
+      The matrix is used here as a secondary ransomware exploitation reference, not
+      as sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1
+    source_files:
+    - Vulnerabilities/Applications.md
+    - Vulnerabilities/Microsoft.md
+    source_label: BianLian / Bianlian
+    source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
+    source_retrieved_at: '2026-10-27T17:28:00Z'
+    vulnerabilities_by_category:
+      Applications:
+      - vendor: JetBrains
+        product: TeamCity
+        cves:
+        - CVE-2023-42793
+        source_links:
+        - https://www.guidepointsecurity.com/blog/bianlian-gos-for-powershell-after-teamcity-exploitation/
+        source_file: Vulnerabilities/Applications.md
+      - vendor: JetBrains
+        product: TeamCity
+        cves:
+        - CVE-2024-27198
+        source_links:
+        - https://www.guidepointsecurity.com/blog/bianlian-gos-for-powershell-after-teamcity-exploitation/
+        source_file: Vulnerabilities/Applications.md
+      - vendor: SAP
+        product: NetWeaver
+        cves:
+        - CVE-2025-31324
+        source_links:
+        - https://reliaquest.com/blog/threat-spotlight-reliaquest-uncovers-vulnerability-behind-sap-netweaver-compromise/
+        source_file: Vulnerabilities/Applications.md
+      Microsoft Products:
+      - vendor: Windows
+        product: NetLogon
+        cves:
+        - CVE-2020-1472
+        source_links:
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a
+        - https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware
+        - https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/
+        - https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a
+        - https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a
+        - https://thedfirreport.com/2025/04/28/navigating-through-the-fog/
+        - https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/
+        source_file: Vulnerabilities/Microsoft.md
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: bianlian
+  source_retrieved_at: '2026-10-27T17:27:18Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Bitter Scorpius

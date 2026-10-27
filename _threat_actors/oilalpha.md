@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "OilAlpha"
-aliases: ["OilAlpha"]
+aliases: ["OilAlpha","TAG-41","TAG-62"]
 description: "OilAlpha has almost exclusively relied on infrastructure associated with the Public Telecommunication Corporation (PTC), a Yemeni government-owned enterprise reported to be under the direct control of "
 permalink: /oilalpha/
 ---
@@ -10,7 +10,11 @@ permalink: /oilalpha/
 OilAlpha has almost exclusively relied on infrastructure associated with the Public Telecommunication Corporation (PTC), a Yemeni government-owned enterprise reported to be under the direct control of the Houthi authorities. OilAlpha used encrypted chat messengers like WhatsApp to launch social engineering attacks against its targets. It has also used URL link shorteners. Per victimology assessment, it appears a majority of the targeted entities were Arabic-language speakers and operated Android devices.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["Yemen"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,9 +29,13 @@ OilAlpha has almost exclusively relied on infrastructure associated with the Pub
 - **DroidJack**
 - **Arabian-Attacker RAT**
 - **Androrat**
+- **SpyMax**: 
+- **SpyNote RAT**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["Yemen"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -10,7 +10,11 @@ permalink: /storm-2657/
 Storm-2657 is a financially motivated threat actor targeting US-based organizations, particularly in higher education, to compromise employee accounts and redirect salary payments to attacker-controlled accounts. They employ tactics such as creating inbox rules to delete warning notifications from HR platforms like Workday and using phishing emails that impersonate legitimate university communications to gain access. The actor modifies employee salary payment configurations to facilitate financial theft. Mitigation efforts include implementing phishing-resistant MFA methods to secure user identities against such attacks.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇺🇸 United States
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ Storm-2657 is a financially motivated threat actor targeting US-based organizati
 - **UNITEDRAKE**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: United States
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

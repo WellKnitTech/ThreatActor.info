@@ -15,13 +15,27 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "romcom"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/romcom"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "ba9e1ed2-e142-48d0-a593-f73ac6d59ccd"
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-0978"
+    origin_category: "Russia"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm0978"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["cfr-suspected-victims","country","origin:Storm-0978","refs","synonyms","microsoft-origin-threat"]
+    meta_keys: ["cfr-suspected-victims","country","origin:Storm-0978","refs","synonyms","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ba9e1ed2-e142-48d0-a593-f73ac6d59ccd"
     source_record_ids: ["ba9e1ed2-e142-48d0-a593-f73ac6d59ccd","b2e3b39d-3988-530d-be21-ccc4f31f0caa"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Storm-0978"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Storm-0978/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Storm-0978/Storm-0978_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

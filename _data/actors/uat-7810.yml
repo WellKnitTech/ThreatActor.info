@@ -1,0 +1,30 @@
+name: "UAT-7810"
+aliases: ["UAT-7810"]
+description: "UAT-7810 is an APT actor responsible for maintaining the LapDogs ORB network and developing custom malware, including the backdoors SHORTLEASH and LONGLEASH, as well as DOGLEASH and JARLEASH. They exploit known vulnerabilities in unpatched Ruckus wireless routers and have been observed using infrastructure to host malicious payloads across various hardware platforms. Forensic analysis has revealed their use of multiple IP addresses for hosting and deploying malware, including a test binary named LEASHTEST for functionality checks on MIPS devices. Talos assesses UAT-7810 as a China-nexus threat actor, providing infrastructure to secondary APTs while maintaining distinct objectives."
+url: "/uat-7810"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uat-7810"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "China Chopper"
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "uat-7810"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uat-7810"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "accc7fd6-3f77-471c-aec1-78662beba2b7"
+  misp_galaxy:
+    meta_keys: ["country","name-attribution","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "accc7fd6-3f77-471c-aec1-78662beba2b7"
+    source_record_ids: ["accc7fd6-3f77-471c-aec1-78662beba2b7"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

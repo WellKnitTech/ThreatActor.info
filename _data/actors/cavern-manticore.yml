@@ -1,0 +1,27 @@
+name: "Cavern Manticore"
+aliases: ["Cavern Manticore"]
+description: "Cavern Manticore is an Iran-nexus APT primarily targeting Israeli organizations in the government and IT sectors, linked to the MOIS. The group employs a modular command-and-control framework built on a shared .NET foundation, utilizing multiple compilation formats to create an anti-analysis layer. Their operations demonstrate a high operational tempo and a disciplined approach to target selection, particularly during campaigns like \"Operation Epic Fury.\" By decoupling core infrastructure from mission-specific modules, Cavern Manticore enhances operational agility while complicating detection efforts for defenders."
+url: "/cavern-manticore"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cavern_manticore"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Epic"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "cavern_manticore"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cavern_manticore"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "2281a516-8bb2-4f9d-8080-f2b8c4db42ea"
+  misp_galaxy:
+    meta_keys: ["country","name-attribution","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2281a516-8bb2-4f9d-8080-f2b8c4db42ea"
+    source_record_ids: ["2281a516-8bb2-4f9d-8080-f2b8c4db42ea"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

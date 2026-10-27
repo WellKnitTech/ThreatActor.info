@@ -14,13 +14,20 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "storm-0062"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-0062"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d1fe4546-616a-409c-8d2c-f7a7e0a183f8"
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Shadow Typhoon"
+    origin_category: "China"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "shadowtyphoon"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["country","origin:Storm-0062","refs","synonyms","microsoft-origin-threat"]
+    meta_keys: ["country","origin:Storm-0062","refs","synonyms","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d1fe4546-616a-409c-8d2c-f7a7e0a183f8"
     source_record_ids: ["d1fe4546-616a-409c-8d2c-f7a7e0a183f8","4349a6d9-7838-57dc-9873-ddd5835ae428"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

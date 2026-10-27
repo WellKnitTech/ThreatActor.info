@@ -24,6 +24,16 @@ Phobos exploits open or poorly secured RDP ports to sneak inside networks and ex
 ## Malware and Tools
 - **Xploit**: 
 
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz, NirSoft RemoteDesktopPassView (rdpv), NirSoft WebBrowserPassView |
+| Defense Evasion | PowerTool, ProcessHacker, Universal Virus Sniffer |
+| Discovery | Angry IP Scanner, SoftPerfect NetScan |
+| Exfiltration | MEGA, WinSCP |
+| OffSec | Cobalt Strike |
+
 ## Attribution and Evidence
 *Information pending cataloguing.*
 

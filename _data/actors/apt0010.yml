@@ -1,183 +1,1430 @@
-name: "Turla"
-aliases: ["BELUGASTURGEON","Group 88","IRON HUNTER","Krypton","Secret Blizzard","Snake","Turla","Venomous Bear","Waterbug","WhiteBear","VENOMOUS Bear","WRAITH","Uroburos","Pfinet","TAG_0530","KRYPTON","Hippo Team","Pacifier APT","Popeye","SIG23","MAKERSMARK","ATK13","G0010","ITG12","Blue Python","SUMMIT","UNC4210","UAC-0144","UAC-0024","UAC-0003","Turla Team","Турла","Turla Group","Turla, Waterbug, Venomous Bear, Group 88","Turla - APT-C-29","ATG26","Skipper Turla","White Bear"]
-description: "Turla is a cyber espionage threat group that has been attributed to Russia's Federal Security Service (FSB). They have compromised victims in over 50 countries since at least 2004, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. Turla is known for conducting watering hole and spearphishing campaigns, and leveraging in-house tools and malware, such as Uroburos. [Kaspersky Turla](https://securelist.com/the-epic-turla-operation/65545/) [ESET Gazer Aug 2017](https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf) [CrowdStrike VENOMOUS BEAR](https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/) [ESET Turla Mosquito Jan 2018](https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf) [Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023](https://www.cisa.gov/sites/default/files/2023-05/aa23-129a_snake_malware_2.pdf)"
+---
+name: Turla
+aliases:
+- APT-C-29
+- ATG26
+- ATK 13
+- ATK13
+- BELUGASTURGEON
+- Belugasturgeon
+- Blue Python
+- Boulder Bear
+- CTG-8875
+- G0010
+- Group 88
+- Group88
+- Hippo Team
+- IRON HUNTER
+- ITG12
+- Iron Hunter
+- Iron Pioneer
+- KRYPTON
+- Krypton
+- MAKERSMARK
+- Makersmark
+- Minime
+- Operation “Epic Turla”
+- Operation “Moonlight Maze”
+- Operation “Penguin Turla”
+- Operation “Satellite Turla”
+- Operation “Skipper Turla”
+- Operation “Turla Mosquito”
+- Operation “WITCHCOVEN”
+- Pacifier APT
+- Pensive Ursa
+- Pfinet
+- Popeye
+- SIG15
+- SIG2
+- SIG23
+- SUMMIT
+- Secret Blizzard
+- Skipper Turla
+- Snake
+- Summit
+- TAG-0530
+- TAG_0530
+- TURLA RELIC
+- Turla
+- Turla - APT-C-29
+- Turla Group
+- Turla Team
+- Turla, Waterbug, Venomous Bear, Group 88
+- UAC-0003
+- UAC-0024
+- UAC-0144
+- UNC4210
+- Uroburos
+- VENOMOUS BEAR
+- VENOMOUS Bear
+- Venomous Bear
+- WRAITH
+- Waterbug
+- White Atlas
+- White Bear
+- WhiteBear
+- Witchcoven
+- Wraith
+- Турла
+description: Turla is a cyber espionage threat group that has been attributed to Russia's
+  Federal Security Service (FSB). They have compromised victims in over 50 countries
+  since at least 2004, spanning a range of industries including government, embassies,
+  military, education, research and pharmaceutical companies. Turla is known for conducting
+  watering hole and spearphishing campaigns, and leveraging in-house tools and malware,
+  such as Uroburos. [Kaspersky Turla](https://securelist.com/the-epic-turla-operation/65545/)
+  [ESET Gazer Aug 2017](https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf)
+  [CrowdStrike VENOMOUS BEAR](https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/)
+  [ESET Turla Mosquito Jan 2018](https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf)
+  [Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023](https://www.cisa.gov/sites/default/files/2023-05/aa23-129a_snake_malware_2.pdf)
 url: "/apt0010"
-country: "Russia"
-sector_focus: ["Government, Administration","Education","Electric","Energy","Health","Government","Military","Private sector"]
-targeted_victims: ["France","Romania","Kazakhstan","Poland","Tajikistan","Russia","United States","Saudi Arabia","Germany","India","Belarus","Netherlands","Iran","Uzbekistan","Iraq","South Korea","United Kingdom"]
-incident_type: "Espionage"
-first_seen: "2014"
-last_activity: "2019"
-last_updated: "2026-04-28"
-risk_level: "High"
-external_id: "G0010"
-external_url: "https://attack.mitre.org/groups/G0010"
-mitre_id: "G0010"
-mitre_url: "https://attack.mitre.org/groups/G0010"
-source_name: "Malpedia (Fraunhofer FKIE)"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/turla"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["Satellite Turla","Epic Turla","The 'Penquin' Turla","Witchcoven","RUAG hack","Mosquito","Moonlight Maze"]
+country: Russia
+sector_focus:
+- Government, Administration
+- Education
+- Electric
+- Energy
+- Health
+- Government
+- Military
+- Private sector
+targeted_victims:
+- France
+- Romania
+- Kazakhstan
+- Poland
+- Tajikistan
+- Russia
+- United States
+- Saudi Arabia
+- Germany
+- India
+- Belarus
+- Netherlands
+- Iran
+- Uzbekistan
+- Iraq
+- South Korea
+- United Kingdom
+incident_type: Espionage
+first_seen: '2014'
+last_activity: '2019'
+last_updated: '2026-10-27'
+risk_level: High
+confidence: high
+external_id: G0010
+external_url: https://attack.mitre.org/groups/G0010
+mitre_id: G0010
+mitre_url: https://attack.mitre.org/groups/G0010
+source_name: Malpedia (Fraunhofer FKIE)
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/turla
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+operations:
+- 000 comments written on the performer’s post (shown below) was one that could easily
+  pass as spam.
+- '1996'
+- 2008-11
+- '2013'
+- '2014'
+- 2014-12
+- '2015'
+- 2016-11
+- '2017'
+- 2017-03
+- 2017-05
+- 2017-06
+- 2017-07
+- 2017-08
+- '2018'
+- 2018-01
+- 2018-03
+- '2019'
+- 2019 Early
+- 2019 has seen the Turla actor actively renew its arsenal. Its developers are still
+  using a familiar coding style
+- 2019-04
+- 2019-05
+- 2019-09
+- 2019-11
+- 2020-01
+- 2020-06
+- 2021-01
+- 2021-02
+- 2021-09
+- 2022-03
+- 2022-04
+- 2022-05
+- 2022-09
+- 2022-12
+- 2023-07
+- 2023-12
+- '2024'
+- A notorious hacking group is targeting the UK with an updated version of malware
+  designed to embed itself into compromised networks and stealthily conduct espionage.
+- Accenture Cyber Threat Intelligence researchers identified a Turla compromise of
+  a European government organization. During this compromise Turla utilized a combination
+  of remote procedure call (RPC)-based backdoors
+- At the best of our knowledge
+- Both the Neuron and Nautilus malware variants have previously been attributed to
+  the Turla advanced persistent threat group
+- Breach of the Swiss military firm RUAG
+- Breach of the US Department of Defense
+- COMpfun authors spoof visa application with HTTP status-based Trojan
+- COMpfun successor Reductor infects files on the fly to compromise TLS traffic
+- During our investigation
+- ESET Research uncovered a new backdoor on a server belonging to a Ministry of Foreign
+  Affairs in Eastern Europe.
+- ESET researchers found a previously undocumented backdoor and document stealer.
+  Dubbed Crutch by its developers
+- ESET researchers found a watering hole (aka strategic web compromise) operation
+  targeting several high-profile Armenian websites. It relies on a fake Adobe Flash
+  update lure and delivers two previously undocumented pieces of malware we have dubbed
+  NetFlash and PyFlash.
+- ESET researchers have observed a significant change in the campaign of the infamous
+  espionage group
+- Epic Turla
+- Espionage Group Rolls Out Brand-New Toolset in Attacks Against Governments
+- 'Frozen in transit: Secret Blizzard’s AiTM campaign against diplomats'
+- Germany.
+- In January 2021
+- In this case
+- 'IronNetInjector: Turla’s New Malware Loading Tool'
+- John Lambert of Microsoft (@JohnLaTwC) tweeted about a malicious document that dropped
+  a “very interesting .JS backdoor“. Since the end of November 2016
+- Kaspersky Lab has observed Turla using this new JavaScript payload and specific
+  macro variant.
+- Kaspersky Lab researchers have analyzed a massive cyber-espionage operation which
+  we call “Epic Turla”. The attackers behind Epic Turla have infected several hundred
+  computers in more than 45 countries
+- 'Microsoft: Hackers turn Exchange servers into malware control centers'
+- Moonlight Maze
+- Mosquito
+- Much of our 2018 research focused on Turla’s KopiLuwak javascript backdoor
+- New backdoor Gazer
+- New backdoor Kazuar
+- New versions of Carbon
+- Obviously
+- On 28 January 2017
+- Operation “Epic Turla”
+- Operation “Moonlight Maze”
+- Operation “Penguin Turla”
+- Operation “Satellite Turla”
+- Operation “Skipper Turla”
+- Operation “Turla Mosquito”
+- Operation “WITCHCOVEN”
+- 'Over the Kazuar’s Nest: Cracking Down on a Freshly Hatched Backdoor Used by Pensive
+  Ursa (Aka Turla)'
+- Over the last 10 months
+- RUAG hack
+- Russian malware link hid in a comment on Britney Spears’ Instagram
+- Satellite Turla
+- 'Snowblind: The Invisible Hand of Secret Blizzard'
+- Some of the tactics used in APT attacks die hard. A good example is provided by
+  Turla’s watering hole campaigns. Turla
+- Starting in March 2018
+- TURLA’s new phishing-based reconnaissance campaign in Eastern Europe
+- That is why our experts
+- The 'Penquin' Turla
+- The Slovak IT security company ESET Security released a report yesterday detailing
+  a cleverly hidden example of such a post. And its hideout? A Britney Spears photo.
+  Among the nearly 7
+- The Turla APT campaigns have a broader reach than initially anticipated after the
+  recent discovery of two modules built to infect servers running Linux. Until now
+- The Turla espionage group has been targeting various institutions for many years.
+  Recently
+- The investigation was called “Operation Buckshot Yankee” and led to the establishment
+  of U.S. Cyber Command.
+- TinyTurla - Turla deploys new malware to keep a secret backdoor on victim machines
+- TinyTurla Next Generation - Turla APT spies on Polish NGOs
+- Turla
+- Turla accessed and used the Command and Control (C2) infrastructure of Iranian APTs
+  to deploy their own tools to victims of interest. Turla directly accessed ‘Poison
+  Frog’ C2 panels from their own infrastructure and used this access to task victims
+  to download additional tools.
+- 'Turla: A Galaxy of Opportunity'
+- Waterbug may have hijacked a separate espionage group’s infrastructure during one
+  attack against a Middle Eastern target.
+- When an unsuspecting user visits any of the over 100 compromised websites
+- Witchcoven
+- a group TAG attributes to Russia FSB
+- a group publicly attributed to Russia’s Federal Security Service (FSB)
+- a second stage backdoor in the Turla group arsenal.
+- a small piece of inserted code—embedded in the site’s HTML and invisible to casual
+  visitors—quietly redirects the user’s browser to a second compromised website without
+  the user’s knowledge. This second website hosts the WITCHCOVEN script
+- active since at least 1996. It is of particular interest because several independent
+  experts from countries have voiced the proposition that it is associated with a
+  much more modern — and still active — group
+- aided by researchers from King’s College London
+- also known as Snake
+- and borrowed injector code. We tied some of this activity together with infrastructure
+  and data points from WhiteBear and Mosquito infrastructure and activity in 2017
+  and 2018.
+- and other commercial organisations.
+- as an example
+- at least
+- but researchers at Kaspersky Lab have discovered otherwise.
+- but there is a much simpler way to hijack satellite-based Internet traffic.
+- but they’re creating new tools. Here we’ll tell you about several of them
+- continues to run campaigns against the Baltics
+- customized PoshSec-Mod open-source powershell use
+- early 2020.
+- education
+- embassies
+- energy
+- every Turla sample in captivity was designed for either 32- or 64-bit Windows systems
+- government officials and diplomats for years – see
+- have carefully studied Moonlight Maze — one of the first widely known cyberespionage
+  campaigns
+- https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag/
+- https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe/
+- https://blog.lumen.com/snowblind-the-invisible-hand-of-secret-blizzard/
+- https://blog.sekoia.io/turla-new-phishing-campaign-eastern-europe/
+- https://blog.talosintelligence.com/2021/09/tinyturla.html
+- https://blog.talosintelligence.com/tinyturla-next-generation/
+- https://securelist.com/compfun-http-status-based-trojan/96874/
+- https://securelist.com/compfun-successor-reductor/93633/
+- https://securelist.com/introducing-whitebear/81638/
+- https://securelist.com/kopiluwak-a-new-javascript-payload-from-turla/77429/
+- https://securelist.com/satellite-turla-apt-command-and-control-in-the-sky/72081/
+- https://securelist.com/shedding-skin-turlas-fresh-faces/88069/
+- https://securelist.com/the-epic-turla-operation/65545/
+- https://securelist.com/turla-renews-its-arsenal-with-topinambour/91687/
+- https://threatpost.com/linux-modules-connected-to-turla-apt-discovered/109765/
+- https://unit42.paloaltonetworks.com/ironnetinjector/
+- https://unit42.paloaltonetworks.com/pensive-ursa-uses-upgraded-kazuar-backdoor/
+- https://unit42.paloaltonetworks.com/unit42-kazuar-multiplatform-espionage-backdoor-api-access/
+- https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity
+- https://www.bleepingcomputer.com/news/security/microsoft-hackers-turn-exchange-servers-into-malware-control-centers/
+- https://www.engadget.com/2017/06/07/russian-malware-hidden-britney-spears-instagram/
+- https://www.kaspersky.com/blog/moonlight-maze-the-lessons/6713/
+- https://www.mandiant.com/resources/blog/turla-galaxy-opportunity
+- https://www.melani.admin.ch/melani/en/home/dokumentation/reports/technical-reports/technical-report_apt_case_ruag.html
+- https://www.microsoft.com/en-us/security/blog/2025/07/31/frozen-in-transit-secret-blizzards-aitm-campaign-against-diplomats/
+- https://www.ncsc.gov.uk/news/turla-group-exploits-iran-apt-to-expand-coverage-of-victims
+- https://www.nytimes.com/2010/08/26/technology/26cyber.html
+- https://www.proofpoint.com/us/threat-insight/post/turla-apt-actor-refreshes-kopiluwak-javascript-backdoor-use-g20-themed-attack
+- https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments
+- https://www.telsy.com/turla-venomous-bear-updates-its-arsenal-newpass-appears-on-the-apt-threat-scene/
+- https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/
+- https://www.welivesecurity.com/2017/06/06/turlas-watering-hole-campaign-updated-firefox-extension-abusing-instagram/
+- https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/
+- https://www.welivesecurity.com/2019/05/29/turla-powershell-usage/
+- https://www.welivesecurity.com/2020/03/12/tracking-turla-new-backdoor-armenian-watering-holes/
+- https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/
+- https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf
+- https://www.welivesecurity.com/wp-content/uploads/2020/05/ESET_Turla_ComRAT.pdf
+- https://www.welivesecurity.com/wp-content/uploads/2021/05/eset_threat_report_t12021.pdf
+- https://www.zdnet.com/article/this-hacking-gang-just-updated-the-malware-it-uses-against-uk-targets/
+- https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf
+- in-memory loading and execution of malware executables and libraries. This allows
+  them to bypass detection that can trigger when a malicious executable is dropped
+  on disk.
+- including government
+- including government institutions
+- is an infamous espionage group recognized for its complex malware. To confound detection
+- it was used from 2015 to
+- its operators recently started using PowerShell scripts that provide direct
+- military
+- namely “Topinambour” (aka Sunchoke – the Jerusalem artichoke) and its related modules.
+  We didn’t choose to name it after a vegetable
+- new variants of the Carbon framework and meterpreter delivery techniques. Also interesting
+  was Mosquito’s changing delivery techniques
+- recently hosted Android apps on a domain spoofing the Ukrainian Azov Regiment.
+- research and pharmaceutical companies.
+- such as HyperStack and remote administration trojans (RATs)
+- such as Kazuar and Carbon
+- such as backbone routers or fiber optics. There are signs that such attacks are
+  becoming more common
+- such incredibly apparent and large-scale attacks have little chance of surviving
+  for long periods of time
+- targeting defense and cybersecurity organizations in the region.
+- technology
+- that we internally named “NewPass“ as one of the parameters used to send exfiltrated
+  data to the command and control.
+- the .NET malware developers named it Topinambour themselves.
+- the authors of the Turla APT attack.
+- the dropper is being delivered with a benign and possibly stolen decoy document
+  inviting recipients to a G20 task force meeting on the “Digital Economy”. The Digital
+  Economy event is actually scheduled for October of this year in Hamburg
+- they have been using them since at least 2014 with very few variations in their
+  modus operandi.
+- this recent paper – is still using watering hole techniques to redirect potentially
+  interesting victims to their C&C infrastructure. In fact
+- this time the hacking group used a previously unseen implant
+- unless the attackers have direct control over some high-traffic network points
+- we found several new versions of Carbon
+- we identified a total of 14 websites hosting the WITCHCOVEN profiling script.
+- 'we observed a significant change in the campaign: it now leverages the open source
+  exploitation framework Metasploit before dropping the custom Mosquito backdoor.'
+- we were able to attribute it to the infamous Turla APT group. According to our research
+- 'we were able to identify three different targets where ComRAT v4 has been used:'
+- which ACTI researchers analyzed between June and October 2020.
+- which has been targeting governments
+- which is one of the key requirements for running an APT operation. It is therefore
+  not very feasible to perform the attack through MitM traffic hijacking
+- which regularly carries out cyber-espionage against a range of targets
+- which uses profiling techniques to collect technical information on the user’s computer.
+  As of early November 2015
+- "• One national parliament in the Caucasus region"
+- "• Two Ministries of Foreign Affairs in Eastern Europe"
 malware:
-  - "PowerDuke"
-  - "POWERSTATS"
-  - "Power Loader"
-  - "POWERSOURCE"
-  - "China Chopper"
-  - "Archelaus Beta"
-  - "PowerRAT"
-  - "CrossRat"
-  - "CyberAzov"
-  - "Unidentified ASP 001 (Webshell)"
-  - "Penquin Turla"
-  - "KopiLuwak"
-  - "MiniJS"
-  - "HTML5 Encoding"
-  - "Maintools.js"
-  - "Uroburos"
-  - "DeliveryCheck"
-  - "LunarMail"
-  - "NetFlash"
-  - "Neuron"
-  - "QUIETCANARY"
-  - "Pelmeni"
-  - "TwoDash"
-  - "TwoFace"
-  - "Agent.BTZ"
-  - "ApolloShadow"
-  - "Cobra Carbon System"
-  - "ComLook"
-  - "Crutch"
-  - "Gazer"
-  - "KSL0T"
-  - "LightNeuron"
-  - "MiniPocket"
-  - "Mosquito"
-  - "Nautilus"
-  - "NewPass"
-  - "Outlook Backdoor"
-  - "PowerShellRunner"
-  - "Satellite Turla"
-  - "Skipper"
-  - "TinyTurla"
-  - "TinyTurlaNG"
-  - "TurlaRPC"
-  - "Turla SilentMoon"
-  - "Wipbot"
-  - "Kazuar"
-  - "systeminfo"
-  - "net"
-  - "tasklist"
-  - "gpresult"
-  - "wce"
-  - "pwdump"
-  - "Turla"
-  - "Tavdig"
-  - "Agent.dne"
-  - "AdobeARM"
-  - "ATI-Agent"
-  - "MiniDionis"
-  - "WhiteBear"
-  - name: "systeminfo"
-  - name: "net"
-  - name: "tasklist"
-  - name: "gpresult"
-  - name: "wce"
-  - name: "pwdump"
-  - name: "Uroburos"
-  - name: "Turla"
-  - name: "Agent.BTZ"
-  - name: "Tavdig"
-  - name: "Wipbot"
-  - name: "Agent.dne"
-  - name: "AdobeARM"
-  - name: "ATI-Agent"
-  - name: "MiniDionis"
-  - name: "WhiteBear"
-  - name: "Gazer"
-  - name: "Neuron"
-  - name: "Nautilus"
+- PowerDuke
+- POWERSTATS
+- Power Loader
+- POWERSOURCE
+- China Chopper
+- Archelaus Beta
+- PowerRAT
+- CrossRat
+- CyberAzov
+- Unidentified ASP 001 (Webshell)
+- Penquin Turla
+- KopiLuwak
+- MiniJS
+- HTML5 Encoding
+- Maintools.js
+- Uroburos
+- DeliveryCheck
+- LunarMail
+- NetFlash
+- Neuron
+- QUIETCANARY
+- Pelmeni
+- TwoDash
+- TwoFace
+- Agent.BTZ
+- ApolloShadow
+- Cobra Carbon System
+- ComLook
+- Crutch
+- Gazer
+- KSL0T
+- LightNeuron
+- MiniPocket
+- Mosquito
+- Nautilus
+- NewPass
+- Outlook Backdoor
+- PowerShellRunner
+- Satellite Turla
+- Skipper
+- TinyTurla
+- TinyTurlaNG
+- TurlaRPC
+- Turla SilentMoon
+- Wipbot
+- Kazuar
+- systeminfo
+- net
+- tasklist
+- gpresult
+- wce
+- pwdump
+- Turla
+- Tavdig
+- Agent.dne
+- AdobeARM
+- ATI-Agent
+- MiniDionis
+- WhiteBear
+- name: systeminfo
+- name: net
+- name: tasklist
+- name: gpresult
+- name: wce
+- name: pwdump
+- name: Uroburos
+- name: Turla
+- name: Agent.BTZ
+- name: Tavdig
+- name: Wipbot
+- name: Agent.dne
+- name: AdobeARM
+- name: ATI-Agent
+- name: MiniDionis
+- name: WhiteBear
+- name: Gazer
+- name: Neuron
+- name: Nautilus
+- name: ASPXSpy
+- name: ApolloShadow
+- name: COMpfun
+- name: CloudDuke
+- name: Cobra Carbon System
+- name: ComRAT
+- name: Crutch
+- name: DoublePulsar
+- name: EmpireProject
+- name: Epic
+- name: EternalBlue
+- name: EternalRomance
+- name: HTML5 Encoding
+- name: HyperStack
+- name: IcedCoffee
+- name: IronNetInjector
+- name: KSL0T
+- name: Kazuar
+- name: KopiLuwak
+- name: LightNeuron
+- name: Living off the Land
+- name: Maintools.js
+- name: Metasploit
+- name: Meterpreter
+- name: MiamiBeach
+- name: Mimikatz
+- name: Mosquito
+- name: NETVulture
+- name: Neptun
+- name: NetFlash
+- name: NewPass
+- name: Outlook Backdoor
+- name: Penquin Turla
+- name: PowerShellRunner-based RPC backdoor
+- name: PowerStallion
+- name: PsExec
+- name: PyFlash
+- name: RocketMan
+- name: SMBTouch
+- name: SScan
+- name: Satellite Turla
+- name: Skipper
+- name: TinyTurla
+- name: TinyTurla-NG
+- name: Topinambour
+- name: Tunnus
+- name: TurlaChopper
+- name: WITCHCOVEN
+- name: WhiteAtlas
+- name: Windows Credentials Editor
+- name: certutil
+- name: nbtscan
+- name: nbtstat
+software:
+- name: PsExec
+  mitre_id: S0029
+  url: https://attack.mitre.org/software/S0029
+  type: tool
+  stix_id: tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db
+  description: 'PsExec is a free Microsoft tool that can be used to execute a program
+    on another computer. It is used by IT administrators and attackers.(Citation:
+    Russinovich Sysinternals)(Citation: SANS PsExec)'
+- name: nbtstat
+  mitre_id: S0102
+  url: https://attack.mitre.org/software/S0102
+  type: tool
+  stix_id: tool--b35068ec-107a-4266-bda8-eb7036267aea
+  description: 'nbtstat is a utility used to troubleshoot NetBIOS name resolution.
+    (Citation: TechNet Nbtstat)'
+- name: ComRAT
+  mitre_id: S0126
+  url: https://attack.mitre.org/software/S0126
+  type: malware
+  stix_id: malware--da5880b4-f7da-4869-85f2-e0aba84b8565
+  description: 'ComRAT is a second stage implant suspected of being a descendant of
+    Agent.btz and used by Turla. The first version of ComRAT was identified in 2007,
+    but the tool has undergone substantial development for many years since.(Citation:
+    Symantec Waterbug)(Citation: NorthSec 2015 GData Uroburos Tools)(Citation: ESET
+    ComRAT May 2020)'
+- name: netstat
+  mitre_id: S0104
+  url: https://attack.mitre.org/software/S0104
+  type: tool
+  stix_id: tool--4664b683-f578-434f-919b-1c1aad2a1111
+  description: 'netstat is an operating system utility that displays active TCP connections,
+    listening ports, and network statistics. (Citation: TechNet Netstat)'
+- name: certutil
+  mitre_id: S0160
+  url: https://attack.mitre.org/software/S0160
+  type: tool
+  stix_id: tool--0a68f1f1-da74-4d28-8d9a-696c082706cc
+  description: 'certutil is a command-line utility that can be used to obtain certificate
+    authority information and configure Certificate Services. (Citation: TechNet Certutil)'
+- name: Empire
+  mitre_id: S0363
+  url: https://attack.mitre.org/software/S0363
+  type: tool
+  stix_id: tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3
+  description: 'Empire is an open-source, cross-platform remote administration and
+    post-exploitation framework that is publicly available on GitHub. While the tool
+    itself is primarily written in Python, the post-exploitation agents are written
+    in pure PowerShell for Windows and Python for Linux/macOS. Empire was one of five
+    tools singled out by a joint report on public hacking tools being widely used
+    by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell
+    Empire)(Citation: GitHub AT'
+- name: Mosquito
+  mitre_id: S0256
+  url: https://attack.mitre.org/software/S0256
+  type: malware
+  stix_id: malware--92b55426-109f-4d93-899f-1833ce91ff90
+  description: 'Mosquito is a Win32 backdoor that has been used by Turla. Mosquito
+    is made up of three parts: the installer, the launcher, and the backdoor. The
+    main backdoor is called CommanderDLL and is launched by the loader program. (Citation:
+    ESET Turla Mosquito Jan 2018)'
+- name: KOPILUWAK
+  mitre_id: S1075
+  url: https://attack.mitre.org/software/S1075
+  type: malware
+  stix_id: malware--09fcc02f-f9d4-43fa-8609-5e5e186b7103
+  description: 'KOPILUWAK is a JavaScript-based reconnaissance tool that has been
+    used for victim profiling and C2 since at least 2017.(Citation: Mandiant Suspected
+    Turla Campaign February 2023)'
+- name: IronNetInjector
+  mitre_id: S0581
+  url: https://attack.mitre.org/software/S0581
+  type: tool
+  stix_id: tool--b1595ddd-a783-482a-90e1-8afc8d48467e
+  description: 'IronNetInjector is a Turla toolchain that utilizes scripts from the
+    open-source IronPython implementation of Python with a .NET injector to drop one
+    or more payloads including ComRAT.(Citation: Unit 42 IronNetInjector February
+    2021 )'
+- name: LunarWeb
+  mitre_id: S1141
+  url: https://attack.mitre.org/software/S1141
+  type: malware
+  stix_id: malware--e1284931-3f85-4262-a641-9ae8bb0576a0
+  description: 'LunarWeb is a backdoor that has been used by Turla since at least
+    2020 including in a compromise of a European ministry of foreign affairs (MFA)
+    together with LunarLoader and LunarMail. LunarWeb has only been observed deployed
+    against servers and can use Steganography to obfuscate command and control.(Citation:
+    ESET Turla Lunar toolset May 2024)'
+- name: Arp
+  mitre_id: S0099
+  url: https://attack.mitre.org/software/S0099
+  type: tool
+  stix_id: tool--30489451-5886-4c46-90c9-0dff9adc5252
+  description: 'Arp displays and modifies information about a system''s Address Resolution
+    Protocol (ARP) cache. (Citation: TechNet Arp)'
+- name: Crutch
+  mitre_id: S0538
+  url: https://attack.mitre.org/software/S0538
+  type: malware
+  stix_id: malware--925a6c52-5cf0-4fec-99de-b0d6917d8593
+  description: 'Crutch is a backdoor designed for document theft that has been used
+    by Turla since at least 2015.(Citation: ESET Crutch December 2020)'
+- name: Uroburos
+  mitre_id: S0022
+  url: https://attack.mitre.org/software/S0022
+  type: malware
+  stix_id: malware--80a014ba-3fef-4768-990b-37d8bd10d7f4
+  description: Uroburos is a sophisticated cyber espionage tool written in C that
+    has been used by units within Russia's Federal Security Service (FSB) associated
+    with the Turla toolset to collect intelligence on sensitive targets worldwide.
+    Uroburos has several variants and has undergone nearly constant upgrade since
+    its initial development in 2003 to keep it viable after public disclosures. Uroburos
+    is typically deployed to external-facing nodes on a targeted network and has the
+    ability to leverage additional
+- name: PowerStallion
+  mitre_id: S0393
+  url: https://attack.mitre.org/software/S0393
+  type: malware
+  stix_id: malware--dcac85c1-6485-4790-84f6-de5e6f6b91dd
+  description: 'PowerStallion is a lightweight PowerShell backdoor used by Turla,
+    possibly as a recovery access tool to install other backdoors.(Citation: ESET
+    Turla PowerShell May 2019)'
+- name: Gazer
+  mitre_id: S0168
+  url: https://attack.mitre.org/software/S0168
+  type: malware
+  stix_id: malware--76abb3ef-dafd-4762-97cb-a35379429db4
+  description: 'Gazer is a backdoor used by Turla since at least 2016. (Citation:
+    ESET Gazer Aug 2017)'
+- name: Kazuar
+  mitre_id: S0265
+  url: https://attack.mitre.org/software/S0265
+  type: malware
+  stix_id: malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2
+  description: 'Kazuar is a fully featured, multi-platform backdoor Trojan written
+    using the Microsoft .NET framework. (Citation: Unit 42 Kazuar May 2017)'
+- name: Systeminfo
+  mitre_id: S0096
+  url: https://attack.mitre.org/software/S0096
+  type: tool
+  stix_id: tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1
+  description: 'Systeminfo is a Windows utility that can be used to gather detailed
+    information about a computer. (Citation: TechNet Systeminfo)'
+- name: LightNeuron
+  mitre_id: S0395
+  url: https://attack.mitre.org/software/S0395
+  type: malware
+  stix_id: malware--6ba1d7ae-d60b-43e6-9f08-a8b787e9d9cb
+  description: 'LightNeuron is a sophisticated backdoor that has targeted Microsoft
+    Exchange servers since at least 2014. LightNeuron has been used by Turla to target
+    diplomatic and foreign affairs-related organizations. The presence of certain
+    strings in the malware suggests a Linux variant of LightNeuron exists.(Citation:
+    ESET LightNeuron May 2019)'
+- name: Carbon
+  mitre_id: S0335
+  url: https://attack.mitre.org/software/S0335
+  type: malware
+  stix_id: malware--b7e9880a-7a7c-4162-bddb-e28e8ef2bf1f
+  description: 'Carbon is a sophisticated, second-stage backdoor and framework that
+    can be used to steal sensitive information from victims. Carbon has been selectively
+    used by Turla to target government and foreign affairs-related organizations in
+    Central Asia.(Citation: ESET Carbon Mar 2017)(Citation: Securelist Turla Oct 2018)'
+- name: Mimikatz
+  mitre_id: S0002
+  url: https://attack.mitre.org/software/S0002
+  type: tool
+  stix_id: tool--afc079f3-c0ea-4096-b75d-3f05338b7f60
+  description: 'Mimikatz is a credential dumper capable of obtaining plaintext Windows
+    account logins and passwords, along with many other features that make it useful
+    for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity
+    Mimikatz Guide)'
+- name: Tasklist
+  mitre_id: S0057
+  url: https://attack.mitre.org/software/S0057
+  type: tool
+  stix_id: tool--2e45723a-31da-4a7e-aaa6-e01998a6788f
+  description: 'The Tasklist utility displays a list of applications and services
+    with their Process IDs (PID) for all tasks running on either a local or a remote
+    computer. It is packaged with Windows operating systems and can be executed from
+    the command-line interface. (Citation: Microsoft Tasklist)'
+- name: LunarMail
+  mitre_id: S1142
+  url: https://attack.mitre.org/software/S1142
+  type: malware
+  stix_id: malware--a5789a26-2b7b-4b2d-a25f-31182468d4bb
+  description: 'LunarMail is a backdoor that has been used by Turla since at least
+    2020 including in a compromise of a European ministry of foreign affairs (MFA)
+    in conjunction with LunarLoader and LunarWeb. LunarMail is designed to be deployed
+    on workstations and can use email messages and Steganography in command and control.(Citation:
+    ESET Turla Lunar toolset May 2024)'
+- name: Net
+  mitre_id: S0039
+  url: https://attack.mitre.org/software/S0039
+  type: tool
+  stix_id: tool--03342581-f790-4f03-ba41-e82e67392e23
+  description: |-
+    The Net utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)
+
+    Net has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through SMB/Windows Admin Shares using <code>net use</code> commands, and interacting with services. The net1.exe
+- name: Reg
+  mitre_id: S0075
+  url: https://attack.mitre.org/software/S0075
+  type: tool
+  stix_id: tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f
+  description: |-
+    Reg is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)
+
+    Utilities such as Reg are known to be used by persistent threats. (Citation: Windows Commands JPCERT)
+- name: HyperStack
+  mitre_id: S0537
+  url: https://attack.mitre.org/software/S0537
+  type: malware
+  stix_id: malware--2cf7dec3-66fc-423f-b2c7-58f1de243b4e
+  description: 'HyperStack is a RPC-based backdoor used by Turla since at least 2018.
+    HyperStack has similarities to other backdoors used by Turla including Carbon.(Citation:
+    Accenture HyperStack October 2020)'
+- name: Epic
+  mitre_id: S0091
+  url: https://attack.mitre.org/software/S0091
+  type: malware
+  stix_id: malware--6b62e336-176f-417b-856a-8552dd8c44e1
+  description: 'Epic is a backdoor that has been used by Turla. (Citation: Kaspersky
+    Turla)'
+- name: NBTscan
+  mitre_id: S0590
+  url: https://attack.mitre.org/software/S0590
+  type: tool
+  stix_id: tool--b63970b7-ddfb-4aee-97b1-80d335e033a8
+  description: 'NBTscan is an open source tool that has been used by state groups
+    to conduct internal reconnaissance within a compromised network.(Citation: Debian
+    nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug
+    Jun 2019)(Citation: FireEye APT39 Jan 2019)'
+- name: TinyTurla
+  mitre_id: S0668
+  url: https://attack.mitre.org/software/S0668
+  type: malware
+  stix_id: malware--2a7c1bb7-cd12-456e-810d-ab3bf8457bab
+  description: 'TinyTurla is a backdoor that has been used by Turla against targets
+    in the US, Germany, and Afghanistan since at least 2020.(Citation: Talos TinyTurla
+    September 2021)'
+- name: Penquin
+  mitre_id: S0587
+  url: https://attack.mitre.org/software/S0587
+  type: malware
+  stix_id: malware--d18cb958-f4ad-4fb3-bb4f-e8994d206550
+  description: 'Penquin is a remote access trojan (RAT) with multiple versions used
+    by Turla to target Linux systems since at least 2014.(Citation: Kaspersky Turla
+    Penquin December 2014)(Citation: Leonardo Turla Penquin May 2020)'
+- name: LunarLoader
+  mitre_id: S1143
+  url: https://attack.mitre.org/software/S1143
+  type: malware
+  stix_id: malware--6490afef-d88e-4e2b-b9d9-a472508ca59d
+  description: 'LunarLoader is the loader component for the LunarWeb and LunarMail
+    backdoors that has been used by Turla since at least 2020 including against a
+    European ministry of foreign affairs (MFA). LunarLoader has been observed as a
+    standalone and as a part of trojanized open-source software such as AdmPwd.(Citation:
+    ESET Turla Lunar toolset May 2024)'
+ttps:
+- technique_id: T1584.006
+  technique_name: Web Services
+  url: https://attack.mitre.org/techniques/T1584/006
+  stix_id: attack-pattern--ae797531-3219-49a4-bccf-324ad7a4c7b2
+- technique_id: T1112
+  technique_name: Modify Registry
+  url: https://attack.mitre.org/techniques/T1112
+  stix_id: attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4
+- technique_id: T1069.001
+  technique_name: Local Groups
+  url: https://attack.mitre.org/techniques/T1069/001
+  stix_id: attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b
+- technique_id: T1140
+  technique_name: Deobfuscate/Decode Files or Information
+  url: https://attack.mitre.org/techniques/T1140
+  stix_id: attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c
+- technique_id: T1588.002
+  technique_name: Tool
+  url: https://attack.mitre.org/techniques/T1588/002
+  stix_id: attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0
+- technique_id: T1059.007
+  technique_name: JavaScript
+  url: https://attack.mitre.org/techniques/T1059/007
+  stix_id: attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d
+- technique_id: T1134.002
+  technique_name: Create Process with Token
+  url: https://attack.mitre.org/techniques/T1134/002
+  stix_id: attack-pattern--677569f9-a8b0-459e-ab24-7f18091fa7bf
+- technique_id: T1059.005
+  technique_name: Visual Basic
+  url: https://attack.mitre.org/techniques/T1059/005
+  stix_id: attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67
+- technique_id: T1546.013
+  technique_name: PowerShell Profile
+  url: https://attack.mitre.org/techniques/T1546/013
+  stix_id: attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3
+- technique_id: T1583.006
+  technique_name: Web Services
+  url: https://attack.mitre.org/techniques/T1583/006
+  stix_id: attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54
+- technique_id: T1055.001
+  technique_name: Dynamic-link Library Injection
+  url: https://attack.mitre.org/techniques/T1055/001
+  stix_id: attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945
+- technique_id: T1105
+  technique_name: Ingress Tool Transfer
+  url: https://attack.mitre.org/techniques/T1105
+  stix_id: attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add
+- technique_id: T1555.004
+  technique_name: Windows Credential Manager
+  url: https://attack.mitre.org/techniques/T1555/004
+  stix_id: attack-pattern--d336b553-5da9-46ca-98a8-0b23f49fb447
+- technique_id: T1090
+  technique_name: Proxy
+  url: https://attack.mitre.org/techniques/T1090
+  stix_id: attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea
+- technique_id: T1068
+  technique_name: Exploitation for Privilege Escalation
+  url: https://attack.mitre.org/techniques/T1068
+  stix_id: attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839
+- technique_id: T1615
+  technique_name: Group Policy Discovery
+  url: https://attack.mitre.org/techniques/T1615
+  stix_id: attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b
+- technique_id: T1049
+  technique_name: System Network Connections Discovery
+  url: https://attack.mitre.org/techniques/T1049
+  stix_id: attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475
+- technique_id: T1106
+  technique_name: Native API
+  url: https://attack.mitre.org/techniques/T1106
+  stix_id: attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670
+- technique_id: T1071.003
+  technique_name: Mail Protocols
+  url: https://attack.mitre.org/techniques/T1071/003
+  stix_id: attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b
+- technique_id: T1021.002
+  technique_name: SMB/Windows Admin Shares
+  url: https://attack.mitre.org/techniques/T1021/002
+  stix_id: attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541
+- technique_id: T1547.001
+  technique_name: Registry Run Keys / Startup Folder
+  url: https://attack.mitre.org/techniques/T1547/001
+  stix_id: attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279
+- technique_id: T1005
+  technique_name: Data from Local System
+  url: https://attack.mitre.org/techniques/T1005
+  stix_id: attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5
+- technique_id: T1012
+  technique_name: Query Registry
+  url: https://attack.mitre.org/techniques/T1012
+  stix_id: attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896
+- technique_id: T1007
+  technique_name: System Service Discovery
+  url: https://attack.mitre.org/techniques/T1007
+  stix_id: attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa
+- technique_id: T1110
+  technique_name: Brute Force
+  url: https://attack.mitre.org/techniques/T1110
+  stix_id: attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd
+- technique_id: T1570
+  technique_name: Lateral Tool Transfer
+  url: https://attack.mitre.org/techniques/T1570
+  stix_id: attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5
+- technique_id: T1189
+  technique_name: Drive-by Compromise
+  url: https://attack.mitre.org/techniques/T1189
+  stix_id: attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6
+- technique_id: T1584.004
+  technique_name: Server
+  url: https://attack.mitre.org/techniques/T1584/004
+  stix_id: attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5
+- technique_id: T1087.002
+  technique_name: Domain Account
+  url: https://attack.mitre.org/techniques/T1087/002
+  stix_id: attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af
+- technique_id: T1685
+  technique_name: Disable or Modify Tools
+  url: https://attack.mitre.org/techniques/T1685
+  stix_id: attack-pattern--bbde9781-60aa-4b8a-a911-895b0c1b3872
+- technique_id: T1564.012
+  technique_name: File/Path Exclusions
+  url: https://attack.mitre.org/techniques/T1564/012
+  stix_id: attack-pattern--09b008a9-b4eb-462a-a751-a0eb58050cd9
+- technique_id: T1120
+  technique_name: Peripheral Device Discovery
+  url: https://attack.mitre.org/techniques/T1120
+  stix_id: attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643
+- technique_id: T1567.002
+  technique_name: Exfiltration to Cloud Storage
+  url: https://attack.mitre.org/techniques/T1567/002
+  stix_id: attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b
+- technique_id: T1102.002
+  technique_name: Bidirectional Communication
+  url: https://attack.mitre.org/techniques/T1102/002
+  stix_id: attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4
+- technique_id: T1071.001
+  technique_name: Web Protocols
+  url: https://attack.mitre.org/techniques/T1071/001
+  stix_id: attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161
+- technique_id: T1124
+  technique_name: System Time Discovery
+  url: https://attack.mitre.org/techniques/T1124
+  stix_id: attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077
+- technique_id: T1087.001
+  technique_name: Local Account
+  url: https://attack.mitre.org/techniques/T1087/001
+  stix_id: attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e
+- technique_id: T1204.001
+  technique_name: Malicious Link
+  url: https://attack.mitre.org/techniques/T1204/001
+  stix_id: attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9
+- technique_id: T1090.001
+  technique_name: Internal Proxy
+  url: https://attack.mitre.org/techniques/T1090/001
+  stix_id: attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755
+- technique_id: T1546.003
+  technique_name: Windows Management Instrumentation Event Subscription
+  url: https://attack.mitre.org/techniques/T1546/003
+  stix_id: attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58
+- technique_id: T1560.001
+  technique_name: Archive via Utility
+  url: https://attack.mitre.org/techniques/T1560/001
+  stix_id: attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662
+- technique_id: T1059.003
+  technique_name: Windows Command Shell
+  url: https://attack.mitre.org/techniques/T1059/003
+  stix_id: attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62
+- technique_id: T1057
+  technique_name: Process Discovery
+  url: https://attack.mitre.org/techniques/T1057
+  stix_id: attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580
+- technique_id: T1016
+  technique_name: System Network Configuration Discovery
+  url: https://attack.mitre.org/techniques/T1016
+  stix_id: attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0
+- technique_id: T1587.001
+  technique_name: Malware
+  url: https://attack.mitre.org/techniques/T1587/001
+  stix_id: attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0
+- technique_id: T1025
+  technique_name: Data from Removable Media
+  url: https://attack.mitre.org/techniques/T1025
+  stix_id: attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec
+- technique_id: T1518.001
+  technique_name: Security Software Discovery
+  url: https://attack.mitre.org/techniques/T1518/001
+  stix_id: attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384
+- technique_id: T1059.001
+  technique_name: PowerShell
+  url: https://attack.mitre.org/techniques/T1059/001
+  stix_id: attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736
+- technique_id: T1027.010
+  technique_name: Command Obfuscation
+  url: https://attack.mitre.org/techniques/T1027/010
+  stix_id: attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377
+- technique_id: T1059.006
+  technique_name: Python
+  url: https://attack.mitre.org/techniques/T1059/006
+  stix_id: attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1
+- technique_id: T1213.006
+  technique_name: Databases
+  url: https://attack.mitre.org/techniques/T1213/006
+  stix_id: attack-pattern--248d3fe1-7fe1-4d71-91c7-8bb7ef35cad3
+- technique_id: T1018
+  technique_name: Remote System Discovery
+  url: https://attack.mitre.org/techniques/T1018
+  stix_id: attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735
+- technique_id: T1588.001
+  technique_name: Malware
+  url: https://attack.mitre.org/techniques/T1588/001
+  stix_id: attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970
+- technique_id: T1069.002
+  technique_name: Domain Groups
+  url: https://attack.mitre.org/techniques/T1069/002
+  stix_id: attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c
+- technique_id: T1027.011
+  technique_name: Fileless Storage
+  url: https://attack.mitre.org/techniques/T1027/011
+  stix_id: attack-pattern--02c5abff-30bf-4703-ab92-1f6072fae939
+- technique_id: T1547.004
+  technique_name: Winlogon Helper DLL
+  url: https://attack.mitre.org/techniques/T1547/004
+  stix_id: attack-pattern--6836813e-8ec8-4375-b459-abb388cb1a35
+- technique_id: T1553.006
+  technique_name: Code Signing Policy Modification
+  url: https://attack.mitre.org/techniques/T1553/006
+  stix_id: attack-pattern--565275d5-fcc3-4b66-b4e7-928e4cac6b8c
+- technique_id: T1566.002
+  technique_name: Spearphishing Link
+  url: https://attack.mitre.org/techniques/T1566/002
+  stix_id: attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7
+- technique_id: T1016.001
+  technique_name: Internet Connection Discovery
+  url: https://attack.mitre.org/techniques/T1016/001
+  stix_id: attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc
+- technique_id: T1102
+  technique_name: Web Service
+  url: https://attack.mitre.org/techniques/T1102
+  stix_id: attack-pattern--830c9528-df21-472c-8c14-a036bf17d665
+- technique_id: T1082
+  technique_name: System Information Discovery
+  url: https://attack.mitre.org/techniques/T1082
+  stix_id: attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1
+- technique_id: T1584.003
+  technique_name: Virtual Private Server
+  url: https://attack.mitre.org/techniques/T1584/003
+  stix_id: attack-pattern--39cc9f64-cf74-4a48-a4d8-fe98c54a02e0
+- technique_id: T1036.005
+  technique_name: Match Legitimate Resource Name or Location
+  url: https://attack.mitre.org/techniques/T1036/005
+  stix_id: attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2
+- technique_id: T1055
+  technique_name: Process Injection
+  url: https://attack.mitre.org/techniques/T1055
+  stix_id: attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d
+- technique_id: T1078.003
+  technique_name: Local Accounts
+  url: https://attack.mitre.org/techniques/T1078/003
+  stix_id: attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2
+- technique_id: T1201
+  technique_name: Password Policy Discovery
+  url: https://attack.mitre.org/techniques/T1201
+  stix_id: attack-pattern--b6075259-dba3-44e9-87c7-e954f37ec0d5
+- technique_id: T1083
+  technique_name: File and Directory Discovery
+  url: https://attack.mitre.org/techniques/T1083
+  stix_id: attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18
+- technique_id: T1027.005
+  technique_name: Indicator Removal from Tools
+  url: https://attack.mitre.org/techniques/T1027/005
+  stix_id: attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92
+attck_techniques:
+- T1005
+- T1007
+- T1012
+- T1016
+- T1016.001
+- T1018
+- T1021.002
+- T1025
+- T1027.005
+- T1027.010
+- T1027.011
+- T1036.005
+- T1049
+- T1055
+- T1055.001
+- T1057
+- T1059.001
+- T1059.003
+- T1059.005
+- T1059.006
+- T1059.007
+- T1068
+- T1069.001
+- T1069.002
+- T1071.001
+- T1071.003
+- T1078.003
+- T1082
+- T1083
+- T1087.001
+- T1087.002
+- T1090
+- T1090.001
+- T1102
+- T1102.002
+- T1105
+- T1106
+- T1110
+- T1112
+- T1120
+- T1124
+- T1134.002
+- T1140
+- T1189
+- T1201
+- T1204.001
+- T1213.006
+- T1518.001
+- T1546.003
+- T1546.013
+- T1547.001
+- T1547.004
+- T1553.006
+- T1555.004
+- T1560.001
+- T1564.012
+- T1566.002
+- T1567.002
+- T1570
+- T1583.006
+- T1584.003
+- T1584.004
+- T1584.006
+- T1587.001
+- T1588.001
+- T1588.002
+- T1615
+- T1685
+attck_software:
+- S0002
+- S0022
+- S0029
+- S0039
+- S0057
+- S0075
+- S0091
+- S0096
+- S0099
+- S0102
+- S0104
+- S0126
+- S0160
+- S0168
+- S0256
+- S0265
+- S0335
+- S0363
+- S0393
+- S0395
+- S0537
+- S0538
+- S0581
+- S0587
+- S0590
+- S0668
+- S1075
+- S1141
+- S1142
+- S1143
+attck_references:
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G0010
+  external_id: G0010
+  description: ''
+sources:
+- source: mitre-attack
+  imported_at: '2026-10-27T17:28:50Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   apt_groups_operations:
-    matched_mitre_ids: ["G0010"]
-    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
-    source_dataset_url: "https://apt.threattracking.com/"
-    source_links: ["https://securelist.com/analysis/publications/65545/the-epic-turla-operation/","https://securelist.com/blog/research/72081/satellite-turla-apt-command-and-control-in-the-sky/","https://securelist.com/blog/research/67962/the-penquin-turla-2/","https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf","https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf","https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/","https://www.welivesecurity.com/2017/06/06/turlas-watering-hole-campaign-updated-firefox-extension-abusing-instagram/","https://securelist.com/kopiluwak-a-new-javascript-payload-from-turla/77429/","https://www.proofpoint.com/us/threat-insight/post/turla-apt-actor-refreshes-kopiluwak-javascript-backdoor-use-g20-themed-attack","https://www.welivesecurity.com/2017/08/30/eset-research-cyberespionage-gazer/","https://www.govcert.admin.ch/blog/22/technical-report-about-the-ruag-espionage-case","http://www.sueddeutsche.de/digital/it-sicherheit-einbrechen-ausbreiten-abgreifen-1.3887843","https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/","https://www.ncsc.gov.uk/alerts/turla-group-malware","https://motherboard.vice.com/en_us/article/vvk83b/moonlight-maze-turla-link","https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180251/Penquins_Moonlit_Maze_PDF_eng.pdf","https://www.wired.com/2017/04/russian-hackers-used-backdoor-two-decades/","https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/","https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments","https://securelist.com/turla-renews-its-arsenal-with-topinambour/91687/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
-    tab_name: "russia"
+    matched_mitre_ids:
+    - G0010
+    sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+    source_dataset_url: https://apt.threattracking.com/
+    source_links:
+    - https://securelist.com/analysis/publications/65545/the-epic-turla-operation/
+    - https://securelist.com/blog/research/72081/satellite-turla-apt-command-and-control-in-the-sky/
+    - https://securelist.com/blog/research/67962/the-penquin-turla-2/
+    - https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf
+    - https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf
+    - https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/
+    - https://www.welivesecurity.com/2017/06/06/turlas-watering-hole-campaign-updated-firefox-extension-abusing-instagram/
+    - https://securelist.com/kopiluwak-a-new-javascript-payload-from-turla/77429/
+    - https://www.proofpoint.com/us/threat-insight/post/turla-apt-actor-refreshes-kopiluwak-javascript-backdoor-use-g20-themed-attack
+    - https://www.welivesecurity.com/2017/08/30/eset-research-cyberespionage-gazer/
+    - https://www.govcert.admin.ch/blog/22/technical-report-about-the-ruag-espionage-case
+    - http://www.sueddeutsche.de/digital/it-sicherheit-einbrechen-ausbreiten-abgreifen-1.3887843
+    - https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/
+    - https://www.ncsc.gov.uk/alerts/turla-group-malware
+    - https://motherboard.vice.com/en_us/article/vvk83b/moonlight-maze-turla-link
+    - https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180251/Penquins_Moonlit_Maze_PDF_eng.pdf
+    - https://www.wired.com/2017/04/russian-hackers-used-backdoor-two-decades/
+    - https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/
+    - https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments
+    - https://securelist.com/turla-renews-its-arsenal-with-topinambour/91687/
+    source_retrieved_at: '2026-10-27T17:29:13Z'
+    tab_name: russia
   aptnotes:
-    earliest_report_year: "2014"
-    latest_report_year: "2019"
+    earliest_report_year: '2014'
+    latest_report_year: '2019'
     report_count: 11
-    sample_links: ["https://app.box.com/s/xmeq5ajvmzux1appt1qvd8wme7k13o63","https://app.box.com/s/54kvbxp9nc0xtme1omd1xpxcckwm945g","https://app.box.com/s/9rsegtgvnwe9n2lrk6ezxfv8mnpfhpk3","https://app.box.com/s/sg4cyodukt7edmmba6bfikuiu1jgzv59","https://app.box.com/s/5gfajyyz8firhnttdo72j0iz6uo4eo6q","https://app.box.com/s/nrf432kfdk6kadkvbclgykekocn4pzzu","https://app.box.com/s/xcu346jhiokohlj9300q6hif06swac57","https://app.box.com/s/vmzqwqfrmtdjemtdaei60jqu5qrouwrt","https://app.box.com/s/316mbg901wxjdarmtdlj6v4qv29a0ge8","https://app.box.com/s/o72u9tsw4zifxmktac4oreizhlud67ga","https://app.box.com/s/u5p5eae02amqr2n0zg7017cx43t1icwz"]
-    sample_titles: ["Snake Campaign & Cyber Espionage Toolkit","Tr-25 Analysis - Turla / PNet / Snake/ Uroburos","The Epic Turla Operation: Solving Some Of The Mysteries Of Snake/Uroboros","The Uroburos Case: New Sophisticated Rat Identified","The 'Penquin' Turla","The Waterbug Attack Group","Pacifier APT","Carbon Paper: Peering into Turla second stage backdoor","Turla group using Neuron and Nautilus tools alongside Snake malware","Turla group update Neuron malware"]
-    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
-    source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
-    sources: ["BAE Systems","Bitdefender","CIRCL","ESET","Gdata","Kaspersky","NCSC","Symantec"]
+    sample_links:
+    - https://app.box.com/s/xmeq5ajvmzux1appt1qvd8wme7k13o63
+    - https://app.box.com/s/54kvbxp9nc0xtme1omd1xpxcckwm945g
+    - https://app.box.com/s/9rsegtgvnwe9n2lrk6ezxfv8mnpfhpk3
+    - https://app.box.com/s/sg4cyodukt7edmmba6bfikuiu1jgzv59
+    - https://app.box.com/s/5gfajyyz8firhnttdo72j0iz6uo4eo6q
+    - https://app.box.com/s/nrf432kfdk6kadkvbclgykekocn4pzzu
+    - https://app.box.com/s/xcu346jhiokohlj9300q6hif06swac57
+    - https://app.box.com/s/vmzqwqfrmtdjemtdaei60jqu5qrouwrt
+    - https://app.box.com/s/316mbg901wxjdarmtdlj6v4qv29a0ge8
+    - https://app.box.com/s/o72u9tsw4zifxmktac4oreizhlud67ga
+    - https://app.box.com/s/u5p5eae02amqr2n0zg7017cx43t1icwz
+    sample_titles:
+    - Snake Campaign & Cyber Espionage Toolkit
+    - Tr-25 Analysis - Turla / PNet / Snake/ Uroburos
+    - 'The Epic Turla Operation: Solving Some Of The Mysteries Of Snake/Uroboros'
+    - 'The Uroburos Case: New Sophisticated Rat Identified'
+    - The 'Penquin' Turla
+    - The Waterbug Attack Group
+    - Pacifier APT
+    - 'Carbon Paper: Peering into Turla second stage backdoor'
+    - Turla group using Neuron and Nautilus tools alongside Snake malware
+    - Turla group update Neuron malware
+    source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+    source_repository: https://github.com/aptnotes/data
+    source_retrieved_at: '2026-10-27T17:29:15Z'
+    sources:
+    - BAE Systems
+    - Bitdefender
+    - CIRCL
+    - ESET
+    - Gdata
+    - Kaspersky
+    - NCSC
+    - Symantec
+  etda_thai_group_cards:
+    mitre_group_ids:
+    - G0010
+    mitre_technique_ids:
+    - T1202
+    source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
+    source_record_id: ebff5365-ae36-4e47-a310-28c1f3be0b3a
+    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_transforms:
+    - normalized-name
+    - deduplicated-aliases
+    - normalized-optional-fields
+    - adapted-for-threatactor-info
+  eternal_liberty:
+    aliases_by_entity:
+      BitDefender:
+      - Pacifier APT
+      CrowdStrike:
+      - Venomous Bear
+      ESET:
+      - Makersmark
+      Google TAG:
+      - Summit
+      IBM:
+      - ITG12
+      Kaspersky:
+      - Turla
+      MITRE:
+      - G0010
+      Mandiant/FireEye:
+      - UNC4210
+      Microsoft:
+      - Krypton
+      - Secret Blizzard
+      NSA:
+      - SIG2
+      - SIG15
+      - SIG23
+      PWC:
+      - Blue Python
+      Qihoo 360:
+      - APT-C-29
+      SCWX CTU:
+      - CTG-8875
+      Secureworks:
+      - Iron Hunter
+      Symantec:
+      - Waterbug
+      Thales:
+      - ATK13
+      Thalos:
+      - Group88
+    confidence: High
+    license_status: No explicit upstream license; approved as the sole no-license
+      import exception.
+    source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
+    source_record_id: turla
+    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_version: '1.2'
+    type: APT
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "white_bear"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/white_bear"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
-    source_uuid: "dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: white_bear
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/white_bear
+    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_uuid: dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6
+  microsoft_threat_actor_list:
+    license_status: Microsoft publishes this workbook for public reuse and regular
+      updates; imports preserve source attribution and importer provenance.
+    microsoft_name: Secret Blizzard
+    origin_category: Russia
+    source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
+    source_record_id: secretblizzard
+    source_retrieved_at: '2026-10-27T17:18:32Z'
   misp_galaxy:
-    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:UNC4210","refs","synonyms","targeted-sector","group_attack_id","observed_countries","observed_motivations","source","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector"]
-    source_cluster: "threat-actor.json"
-    source_clusters: ["threat-actor.json","tidal-groups.json","360net.json","microsoft-activity-group.json","ransomware.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "fa80877c-f509-4daf-8b62-20aba1635f68"
-    source_record_ids: ["fa80877c-f509-4daf-8b62-20aba1635f68","47ae4fb1-fc61-4e8e-9310-66dda706e1a2","1972273e-2152-558c-b575-222c6d2f3e10","8d19da8a-d0fa-5194-ad6f-315cc4f36c8b","822b3254-d715-46bc-8011-c5b647d314dc"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    meta_keys:
+    - attribution-confidence
+    - cfr-suspected-state-sponsor
+    - cfr-suspected-victims
+    - cfr-target-category
+    - cfr-type-of-incident
+    - country
+    - origin:UNC4210
+    - refs
+    - synonyms
+    - targeted-sector
+    - group_attack_id
+    - observed_countries
+    - observed_motivations
+    - source
+    - target_categories
+    - suspected-victims
+    - target-category
+    - microsoft-origin-threat
+    - sector
+    - name-attribution
+    source_cluster: threat-actor.json
+    source_clusters:
+    - threat-actor.json
+    - tidal-groups.json
+    - 360net.json
+    - microsoft-activity-group.json
+    - ransomware.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: fa80877c-f509-4daf-8b62-20aba1635f68
+    source_record_ids:
+    - fa80877c-f509-4daf-8b62-20aba1635f68
+    - 47ae4fb1-fc61-4e8e-9310-66dda706e1a2
+    - 1972273e-2152-558c-b575-222c6d2f3e10
+    - 8d19da8a-d0fa-5194-ad6f-315cc4f36c8b
+    - 822b3254-d715-46bc-8011-c5b647d314dc
+    source_retrieved_at: '2026-10-27T17:28:59Z'
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0010"
-    source_retrieved_at: "2026-04-26T05:24:31Z"
+    attack_version: '20.0'
+    attack_version_by_domain:
+      enterprise: '20.0'
+      ics: '20.0'
+      mobile: '20.0'
+    relationships_imported_at: '2026-10-27T17:28:50Z'
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_urls:
+      enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+      ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
+      mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
+    source_record_id: G0010
+    source_retrieved_at: '2026-10-27T17:28:50Z'
+    stix_intrusion_set_id: intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6
+  reddrip7_apt_digital_weapon:
+    actor_folder: Turla
+    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Turla/README.md
+    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Turla/Turla_hash.md
+    source_attribution: Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon
+      and are treated as secondary, community-curated leads requiring independent
+      verification before operational use.
+    source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
+    source_retrieved_at: '2026-10-27T17:29:20Z'
   russian_apt_tool_matrix:
     references:
-      - title: "web-assets.esetstatic.com"
-        url: "https://web-assets.esetstatic.com/wls/2020/05/ESET_Turla_ComRAT.pdf"
-        date: "15 June 2020"
-        source_file: "GroupProfiles/Turla.md"
-      - title: "web-assets.esetstatic.com"
-        url: "https://web-assets.esetstatic.com/wls/2018/08/Eset-Turla-Outlook-Backdoor.pdf"
-        date: "17 August 2018"
-        source_file: "GroupProfiles/Turla.md"
-      - title: "www.welivesecurity.com"
-        url: "https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/"
-        date: "2 December 2020"
-        source_file: "GroupProfiles/Turla.md"
-      - title: "symantec-enterprise-blogs.security.com"
-        url: "https://symantec-enterprise-blogs.security.com/threat-intelligence/waterbug-espionage-governments"
-        date: "20 June 2019"
-        source_file: "GroupProfiles/Turla.md"
-      - title: "blog.talosintelligence.com"
-        url: "https://blog.talosintelligence.com/tinyturla-full-kill-chain/"
-        date: "21 March 2024"
-        source_file: "GroupProfiles/Turla.md"
-      - title: "www.welivesecurity.com"
-        url: "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/"
-        date: "22 May 2018"
-        source_file: "GroupProfiles/Turla.md"
-      - title: "www.cisa.gov"
-        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a"
-        date: "9 May 2023"
-        source_file: "GroupProfiles/Turla.md"
-    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
-    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
-    source_files: ["GroupProfiles/Turla.md","Other/ThreatIntelligence.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/Discovery.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
-    source_label: "Turla"
-    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T02:07:35Z"
+    - title: web-assets.esetstatic.com
+      url: https://web-assets.esetstatic.com/wls/2020/05/ESET_Turla_ComRAT.pdf
+      date: 15 June 2020
+      source_file: GroupProfiles/Turla.md
+    - title: web-assets.esetstatic.com
+      url: https://web-assets.esetstatic.com/wls/2018/08/Eset-Turla-Outlook-Backdoor.pdf
+      date: 17 August 2018
+      source_file: GroupProfiles/Turla.md
+    - title: www.welivesecurity.com
+      url: https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/
+      date: 2 December 2020
+      source_file: GroupProfiles/Turla.md
+    - title: symantec-enterprise-blogs.security.com
+      url: https://symantec-enterprise-blogs.security.com/threat-intelligence/waterbug-espionage-governments
+      date: 20 June 2019
+      source_file: GroupProfiles/Turla.md
+    - title: blog.talosintelligence.com
+      url: https://blog.talosintelligence.com/tinyturla-full-kill-chain/
+      date: 21 March 2024
+      source_file: GroupProfiles/Turla.md
+    - title: www.welivesecurity.com
+      url: https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/
+      date: 22 May 2018
+      source_file: GroupProfiles/Turla.md
+    - title: www.cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a
+      date: 9 May 2023
+      source_file: GroupProfiles/Turla.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Russian
+      APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The
+      matrix is used here as a secondary Russian APT tradecraft reference, not as
+      sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - GroupProfiles/Turla.md
+    - Other/ThreatIntelligence.md
+    - Tools/CredentialTheft.md
+    - Tools/DefenseEvasion.md
+    - Tools/Discovery.md
+    - Tools/Exfiltration.md
+    - Tools/LOLBAS.md
+    - Tools/Offsec.md
+    - Tools/RMM-Tools.md
+    source_label: Turla
+    source_repository: https://github.com/BushidoUK/Russian-APT-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:28:04Z'
     tools_by_category:
-      Credential Theft: ["Mimikatz"]
-      Defense Evasion: ["PowerShellRunner","VirtualBox Driver"]
-      Discovery: ["NBTScan","SScan"]
-      Exfiltration: ["4Shared","Dropbox","GMX","Gmail","OneDrive","VFEmail"]
-      LOLBAS: ["PsExec"]
-      Networking: ["Chisel"]
-      OffSec: ["Evil-WinRM","Metapsloit","Metasploit","PowerShell Empire","PowerSploit"]
-      RMM Tools: ["IntelliAdmin"]
-source: "MITRE ATT&CK"
+      Credential Theft:
+      - Mimikatz
+      Defense Evasion:
+      - PowerShellRunner
+      - VirtualBox Driver
+      Discovery:
+      - NBTScan
+      - SScan
+      Exfiltration:
+      - 4Shared
+      - Dropbox
+      - GMX
+      - Gmail
+      - OneDrive
+      - VFEmail
+      LOLBAS:
+      - PsExec
+      Networking:
+      - Chisel
+      OffSec:
+      - Evil-WinRM
+      - Metapsloit
+      - Metasploit
+      - PowerShell Empire
+      - PowerSploit
+      RMM Tools:
+      - IntelliAdmin
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Pensive Ursa
+source: MITRE ATT&CK

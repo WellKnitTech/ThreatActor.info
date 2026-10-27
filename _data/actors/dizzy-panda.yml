@@ -1,18 +1,34 @@
 name: "DIZZY PANDA"
-aliases: ["LadyBoyle","DIZZY PANDA"]
+aliases: ["DIZZY PANDA","LadyBoyle","Dizzy Panda"]
 description: "DIZZY PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/dizzy-panda"
+country: "[\"China\"]"
 source_name: "Malpedia (Fraunhofer FKIE)"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dizzy_panda"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "d15c1ebf-af3b-4672-9900-e99ca12fa672"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Dizzy Panda"]
+    confidence: "Unknown"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "ladyboyle"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dizzy_panda"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dizzy_panda"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "8a8f39df-74b3-4946-ab64-f84968bababe"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

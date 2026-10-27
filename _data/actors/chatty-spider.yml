@@ -1,5 +1,5 @@
 name: "CHATTY SPIDER"
-aliases: ["CHATTY SPIDER"]
+aliases: ["CHATTY SPIDER","Storm-0252"]
 description: "A cybercriminal actor known to carry out \"callback phishing\" social engineering attacks.<sup>[[CrowdStrike 2025 Global Threat Report](/references/a69b0ce3-f314-4b32-bfb3-b1380c4f0ec4)]</sup>"
 url: "/chatty-spider"
 source_name: "MISP Galaxy"
@@ -10,6 +10,14 @@ malware:
   - name: "CyberGate"
   - name: "Cyber Eye RAT"
 provenance:
+  microsoft_threat_actor_list:
+    categories: ["Group in development"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-0252"
+    origin_category: "Group in development"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm0252"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
     meta_keys: ["group_attack_id","observed_motivations","owner","source","tags","target_categories"]
     source_cluster: "tidal-groups.json"
@@ -17,4 +25,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "99c648f7-be33-42d0-af39-231b1e0951ee"
     source_record_ids: ["99c648f7-be33-42d0-af39-231b1e0951ee"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

@@ -1,14 +1,43 @@
 name: "Royal"
-aliases: ["Royal"]
+aliases: ["Gold Souvenir","Royal"]
 description: "Royal is an active extortion or ransomware group tracked by RansomLook."
 url: "/royal"
+last_updated: "2026-10-27"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/royal"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      Secureworks: ["Gold Souvenir"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "royal"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "at-bay.com"
+        url: "https://www.at-bay.com/articles/likely-first-exploit-citrix-vulnerability/"
+        source_file: "Vulnerabilities/Virtualization.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Virtualization.md"]
+    source_label: "Royal"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2022-27510"]
+          source_links: ["https://www.at-bay.com/articles/likely-first-exploit-citrix-vulnerability/"]
+          source_file: "Vulnerabilities/Virtualization.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "royal"
-  source_retrieved_at: "2026-05-06T21:54:58Z"
+  source_retrieved_at: "2026-10-27T17:20:54Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

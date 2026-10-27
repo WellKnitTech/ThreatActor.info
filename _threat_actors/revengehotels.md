@@ -10,7 +10,11 @@ permalink: /revengehotels/
 RevengeHotels is a targeted cybercrime campaign that has been active since 2015, primarily targeting hotels, hostels, and tourism companies. The threat actor uses remote access Trojan malware to infiltrate hotel front desks and steal credit card data from guests and travelers. The campaign has impacted hotels in multiple countries, including Brazil, Argentina, Chile, and Mexico. The threat actor employs social engineering techniques and sells credentials from infected systems to other cybercriminals for remote access.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -30,9 +34,14 @@ RevengeHotels is a targeted cybercrime campaign that has been active since 2015,
 - **Remote Utilities**
 - **RemotePC**
 - **Revenge-RAT**
+- **888 RAT**: 
+- **NanoCore RAT**: 
+- **RevengeRAT**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

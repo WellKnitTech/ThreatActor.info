@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "CIRCUS SPIDER"
-aliases: ["CIRCUS SPIDER"]
+aliases: ["CIRCUS SPIDER","Circus Spider"]
 description: "According to Crowdstrike, the NetWalker ransomware is being developed and maintained by a Russian-speaking actor designated as CIRCUS SPIDER. Initially discovered in September 2019and havinga compilati"
 permalink: /circus-spider/
 ---
@@ -17,7 +17,44 @@ According to Crowdstrike, the NetWalker ransomware is being developed and mainta
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **$4.5M ransom**
+- **2020-02**
+- **2020-03**
+- **2020-05**
+- **2020-06**
+- **2020-07**
+- **2020-09**
+- **2020-10**
+- **Cyber threat startup Cygilant hit by ransomware**
+- **Enel Group hit by ransomware again**
+- **Equinix data center giant hit by Netwalker Ransomware**
+- **Michigan State University hit by ransomware gang**
+- **Netwalker Ransomware Infecting Users via Coronavirus Phishing**
+- **Netwalker Ransomware Stole Data After Targeting Lorien Health Services**
+- **Netwalker demands $14 million**
+- **Netwalker ransomware continues assault on US colleges**
+- **Netwalker ransomware hits Argentinian government**
+- **Netwalker ransomware hits Pakistan's largest private power utility**
+- **Philadelphia-area health system says it 'isolated' a malware attack**
+- **Ransomware Attack Hinders Toll Group Operations**
+- **Ransomware recruits affiliates with huge payouts**
+- **Spanish hospitals targeted with coronavirus-themed phishing lures in Netwalker ransomware attacks**
+- **automated leaks**
+- **demands $4 million**
+- **hits UCSF**
+- **https://latesthackingnews.com/2020/07/23/netwalker-ransomware-stole-data-after-targeting-lorien-health-services/**
+- **https://techcrunch.com/2020/09/03/cygilant-ransomware/**
+- **https://threatpost.com/ransomware-attack-hinders-toll-group-operations/152552/**
+- **https://www.bleepingcomputer.com/news/security/enel-group-hit-by-ransomware-again-netwalker-demands-14-million/**
+- **https://www.bleepingcomputer.com/news/security/equinix-data-center-giant-hit-by-netwalker-ransomware-45m-ransom/**
+- **https://www.bleepingcomputer.com/news/security/netwalker-ransomware-continues-assault-on-us-colleges-hits-ucsf/**
+- **https://www.bleepingcomputer.com/news/security/netwalker-ransomware-hits-argentinian-government-demands-4-million/**
+- **https://www.bleepingcomputer.com/news/security/netwalker-ransomware-hits-pakistans-largest-private-power-utility/**
+- **https://www.bleepingcomputer.com/news/security/netwalker-ransomware-infecting-users-via-coronavirus-phishing/**
+- **https://www.bleepingcomputer.com/news/security/ransomware-recruits-affiliates-with-huge-payouts-automated-leaks/**
+- **https://www.computing.co.uk/news/4012969/hospitals-coronavirus-ransomware**
+- **https://www.cyberscoop.com/crozer-keystone-cyber-attack-netwalker-ransomware/**
+- **https://www.zdnet.com/article/michigan-state-university-hit-by-ransomware-gang/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -29,6 +66,7 @@ According to Crowdstrike, the NetWalker ransomware is being developed and mainta
 - **Back Orifice**
 - **Back Orifice 2000**
 - **Revenge-RAT**
+- **NetWalker**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

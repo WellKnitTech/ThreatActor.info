@@ -1,0 +1,14 @@
+name: "Operation Silent Skimmer"
+aliases: ["Operation Silent Skimmer"]
+description: "(BlackBerry) BlackBerry has discovered a new campaign we’ve dubbed “Silent Skimmer,” involving a financially motivated threat actor targeting vulnerable online payment businesses in the APAC and NALA regions. The attacker compromises web servers, using vulnerabilities to gain initial access. The final payload deploys payment scraping mechanisms on compromised websites to extract sensitive financial data from users. The campaign has been active for over a year, and targets diverse industries that host or create payment infrastructure, such as online businesses and Point of Sales (POS) providers. We have uncovered evidence suggesting the threat actor is proficient in the Chinese language, and operates predominantly in the Asia-Pacific (APAC) region."
+url: "/operation-silent-skimmer"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["BadPotato","Cobalt Strike","GodPotato","Godzilla","JuicyPotato","Living off the Land","PowerShell RAT","SharpToken","SweetPotato"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "87ea63a4-70b1-49b3-80a3-7295c5f47ba9"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

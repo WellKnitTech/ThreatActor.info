@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Webworm"
-aliases: ["Space Pirates","Webworm"]
+aliases: ["Erudite Mogwai","Space Pirates","Webworm"]
 description: "Space Pirates is a cybercrime group that has been active since at least 2017. They primarily target Russian companies and have been observed using various malware, including Deed RAT and ShadowPad. The"
 permalink: /webworm/
 ---
@@ -17,7 +17,12 @@ Space Pirates is a cybercrime group that has been active since at least 2017. Th
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2022-09**
+- **2024-11**
+- **Space Pirates Targets Russian IT Firms With New LuckyStrike Agent Malware**
+- **Webworm: Espionage Attackers Testing and Using Older Modified RATs**
+- **https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats**
+- **https://thehackernews.com/2025/02/space-pirates-targets-russian-it-firms.html**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -29,6 +34,17 @@ Space Pirates is a cybercrime group that has been active since at least 2017. Th
 - **SPACESHIP**
 - **CyberGate**
 - **Cyber Eye RAT**
+- **9002 RAT**: 
+- **BH_A006**: 
+- **Deed RAT**: 
+- **Gh0st RAT**: 
+- **MyKLoadClient**: 
+- **PCShare**: 
+- **PlugX**: 
+- **Poison Ivy**: 
+- **ShadowPad Winnti**: 
+- **Trochilus RAT**: 
+- **Zupdax**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

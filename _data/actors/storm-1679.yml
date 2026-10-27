@@ -14,13 +14,21 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "storm-1679"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1679"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "10582c97-90de-4f2b-8e4d-21513c3971fc"
+  microsoft_threat_actor_list:
+    categories: ["Influence operations"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Oka Flood"
+    origin_category: "Russia, Influence operations"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "okaflood"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["country","origin:Storm-1679","refs","microsoft-origin-threat","synonyms"]
+    meta_keys: ["country","origin:Storm-1679","refs","microsoft-origin-threat","synonyms","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "10582c97-90de-4f2b-8e4d-21513c3971fc"
     source_record_ids: ["10582c97-90de-4f2b-8e4d-21513c3971fc","3f0694c2-605d-5ac3-bdd2-09c2d4be3d73"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

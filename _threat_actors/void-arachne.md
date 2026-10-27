@@ -10,10 +10,17 @@ permalink: /void-arachne/
 Void Arachne is a threat actor group targeting Chinese-speaking users with malicious MSI files containing legitimate software installers for AI software. They exploit public interest in VPN technology and AI software to distribute malware through SEO poisoning and Chinese-language-themed Telegram channels. The group's campaign includes bundling malicious Winos payloads with deepfake pornography-generating AI software and voice-and-face-swapping AI software. Void Arachne also promotes AI technologies for virtual kidnapping and uses AI voice-alternating technology to pressure victims into paying ransom.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+
+
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2025-06**
+- **Threat Group Targets Companies in Taiwan**
+- **https://somedieyoungzz.github.io/posts/silver-fox/**
+- **https://www.fortinet.com/blog/threat-research/threat-group-targets-companies-in-taiwan**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -25,9 +32,13 @@ Void Arachne is a threat actor group targeting Chinese-speaking users with malic
 - **PoisonIvy**
 - **Xploit**
 - **GraphicBooting**
+- **Gh0stCringe**: 
+- **HoldingHands RAT**: 
+- **Winos**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Cryptorium (Fake Ransomware)"
 aliases: ["Cryptorium (Fake Ransomware)"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on. It SUPPOSEDLY encrypts all your files, including: mu"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It SUPPOSEDLY encrypts all your files, including: mus"
 permalink: /cryptorium-fake-ransomware/
 ---
 

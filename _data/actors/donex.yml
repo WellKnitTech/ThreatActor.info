@@ -4,6 +4,7 @@ description: "The ransomware group known as DoNex was first identified in mid-Ma
 url: "/donex"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/donex"
 provenance:
   misp_galaxy:
     meta_keys: ["TTP","links","ransomnotes","ransomnotes-filenames","refs"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "bc89266b-31d5-5627-9d1d-822ff84792be"
     source_record_ids: ["bc89266b-31d5-5627-9d1d-822ff84792be"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "donex"
+  source_retrieved_at: "2026-10-27T17:20:52Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -4,6 +4,7 @@ description: "BIDON is a variant of the Monti ransomware family, first observed 
 url: "/bidon"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/bidon"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "edf19636-dbb4-52a4-bd5a-e0857f1a8df5"
     source_record_ids: ["edf19636-dbb4-52a4-bd5a-e0857f1a8df5"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "bidon"
+  source_retrieved_at: "2026-10-27T17:20:25Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,9 +1,10 @@
 name: "blackshrantac"
-aliases: ["blackshrantac","black shrantac"]
+aliases: ["black shrantac","blackshrantac"]
 description: "aka black shrantac"
 url: "/blackshrantac"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/blackshrantac"
 malware:
   - name: "BlackEnergy"
   - name: "BLACKCOFFEE"
@@ -18,4 +19,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "e8929315-0da4-5d0d-bc28-3c9f85395cff"
     source_record_ids: ["e8929315-0da4-5d0d-bc28-3c9f85395cff","1567a010-9a60-5fe9-8173-5e06b11fb4cb"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "blackshrantac"
+  source_retrieved_at: "2026-10-27T17:23:47Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

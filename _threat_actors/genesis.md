@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "genesis"
 aliases: ["genesis"]
-description: "    Financial interests only.\r<br/>    We do not provide or work with affiliate programs, no collaborations either.\r<br/>    The requested payment must be made within a specified time frame, otherwise "
+description: "Financial interests only. <br/> We do not provide or work with affiliate programs, no collaborations either. <br/> The requested payment must be made within a specified time frame, otherwise the price "
 permalink: /genesis/
 ---
 

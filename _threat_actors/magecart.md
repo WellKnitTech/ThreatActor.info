@@ -13,7 +13,8 @@ Digital threat management company RiskIQ tracks the activity of MageCart group a
 *Information pending cataloguing.*
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [Direct Clothing Co. UK (DDCUK)](https://ico.org.uk/media2/e3ef5pfb/direct-clothing-company-uk-reprimand.pdf) (August 2021; Magecart (suspected) (eCrime))
+- [Chartered Institute for Securities & Investment (CISI)](https://ico.org.uk/media2/1kip5gw2/chartered-institiute-for-securities-and-investment-reprimand.pdf) (February 2020; Magecart (suspected) (eCrime))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

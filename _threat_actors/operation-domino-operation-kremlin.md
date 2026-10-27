@@ -1,0 +1,42 @@
+---
+layout: threat_actor
+title: "Operation Domino, Operation Kremlin"
+aliases: ["Operation Domino","Operation Kremlin","Operation “Domino”","Operation “Kremlin”"]
+description: "(Clearsky) ClearSky researchers identified a malicious “.docx” file that was uploaded to VirusTotal from Russia in mid-December. The file contains an obfuscated URL to a remote template which contains "
+permalink: /operation-domino-operation-kremlin/
+---
+
+## Introduction
+(Clearsky) ClearSky researchers identified a malicious “.docx” file that was uploaded to VirusTotal from Russia in mid-December. The file contains an obfuscated URL to a remote template which contains malicious VBA, eventually leading to the execution of VBS on the infected machine. The attack’s purpose is to stealthily exfiltrate information without running any external executables on the system. Notably, the process is escalated on a certain day of the week, suggesting a possible familiarity with the intended victim or victims. We estimate with medium confidence that the same threat actor responsible for the attacks described in this paper also conducted an attack named “Operation Domino” that occurred earlier in 2020. We decided to name the operation “Kremlin” due to the use of a parameter named “kreml” in the “poslai” (meaning send in Russian) function that exfiltrates the data.
+
+## Activities and Tactics
+**Country of Origin**: 🇷🇺 ["Russia"]
+
+
+
+
+
+## Notable Campaigns
+- **2020-09**
+- **2020-12**
+- **Operation “Domino”**
+- **Operation “Kremlin”**
+- **https://ti.dbappsecurity.com.cn/blog/index.php/2020/09/18/operation-domino/**
+- **https://www.clearskysec.com/operation-kremlin/**
+
+## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+
+## Malware and Tools
+*Information pending cataloguing.*
+
+## Attribution and Evidence
+**Country of Origin**: ["Russia"]
+*Additional attribution information pending cataloguing.*
+
+## References
+*References pending cataloguing.*
+

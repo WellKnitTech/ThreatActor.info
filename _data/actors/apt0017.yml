@@ -1,5 +1,5 @@
 name: "DragonOK"
-aliases: ["BRONZE OVERBROOK","Dragon Castling","DragonOK","G0002","G0017","Moafee","Shallow Taurus"]
+aliases: ["BRONZE OVERBROOK","Bronze Overbrook","Dragon Castling","DragonOK","G0002","G0017","Moafee","Shallow Taurus"]
 description: "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. [Operation Quantum Entanglement](https://web.archive.org/web/20210920193513/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. [New DragonOK](http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/)"
 url: "/apt0017"
 country: "China"
@@ -19,6 +19,7 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonok"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2015-01","2016","2017","2017-01","All five phishing campaigns targeted a Japanese manufacturing firm over the course of two months","Cybersecurity expert Niklas Femerstrand in an email yesterday pointed out that while servers in several different countries appear to be the origin the attack","In recent months","Japan","This campaign involved five separate phishing attacks","Tibet and Russia","Unit 42 has observed a number of attacks that we attribute to this group. Multiple new variants of the previously discussed sysget malware family have been observed in use by DragonOK. Sysget malware was delivered both directly via phishing emails","adding that there are “strong indications” the campaign is “an operation funded by China”.","also known as HelloBridge. The malware was included as an attachment intended to trick the user into opening the malware.","and political organizations in Cambodia since at least January","as well as in Rich Text Format (RTF) documents exploiting the CVE-2015-1641 vulnerability that in turn leveraged a very unique shellcode.","but the final campaign also targeted a separate Japanese high-tech organization.","each carrying a different variant of Sysget malware","https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/","https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions/","https://www.phnompenhpost.com/national/kingdom-targeted-new-malware","it has been linked to the DragonOK campaign.","“The DragonOK campaign has previously [in 2014] targeted organizations in Taiwan","” he wrote"]
 malware:
   - "PlugX"
   - "PoisonIvy"
@@ -26,6 +27,16 @@ malware:
   - name: "Sysget"
   - name: "IsSpace"
   - name: "Rambo Backdoor"
+  - name: "FormerFirstRAT"
+  - name: "HTran"
+  - name: "KHRAT"
+  - name: "Mongall"
+  - name: "NFlog"
+  - name: "NewCT"
+  - name: "PlugX"
+  - name: "Poison Ivy"
+  - name: "Rambo"
+  - name: "TidePool"
 software:
   - name: "PoisonIvy"
     mitre_id: "S0012"
@@ -52,43 +63,59 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0017"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/","http://researchcenter.paloaltonetworks.com/2017/01/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions/","https://blogs.forcepoint.com/security-labs/trojanized-adobe-installer-used-install-dragonok%E2%80%99s-new-custom-backdoor","http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor","https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf","https://decoded.avast.io/luigicamastra/operation-dragon-castling-apt-group-targeting-betting-companies/","https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2017"
-    latest_report_year: "2022"
-    report_count: 2
-    sample_links: ["https://app.box.com/s/50tu7yfcrcj3ntj6b894rq6londdps34","https://app.box.com/s/xtmf4vkiyrwbnyk9dp0aa3v3aoe7zoc9"]
-    sample_titles: ["DragonOK Updates Toolset and Targets Multiple Geographic Regions","Operation Dragon Castling: APT group targeting betting companies"]
+    latest_report_year: "2017"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/50tu7yfcrcj3ntj6b894rq6londdps34"]
+    sample_titles: ["DragonOK Updates Toolset and Targets Multiple Geographic Regions"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
-    sources: ["Avast","Palo Alto Networks"]
+    source_retrieved_at: "2026-10-27T17:29:15Z"
+    sources: ["Palo Alto Networks"]
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0017"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "6823d807-dfa8-42f3-84d5-986a7ef60c56"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dragonok"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonok"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "a9b44750-992c-4743-8922-129880d277ea"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0017"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--f3bdec95-3d62-42d9-a840-29630f6cdc1a"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "DragonCastling"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/DragonCastling/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/DragonCastling/DragonCastling_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
 source: "MITRE ATT&CK"

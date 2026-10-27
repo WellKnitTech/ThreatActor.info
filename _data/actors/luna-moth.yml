@@ -1,5 +1,5 @@
 name: "Luna Moth"
-aliases: ["Silent Ransom","TG2729","Luna Moth"]
+aliases: ["Silent Ransom","TG2729","Luna Moth","SilentRansomGroup"]
 description: "Luna Moth conducts high-tempo callback phishing campaigns targeting legal and financial organizations in the U.S., using social engineering to lure victims into calling fake helpdesk numbers. Attackers impersonate IT staff to install legitimate RMM tools, enabling direct access to victim systems for data exfiltration. The group demands ransoms between $1 million and $8 million, threatening to leak stolen data if payments are not made. Their operations reflect a shift from traditional ransomware tactics to data breach extortion, leveraging trusted systems to evade detection."
 url: "/luna-moth"
 source_name: "MISP Galaxy"
@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "luna_moth"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/luna_moth"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "f5022a01-27c3-4cff-bc64-9980dc003a66"
   misp_galaxy:
     meta_keys: ["refs","synonyms","group_attack_id","observed_motivations","owner","source","tags","target_categories"]

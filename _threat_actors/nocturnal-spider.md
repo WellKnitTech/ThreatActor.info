@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "NOCTURNAL SPIDER"
-aliases: ["NOCTURNAL SPIDER"]
+aliases: ["NOCTURNAL SPIDER","Nocturnal Spider"]
 description: "Mentioned as MaaS operator in CrowdStrike's 2020 Report."
 permalink: /nocturnal-spider/
 ---
@@ -10,7 +10,11 @@ permalink: /nocturnal-spider/
 Mentioned as MaaS operator in CrowdStrike's 2020 Report.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇷🇺 Russia
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ Mentioned as MaaS operator in CrowdStrike's 2020 Report.
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

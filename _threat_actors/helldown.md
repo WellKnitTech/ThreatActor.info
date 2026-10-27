@@ -16,13 +16,25 @@ Helldown is an emerging ransomware group first identified in August 2024, known 
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Network Edge | Zyxel | Zyxel Firewall | CVE-2024-11667, CVE-2024-42057 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz |
+| Defense Evasion | HRSword |
+| Discovery | Advanced Port Scanner |
+| LOLBAS | PsExec |
+| RMM Tools | TeamViewer |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

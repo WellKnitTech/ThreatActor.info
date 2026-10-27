@@ -19,7 +19,7 @@ Mcafee is an active extortion or ransomware group tracked by RansomLook.
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 2 public reports that may contain IOCs; see Source Attribution for dataset links.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 *Information pending cataloguing.*

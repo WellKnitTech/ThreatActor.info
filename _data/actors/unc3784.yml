@@ -10,6 +10,16 @@ malware:
   - name: "China Chopper"
   - name: "Xploit"
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      Mandiant/FireEye: ["UNC3784"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "unc3784"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   misp_galaxy:
     meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
     source_cluster: "tidal-groups.json"
@@ -17,4 +27,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "0c0670ec-f052-44ad-a1bd-5d6d61d0fca8"
     source_record_ids: ["0c0670ec-f052-44ad-a1bd-5d6d61d0fca8"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

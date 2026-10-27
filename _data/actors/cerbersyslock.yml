@@ -4,6 +4,7 @@ description: "CerBerSysLock first appeared in December 2017 as a cryptoransomwar
 url: "/cerbersyslock"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/cerbersyslock"
 malware:
   - name: "Cerberus RAT"
 provenance:
@@ -14,4 +15,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "f7cfcc14-8f12-5e54-bb4e-a8ccb51ceb53"
     source_record_ids: ["f7cfcc14-8f12-5e54-bb4e-a8ccb51ceb53"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "cerbersyslock"
+  source_retrieved_at: "2026-10-27T17:21:20Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

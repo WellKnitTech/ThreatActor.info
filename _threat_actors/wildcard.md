@@ -10,7 +10,11 @@ permalink: /wildcard/
 Wildcard is a threat actor that initially targeted Israel's educational sector with the SysJoker malware. They have since expanded their operations and developed additional malware variants, disguised as legitimate software, including one written in the Rust programming language called RustDown. Their precise identity remains unknown, but they have shown advanced capabilities and a focus on critical sectors within Israel.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -23,9 +27,12 @@ Wildcard is a threat actor that initially targeted Israel's educational sector w
 
 ## Malware and Tools
 - **Unknown Logger**
+- **RustDown**: 
+- **SysJoker**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

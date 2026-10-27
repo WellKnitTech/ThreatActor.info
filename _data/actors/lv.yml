@@ -4,6 +4,7 @@ description: "parser needs to be built"
 url: "/lv"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/lv"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "46d56775-5f8c-411e-adbe-2acd07bf99ac"
     source_record_ids: ["46d56775-5f8c-411e-adbe-2acd07bf99ac"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "lv"
+  source_retrieved_at: "2026-10-27T17:24:15Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

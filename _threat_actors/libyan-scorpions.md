@@ -31,7 +31,8 @@ Libyan Scorpions is a malware operation in use since September 2015 and operated
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Benghazi.exe**: 
+- **Voice Massege.apk**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Libya

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "National Security Bureau (Yemen)"
 aliases: ["National Security Bureau (Yemen)"]
-description: "National Security Bureau  (NSB)"
+description: "National Security Bureau (NSB)"
 permalink: /national-security-bureau-yemen/
 ---
 

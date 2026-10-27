@@ -1,5 +1,5 @@
 name: "Cyber fighters of Izz Ad-Din Al Qassam"
-aliases: ["Fraternal Jackal","Cyber fighters of Izz Ad-Din Al Qassam"]
+aliases: ["Cyber fighters of Izz Ad-Din Al Qassam","Fraternal Jackal","QCF","Qassam Cyber Fighters"]
 description: "Cyber fighters of Izz Ad-Din Al Qassam is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/cyber-fighters-of-izz-ad-din-al-qassam"
 country: "Iran"
@@ -15,13 +15,28 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://pastebin.com/u/QassamCyberFighters","http://ddanchev.blogspot.com.es/2012/09/dissecting-operation-ababil-osint.html","http://www.nytimes.com/2013/01/09/technology/online-banking-attacks-were-work-of-iran-us-officials-say.html","https://www.washingtonpost.com/world/national-security/iran-blamed-for-cyberattacks/2012/09/21/afbe2be4-0412-11e2-9b24-ff730c7f6312_story.html"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "iran"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "f64252d6-0e52-4fd9-8151-06bf35dcd905"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Fraternal Jackal"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "fraternaljackal"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Hacktivists"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "cyber_fighters_of_izz_ad-din_al_qassam"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cyber_fighters_of_izz_ad-din_al_qassam"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "22c2b363-5d8f-4b04-96db-1b6cf4d7e8db"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

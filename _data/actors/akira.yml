@@ -1,311 +1,674 @@
-name: "Akira"
-aliases: ["Akira","Akira Ransomware","GOLD SAHARA","Howling Scorpius","PUNK SPIDER"]
-description: "Akira is a ransomware variant and ransomware deployment entity active since at least March 2023. [Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/) Akira uses compromised credentials to access single-factor external access mechanisms such as VPNs for initial access, then various publicly-available tools and techniques for lateral movement. [Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/) [Secureworks GOLD SAHARA](https://www.secureworks.com/research/threat-profiles/gold-sahara) Akira operations are associated with \"double extortion\" ransomware activity, where data is exfiltrated from victim environments prior to encryption, with threats to publish files if a ransom is not paid. Technical analysis of Akira ransomware indicates variants capable of targeting Windows or VMWare ESXi hypervisors and multiple overlaps with Conti ransomware. [BushidoToken Akira 2023](https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html) [CISA Akira Ransomware APR 2024](https://www.cisa.gov/sites/default/files/2024-04/aa24-109a-stopransomware-akira-ransomware_2.pdf) [Cisco Akira Ransomware OCT 2024](https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/)"
+---
+name: Akira
+aliases:
+- Akira
+- Akira Ransomware
+- GOLD SAHARA
+- Howling Scorpius
+- PUNK SPIDER
+- Punk Spider (CrowdStrike)
+- Storm-1567 (Microsoft)
+description: Akira is a ransomware variant and ransomware deployment entity active
+  since at least March 2023. [Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/)
+  Akira uses compromised credentials to access single-factor external access mechanisms
+  such as VPNs for initial access, then various publicly-available tools and techniques
+  for lateral movement. [Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/)
+  [Secureworks GOLD SAHARA](https://www.secureworks.com/research/threat-profiles/gold-sahara)
+  Akira operations are associated with "double extortion" ransomware activity, where
+  data is exfiltrated from victim environments prior to encryption, with threats to
+  publish files if a ransom is not paid. Technical analysis of Akira ransomware indicates
+  variants capable of targeting Windows or VMWare ESXi hypervisors and multiple overlaps
+  with Conti ransomware. [BushidoToken Akira 2023](https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html)
+  [CISA Akira Ransomware APR 2024](https://www.cisa.gov/sites/default/files/2024-04/aa24-109a-stopransomware-akira-ransomware_2.pdf)
+  [Cisco Akira Ransomware OCT 2024](https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/)
 url: "/akira"
-country: "Unknown"
-sector_focus: ["Healthcare","Education","Government","Technology"]
-first_seen: "2023"
-last_activity: "2025"
-last_updated: "2026-04-28"
-risk_level: "High"
-external_id: "G1024"
-external_url: "https://attack.mitre.org/groups/G1024"
-mitre_id: "G1024"
-mitre_url: "https://attack.mitre.org/groups/G1024"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
+country: Unknown
+sector_focus:
+- Healthcare
+- Education
+- Government
+- Technology
+first_seen: '2023'
+last_activity: '2025'
+last_updated: '2026-10-27'
+risk_level: High
+confidence: high
+external_id: G1024
+external_url: https://attack.mitre.org/groups/G1024
+mitre_id: G1024
+mitre_url: https://attack.mitre.org/groups/G1024
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+software:
+- name: Mimikatz
+  mitre_id: S0002
+  url: https://attack.mitre.org/software/S0002
+  type: tool
+  stix_id: tool--afc079f3-c0ea-4096-b75d-3f05338b7f60
+  description: 'Mimikatz is a credential dumper capable of obtaining plaintext Windows
+    account logins and passwords, along with many other features that make it useful
+    for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity
+    Mimikatz Guide)'
+- name: PsExec
+  mitre_id: S0029
+  url: https://attack.mitre.org/software/S0029
+  type: tool
+  stix_id: tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db
+  description: 'PsExec is a free Microsoft tool that can be used to execute a program
+    on another computer. It is used by IT administrators and attackers.(Citation:
+    Russinovich Sysinternals)(Citation: SANS PsExec)'
+- name: AdFind
+  mitre_id: S0552
+  url: https://attack.mitre.org/software/S0552
+  type: tool
+  stix_id: tool--f59508a6-3615-47c3-b493-6676e1a39a87
+  description: 'AdFind is a free command-line query tool that can be used for gathering
+    information from Active Directory.(Citation: Red Canary Hospital Thwarted Ryuk
+    October 2020)(Citation: FireEye FIN6 Apr 2019)(Citation: FireEye Ryuk and Trickbot
+    January 2019)'
+- name: Akira _v2
+  mitre_id: S1194
+  url: https://attack.mitre.org/software/S1194
+  type: malware
+  stix_id: malware--929d0d4d-b7c6-4ee8-81eb-43c849294e27
+  description: 'Akira _v2 is a Rust-based variant of Akira ransomware that has been
+    in use since at least 2024. Akira _v2 is designed to target VMware ESXi servers
+    and includes a new command-line argument set and other expanded capabilities.(Citation:
+    CISA Akira Ransomware APR 2024)(Citation: Cisco Akira Ransomware OCT 2024)(Citation:
+    Palo Alto Howling Scorpius DEC 2024)'
+- name: Akira
+  mitre_id: S1129
+  url: https://attack.mitre.org/software/S1129
+  type: malware
+  stix_id: malware--6f6b2353-4b39-40ce-9d6d-d00b7a61e656
+  description: Akira ransomware, written in C++, is most prominently (but not exclusively)
+    associated with the ransomware-as-a-service entity Akira. Akira ransomware has
+    been used in attacks across North America, Europe, and Australia, with a focus
+    on critical infrastructure sectors including manufacturing, education, and IT
+    services. Akira ransomware employs hybrid encryption and threading to increase
+    the speed and efficiency of encryption and runtime arguments for tailored attacks.
+    Notable variants include Ru
+- name: Megazord
+  mitre_id: S1191
+  url: https://attack.mitre.org/software/S1191
+  type: malware
+  stix_id: malware--4e762e29-3c56-4a2b-b205-c5890c0856ed
+  description: "Megazord is a Rust-based variant of Akira ransomware that has been
+    in use since at least August 2023 to target Windows environments. Megazord has
+    been attributed to the Akira group based on overlapping infrastructure though
+    is possibly not exclusive to the group.(Citation: CISA Akira Ransomware APR 2024)(Citation:
+    Cisco Akira Ransomware OCT 2024)(Citation: Palo Alto Howling Scorpius DEC 2024)\n\n"
+- name: LaZagne
+  mitre_id: S0349
+  url: https://attack.mitre.org/software/S0349
+  type: tool
+  stix_id: tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b
+  description: 'LaZagne is a post-exploitation, open-source tool used to recover stored
+    passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly
+    focused on Windows systems. LaZagne is publicly available on GitHub.(Citation:
+    GitHub LaZagne Dec 2018)'
+- name: Rclone
+  mitre_id: S1040
+  url: https://attack.mitre.org/software/S1040
+  type: tool
+  stix_id: tool--59096109-a1dd-463b-87e7-a8d110fe3a79
+  description: 'Rclone is a command line program for syncing files with cloud storage
+    services such as Dropbox, Google Drive, Amazon S3, and MEGA. Rclone has been used
+    in a number of ransomware campaigns, including those associated with the Conti
+    and DarkSide Ransomware-as-a-Service operations.(Citation: Rclone)(Citation: Rclone
+    Wars)(Citation: Detecting Rclone)(Citation: DarkSide Ransomware Gang)(Citation:
+    DFIR Conti Bazar Nov 2021)'
+ttps:
+- technique_id: T1567.002
+  technique_name: Exfiltration to Cloud Storage
+  url: https://attack.mitre.org/techniques/T1567/002
+  stix_id: attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b
+- technique_id: T1213.002
+  technique_name: Sharepoint
+  url: https://attack.mitre.org/techniques/T1213/002
+  stix_id: attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a
+- technique_id: T1531
+  technique_name: Account Access Removal
+  url: https://attack.mitre.org/techniques/T1531
+  stix_id: attack-pattern--b24e2a20-3b3d-4bf0-823b-1ed765398fb0
+- technique_id: T1482
+  technique_name: Domain Trust Discovery
+  url: https://attack.mitre.org/techniques/T1482
+  stix_id: attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0
+- technique_id: T1036.005
+  technique_name: Match Legitimate Resource Name or Location
+  url: https://attack.mitre.org/techniques/T1036/005
+  stix_id: attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2
+- technique_id: T1078
+  technique_name: Valid Accounts
+  url: https://attack.mitre.org/techniques/T1078
+  stix_id: attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81
+- technique_id: T1558
+  technique_name: Steal or Forge Kerberos Tickets
+  url: https://attack.mitre.org/techniques/T1558
+  stix_id: attack-pattern--3fc01293-ef5e-41c6-86ce-61f10706b64a
+- technique_id: T1018
+  technique_name: Remote System Discovery
+  url: https://attack.mitre.org/techniques/T1018
+  stix_id: attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735
+- technique_id: T1021.001
+  technique_name: Remote Desktop Protocol
+  url: https://attack.mitre.org/techniques/T1021/001
+  stix_id: attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf
+- technique_id: T1059.001
+  technique_name: PowerShell
+  url: https://attack.mitre.org/techniques/T1059/001
+  stix_id: attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736
+- technique_id: T1657
+  technique_name: Financial Theft
+  url: https://attack.mitre.org/techniques/T1657
+  stix_id: attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3
+- technique_id: T1486
+  technique_name: Data Encrypted for Impact
+  url: https://attack.mitre.org/techniques/T1486
+  stix_id: attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0
+- technique_id: T1133
+  technique_name: External Remote Services
+  url: https://attack.mitre.org/techniques/T1133
+  stix_id: attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d
+- technique_id: T1027.001
+  technique_name: Binary Padding
+  url: https://attack.mitre.org/techniques/T1027/001
+  stix_id: attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5
+- technique_id: T1685
+  technique_name: Disable or Modify Tools
+  url: https://attack.mitre.org/techniques/T1685
+  stix_id: attack-pattern--bbde9781-60aa-4b8a-a911-895b0c1b3872
+- technique_id: T1219
+  technique_name: Remote Access Tools
+  url: https://attack.mitre.org/techniques/T1219
+  stix_id: attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7
+- technique_id: T1560.001
+  technique_name: Archive via Utility
+  url: https://attack.mitre.org/techniques/T1560/001
+  stix_id: attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662
+attck_techniques:
+- T1018
+- T1021.001
+- T1027.001
+- T1036.005
+- T1059.001
+- T1078
+- T1133
+- T1213.002
+- T1219
+- T1482
+- T1486
+- T1531
+- T1558
+- T1560.001
+- T1567.002
+- T1657
+- T1685
+attck_software:
+- S0002
+- S0029
+- S0349
+- S0552
+- S1040
+- S1129
+- S1191
+- S1194
+attck_references:
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G1024
+  external_id: G1024
+  description: ''
+sources:
+- source: mitre-attack
+  imported_at: '2026-10-27T17:28:50Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 cisa_kev_cves:
-  - cve: "CVE-2019-6693"
-    dateAdded: "2025-06-25"
-    vendor: "Fortinet"
-    product: "FortiOS"
-  - cve: "CVE-2024-40711"
-    dateAdded: "2024-10-17"
-    vendor: "Veeam"
-    product: "Backup & Replication"
-  - cve: "CVE-2024-40766"
-    dateAdded: "2024-09-09"
-    vendor: "SonicWall"
-    product: "SonicOS"
-  - cve: "CVE-2024-37085"
-    dateAdded: "2024-07-30"
-    vendor: "VMware"
-    product: "ESXi"
-  - cve: "CVE-2023-48788"
-    dateAdded: "2024-03-25"
-    vendor: "Fortinet"
-    product: "FortiClient EMS"
-  - cve: "CVE-2020-3259"
-    dateAdded: "2024-02-15"
-    vendor: "Cisco"
-    product: "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)"
-  - cve: "CVE-2023-20269"
-    dateAdded: "2023-09-13"
-    vendor: "Cisco"
-    product: "Adaptive Security Appliance and Firepower Threat Defense"
-  - cve: "CVE-2023-27532"
-    dateAdded: "2023-08-22"
-    vendor: "Veeam"
-    product: "Backup & Replication"
-  - cve: "CVE-2023-28252"
-    dateAdded: "2023-04-11"
-    vendor: "Microsoft"
-    product: "Windows"
-  - cve: "CVE-2022-40684"
-    dateAdded: "2022-10-11"
-    vendor: "Fortinet"
-    product: "Multiple Products"
-  - cve: "CVE-2020-3580"
-    dateAdded: "2021-11-03"
-    vendor: "Cisco"
-    product: "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)"
+- cve: CVE-2019-6693
+  dateAdded: '2025-06-25'
+  vendor: Fortinet
+  product: FortiOS
+- cve: CVE-2024-40711
+  dateAdded: '2024-10-17'
+  vendor: Veeam
+  product: Backup & Replication
+- cve: CVE-2024-40766
+  dateAdded: '2024-09-09'
+  vendor: SonicWall
+  product: SonicOS
+- cve: CVE-2024-37085
+  dateAdded: '2024-07-30'
+  vendor: VMware
+  product: ESXi
+- cve: CVE-2023-48788
+  dateAdded: '2024-03-25'
+  vendor: Fortinet
+  product: FortiClient EMS
+- cve: CVE-2020-3259
+  dateAdded: '2024-02-15'
+  vendor: Cisco
+  product: Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)
+- cve: CVE-2023-20269
+  dateAdded: '2023-09-13'
+  vendor: Cisco
+  product: Adaptive Security Appliance and Firepower Threat Defense
+- cve: CVE-2023-27532
+  dateAdded: '2023-08-22'
+  vendor: Veeam
+  product: Backup & Replication
+- cve: CVE-2023-28252
+  dateAdded: '2023-04-11'
+  vendor: Microsoft
+  product: Windows
+- cve: CVE-2022-40684
+  dateAdded: '2022-10-11'
+  vendor: Fortinet
+  product: Multiple Products
+- cve: CVE-2020-3580
+  dateAdded: '2021-11-03'
+  vendor: Cisco
+  product: Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)
 provenance:
   bushido_breach_reports:
+    source_repository: https://github.com/BushidoUK/Breach-Report-Collection
+    source_dataset_url: https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md
+    source_attribution: References were identified via the BushidoToken Breach Report
+      Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
+      used here as a report index. Copyright in linked reports remains with the original
+      publishers.
+    source_retrieved_at: '2026-10-27T17:29:27Z'
     reports:
-      - organization: "Nissan Australia"
-        breach_date: "December 2023"
-        adversary_label: "Akira (Ransomware)"
-        links: ["https://www.nissan.com.au/website-update.html"]
-        archived_links: ["https://web.archive.org/web/20240102223637/https://www.nissan.com.au/website-update.html"]
-      - organization: "BHI Energy"
-        breach_date: "October 2023"
-        adversary_label: "Akira (Ransomware)"
-        links: ["https://www.documentcloud.org/documents/24075435-bhi-notice"]
-        archived_links: ["http://web.archive.org/web/20231023214413/https://www.documentcloud.org/documents/24075435-bhi-notice"]
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_retrieved_at: "2026-04-28T01:40:03Z"
+    - organization: Nissan Australia
+      breach_date: December 2023
+      adversary_label: Akira (Ransomware)
+      links:
+      - https://www.nissan.com.au/website-update.html
+      archived_links:
+      - https://web.archive.org/web/20240102223637/https://www.nissan.com.au/website-update.html
+    - organization: BHI Energy
+      breach_date: October 2023
+      adversary_label: Akira (Ransomware)
+      links:
+      - https://www.documentcloud.org/documents/24075435-bhi-notice
+      archived_links:
+      - http://web.archive.org/web/20231023214413/https://www.documentcloud.org/documents/24075435-bhi-notice
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G1024"
-    source_retrieved_at: "2026-04-26T05:24:31Z"
+    attack_version: '20.0'
+    attack_version_by_domain:
+      enterprise: '20.0'
+      ics: '20.0'
+      mobile: '20.0'
+    relationships_imported_at: '2026-10-27T17:28:50Z'
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_urls:
+      enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+      ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
+      mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
+    source_record_id: G1024
+    source_retrieved_at: '2026-10-27T17:28:50Z'
+    stix_intrusion_set_id: intrusion-set--46bb06cb-f2d9-4b37-8c92-a27e224ad90d
   ransomware_tool_matrix:
     community_reports:
-      - source_file: "CommunityReports/CR-001-AKIRA-JUN-2025.md"
-        incident_time: "June 2025"
-        victim_sector: "Construction"
-        victim_country: "Canada"
-      - source_file: "CommunityReports/CR-002-AKIRA-APR-2025.md"
-        incident_time: "April 2025"
-        victim_sector: "Food and Agriculture"
-        victim_country: "Canada"
-      - source_file: "CommunityReports/CR-003-AKIRA-JUN-2025.md"
-        incident_time: "June 2025"
-        victim_sector: "Manufacturing"
-        victim_country: "Canada"
-      - source_file: "CommunityReports/CR-009-AKIRA-AUG-2025.md"
-        incident_time: "August 2025"
-        victim_sector: "Construction"
-        victim_country: "USA"
-      - source_file: "CommunityReports/CR-010-AKIRA-AUG-2025.md"
-        incident_time: "August 2025"
-        victim_sector: "Engineering"
-        victim_country: "USA"
-      - source_file: "CommunityReports/CR-017-AKIRA-SEP-2025.md"
-        incident_time: "September 2025"
-        victim_sector: "Professional Services"
-        victim_country: "Canada"
-      - source_file: "CommunityReports/CR-018-AKIRA-NOV-2025.md"
-        incident_time: "November 2025"
-        victim_sector: "Manufacturing"
-        victim_country: "Canada"
+    - source_file: CommunityReports/CR-001-AKIRA-JUN-2025.md
+      incident_time: June 2025
+      victim_sector: Construction
+      victim_country: Canada
+    - source_file: CommunityReports/CR-002-AKIRA-APR-2025.md
+      incident_time: April 2025
+      victim_sector: Food and Agriculture
+      victim_country: Canada
+    - source_file: CommunityReports/CR-003-AKIRA-JUN-2025.md
+      incident_time: June 2025
+      victim_sector: Manufacturing
+      victim_country: Canada
+    - source_file: CommunityReports/CR-009-AKIRA-AUG-2025.md
+      incident_time: August 2025
+      victim_sector: Construction
+      victim_country: USA
+    - source_file: CommunityReports/CR-010-AKIRA-AUG-2025.md
+      incident_time: August 2025
+      victim_sector: Engineering
+      victim_country: USA
+    - source_file: CommunityReports/CR-017-AKIRA-SEP-2025.md
+      incident_time: September 2025
+      victim_sector: Professional Services
+      victim_country: Canada
+    - source_file: CommunityReports/CR-018-AKIRA-NOV-2025.md
+      incident_time: November 2025
+      victim_sector: Manufacturing
+      victim_country: Canada
     references:
-      - title: "www.huntress.com"
-        url: "https://www.huntress.com/blog/exploitation-of-sonicwall-vpn"
-        date: "04/08/2025"
-        source_file: "CommunityReports/CR-009-AKIRA-AUG-2025.md"
-      - title: "blog.bushidotoken.net"
-        url: "https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html"
-        date: "15 September 2023"
-        source_file: "GroupProfiles/Akira.md"
-      - title: "www.cisa.gov"
-        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a"
-        date: "18 April 2024"
-        source_file: "GroupProfiles/Akira.md"
-      - title: "www.guidepointsecurity.com"
-        url: "https://www.guidepointsecurity.com/blog/gritrep-akira-sonicwall/"
-        date: "2025/08/05"
-        source_file: "CommunityReports/CR-001-AKIRA-JUN-2025.md"
-      - title: "arcticwolf.com"
-        url: "https://arcticwolf.com/resources/blog/smash-and-grab-aggressive-akira-campaign-targets-sonicwall-vpns/"
-        date: "26 September 2025"
-        source_file: "ThreatIntel/ExtraThreatIntel.md"
-    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
-    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
-    source_files: ["CommunityReports/CR-001-AKIRA-JUN-2025.md","CommunityReports/CR-002-AKIRA-APR-2025.md","CommunityReports/CR-003-AKIRA-JUN-2025.md","CommunityReports/CR-009-AKIRA-AUG-2025.md","CommunityReports/CR-010-AKIRA-AUG-2025.md","CommunityReports/CR-017-AKIRA-SEP-2025.md","CommunityReports/CR-018-AKIRA-NOV-2025.md","GroupProfiles/Akira.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
-    source_label: "Akira"
-    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T01:51:36Z"
+    - title: www.huntress.com
+      url: https://www.huntress.com/blog/exploitation-of-sonicwall-vpn
+      date: 04/08/2025
+      source_file: CommunityReports/CR-009-AKIRA-AUG-2025.md
+    - title: blog.bushidotoken.net
+      url: https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html
+      date: 15 September 2023
+      source_file: GroupProfiles/Akira.md
+    - title: www.cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a
+      date: 18 April 2024
+      source_file: GroupProfiles/Akira.md
+    - title: www.guidepointsecurity.com
+      url: https://www.guidepointsecurity.com/blog/gritrep-akira-sonicwall/
+      date: 2025/08/05
+      source_file: CommunityReports/CR-001-AKIRA-JUN-2025.md
+    - title: arcticwolf.com
+      url: https://arcticwolf.com/resources/blog/smash-and-grab-aggressive-akira-campaign-targets-sonicwall-vpns/
+      date: 26 September 2025
+      source_file: ThreatIntel/ExtraThreatIntel.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Ransomware
+      Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix
+      is used here as a secondary ransomware tradecraft reference, not as sole attribution
+      evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - CommunityReports/CR-001-AKIRA-JUN-2025.md
+    - CommunityReports/CR-002-AKIRA-APR-2025.md
+    - CommunityReports/CR-003-AKIRA-JUN-2025.md
+    - CommunityReports/CR-009-AKIRA-AUG-2025.md
+    - CommunityReports/CR-010-AKIRA-AUG-2025.md
+    - CommunityReports/CR-017-AKIRA-SEP-2025.md
+    - CommunityReports/CR-018-AKIRA-NOV-2025.md
+    - GroupProfiles/Akira.md
+    - ThreatIntel/CISAThreatGroups.md
+    - ThreatIntel/ExtraThreatIntel.md
+    - Tools/CredentialTheft.md
+    - Tools/DefenseEvasion.md
+    - Tools/DiscoveryEnum.md
+    - Tools/Exfiltration.md
+    - Tools/Networking.md
+    - Tools/Offsec.md
+    - Tools/RMM-Tools.md
+    source_label: Akira
+    source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:27:56Z'
     tools_by_category:
-      Credential Theft: ["DonPAPI","LaZagne","Mimikatz"]
-      Defense Evasion: ["PowerTool","ThrottleStop driver (rwdrv.sys)","Zemana Anti-Rootkit","Zemana Anti-Rootkit driver","churchill_driver.sys, fidget.sys","consent.exe (msimg32.dll, wmsgapi.dll)","icardagt.exe (version.dll)","mfpmp.exe (rtworkq.dll)"]
-      Discovery: ["Advanced IP Scanner","Advanced Port Scanner","Bloodhound","Masscan","ReconFTW","ShareFinder","SharpHound","SharpShares","SoftPerfect NetScan","SoftPerfect Network Scanner","ldapdomaindump"]
-      Exfiltration: ["FileZilla","MEGA","RClone","Temp[.]sh","WinRAR","WinSCP"]
-      LOLBAS: ["net","netsh","nltest","vssadmin"]
-      Networking: ["Cloudflared","Ngrok","OpenSSH","cloudflared"]
-      OffSec: ["CrackMapExec","Impacket","NetExec","NetExec (NXC)"]
-      RMM Tools: ["AnyDesk","MeshAgent","MobaXterm","Radmin","RustDesk","TeamViewer"]
+      Credential Theft:
+      - DonPAPI
+      - LaZagne
+      - Mimikatz
+      Defense Evasion:
+      - PowerTool
+      - ThrottleStop driver (rwdrv.sys)
+      - Zemana Anti-Rootkit
+      - Zemana Anti-Rootkit driver
+      - churchill_driver.sys, fidget.sys
+      - consent.exe (msimg32.dll, wmsgapi.dll)
+      - icardagt.exe (version.dll)
+      - mfpmp.exe (rtworkq.dll)
+      Discovery:
+      - Advanced IP Scanner
+      - Advanced Port Scanner
+      - Bloodhound
+      - Masscan
+      - ReconFTW
+      - ShareFinder
+      - SharpHound
+      - SharpShares
+      - SoftPerfect NetScan
+      - SoftPerfect Network Scanner
+      - ldapdomaindump
+      Exfiltration:
+      - FileZilla
+      - MEGA
+      - RClone
+      - Temp[.]sh
+      - WinRAR
+      - WinSCP
+      LOLBAS:
+      - net
+      - netsh
+      - nltest
+      - vssadmin
+      Networking:
+      - Cloudflared
+      - Ngrok
+      - OpenSSH
+      - cloudflared
+      OffSec:
+      - CrackMapExec
+      - Impacket
+      - NetExec
+      - NetExec (NXC)
+      RMM Tools:
+      - AnyDesk
+      - MeshAgent
+      - MobaXterm
+      - Radmin
+      - RustDesk
+      - TeamViewer
   ransomware_vulnerability_matrix:
     references:
-      - title: "@SophosXOps"
-        url: "https://infosec.exchange/@SophosXOps/113284564225476186"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "arcticwolf.com"
-        url: "https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/"
-        source_file: "Vulnerabilities/NetworkEdge.md"
-      - title: "arcticwolf.com"
-        url: "https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/"
-        source_file: "Vulnerabilities/NetworkEdge.md"
-      - title: "blog.talosintelligence.com"
-        url: "https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/"
-        source_file: "GroupProfiles/Akira.md"
-      - title: "blog.talosintelligence.com"
-        url: "https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"
-        source_file: "Vulnerabilities/Virtualization.md"
-      - title: "blogs.blackberry.com"
-        url: "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "cisa.gov"
-        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a"
-        source_file: "Vulnerabilities/NetworkEdge.md"
-      - title: "cisco.com"
-        url: "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs"
-        source_file: "Vulnerabilities/NetworkEdge.md"
-      - title: "crowdstrike.com"
-        url: "https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/"
-        source_file: "Vulnerabilities/Virtualization.md"
-      - title: "labs.withsecure.com"
-        url: "https://labs.withsecure.com/publications/fin7-target-veeam-servers"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "microsoft.com"
-        url: "https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/"
-        source_file: "Vulnerabilities/Virtualization.md"
-      - title: "news.sophos.com"
-        url: "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "qualys.com"
-        url: "https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"
-        source_file: "Vulnerabilities/Virtualization.md"
-      - title: "security.com"
-        url: "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "sophos.com"
-        url: "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "stairwell.com"
-        url: "https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"
-        source_file: "Vulnerabilities/NetworkEdge.md"
-      - title: "welivesecurity.com"
-        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
-        source_file: "Vulnerabilities/Applications.md"
-    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
-    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
-    source_files: ["GroupProfiles/Akira.md","Vulnerabilities/Applications.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
-    source_label: "Akira"
-    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    - title: "@SophosXOps"
+      url: https://infosec.exchange/@SophosXOps/113284564225476186
+      source_file: Vulnerabilities/Applications.md
+    - title: arcticwolf.com
+      url: https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: arcticwolf.com
+      url: https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: blog.talosintelligence.com
+      url: https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/
+      source_file: GroupProfiles/Akira.md
+    - title: blog.talosintelligence.com
+      url: https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/
+      source_file: Vulnerabilities/Virtualization.md
+    - title: blogs.blackberry.com
+      url: https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
+      source_file: Vulnerabilities/Applications.md
+    - title: ccb.belgium.be
+      url: https://ccb.belgium.be/open-media/1275/download?inline
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: cisco.com
+      url: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: crowdstrike.com
+      url: https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/
+      source_file: Vulnerabilities/Virtualization.md
+    - title: group-ib.com
+      url: https://www.group-ib.com/blog/qilin-revisited/
+      source_file: Vulnerabilities/Applications.md
+    - title: labs.withsecure.com
+      url: https://labs.withsecure.com/publications/fin7-target-veeam-servers
+      source_file: Vulnerabilities/Applications.md
+    - title: microsoft.com
+      url: https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/
+      source_file: Vulnerabilities/Virtualization.md
+    - title: news.sophos.com
+      url: https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+      source_file: Vulnerabilities/Applications.md
+    - title: qualys.com
+      url: https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware
+      source_file: Vulnerabilities/Virtualization.md
+    - title: security.com
+      url: https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor
+      source_file: Vulnerabilities/Applications.md
+    - title: sophos.com
+      url: https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/
+      source_file: Vulnerabilities/Applications.md
+    - title: stairwell.com
+      url: https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: welivesecurity.com
+      url: https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+      source_file: Vulnerabilities/Applications.md
+    source_attribution: Vulnerability observations were reviewed from the BushidoUK
+      Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix).
+      The matrix is used here as a secondary ransomware exploitation reference, not
+      as sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1
+    source_files:
+    - GroupProfiles/Akira.md
+    - Vulnerabilities/Applications.md
+    - Vulnerabilities/NetworkEdge.md
+    - Vulnerabilities/Virtualization.md
+    source_label: Akira
+    source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
+    source_retrieved_at: '2026-10-27T17:28:00Z'
     vulnerabilities_by_category:
       Applications:
-        - vendor: "Veeam"
-          product: "Backup & Replication"
-          cves: ["CVE-2023-27532"]
-          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
-          source_file: "Vulnerabilities/Applications.md"
-        - vendor: "Veeam"
-          product: "Backup & Replication"
-          cves: ["CVE-2024-40711"]
-          source_links: ["https://infosec.exchange/@SophosXOps/113284564225476186"]
-          source_file: "Vulnerabilities/Applications.md"
+      - vendor: Veeam
+        product: Backup & Replication
+        cves:
+        - CVE-2023-27532
+        source_links:
+        - https://labs.withsecure.com/publications/fin7-target-veeam-servers
+        - https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
+        - https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+        - https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/
+        - https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+        - https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor
+        - https://www.group-ib.com/blog/qilin-revisited/
+        source_file: Vulnerabilities/Applications.md
+      - vendor: Veeam
+        product: Backup & Replication
+        cves:
+        - CVE-2024-40711
+        source_links:
+        - https://infosec.exchange/@SophosXOps/113284564225476186
+        source_file: Vulnerabilities/Applications.md
       Group Profile:
-        - vendor: "Cisco"
-          product: "ASA & FTD"
-          cves: ["CVE-2020-3259"]
-          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "Cisco"
-          product: "ASA & FTD"
-          cves: ["CVE-2023-20263"]
-          source_links: ["https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "Cisco"
-          product: "ASA & FTD"
-          cves: ["CVE-2023-20269"]
-          source_links: ["https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "Fortinet"
-          product: "FortiClient"
-          cves: ["CVE-2023-48788"]
-          source_links: ["https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "Fortinet"
-          product: "FortiOS"
-          cves: ["CVE-2019-6693"]
-          source_links: ["https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "Fortinet"
-          product: "FortiOS"
-          cves: ["CVE-2022-40684"]
-          source_links: ["https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "SonicWall"
-          product: "SonicOS SSL-VPN"
-          cves: ["CVE-2024-40766"]
-          source_links: ["https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "VMware"
-          product: "ESXi"
-          cves: ["CVE-2024-37085"]
-          source_links: ["https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "VMware"
-          product: "vSphere Client"
-          cves: ["CVE-2021-21972"]
-          source_links: ["https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "Veeam"
-          product: "Backup & Replication"
-          cves: ["CVE-2023-27532"]
-          source_links: ["https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/"]
-          source_file: "GroupProfiles/Akira.md"
-        - vendor: "Veeam"
-          product: "Backup & Replication"
-          cves: ["CVE-2024-40711"]
-          source_links: ["https://infosec.exchange/@SophosXOps/113284564225476186"]
-          source_file: "GroupProfiles/Akira.md"
+      - vendor: Cisco
+        product: ASA & FTD
+        cves:
+        - CVE-2020-3259
+        source_links:
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a
+        source_file: GroupProfiles/Akira.md
+      - vendor: Cisco
+        product: ASA & FTD
+        cves:
+        - CVE-2023-20263
+        source_links:
+        - https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/
+        source_file: GroupProfiles/Akira.md
+      - vendor: Cisco
+        product: ASA & FTD
+        cves:
+        - CVE-2023-20269
+        source_links:
+        - https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs
+        source_file: GroupProfiles/Akira.md
+      - vendor: Fortinet
+        product: FortiClient
+        cves:
+        - CVE-2023-48788
+        source_links:
+        - https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/
+        source_file: GroupProfiles/Akira.md
+      - vendor: Fortinet
+        product: FortiOS
+        cves:
+        - CVE-2019-6693
+        source_links:
+        - https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/
+        source_file: GroupProfiles/Akira.md
+      - vendor: Fortinet
+        product: FortiOS
+        cves:
+        - CVE-2022-40684
+        source_links:
+        - https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/
+        source_file: GroupProfiles/Akira.md
+      - vendor: SonicWall
+        product: SonicOS SSL-VPN
+        cves:
+        - CVE-2024-40766
+        source_links:
+        - https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/
+        source_file: GroupProfiles/Akira.md
+      - vendor: VMware
+        product: ESXi
+        cves:
+        - CVE-2024-37085
+        source_links:
+        - https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/
+        source_file: GroupProfiles/Akira.md
+      - vendor: VMware
+        product: vSphere Client
+        cves:
+        - CVE-2021-21972
+        source_links:
+        - https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware
+        source_file: GroupProfiles/Akira.md
+      - vendor: Veeam
+        product: Backup & Replication
+        cves:
+        - CVE-2023-27532
+        source_links:
+        - https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/
+        source_file: GroupProfiles/Akira.md
+      - vendor: Veeam
+        product: Backup & Replication
+        cves:
+        - CVE-2024-40711
+        source_links:
+        - https://infosec.exchange/@SophosXOps/113284564225476186
+        source_file: GroupProfiles/Akira.md
       Network Edge:
-        - vendor: "Cisco"
-          product: "ASA & FTD"
-          cves: ["CVE-2020-3259"]
-          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a"]
-          source_file: "Vulnerabilities/NetworkEdge.md"
-        - vendor: "Cisco"
-          product: "ASA & FTD"
-          cves: ["CVE-2023-20269"]
-          source_links: ["https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs"]
-          source_file: "Vulnerabilities/NetworkEdge.md"
-        - vendor: "Fortinet"
-          product: "FortiOS"
-          cves: ["CVE-2019-6693"]
-          source_links: ["https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"]
-          source_file: "Vulnerabilities/NetworkEdge.md"
-        - vendor: "Fortinet"
-          product: "FortiOS"
-          cves: ["CVE-2022-40684"]
-          source_links: ["https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/"]
-          source_file: "Vulnerabilities/NetworkEdge.md"
-        - vendor: "SonicWall"
-          product: "SonicOS SSL-VPN"
-          cves: ["CVE-2024-40766"]
-          source_links: ["https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/","https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/"]
-          source_file: "Vulnerabilities/NetworkEdge.md"
+      - vendor: Cisco
+        product: ASA & FTD
+        cves:
+        - CVE-2020-3259
+        source_links:
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: Cisco
+        product: ASA & FTD
+        cves:
+        - CVE-2023-20269
+        source_links:
+        - https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC#fs
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: Fortinet
+        product: FortiOS
+        cves:
+        - CVE-2019-6693
+        source_links:
+        - https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: Fortinet
+        product: FortiOS
+        cves:
+        - CVE-2022-40684
+        source_links:
+        - https://stairwell.com/resources/akira-pulling-on-the-chains-of-ransomware/
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: SonicWall
+        product: SonicOS SSL-VPN
+        cves:
+        - CVE-2024-40766
+        source_links:
+        - https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/
+        - https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/
+        - https://ccb.belgium.be/open-media/1275/download?inline
+        source_file: Vulnerabilities/NetworkEdge.md
       Virtualization:
-        - vendor: "VMware"
-          product: "ESXi"
-          cves: ["CVE-2024-37085"]
-          source_links: ["https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/","https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/"]
-          source_file: "Vulnerabilities/Virtualization.md"
-        - vendor: "VMware"
-          product: "vSphere Client"
-          cves: ["CVE-2021-21972"]
-          source_links: ["https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/","https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware"]
-          source_file: "Vulnerabilities/Virtualization.md"
+      - vendor: VMware
+        product: ESXi
+        cves:
+        - CVE-2024-37085
+        source_links:
+        - https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/
+        - https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/
+        source_file: Vulnerabilities/Virtualization.md
+      - vendor: VMware
+        product: vSphere Client
+        cves:
+        - CVE-2021-21972
+        source_links:
+        - https://www.crowdstrike.com/en-us/blog/anatomy-of-alpha-spider-ransomware/
+        - https://blog.qualys.com/vulnerabilities-threat-research/2024/10/02/threat-brief-understanding-akira-ransomware
+        source_file: Vulnerabilities/Virtualization.md
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Howling Scorpius
+source_name: Palo Alto Networks Unit 42 Threat Actor Groups

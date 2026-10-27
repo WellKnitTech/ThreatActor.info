@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "CostaRicto"
-aliases: ["CostaRicto"]
+aliases: ["CostaRicto","G0132"]
 description: "CostaRicto is a cyber-espionage threat actor that operates as a mercenary group, offering its services to various clients globally. They use bespoke malware tools and sophisticated techniques like VPN "
 permalink: /costaricto/
 ---
@@ -10,7 +10,11 @@ permalink: /costaricto/
 CostaRicto is a cyber-espionage threat actor that operates as a mercenary group, offering its services to various clients globally. They use bespoke malware tools and sophisticated techniques like VPN proxy and SSH tunnelling. While their targets are scattered across different regions, there is a concentration in South Asia.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,9 +31,15 @@ CostaRicto is a cyber-espionage threat actor that operates as a mercenary group,
 - **Cyber Eye RAT**
 - **Client Maximus**
 - **CrossRat**
+- **CostaBricks**: 
+- **PowerSploit**: 
+- **PsExec**: 
+- **SombRAT**: 
+- **nmap**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

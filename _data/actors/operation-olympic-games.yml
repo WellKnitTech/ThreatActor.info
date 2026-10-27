@@ -1,0 +1,27 @@
+name: "Operation Olympic Games"
+aliases: ["GOSSIPGIRL"]
+description: "The events have been described in detail in the 2015 book Countdown to Zero Day and the 2016 documentary Zero Days. The piece of crucial information that was missing from both sources, how the malware was actually brought inside the facility, was documented in an investigative report in 2019. (The New York Times) From his first months in office, President Obama secretly ordered increasingly sophisticated attacks on the computer systems that run Iran’s main nuclear enrichment facilities, significantly expanding America’s first sustained use of cyberweapons, according to participants in the program. Mr. Obama decided to accelerate the attacks — begun in the Bush administration and code-named Olympic Games — even after an element of the program accidentally became public in the summer of 2010 because of a programming error that allowed it to escape Iran’s Natanz plant and sent it around the world on the Internet. Computer security experts who began studying the worm, which had been developed by the United States and Israel, gave it a name: Stuxnet."
+url: "/operation-olympic-games"
+country: "[\"USA\", \"Israel\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["Olympic Games / Stuxnet"]
+malware:
+  - "Stuxnet"
+  - name: "Flame"
+  - name: "Stuxnet"
+  - name: "Miniflame"
+  - name: "Duqu"
+  - name: "Gauss"
+provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_links: ["https://medium.com/chronicle-blog/who-is-gossipgirl-3b4170f846c0"]
+    source_retrieved_at: "2026-10-27T17:29:13Z"
+    tab_name: "nato"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "40c47a97-22a5-46d3-978e-f89c802dad93"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

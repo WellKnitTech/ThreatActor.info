@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Play"
-aliases: ["Play","play","Play Ransomware","PLAY Ransomware"]
+aliases: ["PLAY Ransomware","Play","Play Ransomware","PlayCrypt","play"]
 description: "Play is a ransomware group that has been active since at least 2022 deploying Playcrypt ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North Amer"
 permalink: /play/
 ---
@@ -60,7 +60,6 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 | Network Edge | Fortinet | FortiOS SSL VPN | CVE-2020-12812 |
 | Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2022-41040, CVE-2022-41082 |
 | Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2022-41080 |
-| Applications | SimpleHelp | SimpleHelp RMM | CVE-2024-57727 |
 
 ### ATT&CK technique IDs (denormalized)
 

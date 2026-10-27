@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "SkyName Ransomware"
 aliases: ["Blablabla Ransomware","SkyName Ransomware"]
-description: "It’s directed to Czechoslovakianspeaking users.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, vid"
+description: "It’s directed to Czechoslovakianspeaking users. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Office, Open Office, pictures, video"
 permalink: /skyname-ransomware/
 ---
 

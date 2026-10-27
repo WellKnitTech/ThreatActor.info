@@ -10,7 +10,11 @@ permalink: /operation-comando/
 Operation Comando is a pure cybercrime campaign, possibly with Brazilian origin, with a concrete and persistent focus on the hospitality sector, which proves how a threat actor can be successful in pursuing its objectives while maintaining a cheap budget. The use of DDNS services, publicly available remote access tools, and having a minimum knowledge on software development (in this case VB.NET) has been enough for running a campaign lasting month, and potentially gathering credit card information and other possible data.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -28,9 +32,17 @@ Operation Comando is a pure cybercrime campaign, possibly with Brazilian origin,
 - **Remote Utilities**
 - **RemotePC**
 - **Minimo**
+- **AsyncRAT**: 
+- **CapturaTela**: 
+- **LimeRAT**: 
+- **NanoCore RAT**: 
+- **RemcosRAT**: 
+- **RevengeRAT**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

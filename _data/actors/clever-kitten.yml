@@ -1,5 +1,5 @@
 name: "Clever Kitten"
-aliases: ["Group 41","Clever Kitten"]
+aliases: ["Clever Kitten","Group 41","Group41"]
 description: "Clever Kitten is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/clever-kitten"
 country: "Iran"
@@ -12,18 +12,35 @@ source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "Acunetix Web Vulnerability Scanner"
   - name: "PHP Webshell RC SHELL"
+  - name: "RC SHELL"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.crowdstrike.com/blog/whois-clever-kitten/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "iran"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "937fc2ca-f7b3-4be7-ab2c-32b67bd7dac4"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Clever Kitten"]
+      Thalos: ["Group41"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "cleverkitten"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "clever_kitten"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/clever_kitten"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d56c99fa-4710-472c-81a6-41b7a84ea4be"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

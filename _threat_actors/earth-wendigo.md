@@ -32,6 +32,7 @@ Earth Wendigo is a threat actor from China that has been targeting several organ
 ## Malware and Tools
 - **Backdoor.Oldrea**
 - **China Chopper**
+- **Cobalt Strike**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

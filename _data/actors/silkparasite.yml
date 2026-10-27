@@ -1,0 +1,32 @@
+name: "SilkParasite"
+aliases: ["SilkParasite"]
+description: "SilkParasite is an activity cluster tracked by Bitdefender across Central Asia, primarily targeting government and telecommunications entities in Kyrgyzstan, Uzbekistan and Kazakhstan. Bitdefender assesses a China-nexus with medium confidence and states explicitly that it does not believe the evidence supports attribution to a named group, so this is recorded as an activity cluster rather than as an established actor. Observed tooling spans seven implant families: five named by Bitdefender (DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, NodeEdgeRAT) plus SpiceRAT, previously reported by Cisco Talos in connection with SneakyChef, and BloodAlchemy, a lineage descended from ShadowPad and Deed RAT. The operators favour DLL sideloading and cloud services as command-and-control channels, and register domains impersonating local hosting providers."
+url: "/silkparasite"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/silkparasite"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CloudDuke"
+  - name: "China Chopper"
+  - name: "drat"
+  - name: "MadRAT"
+  - name: "CrossRat"
+  - name: "Parasite-HTTP-RAT"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "silkparasite"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/silkparasite"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "33420fce-ac3e-4164-a1f5-ccc3d43657c2"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "33420fce-ac3e-4164-a1f5-ccc3d43657c2"
+    source_record_ids: ["33420fce-ac3e-4164-a1f5-ccc3d43657c2"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

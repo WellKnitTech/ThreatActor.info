@@ -1,0 +1,21 @@
+name: "Sandman"
+aliases: ["Sandman"]
+description: "(SentinelLabs) In collaboration with QGroup GmbH, SentinelLabs observed over August 2023 a threat activity cluster targeting the telecommunication sector. The activities have been conducted by a threat actor of unknown origin using a novel modular backdoor based on the LuaJIT platform. We dub this threat actor and the backdoor Sandman and LuaDream in reference to what we suspect to be the backdoor’s internal name – DreamLand client. The activities we observed are characterized by strategic lateral movement to specific targeted workstations and minimal engagement, suggesting a deliberate approach aimed at achieving the set objectives while minimizing the risk of detection."
+url: "/sandman"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["LuaDream"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "6e7a3b00-6ff8-414a-b6b3-040ddcfd4e8c"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Sandman"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Sandman/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Sandman/Sandman_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

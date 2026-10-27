@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GoldenJackal"
-aliases: ["GoldenJackal","Golden Jackal"]
+aliases: ["Golden Jackal","GoldenJackal"]
 description: "GoldenJackal activity is characterized by the use of compromised WordPress websites as a method to host C2-related logic. Kaspersky believes the attackers upload a malicious PHP file that is used as a "
 permalink: /goldenjackal/
 ---
@@ -10,6 +10,8 @@ permalink: /goldenjackal/
 GoldenJackal activity is characterized by the use of compromised WordPress websites as a method to host C2-related logic. Kaspersky believes the attackers upload a malicious PHP file that is used as a relay to forward web requests to another backbone C2 server. They developed a collection of .NET malware tools known as Jackal.
 
 ## Activities and Tactics
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
 
 
 
@@ -17,7 +19,9 @@ GoldenJackal activity is characterized by the use of compromised WordPress websi
 **Suspected Victims**: Germany
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2022**
+- **Mind the (air) gap: GoldenJackal gooses government guardrails**
+- **https://www.welivesecurity.com/en/eset-research/mind-air-gap-goldenjackal-gooses-government-guardrails/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -34,7 +38,8 @@ GoldenJackal activity is characterized by the use of compromised WordPress websi
 - **JackalScreenWatcher**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

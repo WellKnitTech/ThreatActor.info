@@ -1,5 +1,5 @@
 name: "Caramel Tsunami"
-aliases: ["SOURGUM","Candiru","Caramel Tsunami","DEV-0236"]
+aliases: ["SOURGUM","Candiru","Caramel Tsunami","DEV-0236","Sourgum","Grey Mazzikim"]
 description: "Caramel Tsunami is a threat actor that specializes in spyware attacks. They have recently resurfaced with an updated toolset and zero-day exploits, targeting specific victims through watering hole attacks. Candiru has been observed exploiting vulnerabilities in popular browsers like Google Chrome and using third-party signed drivers to gain access to the Windows kernel. They have also been linked to other spyware vendors and have been associated with extensive abuses of their surveillance tools."
 url: "/caramel-tsunami"
 country: "Israel"
@@ -10,17 +10,43 @@ source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Windows Remote Desktop","Chrome Remote Desktop","Xploit"]
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      Microsoft: ["Sourgum","Caramel Tsunami"]
+      PWC: ["Grey Mazzikim"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "candiru"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Mercenary"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "caramel_tsunami"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/caramel_tsunami"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "062938a2-6fa1-4217-ad73-f5e0b5186966"
+  microsoft_threat_actor_list:
+    categories: ["Private sector offensive actor"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Caramel Tsunami"
+    origin_category: "Israel, Private sector offensive actor"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "carameltsunami"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["refs","synonyms","country","microsoft-origin-threat","sector"]
+    meta_keys: ["refs","synonyms","country","microsoft-origin-threat","sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "062938a2-6fa1-4217-ad73-f5e0b5186966"
     source_record_ids: ["062938a2-6fa1-4217-ad73-f5e0b5186966","1b15288c-ff19-5f52-8c4b-6185de934ff8"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "SOURGUM"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/SOURGUM/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/SOURGUM/SOURGUM_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

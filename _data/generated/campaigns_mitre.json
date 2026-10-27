@@ -8,7 +8,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -20,7 +20,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -32,7 +32,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -44,7 +44,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -56,7 +56,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -68,7 +68,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -80,7 +80,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -92,7 +92,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -104,7 +104,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -116,7 +116,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -128,7 +128,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -140,7 +140,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -153,7 +153,7 @@
       "mobile"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -162,11 +162,10 @@
     "permalink": "/campaigns/C0017/",
     "mitre_url": "https://attack.mitre.org/campaigns/C0017",
     "domains": [
-      "enterprise",
-      "mobile"
+      "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -178,7 +177,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -190,7 +189,7 @@
       "ics"
     ],
     "domain": "ics",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -202,7 +201,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -211,11 +210,10 @@
     "permalink": "/campaigns/C0022/",
     "mitre_url": "https://attack.mitre.org/campaigns/C0022",
     "domains": [
-      "enterprise",
-      "ics"
+      "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -227,7 +225,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -239,7 +237,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -249,11 +247,10 @@
     "mitre_url": "https://attack.mitre.org/campaigns/C0025",
     "domains": [
       "enterprise",
-      "ics",
-      "mobile"
+      "ics"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -265,7 +262,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -277,7 +274,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -287,11 +284,10 @@
     "mitre_url": "https://attack.mitre.org/campaigns/C0028",
     "domains": [
       "enterprise",
-      "ics",
-      "mobile"
+      "ics"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -303,7 +299,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -316,7 +312,7 @@
       "ics"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -328,7 +324,7 @@
       "ics"
     ],
     "domain": "ics",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -340,7 +336,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -353,7 +349,7 @@
       "mobile"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -363,11 +359,10 @@
     "mitre_url": "https://attack.mitre.org/campaigns/C0034",
     "domains": [
       "enterprise",
-      "ics",
-      "mobile"
+      "ics"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -379,7 +374,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -391,7 +386,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -403,7 +398,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -412,11 +407,10 @@
     "permalink": "/campaigns/C0038/",
     "mitre_url": "https://attack.mitre.org/campaigns/C0038",
     "domains": [
-      "enterprise",
-      "ics"
+      "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -428,7 +422,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -440,7 +434,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -453,7 +447,7 @@
       "ics"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -462,11 +456,10 @@
     "permalink": "/campaigns/C0042/",
     "mitre_url": "https://attack.mitre.org/campaigns/C0042",
     "domains": [
-      "enterprise",
-      "ics"
+      "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -478,7 +471,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -487,11 +480,10 @@
     "permalink": "/campaigns/C0044/",
     "mitre_url": "https://attack.mitre.org/campaigns/C0044",
     "domains": [
-      "enterprise",
-      "ics"
+      "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -503,7 +495,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -515,7 +507,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -527,7 +519,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -539,7 +531,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -551,7 +543,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -563,7 +555,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -572,11 +564,10 @@
     "permalink": "/campaigns/C0051/",
     "mitre_url": "https://attack.mitre.org/campaigns/C0051",
     "domains": [
-      "enterprise",
-      "mobile"
+      "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -588,7 +579,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -600,7 +591,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -612,7 +603,7 @@
       "mobile"
     ],
     "domain": "mobile",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -624,7 +615,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -636,7 +627,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -648,7 +639,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -660,7 +651,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -672,7 +663,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -684,7 +675,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -696,7 +687,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -708,7 +699,7 @@
       "enterprise"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
     "layout": "campaign"
   },
   {
@@ -721,7 +712,32 @@
       "ics"
     ],
     "domain": "enterprise",
-    "attack_version": "19.1",
+    "attack_version": "20.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "AI-Assisted Breach of Mexico's Government Infrastructure",
+    "mitre_id": "C0064",
+    "permalink": "/campaigns/C0064/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0064",
+    "domains": [
+      "enterprise",
+      "ics"
+    ],
+    "domain": "enterprise",
+    "attack_version": "20.0",
+    "layout": "campaign"
+  },
+  {
+    "title": "2026 U.S. Water Utilities Attacks",
+    "mitre_id": "C0066",
+    "permalink": "/campaigns/C0066/",
+    "mitre_url": "https://attack.mitre.org/campaigns/C0066",
+    "domains": [
+      "ics"
+    ],
+    "domain": "ics",
+    "attack_version": "20.0",
     "layout": "campaign"
   }
 ]

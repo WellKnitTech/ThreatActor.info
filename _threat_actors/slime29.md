@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SLIME29"
-aliases: ["SLIME29"]
+aliases: ["SLIME29","Slime29"]
 description: "SLIME29 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /slime29/
 ---

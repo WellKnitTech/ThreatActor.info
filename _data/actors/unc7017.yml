@@ -1,0 +1,30 @@
+name: "UNC7017"
+aliases: ["UNC7017"]
+description: "Uncategorized threat cluster tracked by Google Threat Intelligence Group and Mandiant, responsible for an ephemeral supply chain compromise of AOMEI Backupper between April and July 2026, investigated with ManageEngine's Threat Analysis Lab (METAL). The actor briefly modified the down_html.ini and Notifycfg.ini configuration files on AOMEI's origin servers for windows of five to ten minutes, redirecting the update and promotion flow to an attacker-hosted archive, then restored them. It deployed the CROSSROAD downloader and the SHINYROAD backdoor through trojanized Radmin components, later Adaptix C2, and on one occasion coerced NetNTLMv2 authentication through a hidden WebDAV popup. Victims were opportunistic, in IT services, telecommunications and higher education across several countries. No state nexus has been stated."
+url: "/unc7017"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc7017"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "Trojan.Karagany"
+  - name: "Trojan.Mebromi"
+  - name: "Windows Remote Desktop"
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "unc7017"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc7017"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "c1ef86d7-ab86-4188-91d2-af3f36207d96"
+  misp_galaxy:
+    meta_keys: ["date","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c1ef86d7-ab86-4188-91d2-af3f36207d96"
+    source_record_ids: ["c1ef86d7-ab86-4188-91d2-af3f36207d96"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

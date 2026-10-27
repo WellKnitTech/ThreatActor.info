@@ -1,0 +1,21 @@
+name: "Cosmic Leopard, Operation Celestial Force"
+aliases: ["Cosmic Leopard","Operation Celestial Force"]
+description: "(Talos) Cisco Talos is disclosing a new malware campaign called “Operation Celestial Force” running since at least 2018. It is still active today, employing the use of GravityRAT, an Android-based malware, along with a Windows-based malware loader we track as “HeavyLift.” All GravityRAT and HeavyLift infections are administered by a standalone tool we are calling “GravityAdmin,” which carries out malicious activities on an infected device. Analysis of the panel binaries reveals that they are meant to administer and run multiple campaigns at the same time, all of which are codenamed and have their own admin panels. Talos attributes this operation with high confidence to a Pakistani nexus of threat actors we’re calling “Cosmic Leopard,” focused on espionage and surveillance of their targets. This multiyear operation continuously targeted Indian entities and individuals likely belonging to defense, government and related technology spaces. Talos initially disclosed the use of the Windows-based GravityRAT malware by suspected Pakistani threat actors in 2018 — also used to target Indian entities. The tactics, techniques, tooling and victimology of Cosmic Leopard contain some overlaps with those of 'Transparent Tribe, APT 36', another suspected Pakistani APT group, which has a history of targeting high-value individuals from the Indian subcontinent. However, we do not have enough technical evidence to link both the threat actors together for now, therefore we track this cluster of activity under the “Cosmic Leopard” tag."
+url: "/cosmic-leopard-operation-celestial-force"
+country: "[\"Pakistan\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["GravityAdmin","GravityRAT","HeavyLift"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "6cfbd869-195e-4426-882d-b591268c32cb"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Cosmic Leopard"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Cosmic%20Leopard/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Cosmic%20Leopard/Cosmic%20Leopard_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

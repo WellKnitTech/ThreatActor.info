@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Deadeye Jackal"
-aliases: ["SyrianElectronicArmy","SEA","Deadeye Jackal","Syrian Electronic Army (SEA)"]
+aliases: ["ATK 196","Deadeye Jackal","SEA","Syria Malware Team","Syrian Electronic Army","Syrian Electronic Army (SEA)","SyrianElectronicArmy","TAG-CT2"]
 description: "The Syrian Electronic Army (SEA) is a group of computer hackers which first surfaced online in 2011 to support the government of Syrian President Bashar al-Assad. Using spamming, website defacement, ma"
 permalink: /deadeye-jackal/
 ---
@@ -20,7 +20,15 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2016 Mid**
+- **2018-01**
+- **In recent years**
+- **Lookout researchers have uncovered a long-running surveillance campaign tied to Syrian nation-state actors**
+- **but the SEA hasn't ceased activity: it's altered tactics and is now delivering custom Android malware to opponents of the Assad regime for the purposes of surveillance.**
+- **https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures**
+- **https://www.zdnet.com/article/these-hackers-are-using-android-surveillance-malware-to-target-opponents-of-the-syrian-government/**
+- **the group has seemingly kept a low profile**
+- **which recently started using the novel coronavirus as its newest lure to entice its targets to download malware.**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -33,6 +41,11 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 - **Cyber Eye RAT**
 - **SeANux: Sea Shell (Basic Web Shell)**: 
 - **Executer Webshell**: 
+- **AndoServer**: 
+- **SLRat**: 
+- **SandroRAT**: 
+- **SilverHawk**: 
+- **SpyNote RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Syria

@@ -1,7 +1,8 @@
 name: "GOLD SKYLINE"
-aliases: ["GOLD SKYLINE"]
+aliases: ["GOLD SKYLINE","Gold Skyline","Wire-Wire Group 1"]
 description: "GOLD SKYLINE is a financially motivated cybercriminal threat group operating from Nigeria engaged in high-value wire fraud facilitated by business email compromise (BEC) and spoofing (BES). Also known as Wire-Wire Group 1 (WWG1), GOLD SKYLINE has been active since at least 2016 and relies heavily on compromised email accounts, social engineering, and increasingly malware to divert inter-organization funds transfers."
 url: "/gold-skyline"
+country: "Nigeria"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gold_skyline"
@@ -9,17 +10,28 @@ source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      SCWX CTU: ["Wire-Wire Group 1"]
+      Secureworks: ["Gold Skyline"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "goldskyline"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Business Email Compromise"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "gold_skyline"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gold_skyline"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "dcb6b056-7a1b-484c-82ee-f3962d47bcd9"
   misp_galaxy:
-    meta_keys: ["origin:GOLD SKYLINE","refs"]
+    meta_keys: ["origin:GOLD SKYLINE","refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "dcb6b056-7a1b-484c-82ee-f3962d47bcd9"
     source_record_ids: ["dcb6b056-7a1b-484c-82ee-f3962d47bcd9"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

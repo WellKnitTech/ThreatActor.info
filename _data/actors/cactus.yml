@@ -1,17 +1,121 @@
-name: "cactus"
-aliases: ["cactus"]
-description: "The CACTUS ransomware is said to have emerged around March 2023. The group became known for exploiting vulnerabilities to gain initial access and maintain a presence within the organization's infrastructure.\nThere is little known information about the ransomware group, except that it emerged on the mentioned date and, following encryption, a text file named 'cAcTuS.readme.txt' would be created. Additionally, encrypted files were altered to the '.cts1' extension, and data exfiltration and victim extortion were conducted through the use of the service known as Tox.\nAs mentioned earlier, the ransomware especially exploits vulnerabilities in VPNs, also utilizing obfuscation techniques to conceal its activities, such as employing UPX and utilizing encryption algorithms like OpenSSL, AES OCB, ChaCha20_Poly1305, system reinitializations, and others."
+---
+name: cactus
+aliases:
+- Cactus
+- Cactus Ransomware Group
+- cactus
+description: |-
+  The CACTUS ransomware is said to have emerged around March 2023. The group became known for exploiting vulnerabilities to gain initial access and maintain a presence within the organization's infrastructure.
+  There is little known information about the ransomware group, except that it emerged on the mentioned date and, following encryption, a text file named 'cAcTuS.readme.txt' would be created. Additionally, encrypted files were altered to the '.cts1' extension, and data exfiltration and victim extortion were conducted through the use of the service known as Tox.
+  As mentioned earlier, the ransomware especially exploits vulnerabilities in VPNs, also utilizing obfuscation techniques to conceal its activities, such as employing UPX and utilizing encryption algorithms like OpenSSL, AES OCB, ChaCha20_Poly1305, system reinitializations, and others.
 url: "/cactus"
-source_name: "MISP Galaxy"
-source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+last_updated: '2026-10-27'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+source_record_url: https://www.ransomlook.io/group/cactus
 malware:
-  - name: "Xploit"
+- name: Xploit
 provenance:
   misp_galaxy:
-    meta_keys: ["TTP","links","ransomnotes-filenames","ransomnotes-refs","refs"]
-    source_cluster: "ransomware.json"
-    source_clusters: ["ransomware.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
-    source_record_id: "e888321e-c84a-5fa7-8761-dd2aaef691b8"
-    source_record_ids: ["e888321e-c84a-5fa7-8761-dd2aaef691b8"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    meta_keys:
+    - TTP
+    - links
+    - ransomnotes-filenames
+    - ransomnotes-refs
+    - refs
+    source_cluster: ransomware.json
+    source_clusters:
+    - ransomware.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json
+    source_record_id: e888321e-c84a-5fa7-8761-dd2aaef691b8
+    source_record_ids:
+    - e888321e-c84a-5fa7-8761-dd2aaef691b8
+    source_retrieved_at: '2026-10-27T17:28:59Z'
+  ransomware_tool_matrix:
+    references:
+    - title: www.kroll.com
+      url: https://www.kroll.com/en/insights/publications/cyber/cactus-ransomware-prickly-new-variant-evades-detection
+      date: 10 May 2023
+      source_file: ThreatIntel/ExtraThreatIntel.md
+    - title: www.bitdefender.com
+      url: https://www.bitdefender.com/blog/businessinsights/cactus-analyzing-a-coordinated-ransomware-attack-on-corporate-networks/
+      date: 28 February 2024
+      source_file: ThreatIntel/ExtraThreatIntel.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Ransomware
+      Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix
+      is used here as a secondary ransomware tradecraft reference, not as sole attribution
+      evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - ThreatIntel/ExtraThreatIntel.md
+    - Tools/DiscoveryEnum.md
+    - Tools/Exfiltration.md
+    - Tools/Networking.md
+    - Tools/Offsec.md
+    - Tools/RMM-Tools.md
+    source_label: Cactus
+    source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:27:56Z'
+    tools_by_category:
+      Discovery:
+      - Nmap
+      - SoftPerfect NetScan
+      Exfiltration:
+      - RClone
+      Networking:
+      - Chisel
+      OffSec:
+      - Cobalt Strike
+      RMM Tools:
+      - AnyDesk
+      - Splashtop
+      - SuperOps
+  ransomware_vulnerability_matrix:
+    references:
+    - title: bitdefender.com
+      url: https://www.bitdefender.com/en-us/blog/businessinsights/cactus-analyzing-a-coordinated-ransomware-attack-on-corporate-networks/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: northwave-cybersecurity.com
+      url: https://northwave-cybersecurity.com/whitepapers-articles/pricksense-how-cactus-exploits-qlik-sense
+      source_file: Vulnerabilities/Applications.md
+    source_attribution: Vulnerability observations were reviewed from the BushidoUK
+      Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix).
+      The matrix is used here as a secondary ransomware exploitation reference, not
+      as sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1
+    source_files:
+    - Vulnerabilities/Applications.md
+    - Vulnerabilities/NetworkEdge.md
+    source_label: Cactus
+    source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
+    source_retrieved_at: '2026-10-27T17:28:00Z'
+    vulnerabilities_by_category:
+      Applications:
+      - vendor: Qlik
+        product: QlikSense
+        cves:
+        - CVE-2023-41265
+        source_links:
+        - https://northwave-cybersecurity.com/whitepapers-articles/pricksense-how-cactus-exploits-qlik-sense
+        source_file: Vulnerabilities/Applications.md
+      Network Edge:
+      - vendor: Pulse Secure / Ivanti
+        product: Ivanti MobileIron
+        cves:
+        - CVE-2023-38035
+        source_links:
+        - https://www.bitdefender.com/en-us/blog/businessinsights/cactus-analyzing-a-coordinated-ransomware-attack-on-corporate-networks/
+        source_file: Vulnerabilities/NetworkEdge.md
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: cactus
+  source_retrieved_at: '2026-10-27T17:19:51Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Protesting Scorpius

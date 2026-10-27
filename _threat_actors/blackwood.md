@@ -17,7 +17,9 @@ Blackwood is a China-aligned APT group that has been active since at least 2018.
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2024-01**
+- **Blackwood APT Group Has a New DLL Loader**
+- **https://blog.sonicwall.com/en-us/2024/01/blackwood-apt-group-has-a-new-dll-loader/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -35,6 +37,7 @@ Blackwood is a China-aligned APT group that has been active since at least 2018.
 - **Cyber Eye RAT**
 - **UNITEDRAKE**
 - **BlackHole**
+- **NSPX30**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

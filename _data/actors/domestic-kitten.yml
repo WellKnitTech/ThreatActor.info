@@ -1,5 +1,5 @@
 name: "Domestic Kitten"
-aliases: ["APT-C-50","Bouncing Golf","Domestic Kitten","DomesticKitten - APT-C-50"]
+aliases: ["APT-C-50","Bouncing Golf","Domestic Kitten","DomesticKitten - APT-C-50","G0097"]
 description: "An extensive surveillance operation targets specific groups of individuals with malicious mobile apps that collect sensitive information on the device along with surrounding voice recordings. Researchers with CheckPoint discovered the attack and named it Domestic Kitten. The targets are Kurdish and Turkish natives, and ISIS supporters, all Iranian citizens."
 url: "/domestic-kitten"
 country: "Iran"
@@ -15,7 +15,12 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/domestic_kitten"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["MobileOrder","Archelaus Beta"]
+operations: ["200 individuals with more than 600 successful infections. It includes 4 currently active campaigns","2019-06","2020-11","2022-10","Domestic Kitten campaign spying on Iranian citizens with new FurBall malware","Mobile Campaign ‘Bouncing Golf’ Affects Middle East","This operation consists of 10 unique campaigns","https://research.checkpoint.com/2021/domestic-kitten-an-inside-look-at-the-iranian-surveillance-operations/","https://www.trendmicro.com/en_us/research/19/f/mobile-cyberespionage-campaign-bouncing-golf-affects-middle-east.html","https://www.welivesecurity.com/2022/10/20/domestic-kitten-campaign-spying-iranian-citizens-furball-malware/","the most recent of which began in November 2020.","which have targeted over 1"]
+malware:
+  - "MobileOrder"
+  - "Archelaus Beta"
+  - name: "FurBall"
+  - name: "GolfSpy"
 software:
   - name: "GolfSpy"
     mitre_id: "S0421"
@@ -24,11 +29,15 @@ software:
     stix_id: "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c"
     description: "GolfSpy is Android spyware deployed by the group Bouncing Golf.(Citation: Trend Micro Bouncing Golf 2019)"
 ttps:
+  - technique_id: "T1476"
+    technique_name: "Deliver Malicious Application via Other Means"
+    url: "https://attack.mitre.org/techniques/T1476"
+    stix_id: "attack-pattern--53263a67-075e-48fa-974b-91c5b5445db7"
   - technique_id: "T1655.001"
     technique_name: "Match Legitimate Name or Location"
     url: "https://attack.mitre.org/techniques/T1655/001"
     stix_id: "attack-pattern--114fed8b-7eed-4136-8b9c-411c5c7fff4b"
-attck_techniques: ["T1655.001"]
+attck_techniques: ["T1476","T1655.001"]
 attck_software: ["S0421"]
 attck_references:
   - source: "mitre-attack"
@@ -42,12 +51,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://research.checkpoint.com/domestic-kitten-an-iranian-surveillance-operation/","https://research.checkpoint.com/2021/domestic-kitten-an-inside-look-at-the-iranian-surveillance-operations/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "iran"
   aptnotes:
     earliest_report_year: "2018"
@@ -57,34 +69,57 @@ provenance:
     sample_titles: ["Domestic Kitten: An Iranian Surveillance Operation"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Checkpoint"]
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0097"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "624ad02b-d8c3-4873-93a4-28d9811b55d5"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Trend Micro: ["Bouncing Golf"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "bouncinggolf"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Mercenary"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "domestic_kitten"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/domestic_kitten"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "dda1b28e-c558-11e8-8666-27cf61d1d7ee"
   misp_galaxy:
-    meta_keys: ["country","origin:APT-C-50","refs","synonyms","suspected-victims","target-category"]
+    meta_keys: ["country","origin:APT-C-50","refs","synonyms","suspected-victims","target-category","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","360net.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "dda1b28e-c558-11e8-8666-27cf61d1d7ee"
     source_record_ids: ["dda1b28e-c558-11e8-8666-27cf61d1d7ee","a6636926-ffe4-5974-9be0-34ab5dcbd59f"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0097"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Domestic Kitten"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Domestic%20Kitten/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Domestic%20Kitten/Domestic%20Kitten_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

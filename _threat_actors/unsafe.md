@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Unsafe"
-aliases: ["Unsafe","Unsafe group","Unsafe ransomware","Unsafe gang"]
+aliases: ["Unsafe","Unsafe gang","Unsafe group","Unsafe ransomware"]
 description: "Unsafe is an active extortion or ransomware group tracked by RansomLook."
 permalink: /unsafe/
 ---

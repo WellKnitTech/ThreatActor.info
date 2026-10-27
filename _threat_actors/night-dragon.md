@@ -29,7 +29,10 @@ Night Dragon is a threat actor tracked by MISP Galaxy. Additional information pe
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **ASPXSpy**: 
+- **Cain & Abel**: 
+- **gsecdump**: 
+- **zwShell**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Qilin"
-aliases: ["Qilin Ransomware","Qilin Gang","Qilin Group","Qilin"]
+aliases: ["Agenda","Qilin","Qilin Gang","Qilin Group","Qilin Ransomware","Qilin Team"]
 description: "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S."
 permalink: /qilin/
 ---
@@ -31,7 +31,18 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
 
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
-| Applications | Veeam | Backup & Replication | CVE-2023-27532 |
+| Applications, Group Profile | Apache | Apache bRPC | CVE-2025-60021 |
+| Group Profile, Network Edge | Check Point | VPN Remote Access and Mobile Access | CVE-2026-50751 |
+| Group Profile, Network Edge | Fortinet | FortiOS | CVE-2025-59718 |
+| Group Profile, Network Edge | Fortinet | FortiOS & FortiProxy | CVE-2024-21762 |
+| Group Profile, Network Edge | Fortinet | FortiOS & FortiProxy | CVE-2024-55591 |
+| Applications, Group Profile | SmarterTools | SmarterMail | CVE-2026-24423 |
+| Applications, Group Profile | SolarWinds | SolarWinds Web Help Desk | CVE-2025-40554 |
+| Applications, Group Profile | Telnet | Telnetd in GNU Inetutils | CVE-2026-24061 |
+| Applications, Group Profile | Veeam | Backup & Replication | CVE-2023-27532 |
+| Group Profile, Network Edge | WatchGuard | WatchGuard Fireware OS | CVE-2025-14733 |
+| Group Profile, Network Edge | WatchGuard | WatchGuard Fireware OS | CVE-2025-9242 |
+| Group Profile | Zemana | Zemana AntiLogger | CVE-2024-1853 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

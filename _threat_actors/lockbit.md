@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "LockBit"
-aliases: ["ABCD Ransomware","ABCD ransomware","LockBit"]
+aliases: ["ABCD","ABCD Ransomware","ABCD ransomware","LockBit","LockBit 2.0","LockBit 3.0","LockBit Black","Lockbit_RaaS"]
 description: "LockBit is a ransomware-as-a-service operation known for its fast encryption and double extortion tactics."
 permalink: /lockbit/
 ---
@@ -48,7 +48,7 @@ LockBit is a ransomware-as-a-service operation known for its fast encryption and
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Gosecretsdump, LaZagne, LostMyPassword, Mimikatz, NirSoft ExtPassword, PasswordFox, ProcDump, Veeam-Get-Creds |
-| Defense Evasion | Backstab (Process Explorer driver), Defender Control, GMER, PCHunter, PowerTool, ProcessHacker, TDSSKiller |
+| Defense Evasion | Backstab/Process Explorer driver (BYOVD), Defender Control, GMER, PCHunter, PowerTool, ProcessHacker, TDSSKiller |
 | Discovery | AdFind, Advanced IP Scanner, Advanced Port Scanner, Bloodhound, Seatbelt, SoftPerfect NetScan |
 | Exfiltration | Anonfiles, FileZilla, File[.]io, FreeFileSync, MEGA, RClone, Sendspace, Temp[.]sh, Tempsend, Transfer[.]sh, Transfert-my-files, WinSCP |
 | LOLBAS | BCDEdit, PsExec |

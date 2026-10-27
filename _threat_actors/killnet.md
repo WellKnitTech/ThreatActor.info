@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Killnet"
-aliases: ["Killnet"]
+aliases: ["Killnet","Blue Kurama","UAC-0108"]
 description: "A group targeting various countries using Denial of Services attacked."
 permalink: /killnet/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Longhorn"
-aliases: ["Lamberts","the Lamberts","APT-C-39","PLATINUM TERMINAL","Longhorn"]
+aliases: ["APT-C-39","Lamberts","Longhorn","PLATINUM TERMINAL","Platinum Terminal","The Lamberts","the Lamberts"]
 description: "Longhorn has been active since at least 2011. It has used a range of back door Trojans in addition to zero-day vulnerabilities to compromise its targets. Longhorn has infiltrated governments and intern"
 permalink: /longhorn/
 ---
@@ -41,6 +41,20 @@ Longhorn has been active since at least 2011. It has used a range of back door T
 - **Back Orifice 2000**
 - **UNITEDRAKE**
 - **CrossRat**
+- **Black Lambert**: 
+- **Blue Lambert**: 
+- **Corentry**: 
+- **Cyan Lambert**: 
+- **Gray Lambert**: 
+- **Green Lambert**: 
+- **Lambert**: 
+- **Magenta Lambert**: 
+- **Pink Lambert**: 
+- **Purple Lambert**: 
+- **Silver Lambert**: 
+- **Violet Lambert**: 
+- **White Lambert**: 
+- **everything in the [Vault 7/8] archives**: 
 
 ## Attribution and Evidence
 **Country of Origin**: United States

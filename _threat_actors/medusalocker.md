@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "MedusaLocker"
-aliases: ["MedusaLocker"]
+aliases: ["Medusa (Note: Medusa should not be confused with a similarly named RaaS","MedusaLocker","which has been available since 2019)"]
 description: "Observed as recently as May 2022, MedusaLocker actors predominantly rely on vulnerabilities in Remote Desktop Protocol (RDP) to access victims’ networks. The MedusaLocker actors encrypt the victim's da"
 permalink: /medusalocker/
 ---

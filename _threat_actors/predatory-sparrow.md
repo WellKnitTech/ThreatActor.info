@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Predatory Sparrow"
-aliases: ["Indra","Gonjeshke Darande","Predatory Sparrow","گنجشک درنده","GonjeshkDarand","Gonjeshk Darand"]
+aliases: ["Gonjeshk Darand","GonjeshkDarand","Gonjeshke Darande","Indra","Predatory Sparrow","گنجشک درنده","UNC4368","MeteorExpress"]
 description: "A self-proclaimed hacktivist group that carried out attacks against Iranian railway systems and against Iranian steel plants."
 permalink: /predatory-sparrow/
 ---
@@ -34,6 +34,7 @@ A self-proclaimed hacktivist group that carried out attacks against Iranian rail
 - **CyberGate**: 
 - **Predator Pain**: 
 - **Cyber Eye RAT**: 
+- **Comet**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

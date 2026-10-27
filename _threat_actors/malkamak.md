@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "MalKamak"
-aliases: ["MalKamak"]
+aliases: ["MalKamak","Operation GhostShell"]
 description: "MalKamak is an Iranian threat actor that has been operating since at least 2018. They have been involved in highly targeted cyber espionage campaigns against global aerospace and telecommunications com"
 permalink: /malkamak/
 ---
@@ -37,6 +37,9 @@ MalKamak is an Iranian threat actor that has been operating since at least 2018.
 - **Virus RAT**
 - **Remote Utilities**
 - **ShellClient**: 
+- **PAExec**: 
+- **SafetyKatz**: 
+- **WinRAR**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

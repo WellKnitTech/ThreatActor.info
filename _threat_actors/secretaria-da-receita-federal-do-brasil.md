@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Secretaria da Receita Federal do Brasil"
 aliases: ["Secretaria da Receita Federal do Brasil"]
-description: "Secretaria da Receita Federal do Brasil (Federal Revenue Secretariat) (RFB)  (General Coordination for Research and Investigations - Coordenação-Geral de Pesquisa e Investigação - Copei)"
+description: "Secretaria da Receita Federal do Brasil (Federal Revenue Secretariat) (RFB) (General Coordination for Research and Investigations - Coordenação-Geral de Pesquisa e Investigação - Copei)"
 permalink: /secretaria-da-receita-federal-do-brasil/
 ---
 

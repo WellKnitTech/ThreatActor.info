@@ -17,7 +17,10 @@ OldGremlin is a Russian-speaking ransomware group that has been active for sever
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2021-02**
+- **Old Gremlins**
+- **https://blog.group-ib.com/oldgremlin_comeback**
+- **new methods**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -27,6 +30,10 @@ OldGremlin is a Russian-speaking ransomware group that has been active for sever
 
 ## Malware and Tools
 - **Windows Remote Desktop**
+- **Cobalt Strike**: 
+- **TinyCryptor**: 
+- **TinyNode**: 
+- **TinyPosh**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

@@ -2,30 +2,50 @@ name: "DUNGEON SPIDER"
 aliases: ["DUNGEON SPIDER","Dungeon Spider"]
 description: "DUNGEON SPIDER is a criminal group operating the ransomware most commonly known as Locky, which has been active since February 2016 and was last observed in late 2017. Locky is a ransomware tool that encrypts files using a combination of cryptographic algorithms: RSA with a key size of 2,048 bits, and AES with a key size of 128 bits. Locky targets a large number of file extensions and is able to encrypt data on shared network drives. In an attempt to further impact victims and prevent file recovery, Locky deletes all of the Shadow Volume Copies on the machine.\nDUNGEON SPIDER primarily relies on broad spam campaigns with malicious attachments for distribution. Locky is the community/industry name associated with this actor."
 url: "/dungeon-spider"
+country: "[\"Russia\"]"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dungeon_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["GraphicBooting","Revenge-RAT"]
+operations: ["2016-02","2016-04","2016-06","2016-08","2017-01","2017-04","2017-08","2017-09","2017-11","2018-02","A cyberattack launched against the Hollywood Presbyterian Medical Center has forced staff to declare an “internal emergency” and left employees unable to access patient files.","A red marquee bannered on the homepage of the Methodist Hospital in Henderson","Japanese Trends in the Aggressive Activity of the “Locky” Ransomware","Kentucky announced a cyberattack that successfully penetrated their networks","Locky Ransomware Distributed Via DOCM Attachments in Latest Email Campaigns","Locky Ransomware Hides Under Multiple Obfuscated Layers of JavaScript","Locky Ransomware Is Back in a Big Way","Locky Ransomware switches to the Lukitus extension for Encrypted Files","Locky Struggles","Locky ransomware strikes at Amazon","New Locky Ransomware Phishing Attacks Beat Machine Learning Tools","Now","The most recent change for Locky came as one of the most popular ways to spread malware: spear phishing emails.","Without Necurs","cybercriminals are using PDFs instead of Word documents to deliver Locky ransomware.","https://blog.talosintelligence.com/2017/01/locky-struggles.html","https://shadownet.co.za/2019/07/01/locky-ransomware-is-back-in-a-big-way/","https://threatvector.cylance.com/en_us/home/threat-spotlight-locky-ransomware.html","https://www.bleepingcomputer.com/news/security/locky-ransomware-switches-to-the-lukitus-extension-for-encrypted-files/","https://www.darkreading.com/attacks-breaches/new-locky-ransomware-phishing-attacks-beat-machine-learning-tools/d/d-id/1330010","https://www.fireeye.com/blog/threat-research/2016/08/locky_ransomwaredis.html","https://www.fortinet.com/blog/threat-research/japanese-trends-in-the-aggressive-activity-of-the-locky-ransomware.html","https://www.mcafee.com/blogs/other-blogs/mcafee-labs/locky-ransomware-hides-under-multiple-obfuscated-layers-of-javascript/","https://www.pandasecurity.com/mediacenter/malware/locky-ransomware-strikes-amazon/","https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/locky-ransomware-strain-led-kentucky-hospital-to-an-internal-state-of-emergency","https://www.vadesecure.com/en/locky-malware-comeback/","https://www.zdnet.com/article/hollywood-hospital-becomes-ransomware-victim/","prompting it to operate under an “internal state of emergency”."]
+malware:
+  - "GraphicBooting"
+  - "Revenge-RAT"
+  - name: "Locky"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2018GlobalThreatReport.pdf","https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-october-dungeon-spider/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "others"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "32791f72-1874-4af1-bd3a-82dfc544b436"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Dungeon Spider"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "dungeonspider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dungeon_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dungeon_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "f1da463c-9297-11e9-875a-d327fc8282f2"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f1da463c-9297-11e9-875a-d327fc8282f2"
     source_record_ids: ["f1da463c-9297-11e9-875a-d327fc8282f2"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

@@ -17,7 +17,11 @@ Central Intelligence Agency (CIA)
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2018-09**
+- **Also see Subgroup: [Unnamed group USA].**
+- **The Central Intelligence Agency has conducted a series of covert cyber operations against Iran and other targets since winning a secret victory in 2018 when President Trump signed what amounts to a sweeping authorization for such activities**
+- **according to former U.S. officials with direct knowledge of the matter.**
+- **https://news.yahoo.com/secret-trump-order-gives-cia-more-powers-to-launch-cyberattacks-090015219.html**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

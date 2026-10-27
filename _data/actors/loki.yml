@@ -2,8 +2,10 @@ name: "Loki"
 aliases: ["Loki"]
 description: "ransomware"
 url: "/loki"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/loki"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +14,18 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "1a49c0c2-3b66-4832-bf9c-d5624e6a5aaa"
     source_record_ids: ["1a49c0c2-3b66-4832-bf9c-d5624e6a5aaa"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["Tools/CredentialTheft.md","Tools/DiscoveryEnum.md"]
+    source_label: "Loki"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["NirSoft ChromePass","NirSoft WebBrowserPassView"]
+      Discovery: ["Advanced IP Scanner"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "loki"
+  source_retrieved_at: "2026-10-27T17:21:58Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

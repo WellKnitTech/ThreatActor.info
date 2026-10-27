@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "MirrorFace"
-aliases: ["Earth Kasha","MirrorFace"]
+aliases: ["Earth Kasha","MirrorFace","Operation LiberalFace","Operation “AkaiRyū”"]
 description: "MirrorFace is a People's Republic of China (PRC)-aligned cyberespionage actor believed to be a subgroup under the menuPass umbrella based on targeting, tools, and infrastructure overlaps. MirrorFace ha"
 permalink: /mirrorface/
 ---
@@ -118,6 +118,10 @@ MirrorFace is a People's Republic of China (PRC)-aligned cyberespionage actor be
 - **China Chopper**: 
 - **CyberGate**: 
 - **Cyber Eye RAT**: 
+- **Anel**: 
+- **AsyncRAT**: 
+- **LODEINFO**: 
+- **MirrorStealer**: 
 
 ### MITRE ATT&CK Software
 - [Net (S0039) — tool](https://attack.mitre.org/software/S0039)

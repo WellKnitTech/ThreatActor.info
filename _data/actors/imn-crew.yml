@@ -2,12 +2,28 @@ name: "Imn Crew"
 aliases: ["Imn Crew"]
 description: "Imn Crew is an active extortion or ransomware group tracked by RansomLook."
 url: "/imn-crew"
+last_updated: "2026-10-27"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/imncrew"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  ransomware_tool_matrix:
+    references:
+      - title: "www.s-rminform.com"
+        url: "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-imn-crew"
+        date: "24 April 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/Exfiltration.md"]
+    source_label: "IMN Crew"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["LaZagne"]
+      Exfiltration: ["Restic"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "imncrew"
   source_retrieved_at: "2026-05-06T21:56:22Z"

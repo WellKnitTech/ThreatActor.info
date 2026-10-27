@@ -4,6 +4,7 @@ description: "Designed to target Windows systems, this ransomware employs advanc
 url: "/vanhelsing"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/vanhelsing"
 malware:
   - name: "CyberGate"
   - name: "Cyber Eye RAT"
@@ -17,4 +18,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "9a83c122-9c03-56f3-a5f9-beedcdacc10a"
     source_record_ids: ["9a83c122-9c03-56f3-a5f9-beedcdacc10a"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "vanhelsing"
+  source_retrieved_at: "2026-10-27T17:25:41Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

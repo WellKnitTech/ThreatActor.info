@@ -1,5 +1,5 @@
 name: "拍拍熊 - APT-C-37"
-aliases: ["拍拍熊 - APT-C-37","APT-C-37","Pat Bear","Racquet Bear","Papa Bear"]
+aliases: ["APT-C-37","Papa Bear","Pat Bear","Racquet Bear","拍拍熊 - APT-C-37"]
 description: "拍拍熊组织（APT-C-37）针对极端组织“伊斯兰国”展开了有组织、有计划、针对性的长期不间断攻击，其攻击平台为Windows和Android。"
 url: "/apt-c-37"
 country: "China"
@@ -7,13 +7,21 @@ first_seen: "2019"
 last_activity: "2019"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
-malware: ["DroidJack","Androrat","Windows Remote Desktop"]
+malware:
+  - "DroidJack"
+  - "Androrat"
+  - "Windows Remote Desktop"
+  - name: "DroidJack"
+  - name: "H-Worm"
+  - name: "SSLove RAT"
+  - name: "SpyNote RAT"
+  - name: "njRAT"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://blogs.360.cn/post/analysis-of-apt-c-37.html","https://zhuanlan.kanxue.com/article-8168.htm","https://mp.weixin.qq.com/s/lUtXwWjPVMHXfR6oLnXYhQ","https://cybersecurity.att.com/blogs/labs-research/alien-labs-2019-analysis-of-threat-groups-molerats-and-apt-c-37"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "unknown"
   aptnotes:
     earliest_report_year: "2019"
@@ -23,8 +31,13 @@ provenance:
     sample_titles: ["Pat Bear (APT-C-37)"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Qihoo 360"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "01751615-25f0-4ad7-9db9-65abe62e506a"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category"]
     source_cluster: "360net.json"
@@ -32,4 +45,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "74f08d5a-e94d-53cb-bdd7-31d2f8c8db2b"
     source_record_ids: ["74f08d5a-e94d-53cb-bdd7-31d2f8c8db2b"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

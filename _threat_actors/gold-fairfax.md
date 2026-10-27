@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD FAIRFAX"
-aliases: ["GOLD FAIRFAX"]
+aliases: ["GOLD FAIRFAX","Gold Fairfax"]
 description: "GOLD FAIRFAX is a financially motivated cybercriminal threat group responsible for the creation, distribution, and operation of the Ramnit botnet. Ramnit, the phonetic spelling of RMNet, the internal n"
 permalink: /gold-fairfax/
 ---

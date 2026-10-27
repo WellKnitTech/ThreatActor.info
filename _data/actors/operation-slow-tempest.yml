@@ -1,0 +1,14 @@
+name: "Operation SLOW#TEMPEST"
+aliases: ["Operation SLOW#TEMPEST"]
+description: "(Securonix) The Securonix Threat Research team has uncovered a covert campaign targeting Chinese-speaking users with Cobalt Strike payloads likely delivered through phishing emails. The attackers managed to move laterally, establish persistence and remain undetected within the systems for more than two weeks."
+url: "/operation-slow-tempest"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["Cobalt Strike","Mimikatz"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "74200598-520d-4bf8-af62-e1fc08587450"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

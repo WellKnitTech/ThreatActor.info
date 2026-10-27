@@ -1,5 +1,5 @@
 name: "APT21"
-aliases: ["HAMMER PANDA","TEMP.Zhenbao","NetTraveler","APT21","Zhenbao","Temp.Zhenbao","TravNet"]
+aliases: ["APT 21","APT21","HAMMER PANDA","Hammer Panda","NetTraveler","TEMP.Zhenbao","Temp.Zhenbao","TravNet","Zhenbao"]
 description: "APT21 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/apt21"
 country: "China"
@@ -14,14 +14,16 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt21"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2014-08","2015-12","China.","IT (3%)","Most recently","NetTraveler Gets a Makeover for 10th Anniversary","Spear-Phishing Email Targets Diplomat of Uzbekistan","Unit 42 recently identified a targeted attack against an individual working for the Foreign Ministry of Uzbekistan in China. A spear-phishing email was sent to a diplomat of the Embassy of Uzbekistan who is likely based in Beijing","activism (3%)","airspace (6%)","financial (3%)","government (19%)","health (2%) and press (1%).","https://unit42.paloaltonetworks.com/nettraveler-spear-phishing-email-targets-diplomat-of-uzbekistan/","https://www.kaspersky.com/about/press-releases/2014_nettraveler-gets-a-makeover-for-10th-anniversary","industrial and infrastructure (7%)","military (9%)","private (11%)","research (4%)","the main focus of interest for cyber-espionage activities revolved around diplomatic (32%)"]
 malware:
   - name: "NetTraveler"
+  - name: "PlugX"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/blog/research/35936/nettraveler-is-running-red-star-apt-attacks-compromise-high-profile-victims/","https://securelist.com/blog/incidents/57455/nettraveler-is-back-the-red-star-apt-returns-with-new-tricks/","https://cybergeeks.tech/dissecting-apt21-samples-using-a-step-by-step-approach/","http://www.darkreading.com/endpoint/chinese-cyberspies-pivot-to-russia-in-wake-of-obama-xi-pact/d/d-id/1324242","https://www.isightpartners.com/2014/11/threatscape-media-highlights-update-week-november-10/","http://www.securityweek.com/plugx-rat-used-gather-intel-afghan-russian-military-report"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2014"
@@ -31,13 +33,29 @@ provenance:
     sample_titles: ["Nettraveler Apt Gets A Makeover For 10Th Birthday"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Kaspersky"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "8650e8c5-55a5-4441-8903-0f2bf5753ef1"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Kaspersky: ["Hammer Panda"]
+      Mandiant/FireEye: ["Temp.Zhenbao"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "hammerpanda"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt21"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt21"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "b80f4788-ccb2-466d-ae16-b397159d907e"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

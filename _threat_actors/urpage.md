@@ -10,7 +10,11 @@ permalink: /urpage/
 What sets Urpage attacks apart is its targeting of InPage, a word processor for Urdu and Arabic languages. However, its Delphi backdoor component, which it has in common with Confucius and Patchwork, and its apparent use of Bahamut-like malware, is what makes it more intriguing as it connects Urpage to these other known threats. Trend Micro covered the Delphi component in the context of the Confucius and Patchwork connection. They mentioned Urpage as a third unnamed threat actor connected to the two.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Middle East]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -24,9 +28,11 @@ What sets Urpage attacks apart is its targeting of InPage, a word processor for 
 ## Malware and Tools
 - **Backdoor.Oldrea**
 - **Arabian-Attacker RAT**
+- **Trojaned Android applications**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Middle East]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

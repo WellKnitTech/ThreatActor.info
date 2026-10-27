@@ -1,5 +1,5 @@
 name: "Volatile Cedar"
-aliases: ["Amethyst Rain","DeftTorero","Lebanese Cedar","Volatile Cedar","VolcanicTimber"]
+aliases: ["Amethyst Rain","DeftTorero","Lebanese Cedar","Volatile Cedar","VolcanicTimber","G0123"]
 description: "Volatile Cedar is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. Volatile Cedar has been operating since 2012 and is motivated by political and ideological interests. [CheckPoint Volatile Cedar March 2015](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf) [ClearSky Lebanese Cedar Jan 2021](https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf)"
 url: "/apt0123"
 country: "Lebanon"
@@ -67,12 +67,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.checkpoint.com/downloads/volatile-cedar-technical-report.pdf","http://blog.checkpoint.com/2015/03/31/volatilecedar/","https://securelist.com/sinkholing-volatile-cedar-dga-infrastructure/69421/","https://www.clearskysec.com/cedar/","https://securelist.com/defttorero-tactics-techniques-and-procedures/107610/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "middle-east"
   aptnotes:
     earliest_report_year: "2015"
@@ -82,35 +85,62 @@ provenance:
     sample_titles: ["Volatile Cedar Threat Intelligence And Research"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Checkpoint"]
+  eternal_liberty:
+    aliases_by_entity:
+      Checkpoint: ["Volatile Cedar"]
+      ClearSky: ["Lebanese Cedar"]
+      Kaspersky: ["DeftTorero"]
+      MITRE: ["G0123"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "volatilecedar"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "volatile_cedar"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/volatile_cedar"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "cf421ce6-ddfe-419a-bc65-6a9fc953232a"
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Amethyst Rain"
+    origin_category: "Lebanon"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "amethystrain"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["country","refs","suspected-victims","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat"]
+    meta_keys: ["country","refs","suspected-victims","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "cf421ce6-ddfe-419a-bc65-6a9fc953232a"
-    source_record_ids: ["cf421ce6-ddfe-419a-bc65-6a9fc953232a","7c3ef21c-0e1c-43d5-afb0-3a07c5a66937","043ebe48-3101-5f67-9dd0-de3c9f230031"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_record_ids: ["cf421ce6-ddfe-419a-bc65-6a9fc953232a","7c3ef21c-0e1c-43d5-afb0-3a07c5a66937","043ebe48-3101-5f67-9dd0-de3c9f230031","ee12e0a9-a20b-4d48-8814-d565211cb0ba"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0123"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Volatile Cedar"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Volatile%20Cedar/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Volatile%20Cedar/Volatile%20Cedar_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
 source: "MITRE ATT&CK"

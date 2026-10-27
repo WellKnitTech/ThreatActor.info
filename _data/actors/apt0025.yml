@@ -1,5 +1,5 @@
 name: "APT17"
-aliases: ["APT17","ATG3","AURORA PANDA","Axiom","BRONZE KEYSTONE","Burning Umbrella","Deputy Dog","DeputyDog","Dogfish","G0001","G0025","Group 72","Group 8","Heart Typhoon","HELIUM","Hidden Lynx","KAOS","Red Typhoon","SportsFans","Tailgater","Tailgater Team","TG-8153"]
+aliases: ["APT17","ATG3","AURORA PANDA","Aurora Panda","Axiom","BRONZE KEYSTONE","Burning Umbrella","Deputy Dog","DeputyDog","Dogfish","G0001","G0025","Group 72","Group 8","HELIUM","Heart Typhoon","Hidden Lynx","KAOS","Operation “SMN”","Red Typhoon","SportsFans","TG-8153","Tailgater","Tailgater Team"]
 description: "APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. [FireEye APT17](https://web.archive.org/web/20240119213200/https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf)"
 url: "/apt0025"
 country: "China"
@@ -19,7 +19,7 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt17"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["Ephemeral Hydra"]
+operations: ["000 machines had downloaded a malicious payload. These payloads were being delivered to unsuspecting victims from legitimate websites that were strategically compromised.","2012-06","2012-07","Breach of the Bit9 website","Ephemeral Hydra","The VOHO campaign","VOHO campaign","first publicized by RSA","https://blog.bit9.com/2013/02/08/bit9-and-our-customers-security/","https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/hidden_lynx.pdf","is one of the largest and most successful watering-hole attacks to date. The campaign combined both regional and industry-specific attacks and predominantly targeted organizations that operate in the United States. In a rapidly spreading two-phase attack","nearly 4","which started on June 25 and finished July 18"]
 malware:
   - "China Chopper"
   - name: "BLACKCOFFEE"
@@ -35,6 +35,9 @@ malware:
   - name: "Sakula"
   - name: "China Chopper"
   - name: "DestroyRAT"
+  - name: "HiKit"
+  - name: "Moudoor"
+  - name: "Naid"
 software:
   - name: "BLACKCOFFEE"
     mitre_id: "S0069"
@@ -65,30 +68,45 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0025"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.fireeye.com/blog/technical/cyber-exploits/2013/09/operation-deputydog-zero-day-cve-2013-3893-attack-against-japanese-targets.html","http://www.fireeye.com/blog/technical/cyber-exploits/2013/11/operation-ephemeral-hydra-ie-zero-day-linked-to-deputydog-uses-diskless-method.html","http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/hidden_lynx.pdf","http://www.darkreading.com/attacks-and-breaches/chinese--hidden-lynx--hackers-launch-widespread-apt-attacks/d/d-id/1111589?page_number=2","https://www.rsaconference.com/writable/presentations/file_upload/crwd-t11-hide_and_seek-how_threat_actors_respond_in_the_face_of_public_exposure.pdf","http://www.crowdstrike.com/blog/french-connection-french-aerospace-focused-cve-2014-0322-attack-shares-similarities-2012/","https://401trg.com/burning-umbrella/","https://www.infosecurity-magazine.com/news/chinese-espionage-group-widescale/","https://intrusiontruth.wordpress.com/2019/07/24/apt17-is-run-by-the-jinan-bureau-of-the-chinese-ministry-of-state-security/","https://www.bloomberg.com/features/2021-supermicro/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2013"
     latest_report_year: "2018"
-    report_count: 3
-    sample_links: ["https://app.box.com/s/w4rzfbf0ziip0dt4smkwtraluv8o0z9g","https://app.box.com/s/6uv4v8hpnfpka971qk0gd3j4mnm5x7mt","https://app.box.com/s/fg13wm1gi656siqyxm1zegy6mubhu523"]
-    sample_titles: ["Operation Deputydog: Zero-Day (Cve-2013-3893) Attack Against Japanese Targets","Operation Snowman: Deputydog Actor Compromises Us Veterans Of Foreign Wars Website","Burning Umbrella"]
+    report_count: 4
+    sample_links: ["https://app.box.com/s/w4rzfbf0ziip0dt4smkwtraluv8o0z9g","https://app.box.com/s/6uv4v8hpnfpka971qk0gd3j4mnm5x7mt","https://app.box.com/s/tp6i8x92oxp2jjs1gajmimxsbgwb3hpa","https://app.box.com/s/fg13wm1gi656siqyxm1zegy6mubhu523"]
+    sample_titles: ["Operation Deputydog: Zero-Day (Cve-2013-3893) Attack Against Japanese Targets","Operation Snowman: Deputydog Actor Compromises Us Veterans Of Foreign Wars Website","Operation SMN","Burning Umbrella"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
-    sources: ["401TRG","FireEye"]
+    source_retrieved_at: "2026-10-27T17:29:15Z"
+    sources: ["401TRG","FireEye","Novetta"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "27c06342-0000-4ed3-8c57-9041c64d8230"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt17"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt17"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "99e30d89-9361-4b73-a999-9e5ff9320bcb"
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Heart Typhoon"
+    origin_category: "China"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "hearttyphoon"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
     source_cluster: "microsoft-activity-group.json"
@@ -96,20 +114,27 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "a418d583-d520-5207-bec9-b634417d7f41"
     source_record_ids: ["a418d583-d520-5207-bec9-b634417d7f41"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0025"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "APT17"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT17/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT17/APT17_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
 source: "MITRE ATT&CK"

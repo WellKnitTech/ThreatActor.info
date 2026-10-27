@@ -2,6 +2,7 @@ name: "Tellyouthepass"
 aliases: ["Tellyouthepass"]
 description: "Tellyouthepass is a ransomware that alters system files, registry entries and encodes personal photos, documents, and servers or archives. Army-grade encryption algorithms get used to change the original code of the file and make the data useless."
 url: "/tellyouthepass"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
@@ -12,4 +13,22 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "c6ca9b44-d0cd-40c9-9d00-39e0f7bcae79"
     source_record_ids: ["c6ca9b44-d0cd-40c9-9d00-39e0f7bcae79"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "www.imperva.com"
+        url: "https://www.imperva.com/blog/update-cve-2024-4577-quickly-weaponized-to-distribute-tellyouthepass-ransomware/"
+        source_file: "Vulnerabilities/Applications.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md"]
+    source_label: "TellYouThePass"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "PHP"
+          product: "PHP CGI"
+          cves: ["CVE-2024-4577"]
+          source_links: ["https://www.imperva.com/blog/update-cve-2024-4577-quickly-weaponized-to-distribute-tellyouthepass-ransomware/"]
+          source_file: "Vulnerabilities/Applications.md"

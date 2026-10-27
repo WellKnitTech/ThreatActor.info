@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "ctblocker"
 aliases: ["ctblocker"]
-description: "aka Critroni\r<br/>CTB‑Locker emerged in mid‑2014, introducing a new era of ransomware by leveraging elliptic curve cryptography (ECC), Tor-based C&C communication, and Bitcoin payments—earning its name"
+description: "aka Critroni <br/>CTB‑Locker emerged in mid‑2014, introducing a new era of ransomware by leveraging elliptic curve cryptography (ECC), Tor-based C&C communication, and Bitcoin payments—earning its name"
 permalink: /ctblocker/
 ---
 

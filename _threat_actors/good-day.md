@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "good day"
-aliases: ["good day"]
+aliases: ["Good Day","good day"]
 description: "Good Day is a ransomware variant within the ARCrypter family, first observed in May 2023. It gained prominence due to its reticent financial extortion model and custom branding—victims are greeted with"
 permalink: /good-day/
 ---

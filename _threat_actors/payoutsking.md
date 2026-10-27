@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "payoutsking"
 aliases: ["payoutsking"]
-description: " Payouts King Group. We are not RaaS. No affiliates are accepted. We use Tox messaging protocol."
+description: "Payouts King Group. We are not RaaS. No affiliates are accepted. We use Tox messaging protocol."
 permalink: /payoutsking/
 ---
 

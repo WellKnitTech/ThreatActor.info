@@ -1,0 +1,14 @@
+name: "Operation Potao Express"
+aliases: ["Operation Potao Express"]
+description: "(ESET) We presented our initial findings based on research into the Win32/Potao malware family in June, in our CCCC 2015 presentation in Copenhagen. Today, we are releasing the full whitepaper on the Potao malware with additional findings, the cyberespionage campaigns where it was employed, and its connection to a backdoor in the form of a modified version of the TrueCrypt encryption software. Like BlackEnergy, the malware used by the so-called 'Sandworm Team, Iron Viking, Voodoo Bear' APT group (also known as Quedagh), Potao is an example of targeted espionage malware directed mostly at targets in Ukraine and a number of other post-Soviet countries, including Russia, Georgia and Belarus."
+url: "/operation-potao-express"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["FakeTC","Patao"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "af56332c-10bb-4e1c-9476-ed39c337f751"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

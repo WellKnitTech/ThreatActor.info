@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Nazar"
-aliases: ["SIG37","Nazar"]
+aliases: ["Nazar","SIG37"]
 description: "This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster as published in the ShadowBrokers' 'Lost in Translation' leak. Earliest known sighting potentially dates back to as far as"
 permalink: /nazar/
 ---
@@ -10,7 +10,11 @@ permalink: /nazar/
 This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster as published in the ShadowBrokers' 'Lost in Translation' leak. Earliest known sighting potentially dates back to as far as 2008 with a confirmed center of activity around 2010-2013. The actor name is derived from a PDB debug string fragment: 'khzer'. Victimology indicates targeting of Iran, assessed with low confidence based on VT file submission locations. Nazar employs a modular toolkit where a main dropper silently registers multiple DLLs as OLE controls in the Windows registry. Functionality includes keylogging, sound and screen grabbing, as well as traffic capture using the MicroOlap Packet Sniffer library.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇮🇷 ["Iran"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,9 +31,14 @@ This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster a
 - **Back Orifice 2000**
 - **Lost Door**
 - **Windows Remote Desktop**
+- **Distribute.exe**: 
+- **EYService**: 
+- **GpUpdates.exe**: 
+- **Microolap Packet Sniffer**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["Iran"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

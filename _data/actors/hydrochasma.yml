@@ -1,0 +1,21 @@
+name: "Hydrochasma"
+aliases: ["Hydrochasma"]
+description: "(Symantec) Shipping companies and medical laboratories in Asia are being targeted in a likely intelligence-gathering campaign that relies exclusively on publicly available and living-off-the-land tools. Hydrochasma, the threat actor behind this campaign, has not been linked to any previously identified group, but appears to have a possible interest in industries that may be involved in COVID-19-related treatments or vaccines. This activity has been ongoing since at least October 2022. While Symantec, by Broadcom Software, did not see any data being exfiltrated in this campaign, the targets, as well as some of the tools used, indicate that the most likely motivation in this campaign is intelligence gathering."
+url: "/hydrochasma"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["BrowserGhost","Cobalt Strike","GO Simple Tunnel","HackBrowserData","Living off the Land","ProcDump","SoftEther VPN"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "4adfaa81-56ce-462d-b1ea-d88312b4b937"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Hydrochasma"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Hydrochasma/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Hydrochasma/Hydrochasma_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "PClock4 Ransomware"
 aliases: ["PClock SysGop Ransomware","PClock4 Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam (for example: “you have a criminal case against you”), fake updates, attachments and so on"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam (for example: “you have a criminal case against you”), fake updates, attachments and so on."
 permalink: /pclock4-ransomware/
 ---
 

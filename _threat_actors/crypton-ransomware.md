@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Crypton Ransomware"
-aliases: ["Nemesis","X3M","Crypton Ransomware"]
+aliases: ["Crypton Ransomware","Nemesis","X3M"]
 description: "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fak"
 permalink: /crypton-ransomware/
 ---

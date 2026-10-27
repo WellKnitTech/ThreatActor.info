@@ -2,8 +2,10 @@ name: "HelloKitty"
 aliases: ["FiveHands","HelloKitty"]
 description: "ransomware"
 url: "/hellokitty"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/fivehands"
 provenance:
   misp_galaxy:
     meta_keys: ["date","links","refs","synonyms"]
@@ -12,4 +14,67 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "022c995a-f1ba-498f-b67e-92ef01fd06a3"
     source_record_ids: ["022c995a-f1ba-498f-b67e-92ef01fd06a3"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "www.ic3.gov"
+        url: "https://www.ic3.gov/Media/News/2021/211029.pdf"
+        date: "28 October 2021"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc2447-sombrat-and-fivehands-ransomware-sophisticated-financial-threat"
+        date: "29 April 2021"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "CISA Alert ar21-126a"
+        url: "https://www.cisa.gov/news-events/analysis-reports/ar21-126a"
+        date: "6 May 2021"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
+    source_label: "FiveHands"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["GrabFF","Mimikatz","Router Scan"]
+      Defense Evasion: ["PCHunter"]
+      Discovery: ["AdFind","Advanced IP Scanner","Bloodhound","S3 Browser","SoftPerfect NetScan"]
+      Exfiltration: ["MEGA","RClone","pCloud"]
+      LOLBAS: ["PAExec","PsExec"]
+      OffSec: ["Cobalt Strike","Commando VM","OWASP ZAP"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blackberry.com"
+        url: "https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc2447-sombrat-and-fivehands-ransomware-sophisticated-financial-threat/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "ic3.gov"
+        url: "https://www.ic3.gov/CSA/2021/211029.pdf"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/NetworkEdge.md"]
+    source_label: "FiveHands / HelloKitty"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Network Edge:
+        - vendor: "SonicWall"
+          product: "SMA 100"
+          cves: ["CVE-2019-7481"]
+          source_links: ["https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/","https://www.blackberry.com/us/en/solutions/endpoint-security/ransomware-protection/blackcat"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "SonicWall"
+          product: "SMA 100"
+          cves: ["CVE-2021-20016","CVE-2021-20021","CVE-2021-20022","CVE-2021-20023"]
+          source_links: ["https://cloud.google.com/blog/topics/threat-intelligence/unc2447-sombrat-and-fivehands-ransomware-sophisticated-financial-threat/","https://www.ic3.gov/CSA/2021/211029.pdf"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "fivehands"
+  source_retrieved_at: "2026-10-27T17:21:10Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

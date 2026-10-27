@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD NORTHFIELD"
-aliases: ["GOLD NORTHFIELD"]
+aliases: ["GOLD NORTHFIELD","Gold Northfield"]
 description: "Operational since at least October 2020, GOLD NORTHFIELD is a financially motivated cybercriminal threat group that leverages GOLD SOUTHFIELD's REvil ransomware in their attacks. To do this, the threat"
 permalink: /gold-northfield/
 ---

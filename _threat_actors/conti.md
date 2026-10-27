@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Conti"
-aliases: ["Ryuk","Wizard Spider","Conti","TEMP.MixMaster","GOLD BLACKBURN","FIN12","Periwinkle Tempest","DEV-0193","Storm-0193","Trickbot LLC","UNC2053","Pistachio Tempest","DEV-0237","Storm-0230","WIZARD SPIDER"]
+aliases: ["Conti","DEV-0193","DEV-0237","FIN12","GOLD BLACKBURN","Periwinkle Tempest","Pistachio Tempest","Ryuk","Storm-0193","Storm-0230","TEMP.MixMaster","Trickbot LLC","UNC2053","WIZARD SPIDER","Wizard Spider"]
 description: "Conti is a Russian ransomware-as-a-service operation known for targeting healthcare and critical infrastructure."
 permalink: /conti/
 ---

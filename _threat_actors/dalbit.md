@@ -29,6 +29,27 @@ The group usually targets vulnerable servers to breach information including int
 
 ## Malware and Tools
 - **Windows Remote Desktop**
+- **ASPXSpy**: 
+- **AntSword**: 
+- **BadPotato**: 
+- **BlueShell**: 
+- **China Chopper**: 
+- **Cobalt Strike**: 
+- **EFSPotato**: 
+- **FRP**: 
+- **Godzilla**: 
+- **HTran**: 
+- **JuicyPotato**: 
+- **LadonGo**: 
+- **Metasploit**: 
+- **Mimikatz**: 
+- **NPS**: 
+- **ProcDump**: 
+- **PsExec**: 
+- **Remcom**: 
+- **RottenPotato**: 
+- **SweetPotato**: 
+- **reGeorg**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -1,5 +1,5 @@
 name: "SLIME29"
-aliases: ["SLIME29"]
+aliases: ["SLIME29","Slime29"]
 description: "SLIME29 is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/slime29"
 country: "China"
@@ -11,11 +11,19 @@ source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slime29"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  eternal_liberty:
+    confidence: "Low"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "slime29"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "slime29"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slime29"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d58030e2-5673-4836-9aff-ab6d55da0bc0"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

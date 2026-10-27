@@ -22,20 +22,24 @@
   ],
   "groups": [
     {
+      "name": "APT38",
+      "url": "/apt0082/"
+    },
+    {
       "name": "APT-C-36",
-      "url": "/apt0099"
+      "url": "/apt0099/"
     },
     {
       "name": "Contagious Interview",
-      "url": "/apt1052"
+      "url": "/apt1052/"
     },
     {
       "name": "BlackByte",
-      "url": "/apt1043"
+      "url": "/apt1043/"
     },
     {
       "name": "Gamaredon Group",
-      "url": "/apt0047"
+      "url": "/apt0047/"
     }
   ]
 }

@@ -1,5 +1,5 @@
 name: "GCMAN"
-aliases: ["G0036","GCMAN"]
+aliases: ["G0036","GCMAN","Gcman"]
 description: "GCMAN is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. [Securelist GCMAN](https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/)"
 url: "/apt0036"
 country: "Russia"
@@ -19,6 +19,11 @@ malware:
   - name: "CyberGate"
   - name: "Cyber Eye RAT"
   - name: "9002"
+  - name: "GCMAN"
+  - name: "Meterpreter"
+  - name: "PuTTY"
+  - name: "VNC"
+  - name: "malicious RAR archives"
 ttps:
   - technique_id: "T1021.005"
     technique_name: "VNC"
@@ -41,34 +46,54 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0036"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "e6eeb30a-a941-46f9-8340-20958f1d6cb0"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Kaspersky: ["Gcman"]
+      MITRE: ["G0036"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "gcman"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "gcman"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gcman"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d93889de-b4bc-4a29-9ce7-d67717c140a0"
   misp_galaxy:
-    meta_keys: ["attribution-confidence","country","refs","synonyms","targeted-sector","group_attack_id","observed_motivations","source","target_categories"]
+    meta_keys: ["attribution-confidence","country","refs","synonyms","targeted-sector","group_attack_id","observed_motivations","source","target_categories","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d93889de-b4bc-4a29-9ce7-d67717c140a0"
     source_record_ids: ["d93889de-b4bc-4a29-9ce7-d67717c140a0","dbc85db0-937d-47d7-9002-7364d41be48a"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0036"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f"
 source: "MITRE ATT&CK"

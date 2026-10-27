@@ -1,0 +1,28 @@
+name: "TA419"
+aliases: ["TA419"]
+description: "According to Proofpoint, TA419 is a China-aligned, espionage-motivated threat actor conducting regular targeted credential phishing campaigns against individuals at US- and Japan-based think tanks, defense contractors, universities and law firms since at least April 2025. In 2026 it impersonated real subject-matter experts, including a former White House OSTP official and a senior Anthropic employee, to target AI policy experts. Benign rapport-building emails are followed by multi-stage URL redirection to an adversary-in-the-middle phishing page against Microsoft 365 / Entra ID, built on a customised Frameless BitB kit embedding an Evilginx phishlet. Proofpoint states the group's activity had not been previously reported publicly."
+url: "/ta419"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta419"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "EvilGrab"
+  - name: "China Chopper"
+  - name: "Xpert"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "ta419"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta419"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "d7140683-7af8-41c6-8938-18a69bb809e3"
+  misp_galaxy:
+    meta_keys: ["name-attribution","refs","since"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d7140683-7af8-41c6-8938-18a69bb809e3"
+    source_record_ids: ["d7140683-7af8-41c6-8938-18a69bb809e3"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

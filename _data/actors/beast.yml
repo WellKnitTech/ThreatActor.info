@@ -2,7 +2,7 @@ name: "Beast"
 aliases: ["Beast"]
 description: "Beast ransomware emerged in 2022 as an enhanced iteration of the earlier “Monster” ransomware. It operates under a Ransomware-as-a-Service (RaaS) model, offering affiliates rich customization options to create tailored binaries targeting Windows, Linux, and VMware ESXi systems. Key technical capabilities include hybrid Elliptic-Curve + ChaCha20 encryption, segmented file encryption, ZIP wrapper mode (encrypting files into zip archives with embedded ransom notes), multithreaded processing, termination of services, shadow copy deletion, hidden partition usage, and subnet scanning. Affiliates are provided configurable offline builders, enabling streamlined deployment across multiple platforms. While Beast's functional power is well-documented, details on its specific victims, sectors targeted, and leak site activity remain limited in public sources."
 url: "/beast"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/beast"
@@ -20,7 +20,7 @@ provenance:
     source_files: ["GroupProfiles/Beast.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/RMM-Tools.md"]
     source_label: "Beast"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T01:51:36Z"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
     tools_by_category:
       Credential Theft: ["Automim","LaZagne","Mimikatz"]
       Discovery: ["Advanced IP Scanner","Advanced Port Scanner","Everything.exe","SoftPerfect NetScan"]
@@ -30,5 +30,5 @@ provenance:
       RMM Tools: ["AnyDesk"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "beast"
-  source_retrieved_at: "2026-04-26T02:09:04Z"
+  source_retrieved_at: "2026-10-27T17:22:30Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

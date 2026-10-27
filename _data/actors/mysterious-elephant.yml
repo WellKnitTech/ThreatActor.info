@@ -1,0 +1,51 @@
+name: "Mysterious Elephant"
+aliases: ["APT-K-47","Mysterious Elephant"]
+description: "Mysterious Elephant is an APT group active since 2023 that primarily targets government and foreign affairs entities across South Asia, especially Pakistan, Bangladesh, Sri Lanka, Nepal, and Afghanistan. In its early-2025 campaign it shifted toward spear-phishing and custom/customized tools—including the BabShell reverse shell and MemLoader HidenDesk/Edge loaders—to deploy RATs like Remcos and VRat, while also using WhatsApp-specific exfiltration tools to steal shared documents, images, and archives. The group shares code and infrastructure with other APT clusters (Origami Elephant, Confucius, SideWinder), reflecting ongoing tool reuse and collaboration among South Asian threat actors."
+url: "/mysterious-elephant"
+country: "[\"[Unknown]\"]"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/mysterious_elephant"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Remcos"
+  - name: "CrossRat"
+  - name: "ORPCBackdoor"
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "7a5bd493-2c51-4878-bc60-7639d7e9da21"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Kaspersky: ["Mysterious Elephant"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "aptk47"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "mysterious_elephant"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/mysterious_elephant"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "b7883e16-e1d8-4ab2-b0dc-9117cce4228f"
+  misp_galaxy:
+    meta_keys: ["name-attribution","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "b7883e16-e1d8-4ab2-b0dc-9117cce4228f"
+    source_record_ids: ["b7883e16-e1d8-4ab2-b0dc-9117cce4228f"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Mysterious Elephant"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Mysterious%20Elephant/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Mysterious%20Elephant/Mysterious%20Elephant_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

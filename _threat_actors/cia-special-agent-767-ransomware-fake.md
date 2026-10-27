@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "CIA Special Agent 767 Ransomware (FAKE!!!)"
 aliases: ["CIA Special Agent 767 Ransomware (FAKE!!!)"]
-description: "It’s directed to English speaking users, therefore is able to infect users all over the world.  It is spread using email spam, fake updates, attachments and so on.  It SUPPOSEDLY encrypts all your file"
+description: "It’s directed to English speaking users, therefore is able to infect users all over the world. It is spread using email spam, fake updates, attachments and so on. It SUPPOSEDLY encrypts all your files,"
 permalink: /cia-special-agent-767-ransomware-fake/
 ---
 

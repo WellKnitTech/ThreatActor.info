@@ -26,7 +26,16 @@ Ransomware.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | GrabChrome, GrabFF, KeeThief, Mimikatz, NirSoft WebBrowserPassView |
+| Discovery | AdFind, Cent Browser, S3 Browser, SoftPerfect NetScan |
+| LOLBAS | NTDS Utility (ntdsutil), PsExec, Windows Event Utility (wevtutil) |
+| Networking | Chisel |
+| OffSec | Cobalt Strike, Impacket |
+| RMM Tools | LogMeIn, ScreenConnect, TeamViewer |
 
 ## Attribution and Evidence
 **Country of Origin**: China

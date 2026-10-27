@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "KingOuroboros"
 aliases: ["KingOuroboros"]
-description: "This crypto-extortioner encrypts user data using AES, and then requires a $ 30- $ 50- $ 80 buy-  back to BTC to return the files. The name is original. Written on AutoIt."
+description: "This crypto-extortioner encrypts user data using AES, and then requires a $ 30- $ 50- $ 80 buy- back to BTC to return the files. The name is original. Written on AutoIt."
 permalink: /kingouroboros/
 ---
 

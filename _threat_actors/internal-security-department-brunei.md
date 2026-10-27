@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Internal Security Department (Brunei)"
 aliases: ["Internal Security Department (Brunei)"]
-description: "Internal Security Department (Brunei)[4]  (internal)"
+description: "Internal Security Department (Brunei)[4] (internal)"
 permalink: /internal-security-department-brunei/
 ---
 

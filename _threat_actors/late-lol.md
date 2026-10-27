@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "late.lol"
 aliases: ["late.lol"]
-description: "Affiliates:\r<br/>@Mr.C\r<br/>@Empathy\r<br/>@jayze\r<br/>@Widow\r<br/>@Memory\r<br/>\r<br/>"
+description: "Affiliates: <br/>@Mr.C <br/>@Empathy <br/>@jayze <br/>@Widow <br/>@Memory <br/> <br/>"
 permalink: /late-lol/
 ---
 

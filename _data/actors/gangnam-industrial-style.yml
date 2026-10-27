@@ -1,0 +1,24 @@
+name: "Gangnam Industrial Style"
+aliases: ["Gangnam Industrial Style"]
+description: "(CyberX) Section 52, CyberX’s threat intelligence team, has uncovered an ongoing industrial cyberespionage campaign targeting hundreds of manufacturing and other industrial firms primarily located in South Korea. The campaign steals passwords and documents which could be used in a number of ways, including stealing trade secrets and intellectual property, performing cyber reconnaissance for future attacks, and compromising industrial control networks for ransomware attacks. For example, the attackers could be stealing proprietary information about industrial equipment designs so they can sell it to competitors and nation-states seeking to advance their competitive posture. Also, credentials can provide attackers with remote RDP access to IoT/ICS networks, while plant schematics help adversaries understand plant layouts in order to facilitate attacks. Design information can also be used by cyberattackers to identify vulnerabilities in industrial control systems."
+url: "/gangnam-industrial-style"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["LaZagne","Living off the Land","MOVEit Freely","NcFTPPut","Secure FTP Client","Separ"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "792aae38-0145-4cc0-8e9f-8d41d147e8ae"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CyberX: ["Gangnam Industrial Style"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "gangnamindustrialstyle"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"

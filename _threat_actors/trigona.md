@@ -16,13 +16,25 @@ Trigona is an active extortion or ransomware group tracked by RansomLook.
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications | Zoho | ManageEngine ADSelfService Plus | CVE-2021-40539 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz |
+| Discovery | Advanced Port Scanner, SoftPerfect NetScan |
+| Exfiltration | MEGA, RClone |
+| OffSec | Cobalt Strike |
+| RMM Tools | AnyDesk, LogMeIn, ScreenConnect, Splashtop, TeamViewer |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

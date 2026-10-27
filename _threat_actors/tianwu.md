@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TianWu"
-aliases: ["TianWu"]
+aliases: ["TianWu","Tianwu"]
 description: "TianWu is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /tianwu/
 ---

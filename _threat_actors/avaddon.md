@@ -24,6 +24,16 @@ Avaddon is a ransomware malware targeting Windows systems often spread via malic
 ## Malware and Tools
 - **Windows Remote Desktop**: 
 
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz, SharpDump |
+| Defense Evasion | GMER, PowerTool, TDSSKiller |
+| Discovery | SoftPerfect NetScan |
+| Exfiltration | Anonfiles, MEGA, ProtonMail, Sendspace |
+| OffSec | PowerShell Empire, PowerSploit |
+
 ## Attribution and Evidence
 *Information pending cataloguing.*
 

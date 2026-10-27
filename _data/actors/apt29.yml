@@ -1,173 +1,1209 @@
-name: "APT29"
-aliases: ["APT29","Blue Kitsune","Cozy Bear","CozyDuke","Dark Halo","IRON HEMLOCK","IRON RITUAL","Midnight Blizzard","NOBELIUM","NobleBaron","SolarStorm","The Dukes","UNC2452","UNC3524","YTTRIUM","Group 100","COZY BEAR","Minidionis","SeaDuke","Grizzly Steppe","G0016","ATK7","Cloaked Ursa","TA421","ITG11","BlueBravo","Nobelium","UAC-0029","Dukes","Cozy Duke","EuroAPT","CozyCar","Cozer","Office Monkeys / TEMP.Monkeys","Hammer Toss","Fritillary","Yttrium","StellarParticle","Cranefly","DarkHalo","Solar Phoenix"]
-description: "APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR). [White House Imposing Costs RU Gov April 2021](https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/) [UK Gov Malign RIS Activity April 2021](https://www.gov.uk/government/news/russia-uk-and-us-expose-global-campaigns-of-malign-activity-by-russian-intelligence-services) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. APT29 reportedly compromised the Democratic National Committee starting in the summer of 2015. [F-Secure The Dukes](https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf) [GRIZZLY STEPPE JAR](https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf) [Crowdstrike DNC June 2016](https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/) [UK Gov UK Exposes Russia SolarWinds April 2021](https://www.gov.uk/government/news/russia-uk-exposes-russian-involvement-in-solarwinds-cyber-compromise)\n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to the SVR; public statements included citations to APT29, Cozy Bear, and The Dukes. [NSA Joint Advisory SVR SolarWinds April 2021](https://media.defense.gov/2021/Apr/15/2002621240/-1/-1/0/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF) [UK NSCS Russia SolarWinds April 2021](https://www.ncsc.gov.uk/news/uk-and-us-call-out-russia-for-solarwinds-compromise) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. [FireEye SUNBURST Backdoor December 2020](https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html) [MSTIC NOBELIUM Mar 2021](https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/) [CrowdStrike SUNSPOT Implant January 2021](https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/) [Volexity SolarWinds](https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/) [Cybersecurity Advisory SVR TTP May 2021](https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf) [Unit 42 SolarStorm December 2020](https://unit42.paloaltonetworks.com/solarstorm-supply-chain-attack-timeline/)"
+---
+name: APT29
+aliases:
+- APT29
+- ATK7
+- Backswimmer
+- Blue Kitsune
+- Blue Nova
+- BlueBravo
+- COZY BEAR
+- Cloaked Ursa
+- Cozer
+- Cozy
+- Cozy Bear
+- Cozy Bear (CrowdStrike)
+- Cozy Duke
+- CozyCar
+- CozyDuke
+- Cranefly
+- DEV-0473
+- Dark Halo
+- DarkHalo
+- Dukes
+- EuroAPT
+- Eurostrike
+- Fritillary
+- G0016
+- Grizzly Steppe
+- Group 100
+- Hagensia
+- Hammer Toss
+- ICE RELIC
+- ICECAP
+- IRON HEMLOCK
+- IRON RITUAL
+- ITG11
+- Iron Hemlock
+- Iron Ritual
+- Midnight Blizzard
+- Midnight Blizzard (Microsoft)
+- Minidionis
+- NOBELIUM
+- Nobelium
+- NobleBaron
+- Noblebaron
+- Office Monkeys
+- Office Monkeys / TEMP.Monkeys
+- Office Space
+- SeaDuke
+- Solar Phoenix
+- SolarStorm
+- Solarstorm
+- StellarParticle
+- TA421
+- TAG-11
+- The Dukes
+- UAC-0029
+- UNC2452
+- UNC3524
+- YTTRIUM
+- Yttrium
+description: |-
+  APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR). [White House Imposing Costs RU Gov April 2021](https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/) [UK Gov Malign RIS Activity April 2021](https://www.gov.uk/government/news/russia-uk-and-us-expose-global-campaigns-of-malign-activity-by-russian-intelligence-services) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. APT29 reportedly compromised the Democratic National Committee starting in the summer of 2015. [F-Secure The Dukes](https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf) [GRIZZLY STEPPE JAR](https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf) [Crowdstrike DNC June 2016](https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/) [UK Gov UK Exposes Russia SolarWinds April 2021](https://www.gov.uk/government/news/russia-uk-exposes-russian-involvement-in-solarwinds-cyber-compromise)
+
+  In April 2021, the US and UK governments attributed the SolarWinds Compromise to the SVR; public statements included citations to APT29, Cozy Bear, and The Dukes. [NSA Joint Advisory SVR SolarWinds April 2021](https://media.defense.gov/2021/Apr/15/2002621240/-1/-1/0/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF) [UK NSCS Russia SolarWinds April 2021](https://www.ncsc.gov.uk/news/uk-and-us-call-out-russia-for-solarwinds-compromise) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. [FireEye SUNBURST Backdoor December 2020](https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html) [MSTIC NOBELIUM Mar 2021](https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/) [CrowdStrike SUNSPOT Implant January 2021](https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/) [Volexity SolarWinds](https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/) [Cybersecurity Advisory SVR TTP May 2021](https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf) [Unit 42 SolarStorm December 2020](https://unit42.paloaltonetworks.com/solarstorm-supply-chain-attack-timeline/)
 url: "/apt29"
-country: "Russia"
-sector_focus: ["Government","Healthcare","Energy","Think Tanks","Government, Administration","Private sector"]
-targeted_victims: ["United States","China","New Zealand","Ukraine","Romania","Georgia","Japan","South Korea","Belgium","Kazakhstan","Brazil","Mexico","Turkey","Portugal","India","Germany"]
-incident_type: "Espionage"
-first_seen: "2008"
-last_activity: "2024"
-last_updated: "2026-04-28"
-risk_level: "High"
-external_id: "G0016"
-external_url: "https://attack.mitre.org/groups/G0016"
-mitre_id: "G0016"
-mitre_url: "https://attack.mitre.org/groups/G0016"
-source_name: "APT Groups & Operations Spreadsheet"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt29"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["Operation Ghost"]
+country: Russia
+sector_focus:
+- Government
+- Healthcare
+- Energy
+- Think Tanks
+- Government, Administration
+- Private sector
+targeted_victims:
+- United States
+- China
+- New Zealand
+- Ukraine
+- Romania
+- Georgia
+- Japan
+- South Korea
+- Belgium
+- Kazakhstan
+- Brazil
+- Mexico
+- Turkey
+- Portugal
+- India
+- Germany
+incident_type: Espionage
+first_seen: '2008'
+last_activity: '2024'
+last_updated: '2026-10-27'
+risk_level: High
+confidence: high
+external_id: G0016
+external_url: https://attack.mitre.org/groups/G0016
+mitre_id: G0016
+mitre_url: https://attack.mitre.org/groups/G0016
+source_name: APT Groups & Operations Spreadsheet
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt29
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+operations:
+- Operation Ghost
 malware:
-  - "CosmicDuke"
-  - "PinchDuke"
-  - "CloudDuke"
-  - "HAMMERTOSS"
-  - "GeminiDuke"
-  - "MiniDuke"
-  - "SeaDuke"
-  - "RTM"
-  - "OnionDuke"
-  - "CyberGate"
-  - name: "Hammertoss"
-  - name: "OnionDuke"
-  - name: "CosmicDuke"
-  - name: "MiniDuke"
-  - name: "CozyDuke"
-  - name: "SeaDuke"
-  - name: "SeaDaddy implant developed in Python and compiled with py2exe"
-  - name: "AdobeARM"
-  - name: "ATI-Agent"
-  - name: "MiniDionis"
-  - name: "Grizzly Steppe"
-  - name: "Vernaldrop"
-  - name: "Tadpole"
-  - name: "Spikerush"
-  - name: "POSHSPY"
-  - name: "PolyglotDuke"
-  - name: "RegDuke"
-  - name: "FatDuke"
+- CosmicDuke
+- PinchDuke
+- CloudDuke
+- HAMMERTOSS
+- GeminiDuke
+- MiniDuke
+- SeaDuke
+- RTM
+- OnionDuke
+- CyberGate
+- name: Hammertoss
+- name: OnionDuke
+- name: CosmicDuke
+- name: MiniDuke
+- name: CozyDuke
+- name: SeaDuke
+- name: SeaDaddy implant developed in Python and compiled with py2exe
+- name: AdobeARM
+- name: ATI-Agent
+- name: MiniDionis
+- name: Grizzly Steppe
+- name: Vernaldrop
+- name: Tadpole
+- name: Spikerush
+- name: POSHSPY
+- name: PolyglotDuke
+- name: RegDuke
+- name: FatDuke
+software:
+- name: PinchDuke
+  mitre_id: S0048
+  url: https://attack.mitre.org/software/S0048
+  type: malware
+  stix_id: malware--ae9d818d-95d0-41da-b045-9cabea1ca164
+  description: 'PinchDuke is malware that was used by APT29 from 2008 to 2010. (Citation:
+    F-Secure The Dukes)'
+- name: ROADTools
+  mitre_id: S0684
+  url: https://attack.mitre.org/software/S0684
+  type: tool
+  stix_id: tool--6dbdc657-d8e0-4f2f-909b-7251b3e72c6d
+  description: 'ROADTools is a framework for enumerating Azure Active Directory environments.
+    The tool is written in Python and publicly available on GitHub.(Citation: ROADtools
+    Github)'
+- name: WellMail
+  mitre_id: S0515
+  url: https://attack.mitre.org/software/S0515
+  type: malware
+  stix_id: malware--959f3b19-2dc8-48d5-8942-c66813a5101a
+  description: 'WellMail is a lightweight malware written in Golang used by APT29,
+    similar in design and structure to WellMess.(Citation: CISA WellMail July 2020)(Citation:
+    NCSC APT29 July 2020)'
+- name: CozyCar
+  mitre_id: S0046
+  url: https://attack.mitre.org/software/S0046
+  type: malware
+  stix_id: malware--e6ef745b-077f-42e1-a37d-29eecff9c754
+  description: 'CozyCar is malware that was used by APT29 from 2010 to 2015. It is
+    a modular malware platform, and its backdoor component can be instructed to download
+    and execute a variety of modules with different functionality. (Citation: F-Secure
+    The Dukes)'
+- name: Mimikatz
+  mitre_id: S0002
+  url: https://attack.mitre.org/software/S0002
+  type: tool
+  stix_id: tool--afc079f3-c0ea-4096-b75d-3f05338b7f60
+  description: 'Mimikatz is a credential dumper capable of obtaining plaintext Windows
+    account logins and passwords, along with many other features that make it useful
+    for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity
+    Mimikatz Guide)'
+- name: meek
+  mitre_id: S0175
+  url: https://attack.mitre.org/software/S0175
+  type: tool
+  stix_id: tool--65370d0b-3bd4-4653-8cf9-daf56f6be830
+  description: meek is an open-source Tor plugin that tunnels Tor traffic through
+    HTTPS connections.
+- name: TrailBlazer
+  mitre_id: S0682
+  url: https://attack.mitre.org/software/S0682
+  type: malware
+  stix_id: malware--bdad6f3b-de88-42fa-9295-d29b5271808e
+  description: 'TrailBlazer is a modular malware that has been used by APT29 since
+    at least 2019.(Citation: CrowdStrike StellarParticle January 2022)'
+- name: Tasklist
+  mitre_id: S0057
+  url: https://attack.mitre.org/software/S0057
+  type: tool
+  stix_id: tool--2e45723a-31da-4a7e-aaa6-e01998a6788f
+  description: 'The Tasklist utility displays a list of applications and services
+    with their Process IDs (PID) for all tasks running on either a local or a remote
+    computer. It is packaged with Windows operating systems and can be executed from
+    the command-line interface. (Citation: Microsoft Tasklist)'
+- name: OnionDuke
+  mitre_id: S0052
+  url: https://attack.mitre.org/software/S0052
+  type: malware
+  stix_id: malware--b136d088-a829-432c-ac26-5529c26d4c7e
+  description: 'OnionDuke is malware that was used by APT29 from 2013 to 2015. (Citation:
+    F-Secure The Dukes)'
+- name: FatDuke
+  mitre_id: S0512
+  url: https://attack.mitre.org/software/S0512
+  type: malware
+  stix_id: malware--54a01db0-9fab-4d5f-8209-53cef8425f4a
+  description: 'FatDuke is a backdoor used by APT29 since at least 2016.(Citation:
+    ESET Dukes October 2019)'
+- name: POSHSPY
+  mitre_id: S0150
+  url: https://attack.mitre.org/software/S0150
+  type: malware
+  stix_id: malware--5e595477-2e78-4ce7-ae42-e0b059b17808
+  description: 'POSHSPY is a backdoor that has been used by APT29 since at least 2015.
+    It appears to be used as a secondary backdoor used if the actors lost access to
+    their primary backdoors. (Citation: FireEye POSHSPY April 2017)'
+- name: EnvyScout
+  mitre_id: S0634
+  url: https://attack.mitre.org/software/S0634
+  type: malware
+  stix_id: malware--2f8229dc-da94-41c6-89ba-b5b6c32f6b7d
+  description: 'EnvyScout is a dropper that has been used by APT29 since at least
+    2021.(Citation: MSTIC Nobelium Toolset May 2021)'
+- name: SoreFang
+  mitre_id: S0516
+  url: https://attack.mitre.org/software/S0516
+  type: malware
+  stix_id: malware--e33e4603-afab-402d-b2a1-248d435b5fe0
+  description: 'SoreFang is first stage downloader used by APT29 for exfiltration
+    and to load other malware.(Citation: NCSC APT29 July 2020)(Citation: CISA SoreFang
+    July 2016)'
+- name: GeminiDuke
+  mitre_id: S0049
+  url: https://attack.mitre.org/software/S0049
+  type: malware
+  stix_id: malware--199463de-d9be-46d6-bb41-07234c1dd5a6
+  description: 'GeminiDuke is malware that was used by APT29 from 2009 to 2012. (Citation:
+    F-Secure The Dukes)'
+- name: reGeorg
+  mitre_id: S1187
+  url: https://attack.mitre.org/software/S1187
+  type: malware
+  stix_id: malware--0e17b066-50dd-4c2f-83bf-205c5eb2bb34
+  description: 'reGeorg is an open-source web shell written in Python that can be
+    used as a proxy to bypass firewall rules and tunnel data in and out of targeted
+    networks.(Citation: Fortinet reGeorg MAR 2019)(Citation: GitHub reGeorg 2016)'
+- name: BloodHound
+  mitre_id: S0521
+  url: https://attack.mitre.org/software/S0521
+  type: tool
+  stix_id: tool--066b057c-944e-4cfc-b654-e3dfba04b926
+  description: 'BloodHound is an Active Directory (AD) reconnaissance tool that can
+    reveal hidden relationships and identify attack paths within an AD environment.(Citation:
+    GitHub Bloodhound)(Citation: CrowdStrike BloodHound April 2018)(Citation: FoxIT
+    Wocao December 2019)'
+- name: GoldMax
+  mitre_id: S0588
+  url: https://attack.mitre.org/software/S0588
+  type: malware
+  stix_id: malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0
+  description: 'GoldMax is a second-stage C2 backdoor written in Go with Windows and
+    Linux variants that are nearly identical in functionality. GoldMax was discovered
+    in early 2021 during the investigation into the SolarWinds Compromise, and has
+    likely been used by APT29 since at least mid-2019. GoldMax uses multiple defense
+    evasion techniques, including avoiding virtualization execution and masking malicious
+    traffic.(Citation: MSTIC NOBELIUM Mar 2021)(Citation: FireEye SUNSHUTTLE Mar 2021)(Citation:
+    CrowdStrike'
+- name: FoggyWeb
+  mitre_id: S0661
+  url: https://attack.mitre.org/software/S0661
+  type: malware
+  stix_id: malware--72911fe3-f085-40f7-b4f2-f25a4221fe44
+  description: 'FoggyWeb is a passive and highly-targeted backdoor capable of remotely
+    exfiltrating sensitive information from a compromised Active Directory Federated
+    Services (AD FS) server. It has been used by APT29 since at least early April
+    2021.(Citation: MSTIC FoggyWeb September 2021)'
+- name: SDelete
+  mitre_id: S0195
+  url: https://attack.mitre.org/software/S0195
+  type: tool
+  stix_id: tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153
+  description: 'SDelete is an application that securely deletes data in a way that
+    makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools.
+    (Citation: Microsoft SDelete July 2016)'
+- name: PolyglotDuke
+  mitre_id: S0518
+  url: https://attack.mitre.org/software/S0518
+  type: malware
+  stix_id: malware--3d57dcc4-be99-4613-9482-d5218f5ec13e
+  description: 'PolyglotDuke is a downloader that has been used by APT29 since at
+    least 2013. PolyglotDuke has been used to drop MiniDuke.(Citation: ESET Dukes
+    October 2019)'
+- name: AADInternals
+  mitre_id: S0677
+  url: https://attack.mitre.org/software/S0677
+  type: tool
+  stix_id: tool--2c5281dd-b5fd-4531-8aea-c1bf8a0f8756
+  description: 'AADInternals is a PowerShell-based framework for administering, enumerating,
+    and exploiting Azure Active Directory. The tool is publicly available on GitHub.(Citation:
+    AADInternals Github)(Citation: AADInternals Documentation)'
+- name: MiniDuke
+  mitre_id: S0051
+  url: https://attack.mitre.org/software/S0051
+  type: malware
+  stix_id: malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c
+  description: 'MiniDuke is malware that was used by APT29 from 2010 to 2015. The
+    MiniDuke toolset consists of multiple downloader and backdoor components. The
+    loader has been used with other MiniDuke components as well as in conjunction
+    with CosmicDuke and PinchDuke. (Citation: F-Secure The Dukes)'
+- name: TEARDROP
+  mitre_id: S0560
+  url: https://attack.mitre.org/software/S0560
+  type: malware
+  stix_id: malware--32f49626-87f4-4d6c-8f59-a0dca953fe26
+  description: 'TEARDROP is a memory-only dropper that was discovered on some victim
+    machines during investigations related to the SolarWinds Compromise. It was likely
+    used by APT29 since at least May 2020.(Citation: FireEye SUNBURST Backdoor December
+    2020)(Citation: Microsoft Deep Dive Solorigate January 2021)'
+- name: SeaDuke
+  mitre_id: S0053
+  url: https://attack.mitre.org/software/S0053
+  type: malware
+  stix_id: malware--67e6d66b-1b82-4699-b47a-e2efb6268d14
+  description: 'SeaDuke is malware that was used by APT29 from 2014 to 2015. It was
+    used primarily as a secondary backdoor for victims that were already compromised
+    with CozyCar. (Citation: F-Secure The Dukes)'
+- name: Sibot
+  mitre_id: S0589
+  url: https://attack.mitre.org/software/S0589
+  type: malware
+  stix_id: malware--979adb5a-dc30-48f0-9e3d-9a26d866928c
+  description: 'Sibot is dual-purpose malware written in VBScript designed to achieve
+    persistence on a compromised system as well as download and execute additional
+    payloads. Microsoft discovered three Sibot variants in early 2021 during its investigation
+    of APT29 and the SolarWinds Compromise.(Citation: MSTIC NOBELIUM Mar 2021)'
+- name: Raindrop
+  mitre_id: S0565
+  url: https://attack.mitre.org/software/S0565
+  type: malware
+  stix_id: malware--4efc3e00-72f2-466a-ab7c-8a7dc6603b19
+  description: 'Raindrop is a loader used by APT29 that was discovered on some victim
+    machines during investigations related to the SolarWinds Compromise. It was discovered
+    in January 2021 and was likely used since at least May 2020.(Citation: Symantec
+    RAINDROP January 2021)(Citation: Microsoft Deep Dive Solorigate January 2021)'
+- name: RegDuke
+  mitre_id: S0511
+  url: https://attack.mitre.org/software/S0511
+  type: malware
+  stix_id: malware--47124daf-44be-4530-9c63-038bc64318dd
+  description: 'RegDuke is a first stage implant written in .NET and used by APT29
+    since at least 2017. RegDuke has been used to control a compromised machine when
+    control of other implants on the machine was lost.(Citation: ESET Dukes October
+    2019)'
+- name: CloudDuke
+  mitre_id: S0054
+  url: https://attack.mitre.org/software/S0054
+  type: malware
+  stix_id: malware--cbf646f1-7db5-4dc6-808b-0094313949df
+  description: 'CloudDuke is malware that was used by APT29 in 2015. (Citation: F-Secure
+    The Dukes) (Citation: Securelist Minidionis July 2015)'
+- name: GoldFinder
+  mitre_id: S0597
+  url: https://attack.mitre.org/software/S0597
+  type: malware
+  stix_id: malware--b7010785-699f-412f-ba49-524da6033c76
+  description: 'GoldFinder is a custom HTTP tracer tool written in Go that logs the
+    route a packet takes between a compromised network and a C2 server. It can be
+    used to inform  threat actors of potential points of discovery or logging of their
+    actions, including C2 related to other malware. GoldFinder was discovered in early
+    2021 during an investigation into the SolarWinds Compromise by APT29.(Citation:
+    MSTIC NOBELIUM Mar 2021)'
+- name: AdFind
+  mitre_id: S0552
+  url: https://attack.mitre.org/software/S0552
+  type: tool
+  stix_id: tool--f59508a6-3615-47c3-b493-6676e1a39a87
+  description: 'AdFind is a free command-line query tool that can be used for gathering
+    information from Active Directory.(Citation: Red Canary Hospital Thwarted Ryuk
+    October 2020)(Citation: FireEye FIN6 Apr 2019)(Citation: FireEye Ryuk and Trickbot
+    January 2019)'
+- name: PsExec
+  mitre_id: S0029
+  url: https://attack.mitre.org/software/S0029
+  type: tool
+  stix_id: tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db
+  description: 'PsExec is a free Microsoft tool that can be used to execute a program
+    on another computer. It is used by IT administrators and attackers.(Citation:
+    Russinovich Sysinternals)(Citation: SANS PsExec)'
+- name: Tor
+  mitre_id: S0183
+  url: https://attack.mitre.org/software/S0183
+  type: tool
+  stix_id: tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68
+  description: 'Tor is a software suite and network that provides increased anonymity
+    on the Internet. It creates a multi-hop proxy network and utilizes multilayer
+    encryption to protect both the message and routing information. Tor utilizes "Onion
+    Routing," in which messages are encrypted with multiple layers of encryption;
+    at each step in the proxy network, the topmost layer is decrypted and the contents
+    forwarded on to the next node until it reaches its destination. (Citation: Dingledine
+    Tor The Second-Generat'
+- name: NativeZone
+  mitre_id: S0637
+  url: https://attack.mitre.org/software/S0637
+  type: malware
+  stix_id: malware--b4783be3-35d9-4a56-ac8d-1f3e1c9d9a84
+  description: 'NativeZone is the name given collectively to disposable custom Cobalt
+    Strike loaders used by APT29 since at least 2021.(Citation: MSTIC Nobelium Toolset
+    May 2021)(Citation: SentinelOne NobleBaron June 2021)'
+- name: Systeminfo
+  mitre_id: S0096
+  url: https://attack.mitre.org/software/S0096
+  type: tool
+  stix_id: tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1
+  description: 'Systeminfo is a Windows utility that can be used to gather detailed
+    information about a computer. (Citation: TechNet Systeminfo)'
+- name: ipconfig
+  mitre_id: S0100
+  url: https://attack.mitre.org/software/S0100
+  type: tool
+  stix_id: tool--294e2560-bd48-44b2-9da2-833b5588ad11
+  description: 'ipconfig is a Windows utility that can be used to find information
+    about a system''s TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet
+    Ipconfig)'
+- name: SUNSPOT
+  mitre_id: S0562
+  url: https://attack.mitre.org/software/S0562
+  type: malware
+  stix_id: malware--bf48e7f8-752c-4ce8-bf8f-748edacd8fa6
+  description: 'SUNSPOT is an implant that injected the SUNBURST backdoor into the
+    SolarWinds Orion software update framework. It was used by APT29 since at least
+    February 2020.(Citation: CrowdStrike SUNSPOT Implant January 2021) '
+- name: Impacket
+  mitre_id: S0357
+  url: https://attack.mitre.org/software/S0357
+  type: tool
+  stix_id: tool--26c87906-d750-42c5-946c-d4162c73fc7b
+  description: 'Impacket is an open source collection of modules written in Python
+    for programmatically constructing and manipulating network protocols. Impacket
+    contains several tools for remote service execution, Kerberos manipulation, Windows
+    credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)'
+- name: Cobalt Strike
+  mitre_id: S0154
+  url: https://attack.mitre.org/software/S0154
+  type: malware
+  stix_id: malware--a7881f21-e978-4fe4-af56-92c9416a2616
+  description: |-
+    Cobalt Strike is a commercial, full-featured, remote access tool that bills itself as “adversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors”. Cobalt Strike’s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system.(Citation: cobaltstrike manual)
+
+    In addition to its own capabilities, Cobalt Strike leverages the capabilities of other well-known tool
+- name: PowerDuke
+  mitre_id: S0139
+  url: https://attack.mitre.org/software/S0139
+  type: malware
+  stix_id: malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a
+  description: 'PowerDuke is a backdoor that was used by APT29 in 2016. It has primarily
+    been delivered through Microsoft Word or Excel attachments containing malicious
+    macros. (Citation: Volexity PowerDuke November 2016)'
+- name: Net
+  mitre_id: S0039
+  url: https://attack.mitre.org/software/S0039
+  type: tool
+  stix_id: tool--03342581-f790-4f03-ba41-e82e67392e23
+  description: |-
+    The Net utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)
+
+    Net has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through SMB/Windows Admin Shares using <code>net use</code> commands, and interacting with services. The net1.exe
+- name: QUIETEXIT
+  mitre_id: S1084
+  url: https://attack.mitre.org/software/S1084
+  type: malware
+  stix_id: malware--4816d361-f82b-4a18-aa05-b215e7cf9200
+  description: 'QUIETEXIT is a novel backdoor, based on the open-source Dropbear SSH
+    client-server software, that has been used by APT29 since at least 2021. APT29
+    has deployed QUIETEXIT on opaque network appliances that typically don''t support
+    antivirus or endpoint detection and response tools within a victim environment.(Citation:
+    Mandiant APT29 Eye Spy Email Nov 22)'
+- name: HAMMERTOSS
+  mitre_id: S0037
+  url: https://attack.mitre.org/software/S0037
+  type: malware
+  stix_id: malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4
+  description: 'HAMMERTOSS is a backdoor that was used by APT29 in 2015. (Citation:
+    FireEye APT29) (Citation: F-Secure The Dukes)'
+- name: BoomBox
+  mitre_id: S0635
+  url: https://attack.mitre.org/software/S0635
+  type: malware
+  stix_id: malware--c26f1c05-b861-4970-94dc-2f7f921a3074
+  description: 'BoomBox is a downloader responsible for executing next stage components
+    that has been used by APT29 since at least 2021.(Citation: MSTIC Nobelium Toolset
+    May 2021)'
+- name: Sliver
+  mitre_id: S0633
+  url: https://attack.mitre.org/software/S0633
+  type: tool
+  stix_id: tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be
+  description: 'Sliver is an open source, cross-platform, red team command and control
+    (C2) framework written in Golang. Sliver includes its own package manager, "armory,"
+    for staging and downloading additional tools and payloads to the primary C2 framework.(Citation:
+    Bishop Fox Sliver Framework August 2019)(Citation: Cybereason Sliver Undated)'
+- name: CosmicDuke
+  mitre_id: S0050
+  url: https://attack.mitre.org/software/S0050
+  type: malware
+  stix_id: malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee
+  description: 'CosmicDuke is malware that was used by APT29 from 2010 to 2015. (Citation:
+    F-Secure The Dukes)'
+- name: SUNBURST
+  mitre_id: S0559
+  url: https://attack.mitre.org/software/S0559
+  type: malware
+  stix_id: malware--a8839c95-029f-44cf-8f3d-a3cf2039e927
+  description: 'SUNBURST is a trojanized DLL designed to fit within the SolarWinds
+    Orion software update framework. It was used by APT29 since at least February
+    2020.(Citation: SolarWinds Sunburst Sunspot Update January 2021)(Citation: Microsoft
+    Deep Dive Solorigate January 2021)'
+- name: WellMess
+  mitre_id: S0514
+  url: https://attack.mitre.org/software/S0514
+  type: malware
+  stix_id: malware--3a4197ae-ec63-4162-907b-9a073d1157e4
+  description: 'WellMess is lightweight malware family with variants written in .NET
+    and Golang that has been in use since at least 2018 by APT29.(Citation: CISA WellMess
+    July 2020)(Citation: PWC WellMess July 2020)(Citation: NCSC APT29 July 2020)'
+- name: VaporRage
+  mitre_id: S0636
+  url: https://attack.mitre.org/software/S0636
+  type: malware
+  stix_id: malware--96eca9b9-b37f-42f1-96dc-a2c441403194
+  description: 'VaporRage is a shellcode downloader that has been used by APT29 since
+    at least 2021.(Citation: MSTIC Nobelium Toolset May 2021)'
+- name: LiteDuke
+  mitre_id: S0513
+  url: https://attack.mitre.org/software/S0513
+  type: malware
+  stix_id: malware--95e2cbae-d82c-4f7b-b63c-16462015d35d
+  description: 'LiteDuke is a third stage backdoor that was used by APT29, primarily
+    in 2014-2015. LiteDuke used the same dropper as PolyglotDuke, and was found on
+    machines also compromised by MiniDuke.(Citation: ESET Dukes October 2019)'
+ttps:
+- technique_id: T1621
+  technique_name: Multi-Factor Authentication Request Generation
+  url: https://attack.mitre.org/techniques/T1621
+  stix_id: attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493
+- technique_id: T1003.002
+  technique_name: Security Account Manager
+  url: https://attack.mitre.org/techniques/T1003/002
+  stix_id: attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011
+- technique_id: T1588.002
+  technique_name: Tool
+  url: https://attack.mitre.org/techniques/T1588/002
+  stix_id: attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0
+- technique_id: T1090.004
+  technique_name: Domain Fronting
+  url: https://attack.mitre.org/techniques/T1090/004
+  stix_id: attack-pattern--ca9d3402-ada3-484d-876a-d717bd6e05f2
+- technique_id: T1528
+  technique_name: Steal Application Access Token
+  url: https://attack.mitre.org/techniques/T1528
+  stix_id: attack-pattern--890c9858-598c-401d-a4d5-c67ebcdd703a
+- technique_id: T1568
+  technique_name: Dynamic Resolution
+  url: https://attack.mitre.org/techniques/T1568
+  stix_id: attack-pattern--7bd9c723-2f78-4309-82c5-47cad406572b
+- technique_id: T1068
+  technique_name: Exploitation for Privilege Escalation
+  url: https://attack.mitre.org/techniques/T1068
+  stix_id: attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839
+- technique_id: T1546.003
+  technique_name: Windows Management Instrumentation Event Subscription
+  url: https://attack.mitre.org/techniques/T1546/003
+  stix_id: attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58
+- technique_id: T1547.001
+  technique_name: Registry Run Keys / Startup Folder
+  url: https://attack.mitre.org/techniques/T1547/001
+  stix_id: attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279
+- technique_id: T1136.003
+  technique_name: Cloud Account
+  url: https://attack.mitre.org/techniques/T1136/003
+  stix_id: attack-pattern--a009cb25-4801-4116-9105-80a91cf15c1b
+- technique_id: T1098.005
+  technique_name: Device Registration
+  url: https://attack.mitre.org/techniques/T1098/005
+  stix_id: attack-pattern--7decb26c-715c-40cf-b7e0-026f7d7cc215
+- technique_id: T1587.003
+  technique_name: Digital Certificates
+  url: https://attack.mitre.org/techniques/T1587/003
+  stix_id: attack-pattern--1cec9319-743b-4840-bb65-431547bce82a
+- technique_id: T1005
+  technique_name: Data from Local System
+  url: https://attack.mitre.org/techniques/T1005
+  stix_id: attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5
+- technique_id: T1105
+  technique_name: Ingress Tool Transfer
+  url: https://attack.mitre.org/techniques/T1105
+  stix_id: attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add
+- technique_id: T1651
+  technique_name: Cloud Administration Command
+  url: https://attack.mitre.org/techniques/T1651
+  stix_id: attack-pattern--d94b3ae9-8059-4989-8e9f-ea0f601f80a7
+- technique_id: T1566.001
+  technique_name: Spearphishing Attachment
+  url: https://attack.mitre.org/techniques/T1566/001
+  stix_id: attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597
+- technique_id: T1078.004
+  technique_name: Cloud Accounts
+  url: https://attack.mitre.org/techniques/T1078/004
+  stix_id: attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65
+- technique_id: T1053.005
+  technique_name: Scheduled Task
+  url: https://attack.mitre.org/techniques/T1053/005
+  stix_id: attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9
+- technique_id: T1016.001
+  technique_name: Internet Connection Discovery
+  url: https://attack.mitre.org/techniques/T1016/001
+  stix_id: attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc
+- technique_id: T1587.001
+  technique_name: Malware
+  url: https://attack.mitre.org/techniques/T1587/001
+  stix_id: attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0
+- technique_id: T1583.006
+  technique_name: Web Services
+  url: https://attack.mitre.org/techniques/T1583/006
+  stix_id: attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54
+- technique_id: T1090.003
+  technique_name: Multi-hop Proxy
+  url: https://attack.mitre.org/techniques/T1090/003
+  stix_id: attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d
+- technique_id: T1037
+  technique_name: Boot or Logon Initialization Scripts
+  url: https://attack.mitre.org/techniques/T1037
+  stix_id: attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334
+- technique_id: T1027.006
+  technique_name: HTML Smuggling
+  url: https://attack.mitre.org/techniques/T1027/006
+  stix_id: attack-pattern--d4dc46e3-5ba5-45b9-8204-010867cacfcb
+- technique_id: T1070.004
+  technique_name: File Deletion
+  url: https://attack.mitre.org/techniques/T1070/004
+  stix_id: attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c
+- technique_id: T1203
+  technique_name: Exploitation for Client Execution
+  url: https://attack.mitre.org/techniques/T1203
+  stix_id: attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63
+- technique_id: T1550.003
+  technique_name: Pass the Ticket
+  url: https://attack.mitre.org/techniques/T1550/003
+  stix_id: attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926
+- technique_id: T1204.001
+  technique_name: Malicious Link
+  url: https://attack.mitre.org/techniques/T1204/001
+  stix_id: attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9
+- technique_id: T1036.005
+  technique_name: Match Legitimate Resource Name or Location
+  url: https://attack.mitre.org/techniques/T1036/005
+  stix_id: attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2
+- technique_id: T1110.003
+  technique_name: Password Spraying
+  url: https://attack.mitre.org/techniques/T1110/003
+  stix_id: attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c
+- technique_id: T1114.002
+  technique_name: Remote Email Collection
+  url: https://attack.mitre.org/techniques/T1114/002
+  stix_id: attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a
+- technique_id: T1027.001
+  technique_name: Binary Padding
+  url: https://attack.mitre.org/techniques/T1027/001
+  stix_id: attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5
+- technique_id: T1556.007
+  technique_name: Hybrid Identity
+  url: https://attack.mitre.org/techniques/T1556/007
+  stix_id: attack-pattern--54ca26f3-c172-4231-93e5-ccebcac2161f
+- technique_id: T1059.001
+  technique_name: PowerShell
+  url: https://attack.mitre.org/techniques/T1059/001
+  stix_id: attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736
+- technique_id: T1133
+  technique_name: External Remote Services
+  url: https://attack.mitre.org/techniques/T1133
+  stix_id: attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d
+- technique_id: T1037.004
+  technique_name: RC Scripts
+  url: https://attack.mitre.org/techniques/T1037/004
+  stix_id: attack-pattern--dca670cf-eeec-438f-8185-fd959d9ef211
+- technique_id: T1021.007
+  technique_name: Cloud Services
+  url: https://attack.mitre.org/techniques/T1021/007
+  stix_id: attack-pattern--8861073d-d1b8-4941-82ce-dce621d398f0
+- technique_id: T1595.002
+  technique_name: Vulnerability Scanning
+  url: https://attack.mitre.org/techniques/T1595/002
+  stix_id: attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4
+- technique_id: T1566.002
+  technique_name: Spearphishing Link
+  url: https://attack.mitre.org/techniques/T1566/002
+  stix_id: attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7
+- technique_id: T1070.006
+  technique_name: Timestomp
+  url: https://attack.mitre.org/techniques/T1070/006
+  stix_id: attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611
+- technique_id: T1586.003
+  technique_name: Cloud Accounts
+  url: https://attack.mitre.org/techniques/T1586/003
+  stix_id: attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a
+- technique_id: T1090.002
+  technique_name: External Proxy
+  url: https://attack.mitre.org/techniques/T1090/002
+  stix_id: attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3
+- technique_id: T1573
+  technique_name: Encrypted Channel
+  url: https://attack.mitre.org/techniques/T1573
+  stix_id: attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118
+- technique_id: T1047
+  technique_name: Windows Management Instrumentation
+  url: https://attack.mitre.org/techniques/T1047
+  stix_id: attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055
+- technique_id: T1110.001
+  technique_name: Password Guessing
+  url: https://attack.mitre.org/techniques/T1110/001
+  stix_id: attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119
+- technique_id: T1199
+  technique_name: Trusted Relationship
+  url: https://attack.mitre.org/techniques/T1199
+  stix_id: attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925
+- technique_id: T1566.003
+  technique_name: Spearphishing via Service
+  url: https://attack.mitre.org/techniques/T1566/003
+  stix_id: attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317
+- technique_id: T1078
+  technique_name: Valid Accounts
+  url: https://attack.mitre.org/techniques/T1078
+  stix_id: attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81
+- technique_id: T1505.003
+  technique_name: Web Shell
+  url: https://attack.mitre.org/techniques/T1505/003
+  stix_id: attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb
+- technique_id: T1059.006
+  technique_name: Python
+  url: https://attack.mitre.org/techniques/T1059/006
+  stix_id: attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1
+- technique_id: T1665
+  technique_name: Hide Infrastructure
+  url: https://attack.mitre.org/techniques/T1665
+  stix_id: attack-pattern--eb897572-8979-4242-a089-56f294f4c91d
+- technique_id: T1218.005
+  technique_name: Mshta
+  url: https://attack.mitre.org/techniques/T1218/005
+  stix_id: attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade
+- technique_id: T1003.004
+  technique_name: LSA Secrets
+  url: https://attack.mitre.org/techniques/T1003/004
+  stix_id: attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc
+- technique_id: T1190
+  technique_name: Exploit Public-Facing Application
+  url: https://attack.mitre.org/techniques/T1190
+  stix_id: attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c
+- technique_id: T1553.005
+  technique_name: Mark-of-the-Web Bypass
+  url: https://attack.mitre.org/techniques/T1553/005
+  stix_id: attack-pattern--7e7c2fba-7cca-486c-9582-4c1bb2851961
+- technique_id: T1649
+  technique_name: Steal or Forge Authentication Certificates
+  url: https://attack.mitre.org/techniques/T1649
+  stix_id: attack-pattern--7de1f7ac-5d0c-4c9c-8873-627202205331
+- technique_id: T1087.004
+  technique_name: Cloud Account
+  url: https://attack.mitre.org/techniques/T1087/004
+  stix_id: attack-pattern--8f104855-e5b7-4077-b1f5-bc3103b41abe
+- technique_id: T1098.002
+  technique_name: Additional Email Delegate Permissions
+  url: https://attack.mitre.org/techniques/T1098/002
+  stix_id: attack-pattern--e74de37c-a829-446c-937d-56a44f0e9306
+- technique_id: T1078.003
+  technique_name: Local Accounts
+  url: https://attack.mitre.org/techniques/T1078/003
+  stix_id: attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2
+- technique_id: T1546.008
+  technique_name: Accessibility Features
+  url: https://attack.mitre.org/techniques/T1546/008
+  stix_id: attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5
+- technique_id: T1059.009
+  technique_name: Cloud API
+  url: https://attack.mitre.org/techniques/T1059/009
+  stix_id: attack-pattern--55bb4471-ff1f-43b4-88c1-c9384ec47abf
+- technique_id: T1586.002
+  technique_name: Email Accounts
+  url: https://attack.mitre.org/techniques/T1586/002
+  stix_id: attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b
+- technique_id: T1204.002
+  technique_name: Malicious File
+  url: https://attack.mitre.org/techniques/T1204/002
+  stix_id: attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e
+- technique_id: T1685.002
+  technique_name: Disable or Modify Cloud Log
+  url: https://attack.mitre.org/techniques/T1685/002
+  stix_id: attack-pattern--34ff60a3-a3f8-42e4-bed0-af9a2cb563d7
+- technique_id: T1548.002
+  technique_name: Bypass User Account Control
+  url: https://attack.mitre.org/techniques/T1548/002
+  stix_id: attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073
+- technique_id: T1027.002
+  technique_name: Software Packing
+  url: https://attack.mitre.org/techniques/T1027/002
+  stix_id: attack-pattern--deb98323-e13f-4b0c-8d94-175379069062
+attck_techniques:
+- T1003.002
+- T1003.004
+- T1005
+- T1016.001
+- T1021.007
+- T1027.001
+- T1027.002
+- T1027.006
+- T1036.005
+- T1037
+- T1037.004
+- T1047
+- T1053.005
+- T1059.001
+- T1059.006
+- T1059.009
+- T1068
+- T1070.004
+- T1070.006
+- T1078
+- T1078.003
+- T1078.004
+- T1087.004
+- T1090.002
+- T1090.003
+- T1090.004
+- T1098.002
+- T1098.005
+- T1105
+- T1110.001
+- T1110.003
+- T1114.002
+- T1133
+- T1136.003
+- T1190
+- T1199
+- T1203
+- T1204.001
+- T1204.002
+- T1218.005
+- T1505.003
+- T1528
+- T1546.003
+- T1546.008
+- T1547.001
+- T1548.002
+- T1550.003
+- T1553.005
+- T1556.007
+- T1566.001
+- T1566.002
+- T1566.003
+- T1568
+- T1573
+- T1583.006
+- T1586.002
+- T1586.003
+- T1587.001
+- T1587.003
+- T1588.002
+- T1595.002
+- T1621
+- T1649
+- T1651
+- T1665
+- T1685.002
+attck_software:
+- S0002
+- S0029
+- S0037
+- S0039
+- S0046
+- S0048
+- S0049
+- S0050
+- S0051
+- S0052
+- S0053
+- S0054
+- S0057
+- S0096
+- S0100
+- S0139
+- S0150
+- S0154
+- S0175
+- S0183
+- S0195
+- S0357
+- S0511
+- S0512
+- S0513
+- S0514
+- S0515
+- S0516
+- S0518
+- S0521
+- S0552
+- S0559
+- S0560
+- S0562
+- S0565
+- S0588
+- S0589
+- S0597
+- S0633
+- S0634
+- S0635
+- S0636
+- S0637
+- S0661
+- S0677
+- S0682
+- S0684
+- S1084
+- S1187
+attck_references:
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G0016
+  external_id: G0016
+  description: ''
+sources:
+- source: mitre-attack
+  imported_at: '2026-10-27T17:28:50Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+campaigns:
+- name: SolarWinds Compromise
+  campaign_id: C0024
+  url: https://attack.mitre.org/campaigns/C0024
+  stix_id: campaign--808d6b30-df4e-4341-8248-724da4bac650
+  description: The SolarWinds Compromise was a sophisticated supply chain cyber operation
+    conducted by APT29 that was discovered in mid-December 2020. APT29 used customized
+    malware to inject malicious code into the SolarWinds Orion software build process
+    that was later distributed through a normal software update; they also used password
+    spraying, token theft, API abuse, spear phishing, and other supply chain attacks
+    to compromise user accounts and leverage their associated access. Victims of this
+    campaign incl
+- name: Operation Ghost
+  campaign_id: C0023
+  url: https://attack.mitre.org/campaigns/C0023
+  stix_id: campaign--7854c1a0-f06c-4876-98a4-4bbd34751b05
+  description: 'Operation Ghost was an APT29 campaign starting in 2013 that included
+    operations against ministries of foreign affairs in Europe and the Washington,
+    D.C. embassy of a European Union country. During Operation Ghost, APT29 used new
+    families of malware and leveraged web services, steganography, and unique C2 infrastructure
+    for each victim.(Citation: ESET Dukes October 2019)
+
+    '
 provenance:
-  apt_groups_operations:
-    matched_mitre_ids: ["G0016"]
-    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
-    source_dataset_url: "https://apt.threattracking.com/"
-    source_links: ["https://aptnotes.malwareconfig.com/web/viewer.html?file=../APTnotes/2015/apt29-hammertoss-stealthy-tactics-define-a.pdf","https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage/","https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/","https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf","http://www.volexity.com/blog/","https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf","https://www2.fireeye.com/rs/848-DID-242/images/RPT-M-Trends-2017.pdf","https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html","https://www.fireeye.com/blog/threat-research/2018/11/not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign.html","https://securelist.com/the-cozyduke-apt/69731/","https://www.welivesecurity.com/2019/10/17/operation-ghost-dukes-never-left/","https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a","https://www.istrosec.com/blog/apt-sk-cobalt/","https://cybergeeks.tech/how-to-defeat-the-russian-dukes-a-step-by-step-analysis-of-miniduke-used-by-apt29-cozy-bear/","https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/","https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft","https://cluster25.io/2022/05/13/cozy-smuggled-into-the-box/","https://www.mandiant.com/resources/blog/unc3524-eye-spy-email","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cranefly-new-tools-technique-geppei-danfuan","https://blog.eclecticiq.com/german-embassy-lure-likely-part-of-campaign-against-nato-aligned-ministries-of-foreign-affairs"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
-    tab_name: "russia"
-  aptnotes:
-    earliest_report_year: "2015"
-    latest_report_year: "2017"
-    report_count: 5
-    sample_links: ["https://app.box.com/s/8vksggruwwqzg7a4y7xrsrysrje56pqn","https://app.box.com/s/wig4z9nwq6wjxf3i4aslu9qro14pgsbe","https://app.box.com/s/kse3c1yd5gqku9e2nfmsny7gp99zlgu4","https://app.box.com/s/s29hmikrmmik5v7eumpb4tipkdlyqhjl","https://app.box.com/s/8ytb4nym7whlldfvsaivnmsut9ole32h"]
-    sample_titles: ["The Cozyduke APT","Cozyduke","\"Forkmeiamfamous\": Seaduke, Latest Weapon In The Duke Armory","Tracking Minidionis: Cozycar's New Ride Is Related To Seaduke","APT29 Domain Fronting With TOR"]
-    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
-    source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
-    sources: ["F-Secure","FireEye","Kaspersky","Palo Alto","Symantec"]
   bushido_breach_reports:
+    source_repository: https://github.com/BushidoUK/Breach-Report-Collection
+    source_dataset_url: https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md
+    source_attribution: References were identified via the BushidoToken Breach Report
+      Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
+      used here as a report index. Copyright in linked reports remains with the original
+      publishers.
+    source_retrieved_at: '2026-10-27T17:29:27Z'
     reports:
-      - organization: "Microsoft"
-        breach_date: "January 2024"
-        adversary_label: "CozyBear (RU APT)"
-        links: ["https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/","https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/"]
-        archived_links: ["https://web.archive.org/web/20240120000859/https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/"]
-      - organization: "Microsoft"
-        breach_date: "February 2021"
-        adversary_label: "CozyBear (RU APT)"
-        links: ["https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/"]
-        archived_links: ["https://web.archive.org/web/20230313193242/https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/"]
-      - organization: "FireEye"
-        breach_date: "December 2020"
-        adversary_label: "CozyBear (RU APT)"
-        links: ["https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html"]
-        archived_links: ["https://web.archive.org/web/20201209011927/https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html"]
-      - organization: "SolarWinds"
-        breach_date: "December 2020"
-        adversary_label: "CozyBear (RU APT)"
-        links: ["https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"]
-        archived_links: ["https://web.archive.org/web/20230209021934/https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/"]
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_retrieved_at: "2026-04-28T01:40:03Z"
+    - organization: Microsoft
+      breach_date: January 2024
+      adversary_label: CozyBear (RU APT)
+      links:
+      - https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/
+      - https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/
+      archived_links:
+      - https://web.archive.org/web/20240120000859/https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/
+    - organization: Microsoft
+      breach_date: February 2021
+      adversary_label: CozyBear (RU APT)
+      links:
+      - https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/
+      archived_links:
+      - https://web.archive.org/web/20230313193242/https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/
+    - organization: FireEye
+      breach_date: December 2020
+      adversary_label: CozyBear (RU APT)
+      links:
+      - https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html
+      archived_links:
+      - https://web.archive.org/web/20201209011927/https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html
+    - organization: SolarWinds
+      breach_date: December 2020
+      adversary_label: CozyBear (RU APT)
+      links:
+      - https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/
+      archived_links:
+      - https://web.archive.org/web/20230209021934/https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/
+  apt_groups_operations:
+    matched_mitre_ids:
+    - G0016
+    sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+    source_dataset_url: https://apt.threattracking.com/
+    source_links:
+    - https://aptnotes.malwareconfig.com/web/viewer.html?file=../APTnotes/2015/apt29-hammertoss-stealthy-tactics-define-a.pdf
+    - https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage/
+    - https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/
+    - https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf
+    - http://www.volexity.com/blog/
+    - https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf
+    - https://www2.fireeye.com/rs/848-DID-242/images/RPT-M-Trends-2017.pdf
+    - https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html
+    - https://www.fireeye.com/blog/threat-research/2018/11/not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign.html
+    - https://securelist.com/the-cozyduke-apt/69731/
+    - https://www.welivesecurity.com/2019/10/17/operation-ghost-dukes-never-left/
+    - https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a
+    - https://www.istrosec.com/blog/apt-sk-cobalt/
+    - https://cybergeeks.tech/how-to-defeat-the-russian-dukes-a-step-by-step-analysis-of-miniduke-used-by-apt29-cozy-bear/
+    - https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/
+    - https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft
+    - https://cluster25.io/2022/05/13/cozy-smuggled-into-the-box/
+    - https://www.mandiant.com/resources/blog/unc3524-eye-spy-email
+    - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cranefly-new-tools-technique-geppei-danfuan
+    - https://blog.eclecticiq.com/german-embassy-lure-likely-part-of-campaign-against-nato-aligned-ministries-of-foreign-affairs
+    source_retrieved_at: '2026-10-27T17:29:13Z'
+    tab_name: russia
+  aptnotes:
+    earliest_report_year: '2015'
+    latest_report_year: '2017'
+    report_count: 5
+    sample_links:
+    - https://app.box.com/s/8vksggruwwqzg7a4y7xrsrysrje56pqn
+    - https://app.box.com/s/wig4z9nwq6wjxf3i4aslu9qro14pgsbe
+    - https://app.box.com/s/kse3c1yd5gqku9e2nfmsny7gp99zlgu4
+    - https://app.box.com/s/s29hmikrmmik5v7eumpb4tipkdlyqhjl
+    - https://app.box.com/s/8ytb4nym7whlldfvsaivnmsut9ole32h
+    sample_titles:
+    - The Cozyduke APT
+    - Cozyduke
+    - '"Forkmeiamfamous": Seaduke, Latest Weapon In The Duke Armory'
+    - 'Tracking Minidionis: Cozycar''s New Ride Is Related To Seaduke'
+    - APT29 Domain Fronting With TOR
+    source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+    source_repository: https://github.com/aptnotes/data
+    source_retrieved_at: '2026-10-27T17:29:15Z'
+    sources:
+    - F-Secure
+    - FireEye
+    - Kaspersky
+    - Palo Alto
+    - Symantec
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "unc3524"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc3524"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
-    source_uuid: "bee8b09c-07e5-4c12-94d6-266ebcb1ec24"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: unc3524
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc3524
+    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_uuid: bee8b09c-07e5-4c12-94d6-266ebcb1ec24
   misp_galaxy:
-    meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
-    source_cluster: "microsoft-activity-group.json"
-    source_clusters: ["microsoft-activity-group.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
-    source_record_id: "31982812-c8bf-5e85-b0ba-0c64a7d05d20"
-    source_record_ids: ["31982812-c8bf-5e85-b0ba-0c64a7d05d20","d7247cf9-13b6-4781-b789-a5f33521633b"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    meta_keys:
+    - country
+    - microsoft-origin-threat
+    - refs
+    - sector
+    - synonyms
+    source_cluster: microsoft-activity-group.json
+    source_clusters:
+    - microsoft-activity-group.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json
+    source_record_id: 31982812-c8bf-5e85-b0ba-0c64a7d05d20
+    source_record_ids:
+    - 31982812-c8bf-5e85-b0ba-0c64a7d05d20
+    - d7247cf9-13b6-4781-b789-a5f33521633b
+    source_retrieved_at: '2026-10-27T17:28:59Z'
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0016"
-    source_retrieved_at: "2026-04-26T05:24:31Z"
+    attack_version: '20.0'
+    attack_version_by_domain:
+      enterprise: '20.0'
+      ics: '20.0'
+      mobile: '20.0'
+    relationships_imported_at: '2026-10-27T17:28:50Z'
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_urls:
+      enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+      ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
+      mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
+    source_record_id: G0016
+    source_retrieved_at: '2026-10-27T17:28:50Z'
+    stix_intrusion_set_id: intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542
+  reddrip7_apt_digital_weapon:
+    actor_folder: APT29
+    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT29/README.md
+    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT29/APT29_hash.md
+    source_attribution: Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon
+      and are treated as secondary, community-curated leads requiring independent
+      verification before operational use.
+    source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
+    source_retrieved_at: '2026-10-27T17:29:20Z'
   russian_apt_tool_matrix:
     references:
-      - title: "www.cisa.gov"
-        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a"
-        date: "13 December 2023"
-        source_file: "GroupProfiles/COZYBEAR.md"
-      - title: "www.gov.uk"
-        url: "https://www.gov.uk/government/news/russia-uk-and-us-expose-global-campaigns-of-malign-activity-by-russian-intelligence-services"
-        date: "15 April 2021"
-        source_file: "GroupProfiles/COZYBEAR.md"
-      - title: "research.checkpoint.com"
-        url: "https://research.checkpoint.com/2025/apt29-phishing-campaign/"
-        date: "15 April 2025"
-        source_file: "Other/ThreatIntelligence.md"
-      - title: "www.microsoft.com"
-        url: "https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/"
-        date: "18 December 2020"
-        source_file: "GroupProfiles/COZYBEAR.md"
-      - title: "www.cert.ssi.gouv.fr"
-        url: "https://www.cert.ssi.gouv.fr/cti/CERTFR-2024-CTI-006/"
-        date: "19 June 2024"
-        source_file: "Other/ThreatIntelligence.md"
-      - title: "cloud.google.com"
-        url: "https://cloud.google.com/blog/topics/threat-intelligence/unc3524-eye-spy-email/"
-        date: "2 May 2022"
-        source_file: "GroupProfiles/COZYBEAR.md"
-      - title: "www.microsoft.com"
-        url: "https://www.microsoft.com/en-us/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
-        date: "25 October 2021"
-        source_file: "GroupProfiles/COZYBEAR.md"
-      - title: "www.zscaler.com"
-        url: "https://www.zscaler.com/blogs/security-research/european-diplomats-targeted-apt29-cozy-bear-wineloader"
-        date: "27 February 2024"
-        source_file: "Other/ThreatIntelligence.md"
-      - title: "www.crowdstrike.com"
-        url: "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/"
-        date: "27 January 2022"
-        source_file: "GroupProfiles/COZYBEAR.md"
-      - title: "go.recordedfuture.com"
-        url: "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf"
-        date: "27 January 2023"
-        source_file: "GroupProfiles/COZYBEAR.md"
-      - title: "www.microsoft.com"
-        url: "https://www.microsoft.com/en-us/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/"
-        date: "27 May 2021"
-        source_file: "GroupProfiles/COZYBEAR.md"
-    source_attribution: "Tool observations were reviewed from the BushidoUK Russian APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The matrix is used here as a secondary Russian APT tradecraft reference, not as sole attribution evidence."
-    source_dataset_url: "https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1"
-    source_files: ["GroupProfiles/COZYBEAR.md","Other/ThreatIntelligence.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/Discovery.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md"]
-    source_label: "COZY BEAR"
-    source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T02:07:35Z"
+    - title: www.cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-347a
+      date: 13 December 2023
+      source_file: GroupProfiles/COZYBEAR.md
+    - title: www.gov.uk
+      url: https://www.gov.uk/government/news/russia-uk-and-us-expose-global-campaigns-of-malign-activity-by-russian-intelligence-services
+      date: 15 April 2021
+      source_file: GroupProfiles/COZYBEAR.md
+    - title: research.checkpoint.com
+      url: https://research.checkpoint.com/2025/apt29-phishing-campaign/
+      date: 15 April 2025
+      source_file: Other/ThreatIntelligence.md
+    - title: www.microsoft.com
+      url: https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/
+      date: 18 December 2020
+      source_file: GroupProfiles/COZYBEAR.md
+    - title: www.cert.ssi.gouv.fr
+      url: https://www.cert.ssi.gouv.fr/cti/CERTFR-2024-CTI-006/
+      date: 19 June 2024
+      source_file: Other/ThreatIntelligence.md
+    - title: cloud.google.com
+      url: https://cloud.google.com/blog/topics/threat-intelligence/unc3524-eye-spy-email/
+      date: 2 May 2022
+      source_file: GroupProfiles/COZYBEAR.md
+    - title: www.microsoft.com
+      url: https://www.microsoft.com/en-us/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/
+      date: 25 October 2021
+      source_file: GroupProfiles/COZYBEAR.md
+    - title: www.zscaler.com
+      url: https://www.zscaler.com/blogs/security-research/european-diplomats-targeted-apt29-cozy-bear-wineloader
+      date: 27 February 2024
+      source_file: Other/ThreatIntelligence.md
+    - title: www.crowdstrike.com
+      url: https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/
+      date: 27 January 2022
+      source_file: GroupProfiles/COZYBEAR.md
+    - title: go.recordedfuture.com
+      url: https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf
+      date: 27 January 2023
+      source_file: GroupProfiles/COZYBEAR.md
+    - title: www.microsoft.com
+      url: https://www.microsoft.com/en-us/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/
+      date: 27 May 2021
+      source_file: GroupProfiles/COZYBEAR.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Russian
+      APT Tool Matrix (https://github.com/BushidoUK/Russian-APT-Tool-Matrix). The
+      matrix is used here as a secondary Russian APT tradecraft reference, not as
+      sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Russian-APT-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - GroupProfiles/COZYBEAR.md
+    - Other/ThreatIntelligence.md
+    - Tools/CredentialTheft.md
+    - Tools/DefenseEvasion.md
+    - Tools/Discovery.md
+    - Tools/Exfiltration.md
+    - Tools/LOLBAS.md
+    - Tools/Networking.md
+    - Tools/Offsec.md
+    source_label: COZY BEAR
+    source_repository: https://github.com/BushidoUK/Russian-APT-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:28:04Z'
     tools_by_category:
-      Credential Theft: ["CookieEditor","Mimikatz","SharpChormium","SharpChromium"]
-      Defense Evasion: ["EDRSandBlast","VMware Tools (DLL side-loading)"]
-      Discovery: ["AADInternals","AdFind","Bloodhound","DSInternals","RoadTools"]
-      Exfiltration: ["Dropbox","Firebase","Google Drive","Notion","OneDrive","Trello"]
-      LOLBAS: ["PowerPoint.exe (DLL side-loading)","PsExec","WMIC","sqlwriter.exe (DLL side-loading)"]
-      Networking: ["Dropbear","ReGeorg","Rosockstun","Rsockstun"]
-      OffSec: ["Brute Ratel C4","Cobalt Strike","Impacket","PowerSploit","Rubeus","Sliver","WinPEAS"]
+      Credential Theft:
+      - CookieEditor
+      - Mimikatz
+      - SharpChormium
+      - SharpChromium
+      Defense Evasion:
+      - EDRSandBlast
+      - VMware Tools (DLL side-loading)
+      Discovery:
+      - AADInternals
+      - AdFind
+      - Bloodhound
+      - DSInternals
+      - RoadTools
+      Exfiltration:
+      - Dropbox
+      - Firebase
+      - Google Drive
+      - Notion
+      - OneDrive
+      - Trello
+      LOLBAS:
+      - PowerPoint.exe (DLL side-loading)
+      - PsExec
+      - WMIC
+      - sqlwriter.exe (DLL side-loading)
+      Networking:
+      - Dropbear
+      - ReGeorg
+      - Rosockstun
+      - Rsockstun
+      OffSec:
+      - Brute Ratel C4
+      - Cobalt Strike
+      - Impacket
+      - PowerSploit
+      - Rubeus
+      - Sliver
+      - WinPEAS
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Cloaked Ursa

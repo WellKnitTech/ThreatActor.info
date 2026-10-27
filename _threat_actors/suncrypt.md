@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SunCrypt"
-aliases: ["Sun","Suncrypt","SunCrypt"]
+aliases: ["Sun","SunCrypt","Suncrypt"]
 description: "SunCrypt ransomware was discovered in October 2019 and in August 2020 it was added to Maze ransomware’s cartel. It also follows some of Maze’s tactics, techniques, and procedures. SunCrypt is launched "
 permalink: /suncrypt/
 ---

@@ -15,3 +15,10 @@ provenance:
     source_record_id: "3c3ca8f3-c6ab-4c5d-9bd0-be6677d6cdeb"
     source_record_ids: ["1a882094-eabf-4692-b5d7-702a8bd5b766"]
     source_retrieved_at: "2026-05-06T22:01:13Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "FamousSparrow"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/FamousSparrow/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/FamousSparrow/FamousSparrow_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

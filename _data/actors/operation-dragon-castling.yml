@@ -1,0 +1,13 @@
+name: "Operation Dragon Castling"
+aliases: ["Operation Dragon Castling"]
+description: "(ESET) We recently discovered an APT campaign we are calling Operation Dragon Castling. The campaign is targeting what appears to be betting companies in South East Asia, more specifically companies located in Taiwan, the Philippines, and Hong Kong. With moderate confidence, we can attribute the campaign to a Chinese speaking APT group, but unfortunately cannot attribute the attack to a specific group and are not sure what the attackers are after."
+url: "/operation-dragon-castling"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "c139db43-c6b8-4b2d-8203-99af28f01adf"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

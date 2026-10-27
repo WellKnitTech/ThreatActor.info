@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Fog"
-aliases: ["Fog"]
+aliases: ["FOG","Fog"]
 description: "Fog is a sophisticated ransomware strain first observed in April–May 2024, initially targeting U.S. educational institutions before expanding into sectors such as government, business services, finance"
 permalink: /fog/
 ---
@@ -16,13 +16,29 @@ Fog is a sophisticated ransomware strain first observed in April–May 2024, ini
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Network Edge | SonicWall | SonicOS SSL-VPN | CVE-2024-40766 |
+| Applications | Veeam | Backup & Replication | CVE-2024-40711 |
+| Microsoft Products | Windows | Active Directory | CVE-2021-42278, CVE-2021-42287 |
+| Microsoft Products | Windows | NetLogon | CVE-2020-1472 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | DonPAPI, Veeam-Get-Creds |
+| Discovery | Advanced Port Scanner, SharpShares, SoftPerfect NetScan |
+| LOLBAS | PsExec |
+| Networking | Powercat, Proxychains |
+| OffSec | Certipy, Impacket, Metasploit, NetExec, Orpheus, Sliver, Zer0dump |
+| RMM Tools | AnyDesk |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

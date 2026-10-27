@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TeamSpy Crew"
-aliases: ["TeamSpy","Team Bear","Anger Bear","IRON LYRIC","TeamSpy Crew","SIG39"]
+aliases: ["Anger Bear","IRON LYRIC","Iron Lyric","SIG39","Team Bear","TeamSpy","TeamSpy Crew"]
 description: "Researchers have uncovered a long-term cyber-espionage campaign that used a combination of legitimate software packages and commodity malware tools to target a variety of heavy industry, government int"
 permalink: /teamspy-crew/
 ---
@@ -23,7 +23,12 @@ Researchers have uncovered a long-term cyber-espionage campaign that used a comb
 **Suspected Victims**: Hungary, Belarus
 
 ## Notable Campaigns
+- **2017-02**
+- **A new spam campaign emerged over the weekend**
 - **TeamSpy**
+- **carrying the TeamSpy data-stealing malware**
+- **https://heimdalsecurity.com/blog/security-alert-teamspy-turn-teamviewer-into-spying-tool/**
+- **which can give cybercriminals full access to a compromised computer.**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -39,6 +44,8 @@ Researchers have uncovered a long-term cyber-espionage campaign that used a comb
 - **Archelaus Beta**
 - **Malicious TeamViewer versions**: 
 - **JAVA RATs**: 
+- **TeamSpy**: 
+- **TeamViewer**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

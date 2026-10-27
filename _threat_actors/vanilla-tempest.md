@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Vanilla Tempest"
-aliases: ["DEV-0832","Vice Society","Vanilla Tempest","VICE SPIDER","Vicesociety"]
+aliases: ["DEV-0832","VICE SPIDER","Vanilla Tempest","Vice Society","Vicesociety"]
 description: "Vice Society is a ransomware group that has been active since at least June 2021. They primarily target the education and healthcare sectors, but have also been observed targeting the manufacturing ind"
 permalink: /vanilla-tempest/
 ---

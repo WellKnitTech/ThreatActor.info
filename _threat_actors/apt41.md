@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT41"
-aliases: ["Amoeba","APT41","Barium","BARIUM","Blackfly","Brass Typhoon","BRONZE ATLAS","BRONZE EXPORT","Double Dragon","Earth Baku","G0044","G0096","Grayfly","HOODOO","LEAD","Leopard Typhoon","Red Kelpie","TA415","TG-2633","Wicked Panda","WICKED PANDA","WICKED SPIDER","Wicked Spider","Winnti","Winnti Group","Winnti Umbrella"]
+aliases: ["APT41","ATK122","Amoeba","Anonymous","BARIUM","BRONZE ATLAS","BRONZE EXPORT","Barium","Blackfly","Brass Typhoon","Double Dragon","Earth Baku","G0044","G0096","Grayfly","Grey Ares","HOODOO","LEAD","Lead","Leopard Typhoon","Red Kelpie","SPIRE CASTLE","TA415","TG-2633","TG-2768","Vanadinite","WICKED PANDA","WICKED SPIDER","Wicked Panda","Wicked Spider","Winnti","Winnti Group","Winnti Umbrella"]
 description: "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observe"
 permalink: /apt41/
 ---
@@ -74,6 +74,9 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 - **XDoor**: 
 - **Xmrig**: 
 - **ZxShell**: 
+- **Cobalt Strike**: 
+- **FunnySwitch**: 
+- **Winnti**: 
 
 ### MITRE ATT&CK Software
 - [PipeMon (S0501) — malware](https://attack.mitre.org/software/S0501)

@@ -2,8 +2,10 @@ name: "eCh0raix"
 aliases: ["eCh0raix"]
 description: "Anomali researchers have observed a new ransomware family, dubbed eCh0raix, targeting QNAP Network Attached Storage (NAS) devices. QNAP devices are created by the Taiwanese company QNAP Systems, Inc., and contain device storage and media player functionality, amongst others. The devices appear to be compromised by brute forcing weak credentials and exploiting known vulnerabilities in targeted attacks. The malicious payload encrypts the targeted file extensions on the NAS using AES encryption and appends .encrypt extension to the encrypted files. The ransom note created by the ransomware has the form shown below.\neCh0raix was first seen in June 2019, after victims began reporting ransomware attacks in a forum topic on BleepingComputer.\nOn June 1st, 2020, there has been a sudden surge of eCh0raix victims seeking help in our forums and submissions to the ransomware identification site ID-Ransomware."
 url: "/ech0raix"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/echoraix"
 malware:
   - name: "Xploit"
   - name: "Archelaus Beta"
@@ -15,4 +17,26 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "f3ded787-783e-4c6b-909a-8da01254380c"
     source_record_ids: ["f3ded787-783e-4c6b-909a-8da01254380c"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "unit42.paloaltonetworks.com"
+        url: "https://unit42.paloaltonetworks.com/ech0raix-ransomware-soho/"
+        source_file: "Vulnerabilities/Applications.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md"]
+    source_label: "eCh0raix"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "QNAP"
+          product: "NAS"
+          cves: ["CVE-2021-28799"]
+          source_links: ["https://unit42.paloaltonetworks.com/ech0raix-ransomware-soho/"]
+          source_file: "Vulnerabilities/Applications.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "echoraix"
+  source_retrieved_at: "2026-10-27T17:25:44Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

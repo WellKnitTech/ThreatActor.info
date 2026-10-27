@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Corsair Jackal"
-aliases: ["TunisianCyberArmy","Corsair Jackal","Tunisian Cyber Army"]
+aliases: ["Corsair Jackal","Tunisian Cyber Army","TunisianCyberArmy"]
 description: "Corsair Jackal is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /corsair-jackal/
 ---

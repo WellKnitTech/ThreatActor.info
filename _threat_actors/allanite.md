@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "ALLANITE"
-aliases: ["Palmetto Fusion","Allanite","ALLANITE"]
+aliases: ["Allanite","ALLANITE","Palmetto Fusion"]
 description: "Adversaries abusing ICS (based on Dragos Inc adversary list). ALLANITE accesses business and industrial control (ICS) networks, conducts reconnaissance, and gathers intelligence in United States and Un"
 permalink: /allanite/
 ---
@@ -16,7 +16,17 @@ Adversaries abusing ICS (based on Dragos Inc adversary list). ALLANITE accesses 
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+- [T0859 Valid Accounts](https://attack.mitre.org/techniques/T0859)
+- [T0852 Screen Capture](https://attack.mitre.org/techniques/T0852)
+- [T0865 Spearphishing Attachment](https://attack.mitre.org/techniques/T0865)
+- [T0817 Drive-by Compromise](https://attack.mitre.org/techniques/T0817)
+
+### ATT&CK technique IDs (denormalized)
+
+- [T0817](https://attack.mitre.org/techniques/T0817/)
+- [T0852](https://attack.mitre.org/techniques/T0852/)
+- [T0859](https://attack.mitre.org/techniques/T0859/)
+- [T0865](https://attack.mitre.org/techniques/T0865/)
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
@@ -29,5 +39,7 @@ Adversaries abusing ICS (based on Dragos Inc adversary list). ALLANITE accesses 
 *Information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+[1] [mitre-attack](https://attack.mitre.org/groups/G1000)
+[2] [Dragos](https://dragos.com/resource/allanite/)
+   Dragos   Allanite Retrieved. 2019/10/27 
 

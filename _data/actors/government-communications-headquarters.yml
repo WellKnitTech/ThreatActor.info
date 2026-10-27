@@ -1,11 +1,19 @@
 name: "Government Communications Headquarters"
-aliases: ["Government Communications Headquarters"]
+aliases: ["Government Communications Headquarters","Operation Socialist"]
 description: "Government Communications Headquarters (GCHQ)[39] – Signals intelligence gathering and analysis."
 url: "/government-communications-headquarters"
 country: "United Kingdom"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["2009","2010","Breach of the infrastructure of the Belgian telecommunications company Belgacom.","GCHQ intercepted foreign politicians' communications at G20 summits","Operation Socialist","https://theintercept.com/2014/12/13/belgacom-hack-gchq-inside-story/","https://www.theguardian.com/uk/2013/jun/16/gchq-intercepted-communications-g20-summits"]
+malware:
+  - name: "Regin"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "9d92be76-3493-4c22-a22c-73e34bb2bb66"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   misp_galaxy:
     meta_keys: ["country","country_name","refs"]
     source_cluster: "intelligence-agencies.json"
@@ -13,4 +21,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
     source_record_id: "744085af-33f8-5a62-886a-a746c4815647"
     source_record_ids: ["744085af-33f8-5a62-886a-a746c4815647"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

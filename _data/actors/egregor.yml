@@ -4,6 +4,7 @@ description: "The threat group behind this malware seems to operate by hacking i
 url: "/egregor"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/egregor"
 malware:
   - name: "Hacking Team UEFI Rootkit"
   - name: "ClientMesh"
@@ -16,4 +17,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "8bd094a7-103f-465f-8640-18dcc53042e5"
     source_record_ids: ["8bd094a7-103f-465f-8640-18dcc53042e5"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "egregor"
+  source_retrieved_at: "2026-10-27T17:25:02Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -50,43 +50,59 @@
   "groups": [
     {
       "name": "APT29",
-      "url": "/apt29"
+      "url": "/apt29/"
+    },
+    {
+      "name": "UNC1549",
+      "url": "/unc1549/"
     },
     {
       "name": "APT5",
-      "url": "/apt1023"
+      "url": "/apt1023/"
+    },
+    {
+      "name": "TeamPCP",
+      "url": "/teampcp/"
     },
     {
       "name": "APT28",
-      "url": "/apt28"
+      "url": "/apt28/"
     },
     {
       "name": "Storm-0501",
-      "url": "/apt1053"
+      "url": "/apt1053/"
     },
     {
-      "name": "VOID MANTICORE",
-      "url": "/void-manticore"
+      "name": "ShinyHunters",
+      "url": "/shinyhunters/"
+    },
+    {
+      "name": "Void Manticore",
+      "url": "/void-manticore/"
     },
     {
       "name": "HAFNIUM",
-      "url": "/apt0125"
+      "url": "/apt0125/"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082/"
     },
     {
       "name": "Scattered Spider",
-      "url": "/apt1015"
+      "url": "/apt1015/"
     },
     {
       "name": "APT33",
-      "url": "/apt0064"
+      "url": "/apt0064/"
     },
     {
       "name": "LAPSUS$",
-      "url": "/apt1004"
+      "url": "/apt1004/"
     },
     {
       "name": "Ke3chang",
-      "url": "/apt0004"
+      "url": "/apt0004/"
     }
   ]
 }

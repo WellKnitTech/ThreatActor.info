@@ -1,9 +1,11 @@
 name: "Ragnar Locker"
-aliases: ["RagnarLocker","Ragnar Locker"]
+aliases: ["Ragnar Locker","RagnarLocker"]
 description: "Ragnar Locker is a ransomware identified in December 2019 that targetscorporate networks inBig Game Huntingtargeted attacks. This reportpresents recent elements regarding this ransomware."
 url: "/ragnar-locker"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/ragnarlocker"
 malware:
   - name: "Ragnatela"
 provenance:
@@ -14,4 +16,49 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "e69f9836-873a-43d3-92a8-97ab783a4171"
     source_record_ids: ["e69f9836-873a-43d3-92a8-97ab783a4171"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "www.sygnia.co"
+        url: "https://www.sygnia.co/blog/threat-actor-spotlight-ragnarlocker-ransomware/"
+        date: "10 April 2023"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "RagnarLocker"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Defense Evasion: ["VirtualBox"]
+      Discovery: ["Advanced Port Scanner","Dsquery","PsInfo","SoftPerfect LanSearchPro"]
+      LOLBAS: ["PsExec","WMIC"]
+      OffSec: ["Cobalt Strike"]
+      RMM Tools: ["AnyDesk","Remote Manipulator System (RMS)","RemoteUtilities"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "kaspersky.com"
+        url: "https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"
+        source_file: "Vulnerabilities/Microsoft.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Microsoft.md"]
+    source_label: "RagnarLocker"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Microsoft Products:
+        - vendor: "Windows"
+          product: "COM"
+          cves: ["CVE-2017-0213"]
+          source_links: ["https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Microsoft Office"
+          cves: ["CVE-2018-0802"]
+          source_links: ["https://web.archive.org/web/20231004015829/https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"]
+          source_file: "Vulnerabilities/Microsoft.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "ragnarlocker"
+  source_retrieved_at: "2026-10-27T17:18:48Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

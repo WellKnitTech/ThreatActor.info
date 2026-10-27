@@ -1,5 +1,5 @@
 name: "XakNet"
-aliases: ["UAC-0100","UAC-0106","XakNet"]
+aliases: ["UAC-0100","UAC-0106","XakNet","Xaknet"]
 description: "XakNet is a self-proclaimed hacktivist group that has targeted Ukraine. They claim to be comprised of Russian patriotic volunteers and have conducted various threat activities, including DDoS attacks, compromises, data leaks, and website defacements. They coordinate their operations with other hacktivist groups and have connections to APT28, a cyber espionage group sponsored by the GRU."
 url: "/xaknet"
 country: "Russia"
@@ -10,11 +10,21 @@ source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["CyberGate","Cyber Eye RAT"]
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      CERT-UA: ["UAC-0106"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "xaknet"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Hacktivists"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "xaknet"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/xaknet"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "566752f5-a294-4430-b47e-8e705f9887ea"
   misp_galaxy:
     meta_keys: ["country","refs","synonyms"]
@@ -23,4 +33,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "566752f5-a294-4430-b47e-8e705f9887ea"
     source_record_ids: ["566752f5-a294-4430-b47e-8e705f9887ea"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

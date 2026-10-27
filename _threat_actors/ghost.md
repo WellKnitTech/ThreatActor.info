@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "ghost"
 aliases: ["ghost"]
-description: "aka Cring / Ghost (Cring)\r<br/>\r<br/>Beginning early 2021, Ghost actors began attacking victims whose internet facing services ran outdated versions of software and firmware. This indiscriminate target"
+description: "aka Cring / Ghost (Cring) <br/> <br/>Beginning early 2021, Ghost actors began attacking victims whose internet facing services ran outdated versions of software and firmware. This indiscriminate target"
 permalink: /ghost/
 ---
 

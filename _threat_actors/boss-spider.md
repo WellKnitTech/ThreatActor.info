@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BOSS SPIDER"
-aliases: ["GOLD LOWELL","BOSS SPIDER","Boss Spider","Gold lowell"]
+aliases: ["BOSS SPIDER","Boss Spider","CTG-0007","GOLD LOWELL","Gold Lowell","Gold lowell"]
 description: "Throughout 2018, CrowdStrike Intelligence tracked BOSS SPIDER as it regularly updated Samas ransomware and received payments to known Bitcoin (BTC) addresses. This consistent pace of activity came to a"
 permalink: /boss-spider/
 ---
@@ -27,6 +27,9 @@ Throughout 2018, CrowdStrike Intelligence tracked BOSS SPIDER as it regularly up
 
 ## Malware and Tools
 - **SamSam**: 
+- **Mimikatz**: 
+- **PsExec**: 
+- **SDelete**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

@@ -1,33 +1,58 @@
 name: "ANTHROPOID SPIDER"
-aliases: ["Empire Monkey","CobaltGoblin","ANTHROPOID SPIDER","EmpireMonkey"]
+aliases: ["ANTHROPOID SPIDER","Anthropoid Spider","CobaltGoblin","Empire Monkey","EmpireMonkey"]
 description: "Publicly known as 'EmpireMonkey', ANTHROPOID SPIDER conducted phishing campaigns in February and March 2019, spoofing French, Norwegian and Belizean financial regulators and institutions. These campaigns used macro-enabled Microsoft documents to deliver the PowerShell Empire post-exploitation framework. ANTHROPOID SPIDER likely enabled a breach that allegedly involved fraudulent transfers over the SWIFT network."
 url: "/anthropoid-spider"
+country: "[\"[Unknown]\"]"
 sector_focus: ["Finance"]
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/anthropoid_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["Bank of Valletta"]
-malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","Xploit","PowerRAT"]
+operations: ["2021-03","Bank of Valletta","Nine Entertainment warns ransomware recovery 'will take time'","https://www.itnews.com.au/news/nine-entertainment-warns-ransomware-recovery-will-take-time-562755"]
+malware:
+  - "PowerDuke"
+  - "POWERSTATS"
+  - "Power Loader"
+  - "POWERSOURCE"
+  - "Xploit"
+  - "PowerRAT"
+  - name: "MedusaLocker"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.timesofmalta.com/articles/view/20190225/local/how-bov-hackers-got-away-with-13-million.702800","http://blog.morphisec.com/new-global-attack-on-point-of-sale-systems","https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "others"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "6efb94b7-0f7d-4408-8541-a185a63320f2"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Blueliv: ["EmpireMonkey"]
+      CrowdStrike: ["Anthropoid Spider"]
+      Kaspersky: ["CobaltGoblin"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "empiremonkey"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "anthropoid_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/anthropoid_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "559a64d8-8657-4a93-9208-060d52efdec4"
   misp_galaxy:
-    meta_keys: ["refs","synonyms","targeted-sector"]
+    meta_keys: ["refs","synonyms","targeted-sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "559a64d8-8657-4a93-9208-060d52efdec4"
     source_record_ids: ["559a64d8-8657-4a93-9208-060d52efdec4"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

@@ -1,0 +1,27 @@
+name: "Exilware"
+aliases: ["Exilware"]
+description: "Exilware is a Brazilian threat actor operating the \"Infect Marketplace,\" which commercializes access to compromised systems using the BraZetsu malware framework. BraZetsu employs a modular architecture and AI-driven reconnaissance to optimize target value across various sectors, including banking and government systems. The actor maintains a controlled operational model, requiring customers to spend quickly to limit exposure and risk. Exilware's activities reflect a sophisticated Initial Access Broker operation, transforming compromised systems into commercial assets through automated intelligence gathering."
+url: "/exilware"
+country: "Brazil"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/exilware"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "exilware"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/exilware"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "67d76ea9-758b-442d-8dd8-f64f6353adeb"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "67d76ea9-758b-442d-8dd8-f64f6353adeb"
+    source_record_ids: ["67d76ea9-758b-442d-8dd8-f64f6353adeb"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

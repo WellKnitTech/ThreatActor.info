@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Ministry of Defence (Austria)"
 aliases: [" Counter-Intelligence Office","Ministry of Defence (Austria)"]
-description: " Abwehramt (AbwA): Counter-Intelligence Office [2]"
+description: "Abwehramt (AbwA): Counter-Intelligence Office [2]"
 permalink: /ministry-of-defence-austria/
 ---
 

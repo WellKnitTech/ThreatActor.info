@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "satanlock"
 aliases: ["satanlock"]
-description: "Connected to GD Lockersec and Babuk-Bjorka.\r<br/>\r<br/>Group is aka SalanLock (from typo on victim pages)."
+description: "Connected to GD Lockersec and Babuk-Bjorka. <br/> <br/>Group is aka SalanLock (from typo on victim pages)."
 permalink: /satanlock/
 ---
 

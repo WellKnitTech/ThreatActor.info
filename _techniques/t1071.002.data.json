@@ -20,23 +20,27 @@
   "groups": [
     {
       "name": "APT41",
-      "url": "/apt41"
+      "url": "/apt41/"
     },
     {
       "name": "Dragonfly",
-      "url": "/apt0035"
+      "url": "/apt0035/"
+    },
+    {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
     },
     {
       "name": "MirrorFace",
-      "url": "/mirrorface"
+      "url": "/mirrorface/"
     },
     {
       "name": "SilverTerrier",
-      "url": "/apt0083"
+      "url": "/apt0083/"
     },
     {
       "name": "Kimsuky",
-      "url": "/apt0094"
+      "url": "/apt0094/"
     }
   ]
 }

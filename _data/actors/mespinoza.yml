@@ -1,9 +1,11 @@
 name: "Mespinoza"
-aliases: ["Pyza","Pysa","Mespinoza"]
+aliases: ["Mespinoza","Pysa","Pyza"]
 description: "Mespinoza ransomware is used at least since october 2018. First versions used the common extension \".locked\". SInce december 2019 a new version in open sourced and documented, this new version uses the \".pyza\" extension."
 url: "/mespinoza"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/pysa"
 provenance:
   misp_galaxy:
     meta_keys: ["colt-average","colt-median","extensions","links","ransomnotes-filenames","refs","synonyms"]
@@ -12,4 +14,33 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "deed3c10-93b6-41b9-b150-f4dd1b665d87"
     source_record_ids: ["deed3c10-93b6-41b9-b150-f4dd1b665d87"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "PYSA/Mespinoza Ransomware"
+        url: "https://thedfirreport.com/2020/11/23/pysa-mespinoza-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "unit42.paloaltonetworks.com"
+        url: "https://unit42.paloaltonetworks.com/gasket-and-magicsocks-tools-install-mespinoza-ransomware/"
+        date: "15 July 2021"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "blogs.blackberry.com"
+        url: "https://blogs.blackberry.com/en/2021/06/pysa-loves-chachi-a-new-golang-rat"
+        date: "21 June 2021"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
+    source_label: "PYSA"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz","ProcDump","SessionGopher"]
+      Discovery: ["ADRecon","Advanced IP Scanner","Advanced Port Scanner"]
+      Exfiltration: ["FileZilla","WinSCP"]
+      LOLBAS: ["PsExec","WMIC"]
+      OffSec: ["Chashell","Koadic","PowerShell Empire","PowerSploit"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "pysa"
+  source_retrieved_at: "2026-10-27T17:25:22Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

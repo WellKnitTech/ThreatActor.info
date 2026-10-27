@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Clever Kitten"
-aliases: ["Group 41","Clever Kitten"]
+aliases: ["Clever Kitten","Group 41","Group41"]
 description: "Clever Kitten is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /clever-kitten/
 ---
@@ -29,6 +29,7 @@ Clever Kitten is a threat actor tracked by MISP Galaxy. Additional information p
 ## Malware and Tools
 - **Acunetix Web Vulnerability Scanner**: 
 - **PHP Webshell RC SHELL**: 
+- **RC SHELL**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

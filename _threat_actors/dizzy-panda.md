@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DIZZY PANDA"
-aliases: ["LadyBoyle","DIZZY PANDA"]
+aliases: ["DIZZY PANDA","LadyBoyle","Dizzy Panda"]
 description: "DIZZY PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /dizzy-panda/
 ---
@@ -10,7 +10,11 @@ permalink: /dizzy-panda/
 DIZZY PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ DIZZY PANDA is a threat actor tracked by MISP Galaxy. Additional information pen
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

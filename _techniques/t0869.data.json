@@ -21,12 +21,21 @@
     }
   ],
   "subtechniques": [
-
+    {
+      "id": "T0869.001",
+      "name": "DNS",
+      "permalink": "/techniques/T0869.001/"
+    },
+    {
+      "id": "T0869.002",
+      "name": "Publish/Subscribe Protocols",
+      "permalink": "/techniques/T0869.002/"
+    }
   ],
   "groups": [
     {
       "name": "OilRig",
-      "url": "/apt34"
+      "url": "/oilrig/"
     }
   ]
 }

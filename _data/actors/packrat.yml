@@ -2,19 +2,45 @@ name: "Packrat"
 aliases: ["Packrat"]
 description: "A threat group that has been active for at least seven years has used malware, phishing and disinformation tactics to target activists, journalists, politicians and public figures in various Latin American countries.  The threat actor, dubbed Packrat based on its preference for remote access Trojans (RATs) and because it has used the same infrastructure for several years, has been analyzed by Citizen Lab researchers John Scott-Railton, Morgan Marquis-Boire, and Claudio Guarnieri, and Cyphort researcher Marion Marschalek, best known for her extensive analysis of state-sponsored threats."
 url: "/packrat"
+country: "[\"[Latin America]\"]"
 sector_focus: ["Activists","Journalist","Political party"]
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/packrat"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Trojan.Karagany","RemoteCMD","Trojan.Mebromi","Remote Utilities","RemotePC","Archelaus Beta"]
+malware:
+  - "Trojan.Karagany"
+  - "RemoteCMD"
+  - "Trojan.Mebromi"
+  - "Remote Utilities"
+  - "RemotePC"
+  - "Archelaus Beta"
+  - name: "Adwind"
+  - name: "Adzok"
+  - name: "CyberGate RAT"
+  - name: "XtremeRAT"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "3d252950-6264-40dc-b9e7-2214eab11dc6"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Citizen Lab: ["Packrat"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "packrat"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "packrat"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/packrat"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "fe344665-d153-4d31-a32a-1509efde1ca7"
   misp_galaxy:
     meta_keys: ["refs","targeted-sector"]
@@ -23,4 +49,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "fe344665-d153-4d31-a32a-1509efde1ca7"
     source_record_ids: ["fe344665-d153-4d31-a32a-1509efde1ca7"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

@@ -22,7 +22,14 @@ A ransomware with potential ties to Wizard Spider.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Discovery | AdFind, Advanced IP Scanner, ShareFinder |
+| Exfiltration | FileZilla |
+| OffSec | Cobalt Strike, Rubeus |
+| RMM Tools | AnyDesk |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

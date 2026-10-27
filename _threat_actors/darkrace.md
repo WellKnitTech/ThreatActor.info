@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "darkrace"
-aliases: ["darkrace","Darkrace group","Darkrace ransomware","Darkrace gang","Darkrace"]
+aliases: ["Darkrace","Darkrace gang","Darkrace group","Darkrace ransomware","darkrace"]
 description: "DarkRace is a moderately destructive ransomware strain observed since 2024. It encrypts files and appends a randomized extension (e.g., .1352FF327) that varies per victim. Implemented as a 32-bit Windo"
 permalink: /darkrace/
 ---

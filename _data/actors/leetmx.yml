@@ -1,0 +1,30 @@
+name: "leetMX"
+aliases: ["leetMX"]
+description: "(ClearSky) leetMX is a widespread cyber-attack campaign originating from Mexico and focused on targets in Mexico, El Salvador, and other countries in Latin America, such as Guatemala, Argentina and Costa Rica. It has been operating since November 2016 at least. We are uncertain of its objectives but estimate it is criminally motivated. leetMX infrastructure includes 27 hosts and domains used for malware delivery or for command and control. Hundreds of malware samples have been used, most are Remote Access Trojans and keyloggers. Interestingly, the attackers camouflage one of their delivery domains by redirecting visitors to El Universal, a major Mexican newspaper."
+url: "/leetmx"
+country: "[\"Mexico\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "e8fab0e1-c3e1-4d53-bcf7-614c18ca665c"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      ClearSky: ["leetMX"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "leetmx"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "leetMX"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/leetMX/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/leetMX/leetMX_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

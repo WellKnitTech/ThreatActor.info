@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "crypto24"
 aliases: ["crypto24"]
-description: "aka  Public Data Storage"
+description: "aka Public Data Storage"
 permalink: /crypto24/
 ---
 

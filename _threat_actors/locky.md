@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Locky"
-aliases: ["Locky-Odin","Locky-Osiris","Locky-Osiris 2016","Locky-Osiris 2017","Locky"]
+aliases: ["Locky","Locky-Odin","Locky-Osiris","Locky-Osiris 2016","Locky-Osiris 2017"]
 description: "Ransomware Affiliations with Dridex and Necurs botnets"
 permalink: /locky/
 ---

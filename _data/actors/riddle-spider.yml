@@ -1,24 +1,43 @@
 name: "RIDDLE SPIDER"
-aliases: ["RIDDLE SPIDER"]
+aliases: ["Avaddon Team","RIDDLE SPIDER","Riddle Spider"]
 description: "According to Crowdstrike, RIDDLE SPIDER is the operator behind the avaddon ransomware"
 url: "/riddle-spider"
+country: "[\"[Unknown]\"]"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/riddle_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2020-06","2020-07","2020-08","2021-01","2021-02","2021-04","2021-05","2021-06","Another ransomware now uses DDoS attacks to force victims to pay","Avaddon ransomware fixes flaw allowing free decryption","Avaddon ransomware launches data leak site to extort victims","Avaddon ransomware shows that Excel 4.0 macros are still effective","Avaddon ransomware shuts down and releases decryption keys","Cyber-attackers hold PN to ransom with major data leak threat","Insurer AXA hit by ransomware after dropping support for ransom payments","New Avaddon Ransomware launches in massive smiley spam campaign","https://timesofmalta.com/articles/view/cyber-attackers-hold-pn-to-ransom-with-major-data-leak-threat.865968","https://www.bleepingcomputer.com/news/security/another-ransomware-now-uses-ddos-attacks-to-force-victims-to-pay/","https://www.bleepingcomputer.com/news/security/avaddon-ransomware-fixes-flaw-allowing-free-decryption/","https://www.bleepingcomputer.com/news/security/avaddon-ransomware-launches-data-leak-site-to-extort-victims/","https://www.bleepingcomputer.com/news/security/avaddon-ransomware-shows-that-excel-40-macros-are-still-effective/","https://www.bleepingcomputer.com/news/security/avaddon-ransomware-shuts-down-and-releases-decryption-keys/","https://www.bleepingcomputer.com/news/security/insurer-axa-hit-by-ransomware-after-dropping-support-for-ransom-payments/","https://www.bleepingcomputer.com/news/security/new-avaddon-ransomware-launches-in-massive-smiley-spam-campaign/"]
+malware:
+  - name: "Avaddon"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "b41f0843-fe80-4005-bb32-38336f92b80a"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Riddle Spider"]
+    confidence: "Low"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "riddlespider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "riddle_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/riddle_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "090d0553-cdcf-4f4e-ae3b-b5d751acaf5d"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "090d0553-cdcf-4f4e-ae3b-b5d751acaf5d"
     source_record_ids: ["090d0553-cdcf-4f4e-ae3b-b5d751acaf5d"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

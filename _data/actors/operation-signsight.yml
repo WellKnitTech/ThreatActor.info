@@ -1,0 +1,14 @@
+name: "Operation SignSight"
+aliases: ["Operation SignSight"]
+description: "(ESET) Just a few weeks after the supply-chain attack on the Able Desktop software, another similar attack occurred on the website of the Vietnam Government Certification Authority (VGCA): ca.gov.vn. The attackers modified two of the software installers available for download on this website and added a backdoor in order to compromise users of the legitimate application. ESET researchers uncovered this new supply-chain attack in early December 2020 and notified the compromised organization and the VNCERT. We believe that the website has not been delivering compromised software installers as of the end of August 2020 and ESET telemetry data does not indicate the compromised installers being distributed anywhere else. The Vietnam Government Certification Authority confirmed that they were aware of the attack before our notification and that they notified the users who downloaded the trojanized software."
+url: "/operation-signsight"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["Mimikatz","PhantomNet"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "e8cfaf96-906e-42f6-a677-da2aee6b662d"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

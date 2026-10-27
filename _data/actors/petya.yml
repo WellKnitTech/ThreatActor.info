@@ -4,6 +4,7 @@ description: "Ransomware encrypts disk partitions PDFBewerbungsmappe.exe"
 url: "/petya"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/petya"
 provenance:
   misp_galaxy:
     meta_keys: ["encryption","links","payment-method","ransomnotes-filenames","refs","synonyms"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "7c5a1e93-7ab2-4b08-ada9-e82c4feaed0a"
     source_record_ids: ["7c5a1e93-7ab2-4b08-ada9-e82c4feaed0a"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "petya"
+  source_retrieved_at: "2026-10-27T17:21:00Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

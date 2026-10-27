@@ -2,8 +2,10 @@ name: "Avaddon"
 aliases: ["Avaddon"]
 description: "Avaddon is a ransomware malware targeting Windows systems often spread via malicious spam. The first known attack where Avaddon ransomware was distributed was in February 2020. Avaddon encrypts files using the extension .avdn and uses a TOR payment site for the ransom payment."
 url: "/avaddon"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/avaddon"
 malware:
   - name: "Windows Remote Desktop"
 provenance:
@@ -14,4 +16,26 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "fdfbe721-abd1-4760-8e52-f23306f6cb80"
     source_record_ids: ["fdfbe721-abd1-4760-8e52-f23306f6cb80"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "cloud.google.com"
+        url: "https://cloud.google.com/blog/topics/threat-intelligence/chasing-avaddon-ransomware/"
+        date: "19 January 2022"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Offsec.md"]
+    source_label: "Avaddon"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz","SharpDump"]
+      Defense Evasion: ["GMER","PowerTool","TDSSKiller"]
+      Discovery: ["SoftPerfect NetScan"]
+      Exfiltration: ["Anonfiles","MEGA","ProtonMail","Sendspace"]
+      OffSec: ["PowerShell Empire","PowerSploit"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "avaddon"
+  source_retrieved_at: "2026-10-27T17:23:08Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

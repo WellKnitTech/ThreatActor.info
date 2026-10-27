@@ -10,7 +10,11 @@ permalink: /slingshot/
 While analysing an incident which involved a suspected keylogger, we identified a malicious library able to interact with a virtual file system, which is usually the sign of an advanced APT actor. This turned out to be a malicious loader internally named ‘Slingshot’, part of a new, and highly sophisticated attack platform that rivals Project Sauron and Regin in complexity. While for most victims the infection vector for Slingshot remains unknown, we were able to find several cases where the attackers got access to MikroTik routers and placed a component downloaded by Winbox Loader, a management suite for MikroTik routers. In turn, this infected the administrator of the router. We believe this cluster of activity started in at least 2012 and was still active at the time of this analysis (February 2018).
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 - **Mikrotik Router Compromise**
@@ -34,9 +38,11 @@ While analysing an incident which involved a suspected keylogger, we identified 
 - **Sfc2**: 
 - **Minisling**: 
 - **Spork downloader**: 
+- **WinBox (a utility used for MikroTik router configuration)**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

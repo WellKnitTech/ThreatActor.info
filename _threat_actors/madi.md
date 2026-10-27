@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Madi"
-aliases: ["Madi"]
+aliases: ["Madi","Mahdi"]
 description: "Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Control (C&C) servers to monitor the campaign. Kaspersky Lab and Seculert identified more than 800 victims located in Iran, Isr"
 permalink: /madi/
 ---
@@ -25,7 +25,13 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 **Suspected Victims**: Iran, Pakistan, Israel, United States
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2012-07**
+- **Madi**
+- **New and Improved Madi Spyware Campaign Continues**
+- **appears to be making a comeback**
+- **complete with updates.**
+- **https://threatpost.com/new-and-improved-madi-spyware-campaign-continues-072512/76849/**
+- **the religiously-titled spyware that was discovered last week and thought to be dead**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -35,6 +41,7 @@ Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Contro
 
 ## Malware and Tools
 - **CrossRat**
+- **Madi**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Iran

@@ -36,6 +36,7 @@ This threat actor uses spear-phishing techniques to target parliaments, governme
 - **CyberGate**
 - **Cyber Eye RAT**
 - **DesktopNow**
+- **Remote CMD/PowerShell terminal**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Unknown

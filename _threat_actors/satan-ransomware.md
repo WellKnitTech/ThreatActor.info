@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Satan Ransomware"
 aliases: ["Satan Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide. Its original name is RAAS RANSOMWARE. It is spread using email spam, fake updates, infected attachments and so on.  It en"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. Its original name is RAAS RANSOMWARE. It is spread using email spam, fake updates, infected attachments and so on. It enc"
 permalink: /satan-ransomware/
 ---
 

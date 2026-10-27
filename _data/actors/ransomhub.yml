@@ -1,12 +1,12 @@
 name: "RansomHub"
-aliases: ["RansomHub RaaS","RansomHub","ransomhub"]
+aliases: ["RansomHub","RansomHub RaaS","ransomhub"]
 description: "RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 and quickly became the most prolific group with 736 disclosed victims."
 url: "/ransomhub"
 country: "Unknown"
 sector_focus: ["Critical Infrastructure","Healthcare","Education","Manufacturing"]
 first_seen: "2024"
 last_activity: "2025"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 risk_level: "Critical"
 source_name: "MISP Galaxy"
 source_attribution: "Manually curated from open source intelligence"
@@ -19,16 +19,16 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ransomhub"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ransomhub"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "9d218bb3-fc59-43e0-a273-a0a0fb5c463e"
   misp_galaxy:
-    meta_keys: ["refs","TTP","links"]
+    meta_keys: ["refs","TTP","links","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","ransomware.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "9d218bb3-fc59-43e0-a273-a0a0fb5c463e"
     source_record_ids: ["9d218bb3-fc59-43e0-a273-a0a0fb5c463e","9a1bfbf8-e07c-55d0-9ca5-3bcfa67f2468"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   ransomware_tool_matrix:
     community_reports:
       - source_file: "CommunityReports/CR-004-RANSOMHUB-FEB-2025.md"
@@ -73,7 +73,7 @@ provenance:
     source_files: ["CommunityReports/CR-004-RANSOMHUB-FEB-2025.md","CommunityReports/CR-005-RANSOMHUB-MAR-2025.md","CommunityReports/CR-006-RANSOMHUB-FEB-2025.md","CommunityReports/CR-007-RANSOMHUB-MAR-2025.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "RansomHub"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T01:51:36Z"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
     tools_by_category:
       Credential Theft: ["Mimikatz"]
       Defense Evasion: ["Acronis Disk Director","BadRentdrv2","Revo Uninstaller","ThreatFire System Monitor driver (BYOVD)"]
@@ -88,6 +88,9 @@ provenance:
       - title: "blogs.blackberry.com"
         url: "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america"
         source_file: "Vulnerabilities/Applications.md"
+      - title: "checkpoint.com"
+        url: "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"
+        source_file: "Vulnerabilities/Microsoft.md"
       - title: "cisa.gov"
         url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
         source_file: "Vulnerabilities/Microsoft.md"
@@ -121,6 +124,12 @@ provenance:
       - title: "cisa.gov"
         url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
         source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "group-ib.com"
+        url: "https://www.group-ib.com/blog/qilin-revisited/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "kelacyber.com"
+        url: "https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"
+        source_file: "Vulnerabilities/Microsoft.md"
       - title: "labs.withsecure.com"
         url: "https://labs.withsecure.com/publications/fin7-target-veeam-servers"
         source_file: "Vulnerabilities/Applications.md"
@@ -159,7 +168,7 @@ provenance:
     source_files: ["GroupProfiles/RansomHub.md","Vulnerabilities/Applications.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
     source_label: "Ransom Hub / RansomHub"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "Apache"
@@ -175,7 +184,7 @@ provenance:
         - vendor: "Veeam"
           product: "Backup & Replication"
           cves: ["CVE-2023-27532"]
-          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
+          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor","https://www.group-ib.com/blog/qilin-revisited/"]
           source_file: "Vulnerabilities/Applications.md"
       Group Profile:
         - vendor: "Apache"
@@ -227,7 +236,7 @@ provenance:
         - vendor: "MS Server Products"
           product: "SMBv1"
           cves: ["CVE-2017-0144"]
-          source_links: ["https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_links: ["https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"]
           source_file: "Vulnerabilities/Microsoft.md"
         - vendor: "Windows"
           product: "BITS"
@@ -242,7 +251,7 @@ provenance:
         - vendor: "Windows"
           product: "NetLogon"
           cves: ["CVE-2020-1472"]
-          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/","https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
           source_file: "Vulnerabilities/Microsoft.md"
       Network Edge:
         - vendor: "F5"
@@ -266,3 +275,7 @@ provenance:
           cves: ["CVE-2023-3519"]
           source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"]
           source_file: "Vulnerabilities/Virtualization.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "ransomhub"
+  source_retrieved_at: "2026-10-27T17:23:44Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

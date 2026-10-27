@@ -2,8 +2,10 @@ name: "Phobos"
 aliases: ["Java NotDharma","Phobos"]
 description: "Phobos exploits open or poorly secured RDP ports to sneak inside networks and execute a ransomware attack, encrypting files and demanding a ransom be paid in bitcoin for returning the files, which in this case are locked with a .phobos extension."
 url: "/phobos"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/phobos"
 malware:
   - name: "Xploit"
 provenance:
@@ -15,3 +17,25 @@ provenance:
     source_record_id: "d2c7fb08-293e-453b-a213-adeb79505767"
     source_record_ids: ["d2c7fb08-293e-453b-a213-adeb79505767"]
     source_retrieved_at: "2026-05-06T22:01:13Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "CISA Alert aa24-060a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-060a"
+        date: "29 February 2024"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Offsec.md"]
+    source_label: "Phobos"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz","NirSoft RemoteDesktopPassView (rdpv)","NirSoft WebBrowserPassView"]
+      Defense Evasion: ["PowerTool","ProcessHacker","Universal Virus Sniffer"]
+      Discovery: ["Angry IP Scanner","SoftPerfect NetScan"]
+      Exfiltration: ["MEGA","WinSCP"]
+      OffSec: ["Cobalt Strike"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "phobos"
+  source_retrieved_at: "2026-10-27T17:27:31Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -24,6 +24,12 @@ Daixin Team is a ransomware and data extortion group active since at least June 
 ## Malware and Tools
 - **Xploit**: 
 
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Exfiltration | RClone |
+
 ## Attribution and Evidence
 *Information pending cataloguing.*
 

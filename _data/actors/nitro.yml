@@ -12,12 +12,18 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/nitro"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2014-07","Historically","New Indicators of Compromise found","Nitro appears to have somewhat modified their malware and delivery methods to include Spindest and legitimate compromised websites","Nitro is known for targeted spear phishing campaigns and using Poison Ivy malware","as reported by Cyber Squared’s TCIRT.","https://unit42.paloaltonetworks.com/new-indicators-compromise-apt-group-nitro-uncovered/","which was not seen in these attacks. Since at least 2013"]
+malware:
+  - name: "Gh0st RAT"
+  - name: "PCClient"
+  - name: "Poison Ivy"
+  - name: "Spindest"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://malpedia.caad.fkie.fraunhofer.de/actor/nitro"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2011"
@@ -27,13 +33,28 @@ provenance:
     sample_titles: ["The Nitro Attacks: Stealing Secrets From The Chemical Industry","New Indicators Of Compromise For Apt Group Nitro Uncovered"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Palo Alto","Symantec"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "86c30d93-a2e8-4d04-9881-884cc59d7e19"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Symantec: ["Covert Grove"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "nitro"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "nitro"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/nitro"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "0b06fb39-ed3d-4868-ac42-12fff6df2c80"
   misp_galaxy:
     meta_keys: ["attribution-confidence","country","refs","synonyms","targeted-sector"]
@@ -42,4 +63,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "0b06fb39-ed3d-4868-ac42-12fff6df2c80"
     source_record_ids: ["0b06fb39-ed3d-4868-ac42-12fff6df2c80"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

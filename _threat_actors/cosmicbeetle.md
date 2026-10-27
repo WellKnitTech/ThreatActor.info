@@ -38,7 +38,7 @@ CosmicBeetle is a threat actor known for deploying the ScRansom ransomware, whic
 
 | Category | Observed tools |
 |---|---|
-| Defense Evasion | Darkside (TrueSight driver), RealBlindingEDR, Reaper |
+| Defense Evasion | Darkside/TrueSight driver (BYOVD), RealBlindingEDR, Reaper |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Careto"
-aliases: ["The Mask","Mask","Ugly Face","Careto"]
+aliases: ["Careto","Mask","The Mask","Ugly Face"]
 description: "This threat actor targets governments, diplomatic missions, private companies in the energy sector, and academics for espionage purposes. The Mask is an advanced threat actor that has been involved in "
 permalink: /careto/
 ---
@@ -25,7 +25,9 @@ This threat actor targets governments, diplomatic missions, private companies in
 **Suspected Victims**: Morocco, France, Libya, Venezuela, Poland, Brazil, Spain, United States, South Africa, Tunisia...
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2022**
+- **Careto is back: what’s new after 10 years of silence?**
+- **https://securelist.com/careto-is-back/114942/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -40,6 +42,7 @@ This threat actor targets governments, diplomatic missions, private companies in
 - **Androrat**
 - **Cyber Eye RAT**
 - **Windows Remote Desktop**
+- **Careto**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Spain

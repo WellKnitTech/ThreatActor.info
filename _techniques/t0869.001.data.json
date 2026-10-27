@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T0869.001",
+  "mitigations": [
+    {
+      "name": "Network Intrusion Prevention",
+      "mitre_id": "M0931",
+      "url": "https://attack.mitre.org/mitigations/M0931",
+      "stix_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc"
+    },
+    {
+      "name": "Filter Network Traffic",
+      "mitre_id": "M0937",
+      "url": "https://attack.mitre.org/mitigations/M0937",
+      "stix_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

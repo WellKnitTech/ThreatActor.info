@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Lazarus Group"
-aliases: ["Andariel","Appleworm","APT 38","APT-C-26","APT38","ATK117","ATK3","BeagleBoyz","Black Artemis","Bluenoroff","Bureau 121","Citrine Sleet","COPERNICIUM","COVELLITE","Dark Seoul","DEV-0139","DEV-1222","Diamond Sleet","G0032","G0082","Group 77","Guardians of Peace","Hastati Group","Hidden Cobra","HIDDEN COBRA","Labyrinth Chollima","Lazarus Group","Lazarus group","Moonstone Sleet","NewRomanic Cyber Army Team","NICKEL ACADEMY","Nickel Academy","NICKEL GLADSTONE","Operation AppleJeus","Operation DarkSeoul","Operation GhostSecret","Operation Troy","Sapphire Sleet","Stardust Chollima","Subgroup: Bluenoroff","TA404","Unit 121","Whois Hacking Team","ZINC","Zinc","Lazarus - APT-C-26","Lazarus","Genie Spider","UNC1069","Alluring Pisces","CageyChameleon","CryptoCore","MASAN"]
+aliases: ["APT 38","APT-C-26","APT38","ATK117","ATK3","Alluring Pisces","Andariel","Appleworm","BeagleBoyz","Black Artemis","Bluenoroff","Bureau 121","COPERNICIUM","COVELLITE","CTG-2460","CageyChameleon","Citrine Sleet","CryptoCore","DEV-0139","DEV-1222","Dark Seoul","Diamond Sleet","G0032","G0082","Genie Spider","Group 77","Guardians of Peace","HIDDEN COBRA","Hastati Group","Hidden Cobra","Labyrinth Chollima","Lazarus","Lazarus - APT-C-26","Lazarus Group","Lazarus group","MASAN","Moonstone Sleet","NICKEL ACADEMY","NICKEL GLADSTONE","NewRomanic Cyber Army Team","Nickel Academy","Operation AppleJeus","Operation DarkSeoul","Operation GhostSecret","Operation Troy","Sapphire Sleet","Stardust Chollima","Subgroup: Bluenoroff","TA404","UNC1069","Unit 121","Whois Hacking Team","ZINC","Zinc","MIDNIGHT NEPTUNE"]
 description: "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). [US-CERT HIDDEN COBRA June 2017](https://www.us-cert.gov/ncas/alerts/TA17-164A)"
 permalink: /lazarus/
 ---
@@ -123,6 +123,103 @@ Lazarus Group is a North Korean state-sponsored cyber threat group attributed to
 - [T1560.003 Archive via Custom Method](https://attack.mitre.org/techniques/T1560/003)
 - [T0865 Spearphishing Attachment](https://attack.mitre.org/techniques/T0865)
 
+### ATT&CK technique IDs (denormalized)
+
+- [T0865](https://attack.mitre.org/techniques/T0865/)
+- [T1001.003](https://attack.mitre.org/techniques/T1001/003/)
+- [T1005](https://attack.mitre.org/techniques/T1005/)
+- [T1008](https://attack.mitre.org/techniques/T1008/)
+- [T1010](https://attack.mitre.org/techniques/T1010/)
+- [T1012](https://attack.mitre.org/techniques/T1012/)
+- [T1016](https://attack.mitre.org/techniques/T1016/)
+- [T1021.001](https://attack.mitre.org/techniques/T1021/001/)
+- [T1021.002](https://attack.mitre.org/techniques/T1021/002/)
+- [T1021.004](https://attack.mitre.org/techniques/T1021/004/)
+- [T1027.007](https://attack.mitre.org/techniques/T1027/007/)
+- [T1027.009](https://attack.mitre.org/techniques/T1027/009/)
+- [T1027.013](https://attack.mitre.org/techniques/T1027/013/)
+- [T1033](https://attack.mitre.org/techniques/T1033/)
+- [T1036.003](https://attack.mitre.org/techniques/T1036/003/)
+- [T1036.004](https://attack.mitre.org/techniques/T1036/004/)
+- [T1036.005](https://attack.mitre.org/techniques/T1036/005/)
+- [T1041](https://attack.mitre.org/techniques/T1041/)
+- [T1046](https://attack.mitre.org/techniques/T1046/)
+- [T1047](https://attack.mitre.org/techniques/T1047/)
+- [T1048.003](https://attack.mitre.org/techniques/T1048/003/)
+- [T1049](https://attack.mitre.org/techniques/T1049/)
+- [T1053.005](https://attack.mitre.org/techniques/T1053/005/)
+- [T1055.001](https://attack.mitre.org/techniques/T1055/001/)
+- [T1056.001](https://attack.mitre.org/techniques/T1056/001/)
+- [T1057](https://attack.mitre.org/techniques/T1057/)
+- [T1059.001](https://attack.mitre.org/techniques/T1059/001/)
+- [T1059.003](https://attack.mitre.org/techniques/T1059/003/)
+- [T1059.005](https://attack.mitre.org/techniques/T1059/005/)
+- [T1070](https://attack.mitre.org/techniques/T1070/)
+- [T1070.003](https://attack.mitre.org/techniques/T1070/003/)
+- [T1070.004](https://attack.mitre.org/techniques/T1070/004/)
+- [T1070.006](https://attack.mitre.org/techniques/T1070/006/)
+- [T1071.001](https://attack.mitre.org/techniques/T1071/001/)
+- [T1074.001](https://attack.mitre.org/techniques/T1074/001/)
+- [T1078](https://attack.mitre.org/techniques/T1078/)
+- [T1082](https://attack.mitre.org/techniques/T1082/)
+- [T1083](https://attack.mitre.org/techniques/T1083/)
+- [T1090.001](https://attack.mitre.org/techniques/T1090/001/)
+- [T1090.002](https://attack.mitre.org/techniques/T1090/002/)
+- [T1098](https://attack.mitre.org/techniques/T1098/)
+- [T1102.002](https://attack.mitre.org/techniques/T1102/002/)
+- [T1104](https://attack.mitre.org/techniques/T1104/)
+- [T1105](https://attack.mitre.org/techniques/T1105/)
+- [T1106](https://attack.mitre.org/techniques/T1106/)
+- [T1110.003](https://attack.mitre.org/techniques/T1110/003/)
+- [T1124](https://attack.mitre.org/techniques/T1124/)
+- [T1132.001](https://attack.mitre.org/techniques/T1132/001/)
+- [T1134.002](https://attack.mitre.org/techniques/T1134/002/)
+- [T1140](https://attack.mitre.org/techniques/T1140/)
+- [T1189](https://attack.mitre.org/techniques/T1189/)
+- [T1202](https://attack.mitre.org/techniques/T1202/)
+- [T1203](https://attack.mitre.org/techniques/T1203/)
+- [T1204.002](https://attack.mitre.org/techniques/T1204/002/)
+- [T1218](https://attack.mitre.org/techniques/T1218/)
+- [T1218.005](https://attack.mitre.org/techniques/T1218/005/)
+- [T1218.011](https://attack.mitre.org/techniques/T1218/011/)
+- [T1485](https://attack.mitre.org/techniques/T1485/)
+- [T1489](https://attack.mitre.org/techniques/T1489/)
+- [T1491.001](https://attack.mitre.org/techniques/T1491/001/)
+- [T1529](https://attack.mitre.org/techniques/T1529/)
+- [T1542.003](https://attack.mitre.org/techniques/T1542/003/)
+- [T1543.003](https://attack.mitre.org/techniques/T1543/003/)
+- [T1547.001](https://attack.mitre.org/techniques/T1547/001/)
+- [T1547.009](https://attack.mitre.org/techniques/T1547/009/)
+- [T1553.002](https://attack.mitre.org/techniques/T1553/002/)
+- [T1557.001](https://attack.mitre.org/techniques/T1557/001/)
+- [T1560](https://attack.mitre.org/techniques/T1560/)
+- [T1560.002](https://attack.mitre.org/techniques/T1560/002/)
+- [T1560.003](https://attack.mitre.org/techniques/T1560/003/)
+- [T1561.001](https://attack.mitre.org/techniques/T1561/001/)
+- [T1561.002](https://attack.mitre.org/techniques/T1561/002/)
+- [T1564.001](https://attack.mitre.org/techniques/T1564/001/)
+- [T1566.001](https://attack.mitre.org/techniques/T1566/001/)
+- [T1566.002](https://attack.mitre.org/techniques/T1566/002/)
+- [T1566.003](https://attack.mitre.org/techniques/T1566/003/)
+- [T1571](https://attack.mitre.org/techniques/T1571/)
+- [T1573.001](https://attack.mitre.org/techniques/T1573/001/)
+- [T1574.001](https://attack.mitre.org/techniques/T1574/001/)
+- [T1574.013](https://attack.mitre.org/techniques/T1574/013/)
+- [T1583.001](https://attack.mitre.org/techniques/T1583/001/)
+- [T1583.006](https://attack.mitre.org/techniques/T1583/006/)
+- [T1584.004](https://attack.mitre.org/techniques/T1584/004/)
+- [T1585.001](https://attack.mitre.org/techniques/T1585/001/)
+- [T1585.002](https://attack.mitre.org/techniques/T1585/002/)
+- [T1587.001](https://attack.mitre.org/techniques/T1587/001/)
+- [T1588.002](https://attack.mitre.org/techniques/T1588/002/)
+- [T1588.004](https://attack.mitre.org/techniques/T1588/004/)
+- [T1589.002](https://attack.mitre.org/techniques/T1589/002/)
+- [T1591](https://attack.mitre.org/techniques/T1591/)
+- [T1620](https://attack.mitre.org/techniques/T1620/)
+- [T1680](https://attack.mitre.org/techniques/T1680/)
+- [T1685](https://attack.mitre.org/techniques/T1685/)
+- [T1686.003](https://attack.mitre.org/techniques/T1686/003/)
+
 ## Notable Indicators of Compromise (IOCs)
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 18 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
@@ -166,12 +263,27 @@ Lazarus Group is a North Korean state-sponsored cyber threat group attributed to
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0032)
-   MITRE ATT&CK entry
-[2] [US-CERT HIDDEN COBRA June 2017](https://www.us-cert.gov/ncas/alerts/TA17-164A)
-[3] [Treasury North Korean Cyber Groups September 2019](https://home.treasury.gov/news/press-releases/sm774)
-[4] [Novetta Blockbuster](https://web.archive.org/web/20160226161828/https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf)
-[5] [Mandiant DPRK Laz Org Breakdown 2022](https://cloud.google.com/blog/topics/threat-intelligence/mapping-dprk-groups-to-government/)
-[6] [Mandiant DPRK Groups 2023](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023)
-[7] [JPCert Blog Laz Subgroups 2025](https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html)
+[1] [mitre-attack](https://attack.mitre.org/groups/G0032)
+[8] [CrowdStrike Labyrinth Chollima Feb 2022](https://web.archive.org/web/20210723190317/https://adversary.crowdstrike.com/en-US/adversary/labyrinth-chollima/)
+   CrowdStrike. (2022, February 1). CrowdStrike Adversary Labyrinth Chollima. Retrieved February 1, 2022.
+[9] [Mandiant DPRK Groups 2023](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023)
+   Michael Barnhart, Austin Larsen, Jeff Johnson, Taylor Long, Michelle Cantos, Adrian Hernandez. (2023, October 10). Assessed Cyber Structure and Alignments of North Korea in 2023. Retrieved August 25, 2025.
+[10] [Mandiant DPRK Laz Org Breakdown 2022](https://cloud.google.com/blog/topics/threat-intelligence/mapping-dprk-groups-to-government/)
+   Michael Barnhart, Michelle Cantos, Jeffery Johnson, Elias fox, Gary Freas, Dan Scott. (2022, March 23). Not So Lazarus: Mapping DPRK Cyber Threat Groups to Government Organizations. Retrieved September 9, 2025.
+[11] [Microsoft Threat Actor Naming July 2023](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide)
+   Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.
+[12] [Novetta Blockbuster](https://web.archive.org/web/20160226161828/https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf)
+   Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
+[13] [Secureworks NICKEL ACADEMY Dec 2017](https://www.secureworks.com/about/press/media-alert-secureworks-discovers-north-korean-cyber-threat-group-lazarus-spearphishing)
+   Secureworks. (2017, December 15). Media Alert - Secureworks Discovers North Korean Cyber Threat Group, Lazarus, Spearphishing Financial Executives of Cryptocurrency Companies. Retrieved December 27, 2017.
+[14] [Microsoft ZINC disruption Dec 2017](https://blogs.microsoft.com/on-the-issues/2017/12/19/microsoft-facebook-disrupt-zinc-malware-attack-protect-customers-internet-ongoing-cyberthreats/)
+   Smith, B. (2017, December 19). Microsoft and Facebook disrupt ZINC malware attack to protect customers and the internet from ongoing cyberthreats. Retrieved December 20, 2017.
+[16] [Treasury North Korean Cyber Groups September 2019](https://home.treasury.gov/news/press-releases/sm774)
+   US Treasury . (2019, September 13). Treasury Sanctions North Korean State-Sponsored Malicious Cyber Groups. Retrieved September 29, 2021.
+[17] [US-CERT HIDDEN COBRA June 2017](https://www.us-cert.gov/ncas/alerts/TA17-164A)
+   US-CERT. (2017, June 13). Alert (TA17-164A) HIDDEN COBRA – North Korea’s DDoS Botnet Infrastructure. Retrieved July 13, 2017.
+[18] [US-CERT HOPLIGHT Apr 2019](https://www.us-cert.gov/ncas/analysis-reports/AR19-100A)
+   US-CERT. (2019, April 10). MAR-10135536-8 – North Korean Trojan: HOPLIGHT. Retrieved April 19, 2019.
+[19] [JPCert Blog Laz Subgroups 2025](https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html)
+   佐々木勇人 Hayato Sasaki. (2025, March 25). Tempted to Classifying APT Actors: Practical Challenges of Attribution in the Case of Lazarus’s Subgroup. Retrieved August 25, 2025.
 

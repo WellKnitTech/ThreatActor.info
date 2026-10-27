@@ -1,19 +1,34 @@
 name: "Nazar"
-aliases: ["SIG37","Nazar"]
+aliases: ["Nazar","SIG37"]
 description: "This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster as published in the ShadowBrokers' 'Lost in Translation' leak. Earliest known sighting potentially dates back to as far as 2008 with a confirmed center of activity around 2010-2013. The actor name is derived from a PDB debug string fragment: 'khzer'. Victimology indicates targeting of Iran, assessed with low confidence based on VT file submission locations. Nazar employs a modular toolkit where a main dropper silently registers multiple DLLs as OLE controls in the Windows registry. Functionality includes keylogging, sound and screen grabbing, as well as traffic capture using the MicroOlap Packet Sniffer library."
 url: "/nazar"
+country: "[\"Iran\"]"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/nazar"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["SOUNDBITE","Back Orifice","Back Orifice 2000","Lost Door","Windows Remote Desktop"]
+malware:
+  - "SOUNDBITE"
+  - "Back Orifice"
+  - "Back Orifice 2000"
+  - "Lost Door"
+  - "Windows Remote Desktop"
+  - name: "Distribute.exe"
+  - name: "EYService"
+  - name: "GpUpdates.exe"
+  - name: "Microolap Packet Sniffer"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "7bc83157-e747-4668-ab0d-f343aead75c1"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "nazar"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/nazar"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "169187c5-9fbe-42df-ae92-6e35846db021"
   misp_galaxy:
     meta_keys: ["refs","synonyms"]
@@ -22,4 +37,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "169187c5-9fbe-42df-ae92-6e35846db021"
     source_record_ids: ["169187c5-9fbe-42df-ae92-6e35846db021"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Nazar"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Nazar/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Nazar/Nazar_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

@@ -1,0 +1,35 @@
+{
+  "mitre_id": "T1701.006",
+  "mitigations": [
+    {
+      "name": "Disable or Remove Feature or Program",
+      "mitre_id": "M0942",
+      "url": "https://attack.mitre.org/mitigations/M0942",
+      "stix_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7"
+    },
+    {
+      "name": "Restrict Web-Based Content",
+      "mitre_id": "M0921",
+      "url": "https://attack.mitre.org/mitigations/M0921",
+      "stix_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144"
+    },
+    {
+      "name": "Execution Prevention",
+      "mitre_id": "M0938",
+      "url": "https://attack.mitre.org/mitigations/M0938",
+      "stix_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30"
+    },
+    {
+      "name": "Exploit Protection",
+      "mitre_id": "M0950",
+      "url": "https://attack.mitre.org/mitigations/M0950",
+      "stix_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9"
+    }
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+
+  ]
+}

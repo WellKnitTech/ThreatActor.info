@@ -1,0 +1,13 @@
+name: "Operation Rusty Flag"
+aliases: ["Operation Rusty Flag"]
+description: "(Deep Instinct) The operation has at least two different initial access vectors. The operation is not associated with a known threat actor; the operation was instead named because of their novel malware written in the Rust programming language. One of the lures used in the operation is a modified document that was used by the 'Tropical Scorpius, RomCom' group. This could be a deliberate “false flag”."
+url: "/operation-rusty-flag"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "ae038cc4-4e81-4107-bfef-32646c33fb5d"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

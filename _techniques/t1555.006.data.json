@@ -13,12 +13,16 @@
   ],
   "groups": [
     {
+      "name": "TeamPCP",
+      "url": "/teampcp/"
+    },
+    {
       "name": "HAFNIUM",
-      "url": "/apt0125"
+      "url": "/apt0125/"
     },
     {
       "name": "Storm-0501",
-      "url": "/apt1053"
+      "url": "/apt1053/"
     }
   ]
 }

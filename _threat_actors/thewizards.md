@@ -10,7 +10,11 @@ permalink: /thewizards/
 TheWizards is a China-aligned APT group that employs the Spellbinder tool for adversary-in-the-middle attacks, utilizing IPv6 SLAAC spoofing to redirect legitimate software updates to malicious servers. They have developed the WizardNet backdoor for Windows and serve DarkNights to Android applications, indicating a connection to Dianke Network Security Technology. The group targets individuals and companies in the Philippines, Cambodia, the UAE, mainland China, and Hong Kong. ESET has observed their infrastructure and tools, including the acquisition of servers for hosting C&C and malicious updates.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -28,9 +32,12 @@ TheWizards is a China-aligned APT group that employs the Spellbinder tool for ad
 - **Androrat**
 - **Windows Remote Desktop**
 - **Darknet RAT**
+- **Spellbinder**: 
+- **WizardNet**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

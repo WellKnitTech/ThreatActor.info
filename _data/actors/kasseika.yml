@@ -4,6 +4,7 @@ description: "Kasseika is a ransomware variant first publicly reported in Januar
 url: "/kasseika"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/kasseika"
 malware:
   - name: "BlackEnergy"
   - name: "BLACKCOFFEE"
@@ -19,4 +20,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "8c97d58a-cd24-57a8-90ba-4bb20f00e8ae"
     source_record_ids: ["8c97d58a-cd24-57a8-90ba-4bb20f00e8ae"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "kasseika"
+  source_retrieved_at: "2026-10-27T17:23:57Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

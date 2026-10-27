@@ -1,0 +1,14 @@
+name: "Harvester"
+aliases: ["Harvester"]
+description: "(Symantec) A previously unseen actor, likely nation-state-backed, is targeting organizations in South Asia, with a focus on Afghanistan, in what appears to be an information-stealing campaign using a new toolset. The Harvester group uses both custom malware and publicly available tools in its attacks, which began in June 2021, with the most recent activity seen in October 2021. Sectors targeted include telecommunications, government, and information technology (IT). The capabilities of the tools, their custom development, and the victims targeted, all suggest that Harvester is a nation-state-backed actor."
+url: "/harvester"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["Cobalt Strike","Graphon","Metasploit"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "ca6c1291-9289-464b-9d77-0b5364687168"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

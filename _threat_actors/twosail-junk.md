@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TwoSail Junk"
-aliases: ["Operation Poisoned News","TwoSail Junk"]
+aliases: ["Operation Poisoned News","TwoSail Junk","Poisoned News"]
 description: "TwoSail Junk directs visitors to its exploit site by posting links within the threads of forum discussions, or creating new topic threads of their own. To date, dozens of visits were recorded from with"
 permalink: /twosail-junk/
 ---
@@ -10,7 +10,11 @@ permalink: /twosail-junk/
 TwoSail Junk directs visitors to its exploit site by posting links within the threads of forum discussions, or creating new topic threads of their own. To date, dozens of visits were recorded from within Hong Kong, with a couple from Macau. The technical details around the functionality of the iOS implant, called LightSpy, and related infrastructure, reveal a low-to-mid capable actor. However, the iOS implant is a modular and exhaustively functional iOS surveillance framework.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -23,9 +27,12 @@ TwoSail Junk directs visitors to its exploit site by posting links within the th
 
 ## Malware and Tools
 - **Xploit**
+- **dmsSpy**: 
+- **lightSpy**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

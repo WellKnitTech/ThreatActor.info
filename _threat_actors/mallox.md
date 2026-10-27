@@ -16,13 +16,22 @@ Mallox is an active extortion or ransomware group tracked by RansomLook.
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Microsoft Products | MS Server Products | SQL Server Reporting Services | CVE-2020-0618 |
+| Microsoft Products | Windows | Task Scheduler Service | CVE-2019-1069 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Exfiltration | Dropmefiles, File[.]io, Sendspace |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "M4N1F3STO Ransomware (FAKE!!!!!)"
 aliases: ["M4N1F3STO Ransomware (FAKE!!!!!)"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Of"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Offi"
 permalink: /m4n1f3sto-ransomware-fake/
 ---
 

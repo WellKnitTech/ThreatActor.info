@@ -1,0 +1,23 @@
+name: "Yingmob"
+aliases: ["Yingmob"]
+description: "(Check Point) Check Point Mobile Threat Prevention has detected a new, unknown mobile malware that targeted two customer Android devices belonging to employees at a large financial services institution. Mobile Threat Prevention identified the threat automatically by detecting exploitation attempts while examining the malware in the MTP emulators. The infection was remediated after the system notified the devices owners and the system administrators. The infection vector was a drive-by download attack, and the Check Points Threat-Cloud indicates some adult content sites served the malicious payload. Called HummingBad, this malware establishes a persistent rootkit with the objective to generate fraudulent ad revenue for its perpetrator, similar to the Brain Test app discovered by Check Point earlier this year. In addition, HummingBad installs fraudulent apps to increase the revenue stream for the fraudster."
+url: "/yingmob"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["2017-01","A Whale of a Tale: HummingBad Returns","https://blog.checkpoint.com/2017/01/23/hummingbad-returns/"]
+malware: ["DroidPlugin","Eomobi","HummingBad","HummingWhale","Yispecter"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "e97f9ec0-b69d-408b-aa78-049e67d50c93"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "yingmob"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"

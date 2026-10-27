@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TEMP.Hermit"
-aliases: ["TEMP.Hermit"]
+aliases: ["TEMP.Hermit","HERMIT NEPTUNE"]
 description: "TEMP.Hermit is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /temp-hermit/
 ---

@@ -1,9 +1,9 @@
 name: "Dragonforce"
-aliases: ["DragonForce","dragonforce"]
+aliases: ["DragonForce","Hackledorb","Storm-2380","dragonforce"]
 description: "DragonForce is a ransomware-as-a-service (RaaS) group first identified in late 2023. Originally linked to hacktivist activity, the group pivoted to financially motivated operations by early 2024. Since then, it has accelerated into a highly organized cartel-like network, providing customizable payloads to affiliates, a sophisticated affiliate portal, and shared infrastructure for leak sites and campaigns. The group has targeted a wide range of sectors globally, including major UK retailers such as M&S, Harrods, and Co-op, along with organizations in government, logistics, and manufacturing. Its operations are known for strategic branding flexibility, enabling affiliates to operate under their own labels using DragonForce’s backend services."
 url: "/dragonforce"
 country: "Malaysia"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/dragonforce"
@@ -15,51 +15,252 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dragonforce"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonforce"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "40375ed2-04ec-433f-969d-b9a004c0272e"
+  microsoft_threat_actor_list:
+    categories: ["Group in development"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-2380"
+    origin_category: "Group in development"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm2380"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["country","refs","TTP","links","ransomnotes"]
+    meta_keys: ["country","refs","TTP","links","ransomnotes","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","ransomware.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "40375ed2-04ec-433f-969d-b9a004c0272e"
     source_record_ids: ["40375ed2-04ec-433f-969d-b9a004c0272e","9cd58774-1f45-52dd-9c00-0050151cb093"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   ransomware_tool_matrix:
+    community_reports:
+      - source_file: "CommunityReports/CR-021-DRAGONFORCE-APR-2025.md"
+        incident_time: "April 2025"
+        victim_country: "UK"
+      - source_file: "CommunityReports/CR-022-DRAGONFORCE-FEB-2026.md"
+        incident_time: "February 2026"
+        victim_country: "Australia"
+      - source_file: "CommunityReports/CR-023-DRAGONFORCE-AUG-2024.md"
+        incident_time: "August 2024"
+        victim_country: "UK"
+    references:
+      - title: "www.group-ib.com"
+        url: "https://www.group-ib.com/blog/dragonforce-ransomware/"
+        date: "24 September 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.bleepingcomputer.com"
+        url: "https://www.bleepingcomputer.com/news/security/hackers-exploiting-flaws-in-simplehelp-rmm-to-breach-networks/"
+        date: "28 January 2025"
+        source_file: "CommunityReports/CR-021-DRAGONFORCE-APR-2025.md"
+      - title: "www.trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"
+        date: "29 October 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "zensec.co.uk"
+        url: "https://zensec.co.uk/blog/how-rmm-abuse-fuelled-medusa-dragonforce-attacks/"
+        date: "30 October 2025"
+        source_file: "CommunityReports/CR-021-DRAGONFORCE-APR-2025.md"
+      - title: "github.com"
+        url: "https://github.com/sadshade/veeam-creds/tree/main"
+        date: "N/A"
+        source_file: "CommunityReports/CR-021-DRAGONFORCE-APR-2025.md"
+      - title: "github.com"
+        url: "https://github.com/klsecservices/rpivot"
+        date: "N/A"
+        source_file: "CommunityReports/CR-023-DRAGONFORCE-AUG-2024.md"
+      - title: "www.huntress.com"
+        url: "https://www.huntress.com/blog/using-backup-utilities-for-data-exfiltration"
+        date: "N/A"
+        source_file: "CommunityReports/CR-021-DRAGONFORCE-APR-2025.md"
+      - title: "www.pingcastle.com"
+        url: "https://www.pingcastle.com/"
+        date: "N/A"
+        source_file: "CommunityReports/CR-023-DRAGONFORCE-AUG-2024.md"
+      - title: "www.softperfect.com"
+        url: "https://www.softperfect.com/products/networkscanner/"
+        date: "N/A"
+        source_file: "CommunityReports/CR-022-DRAGONFORCE-FEB-2026.md"
     source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
     source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
-    source_files: ["Tools/CredentialTheft.md","Tools/DiscoveryEnum.md"]
-    source_label: "DragonForce"
+    source_files: ["CommunityReports/CR-021-DRAGONFORCE-APR-2025.md","CommunityReports/CR-022-DRAGONFORCE-FEB-2026.md","CommunityReports/CR-023-DRAGONFORCE-AUG-2024.md","GroupProfiles/DragonForce.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
+    source_label: "Dragon Force / DragonForce"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T01:51:36Z"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
     tools_by_category:
-      Credential Theft: ["Mimikatz"]
-      Discovery: ["Advanced IP Scanner","PingCastle","SoftPerfect NetScan"]
+      Credential Theft: ["Get-VeeamCreds.ps1","LaZagne","Mimikatz","ZeroLogon.exe (CVE-2020-1472)"]
+      Defense Evasion: ["ADVobfuscator","Darkside/TrueSight driver (BYOVD)","Hangzhou Shunwang Technology driver (BYOVD)","KslD.sys (BYOVD)","PCHunter","ProcessHacker","TruesightKiller (W32.Riskware.Killav)","Vulnerable drivers (BYOVD)","Windows Defender Real-time Protection disabled"]
+      Discovery: ["AdFind","Advanced IP Scanner","PingCastle","PingCastle 3.1.0.1","SoftPerfect NetScan","SoftPerfect netscan"]
+      Exfiltration: ["AWS S3 bucket (wasabisys)","MEGA","RClone","Restic"]
+      LOLBAS: ["PowerShell (-EncodedCommand)","PowerShell (IEX downloadstring)","PsExec","RDP (External Remote Services)"]
+      Networking: ["rPivot (SOCKS4 reverse proxy)"]
+      OffSec: ["Cobalt Strike","Cobalt Strike (attempted download)","PsExec (PSEXESVC.exe)"]
+      RMM Tools: ["AnyDesk","SimpleHelp"]
   ransomware_vulnerability_matrix:
     references:
-      - title: "CuratedIntel"
-        url: "https://x.com/CuratedIntel/status/1885379463682109525"
+      - title: "arcticwolf.com"
+        url: "https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "arcticwolf.com"
+        url: "https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "blog.talosintelligence.com"
+        url: "https://blog.talosintelligence.com/avoslocker-new-arsenal/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "ccb.belgium.be"
+        url: "https://ccb.belgium.be/open-media/1275/download?inline"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "checkpoint.com"
+        url: "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "checkpoint.com"
+        url: "https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
         source_file: "Vulnerabilities/Applications.md"
       - title: "cisa.gov"
-        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "esentire.com"
+        url: "https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "forescout.com"
+        url: "https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "huntress.com"
+        url: "https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware"
+        source_file: "Vulnerabilities/Virtualization.md"
+      - title: "ransom-isac.com"
+        url: "https://ransom-isac.com/blog/the-gentlemen-leak-analysis/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "s-rminform.com"
+        url: "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "secureworks.com"
+        url: "https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker"
         source_file: "Vulnerabilities/Applications.md"
       - title: "sophos.com"
         url: "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/"
+        source_file: "GroupProfiles/DragonForce.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"
         source_file: "Vulnerabilities/Applications.md"
     source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
     source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
-    source_files: ["Vulnerabilities/Applications.md"]
-    source_label: "DragonForce"
+    source_files: ["GroupProfiles/DragonForce.md","Vulnerabilities/Applications.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
+    source_label: "Dragon Force / DragonForce"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
     vulnerabilities_by_category:
       Applications:
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-44228"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.secureworks.com/research/gold-melody-profile-of-an-initial-access-broker","https://blog.talosintelligence.com/avoslocker-new-arsenal/","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "Vulnerabilities/Applications.md"
+      Group Profile:
+        - vendor: "Apache"
+          product: "Log4j"
+          cves: ["CVE-2021-44228"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2025-5777"]
+          source_links: ["https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "Fortinet"
+          product: "FortiOS & FortiProxy"
+          cves: ["CVE-2024-21762"]
+          source_links: ["https://ccb.belgium.be/open-media/1275/download?inline"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "Fortinet"
+          product: "FortiOS & FortiProxy"
+          cves: ["CVE-2024-55591"]
+          source_links: ["https://ccb.belgium.be/open-media/1275/download?inline"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti Connect Secure"
+          cves: ["CVE-2023-46805"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti Connect Secure"
+          cves: ["CVE-2024-21887"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti Connect Secure"
+          cves: ["CVE-2024-21893"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "GroupProfiles/DragonForce.md"
         - vendor: "SimpleHelp"
           product: "SimpleHelp RMM"
-          cves: ["CVE-2024-57727"]
-          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a","https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/","https://x.com/CuratedIntel/status/1885379463682109525"]
-          source_file: "Vulnerabilities/Applications.md"
+          cves: ["CVE-2024-57727","CVE-2024-57728"]
+          source_links: ["https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "SonicWall"
+          product: "SonicOS SSL-VPN"
+          cves: ["CVE-2024-40766"]
+          source_links: ["https://ccb.belgium.be/open-media/1275/download?inline"]
+          source_file: "GroupProfiles/DragonForce.md"
+        - vendor: "Windows"
+          product: "SmartScreen"
+          cves: ["CVE-2024-21412"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "GroupProfiles/DragonForce.md"
+      Microsoft Products:
+        - vendor: "Windows"
+          product: "SmartScreen"
+          cves: ["CVE-2024-21412"]
+          source_links: ["https://ransom-isac.com/blog/the-gentlemen-leak-analysis/","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "Fortinet"
+          product: "FortiOS & FortiProxy"
+          cves: ["CVE-2024-21762"]
+          source_links: ["https://ccb.belgium.be/open-media/1275/download?inline","https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Fortinet"
+          product: "FortiOS & FortiProxy"
+          cves: ["CVE-2024-55591"]
+          source_links: ["https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack","https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/","https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire","https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/","https://ccb.belgium.be/open-media/1275/download?inline","https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti Connect Secure"
+          cves: ["CVE-2023-46805"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti Connect Secure"
+          cves: ["CVE-2024-21887"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Pulse Secure / Ivanti"
+          product: "Ivanti Connect Secure"
+          cves: ["CVE-2024-21893"]
+          source_links: ["https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "SonicWall"
+          product: "SonicOS SSL-VPN"
+          cves: ["CVE-2024-40766"]
+          source_links: ["https://arcticwolf.com/resources/blog/arctic-wolf-observes-akira-ransomware-campaign-targeting-sonicwall-sslvpn-accounts/","https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/","https://ccb.belgium.be/open-media/1275/download?inline"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+      Virtualization:
+        - vendor: "Citrix"
+          product: "NetScaler ADC & Gateway"
+          cves: ["CVE-2025-5777"]
+          source_links: ["https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware"]
+          source_file: "Vulnerabilities/Virtualization.md"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "dragonforce"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/dragonforce/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/dragonforce/dragonforce_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "dragonforce"
-  source_retrieved_at: "2026-04-26T02:08:49Z"
+  source_retrieved_at: "2026-10-27T17:25:00Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

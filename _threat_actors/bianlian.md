@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Bianlian"
-aliases: ["Hydra","Bianlian"]
+aliases: ["BianLian","Bianlian","Hydra","bianlian_group"]
 description: "BianLian used subtle techniques to exploit, enumerate, and move laterally in victim networks to remain undetected and aggressively worked to counter Endpoint Detection & Response (EDR) protections duri"
 permalink: /bianlian/
 ---
@@ -16,13 +16,31 @@ BianLian used subtle techniques to exploit, enumerate, and move laterally in vic
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications | JetBrains | TeamCity | CVE-2023-42793 |
+| Applications | JetBrains | TeamCity | CVE-2024-27198 |
+| Applications | SAP | NetWeaver | CVE-2025-31324 |
+| Microsoft Products | Windows | NetLogon | CVE-2020-1472 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 - **Xploit**: 
+
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | RDP Recognizer |
+| Discovery | Advanced IP Scanner, Advanced Port Scanner, PingCastle, SharpShares, SoftPerfect NetScan, WKTools |
+| Exfiltration | MEGA, RClone |
+| LOLBAS | PsExec |
+| OffSec | Impacket |
+| RMM Tools | AmmyyAdmin, AnyDesk, Atera, ScreenConnect, Splashtop, TeamViewer |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

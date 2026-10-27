@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Ako"
-aliases: ["MedusaReborn","Ako"]
+aliases: ["Ako","MedusaReborn"]
 description: "Once installed, Ako will attempt to delete Volume Shadow Copies and disable recovery services. It will then begin to encrypt all files that do not match a hard-coded list using an unknown algorithm. Wh"
 permalink: /ako/
 ---

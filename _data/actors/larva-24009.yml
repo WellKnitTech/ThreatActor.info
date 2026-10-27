@@ -1,0 +1,35 @@
+name: "Larva-24009"
+aliases: ["Larva-24009"]
+description: "Larva-24009 has been active since at least 2023, conducting phishing email attacks to install malware globally, particularly targeting users in Korea. The actor employs LNK malware to install a PowerShell backdoor and maintains persistence with remote control tools like QuasarRAT and UltraVNC. They utilize phishing emails with keywords such as “hospital survey” and “resume,” disguising malware as document files to trick users into execution. This results in the theft of sensitive information, including credentials and user files."
+url: "/larva-24009"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/larva-24009"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "RemoteCMD"
+  - name: "Quasar RAT"
+  - name: "Remote Utilities"
+  - name: "Ultra VNC"
+  - name: "RemotePC"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "larva-24009"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/larva-24009"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "e8d5248b-0ccb-43ec-b7e2-7c669dfc7be2"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "e8d5248b-0ccb-43ec-b7e2-7c669dfc7be2"
+    source_record_ids: ["e8d5248b-0ccb-43ec-b7e2-7c669dfc7be2"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

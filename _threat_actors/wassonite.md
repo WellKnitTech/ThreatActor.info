@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Wassonite"
-aliases: ["Wassonite","WASSONITE"]
+aliases: ["WASSONITE","Wassonite"]
 description: "WASSONITE is a North Korea-linked APT that has targeted industrial sectors, including electric generation, nuclear energy, manufacturing, and research entities in India, South Korea, and Japan since at"
 permalink: /wassonite/
 ---
@@ -17,7 +17,10 @@ WASSONITE is a North Korea-linked APT that has targeted industrial sectors, incl
 
 
 ## Notable Campaigns
+- **2019-10**
+- **Breach of the Kudankulam Nuclear Power Plant**
 - **FASTCash**
+- **https://www.zdnet.com/article/confirmed-north-korean-malware-found-on-indian-nuclear-plants-network/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -33,6 +36,7 @@ WASSONITE is a North Korea-linked APT that has targeted industrial sectors, incl
 - **RemotePC**
 - **Seed RAT**
 - **DTrack**: 
+- **Mimikatz**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

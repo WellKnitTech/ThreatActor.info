@@ -1,41 +1,133 @@
-name: "POISON CARP"
-aliases: ["Evil Eye","Red Dev 16","Earth Empusa","POISON CARP","Poison Carp"]
-description: "Between November 2018 and May 2019, senior members of Tibetan groups received malicious links in individually tailored WhatsApp text exchanges with operators posing as NGO workers, journalists, and other fake personas. The links led to code designed to exploit web browser vulnerabilities to install spyware on iOS and Android devices, and in some cases to OAuth phishing pages. This campaign was carried out by what appears to be a single operator that we call POISON CARP."
+---
+name: POISON CARP
+aliases:
+- Earth Empusa
+- Evil Eye
+- EvilBamboo
+- POISON CARP
+- Poison Carp
+- Red Dev 16
+description: Between November 2018 and May 2019, senior members of Tibetan groups
+  received malicious links in individually tailored WhatsApp text exchanges with operators
+  posing as NGO workers, journalists, and other fake personas. The links led to code
+  designed to exploit web browser vulnerabilities to install spyware on iOS and Android
+  devices, and in some cases to OAuth phishing pages. This campaign was carried out
+  by what appears to be a single operator that we call POISON CARP.
 url: "/poison-carp"
-country: "China"
-source_name: "APT Groups & Operations Spreadsheet"
-source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/poison_carp"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["Evil Eye"]
+country: China
+source_name: APT Groups & Operations Spreadsheet
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/poison_carp
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+operations:
+- '2018'
+- 2020 Early
+- 2020-01
+- '2022'
+- 2023-06
+- 'Digital Crackdown: Large-Scale Surveillance and Exploitation of Uyghurs'
+- Evil Eye
+- EvilBamboo Targets Mobile Devices in Multi-year Campaign
+- Immediately after the publications from Google and Volexity
+- Lookout Discovers Long-running Surveillance Campaigns Targeting Uyghurs
+- While tracking Earth Empura
+- also known as POISON CARP/Evil Eye
+- and various hostnames stopped resolving. This largely remained the case until early
+  January 2020
+- command and control (C2) servers were taken down
+- https://blog.trendmicro.com/trendlabs-security-intelligence/new-android-spyware-actionspy-revealed-via-phishing-attacks-from-earth-empusa/
+- https://www.lookout.com/blog/uyghur-surveillance-campaign-badbazaar-moonshine
+- https://www.volexity.com/blog/2019/09/02/digital-crackdown-large-scale-surveillance-and-exploitation-of-uyghurs/
+- https://www.volexity.com/blog/2020/04/21/evil-eye-threat-actor-resurfaces-with-ios-exploit-and-updated-implant/
+- https://www.volexity.com/blog/2023/09/22/evilbamboo-targets-mobile-devices-in-multi-year-campaign/
+- the Evil Eye threat actor went fairly quiet. They removed their malicious code from
+  compromised websites
+- we identified an undocumented Android spyware we have named ActionSpy.
+- when Volexity observed a series of new activity across multiple previously compromised
+  Uyghur websites.
 malware:
-  - "PoisonIvy"
-  - "DroidJack"
-  - "Androrat"
-  - "Xploit"
-  - name: "ActionSpy"
-  - name: "ScanBox"
-  - name: "BeEF"
-  - name: "Evil Eye"
+- PoisonIvy
+- DroidJack
+- Androrat
+- Xploit
+- name: ActionSpy
+- name: ScanBox
+- name: BeEF
+- name: Evil Eye
+- name: Android and Google Chrome
+- name: BADSIGNAL
+- name: BADSOLAR
+- name: BadBazaar
+- name: Bourbon
+- name: IRONSQUIRREL
+- name: IceCube
+- name: MOONSHINE
+- name: PoisonCarp
+- name: Scotch
+- name: Whisky
+- name: several exploits in iOS
 provenance:
   apt_groups_operations:
-    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
-    source_dataset_url: "https://apt.threattracking.com/"
-    source_links: ["https://citizenlab.ca/2019/09/poison-carp-tibetan-groups-targeted-with-1-click-mobile-exploits/","https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html","https://www.volexity.com/blog/2019/09/02/digital-crackdown-large-scale-surveillance-and-exploitation-of-uyghurs/","https://blog.trendmicro.com/trendlabs-security-intelligence/new-android-spyware-actionspy-revealed-via-phishing-attacks-from-earth-empusa/","https://about.fb.com/news/2021/03/taking-action-against-hackers-in-china/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
-    tab_name: "china"
+    sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+    source_dataset_url: https://apt.threattracking.com/
+    source_links:
+    - https://citizenlab.ca/2019/09/poison-carp-tibetan-groups-targeted-with-1-click-mobile-exploits/
+    - https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html
+    - https://www.volexity.com/blog/2019/09/02/digital-crackdown-large-scale-surveillance-and-exploitation-of-uyghurs/
+    - https://blog.trendmicro.com/trendlabs-security-intelligence/new-android-spyware-actionspy-revealed-via-phishing-attacks-from-earth-empusa/
+    - https://about.fb.com/news/2021/03/taking-action-against-hackers-in-china/
+    source_retrieved_at: '2026-10-27T17:29:13Z'
+    tab_name: china
+  etda_thai_group_cards:
+    source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
+    source_record_id: 438f216f-2ba2-40d1-ae92-0a3919689bae
+    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_transforms:
+    - normalized-name
+    - deduplicated-aliases
+    - normalized-optional-fields
+    - adapted-for-threatactor-info
+  eternal_liberty:
+    aliases_by_entity:
+      Citizen Lab:
+      - Poison Carp
+      PWC:
+      - Red Dev 16
+      Trend Micro:
+      - Earth Empusa
+      Volexity:
+      - Evil Eye
+    confidence: High
+    license_status: No explicit upstream license; approved as the sole no-license
+      import exception.
+    source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
+    source_record_id: evileye
+    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_version: '1.2'
+    type: APT
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "poison_carp"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/poison_carp"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
-    source_uuid: "7aa99279-4255-4d26-bb95-12e7156555a0"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: poison_carp
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/poison_carp
+    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_uuid: 7aa99279-4255-4d26-bb95-12e7156555a0
   misp_galaxy:
-    meta_keys: ["origin:Earth Empusa","refs","synonyms"]
-    source_cluster: "threat-actor.json"
-    source_clusters: ["threat-actor.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "7aa99279-4255-4d26-bb95-12e7156555a0"
-    source_record_ids: ["7aa99279-4255-4d26-bb95-12e7156555a0"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    meta_keys:
+    - origin:Earth Empusa
+    - refs
+    - synonyms
+    - name-attribution
+    source_cluster: threat-actor.json
+    source_clusters:
+    - threat-actor.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 7aa99279-4255-4d26-bb95-12e7156555a0
+    source_record_ids:
+    - 7aa99279-4255-4d26-bb95-12e7156555a0
+    source_retrieved_at: '2026-10-27T17:28:58Z'
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Sentinel Taurus

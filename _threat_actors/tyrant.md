@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "TYRANT"
 aliases: ["Crypto Tyrant","TYRANT"]
-description: "DUMB variant discovered on November 16, 2017. Disguised itself as a popular virtual private network (VPN) in Iran known as Psiphon and infected Iranian users.  Included Farsi-language ransom note, decr"
+description: "DUMB variant discovered on November 16, 2017. Disguised itself as a popular virtual private network (VPN) in Iran known as Psiphon and infected Iranian users. Included Farsi-language ransom note, decry"
 permalink: /tyrant/
 ---
 

@@ -9,18 +9,45 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta530"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2016-11","August in November: New Information Stealer Hits the Scene","https://www.proofpoint.com/uk/threat-insight/post/august-in-december-new-information-stealer-hits-the-scene"]
+malware:
+  - name: "AbaddonPOS"
+  - name: "August Stealer"
+  - name: "CryptoWall"
+  - name: "Dridex"
+  - name: "Gozi ISFB"
+  - name: "H1N1 Loader"
+  - name: "Nymaim"
+  - name: "Smoke Loader"
+  - name: "TeamSpy"
+  - name: "TinyLoader"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "dc4db7a7-996d-4e90-8468-4ab4393b490d"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Proofpoint: ["TA530"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "ta530"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta530"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta530"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "4b79d1f6-8333-44b6-ac32-d1ea7e47e77f"
   misp_galaxy:
-    meta_keys: ["attribution-confidence","country","refs"]
+    meta_keys: ["attribution-confidence","country","refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "4b79d1f6-8333-44b6-ac32-d1ea7e47e77f"
     source_record_ids: ["4b79d1f6-8333-44b6-ac32-d1ea7e47e77f"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

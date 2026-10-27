@@ -13,20 +13,24 @@
   ],
   "groups": [
     {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
+    },
+    {
       "name": "Volt Typhoon",
-      "url": "/apt1017"
+      "url": "/apt1017/"
     },
     {
       "name": "APT28",
-      "url": "/apt28"
+      "url": "/apt28/"
     },
     {
       "name": "ZIRCONIUM",
-      "url": "/apt0128"
+      "url": "/apt0128/"
     },
     {
-      "name": "Leviathan",
-      "url": "/apt40"
+      "name": "APT40",
+      "url": "/apt40/"
     }
   ]
 }

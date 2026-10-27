@@ -17,7 +17,9 @@ TaskMasters is a state-sponsored Chinese APT that has been active since at least
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2021-05**
+- **Chinese APTs attack Russia**
+- **https://blog.group-ib.com/task**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -33,6 +35,22 @@ TaskMasters is a state-sponsored Chinese APT that has been active since at least
 - **404-Input-shell**: 
 - **Eternal Blue**: 
 - **Scheduled Tasks**: 
+- **404-Input-shell web shell**: 
+- **ASPXSpy**: 
+- **AtNow**: 
+- **DbxDump Utility**: 
+- **HTran**: 
+- **Mimikatz**: 
+- **PortScan**: 
+- **ProcDump**: 
+- **PsExec**: 
+- **PsList**: 
+- **RemShell Downloader**: 
+- **gsecdump**: 
+- **jsp File browser**: 
+- **nbtscan**: 
+- **pwdump**: 
+- **reGeorg**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

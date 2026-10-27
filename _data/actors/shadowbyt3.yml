@@ -1,5 +1,5 @@
 name: "shadowbyt3"
-aliases: ["shadowbyt3"]
+aliases: ["ShadowByt3$","shadowbyt3","shadowbyt3$"]
 description: "shadowbyt3 is an active extortion or ransomware group tracked by RansomLook."
 url: "/shadowbyt3"
 source_name: "RansomLook"
@@ -7,8 +7,24 @@ source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0
 source_record_url: "https://www.ransomlook.io/group/shadowbyt3s"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+malware:
+  - name: "Wiper"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "shadowbyt3$"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shadowbyt3$"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "be618f7e-e6bf-4dcb-b805-695224885c49"
+  misp_galaxy:
+    meta_keys: ["refs","links"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "be618f7e-e6bf-4dcb-b805-695224885c49"
+    source_record_ids: ["be618f7e-e6bf-4dcb-b805-695224885c49","f4776664-ba4f-5abd-b9ef-14ac6ef5d4b5"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "shadowbyt3s"
-  source_retrieved_at: "2026-05-17T06:11:41Z"
+  source_retrieved_at: "2026-10-27T17:26:34Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

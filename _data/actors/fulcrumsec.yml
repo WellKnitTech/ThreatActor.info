@@ -1,5 +1,5 @@
 name: "Fulcrumsec"
-aliases: ["Fulcrumsec"]
+aliases: ["FulcrumSec","Fulcrumsec","fulcrumsec"]
 description: "Fulcrumsec is an active extortion or ransomware group tracked by RansomLook."
 url: "/fulcrumsec"
 source_name: "RansomLook"
@@ -7,8 +7,25 @@ source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0
 source_record_url: "https://www.ransomlook.io/group/fulcrumsec"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+malware:
+  - name: "CloudDuke"
+  - name: "Xploit"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "fulcrumsec"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fulcrumsec"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "cfcfd109-46ac-4406-aa6c-fd0c6011a8a7"
+  misp_galaxy:
+    meta_keys: ["refs","links"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "cfcfd109-46ac-4406-aa6c-fd0c6011a8a7"
+    source_record_ids: ["cfcfd109-46ac-4406-aa6c-fd0c6011a8a7","dbab8df1-1080-5462-ba83-0ba6f856a7e7"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "fulcrumsec"
-  source_retrieved_at: "2026-05-06T21:54:56Z"
+  source_retrieved_at: "2026-10-27T17:21:40Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

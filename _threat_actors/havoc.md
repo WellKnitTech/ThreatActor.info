@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Havoc"
 aliases: ["HavocCrypt Ransomware","Havoc"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, infected attachments and so on.  It encrypts all your files, including: musi"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, infected attachments and so on. It encrypts all your files, including: music"
 permalink: /havoc/
 ---
 

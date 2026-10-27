@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Earth Berberoka"
-aliases: ["GamblingPuppet","Earth Berberoka","Gambling Puppet"]
+aliases: ["Earth Berberoka","Gambling Puppet","GamblingPuppet"]
 description: "According to TrendMicro, Earth Berberoka is a threat group originating from China that mainly focuses on targeting gambling websites. This group's campaign uses multiple malware families that target th"
 permalink: /earth-berberoka/
 ---
@@ -35,6 +35,13 @@ According to TrendMicro, Earth Berberoka is a threat group originating from Chin
 - **gh0st**
 - **Gh0st RAT**
 - **Windows Remote Desktop**
+- **AsyncRAT**: 
+- **Gh0st RAT**: 
+- **PlugX**: 
+- **PuppetLoader**: 
+- **QuasarRAT**: 
+- **Trochilus RAT**: 
+- **oRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

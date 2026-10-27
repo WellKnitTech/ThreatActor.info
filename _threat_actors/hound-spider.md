@@ -10,7 +10,11 @@ permalink: /hound-spider/
 According to Crowdstrike, HOUND SPIDER affiliates arrested in Romania on December,2017
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇷🇺 Russia
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ According to Crowdstrike, HOUND SPIDER affiliates arrested in Romania on Decembe
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

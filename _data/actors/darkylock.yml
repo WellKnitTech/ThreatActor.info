@@ -4,6 +4,7 @@ description: "Darky Lock is a commodity-style ransomware strain first identified
 url: "/darkylock"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/darkylock"
 malware:
   - name: "Trojan.Karagany"
   - name: "Trojan.Mebromi"
@@ -16,4 +17,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "cb8ad178-73f5-5e39-8113-79af5ef6052a"
     source_record_ids: ["cb8ad178-73f5-5e39-8113-79af5ef6052a"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "darkylock"
+  source_retrieved_at: "2026-10-27T17:26:32Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

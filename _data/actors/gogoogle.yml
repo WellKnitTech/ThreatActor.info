@@ -2,6 +2,7 @@ name: "GoGoogle"
 aliases: ["GoGoogle"]
 description: "ransomware"
 url: "/gogoogle"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
@@ -11,4 +12,19 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "df998c50-52d0-462d-9bbb-5b93a5adc7b0"
     source_record_ids: ["df998c50-52d0-462d-9bbb-5b93a5adc7b0"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "GoGoogle Ransomware"
+        url: "https://thedfirreport.com/2020/04/04/gogoogle-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md"]
+    source_label: "GoGoogle"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["LaZagne","Mimikatz","NirSoft BulletsPassView","NirSoft ChromePass","NirSoft Dialupass","NirSoft IEPassView (iepv)","NirSoft MailPassView","NirSoft Netpass","NirSoft OperaPassView","NirSoft RemoteDesktopPassView (rdpv)","NirSoft RouterPassView","NirSoft SniffPass","NirSoft VNCPassView","NirSoft WebBrowserPassView","NirSoft WirelessKeyView","PasswordFox"]
+      Discovery: ["Advanced IP Scanner"]
+      LOLBAS: ["Windows Event Utility (wevtutil)"]

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SAMURAI PANDA"
-aliases: ["PLA Navy","Wisp Team","SAMURAI PANDA"]
+aliases: ["PLA Navy","SAMURAI PANDA","Wisp Team"]
 description: "SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /samurai-panda/
 ---
@@ -32,7 +32,11 @@ SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information p
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **FormerFirstRAT**: 
+- **IsSpace**: 
+- **PlugX**: 
+- **Poldat**: 
+- **Sykipot**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

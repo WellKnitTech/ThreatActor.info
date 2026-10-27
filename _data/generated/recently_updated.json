@@ -1,11 +1,152 @@
 [
   {
+    "name": "Zola",
+    "aliases": [
+      "Zola"
+    ],
+    "description": "Zola is an active extortion or ransomware group tracked by RansomLook.",
+    "url": "/zola",
+    "permalink": "/zola/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Zeppelin",
+    "aliases": [
+      "Zeppelin"
+    ],
+    "description": "ransomware",
+    "url": "/zeppelin",
+    "permalink": "/zeppelin/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Yurei",
+    "aliases": [
+      "Yurei"
+    ],
+    "description": "Yurei is an active extortion or ransomware group tracked by RansomLook.",
+    "url": "/yurei",
+    "permalink": "/yurei/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Ymir",
+    "aliases": [
+      "Ymir"
+    ],
+    "description": "Ymir is an active extortion or ransomware group tracked by RansomLook.",
+    "url": "/ymir",
+    "permalink": "/ymir/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Yanluowang",
+    "aliases": [
+      "Yanluowang"
+    ],
+    "description": "Ransomware.",
+    "url": "/yanluowang",
+    "permalink": "/yanluowang/",
+    "country": "China",
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Xinglocker",
+    "aliases": [
+      "Xinglocker"
+    ],
+    "description": "xing use a custom mountlocker exe",
+    "url": "/xinglocker",
+    "permalink": "/xinglocker/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "Warlock",
+    "aliases": [
+      "Warlock"
+    ],
+    "description": "Warlock is an active extortion or ransomware group tracked by RansomLook.",
+    "url": "/warlock",
+    "permalink": "/warlock/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": null,
+    "ioc_count": 0
+  },
+  {
+    "name": "WannaCry",
+    "aliases": [
+      "WannaCrypt",
+      "WannaCry",
+      "WanaCrypt0r",
+      "WCrypt",
+      "WCRY"
+    ],
+    "description": "According to numerous open-source reports, a widespread ransomware campaign is affecting various organizations with reports of tens of thousands of infections in as many as 74 countries, including the United States, United Kingdom, Spain, Russia, Taiwan, France, and Japan. The software can run in as many as 27 different languages.  The latest version of this ransomware variant, known as WannaCry, WCry, or Wanna Decryptor, was discovered the morning of May 12, 2017, by an independent security researcher and has spread rapidly over several hours, with initial reports beginning around 4:00 AM EDT, May 12, 2017. Open-source reporting indicates a requested ransom of .1781 bitcoins, roughly $300 U.S.",
+    "url": "/wannacry",
+    "permalink": "/wannacry/",
+    "country": null,
+    "sector_focus": [
+
+    ],
+    "risk_level": null,
+    "last_updated": "2026-10-27",
+    "last_activity": "2017",
+    "ioc_count": 0
+  },
+  {
     "name": "Void Blizzard",
     "aliases": [
       "LAUNDRY BEAR",
+      "Laundry Bear",
+      "TA488",
       "UAC-0190",
-      "Void Blizzard",
-      "Laundry Bear"
+      "Void Blizzard"
     ],
     "description": "Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-governmental organizations (NGOs), and healthcare sectors primarily in Europe and North America. The threat actor uses stolen credentials—which are likely procured from commodity infostealer ecosystems—and collects a high volume of email and files from compromised organizations.",
     "url": "/void-blizzard",
@@ -15,7 +156,7 @@
 
     ],
     "risk_level": null,
-    "last_updated": "2026-04-28",
+    "last_updated": "2026-10-27",
     "last_activity": null,
     "ioc_count": 0
   },
@@ -23,9 +164,9 @@
     "name": "Vanilla Tempest",
     "aliases": [
       "DEV-0832",
-      "Vice Society",
-      "Vanilla Tempest",
       "VICE SPIDER",
+      "Vanilla Tempest",
+      "Vice Society",
       "Vicesociety"
     ],
     "description": "Vice Society is a ransomware group that has been active since at least June 2021. They primarily target the education and healthcare sectors, but have also been observed targeting the manufacturing industry. The group has used multiple ransomware families and has been known to utilize PowerShell scripts for their attacks. There are similarities between Vice Society and the Rhysida ransomware group, suggesting a potential connection or rebranding.",
@@ -36,7 +177,7 @@
 
     ],
     "risk_level": null,
-    "last_updated": "2026-04-28",
+    "last_updated": "2026-10-27",
     "last_activity": null,
     "ioc_count": 0
   },
@@ -53,7 +194,7 @@
 
     ],
     "risk_level": null,
-    "last_updated": "2026-04-28",
+    "last_updated": "2026-10-27",
     "last_activity": null,
     "ioc_count": 0
   },
@@ -70,189 +211,7 @@
 
     ],
     "risk_level": null,
-    "last_updated": "2026-04-28",
-    "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "Storm-2603",
-    "aliases": [
-      "Storm-2603"
-    ],
-    "description": "The group Microsoft tracks as Storm-2603 is assessed with medium confidence to be a China-based threat actor. Microsoft has not identified links between Storm-2603 and other known Chinese threat actors. Microsoft tracks this threat actor in association with attempts to steal MachineKeys via the on-premises SharePoint vulnerabilities. Although Microsoft has observed this threat actor deploying Warlock and Lockbit ransomware in the past, Microsoft is currently unable to confidently assess the threat actor’s objectives.  Additional actors may use these exploits to target unpatched on-premises SharePoint systems, further emphasizing the need for organizations to implement mitigations and security updates immediately.",
-    "url": "/storm-2603",
-    "permalink": "/storm-2603/",
-    "country": "China",
-    "sector_focus": [
-
-    ],
-    "risk_level": null,
-    "last_updated": "2026-04-28",
-    "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "Sandworm",
-    "aliases": [
-      "Quedagh",
-      "VOODOO BEAR",
-      "TEMP.Noble",
-      "IRON VIKING",
-      "G0034",
-      "ELECTRUM",
-      "TeleBots",
-      "IRIDIUM",
-      "Blue Echidna",
-      "FROZENBARENTS",
-      "UAC-0113",
-      "Seashell Blizzard",
-      "UAC-0082",
-      "APT44",
-      "Sandworm",
-      "SandWorm",
-      "沙虫 - APT-C-13"
-    ],
-    "description": "This threat actor targets industrial control systems, using a tool called Black Energy, associated with electricity and power generation for espionage, denial of service, and data destruction purposes. Some believe that the threat actor is linked to the 2015 compromise of the Ukrainian electrical grid and a distributed denial of service prior to the Russian invasion of Georgia. Believed to be responsible for the 2008 DDoS attacks in Georgia and the 2015 Ukraine power grid outage",
-    "url": "/sandworm",
-    "permalink": "/sandworm/",
-    "country": "Russia",
-    "sector_focus": [
-      "Electric",
-      "Energy",
-      "Industrial",
-      "Private sector",
-      "Government"
-    ],
-    "risk_level": "High",
-    "last_updated": "2026-04-28",
-    "last_activity": null,
-    "ioc_count": 0
-  },
-  {
-    "name": "SafePay",
-    "aliases": [
-      "SafePay Ransomware",
-      "safepay"
-    ],
-    "description": "SafePay is a ransomware group particularly active in Germany, responsible for 24% of the 74 ransomware victims reported in the country during Q1 2025.",
-    "url": "/safepay",
-    "permalink": "/safepay/",
-    "country": "Unknown",
-    "sector_focus": [
-      "Healthcare",
-      "Logistics",
-      "Manufacturing",
-      "Government"
-    ],
-    "risk_level": "High",
-    "last_updated": "2026-04-28",
-    "last_activity": "2025",
-    "ioc_count": 0
-  },
-  {
-    "name": "Ryuk",
-    "aliases": [
-      "Wizard Spider"
-    ],
-    "description": "Ryuk is a ransomware operation known for targeting large organizations and demanding high ransom payments.",
-    "url": "/ryuk",
-    "permalink": "/ryuk/",
-    "country": "Russia",
-    "sector_focus": [
-      "Healthcare",
-      "Government",
-      "Education"
-    ],
-    "risk_level": "Critical",
-    "last_updated": "2026-04-28",
-    "last_activity": "2021",
-    "ioc_count": 0
-  },
-  {
-    "name": "REvil",
-    "aliases": [
-      "Sodinokibi",
-      "Sodin",
-      "Water Mare",
-      "GrandCrab",
-      "Revil",
-      "REvil"
-    ],
-    "description": "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide.",
-    "url": "/revil",
-    "permalink": "/revil/",
-    "country": "Russia",
-    "sector_focus": [
-      "Technology",
-      "Healthcare",
-      "Legal"
-    ],
-    "risk_level": "Critical",
-    "last_updated": "2026-04-28",
-    "last_activity": "2021",
-    "ioc_count": 0
-  },
-  {
-    "name": "RansomHub",
-    "aliases": [
-      "RansomHub RaaS",
-      "RansomHub",
-      "ransomhub"
-    ],
-    "description": "RansomHub is a dominant ransomware-as-a-service operation that emerged in 2024 and quickly became the most prolific group with 736 disclosed victims.",
-    "url": "/ransomhub",
-    "permalink": "/ransomhub/",
-    "country": "Unknown",
-    "sector_focus": [
-      "Critical Infrastructure",
-      "Healthcare",
-      "Education",
-      "Manufacturing"
-    ],
-    "risk_level": "Critical",
-    "last_updated": "2026-04-28",
-    "last_activity": "2025",
-    "ioc_count": 0
-  },
-  {
-    "name": "Qilin",
-    "aliases": [
-      "Qilin Ransomware",
-      "Qilin Gang",
-      "Qilin Group",
-      "Qilin"
-    ],
-    "description": "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S.",
-    "url": "/qilin",
-    "permalink": "/qilin/",
-    "country": "Unknown",
-    "sector_focus": [
-      "Critical Infrastructure",
-      "Manufacturing",
-      "Healthcare",
-      "Government"
-    ],
-    "risk_level": "High",
-    "last_updated": "2026-04-28",
-    "last_activity": "2025",
-    "ioc_count": 0
-  },
-  {
-    "name": "Prophet Spider",
-    "aliases": [
-      "GOLD MELODY",
-      "UNC961",
-      "Prophet Spider"
-    ],
-    "description": "PROPHET SPIDER is an eCrime actor, active since at least May 2017, that primarily gains access to victims by compromising vulnerable web servers, which commonly involves leveraging a variety of publicly disclosed vulnerabilities. The adversary has likely functioned as an access broker — handing off access to a third party to deploy ransomware — in multiple instances.",
-    "url": "/prophet-spider",
-    "permalink": "/prophet-spider/",
-    "country": null,
-    "sector_focus": [
-
-    ],
-    "risk_level": null,
-    "last_updated": "2026-04-28",
+    "last_updated": "2026-10-27",
     "last_activity": null,
     "ioc_count": 0
   }

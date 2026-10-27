@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "help_restoremydata"
 aliases: ["help_restoremydata"]
-description: ".help_restoremydata\r<br/>ext : .help_restoremydata\r<br/>note : HOW_TO_RECOVERY_FILES.html\r<br/>mail : help@restoremydata.pw\r<br/>md5 : b1e8b6c2b65d51893bbe61d46cbdb4af"
+description: ".help_restoremydata <br/>ext : .help_restoremydata <br/>note : HOW_TO_RECOVERY_FILES.html <br/>mail : help@restoremydata.pw <br/>md5 : b1e8b6c2b65d51893bbe61d46cbdb4af"
 permalink: /help-restoremydata/
 ---
 

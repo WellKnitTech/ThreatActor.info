@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "LambdaLocker Ransomware"
 aliases: ["LambdaLocker Ransomware"]
-description: "It’s directed to English and Chinese speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: "
+description: "It’s directed to English and Chinese speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: mu"
 permalink: /lambdalocker-ransomware/
 ---
 

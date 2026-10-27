@@ -1,0 +1,36 @@
+name: "ExfilSquad"
+aliases: ["ExfilSquad","Storm-3189","exfilsquad"]
+description: "ExfilSquad is an emerging data-extortion group that surfaced on July 26, 2026, operating a Tor-hosted Data Leak Site to publicly claim data theft from 15 organizations, including Microsoft. Their model focuses on public exposure and pressure tactics without confirmed encryption, lacking evidence of a Ransomware-as-a-Service structure or specific initial-access methods. The group has not provided forensic evidence or verifiable data samples, raising questions about the credibility of their claims, which may involve reused or fabricated data."
+url: "/exfilsquad"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/exfilsquad"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "exfilsquad"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/exfilsquad"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "ccf8ceb7-a926-4a29-b045-fb99f24025ba"
+  microsoft_threat_actor_list:
+    categories: ["Group in development"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-3189"
+    origin_category: "Group in development"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm3189"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
+  misp_galaxy:
+    meta_keys: ["refs","links"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ccf8ceb7-a926-4a29-b045-fb99f24025ba"
+    source_record_ids: ["ccf8ceb7-a926-4a29-b045-fb99f24025ba","158e98cb-837e-5551-85aa-a3c37cddfd27"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "exfilsquad"
+  source_retrieved_at: "2026-10-27T17:19:55Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

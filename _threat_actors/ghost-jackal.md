@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Ghost Jackal"
-aliases: ["Ghost Jackal","AnonGhost"]
+aliases: ["AnonGhost","Ghost Jackal"]
 description: "AnonGhost is an apparent hacktivist collective. In October 2023, following a series of air- and land-based attacks in the Gaza Strip, AnonGhost was one of several hacktivist groups that claimed respons"
 permalink: /ghost-jackal/
 ---
@@ -10,7 +10,11 @@ permalink: /ghost-jackal/
 AnonGhost is an apparent hacktivist collective. In October 2023, following a series of air- and land-based attacks in the Gaza Strip, AnonGhost was one of several hacktivist groups that claimed responsibility for disruptive attacks against computer networks in Israel. Researchers indicated that they observed AnonGhost actors exploit an undisclosed API vulnerability in Red Alert, an application that provides warning of projectile attacks in Israel, using Python scripts to intercept web requests and send spam messages to the app's users.<sup>[[Group-IB Threat Intelligence Tweet October 9 2023](/references/2df546ed-6577-44b2-9b26-0a17c3622df7)]</sup>
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,7 +31,8 @@ AnonGhost is an apparent hacktivist collective. In October 2023, following a ser
 - **Ghost**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [[Group-IB Threat Intelligence Tweet October 9 2023](/references/2df546ed-6577-44b2-9b26-0a17c3622df7)

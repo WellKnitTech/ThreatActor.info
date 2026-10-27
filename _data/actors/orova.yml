@@ -1,0 +1,28 @@
+name: "Orova"
+aliases: ["Orova","orova"]
+description: "Orova is a ransomware group that has claimed attacks on various targets, including Yost Home Improvements in the USA and multiple companies in Hong Kong, such as SSI HOLDING LIMITED and Sanrio Hong Kong Co., Ltd. The group has also targeted entities like KINGSSON in Taiwan and Conceptual Designs, Inc. in the USA."
+url: "/orova"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/orova"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "orova"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/orova"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "a7eddaa5-685d-49a4-9053-d7b1d972ef2d"
+  misp_galaxy:
+    meta_keys: ["refs","links"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a7eddaa5-685d-49a4-9053-d7b1d972ef2d"
+    source_record_ids: ["a7eddaa5-685d-49a4-9053-d7b1d972ef2d","d15d2f23-271e-52f3-ac1c-f92c4d1726f8"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "orova"
+  source_retrieved_at: "2026-10-27T17:24:33Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

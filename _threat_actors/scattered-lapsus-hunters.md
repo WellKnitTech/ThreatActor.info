@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Scattered Lapsus Hunters"
-aliases: ["Scattered Lapsus Hunters"]
+aliases: ["Scattered Lapsus Hunters","Scattered Lapsus$ Hunters","scattered lapsus$ hunters"]
 description: "Scattered Lapsus Hunters is an active extortion or ransomware group tracked by RansomLook."
 permalink: /scattered-lapsus-hunters/
 ---
@@ -22,7 +22,8 @@ Scattered Lapsus Hunters is an active extortion or ransomware group tracked by R
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Cyber Eye RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

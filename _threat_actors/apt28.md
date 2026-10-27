@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT28"
-aliases: ["APT 28","APT-C-20","APT28","Armada Collective","ATG2","ATK5","Blue Athena","BlueDelta","CrisisFour","Dark Power","Fancy Bear","FANCY BEAR","Fighting Ursa","Forest Blizzard","FROZENLAKE","G0007","Grey-Cloud","Grizzly Steppe","Group 74","Group-4127","GruesomeLarch","HELLFIRE","IRON TWILIGHT","ITG05","Operation Pawn Storm","Pawn Storm","Sednit","SIG40","SNAKEMACKEREL","Sofacy","Sofacy Group","STRONTIUM","Strontium","Swallowtail","T-APT-12","TA422","TG-4127","Threat Group-4127","Tsar Team","TsarTeam","UAC-0001","UAC-0028","Z-Lom Team","奇幻熊 - APT-C-20"]
+aliases: ["APT 28","APT-C-20","APT28","ATG2","ATK5","Armada Collective","Blue Athena","BlueDelta","CrisisFour","Dark Power","FANCY BEAR","FROZENLAKE","Fancy Bear","Fighting Ursa","Forest Blizzard","G0007","Grey-Cloud","Grizzly Steppe","Group 74","Group-4127","GruesomeLarch","HELLFIRE","IRON TWILIGHT","ITG05","LAKE RELIC","Operation Pawn Storm","Pawn Storm","PawnStorm","SIG40","SNAKEMACKEREL","STRONTIUM","Sednit","Sofacy","Sofacy Group","Strontium","Swallowtail","T-APT-12","TA422","TG-4127","Threat Group-4127","Tsar Team","TsarTeam","UAC-0001","UAC-0028","Z-Lom Team","奇幻熊 - APT-C-20"]
 description: "APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165. [NSA/FBI Drovorub August 202"
 permalink: /apt28/
 ---

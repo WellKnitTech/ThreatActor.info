@@ -31,6 +31,9 @@ Recorded Future’s Insikt Group has identified a large cluster of new operation
 ## Malware and Tools
 - **Backdoor.Oldrea**
 - **Windows Remote Desktop**
+- **Cobalt Strike**: 
+- **KEYPLUG**: 
+- **PlugX**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

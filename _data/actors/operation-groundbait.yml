@@ -1,0 +1,14 @@
+name: "Operation Groundbait"
+aliases: ["Operation Groundbait"]
+description: "(ESET) After BlackEnergy, which has, most infamously, facilitated attacks that resulted in power outages for hundreds of thousands of Ukrainian civilians, and 'Operation Potao Express', where attackers went after sensitive TrueCrypt-protected data from high value targets, ESET researchers have uncovered another cyberespionage operation in Ukraine: Operation Groundbait. The main point that sets Operation Groundbait apart from the other attacks is that it has mostly been targeting anti-government separatists in the self-declared Donetsk and Luhansk People’s Republics. While the attackers seem to be more interested in separatists and the self-declared governments in eastern Ukrainian war zones, there have also been a large number of other targets, including, among others, Ukrainian government officials, politicians and journalists."
+url: "/operation-groundbait"
+country: "[\"Ukraine\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["Prikormka"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "38246b37-a51f-4980-800e-bc591e986073"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

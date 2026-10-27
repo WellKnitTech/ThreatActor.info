@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "gd lockersec"
 aliases: ["gd lockersec"]
-description: "\r<br/>\r<br/>Our team members are from different countries and we are not interested in anything else, we are only interested in dollars.\r<br/>\r<br/>We do not allow CIS, Cuba, North Korea and China to b"
+description: "<br/> <br/>Our team members are from different countries and we are not interested in anything else, we are only interested in dollars. <br/> <br/>We do not allow CIS, Cuba, North Korea and China to be"
 permalink: /gd-lockersec/
 ---
 

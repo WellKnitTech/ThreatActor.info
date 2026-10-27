@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "0apt"
 aliases: ["0apt"]
-description: "This group is newly observed and first observation suggest this is not a serious group, as most - if not all - of the claims cannot be validated and are for random company names.\r<br/>Analysis of avail"
+description: "This group is newly observed and first observation suggest this is not a serious group, as most - if not all - of the claims cannot be validated and are for random company names. <br/>Analysis of avail"
 permalink: /0apt/
 ---
 

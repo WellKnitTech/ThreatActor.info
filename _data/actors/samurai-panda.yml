@@ -1,5 +1,5 @@
 name: "SAMURAI PANDA"
-aliases: ["PLA Navy","Wisp Team","SAMURAI PANDA"]
+aliases: ["PLA Navy","SAMURAI PANDA","Wisp Team"]
 description: "SAMURAI PANDA is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/samurai-panda"
 country: "China"
@@ -12,18 +12,29 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/samurai_panda"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "FormerFirstRAT"
+  - name: "IsSpace"
+  - name: "PlugX"
+  - name: "Poldat"
+  - name: "Sykipot"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.isightpartners.com/2014/04/weeks-threatscape-media-highlights-update-2/","https://www.isightpartners.com/2014/09/weeks-threatscape-media-highlights-update-22/","https://www.isightpartners.com/2015/01/threatscape-media-highlights-update-week-january-12/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "32e28369-30a3-4675-8e0a-04c91c1def98"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "samurai_panda"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/samurai_panda"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "2fb07fa4-0d7f-43c7-8ff4-b28404313fe7"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

@@ -2,7 +2,7 @@ name: "Alpha Spider"
 aliases: ["ALPHV Ransomware Group","Alpha Spider"]
 description: "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilities and leveraging legitimate administration tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence in exfiltrating data and have shown the ability to bypass security measures like DNS-based filtering and multifactor authentication. Despite lacking specific operational security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's operations effectively."
 url: "/alpha-spider"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/alpha_spider"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "alpha_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/alpha_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "6149f3b6-510d-4e45-bf88-cd25c7193702"
   misp_galaxy:
     meta_keys: ["refs","synonyms"]
@@ -31,7 +31,7 @@ provenance:
         source_file: "Vulnerabilities/NetworkEdge.md"
       - title: "bleepingcomputer.com"
         url: "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/"
-        source_file: "Vulnerabilities/Applications.md"
+        source_file: "GroupProfiles/BlackCat.md"
       - title: "bleepingcomputer.com"
         url: "https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-is-targeting-vulnerable-sonicwall-devices/"
         source_file: "Vulnerabilities/NetworkEdge.md"
@@ -42,14 +42,8 @@ provenance:
         url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
         source_file: "Vulnerabilities/Microsoft.md"
       - title: "cisa.gov"
-        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "cisa.gov"
         url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
         source_file: "Vulnerabilities/Microsoft.md"
-      - title: "cisa.gov"
-        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
-        source_file: "Vulnerabilities/Applications.md"
       - title: "cloud.google.com"
         url: "https://cloud.google.com/blog/topics/threat-intelligence/alphv-ransomware-backup/"
         source_file: "Vulnerabilities/Applications.md"
@@ -84,14 +78,8 @@ provenance:
         url: "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html"
         source_file: "Vulnerabilities/Microsoft.md"
       - title: "trendmicro.com"
-        url: "https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "trendmicro.com"
         url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"
         source_file: "Vulnerabilities/Microsoft.md"
-      - title: "unit42.paloaltonetworks.com"
-        url: "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/"
-        source_file: "Vulnerabilities/Applications.md"
       - title: "go.kaspersky.com"
         url: "https://go.kaspersky.com/rs/802-IJN-240/images/Common-TTPs-of-the-modern-ransomware_low-res.pdf"
         date: "23 June 2022"
@@ -101,14 +89,9 @@ provenance:
     source_files: ["GroupProfiles/BlackCat.md","Vulnerabilities/Applications.md","Vulnerabilities/Linux.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
     source_label: "ALPHV / Black Cat / BlackCat"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
     vulnerabilities_by_category:
       Applications:
-        - vendor: "ConnectWise"
-          product: "ScreenConnect"
-          cves: ["CVE-2024-1708","CVE-2024-1709"]
-          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/","https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html","https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-us-hospitals-of-targeted-blackcat-ransomware-attacks/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"]
-          source_file: "Vulnerabilities/Applications.md"
         - vendor: "Veritas"
           product: "Veritas Backup Exec"
           cves: ["CVE-2021-27876"]

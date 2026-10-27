@@ -22,7 +22,12 @@ xing use a custom mountlocker exe
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Discovery | AdFind, Bloodhound, PowerView, ShareFinder |
+| OffSec | Cobalt Strike |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

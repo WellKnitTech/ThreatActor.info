@@ -10,7 +10,11 @@ permalink: /gambleforce/
 GambleForce is a threat actor specializing in SQL injection attacks. They have targeted over 20 websites in various sectors across multiple countries, compromising six companies. GambleForce utilizes publicly available pentesting tools and has been active since mid-September 2023.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -23,9 +27,15 @@ GambleForce is a threat actor specializing in SQL injection attacks. They have t
 
 ## Malware and Tools
 - **CrossRat**
+- **Cobalt Strike**: 
+- **Dirsearch**: 
+- **Tinyproxy**: 
+- **redis-rogue-getshell**: 
+- **sqlmap**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

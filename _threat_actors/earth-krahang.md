@@ -32,6 +32,11 @@ Earth Krahang is an APT group targeting government organizations worldwide. They
 - **Cyber Eye RAT**
 - **Xploit**
 - **Cobalt Strike**
+- **Cobalt Strike**: 
+- **DinodasRAT**: 
+- **PlugX**: 
+- **Reshell**: 
+- **ShadowPad Winnti**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -1,25 +1,63 @@
 name: "TA558"
-aliases: ["TA558"]
+aliases: ["TA558","Odyssey Spider","Loda","CapturaTela"]
 description: "Since 2018, security researchers tracked a financially-motivated cybercrime actor, TA558, targeting hospitality, travel, and related industries located in Latin America and sometimes North America, and western Europe. The actor sends malicious emails written in Portuguese, Spanish, and sometimes English. The emails use reservation-themed lures with business-relevant themes such as hotel room bookings. The emails may contain malicious attachments or URLs aiming to distribute one of at least 15 different malware payloads."
 url: "/ta558"
+country: "[\"[Unknown]\"]"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta558"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["CyberGate","Cyber Eye RAT","Archelaus Beta"]
+operations: ["2023-06","SteganoAmor campaign: TA558 mass-attacking companies and public institutions all around the world","https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/steganoamor-campaign-ta558-mass-attacking-companies-and-public-institutions-all-around-the-world/"]
+malware:
+  - "CyberGate"
+  - "Cyber Eye RAT"
+  - "Archelaus Beta"
+  - name: "AZORult"
+  - name: "AsyncRAT"
+  - name: "Loda"
+  - name: "RemcosRAT"
+  - name: "RevengeRAT"
+  - name: "Vjw0rm"
+  - name: "XtremeRAT"
+  - name: "njRAT"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "2a612bf1-4cfd-436e-90d5-e104966d1f50"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Odyssey Spider"]
+      Palo Alto: ["CapturaTela"]
+      Proofpoint: ["TA558"]
+      Thalos: ["Loda"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "ta558"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta558"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta558"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "e1e70539-8916-45c2-9b01-891c1c5bd8a1"
   misp_galaxy:
-    meta_keys: ["sources"]
+    meta_keys: ["sources","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e1e70539-8916-45c2-9b01-891c1c5bd8a1"
     source_record_ids: ["e1e70539-8916-45c2-9b01-891c1c5bd8a1"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "TA558"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/TA558/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/TA558/TA558_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

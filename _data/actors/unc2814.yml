@@ -1,5 +1,5 @@
 name: "UNC2814"
-aliases: ["UNC2814"]
+aliases: ["UNC2814","DARK CASTLE"]
 description: "UNC2814 is a suspected PRC-nexus cyber espionage group that has targeted telecommunications providers and government entities globally since at least 2017. The group employs the GRIDTIDE backdoor to blend malicious traffic with legitimate cloud API activity and utilizes living-off-the-land techniques, including SSH lateral movement and the creation of malicious systemd services. GTIG has confirmed 53 intrusions across 42 countries and identified suspected activity in at least 20 additional nations, with a focus on exfiltrating sensitive communications data. Google has taken significant disruption actions against UNC2814, including infrastructure takedowns and the release of IOCs to aid in detection."
 url: "/unc2814"
 country: "China"
@@ -14,13 +14,13 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc2814"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc2814"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "18d4647b-2be2-4c50-87dc-8fdcec4d2664"
   misp_galaxy:
-    meta_keys: ["country","origin:UNC2814","refs"]
+    meta_keys: ["country","origin:UNC2814","refs","name-attribution","synonyms"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "18d4647b-2be2-4c50-87dc-8fdcec4d2664"
     source_record_ids: ["18d4647b-2be2-4c50-87dc-8fdcec4d2664"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

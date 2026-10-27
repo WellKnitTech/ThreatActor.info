@@ -1,0 +1,24 @@
+name: "Larva-26005"
+aliases: ["Larva-26005"]
+description: "Larva-26005 is a threat actor confirmed to be distributing Xctdoor, a RAT, to users in Korea. The malware was initially disclosed in 2024 and was later found disguised as an integrated security program in an attack case reported by Hauri in 2026."
+url: "/larva-26005"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/larva-26005"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "larva-26005"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/larva-26005"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "c539a88d-191a-4886-ac65-2e5150e57880"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c539a88d-191a-4886-ac65-2e5150e57880"
+    source_record_ids: ["c539a88d-191a-4886-ac65-2e5150e57880"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

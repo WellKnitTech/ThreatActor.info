@@ -1,14 +1,25 @@
 name: "Darkrypt"
-aliases: ["Darkrypt"]
+aliases: ["DarKrypt","Darkrypt","Yellow Dev 21"]
 description: "Darkrypt is an active extortion or ransomware group tracked by RansomLook."
 url: "/darkrypt"
+country: "Iran"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/darkrypt"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      PWC: ["Yellow Dev 21"]
+    confidence: "Low"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "darkrypt"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "darkrypt"
-  source_retrieved_at: "2026-05-06T21:57:20Z"
+  source_retrieved_at: "2026-10-27T17:24:51Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

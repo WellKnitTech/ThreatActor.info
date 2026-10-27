@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Water Labbu"
 aliases: ["Water Labbu"]
-description: "Trend Micro discovered a threat actor they named Water Labbu that was targeting cryptocurrency scam websites. Typically, cryptocurrency scammers use social engineering techniques,  interacting with vic"
+description: "Trend Micro discovered a threat actor they named Water Labbu that was targeting cryptocurrency scam websites. Typically, cryptocurrency scammers use social engineering techniques, interacting with vict"
 permalink: /water-labbu/
 ---
 

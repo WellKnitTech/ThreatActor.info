@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Monti"
-aliases: ["Monti"]
+aliases: ["MONTI","Monti","Storm-1194"]
 description: "Monti is an active extortion or ransomware group tracked by RansomLook."
 permalink: /monti/
 ---

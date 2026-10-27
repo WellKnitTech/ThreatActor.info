@@ -1,5 +1,6 @@
 {
   "countries": [
+    "Algeria",
     "Argentina",
     "Australia",
     "Austria",
@@ -35,6 +36,7 @@
     "Malaysia",
     "Mexico",
     "Morocco",
+    "Multiple",
     "Netherlands",
     "New Zealand",
     "Nigeria",
@@ -68,7 +70,37 @@
     "United States",
     "Unknown",
     "Uruguay",
-    "Vietnam"
+    "Vietnam",
+    "[\"Belarus\"]",
+    "[\"Brazil\"]",
+    "[\"Canada\"]",
+    "[\"China\"]",
+    "[\"Colombia\"]",
+    "[\"India\"]",
+    "[\"Indonesia\"]",
+    "[\"Iran\"]",
+    "[\"Israel\"]",
+    "[\"Italy\"]",
+    "[\"Kazakhstan\"]",
+    "[\"Lebanon\"]",
+    "[\"Mexico\"]",
+    "[\"Nigeria\"]",
+    "[\"North Korea\"]",
+    "[\"Pakistan\"]",
+    "[\"Russia\"]",
+    "[\"Saudi Arabia\"]",
+    "[\"Spain\"]",
+    "[\"Turkey\"]",
+    "[\"USA\", \"Israel\"]",
+    "[\"USA\"]",
+    "[\"Ukraine\"]",
+    "[\"Uzbekistan\"]",
+    "[\"Yemen\"]",
+    "[\"[ISIS]\"]",
+    "[\"[Latin America]\"]",
+    "[\"[Middle East]\"]",
+    "[\"[Unknown]\"]",
+    "[\"[Various]\"]"
   ],
   "risk_levels": [
     "Critical",
@@ -190,24 +222,24 @@
 
   ],
   "counts": {
-    "threat_actors": 3613,
+    "threat_actors": 3839,
     "iocs": 0,
     "techniques": 937,
     "tactics": 39,
-    "campaigns_mitre": 59,
-    "mitigations": 108
+    "campaigns_mitre": 61,
+    "mitigations": 109
   },
   "country_counts": {
-    "China": 257,
-    "Russia": 107,
-    "Iran": 79,
-    "North Korea": 31,
-    "United States": 24,
+    "China": 271,
+    "Russia": 120,
+    "[\"[Unknown]\"]": 98,
+    "Iran": 81,
+    "[\"China\"]": 41,
+    "North Korea": 32,
+    "United States": 25,
     "Pakistan": 20,
-    "Turkey": 17,
-    "Thailand": 17,
-    "India": 17,
-    "Unknown": 15
+    "India": 18,
+    "Turkey": 17
   },
   "risk_counts": {
     "High": 161,
@@ -233,9 +265,9 @@
     "Xploit": 187,
     "Virus RAT:": 105,
     "Backdoor.Oldrea": 104,
-    "China Chopper": 95,
-    "CyberGate:": 80,
-    "Cyber Eye RAT:": 80,
+    "China Chopper": 96,
+    "CyberGate:": 92,
+    "Cyber Eye RAT:": 92,
     "Archelaus Beta": 71,
     "RemoteCMD": 70
   }

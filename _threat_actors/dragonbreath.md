@@ -13,7 +13,7 @@ Golden Eye Dog targets Chinese-speaking users engaged in online gambling, employ
 *Information pending cataloguing.*
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- [DigiCert](https://bugzilla.mozilla.org/show_bug.cgi?id=2033170) (April 2026; GoldenEyeDog (CN APT))
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

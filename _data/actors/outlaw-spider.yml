@@ -1,7 +1,8 @@
 name: "OUTLAW SPIDER"
-aliases: ["OUTLAW SPIDER"]
+aliases: ["OUTLAW SPIDER","Outlaw Spider"]
 description: "On May 7, 2019, Mayor Bernard “Jack” Young confirmed that the network for the U.S. City of Baltimore (CoB) was infected with ransomware, which was announced via Twitter1. This infection was later confirmed to be conducted by OUTLAW SPIDER, which is the actor behind the RobbinHood ransomware. The actor demanded to be paid 3 BTC (approximately $17,600 USD at the time) per infected system, or 13 BTC (approximately $76,500 USD at the time) for all infected systems to recover the city’s files."
 url: "/outlaw-spider"
+country: "[\"[Unknown]\"]"
 sector_focus: ["Government, Administration"]
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
@@ -9,17 +10,32 @@ source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/outlaw_spider
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "059af74f-37ce-4500-adfe-083edb6a2fd2"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Outlaw Spider"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "outlawspider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "outlaw_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/outlaw_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "ae121063-3960-4834-90d7-66aad69c5e8b"
   misp_galaxy:
-    meta_keys: ["refs","targeted-sector"]
+    meta_keys: ["refs","targeted-sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ae121063-3960-4834-90d7-66aad69c5e8b"
     source_record_ids: ["ae121063-3960-4834-90d7-66aad69c5e8b"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

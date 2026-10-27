@@ -6,23 +6,23 @@ country: "Russia"
 sector_focus: ["Electric","Energy","Industrial","Private sector","Government"]
 targeted_victims: ["Russia","Lithuania","Kyrgyzstan","Israel","Ukraine","Belarus","Kazakhstan","Georgia","Poland","Azerbaijan","Iran"]
 incident_type: "Espionage"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 risk_level: "High"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware: ["BlackEnergy","PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","BLACKCOFFEE","Blackshades","BlackNix","BlackHole","PowerRAT"]
 provenance:
   bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-10-27T17:29:27Z"
     reports:
       - organization: "Viasat KA-SAT"
         breach_date: "February 2022"
         adversary_label: "Sandworm (RU APT)"
         links: ["https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"]
         archived_links: ["https://web.archive.org/web/20230407225107/https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview"]
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_retrieved_at: "2026-04-28T01:40:03Z"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category"]
     source_cluster: "360net.json"
@@ -31,6 +31,13 @@ provenance:
     source_record_id: "f512de42-f76b-40d2-9923-59e7dbdfec35"
     source_record_ids: ["0fdab65b-3e2b-5fd8-be36-cc18c7bcc1d7"]
     source_retrieved_at: "2026-05-06T22:01:13Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Sandworm"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Sandworm/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Sandworm/Sandworm_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
   russian_apt_tool_matrix:
     references:
       - title: "www.microsoft.com"
@@ -50,7 +57,7 @@ provenance:
     source_files: ["GroupProfiles/Sandworm.md","Other/ThreatIntelligence.md","Tools/DefenseEvasion.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Sandworm"
     source_repository: "https://github.com/BushidoUK/Russian-APT-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T02:07:35Z"
+    source_retrieved_at: "2026-10-27T17:28:04Z"
     tools_by_category:
       Defense Evasion: ["SDelete","libprocesshider"]
       Exfiltration: ["Rclone"]

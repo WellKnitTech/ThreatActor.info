@@ -1,0 +1,25 @@
+name: "Achilles"
+aliases: ["Achilles"]
+description: "This actor may be related to 'Iridium'. (AdvIntel) “Achilles” is an English-speaking threat actor primarily operating on various English-language underground hacking forums as well as through secure messengers. Achilles specializes in obtaining accesses to high-value corporate internal networks. On May 4, 2019, Achilles claimed to have access to UNICEF network as well as networks of several high-profile corporate entities. They were able to provide evidence of their presence within the UNICEF network and two private sector companies. It is noteworthy that they provided access to networks at a relatively low price range of $5,000 USD to $2,000 USD. The majority of Achilles offers are related to breaches into multinational corporate networks via external VPN and compromised RDPs. Targets include private companies and government organizations, primarily in the British Commonwealth. Achilles has been particularly active on forums through the last seven months, with rising spikes in activities in Fall 2018 and Spring 2019."
+url: "/achilles"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["2018-10","Breach of Navy shipbuilder Austal","https://www.abc.net.au/news/2018-11-13/iranian-hackers-suspected-in-austal-cyber-breach/10489310"]
+malware: ["RDP"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "8881870a-4b54-4525-b455-45bb7c045fb5"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      AdvIntel: ["Achilles"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "achilles"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"

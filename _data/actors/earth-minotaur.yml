@@ -1,0 +1,21 @@
+name: "Earth Minotaur"
+aliases: ["Earth Minotaur"]
+description: "(Trend Micro) We believe that Earth Minotaur is an intrusion set which hasn’t been publicly reported. In the first report of MOONSHINE exploit kit in 2019, the threat actor using the toolkit was named 'Poison Carp, Evil Eye'. While both used the MOONSHINE exploit kit and had similar targets, we did not find further connections between Earth Minotaur and POISON CARP. The backdoor DarkNimbus had been developed in 2018 but was not found in any of POISON CARP’s previous activity. Therefore, we categorized them as two different intrusion sets."
+url: "/earth-minotaur"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["DarkNimbus","MOONSHINE"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "7d5663d5-d239-4bc6-8532-0dfa5aa34363"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Earth Minotaur"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Earth%20Minotaur/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Earth%20Minotaur/Earth%20Minotaur_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

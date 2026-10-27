@@ -2,6 +2,7 @@ name: "UNC5537"
 aliases: ["UNC5537"]
 description: "UNC5537 is a financially motivated threat actor targeting Snowflake customer databases. They use stolen credentials obtained from infostealer malware to access and exfiltrate large volumes of data. The compromised accounts lack multi-factor authentication, allowing UNC5537 to conduct data theft and extortion."
 url: "/unc5537"
+country: "[\"Canada\"]"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc5537"
@@ -11,17 +12,22 @@ malware:
   - name: "CloudDuke"
   - name: "Archelaus Beta"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "469b78ee-1184-44c7-ad9d-4abe1ef60a18"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc5537"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc5537"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "b8c6da46-4c9a-4075-b9f3-3b5ef7bd3534"
   misp_galaxy:
-    meta_keys: ["origin:UNC5537","refs","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories"]
+    meta_keys: ["origin:UNC5537","refs","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b8c6da46-4c9a-4075-b9f3-3b5ef7bd3534"
     source_record_ids: ["b8c6da46-4c9a-4075-b9f3-3b5ef7bd3534","809c288d-2dec-4c34-8ac1-f91d227ddfbd"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

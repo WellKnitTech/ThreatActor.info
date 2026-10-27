@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Cl0p"
-aliases: ["CHIMBORAZO","Clop","Hive0065","Spandex Tempest","TA505","Cl0p","SectorJ04","SectorJ04 Group","GRACEFUL SPIDER","GOLD TAHOE","Dudear","G0092","ATK103","Lace Tempest","DEV-0950","FIN11","MONTY SPIDER","TEMP.Warlock","UNC902"]
+aliases: ["ATK103","CHIMBORAZO","CL0P","Cl0p","Clop","DEV-0950","Dudear","FIN11","G0092","GOLD TAHOE","GRACEFUL SPIDER","Hive0065","Lace Tempest","MONTY SPIDER","RAZOR COMET","SectorJ04","SectorJ04 Group","Spandex Tempest","TA505","TEMP.Warlock","UNC902"]
 description: "TA505 is a cyber criminal group that has been active since at least 2014. TA505 is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaign"
 permalink: /cl0p/
 ---
@@ -110,6 +110,7 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | File Transfer Servers, Group Profile | Accellion | Accellion File Transfer Appliance | CVE-2021-27101, CVE-2021-27102, CVE-2021-27103, CVE-2021-27104 |
+| File Transfer Servers, Group Profile | CentreStack | Gladinet CentreStack | CVE-2025-11371 |
 | File Transfer Servers, Group Profile | Cleo | Cleo VLTrader, Harmony, LexiCom | CVE-2024-55956 |
 | File Transfer Servers, Group Profile | Fortra | GoAnywhere Managed File Transfer | CVE-2023-0669 |
 | Applications, Group Profile | Oracle | E-Business | CVE-2025-61882 |
