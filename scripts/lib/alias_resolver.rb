@@ -42,7 +42,7 @@ module AliasResolver
     find_match_extended(candidate_name, candidate_aliases, index)
   end
 
-  def find_match_extended(candidate_name, candidate_aliases, index, mitre_id: nil, external_id: nil)
+  def find_match_extended(candidate_name, candidate_aliases, index, mitre_id: nil, external_id: nil, actors: nil)
     keys = [canonical_key(candidate_name)]
     keys.concat(Array(candidate_aliases).map { |a| canonical_key(a) })
     [mitre_id, external_id].compact.each do |id|
@@ -63,8 +63,34 @@ module AliasResolver
     when 1
       { position: matches.first, confidence: :high }
     else
-      { positions: matches, confidence: :ambiguous }
+      disambiguate_matches(candidate_name, matches, index, mitre_id: mitre_id, external_id: external_id,
+                           actors: actors)
     end
+  end
+
+  # When alias unions collide (e.g. MITRE G1059 aliases include both UNC1549 and TA455),
+  # prefer: unique actor-name match, unique alias-of-candidate-name match, then MITRE id.
+  def disambiguate_matches(candidate_name, matches, index, mitre_id: nil, external_id: nil, actors: nil)
+    name_key = canonical_key(candidate_name)
+    if name_key && !name_key.empty? && actors.is_a?(Array)
+      name_field_hits = matches.select { |pos| canonical_key(actors[pos]&.dig('name')) == name_key }
+      return { position: name_field_hits.first, confidence: :high } if name_field_hits.length == 1
+
+      alias_field_hits = matches.select do |pos|
+        Array(actors[pos]&.dig('aliases')).any? { |alias_name| canonical_key(alias_name) == name_key }
+      end
+      return { position: alias_field_hits.first, confidence: :high } if alias_field_hits.length == 1
+    elsif name_key && !name_key.empty?
+      primary_hits = Array(index[name_key]).uniq & matches
+      return { position: primary_hits.first, confidence: :high } if primary_hits.length == 1
+    end
+
+    id_hits = [mitre_id, external_id].compact.filter_map { |id| id_index_key(id) }
+                                     .flat_map { |key| Array(index[key]) }
+                                     .uniq & matches
+    return { position: id_hits.first, confidence: :high } if id_hits.length == 1
+
+    { positions: matches, confidence: :ambiguous }
   end
 
   # Resolve a name (+ optional aliases) to a canonical actor slug and match quality.
