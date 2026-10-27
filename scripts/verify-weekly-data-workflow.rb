@@ -79,6 +79,12 @@ failures << "workflow artifacts must fail when required evidence is absent" unle
 failures << "workflow must validate before opening the pull request" unless pipeline.index("- name: Validate JSON schemas") && pipeline.index("- name: Open weekly data pull request") && pipeline.index("- name: Validate JSON schemas") < pipeline.index("- name: Open weekly data pull request")
 failures << "open-PR step must detect untracked changes with git status --porcelain" unless pipeline.match?(/git status --porcelain/)
 failures << "open-PR step must not stage gitignored tmp/ reports" if pipeline.match?(/git add[^\n]*\btmp\//)
+failures << "open-PR step must soft-warn when Actions cannot create PRs" unless pipeline.match?(/GitHub Actions is not permitted to create or approve pull requests/) &&
+                                                                              pipeline.match?(/already exists/) &&
+                                                                              pipeline.match?(/::warning::/)
+failures << "open-PR step must include a manual compare URL when PR create is blocked" unless pipeline.match?(%r{https://github\.com/\$\{GITHUB_REPOSITORY\}/pull/new/\$\{branch\}})
+failures << "open-PR step must still fail on unexpected gh pr create errors" unless pipeline.match?(/exit \"\$pr_create_status\"/) ||
+                                                                                   pipeline.match?(/exit "\$pr_create_status"/)
 # Scheduled path must quarantine anomalous plans by default. A manual
 # workflow_dispatch may opt into --allow-plan-anomalies only when gated by the
 # allow_anomalies input; never pass the flag unconditionally in default args.

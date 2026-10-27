@@ -78,4 +78,35 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
     end
     refute_match(/git add[^\n]*\btmp\//, pipeline)
   end
+
+  def test_open_pr_step_soft_warns_when_actions_cannot_create_prs
+    pipeline = File.read(PIPELINE)
+
+    assert_match(/GitHub Actions is not permitted to create or approve pull requests/, pipeline)
+    assert_match(/already exists/, pipeline)
+    assert_match(/::warning::/, pipeline)
+    assert_match(%r{https://github\.com/\$\{GITHUB_REPOSITORY\}/pull/new/\$\{branch\}}, pipeline)
+    assert_match(/exit \"\$pr_create_status\"/, pipeline)
+    assert_match(/gh\s+pr\s+merge\s+\"\$branch\"\s+--auto\s+--squash\s+--delete-branch/, pipeline)
+  end
+
+  def test_open_pr_step_without_create_soft_warn_is_rejected
+    pipeline = File.read(PIPELINE)
+    stripped = pipeline
+      .gsub(/GitHub Actions is not permitted to create or approve pull requests/, 'permission denied')
+      .gsub(/::warning::/, '::notice::')
+      .gsub(%r{https://github\.com/\$\{GITHUB_REPOSITORY\}/pull/new/\$\{branch\}}, 'https://example.test/pr')
+    refute_equal pipeline, stripped, 'expected to remove Actions PR soft-warn markers'
+
+    Tempfile.create(['import-pipeline', '.yml']) do |file|
+      file.write(stripped)
+      file.flush
+      _stdout, stderr, status = Timeout.timeout(3) do
+        Open3.capture3(RbConfig.ruby, SCRIPT, file.path)
+      end
+
+      refute status.success?, stderr
+      assert_match(/soft-warn when Actions cannot create PRs|manual compare URL/i, stderr)
+    end
+  end
 end
