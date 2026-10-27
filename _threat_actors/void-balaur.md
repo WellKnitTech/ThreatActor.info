@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Void Balaur"
-aliases: ["Void Balaur"]
+aliases: ["Rockethack","Void Balaur"]
 description: "Void Balaur is a highly active hack-for-hire / cyber mercenary group with a wide range of known target types across the globe. Their services have been observed for sale to the public online since at l"
 permalink: /void-balaur/
 ---
@@ -10,6 +10,8 @@ permalink: /void-balaur/
 Void Balaur is a highly active hack-for-hire / cyber mercenary group with a wide range of known target types across the globe. Their services have been observed for sale to the public online since at least 2016. Services include the collection of private data and access to specific online email and social media services, such as Gmail, Outlook, Telegram, Yandex, Facebook, Instagram, and business emails.
 
 ## Activities and Tactics
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
 
 
 
@@ -31,7 +33,8 @@ Void Balaur is a highly active hack-for-hire / cyber mercenary group with a wide
 - **CrossRat**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

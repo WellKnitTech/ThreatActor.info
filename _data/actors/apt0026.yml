@@ -1,5 +1,5 @@
 name: "APT18"
-aliases: ["APT18","COMBINE","Dynamite Panda","DYNAMITE PANDA","Elderwood Group","G0026","PLA Navy","Red Wraith","Satin Typhoon","SCANDIUM","SILVERVIPER","TG-0416","Threat Group-0416","Wekby"]
+aliases: ["APT 18","APT18","COMBINE","DYNAMITE PANDA","Dynamite Panda","Elderwood Group","G0026","PLA Navy","Red Wraith","SCANDIUM","SILVERVIPER","Satin Typhoon","Scandium","TG-0416","Threat Group-0416","Wekby"]
 description: "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. [Dell Lateral Movement](http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/)"
 url: "/apt0026"
 country: "China"
@@ -19,7 +19,19 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt18"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["SPACESHIP","Hacking Team UEFI Rootkit","FLASHFLOOD","Xploit"]
+operations: ["2014-04","2015-06","2016-05","Attacks using DNS Requests as Command and Control Mechanism","Community Health Systems data breach","Method: Phishing with Pisloader dropper.","Method: Phishing with obfuscated variants of the HTTPBrowser tool.","Target: Organizations in the USA.","https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828/","https://unit42.paloaltonetworks.com/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/","https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop","https://www.fireeye.com/blog/threat-research/2015/07/demonstrating_hustle.html","https://www.venafi.com/blog/infographic-how-an-attack-by-a-cyber-espionage-operator-bypassed-security-controls"]
+malware:
+  - "SPACESHIP"
+  - "Hacking Team UEFI Rootkit"
+  - "FLASHFLOOD"
+  - "Xploit"
+  - name: "0-day exploits for Flash"
+  - name: "AtNow"
+  - name: "Gh0st RAT"
+  - name: "HTTPBrowser"
+  - name: "Pisloader"
+  - name: "StickyFingers"
+  - name: "hcdLoader"
 software:
   - name: "hcdLoader"
     mitre_id: "S0071"
@@ -114,6 +126,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2016"
@@ -123,14 +138,42 @@ provenance:
     sample_titles: ["New Wekby Attacks Use DNS Requests As Command and Control Mechanism"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Palo Alto"]
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0026"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "aa2f3420-e239-4b0c-9066-c6f5804de6a8"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Dynamite Panda"]
+      MITRE: ["G0026"]
+      Mandiant/FireEye: ["APT18"]
+      Microsoft: ["Scandium"]
+      Palo Alto: ["Wekby"]
+      SCWX CTU: ["TG-0416"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "apt18"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt18"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt18"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "9a683d9c-8f7d-43df-bba2-ad0ca71e277c"
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Satin Typhoon"
+    origin_category: "China"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "satintyphoon"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
     source_cluster: "microsoft-activity-group.json"
@@ -138,20 +181,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "073df49d-f3c8-5459-b8d8-89e7beb348ef"
     source_record_ids: ["073df49d-f3c8-5459-b8d8-89e7beb348ef"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0026"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648"
 source: "MITRE ATT&CK"

@@ -10,7 +10,11 @@ permalink: /clockwork-spider/
 Opportunistic actor that installs custom root certificate on victim to support man-in-the-middle network monitoring.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ Opportunistic actor that installs custom root certificate on victim to support m
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

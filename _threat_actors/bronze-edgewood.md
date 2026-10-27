@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "BRONZE EDGEWOOD"
-aliases: ["Red Hariasa","BRONZE EDGEWOOD"]
+aliases: ["BRONZE EDGEWOOD","Bronze Edgewood","Red Hariasa","TAG-16"]
 description: "In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft Exchange Server of an organization in Southeast Asia. The threat group deployed a China Chopper webshell and ran the Nish"
 permalink: /bronze-edgewood/
 ---
@@ -38,6 +38,18 @@ In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft 
 - **Xploit**
 - **Archelaus Beta**
 - **Cobalt Strike**
+- **Chinoxy**: 
+- **Filepak**: 
+- **FilepakMonitor**: 
+- **FunnyDream**: 
+- **Keyrecord**: 
+- **Living off the Land**: 
+- **Md_client**: 
+- **PCShare**: 
+- **ScreenCap**: 
+- **TcpBridge**: 
+- **Tcp_transfer**: 
+- **ccf32**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

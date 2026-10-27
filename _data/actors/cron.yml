@@ -1,0 +1,25 @@
+name: "Cron"
+aliases: ["Cron"]
+description: "(The Hacker News) Group-IB first learned of the Cron malware gang in March 2015, when the criminal gang was distributing the Cron Bot malware disguised as Viber and Google Play apps. The Cron malware gang abused the popularity of SMS-banking services and distributed the malware onto victims' Android devices by setting up apps designed to mimic banks' official apps. The gang even inserted the malware into fake mobile apps for popular pornography websites, such as PornHub. After targeting customers of the Bank in Russia, where they were living in, the Cron gang planned to expand its operation by targeting customers of banks in various countries, including the US, the UK, Germany, France, Turkey, Singapore, and Australia. In June 2016, the gang rented a piece of malware called 'Tiny.z' for $2,000 per month, designed to attack customers of Russian banks as well as international banks in Britain, Germany, France, the United States and Turkey, among other countries."
+url: "/cron"
+country: "[\"Russia\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["200 financial institutions","2017-12","New malware targets accounts at over 2","https://blog.avast.com/new-version-of-mobile-malware-catelites-possibly-linked-to-cron-cyber-gang"]
+malware: ["Catelites Bot","CronBot","TinyZBot"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "f7dde02d-7652-4c04-8782-cf56b07b667a"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Group-IB: ["Cron"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "cron"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"

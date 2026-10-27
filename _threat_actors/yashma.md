@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Yashma"
 aliases: ["Yashma"]
-description: "Cisco Talos has identified a new, previously unknown threat actor of Vietnamese origin conducting a ransomware operation that began at least on June 4, 2023.  The ongoing attack utilizes a variant of t"
+description: "Cisco Talos has identified a new, previously unknown threat actor of Vietnamese origin conducting a ransomware operation that began at least on June 4, 2023. The ongoing attack utilizes a variant of th"
 permalink: /yashma/
 ---
 

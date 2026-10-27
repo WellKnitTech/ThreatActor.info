@@ -32,19 +32,23 @@
   "groups": [
     {
       "name": "APT28",
-      "url": "/apt28"
+      "url": "/apt28/"
     },
     {
       "name": "CURIUM",
-      "url": "/apt1012"
+      "url": "/apt1012/"
     },
     {
       "name": "MirrorFace",
-      "url": "/mirrorface"
+      "url": "/mirrorface/"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082/"
     },
     {
       "name": "Storm-1811",
-      "url": "/apt1046"
+      "url": "/apt1046/"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Dark Basin"
-aliases: ["Dark Basin"]
+aliases: ["Dark Basin","Mercenary.Amanda"]
 description: "Dark Basin is a hack-for-hire group that has targeted thousands of individuals and hundreds of institutions on six continents. Targets include advocacy groups and journalists, elected and senior govern"
 permalink: /dark-basin/
 ---
@@ -10,7 +10,11 @@ permalink: /dark-basin/
 Dark Basin is a hack-for-hire group that has targeted thousands of individuals and hundreds of institutions on six continents. Targets include advocacy groups and journalists, elected and senior government officials, hedge funds, and multiple industries. Dark Basin extensively targeted American nonprofits, including organisations working on a campaign called #ExxonKnew, which asserted that ExxonMobil hid information about climate change for decades. We also identify Dark Basin as the group behind the phishing of organizations working on net neutrality advocacy, previously reported by the Electronic Frontier Foundation. We link Dark Basin with high confidence to an Indian company, BellTroX InfoTech Services, and related entitie
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇮🇳 ["India"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -26,7 +30,8 @@ Dark Basin is a hack-for-hire group that has targeted thousands of individuals a
 - **Dark DDoSeR**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["India"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

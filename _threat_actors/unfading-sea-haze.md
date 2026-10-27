@@ -34,6 +34,18 @@ Unfading Sea Haze is a threat actor focused on espionage, targeting government a
 - **RemotePC**
 - **SharpEye**
 - **SharpBot**
+- **DustyExfilTool**: 
+- **EtherealGh0st**: 
+- **FluffyGh0st**: 
+- **InsidiousGh0st**: 
+- **Ps2dllLoader**: 
+- **SerialPktdoor**: 
+- **SharpJSHandler**: 
+- **SharpZulip**: 
+- **SilentGh0st**: 
+- **Stubbedoor**: 
+- **TranslucentGh0st**: 
+- **xkeylog**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

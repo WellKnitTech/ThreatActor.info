@@ -1,50 +1,699 @@
-name: "APT35"
-aliases: ["APT35","Charming Kitten","COBALT ILLUSION","ITG18","Magic Hound","Mint Sandstorm","Newscaster","Phosphorus","TA453","Newscaster Team","G0059","TunnelVision","COBALT MIRAGE","Agent Serpens","PHOSPHORUS","Parastoo","iKittens","Group 83","NewsBeef","G0058","CharmingCypress"]
-description: "Magic Hound is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary Guard Corps. They have targeted European, U.S., and Middle Eastern government and military personnel, academics, journalists, and organizations such as the World Health Organization (WHO), via complex social engineering campaigns since at least 2014. [FireEye APT35 2018](https://static.carahsoft.com/concrete/files/1015/2779/3571/M-Trends-2018-Report.pdf) [ClearSky Kittens Back 3 August 2020](https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf) [Certfa Charming Kitten January 2021](https://blog.certfa.com/posts/charming-kitten-christmas-gift/) [Secureworks COBALT ILLUSION Threat Profile](https://www.secureworks.com/research/threat-profiles/cobalt-illusion) [Proofpoint TA453 July2021](https://www.proofpoint.com/us/blog/threat-insight/operation-spoofedscholars-conversation-ta453)"
+---
+name: APT35
+aliases:
+- APT35
+- Agent Serpens
+- Ballistic Bobcat
+- COBALT ILLUSION
+- COBALT MIRAGE
+- Charming Kitten
+- Charming Kitten (Crowdstrike)
+- CharmingCypress
+- Cobalt Illusion
+- Damselfly
+- Direfate
+- G0058
+- G0059
+- Greycatfish
+- Group 83
+- ITG18
+- Iridium Group
+- Magic Hound
+- Mint Sandstorm
+- Mint Sandstorm (Microsoft)
+- NewsBeef
+- Newscaster
+- Newscaster Team
+- PHOSPHORUS
+- Parastoo
+- Phosphorus
+- RICH ION
+- Saffron Rose
+- TA453
+- TunnelVision
+- White Phosphorous
+- Yellow Garuda
+- iKittens
+description: Magic Hound is an Iranian-sponsored threat group that conducts long term,
+  resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary
+  Guard Corps. They have targeted European, U.S., and Middle Eastern government and
+  military personnel, academics, journalists, and organizations such as the World
+  Health Organization (WHO), via complex social engineering campaigns since at least
+  2014. [FireEye APT35 2018](https://static.carahsoft.com/concrete/files/1015/2779/3571/M-Trends-2018-Report.pdf)
+  [ClearSky Kittens Back 3 August 2020](https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf)
+  [Certfa Charming Kitten January 2021](https://blog.certfa.com/posts/charming-kitten-christmas-gift/)
+  [Secureworks COBALT ILLUSION Threat Profile](https://www.secureworks.com/research/threat-profiles/cobalt-illusion)
+  [Proofpoint TA453 July2021](https://www.proofpoint.com/us/blog/threat-insight/operation-spoofedscholars-conversation-ta453)
 url: "/apt35"
-country: "Iran"
-sector_focus: ["Media","Academia","Government","Defense","Diplomacy","Military","Technology","Government, Administration"]
-targeted_victims: ["U.S. government/defense sector websites","Saudi Arabia","Israel","Iraq","United Kingdom"]
-incident_type: "Espionage"
-first_seen: "2014"
-last_activity: "2024"
-risk_level: "High"
-external_id: "G0059"
-external_url: "https://attack.mitre.org/groups/G0059"
-mitre_id: "G0059"
-mitre_url: "https://attack.mitre.org/groups/G0059"
-source_name: "MISP Galaxy"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt35"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Back Orifice","Back Orifice 2000"]
+country: Iran
+sector_focus:
+- Media
+- Academia
+- Government
+- Defense
+- Diplomacy
+- Military
+- Technology
+- Government, Administration
+targeted_victims:
+- U.S. government/defense sector websites
+- Saudi Arabia
+- Israel
+- Iraq
+- United Kingdom
+incident_type: Espionage
+first_seen: '2014'
+last_activity: '2024'
+risk_level: High
+confidence: high
+external_id: G0059
+external_url: https://attack.mitre.org/groups/G0059
+mitre_id: G0059
+mitre_url: https://attack.mitre.org/groups/G0059
+source_name: MISP Galaxy
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt35
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+operations:
+- 2020-05
+- During a three-day period in May 2020
+- IBM X-Force IRIS discovered the 40 GBs of video and data files being uploaded to
+  a server that hosted numerous ITG18 domains used in earlier 2020 activity. Some
+  of the videos showed the operator managing adversary-created accounts while others
+  showed the operator testing access and exfiltrating data from previously compromised
+  accounts.
+- https://securityintelligence.com/posts/new-research-exposes-iranian-threat-group-operations/
+malware:
+- Back Orifice
+- Back Orifice 2000
+software:
+- name: Net
+  mitre_id: S0039
+  url: https://attack.mitre.org/software/S0039
+  type: tool
+  stix_id: tool--03342581-f790-4f03-ba41-e82e67392e23
+  description: |-
+    The Net utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)
+
+    Net has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through SMB/Windows Admin Shares using <code>net use</code> commands, and interacting with services. The net1.exe
+- name: Impacket
+  mitre_id: S0357
+  url: https://attack.mitre.org/software/S0357
+  type: tool
+  stix_id: tool--26c87906-d750-42c5-946c-d4162c73fc7b
+  description: 'Impacket is an open source collection of modules written in Python
+    for programmatically constructing and manipulating network protocols. Impacket
+    contains several tools for remote service execution, Kerberos manipulation, Windows
+    credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)'
+- name: Ping
+  mitre_id: S0097
+  url: https://attack.mitre.org/software/S0097
+  type: tool
+  stix_id: tool--b77b563c-34bb-4fb8-86a3-3694338f7b47
+  description: 'Ping is an operating system utility commonly used to troubleshoot
+    and verify network connections. (Citation: TechNet Ping)'
+- name: CharmPower
+  mitre_id: S0674
+  url: https://attack.mitre.org/software/S0674
+  type: malware
+  stix_id: malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4
+  description: 'CharmPower is a PowerShell-based, modular backdoor that has been used
+    by Magic Hound since at least 2022.(Citation: Check Point APT35 CharmPower January
+    2022)'
+- name: FRP
+  mitre_id: S1144
+  url: https://attack.mitre.org/software/S1144
+  type: tool
+  stix_id: tool--36dd807e-b5bc-4c3e-91ed-80682360148c
+  description: 'FRP, which stands for Fast Reverse Proxy, is an openly available tool
+    that is capable of exposing a server located behind a firewall or Network Address
+    Translation (NAT) to the Internet. FRP can support multiple protocols including
+    TCP, UDP, and HTTP(S) and has been abused by threat actors to proxy command and
+    control communications.(Citation: FRP GitHub)(Citation: Joint Cybersecurity Advisory
+    Volt Typhoon June 2023)(Citation: RedCanary Mockingbird May 2020)(Citation: DFIR
+    Phosphorus November 202'
+- name: Mimikatz
+  mitre_id: S0002
+  url: https://attack.mitre.org/software/S0002
+  type: tool
+  stix_id: tool--afc079f3-c0ea-4096-b75d-3f05338b7f60
+  description: 'Mimikatz is a credential dumper capable of obtaining plaintext Windows
+    account logins and passwords, along with many other features that make it useful
+    for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity
+    Mimikatz Guide)'
+- name: Systeminfo
+  mitre_id: S0096
+  url: https://attack.mitre.org/software/S0096
+  type: tool
+  stix_id: tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1
+  description: 'Systeminfo is a Windows utility that can be used to gather detailed
+    information about a computer. (Citation: TechNet Systeminfo)'
+- name: ipconfig
+  mitre_id: S0100
+  url: https://attack.mitre.org/software/S0100
+  type: tool
+  stix_id: tool--294e2560-bd48-44b2-9da2-833b5588ad11
+  description: 'ipconfig is a Windows utility that can be used to find information
+    about a system''s TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet
+    Ipconfig)'
+- name: netsh
+  mitre_id: S0108
+  url: https://attack.mitre.org/software/S0108
+  type: tool
+  stix_id: tool--5a63f900-5e7e-4928-a746-dd4558e1df71
+  description: 'netsh is a scripting utility used to interact with networking components
+    on local or remote systems. (Citation: TechNet Netsh)'
+- name: PowerLess
+  mitre_id: S1012
+  url: https://attack.mitre.org/software/S1012
+  type: malware
+  stix_id: malware--35ee9bf3-264b-4411-8a8f-b58cec8f35e4
+  description: 'PowerLess is a PowerShell-based modular backdoor that has been used
+    by Magic Hound since at least 2022.(Citation: Cybereason PowerLess February 2022)'
+- name: Pupy
+  mitre_id: S0192
+  url: https://attack.mitre.org/software/S0192
+  type: tool
+  stix_id: tool--cb69b20d-56d0-41ab-8440-4a4b251614d4
+  description: 'Pupy is an open source, cross-platform (Windows, Linux, OSX, Android)
+    remote administration and post-exploitation tool. (Citation: GitHub Pupy) It is
+    written in Python and can be generated as a payload in several different ways
+    (Windows exe, Python file, PowerShell oneliner/file, Linux elf, APK, Rubber Ducky,
+    etc.). (Citation: GitHub Pupy) Pupy is publicly available on GitHub. (Citation:
+    GitHub Pupy)'
+- name: DownPaper
+  mitre_id: S0186
+  url: https://attack.mitre.org/software/S0186
+  type: malware
+  stix_id: malware--e48df773-7c95-4a4c-ba70-ea3d15900148
+  description: 'DownPaper is a backdoor Trojan; its main functionality is to download
+    and run second stage malware. (Citation: ClearSky Charming Kitten Dec 2017)'
+- name: PsExec
+  mitre_id: S0029
+  url: https://attack.mitre.org/software/S0029
+  type: tool
+  stix_id: tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db
+  description: 'PsExec is a free Microsoft tool that can be used to execute a program
+    on another computer. It is used by IT administrators and attackers.(Citation:
+    Russinovich Sysinternals)(Citation: SANS PsExec)'
+ttps:
+- technique_id: T1056.001
+  technique_name: Keylogging
+  url: https://attack.mitre.org/techniques/T1056/001
+  stix_id: attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4
+- technique_id: T1567
+  technique_name: Exfiltration Over Web Service
+  url: https://attack.mitre.org/techniques/T1567
+  stix_id: attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807
+- technique_id: T1589.001
+  technique_name: Credentials
+  url: https://attack.mitre.org/techniques/T1589/001
+  stix_id: attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161
+- technique_id: T1547.001
+  technique_name: Registry Run Keys / Startup Folder
+  url: https://attack.mitre.org/techniques/T1547/001
+  stix_id: attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279
+- technique_id: T1059.001
+  technique_name: PowerShell
+  url: https://attack.mitre.org/techniques/T1059/001
+  stix_id: attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736
+- technique_id: T1016.002
+  technique_name: Wi-Fi Discovery
+  url: https://attack.mitre.org/techniques/T1016/002
+  stix_id: attack-pattern--494ab9f0-36e0-4b06-b10d-57285b040a06
+- technique_id: T1588.002
+  technique_name: Tool
+  url: https://attack.mitre.org/techniques/T1588/002
+  stix_id: attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0
+- technique_id: T1584.001
+  technique_name: Domains
+  url: https://attack.mitre.org/techniques/T1584/001
+  stix_id: attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba
+- technique_id: T1059.003
+  technique_name: Windows Command Shell
+  url: https://attack.mitre.org/techniques/T1059/003
+  stix_id: attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62
+- technique_id: T1572
+  technique_name: Protocol Tunneling
+  url: https://attack.mitre.org/techniques/T1572
+  stix_id: attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b
+- technique_id: T1585.002
+  technique_name: Email Accounts
+  url: https://attack.mitre.org/techniques/T1585/002
+  stix_id: attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a
+- technique_id: T1591.001
+  technique_name: Determine Physical Locations
+  url: https://attack.mitre.org/techniques/T1591/001
+  stix_id: attack-pattern--ed730f20-0e44-48b9-85f8-0e2adeb76867
+- technique_id: T1071
+  technique_name: Application Layer Protocol
+  url: https://attack.mitre.org/techniques/T1071
+  stix_id: attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6
+- technique_id: T1071.001
+  technique_name: Web Protocols
+  url: https://attack.mitre.org/techniques/T1071/001
+  stix_id: attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161
+- technique_id: T1486
+  technique_name: Data Encrypted for Impact
+  url: https://attack.mitre.org/techniques/T1486
+  stix_id: attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0
+- technique_id: T1016.001
+  technique_name: Internet Connection Discovery
+  url: https://attack.mitre.org/techniques/T1016/001
+  stix_id: attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc
+- technique_id: T1586.002
+  technique_name: Email Accounts
+  url: https://attack.mitre.org/techniques/T1586/002
+  stix_id: attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b
+- technique_id: T1053.005
+  technique_name: Scheduled Task
+  url: https://attack.mitre.org/techniques/T1053/005
+  stix_id: attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9
+- technique_id: T1592.002
+  technique_name: Software
+  url: https://attack.mitre.org/techniques/T1592/002
+  stix_id: attack-pattern--baf60e1a-afe5-4d31-830f-1b1ba2351884
+- technique_id: T1021.001
+  technique_name: Remote Desktop Protocol
+  url: https://attack.mitre.org/techniques/T1021/001
+  stix_id: attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf
+- technique_id: T1087.003
+  technique_name: Email Account
+  url: https://attack.mitre.org/techniques/T1087/003
+  stix_id: attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470
+- technique_id: T1105
+  technique_name: Ingress Tool Transfer
+  url: https://attack.mitre.org/techniques/T1105
+  stix_id: attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add
+- technique_id: T1190
+  technique_name: Exploit Public-Facing Application
+  url: https://attack.mitre.org/techniques/T1190
+  stix_id: attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c
+- technique_id: T1204.002
+  technique_name: Malicious File
+  url: https://attack.mitre.org/techniques/T1204/002
+  stix_id: attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e
+- technique_id: T1218.011
+  technique_name: Rundll32
+  url: https://attack.mitre.org/techniques/T1218/011
+  stix_id: attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5
+- technique_id: T1027.010
+  technique_name: Command Obfuscation
+  url: https://attack.mitre.org/techniques/T1027/010
+  stix_id: attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377
+- technique_id: T1046
+  technique_name: Network Service Discovery
+  url: https://attack.mitre.org/techniques/T1046
+  stix_id: attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88
+- technique_id: T1590.005
+  technique_name: IP Addresses
+  url: https://attack.mitre.org/techniques/T1590/005
+  stix_id: attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3
+- technique_id: T1113
+  technique_name: Screen Capture
+  url: https://attack.mitre.org/techniques/T1113
+  stix_id: attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688
+- technique_id: T1573
+  technique_name: Encrypted Channel
+  url: https://attack.mitre.org/techniques/T1573
+  stix_id: attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118
+- technique_id: T1059.005
+  technique_name: Visual Basic
+  url: https://attack.mitre.org/techniques/T1059/005
+  stix_id: attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67
+- technique_id: T1685.001
+  technique_name: Disable or Modify Windows Event Log
+  url: https://attack.mitre.org/techniques/T1685/001
+  stix_id: attack-pattern--1411e6b8-80a6-4465-9909-54eaa9c67ce0
+- technique_id: T1595.002
+  technique_name: Vulnerability Scanning
+  url: https://attack.mitre.org/techniques/T1595/002
+  stix_id: attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4
+- technique_id: T1036.010
+  technique_name: Masquerade Account Name
+  url: https://attack.mitre.org/techniques/T1036/010
+  stix_id: attack-pattern--d349c66e-18e1-4d8b-a2d7-65af7cbd2ba0
+- technique_id: T1589.002
+  technique_name: Email Addresses
+  url: https://attack.mitre.org/techniques/T1589/002
+  stix_id: attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262
+- technique_id: T1204.001
+  technique_name: Malicious Link
+  url: https://attack.mitre.org/techniques/T1204/001
+  stix_id: attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9
+- technique_id: T1102.002
+  technique_name: Bidirectional Communication
+  url: https://attack.mitre.org/techniques/T1102/002
+  stix_id: attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4
+- technique_id: T1033
+  technique_name: System Owner/User Discovery
+  url: https://attack.mitre.org/techniques/T1033
+  stix_id: attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104
+- technique_id: T1098.002
+  technique_name: Additional Email Delegate Permissions
+  url: https://attack.mitre.org/techniques/T1098/002
+  stix_id: attack-pattern--e74de37c-a829-446c-937d-56a44f0e9306
+- technique_id: T1070.004
+  technique_name: File Deletion
+  url: https://attack.mitre.org/techniques/T1070/004
+  stix_id: attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c
+- technique_id: T1027.013
+  technique_name: Encrypted/Encoded File
+  url: https://attack.mitre.org/techniques/T1027/013
+  stix_id: attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144
+- technique_id: T1566.002
+  technique_name: Spearphishing Link
+  url: https://attack.mitre.org/techniques/T1566/002
+  stix_id: attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7
+- technique_id: T1078.001
+  technique_name: Default Accounts
+  url: https://attack.mitre.org/techniques/T1078/001
+  stix_id: attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d
+- technique_id: T1083
+  technique_name: File and Directory Discovery
+  url: https://attack.mitre.org/techniques/T1083
+  stix_id: attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18
+- technique_id: T1016
+  technique_name: System Network Configuration Discovery
+  url: https://attack.mitre.org/techniques/T1016
+  stix_id: attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0
+- technique_id: T1036.005
+  technique_name: Match Legitimate Resource Name or Location
+  url: https://attack.mitre.org/techniques/T1036/005
+  stix_id: attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2
+- technique_id: T1098.007
+  technique_name: Additional Local or Domain Groups
+  url: https://attack.mitre.org/techniques/T1098/007
+  stix_id: attack-pattern--3e6831b2-bf4c-4ae6-b328-2e7c6633b291
+- technique_id: T1598.003
+  technique_name: Spearphishing Link
+  url: https://attack.mitre.org/techniques/T1598/003
+  stix_id: attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230
+- technique_id: T1049
+  technique_name: System Network Connections Discovery
+  url: https://attack.mitre.org/techniques/T1049
+  stix_id: attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475
+- technique_id: T1114
+  technique_name: Email Collection
+  url: https://attack.mitre.org/techniques/T1114
+  stix_id: attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f
+- technique_id: T1003.001
+  technique_name: LSASS Memory
+  url: https://attack.mitre.org/techniques/T1003/001
+  stix_id: attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90
+- technique_id: T1570
+  technique_name: Lateral Tool Transfer
+  url: https://attack.mitre.org/techniques/T1570
+  stix_id: attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5
+- technique_id: T1136.001
+  technique_name: Local Account
+  url: https://attack.mitre.org/techniques/T1136/001
+  stix_id: attack-pattern--635cbe30-392d-4e27-978e-66774357c762
+- technique_id: T1057
+  technique_name: Process Discovery
+  url: https://attack.mitre.org/techniques/T1057
+  stix_id: attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580
+- technique_id: T1114.002
+  technique_name: Remote Email Collection
+  url: https://attack.mitre.org/techniques/T1114/002
+  stix_id: attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a
+- technique_id: T1571
+  technique_name: Non-Standard Port
+  url: https://attack.mitre.org/techniques/T1571
+  stix_id: attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18
+- technique_id: T1686.003
+  technique_name: Windows Host Firewall
+  url: https://attack.mitre.org/techniques/T1686/003
+  stix_id: attack-pattern--291ede6c-1473-454c-b614-5ac5ea63c987
+- technique_id: T1070.003
+  technique_name: Clear Command History
+  url: https://attack.mitre.org/techniques/T1070/003
+  stix_id: attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a
+- technique_id: T1082
+  technique_name: System Information Discovery
+  url: https://attack.mitre.org/techniques/T1082
+  stix_id: attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1
+- technique_id: T1114.001
+  technique_name: Local Email Collection
+  url: https://attack.mitre.org/techniques/T1114/001
+  stix_id: attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004
+- technique_id: T1505.003
+  technique_name: Web Shell
+  url: https://attack.mitre.org/techniques/T1505/003
+  stix_id: attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb
+- technique_id: T1090
+  technique_name: Proxy
+  url: https://attack.mitre.org/techniques/T1090
+  stix_id: attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea
+- technique_id: T1036.004
+  technique_name: Masquerade Task or Service
+  url: https://attack.mitre.org/techniques/T1036/004
+  stix_id: attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c
+- technique_id: T1583.001
+  technique_name: Domains
+  url: https://attack.mitre.org/techniques/T1583/001
+  stix_id: attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3
+- technique_id: T1018
+  technique_name: Remote System Discovery
+  url: https://attack.mitre.org/techniques/T1018
+  stix_id: attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735
+- technique_id: T1112
+  technique_name: Modify Registry
+  url: https://attack.mitre.org/techniques/T1112
+  stix_id: attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4
+- technique_id: T1482
+  technique_name: Domain Trust Discovery
+  url: https://attack.mitre.org/techniques/T1482
+  stix_id: attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0
+- technique_id: T1589
+  technique_name: Gather Victim Identity Information
+  url: https://attack.mitre.org/techniques/T1589
+  stix_id: attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4
+- technique_id: T1078.002
+  technique_name: Domain Accounts
+  url: https://attack.mitre.org/techniques/T1078/002
+  stix_id: attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f
+- technique_id: T1566.003
+  technique_name: Spearphishing via Service
+  url: https://attack.mitre.org/techniques/T1566/003
+  stix_id: attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317
+- technique_id: T1560.001
+  technique_name: Archive via Utility
+  url: https://attack.mitre.org/techniques/T1560/001
+  stix_id: attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662
+- technique_id: T1585.001
+  technique_name: Social Media Accounts
+  url: https://attack.mitre.org/techniques/T1585/001
+  stix_id: attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928
+- technique_id: T1564.003
+  technique_name: Hidden Window
+  url: https://attack.mitre.org/techniques/T1564/003
+  stix_id: attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0
+- technique_id: T1005
+  technique_name: Data from Local System
+  url: https://attack.mitre.org/techniques/T1005
+  stix_id: attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5
+- technique_id: T1047
+  technique_name: Windows Management Instrumentation
+  url: https://attack.mitre.org/techniques/T1047
+  stix_id: attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055
+- technique_id: T1583.006
+  technique_name: Web Services
+  url: https://attack.mitre.org/techniques/T1583/006
+  stix_id: attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54
+- technique_id: T1685
+  technique_name: Disable or Modify Tools
+  url: https://attack.mitre.org/techniques/T1685
+  stix_id: attack-pattern--bbde9781-60aa-4b8a-a911-895b0c1b3872
+- technique_id: T1189
+  technique_name: Drive-by Compromise
+  url: https://attack.mitre.org/techniques/T1189
+  stix_id: attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6
+attck_techniques:
+- T1003.001
+- T1005
+- T1016
+- T1016.001
+- T1016.002
+- T1018
+- T1021.001
+- T1027.010
+- T1027.013
+- T1033
+- T1036.004
+- T1036.005
+- T1036.010
+- T1046
+- T1047
+- T1049
+- T1053.005
+- T1056.001
+- T1057
+- T1059.001
+- T1059.003
+- T1059.005
+- T1070.003
+- T1070.004
+- T1071
+- T1071.001
+- T1078.001
+- T1078.002
+- T1082
+- T1083
+- T1087.003
+- T1090
+- T1098.002
+- T1098.007
+- T1102.002
+- T1105
+- T1112
+- T1113
+- T1114
+- T1114.001
+- T1114.002
+- T1136.001
+- T1189
+- T1190
+- T1204.001
+- T1204.002
+- T1218.011
+- T1482
+- T1486
+- T1505.003
+- T1547.001
+- T1560.001
+- T1564.003
+- T1566.002
+- T1566.003
+- T1567
+- T1570
+- T1571
+- T1572
+- T1573
+- T1583.001
+- T1583.006
+- T1584.001
+- T1585.001
+- T1585.002
+- T1586.002
+- T1588.002
+- T1589
+- T1589.001
+- T1589.002
+- T1590.005
+- T1591.001
+- T1592.002
+- T1595.002
+- T1598.003
+- T1685
+- T1685.001
+- T1686.003
+attck_software:
+- S0002
+- S0029
+- S0039
+- S0096
+- S0097
+- S0100
+- S0108
+- S0186
+- S0192
+- S0357
+- S0674
+- S1012
+- S1144
+attck_references:
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G0059
+  external_id: G0059
+  description: ''
+sources:
+- source: mitre-attack
+  imported_at: '2026-10-27T17:28:50Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   aptnotes:
-    earliest_report_year: "2022"
-    latest_report_year: "2022"
+    earliest_report_year: '2022'
+    latest_report_year: '2022'
     report_count: 2
-    sample_links: ["https://app.box.com/s/q1943pvy0ps4oftxo5iad7ngt4py5y51","https://app.box.com/s/effdjg8nuddhq3e9ooywuesizw5b0e3w"]
-    sample_titles: ["Iranian-Aligned Threat Actor","APT35 Automates Initial Access Using ProxyShell"]
-    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
-    source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
-    sources: ["SentinelOne","TheDFIRreport"]
+    sample_links:
+    - https://app.box.com/s/q1943pvy0ps4oftxo5iad7ngt4py5y51
+    - https://app.box.com/s/effdjg8nuddhq3e9ooywuesizw5b0e3w
+    sample_titles:
+    - Iranian-Aligned Threat Actor
+    - APT35 Automates Initial Access Using ProxyShell
+    source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+    source_repository: https://github.com/aptnotes/data
+    source_retrieved_at: '2026-10-27T17:29:15Z'
+    sources:
+    - SentinelOne
+    - TheDFIRreport
+  etda_thai_group_cards:
+    source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
+    source_record_id: 71c32867-673e-424e-b38c-7d930b54cf4e
+    source_retrieved_at: '2026-10-27T17:18:12Z'
+    source_transforms:
+    - normalized-name
+    - deduplicated-aliases
+    - normalized-optional-fields
+    - adapted-for-threatactor-info
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "ta453"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta453"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
-    source_uuid: "c1d44f44-425e-48fd-b78b-84b988da8bc3"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: ta453
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/ta453
+    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_uuid: c1d44f44-425e-48fd-b78b-84b988da8bc3
   misp_galaxy:
-    meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
-    source_cluster: "microsoft-activity-group.json"
-    source_clusters: ["microsoft-activity-group.json","tidal-groups.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
-    source_record_id: "400cd1b8-52b7-5a5c-984f-9b4af35ea231"
-    source_record_ids: ["400cd1b8-52b7-5a5c-984f-9b4af35ea231","7a9d653c-8812-4b96-81d1-b0a27ca918b4"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    meta_keys:
+    - country
+    - microsoft-origin-threat
+    - refs
+    - sector
+    - synonyms
+    - group_attack_id
+    - observed_countries
+    - observed_motivations
+    - source
+    - tags
+    - target_categories
+    source_cluster: microsoft-activity-group.json
+    source_clusters:
+    - microsoft-activity-group.json
+    - tidal-groups.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json
+    source_record_id: 400cd1b8-52b7-5a5c-984f-9b4af35ea231
+    source_record_ids:
+    - 400cd1b8-52b7-5a5c-984f-9b4af35ea231
+    - 7a9d653c-8812-4b96-81d1-b0a27ca918b4
+    source_retrieved_at: '2026-10-27T17:28:59Z'
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0059"
-    source_retrieved_at: "2026-04-26T05:24:31Z"
+    attack_version: '20.0'
+    attack_version_by_domain:
+      enterprise: '20.0'
+      ics: '20.0'
+      mobile: '20.0'
+    relationships_imported_at: '2026-10-27T17:28:50Z'
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_urls:
+      enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+      ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
+      mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
+    source_record_id: G0059
+    source_retrieved_at: '2026-10-27T17:28:50Z'
+    stix_intrusion_set_id: intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13
+  reddrip7_apt_digital_weapon:
+    actor_folder: APT35
+    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT35/README.md
+    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT35/APT35_hash.md
+    source_attribution: Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon
+      and are treated as secondary, community-curated leads requiring independent
+      verification before operational use.
+    source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
+    source_retrieved_at: '2026-10-27T17:29:20Z'
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Agent Serpens

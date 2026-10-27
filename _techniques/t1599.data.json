@@ -42,7 +42,11 @@
   "groups": [
     {
       "name": "APT41",
-      "url": "/apt41"
+      "url": "/apt41/"
+    },
+    {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
     }
   ]
 }

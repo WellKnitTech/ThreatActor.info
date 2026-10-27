@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Medusa"
-aliases: ["Medusa Ransomware","Medusa","medusa"]
+aliases: ["Frozen Spider","Medusa","Medusa Ransomware","medusa"]
 description: "Medusa is a long-time presence in the ransomware scene that stepped up its activities in late 2024, pushing past its previous limits."
 permalink: /medusa/
 ---
@@ -30,9 +30,7 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
 | Virtualization | Citrix | NetScaler ADC & Gateway | CVE-2023-4966 |
-| Applications | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |
 | Network Edge | Fortinet | FortiClientEMS | CVE-2023-48788 |
-| Applications | SimpleHelp | SimpleHelp RMM | CVE-2024-57727 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
@@ -49,7 +47,7 @@ Medusa is a long-time presence in the ransomware scene that stepped up its activ
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Invoke-TheHash, Mimikatz |
-| Defense Evasion | EDRSandBlast, HRSword, KillAV, PCHunter, ProcessHacker, ThrottleStop driver |
+| Defense Evasion | EDRSandBlast, HRSword, KillAV, PCHunter, ProcessHacker, ThrottleStop driver (BYOVD) |
 | Discovery | Advanced IP Scanner, Advanced Port Scanner, Navicat, PDQ Inventory, RoboCopy, SoftPerfect NetScan |
 | Exfiltration | RClone |
 | LOLBAS | BITSAdmin, Process Explorer, PsExec |

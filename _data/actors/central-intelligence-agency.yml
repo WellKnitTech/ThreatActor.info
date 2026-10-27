@@ -5,7 +5,13 @@ url: "/central-intelligence-agency"
 country: "United States"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+operations: ["2018-09","Also see Subgroup: [Unnamed group USA].","The Central Intelligence Agency has conducted a series of covert cyber operations against Iran and other targets since winning a secret victory in 2018 when President Trump signed what amounts to a sweeping authorization for such activities","according to former U.S. officials with direct knowledge of the matter.","https://news.yahoo.com/secret-trump-order-gives-cia-more-powers-to-launch-cyberattacks-090015219.html"]
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "a3785768-7d9e-4cf7-9fed-77a2267a90d5"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   misp_galaxy:
     meta_keys: ["country","country_name","refs"]
     source_cluster: "intelligence-agencies.json"
@@ -13,4 +19,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
     source_record_id: "3dc6d97d-787c-57e6-a17b-d40ab53e3698"
     source_record_ids: ["3dc6d97d-787c-57e6-a17b-d40ab53e3698"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

@@ -1,5 +1,5 @@
 name: "Cleaver"
-aliases: ["Alibaba","APT 34","APT34","ATK40","Cleaver","Cobalt Gypsy","Crambus","Earth Simnavaz","EUROPIUM","Evasive Serpens","G0003","G0049","Hazel Sandstorm","HELIX KITTEN","Helix Kitten","IRN2","OilRig","Op Cleaver","Operation Cleaver","TA452","Tarh Andishan","TG-2889","Threat Group 2889","Twisted Kitten"]
+aliases: ["Alibaba","APT 34","APT34","ATK40","Cleaver","Cobalt Gypsy","Crambus","Earth Simnavaz","EUROPIUM","Evasive Serpens","G0003","G0049","Hazel Sandstorm","HELIX KITTEN","Helix Kitten","IRN2","OilRig","Op Cleaver","Operation Cleaver","TA452","Tarh Andishan","TG-2889","Threat Group 2889","Twisted Kitten","SOLAR ION"]
 description: "Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. [Cylance Cleaver](https://web.archive.org/web/20200302085133/https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). [Dell Threat Group 2889](http://www.secureworks.com/cyber-threat-intelligence/threats/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles/)"
 url: "/apt0003"
 country: "Iran"
@@ -80,6 +80,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2014"
@@ -89,27 +92,34 @@ provenance:
     sample_titles: ["Operation Cleaver: The Notepad Files"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Cylance"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "oilrig"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/oilrig"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "42be2a84-5a5c-4c6d-9864-3f09d75bb0ba"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0003"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "APT34"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT34/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT34/APT34_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
 source: "MITRE ATT&CK"

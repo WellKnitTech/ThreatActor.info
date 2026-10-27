@@ -1,0 +1,24 @@
+name: "Tempting Cedar Spyware"
+aliases: ["Tempting Cedar Spyware"]
+description: "(ZDNet) A hacking campaign used fake Facebook profiles to trick targets into downloading malware capable of stealing vast swathes of information, including messages, photos, audio recordings and even the exact location of victims. The group has been operating since as early as 2015 and is thought to have infected the Android phones of hundreds selected targets across the Middle East. The the highest concentration of infections is in Israel, but victims have also been seen in the US, China, Germany and France. Uncovered by researchers at Avast, the operation has been dubbed 'Tempting Cedar Spyware'. The name combines the main means of attack - by tricking victims using fake social media profiles purporting to be those of a young woman - with the Cedar tree, which features prominently on the flag of Lebanon. The campaign for distributing the malware begins with fake Facebook profiles which are designed to lure in victims - predominantly men - with 'flirty' conversations."
+url: "/tempting-cedar-spyware"
+country: "[\"Lebanon\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["Tempting Cedar Spyware"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "043904a1-321c-421b-86e6-1a8c7b638cbf"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Avast: ["Tempting Cedar Spyware"]
+    confidence: "Unknown"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "temptingcedarspyware"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "File Spider"
 aliases: ["Spider","File Spider"]
-description: "A new ransomware called File Spider is being distributed through spam that targets victims in Bosnia and Herzegovina, Serbia, and Croatia.  These spam emails contains malicious Word documents that will"
+description: "A new ransomware called File Spider is being distributed through spam that targets victims in Bosnia and Herzegovina, Serbia, and Croatia. These spam emails contains malicious Word documents that will "
 permalink: /file-spider/
 ---
 

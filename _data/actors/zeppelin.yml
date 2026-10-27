@@ -2,8 +2,10 @@ name: "Zeppelin"
 aliases: ["Zeppelin"]
 description: "ransomware"
 url: "/zeppelin"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/zeppelin"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +14,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "bc62429c-1bf7-42c0-997d-d8c2f80355de"
     source_record_ids: ["bc62429c-1bf7-42c0-997d-d8c2f80355de"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "CISA Alert aa22-223a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-223a"
+        date: "11 August 2022"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md"]
+    source_label: "Zeppelin"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "zeppelin"
+  source_retrieved_at: "2026-10-27T17:19:52Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

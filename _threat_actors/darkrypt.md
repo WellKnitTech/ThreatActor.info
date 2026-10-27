@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Darkrypt"
-aliases: ["Darkrypt"]
+aliases: ["DarKrypt","Darkrypt","Yellow Dev 21"]
 description: "Darkrypt is an active extortion or ransomware group tracked by RansomLook."
 permalink: /darkrypt/
 ---
@@ -10,7 +10,11 @@ permalink: /darkrypt/
 Darkrypt is an active extortion or ransomware group tracked by RansomLook.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇮🇷 Iran
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ Darkrypt is an active extortion or ransomware group tracked by RansomLook.
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Iran
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

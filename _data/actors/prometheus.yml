@@ -4,6 +4,7 @@ description: "Ransomware written in .NET, apparently derived from the codebase o
 url: "/prometheus"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/prometheus"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "bcf0a9da-dca3-42c0-b875-59d434564fbb"
     source_record_ids: ["bcf0a9da-dca3-42c0-b875-59d434564fbb"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "prometheus"
+  source_retrieved_at: "2026-10-27T17:23:21Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

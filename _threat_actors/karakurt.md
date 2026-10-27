@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Karakurt"
-aliases: ["Karakurt Lair","Karakurt","Karakurt Team"]
+aliases: ["Gold Tomahawk","Karakurt","Karakurt Lair","Karakurt Team","Mushy Scorpius"]
 description: "Karakurt actors have employed a variety of tactics, techniques, and procedures (TTPs), creating significant challenges for defense and mitigation. Karakurt victims have not reported encryption of compr"
 permalink: /karakurt/
 ---
@@ -20,7 +20,9 @@ Karakurt actors have employed a variety of tactics, techniques, and procedures (
 **Suspected Victims**: Canada, Germany, United Kingdom, United States
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2022-09**
+- **Migration policy org confirms cyberattack after extortion group touts theft**
+- **https://therecord.media/migration-policy-org-confirms-cyberattack-after-extortion-group-touts-theft/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -29,6 +31,14 @@ Karakurt actors have employed a variety of tactics, techniques, and procedures (
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
+- **7-Zip**: 
+- **AnyDesk**: 
+- **Cobalt Strike**: 
+- **FileZilla**: 
+- **Living off the Land**: 
+- **Mimikatz**: 
+- **WinZip**: 
+
 ### Ransomware Tool Matrix observations
 
 | Category | Observed tools |

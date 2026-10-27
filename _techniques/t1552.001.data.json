@@ -31,60 +31,68 @@
   ],
   "groups": [
     {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
+    },
+    {
       "name": "APT33",
-      "url": "/apt0064"
+      "url": "/apt0064/"
     },
     {
       "name": "Fox Kitten",
-      "url": "/apt0117"
+      "url": "/apt0117/"
     },
     {
       "name": "TA505",
-      "url": "/cl0p"
+      "url": "/ta505/"
     },
     {
       "name": "FIN13",
-      "url": "/apt1016"
+      "url": "/apt1016/"
     },
     {
       "name": "Indrik Spider",
-      "url": "/apt0119"
+      "url": "/apt0119/"
     },
     {
       "name": "APT3",
-      "url": "/apt0022"
+      "url": "/apt0022/"
+    },
+    {
+      "name": "ShinyHunters",
+      "url": "/shinyhunters/"
     },
     {
       "name": "Leafminer",
-      "url": "/apt0077"
+      "url": "/apt0077/"
     },
     {
       "name": "Kimsuky",
-      "url": "/apt0094"
+      "url": "/apt0094/"
     },
     {
       "name": "RedCurl",
-      "url": "/apt1039"
+      "url": "/apt1039/"
     },
     {
       "name": "OilRig",
-      "url": "/apt34"
+      "url": "/oilrig/"
     },
     {
       "name": "Ember Bear",
-      "url": "/apt1003"
+      "url": "/apt1003/"
     },
     {
       "name": "TeamTNT",
-      "url": "/apt0139"
+      "url": "/apt0139/"
     },
     {
       "name": "MuddyWater",
-      "url": "/apt0069"
+      "url": "/apt0069/"
     },
     {
       "name": "Scattered Spider",
-      "url": "/apt1015"
+      "url": "/apt1015/"
     }
   ]
 }

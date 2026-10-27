@@ -4,6 +4,7 @@ description: "According to numerous open-source reports, a widespread ransomware
 url: "/wannacry"
 first_seen: "2017"
 last_activity: "2017"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware:
@@ -18,7 +19,7 @@ provenance:
     sample_titles: ["Investigation: WannaCry cyber attack and the NHS"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["NAO UK"]
   misp_galaxy:
     meta_keys: ["date","payment-method","price","refs","synonyms"]
@@ -27,4 +28,34 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "d62ab8d5-4ba1-4c45-8a63-13fdb099b33c"
     source_record_ids: ["d62ab8d5-4ba1-4c45-8a63-13fdb099b33c"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "kelacyber.com"
+        url: "https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sentinelone.com"
+        url: "https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Microsoft.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Microsoft.md"]
+    source_label: "WannaCry"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "SMBv1"
+          cves: ["CVE-2017-0144"]
+          source_links: ["https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"]
+          source_file: "Vulnerabilities/Microsoft.md"

@@ -13,12 +13,16 @@
   ],
   "groups": [
     {
+      "name": "APT38",
+      "url": "/apt0082/"
+    },
+    {
       "name": "RedCurl",
-      "url": "/apt1039"
+      "url": "/apt1039/"
     },
     {
       "name": "FIN4",
-      "url": "/apt0085"
+      "url": "/apt0085/"
     }
   ]
 }

@@ -26,51 +26,59 @@
   "groups": [
     {
       "name": "GOLD SOUTHFIELD",
-      "url": "/apt0115"
+      "url": "/apt0115/"
+    },
+    {
+      "name": "UNC1549",
+      "url": "/unc1549/"
     },
     {
       "name": "APT28",
-      "url": "/apt28"
+      "url": "/apt28/"
     },
     {
       "name": "Threat Group-3390",
-      "url": "/apt0027"
+      "url": "/apt0027/"
     },
     {
       "name": "Sandworm Team",
-      "url": "/apt0034"
+      "url": "/apt0034/"
     },
     {
       "name": "menuPass",
-      "url": "/apt0045"
+      "url": "/apt0045/"
     },
     {
       "name": "RedCurl",
-      "url": "/apt1039"
+      "url": "/apt1039/"
     },
     {
       "name": "APT29",
-      "url": "/apt29"
+      "url": "/apt29/"
     },
     {
       "name": "POLONIUM",
-      "url": "/apt1005"
+      "url": "/apt1005/"
     },
     {
       "name": "HAFNIUM",
-      "url": "/apt0125"
+      "url": "/apt0125/"
     },
     {
       "name": "LAPSUS$",
-      "url": "/apt1004"
+      "url": "/apt1004/"
     },
     {
-      "name": "VOID MANTICORE",
-      "url": "/void-manticore"
+      "name": "Void Manticore",
+      "url": "/void-manticore/"
     },
     {
       "name": "Sea Turtle",
-      "url": "/apt1041"
+      "url": "/apt1041/"
+    },
+    {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
     }
   ]
 }

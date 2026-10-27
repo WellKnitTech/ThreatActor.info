@@ -1,0 +1,14 @@
+name: "Operation Tainted Love"
+aliases: ["Operation Tainted Love"]
+description: "(SentinelLabs) In Q1 of 2023, SentinelLabs observed initial phases of attacks against telecommunication providers in the Middle East. We assess that this activity represents an evolution of tooling associated with Operation Soft Cell. While it is highly likely that the threat actor is a Chinese cyberespionage group in the nexus of 'Gallium' and 'APT 41', the exact grouping remains unclear. SentinelLabs observed the use of a well-maintained, versioned credential theft capability and a new dropper mechanism indicative of an ongoing development effort by a highly-motivated threat actor with specific tasking requirements."
+url: "/operation-tainted-love"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["Mimikatz","mim221"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "b448d346-fdb1-48b3-bb8c-7600652af3a0"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

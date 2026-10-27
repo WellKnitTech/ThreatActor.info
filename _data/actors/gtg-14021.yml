@@ -1,0 +1,26 @@
+name: "GTG-14021"
+aliases: ["GTG-14021"]
+description: "Disrupting a China-based public and state security campaign of \"stability maintenance\" surveillance and transnational repression"
+url: "/gtg-14021"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-14021"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "China Chopper"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gtg-14021"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-14021"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "6f8a7a90-7062-49be-b3aa-c87c58eec869"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "6f8a7a90-7062-49be-b3aa-c87c58eec869"
+    source_record_ids: ["6f8a7a90-7062-49be-b3aa-c87c58eec869"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

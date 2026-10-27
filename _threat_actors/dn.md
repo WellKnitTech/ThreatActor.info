@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "DN"
 aliases: ["Fake","DN"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  Uses the name “Chrome Update” to confuse its victims. Then imitates the chrome update process ,while encrypting the file"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. Uses the name “Chrome Update” to confuse its victims. Then imitates the chrome update process ,while encrypting the files"
 permalink: /dn/
 ---
 

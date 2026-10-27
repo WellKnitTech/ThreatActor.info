@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DarkPink"
-aliases: ["Saaiwc","DarkPink","Saaiwc Group","Dark PInk"]
+aliases: ["Dark PInk","DarkPink","Saaiwc","Saaiwc Group","Dark Pink","APT-LY-1005"]
 description: "DarkPink is an APT group that has been active since mid-2021, primarily targeting government, military, and non-profit organizations in Southeast Asia and Europe. The group employs spear phishing techn"
 permalink: /darkpink/
 ---
@@ -19,7 +19,9 @@ DarkPink is an APT group that has been active since mid-2021, primarily targetin
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2023-02**
+- **Dark Pink APT Group Strikes Government Entities in South Asian Countries**
+- **https://blog.eclecticiq.com/dark-pink-apt-group-strikes-government-entities-in-south-asian-countries**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -38,6 +40,13 @@ DarkPink is an APT group that has been active since mid-2021, primarily targetin
 - **Cyber Eye RAT**
 - **Xploit**
 - **PowerRAT**
+- **Ctealer**: 
+- **Cucky**: 
+- **KamiKakaBot**: 
+- **Living off the Land**: 
+- **PowerSploit**: 
+- **TelePowerBot**: 
+- **ZMsg**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "direction nationale du renseignement territorial  (DNRT)"
 aliases: ["direction nationale du renseignement territorial ","direction nationale du renseignement territorial  (DNRT)"]
-description: "direction nationale du renseignement territorial  (DNRT)"
+description: "direction nationale du renseignement territorial (DNRT)"
 permalink: /direction-nationale-du-renseignement-territorial-dnrt/
 ---
 

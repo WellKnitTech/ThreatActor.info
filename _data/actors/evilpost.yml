@@ -2,6 +2,7 @@ name: "EvilPost"
 aliases: ["EvilPost"]
 description: "EvilPost is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/evilpost"
+country: "China"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/evilpost"
@@ -14,13 +15,23 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "unknown"
+  eternal_liberty:
+    aliases_by_entity:
+      Mandiant/FireEye: ["EvilPost"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "evilpost"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "evilpost"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/evilpost"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "9035bfbf-a73f-4948-9df2-bd893e9cafef"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

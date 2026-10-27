@@ -4,6 +4,7 @@ description: "Black Basta is a new ransomware strain discovered during April 202
 url: "/blackbasta"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/blackbasta"
 malware:
   - name: "BlackEnergy"
   - name: "BLACKCOFFEE"
@@ -87,4 +88,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "9db5f425-fe49-4137-8598-840e7290ed0f"
     source_record_ids: ["9db5f425-fe49-4137-8598-840e7290ed0f"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "blackbasta"
+  source_retrieved_at: "2026-10-27T17:22:43Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

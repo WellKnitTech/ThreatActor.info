@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Earth Yako"
-aliases: ["Operation RestyLink","Enelink","Earth Yako"]
+aliases: ["Earth Yako","Enelink","Operation Enelink","Operation RestyLink"]
 description: "Earth Yako is a threat actor that has been actively targeting researchers in academic organizations and think tanks in Japan. They use spearphishing emails with malicious attachments to gain initial ac"
 permalink: /earth-yako/
 ---
@@ -10,7 +10,11 @@ permalink: /earth-yako/
 Earth Yako is a threat actor that has been actively targeting researchers in academic organizations and think tanks in Japan. They use spearphishing emails with malicious attachments to gain initial access to their targets' systems. Earth Yako's objectives and patterns suggest a possible connection to a Chinese APT group, but conclusive proof of their nationality is lacking. They have been observed using various malware delivery methods and techniques, such as the use of Winword.exe for DLL Hijacking.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ Earth Yako is a threat actor that has been actively targeting researchers in aca
 - **Archelaus Beta**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

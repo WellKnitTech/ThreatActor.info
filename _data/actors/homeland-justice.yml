@@ -20,7 +20,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "homeland_justice"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/homeland_justice"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "bfc538e1-9205-420a-8641-6292023ecd08"
   misp_galaxy:
     meta_keys: ["country","refs"]
@@ -30,3 +30,10 @@ provenance:
     source_record_id: "bfc538e1-9205-420a-8641-6292023ecd08"
     source_record_ids: ["bfc538e1-9205-420a-8641-6292023ecd08"]
     source_retrieved_at: "2026-05-17T06:18:28Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Homeland Justice"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Homeland%20Justice/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Homeland%20Justice/Homeland%20Justice_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

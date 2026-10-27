@@ -34,6 +34,10 @@ Grayling activity was first observed in early 2023, when a number of victims wer
 - **Unknown Logger**
 - **UNITEDRAKE**
 - **Cobalt Strike**
+- **Cobalt Strike**: 
+- **Havoc**: 
+- **Mimikatz**: 
+- **NetSpy**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

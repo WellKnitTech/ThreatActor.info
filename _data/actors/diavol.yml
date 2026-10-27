@@ -2,8 +2,10 @@ name: "Diavol"
 aliases: ["Diavol"]
 description: "A ransomware with potential ties to Wizard Spider."
 url: "/diavol"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/diavol"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +14,24 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "6c4b88a4-64d6-4fa2-a552-99974794de16"
     source_record_ids: ["6c4b88a4-64d6-4fa2-a552-99974794de16"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "Diavol Ransomware"
+        url: "https://thedfirreport.com/2021/12/13/diavol-ransomware/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Diavol"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Discovery: ["AdFind","Advanced IP Scanner","ShareFinder"]
+      Exfiltration: ["FileZilla"]
+      OffSec: ["Cobalt Strike","Rubeus"]
+      RMM Tools: ["AnyDesk"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "diavol"
+  source_retrieved_at: "2026-10-27T17:19:47Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

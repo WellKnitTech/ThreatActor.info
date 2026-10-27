@@ -2,13 +2,31 @@ name: "Zola"
 aliases: ["Zola"]
 description: "Zola is an active extortion or ransomware group tracked by RansomLook."
 url: "/zola"
+last_updated: "2026-10-27"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/zola"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  ransomware_tool_matrix:
+    references:
+      - title: "www.acronis.com"
+        url: "https://www.acronis.com/en-us/cyber-protection-center/posts/zola-ransomware-the-many-faces-of-the-proton-family/"
+        date: "5 August 2024"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md"]
+    source_label: "Zola"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Defense Evasion: ["Defender Control","EMCO UnLock IT","ProcessHacker"]
+      Discovery: ["Advanced IP Scanner"]
+      LOLBAS: ["BCDEdit","Process Explorer"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "zola"
-  source_retrieved_at: "2026-05-06T22:00:34Z"
+  source_retrieved_at: "2026-10-27T17:22:05Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

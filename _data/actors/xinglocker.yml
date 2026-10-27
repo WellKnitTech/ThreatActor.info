@@ -2,8 +2,10 @@ name: "Xinglocker"
 aliases: ["Xinglocker"]
 description: "xing use a custom mountlocker exe"
 url: "/xinglocker"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/xinglocker"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +14,22 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "e92d5c00-81ae-4909-9994-74bf48180f22"
     source_record_ids: ["e92d5c00-81ae-4909-9994-74bf48180f22"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "IcedID to XingLocker Ransomware in 24 hours"
+        url: "https://thedfirreport.com/2021/10/18/icedid-to-xinglocker-ransomware-in-24-hours/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/DiscoveryEnum.md","Tools/Offsec.md"]
+    source_label: "XingLocker"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Discovery: ["AdFind","Bloodhound","PowerView","ShareFinder"]
+      OffSec: ["Cobalt Strike"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "xinglocker"
+  source_retrieved_at: "2026-10-27T17:20:27Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

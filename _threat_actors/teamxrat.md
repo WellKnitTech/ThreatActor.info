@@ -10,7 +10,11 @@ permalink: /teamxrat/
 Ransomware
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇧🇷 Brazil
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ Ransomware
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Brazil
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

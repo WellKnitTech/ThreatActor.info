@@ -1,5 +1,5 @@
 name: "TA578"
-aliases: ["TA578"]
+aliases: ["TA578","Honey Spider"]
 description: "TA578 is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including Latrodectus, IcedID, and Bumblebee. [Latrodectus APR 2024](https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice) [Bitsight Latrodectus June 2024](https://www.bitsight.com/blog/latrodectus-are-you-coming-back)"
 url: "/apt1038"
 confidence: "high"
@@ -63,34 +63,48 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Honey Spider"]
+      Proofpoint: ["TA578"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "ta578"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta578"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta578"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d1a8626a-06a5-4ecc-9519-e17fc6724f15"
   misp_galaxy:
-    meta_keys: ["refs","group_attack_id","observed_motivations","source"]
+    meta_keys: ["refs","group_attack_id","observed_motivations","source","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d1a8626a-06a5-4ecc-9519-e17fc6724f15"
     source_record_ids: ["d1a8626a-06a5-4ecc-9519-e17fc6724f15","b47551ba-8036-5527-abba-fed787c854a5"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1038"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--a5cfbc79-316c-42f2-915d-6e8fef4085f8"
 source: "MITRE ATT&CK"

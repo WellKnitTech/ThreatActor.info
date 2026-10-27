@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "ItaDuke"
-aliases: ["DarkUniverse","SIG27","ItaDuke"]
+aliases: ["DarkUniverse","ItaDuke","SIG27"]
 description: "ItaDuke is an actor known since 2013. It used PDF exploits for dropping malware and Twitter accounts to store C2 server urls. On 2018, an actor named DarkUniverse, which was active between 2009 to 2017"
 permalink: /itaduke/
 ---
@@ -30,6 +30,11 @@ ItaDuke is an actor known since 2013. It used PDF exploits for dropping malware 
 ## Malware and Tools
 - **Xploit**
 - **ItaDuke**: 
+- **dfrgntfs5.sqt**: 
+- **glue30.dll**: 
+- **msvcrt58.sqt**: 
+- **updater.mod**: 
+- **zl4vq.sqt**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

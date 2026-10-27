@@ -1,17 +1,170 @@
-name: "rhysida"
-aliases: ["rhysida"]
-description: "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads.\n\nThe group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development.\n\nThe ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin.\n\nAfter encryption, the ransomware appends the extension \".ryshida\" to encrypted files.\n\nFor encryption purposes, Trend Micro published an analysis stating that the ransomware uses a 4096-bit RSA key and AES-CTR for encryption.\n\nIn addition to the encryption method, Trend Micro published an analysis of the Ryshida Ransomware attack chain.\n\nFinally, the group has a website on the Tor network hosting the companies that have been breached."
+---
+name: rhysida
+aliases:
+- Rhysida
+- rhysida
+description: |-
+  Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads.
+
+  The group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development.
+
+  The ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin.
+
+  After encryption, the ransomware appends the extension ".ryshida" to encrypted files.
+
+  For encryption purposes, Trend Micro published an analysis stating that the ransomware uses a 4096-bit RSA key and AES-CTR for encryption.
+
+  In addition to the encryption method, Trend Micro published an analysis of the Ryshida Ransomware attack chain.
+
+  Finally, the group has a website on the Tor network hosting the companies that have been breached.
 url: "/rhysida"
-source_name: "MISP Galaxy"
-source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+last_updated: '2026-10-27'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+source_record_url: https://www.ransomlook.io/group/rhysida
 malware:
-  - name: "Cobalt Strike"
+- name: Cobalt Strike
 provenance:
   misp_galaxy:
-    meta_keys: ["TTP","extensions","links","refs"]
-    source_cluster: "ransomware.json"
-    source_clusters: ["ransomware.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
-    source_record_id: "00cfde20-21c2-547c-ae07-ff42da937b38"
-    source_record_ids: ["00cfde20-21c2-547c-ae07-ff42da937b38"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    meta_keys:
+    - TTP
+    - extensions
+    - links
+    - refs
+    source_cluster: ransomware.json
+    source_clusters:
+    - ransomware.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json
+    source_record_id: 00cfde20-21c2-547c-ae07-ff42da937b38
+    source_record_ids:
+    - 00cfde20-21c2-547c-ae07-ff42da937b38
+    source_retrieved_at: '2026-10-27T17:28:59Z'
+  ransomware_tool_matrix:
+    references:
+    - title: CISA Alert aa23-319a
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a
+      date: 15 November 2023
+      source_file: ThreatIntel/CISAThreatGroups.md
+    - title: www.fortinet.com
+      url: https://www.fortinet.com/content/dam/fortinet/assets/threat-reports/rhysida-ransomware-intrusion.pdf
+      date: 31 October 2023
+      source_file: ThreatIntel/ExtraThreatIntel.md
+    - title: research.checkpoint.com
+      url: https://research.checkpoint.com/2023/the-rhysida-ransomware-activity-analysis-and-ties-to-vice-society/
+      date: 8 August 2023
+      source_file: ThreatIntel/ExtraThreatIntel.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Ransomware
+      Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix
+      is used here as a secondary ransomware tradecraft reference, not as sole attribution
+      evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - ThreatIntel/CISAThreatGroups.md
+    - ThreatIntel/ExtraThreatIntel.md
+    - Tools/DiscoveryEnum.md
+    - Tools/Exfiltration.md
+    - Tools/LOLBAS.md
+    - Tools/Offsec.md
+    - Tools/RMM-Tools.md
+    source_label: Rhysida
+    source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:27:56Z'
+    tools_by_category:
+      Discovery:
+      - PowerView
+      Exfiltration:
+      - WinSCP
+      LOLBAS:
+      - NTDS Utility (ntdsutil)
+      - PsExec
+      - WMIC
+      - Windows Event Utility (wevtutil)
+      OffSec:
+      - Impacket
+      RMM Tools:
+      - AnyDesk
+  ransomware_vulnerability_matrix:
+    references:
+    - title: checkpoint.com
+      url: https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: cisa.gov
+      url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a
+      source_file: Vulnerabilities/Microsoft.md
+    - title: thedfirreport.com
+      url: https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: thedfirreport.com
+      url: https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: thedfirreport.com
+      url: https://thedfirreport.com/2025/04/28/navigating-through-the-fog/
+      source_file: Vulnerabilities/Microsoft.md
+    - title: welivesecurity.com
+      url: https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+      source_file: Vulnerabilities/Microsoft.md
+    source_attribution: Vulnerability observations were reviewed from the BushidoUK
+      Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix).
+      The matrix is used here as a secondary ransomware exploitation reference, not
+      as sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1
+    source_files:
+    - Vulnerabilities/Microsoft.md
+    source_label: Rhysida
+    source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
+    source_retrieved_at: '2026-10-27T17:28:00Z'
+    vulnerabilities_by_category:
+      Microsoft Products:
+      - vendor: Windows
+        product: NetLogon
+        cves:
+        - CVE-2020-1472
+        source_links:
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a
+        - https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware
+        - https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/
+        - https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a
+        - https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+        - https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a
+        - https://thedfirreport.com/2025/04/28/navigating-through-the-fog/
+        - https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/
+        source_file: Vulnerabilities/Microsoft.md
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: rhysida
+  source_retrieved_at: '2026-10-27T17:20:57Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Squeaking Scorpius

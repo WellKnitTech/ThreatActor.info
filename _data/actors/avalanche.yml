@@ -1,0 +1,25 @@
+name: "Avalanche"
+aliases: ["Avalanche"]
+description: "(US-CERT) Cyber criminals utilized Avalanche botnet infrastructure to host and distribute a variety of malware variants to victims, including the targeting of over 40 major financial institutions. Victims may have had their sensitive personal information stolen (e.g., user account credentials). Victims’ compromised systems may also have been used to conduct other malicious activity, such as launching denial-of-service (DoS) attacks or distributing malware variants to other victims’ computers. In addition, Avalanche infrastructure was used to run money mule schemes where criminals recruited people to commit fraud involving transporting and laundering stolen money or merchandise. Avalanche used fast-flux DNS, a technique to hide the criminal servers, behind a constantly changing network of compromised systems acting as proxies. Avalanche has been observed to distribute GozNym (operated by Bamboo Spider, TA544|used-by and much of the malware from 'TA505, Graceful Spider, Gold Evergreen'."
+url: "/avalanche"
+country: "[\"Russia\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["2010-05","Worst Phishing Pest May be Revving Up","https://www.pcworld.com/article/196304/worst_phishing_pest_may_be_revving_up.html"]
+malware: ["Avalanche"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "a38d7eda-65d6-4b6e-902f-9091bc4fb2e9"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Europol: ["Avalanche"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "avalanche"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"

@@ -1,9 +1,9 @@
 name: "Storm-2603"
-aliases: ["Storm-2603"]
+aliases: ["Storm-2603","Longlegs"]
 description: "The group Microsoft tracks as Storm-2603 is assessed with medium confidence to be a China-based threat actor. Microsoft has not identified links between Storm-2603 and other known Chinese threat actors. Microsoft tracks this threat actor in association with attempts to steal MachineKeys via the on-premises SharePoint vulnerabilities. Although Microsoft has observed this threat actor deploying Warlock and Lockbit ransomware in the past, Microsoft is currently unable to confidently assess the threat actor’s objectives.  Additional actors may use these exploits to target unpatched on-premises SharePoint systems, further emphasizing the need for organizations to implement mitigations and security updates immediately."
 url: "/storm-2603"
 country: "China"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-2603"
@@ -15,31 +15,85 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "storm-2603"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-2603"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "981402be-3b2d-4310-a7c6-c773aec869c1"
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-2603"
+    origin_category: "China"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm2603"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["country","origin:Storm-2603","refs","microsoft-origin-threat"]
+    meta_keys: ["country","origin:Storm-2603","refs","microsoft-origin-threat","name-attribution","synonyms"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "981402be-3b2d-4310-a7c6-c773aec869c1"
     source_record_ids: ["981402be-3b2d-4310-a7c6-c773aec869c1","afe95d2e-227c-59d3-918f-007163912e8f"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   ransomware_vulnerability_matrix:
     references:
+      - title: "linkedin.com"
+        url: "https://www.linkedin.com/pulse/pulling-back-curtain-warlocks-next-act-blacklotuslabs-lduze/"
+        source_file: "Vulnerabilities/Applications.md"
       - title: "microsoft.com"
         url: "https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/#storm-2603"
         source_file: "Vulnerabilities/Microsoft.md"
+      - title: "reliaquest.com"
+        url: "https://reliaquest.com/blog/threat-spotlight-storm-2603-exploits-CVE-2026-23760-to-stage-warlock-ransomware/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "sophos.com"
+        url: "https://www.sophos.com/en-us/blog/gold-salem-tradecraft-for-deploying-warlock-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
     source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
     source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
-    source_files: ["Vulnerabilities/Microsoft.md"]
+    source_files: ["GroupProfiles/WarLock.md","Vulnerabilities/Applications.md","Vulnerabilities/FileTransferServers.md","Vulnerabilities/Microsoft.md"]
     source_label: "Storm-2603"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
     vulnerabilities_by_category:
-      Microsoft Products:
+      Applications:
+        - vendor: "SmarterTools"
+          product: "SmarterMail"
+          cves: ["CVE-2026-23760"]
+          source_links: ["https://reliaquest.com/blog/threat-spotlight-storm-2603-exploits-CVE-2026-23760-to-stage-warlock-ransomware/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "SolarWinds"
+          product: "SolarWinds Web Help Desk"
+          cves: ["CVE-2025-40551"]
+          source_links: ["https://www.linkedin.com/pulse/pulling-back-curtain-warlocks-next-act-blacklotuslabs-lduze/"]
+          source_file: "Vulnerabilities/Applications.md"
+      File Transfer Servers:
+        - vendor: "CentreStack"
+          product: "Gladinet CentreStack"
+          cves: ["CVE-2025-14611"]
+          source_links: ["https://www.linkedin.com/pulse/pulling-back-curtain-warlocks-next-act-blacklotuslabs-lduze/"]
+          source_file: "Vulnerabilities/FileTransferServers.md"
+      Group Profile:
+        - vendor: "CentreStack"
+          product: "Gladinet CentreStack"
+          cves: ["CVE-2025-14611"]
+          source_links: ["https://www.linkedin.com/pulse/pulling-back-curtain-warlocks-next-act-blacklotuslabs-lduze/"]
+          source_file: "GroupProfiles/WarLock.md"
         - vendor: "MS Server Products"
           product: "SharePoint Server"
           cves: ["CVE-2025-49704","CVE-2025-49706"]
           source_links: ["https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/#storm-2603"]
+          source_file: "GroupProfiles/WarLock.md"
+        - vendor: "SmarterTools"
+          product: "SmarterMail"
+          cves: ["CVE-2026-23760"]
+          source_links: ["https://reliaquest.com/blog/threat-spotlight-storm-2603-exploits-CVE-2026-23760-to-stage-warlock-ransomware/"]
+          source_file: "GroupProfiles/WarLock.md"
+        - vendor: "SolarWinds"
+          product: "SolarWinds Web Help Desk"
+          cves: ["CVE-2025-40551"]
+          source_links: ["https://www.linkedin.com/pulse/pulling-back-curtain-warlocks-next-act-blacklotuslabs-lduze/"]
+          source_file: "GroupProfiles/WarLock.md"
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "SharePoint Server"
+          cves: ["CVE-2025-49704","CVE-2025-49706"]
+          source_links: ["https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/#storm-2603","https://www.sophos.com/en-us/blog/gold-salem-tradecraft-for-deploying-warlock-ransomware"]
           source_file: "Vulnerabilities/Microsoft.md"

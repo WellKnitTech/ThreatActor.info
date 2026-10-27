@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "KoKoKrypt Ransomware"
 aliases: ["KokoLocker  Ransomware","KoKoKrypt Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread by its creator in forums.  It encrypts all your files, including: music, MS Office, Open Office, pictures, "
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread by its creator in forums. It encrypts all your files, including: music, MS Office, Open Office, pictures, vi"
 permalink: /kokokrypt-ransomware/
 ---
 

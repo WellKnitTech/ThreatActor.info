@@ -8,19 +8,34 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_baxia"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Backdoor.Oldrea","China Chopper","RemoteCMD","Remote Utilities","RemotePC","Xploit","Cobalt Strike","CrossRat"]
+malware:
+  - "Backdoor.Oldrea"
+  - "China Chopper"
+  - "RemoteCMD"
+  - "Remote Utilities"
+  - "RemotePC"
+  - "Xploit"
+  - "Cobalt Strike"
+  - "CrossRat"
+  - name: "Cobalt Strike"
+  - name: "EAGLEDOOR"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "801794ef-8778-4b5c-8220-ee83554e35c2"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "earth_baxia"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_baxia"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d0c2cd99-64d5-406f-abd7-16b9e27966a7"
   misp_galaxy:
-    meta_keys: ["country","origin:Earth Baxia","refs"]
+    meta_keys: ["country","origin:Earth Baxia","refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d0c2cd99-64d5-406f-abd7-16b9e27966a7"
     source_record_ids: ["d0c2cd99-64d5-406f-abd7-16b9e27966a7"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

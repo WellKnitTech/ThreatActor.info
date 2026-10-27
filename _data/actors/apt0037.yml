@@ -1,5 +1,5 @@
 name: "FIN6"
-aliases: ["ATK88","Camouflage Tempest","FIN6","G0037","GOLD FRANKLIN","Gold Franklin","ITG08","Magecart Group 6","MageCart Group 6","Skeleton Spider","SKELETON SPIDER","Storm-0538","TA4557","TAAL","Trinity","White Giant"]
+aliases: ["ATK 88","ATK88","Camouflage Tempest","FIN6","G0037","GOLD FRANKLIN","Gold Franklin","ITG08","MageCart Group 6","Magecart Group 6","SKELETON SPIDER","SQUID COMET","Skeleton Spider","Storm-0538","TA4557","TAAL","TAG-CR2","Taal","Trinity","White Giant"]
 description: "FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors. [FireEye FIN6 April 2016](https://web.archive.org/web/20190807112824/https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf) [FireEye FIN6 Apr 2019](https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html)"
 url: "/apt0037"
 country: "Russia"
@@ -15,10 +15,30 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fin6"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2018","2019-01","2019-03","2019-04","2019-08","2019-09","2020-03","Altran decided to shut down its network and applications.","Based on Visa Payment Fraud Disruption’s (PFD) analysis of eCommerce compromises throughout 2018","Based on our investigation and analysis of its adversarial tactics","FIN6’s focus on the CNP environment has only amplified","Hackers have breached the infrastructure of Volusion","Hackers have infected the systems of Altran Technologies with malware that spread through the company network","Hexion/Momentive (a chemical manufacturer)","IBM X-Force Incident Response and Intelligence Services (IRIS) research believes that the elite cybercriminal threat actor ITG08","In a new and dangerous twist to this trend","Morphisec has been tracking multiple sophisticated attacks targeting Point of Sale thin clients globally. More specifically","Norsk Hydro","One of the largest aluminum producers in the world","Over the past 8-10 weeks","The Securonix Threat Research Team has been closely monitoring the LockerGoga targeted cyber sabotage/ransomware (TC/R) attacks impacting Norsk Hydro (one of the largest aluminum companies worldwide)","a provider of cloud-hosted online stores","affecting operations in some European countries. To protect client data and their own assets","also known as FIN6","and are delivering malicious code that records and steals payment card details entered by users in online forms.","and other companies’ IT and operational technology (OT) infrastructure","causing over US$40 million in damages.","has been forced to switch to partial manual operations due to a cyber attack that is allegedly pushing LockerGoga ransomware.","has partnered with the malware gang behind one of the most active Trojans — TrickBot — to use TrickBot’s new malware framework dubbed “Anchor” against organizations for financial profit.","http://blog.morphisec.com/new-global-attack-on-point-of-sale-systems","https://securityintelligence.com/posts/itg08-aka-fin6-partners-with-trickbot-gang-uses-anchor-framework/","https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/","https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf","https://www.bleepingcomputer.com/news/security/lockergoga-ransomware-sends-norsk-hydro-into-manual-mode/","https://www.bleepingcomputer.com/news/security/new-lockergoga-ransomware-allegedly-used-in-altran-attack/","https://www.securonix.com/securonix-threat-research-detecting-lockergoga-targeted-it-ot-cyber-sabotage-ransomware-attacks/","https://www.zdnet.com/article/card-data-from-the-volusion-web-skimmer-incident-surfaces-on-the-dark-web/","https://www.zdnet.com/article/hackers-breach-volusion-and-start-collecting-card-details-from-thousands-of-sites/","on the 6th of February we identified an extremely high number of prevention events stopping Cobalt Strike backdoor execution","suggesting that the cybercrime group has fully incorporated targeting CNP environments into their criminal methodology.","targeting specific employees with spear phishing emails advertising fake job advertisements and repeatedly deploying the More_eggs Jscript backdoor malware.","techniques and procedures (TTPs)","we believe ITG08 is actively attacking multinational organizations","with some of the attacks expressly targeting Point of Sale VMWare Horizon thin clients."]
 malware:
   - name: "FrameworkPoS"
   - name: "Vawtrak/Neverquest"
   - name: "Ransomware"
+  - name: "AbaddonPOS"
+  - name: "Anchor"
+  - name: "BlackPOS"
+  - name: "CmdSQL"
+  - name: "Cobalt Strike"
+  - name: "FlawedAmmyy"
+  - name: "Grateful POS"
+  - name: "JSPSPY"
+  - name: "Living off the Land"
+  - name: "LockerGoga"
+  - name: "Magecart"
+  - name: "Meterpreter"
+  - name: "Mimikatz"
+  - name: "More_eggs"
+  - name: "Ryuk"
+  - name: "SCRAPMINT"
+  - name: "TerraStealer"
+  - name: "Vawtrak"
+  - name: "Windows Credentials Editor"
 software:
   - name: "FlawedAmmyy"
     mitre_id: "S0381"
@@ -267,12 +287,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2018GlobalThreatReport.pdf","https://www.fireeye.com/blog/threat-research/2016/04/follow_the_money.html","https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf","https://webcache.googleusercontent.com/search?q=cache:wMkxJorBEKIJ:https://securityintelligence.com/x-force-iris-identifies-fin6-activity-on-pos-networks/+&cd=1&hl=en&ct=clnk&gl=uk&client=firefox-b","https://exchange.xforce.ibmcloud.com/collection/FIN6-Financial-Crime-Actor-f55930eb9f4438efe9101a618d6a8703","https://www.proofpoint.com/us/search/site?search_text=TA530&language=en","https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html","https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/","https://blog.trendmicro.com/trendlabs-security-intelligence/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "others"
   aptnotes:
     earliest_report_year: "2018"
@@ -282,35 +305,79 @@ provenance:
     sample_titles: ["Follow The Money: Dissecting the Operations of the Cyber Crime Group FIN"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["FireEye"]
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0037"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "61c8ecd4-e4e1-4f36-b209-ca55106ec22f"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Skeleton Spider"]
+      IBM: ["ITG08"]
+      MITRE: ["G0037"]
+      Mandiant/FireEye: ["FIN6"]
+      Microsoft: ["Taal","Camouflage Tempest"]
+      PWC: ["White Giant"]
+      Recorded Future: ["TAG-CR2"]
+      RiskIQ: ["Magecart Group 6"]
+      Secureworks: ["Gold Franklin"]
+      Thales: ["ATK88"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "fin6"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "fin6"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fin6"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "647894f6-1723-4cba-aba4-0ef0966d5302"
+  microsoft_threat_actor_list:
+    categories: ["Group in development"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-0538"
+    origin_category: "Group in development"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm0538"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["origin:FIN6","origin:GOLD FRANKLIN","origin:Storm-0538","origin:TA4557","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat"]
+    meta_keys: ["origin:FIN6","origin:GOLD FRANKLIN","origin:Storm-0538","origin:TA4557","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "647894f6-1723-4cba-aba4-0ef0966d5302"
     source_record_ids: ["647894f6-1723-4cba-aba4-0ef0966d5302","fcaadc12-7c17-4946-a9dc-976ed610854c","8ad930d9-fcdb-531b-827f-c4a05c36e152"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0037"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "FIN6"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/FIN6/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/FIN6/FIN6_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "trinity"
+  source_retrieved_at: "2026-10-27T17:26:05Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
 source: "MITRE ATT&CK"

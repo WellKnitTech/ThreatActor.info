@@ -1,5 +1,5 @@
 name: "BOSS SPIDER"
-aliases: ["GOLD LOWELL","BOSS SPIDER","Boss Spider","Gold lowell"]
+aliases: ["BOSS SPIDER","Boss Spider","CTG-0007","GOLD LOWELL","Gold Lowell","Gold lowell"]
 description: "Throughout 2018, CrowdStrike Intelligence tracked BOSS SPIDER as it regularly updated Samas ransomware and received payments to known Bitcoin (BTC) addresses. This consistent pace of activity came to an abrupt halt at the end of November 2018 when the U.S. DoJ released an indictment for Iran-based individuals Faramarz Shahi Savandi and Mohammad Mehdi Shah Mansouri, alleged members of the group."
 url: "/boss-spider"
 country: "Iran"
@@ -10,24 +10,44 @@ source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "SamSam"
+  - name: "Mimikatz"
+  - name: "PsExec"
+  - name: "SDelete"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.secureworks.com/research/samsam-ransomware-campaigns","https://www.crowdstrike.com/blog/an-in-depth-analysis-of-samsam-ransomware-and-boss-spider/","https://www.justice.gov/opa/pr/two-iranian-men-indicted-deploying-ransomware-extort-hospitals-municipalities-and-public","https://garwarner.blogspot.com/2018/11/two-iranian-hackers-charged-with-6.html"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "iran"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "cdf69db4-97ac-4cd2-a705-a4d5ab2d302e"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Boss Spider"]
+      SCWX CTU: ["CTG-0007"]
+      Secureworks: ["Gold Lowell"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "bossspider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "boss_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/boss_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d6a13387-4c98-4a0c-a516-6c36c081b64c"
   misp_galaxy:
-    meta_keys: ["origin:GOLD LOWELL","refs","synonyms"]
+    meta_keys: ["origin:GOLD LOWELL","refs","synonyms","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d6a13387-4c98-4a0c-a516-6c36c081b64c"
     source_record_ids: ["d6a13387-4c98-4a0c-a516-6c36c081b64c"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

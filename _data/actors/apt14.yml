@@ -1,5 +1,5 @@
 name: "APT14"
-aliases: ["ANCHOR PANDA","QAZTeam","ALUMINUM","APT14","APT-14","Anchor Panda"]
+aliases: ["ALUMINUM","ANCHOR PANDA","APT 14","APT-14","APT14","Aluminum","Anchor Panda","QAZTeam"]
 description: "PLA Navy\nAnchor Panda is an adversary that CrowdStrike has tracked extensively over the last year targeting both civilian and military maritime operations in the green/brown water regions primarily in the area of operations of the South Sea Fleet of the PLA Navy. In addition to maritime operations in this region, Anchor Panda also heavily targeted western companies in the US, Germany, Sweden, the UK, and Australia, and other countries involved in maritime satellite systems, aerospace companies, and defense contractors. \nNot surprisingly, embassies and diplomatic missions in the region, foreign intelligence services, and foreign governments with space programs were also targeted."
 url: "/apt14"
 country: "China"
@@ -17,24 +17,42 @@ malware:
   - name: "Adobe Gh0st"
   - name: "Poison Ivy"
   - name: "Torn RAT"
+  - name: "Gh0st RAT"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.crowdstrike.com/blog/whois-anchor-panda/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "7ba53b4a-91c1-4caa-83f9-2885fe30e9ed"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Anchor Panda"]
+      Mandiant/FireEye: ["APT14"]
+      Microsoft: ["Aluminum"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "apt14"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt14"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt14"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "c82c904f-b3b4-40a2-bf0d-008912953104"
   misp_galaxy:
-    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","motive","refs","synonyms","targeted-sector"]
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","motive","refs","synonyms","targeted-sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c82c904f-b3b4-40a2-bf0d-008912953104"
     source_record_ids: ["c82c904f-b3b4-40a2-bf0d-008912953104"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

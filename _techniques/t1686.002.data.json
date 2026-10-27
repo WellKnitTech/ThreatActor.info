@@ -25,8 +25,12 @@
   ],
   "groups": [
     {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
+    },
+    {
       "name": "APT38",
-      "url": "/apt0082"
+      "url": "/apt0082/"
     }
   ]
 }

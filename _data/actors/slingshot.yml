@@ -2,6 +2,7 @@ name: "Slingshot"
 aliases: ["Slingshot"]
 description: "While analysing an incident which involved a suspected keylogger, we identified a malicious library able to interact with a virtual file system, which is usually the sign of an advanced APT actor. This turned out to be a malicious loader internally named ‘Slingshot’, part of a new, and highly sophisticated attack platform that rivals Project Sauron and Regin in complexity.\nWhile for most victims the infection vector for Slingshot remains unknown, we were able to find several cases where the attackers got access to MikroTik routers and placed a component downloaded by Winbox Loader, a management suite for MikroTik routers. In turn, this infected the administrator of the router.\nWe believe this cluster of activity started in at least 2012 and was still active at the time of this analysis (February 2018)."
 url: "/slingshot"
+country: "[\"[Unknown]\"]"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slingshot"
@@ -21,24 +22,47 @@ malware:
   - name: "Sfc2"
   - name: "Minisling"
   - name: "Spork downloader"
+  - name: "WinBox (a utility used for MikroTik router configuration)"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/apt-slingshot/84312/","https://www.cyberscoop.com/kaspersky-slingshot-isis-operation-socom-five-eyes/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "nato"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "9161f856-9d42-4442-84ab-d0332cfbe8a4"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Kaspersky: ["Slingshot"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "slingshot"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "slingshot"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slingshot"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5"
     source_record_ids: ["4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Slingshot"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Slingshot/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Slingshot/Slingshot_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

@@ -1,5 +1,5 @@
 name: "Madi"
-aliases: ["Madi"]
+aliases: ["Madi","Mahdi"]
 description: "Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Control (C&C) servers to monitor the campaign. Kaspersky Lab and Seculert identified more than 800 victims located in Iran, Israel and select countries across the globe connecting to the C&Cs over the past eight months. Statistics from the sinkhole revealed that the victims were primarily business people working on Iranian and Israeli critical infrastructure projects, Israeli financial institutions, Middle Eastern engineering students, and various government agencies communicating in the Middle East.\nCommon applications and websites that were spied on include accounts on Gmail, Hotmail, Yahoo! Mail, ICQ, Skype, Google+, and Facebook. Surveillance is also performed over integrated ERP/CRM systems, business contracts, and financial management systems."
 url: "/madi"
 country: "Iran"
@@ -14,13 +14,16 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/madi"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["CrossRat"]
+operations: ["2012-07","Madi","New and Improved Madi Spyware Campaign Continues","appears to be making a comeback","complete with updates.","https://threatpost.com/new-and-improved-madi-spyware-campaign-continues-072512/76849/","the religiously-titled spyware that was discovered last week and thought to be dead"]
+malware:
+  - "CrossRat"
+  - name: "Madi"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/blog/incidents/33693/the-madi-campaign-part-i-5/","https://securelist.com/blog/incidents/33701/the-madi-campaign-part-ii-53/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "iran"
   aptnotes:
     earliest_report_year: "2012"
@@ -30,13 +33,28 @@ provenance:
     sample_titles: ["The 'Madi' Infostealers - A Detailed Analysis"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Kaspersky"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "2afc9634-8895-4535-bb80-8843d4830e04"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Kaspersky: ["Madi"]
+    confidence: "Low"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "mahdi"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "madi"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/madi"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","targeted-sector"]
@@ -45,4 +63,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"
     source_record_ids: ["d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

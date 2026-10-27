@@ -1,5 +1,5 @@
 name: "Killnet"
-aliases: ["Killnet"]
+aliases: ["Killnet","Blue Kurama","UAC-0108"]
 description: "A group targeting various countries using Denial of Services attacked."
 url: "/killnet"
 sector_focus: ["Government"]
@@ -16,11 +16,22 @@ malware:
   - name: "Small-Net"
   - name: "Archelaus Beta"
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      CERT-UA: ["UAC-0108"]
+      PWC: ["Blue Kurama"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "killnet"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Hacktivists"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "killnet"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/killnet"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "ad2d6946-1ec2-4d77-b864-39980af4e103"
   misp_galaxy:
     meta_keys: ["cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","refs","synonyms","group_attack_id","observed_countries","owner","source","tags","target_categories"]
@@ -29,4 +40,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ad2d6946-1ec2-4d77-b864-39980af4e103"
     source_record_ids: ["ad2d6946-1ec2-4d77-b864-39980af4e103","35fb7663-5c5d-43fe-a507-49612aa7960e"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

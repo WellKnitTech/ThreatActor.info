@@ -10,7 +10,11 @@ permalink: /storm-0324/
 The threat actor that Microsoft tracks as Storm-0324 is a financially motivated group known to gain initial access using email-based initial infection vectors and then hand off access to compromised networks to other threat actors. These handoffs frequently lead to ransomware deployment.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇷🇺 Russia
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ The threat actor that Microsoft tracks as Storm-0324 is a financially motivated 
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

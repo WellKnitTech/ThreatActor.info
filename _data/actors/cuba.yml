@@ -1,9 +1,11 @@
 name: "Cuba"
-aliases: ["COLDDRAW","Fidel","Cuba"]
+aliases: ["COLDDRAW","Cuba","Fidel"]
 description: "The Cuba Ransomware, also known as Colddraw Ransomware, was first identified in the threat landscape in 2019 and built a relatively small but selected list of victims. The group is also known as Fidel Ransomware, due to a characteristic marker placed at the beginning of all encrypted files. This file marker is used as an indicator for the ransomware and its decoder that the file has been encrypted.\nDespite its name and the Cuban nationalist style on its leak site, it is difficult to assert any connection or affiliation with the Republic of Cuba. The group has been linked to a Russian-language threat actor by Profero researchers due to some details of incorrect translation they discovered, as well as the discovery of a 404 page containing text in Russian on the threat actor's own leak site.\nAccording to BlackBerry, based on the analysis of the code strings used in the campaign analyzed in 2023, there were indications that the developer behind the Cuba ransomware speaks Russian.\nThe ransomware operators use a double extortion approach, and following the USA, in August 2022, it was believed that the Cuba ransomware group had compromised 101 entities, demanding $145 million in ransom payments and receiving up to $60 million.\nThe group used a similar set of TTPs, with only a slight change each year, as they generally consist of LOLBins (executables that are part of the operating system and can be exploited to support an attack), exploits, off-the-shelf and custom malware, as well as intrusion tools like Cobalt Strike and Metasploit.\nIn 2022, the group allegedly developed a relationship with operators of the Industrial Spy market, using their platform as a means of data leakage."
 url: "/cuba"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/cuba"
 malware:
   - name: "BlackEnergy"
   - name: "BLACKCOFFEE"
@@ -22,4 +24,160 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "82ed1669-89ba-4432-bc97-148a25c15fdf"
     source_record_ids: ["82ed1669-89ba-4432-bc97-148a25c15fdf"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "securelist.com"
+        url: "https://securelist.com/cuba-ransomware/110533/"
+        date: "11 September 2023"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "CISA Alert aa22-335a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        date: "5 January 2023"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+      - title: "Ransomware Spotlight: Cuba"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-cuba"
+        date: "7 December 2022"
+        source_file: "ThreatIntel/TrendMicroThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","ThreatIntel/TrendMicroThreatGroups.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Cuba"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz"]
+      Defense Evasion: ["Avast Anti-Rootkit driver"]
+      LOLBAS: ["PsExec"]
+      Networking: ["Termite"]
+      OffSec: ["Cobalt Strike","Meterpreter"]
+      RMM Tools: ["NetSupport"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "blogs.blackberry.com"
+        url: "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "checkpoint.com"
+        url: "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "group-ib.com"
+        url: "https://www.group-ib.com/blog/qilin-revisited/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "kroll.com"
+        url: "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "labs.withsecure.com"
+        url: "https://labs.withsecure.com/publications/fin7-target-veeam-servers"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "microsoft.com"
+        url: "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "news.sophos.com"
+        url: "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "securelist.com"
+        url: "https://securelist.com/cuba-ransomware/110533/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "security.com"
+        url: "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "tenable.com"
+        url: "https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-cuba"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Applications.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Applications.md","Vulnerabilities/Microsoft.md"]
+    source_label: "Cuba"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Applications:
+        - vendor: "Veeam"
+          product: "Backup & Replication"
+          cves: ["CVE-2022-26500","CVE-2022-26501"]
+          source_links: ["https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update","https://securelist.com/cuba-ransomware/110533/"]
+          source_file: "Vulnerabilities/Applications.md"
+        - vendor: "Veeam"
+          product: "Backup & Replication"
+          cves: ["CVE-2023-27532"]
+          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor","https://www.group-ib.com/blog/qilin-revisited/"]
+          source_file: "Vulnerabilities/Applications.md"
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2021-26855","CVE-2021-26857","CVE-2021-26858","CVE-2021-27065"]
+          source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-cuba","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2021-31207","CVE-2021-34473","CVE-2021-34523"]
+          source_links: ["https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a","https://securelist.com/cuba-ransomware/110533/","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker","https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "CLFS"
+          cves: ["CVE-2022-24521"]
+          source_links: ["https://securelist.com/cuba-ransomware/110533/","https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/","https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "cuba"
+  source_retrieved_at: "2026-10-27T17:26:55Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DarkCasino"
-aliases: ["DarkCasino"]
+aliases: ["DarkCasino","Water Hydra"]
 description: "DarkCasino is an economically motivated APT group that targets online trading platforms, including cryptocurrencies, online casinos, network banks, and online credit platforms. They are skilled at stea"
 permalink: /darkcasino/
 ---
@@ -10,7 +10,11 @@ permalink: /darkcasino/
 DarkCasino is an economically motivated APT group that targets online trading platforms, including cryptocurrencies, online casinos, network banks, and online credit platforms. They are skilled at stealing passwords to access victims' online accounts and have been active for over a year. DarkCasino exploits vulnerabilities, such as the WinRAR vulnerability CVE-2023-38831, to launch phishing attacks and steal online property.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,9 +29,13 @@ DarkCasino is an economically motivated APT group that targets online trading pl
 - **DarkComet**
 - **Xploit**
 - **Killer RAT**
+- **DarkMe**: 
+- **GuLoader**: 
+- **PikoloRAT**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

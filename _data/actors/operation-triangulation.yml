@@ -2,6 +2,7 @@ name: "Operation Triangulation"
 aliases: ["Operation Triangulation"]
 description: "Operation Triangulation is an ongoing APT campaign targeting iOS devices with zero-click iMessage exploits. The threat actor behind the campaign has been active since at least 2019 and continues to operate. The attack chain involves the delivery of a malicious iMessage attachment that launches a series of exploits, ultimately leading to the deployment of the TriangleDB implant. Kaspersky researchers have discovered and reported multiple vulnerabilities used in the campaign, with patches released by Apple."
 url: "/operation-triangulation"
+country: "[\"[Unknown]\"]"
 first_seen: "2023"
 last_activity: "2023"
 source_name: "MISP Galaxy"
@@ -9,7 +10,10 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/operation_triangulation"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Xploit","Archelaus Beta"]
+malware:
+  - "Xploit"
+  - "Archelaus Beta"
+  - name: "TriangleDB"
 provenance:
   aptnotes:
     earliest_report_year: "2023"
@@ -19,19 +23,24 @@ provenance:
     sample_titles: ["Operation Triangulation: The last (hardware) mystery"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Kaspersky"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "015b1a7a-7af1-4d86-8ae2-5f5f5b4ef161"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "operation_triangulation"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/operation_triangulation"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "220001c6-c976-4cad-a356-4d8c2dd2b1c1"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "220001c6-c976-4cad-a356-4d8c2dd2b1c1"
     source_record_ids: ["220001c6-c976-4cad-a356-4d8c2dd2b1c1"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

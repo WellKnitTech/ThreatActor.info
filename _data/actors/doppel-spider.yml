@@ -1,5 +1,5 @@
 name: "DOPPEL SPIDER"
-aliases: ["GOLD HERON","DOPPEL SPIDER","Gold Heron","DoppelPaymer","doppel paymer","DoppelPaymer group","DoppelPaymer ransomware","DoppelPaymer gang","Pay OR Grief","BitPaymer","IEncrypt","FriedEx"]
+aliases: ["BitPaymer","Blue Lelantos","DOPPEL SPIDER","Doppel spider","DoppelPaymer","DoppelPaymer gang","DoppelPaymer group","DoppelPaymer ransomware","FriedEx","GOLD HERON","Gold Heron","Grief Group","IEncrypt","Pay OR Grief","doppel paymer"]
 description: "In June 2019, CrowdStrike Intelligence observed a source code fork of BitPaymer and began tracking the new ransomware strain as DoppelPaymer. Further technical analysis revealed an increasing divergence between two versions of Dridex, with the new version dubbed DoppelDridex. Based on this evidence, CrowdStrike Intelligence assessed with high confidence that a new group split off from INDRIK SPIDER to form the adversary DOPPEL SPIDER. Following DOPPEL SPIDER’s inception, CrowdStrike Intelligence observed multiple BGH incidents attributed to the group, with the largest known ransomware demand being 250 BTC. Other demands were not nearly as high, suggesting that the group conducts network reconnaissance to determine the value of the victim organization."
 url: "/doppel-spider"
 country: "Russia"
@@ -8,6 +8,7 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/doppel_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["$20 million ransom","$34 million ransom","& Service Companies in U.K. & Europe","2020-02","2020-03","2020-06","2020-08","2020-09","2020-10","2020-11","2020-12","2021-02","2021-04","2021-07","2021-09","2021-10","Big Brother producer hit by DoppelPaymer ransomware","Breach of the Illinois Attorney General’s Office","Compal","Death occurred after a patient was diverted to a nearby hospital after the Duesseldorf University Hospital suffered a ransomware attack.","DoppelPaymer ransomware gang rebrands as the Grief group","DopplePaymer ransomware gang claims to have breached DMI","Foxconn electronics giant hit by ransomware","Grief Gang’s New Quadruple Extortion Scheme Doesn’t Change the Game","Grief Ransomware Gang Claims 41 New Victims","Hall County in Georgia announced that they had suffered a ransomware attack that impacted their networks and phone systems.","Kia Motors America suffers ransomware attack","Lockheed Martin","MasterChef","Municipalities","NRA: No comment on Russian ransomware gang attack claims","On October 7th","Ransomware gang threatens to wipe decryption key if negotiator hired","Ransomware scumbags leak Boeing","SpaceX documents after contractor refuses to pay","Targeting Manufacturers","The DoppelPaymer Ransomware is the latest family threatening to sell or publish a victim's stolen files if they do not pay a ransom demand.","UK research university Newcastle University says that it will take several weeks to get IT services back online after DoppelPaymer ransomware operators breached its network and took systems offline on the morning of August 30th.","a major US IT and cybersecurity provider","and one of NASA IT contractors.","hit by ransomware","https://illinoisattorneygeneral.gov/pressroom/2021_04/20210413.html","https://www.bleepingcomputer.com/news/security/doppelpaymer-ransomware-gang-rebrands-as-the-grief-group/","https://www.bleepingcomputer.com/news/security/doppelpaymer-ransomware-hits-newcastle-university-leaks-data/","https://www.bleepingcomputer.com/news/security/doppelpaymer-ransomware-sells-victims-data-on-darknet-if-not-paid/","https://www.bleepingcomputer.com/news/security/foxconn-electronics-giant-hit-by-ransomware-34-million-ransom/","https://www.bleepingcomputer.com/news/security/georgia-county-voter-information-leaked-by-ransomware-gang/","https://www.bleepingcomputer.com/news/security/kia-motors-america-suffers-ransomware-attack-20-million-ransom/","https://www.bleepingcomputer.com/news/security/masterchef-big-brother-producer-hit-by-doppelpaymer-ransomware/","https://www.bleepingcomputer.com/news/security/nra-no-comment-on-russian-ransomware-gang-attack-claims/","https://www.bleepingcomputer.com/news/security/ransomware-gang-threatens-to-wipe-decryption-key-if-negotiator-hired/","https://www.cybereason.com/blog/grief-gangs-new-quadruple-extortion-scheme-doesnt-change-the-game","https://www.esentire.com/security-advisories/grief-ransomware-gang-claims-41-new-victims-targeting-manufacturers-municipalities-service-companies-in-u-k-europe","https://www.theregister.co.uk/2020/04/10/lockheed_martin_spacex_ransomware_leak/","https://www.zdnet.com/article/compal-the-second-largest-laptop-manufacturer-in-the-world-hit-by-ransomware/","https://www.zdnet.com/article/first-death-reported-following-a-ransomware-attack-on-a-german-hospital/","https://www.zdnet.com/article/ransomware-gang-says-it-breached-one-of-nasas-it-contractors/","the second-largest laptop manufacturer in the world"]
 malware:
   - name: "PowerShell Empire"
   - name: "Cobalt Strike"
@@ -16,24 +17,46 @@ malware:
   - name: "BitPaymer ransomware"
   - name: "DoppelDridex"
   - name: "DoppelPaymer"
+  - name: "Grief"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.trendmicro.com/en_dk/research/21/a/an-overview-of-the-doppelpaymer-ransomware.html","https://www.malwarebytes.com/blog/news/2023/03/doppelpaymer-ransomware-group-disrupted-by-fbi-and-european-police-agencies"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "russia"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "9e088fdc-e4b7-4ab2-b7b5-8b85b4f7b8b8"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Doppel spider"]
+      PWC: ["Blue Lelantos"]
+      Secureworks: ["Gold Heron"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "goldheron"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "doppel_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/doppel_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "2154b183-c5c5-418f-8e47-f6e999b64e30"
   misp_galaxy:
-    meta_keys: ["origin:GOLD HERON","refs","synonyms","encryption","links"]
+    meta_keys: ["origin:GOLD HERON","refs","synonyms","encryption","links","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","ransomware.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "2154b183-c5c5-418f-8e47-f6e999b64e30"
     source_record_ids: ["2154b183-c5c5-418f-8e47-f6e999b64e30","3d8989dc-9a10-4cae-ab24-ff0abed487f4"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "doppelpaymer"
+  source_retrieved_at: "2026-10-27T17:21:28Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

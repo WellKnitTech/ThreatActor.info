@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "RenLocker Ransomware (FAKE)"
 aliases: ["RenLocker Ransomware (FAKE)"]
-description: "It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. The files don’t ac"
+description: "It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Office, Open Office, pictures, videos, shared online files etc.. The files don’t act"
 permalink: /renlocker-ransomware-fake/
 ---
 

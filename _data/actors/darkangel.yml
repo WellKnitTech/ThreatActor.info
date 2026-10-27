@@ -4,6 +4,7 @@ description: "Dark Angels is a highly targeted ransomware and data-extortion gro
 url: "/darkangel"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/darkangel"
 malware:
   - name: "Dark DDoSeR"
   - name: "Windows Remote Desktop"
@@ -15,4 +16,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "5276ed20-c9fa-4028-9272-3f5c0e4bc9b6"
     source_record_ids: ["5276ed20-c9fa-4028-9272-3f5c0e4bc9b6"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "darkangel"
+  source_retrieved_at: "2026-10-27T17:23:13Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

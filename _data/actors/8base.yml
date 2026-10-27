@@ -1,19 +1,89 @@
-name: "8base"
-aliases: ["8base"]
-description: "8Base emerged in early 2022 and rapidly escalated its ransomware operations by mid-2023, positioning itself as a “simple pen tester” while executing a relentless double-extortion scheme: encrypting files using AES-256 CBC mode (appending the “.8base” extension) and threatening to leak stolen data via a Tor-accessible leak site. The group leverages initial access methods such as phishing and SmokeLoader, disables security mechanisms like Volume Shadow Copy and firewalls, and deploys persistence via registry and startup entries. Targeting primarily small and medium-sized organizations across sectors such as manufacturing, finance, IT, and healthcare in regions including the U.S., Brazil, and Europe, 8Base has drawn comparisons to Phobos and RansomHouse for its tactics and ransom-note style. In early 2025, international law enforcement operations disrupted the group, resulting in the arrest of four key actors, seizure of servers, and warnings to hundreds of potential victims."
+---
+name: 8base
+aliases:
+- 8Base
+- 8base
+description: '8Base emerged in early 2022 and rapidly escalated its ransomware operations
+  by mid-2023, positioning itself as a “simple pen tester” while executing a relentless
+  double-extortion scheme: encrypting files using AES-256 CBC mode (appending the
+  “.8base” extension) and threatening to leak stolen data via a Tor-accessible leak
+  site. The group leverages initial access methods such as phishing and SmokeLoader,
+  disables security mechanisms like Volume Shadow Copy and firewalls, and deploys
+  persistence via registry and startup entries. Targeting primarily small and medium-sized
+  organizations across sectors such as manufacturing, finance, IT, and healthcare
+  in regions including the U.S., Brazil, and Europe, 8Base has drawn comparisons to
+  Phobos and RansomHouse for its tactics and ransom-note style. In early 2025, international
+  law enforcement operations disrupted the group, resulting in the arrest of four
+  key actors, seizure of servers, and warnings to hundreds of potential victims.'
 url: "/8base"
-source_name: "MISP Galaxy"
-source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+last_updated: '2026-10-27'
+source_name: MISP Galaxy
+source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
+source_record_url: https://www.ransomlook.io/group/8base
 malware:
-  - name: "Smoke Loader"
-  - name: "Small-Net"
-  - name: "CrossRat"
+- name: Smoke Loader
+- name: Small-Net
+- name: CrossRat
 provenance:
   misp_galaxy:
-    meta_keys: ["links","refs","ttp"]
-    source_cluster: "ransomware.json"
-    source_clusters: ["ransomware.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
-    source_record_id: "1cc6ada3-a632-54a4-9df1-f41287e3f566"
-    source_record_ids: ["1cc6ada3-a632-54a4-9df1-f41287e3f566"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    meta_keys:
+    - links
+    - refs
+    - ttp
+    source_cluster: ransomware.json
+    source_clusters:
+    - ransomware.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json
+    source_record_id: 1cc6ada3-a632-54a4-9df1-f41287e3f566
+    source_record_ids:
+    - 1cc6ada3-a632-54a4-9df1-f41287e3f566
+    source_retrieved_at: '2026-10-27T17:28:59Z'
+  ransomware_tool_matrix:
+    references:
+    - title: 'Ransomware Spotlight: 8BASE'
+      url: https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-8base
+      date: 24 April 2024
+      source_file: ThreatIntel/TrendMicroThreatGroups.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Ransomware
+      Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix
+      is used here as a secondary ransomware tradecraft reference, not as sole attribution
+      evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - ThreatIntel/TrendMicroThreatGroups.md
+    - Tools/CredentialTheft.md
+    - Tools/DefenseEvasion.md
+    - Tools/Exfiltration.md
+    - Tools/LOLBAS.md
+    source_label: 8BASE
+    source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:27:56Z'
+    tools_by_category:
+      Credential Theft:
+      - LaZagne
+      - Mimikatz
+      - NirSoft VNCPassView
+      - NirSoft WebBrowserPassView
+      - PasswordFox
+      - ProcDump
+      Defense Evasion:
+      - GMER
+      - PCHunter
+      - ProcessHacker
+      Exfiltration:
+      - RClone
+      LOLBAS:
+      - PsExec
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: 8base
+  source_retrieved_at: '2026-10-27T17:19:41Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Squalid Scorpius

@@ -1,11 +1,29 @@
 name: "Night Tsunami"
-aliases: ["DEV-0336","NSO Group","Night Tsunami"]
+aliases: ["DEV-0336","NSO Group","Night Tsunami","Grey Anqa"]
 description: "Microsoft threat actor profile. Origin/Threat: Israel."
 url: "/night-tsunami"
 country: "Israel"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      Microsoft: ["DEV-0336","Night Tsunami"]
+      PWC: ["Grey Anqa"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "nsogroup"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Mercenary"
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Night Tsunami"
+    origin_category: "Israel"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "nighttsunami"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms"]
     source_cluster: "microsoft-activity-group.json"
@@ -13,4 +31,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "af54315b-3561-5046-8b9b-c3e9e05c0f77"
     source_record_ids: ["af54315b-3561-5046-8b9b-c3e9e05c0f77"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

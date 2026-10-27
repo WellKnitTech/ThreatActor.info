@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Yanbian Gang"
-aliases: ["Yanbian Gang","Yanbian"]
+aliases: ["Yanbian","Yanbian Gang"]
 description: "RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Android mobile banking customers since 2013 with malicious Android apps purporting to be from major banks, namely Shinhan Sav"
 permalink: /yanbian-gang/
 ---
@@ -19,7 +19,9 @@ RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Andr
 **Suspected Victims**: South Korea, Japan
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2020-12**
+- **Yanbian Gang Malware Continues with Wide-Scale Distribution and C2**
+- **https://www.riskiq.com/blog/external-threat-management/yanbian-gang-malware-distribution/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

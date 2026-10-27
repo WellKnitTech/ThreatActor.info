@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD SYMPHONY"
-aliases: ["GOLD SYMPHONY"]
+aliases: ["GOLD SYMPHONY","Gold Symphony"]
 description: "GOLD SYMPHONY is a financially motivated cybercrime group, likely based in Russia, that is responsible for the development and sale on underground forums of the Buer Loader malware. First discovered ar"
 permalink: /gold-symphony/
 ---
@@ -10,7 +10,11 @@ permalink: /gold-symphony/
 GOLD SYMPHONY is a financially motivated cybercrime group, likely based in Russia, that is responsible for the development and sale on underground forums of the Buer Loader malware. First discovered around August 2019, Buer Loader is offered as a malware-as-a-service (MasS) and has been advertised by a threat actor using the handle 'memeos'. Customers include GOLD BLACKBURN, the operators of the TrickBot malware. In addition to TrickBot, Buer Loader has been reported to download Cobalt Strike and other tools for use in post-intrusion ransomware attacks.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇷🇺 Russia
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -32,7 +36,8 @@ GOLD SYMPHONY is a financially motivated cybercrime group, likely based in Russi
 - **Cobalt Strike**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Russia
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

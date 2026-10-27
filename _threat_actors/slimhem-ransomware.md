@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Slimhem Ransomware"
 aliases: ["Slimhem Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is NOT spread using email spam, fake updates, attachments and so on. It simply places a decrypt file on your computer"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is NOT spread using email spam, fake updates, attachments and so on. It simply places a decrypt file on your computer."
 permalink: /slimhem-ransomware/
 ---
 

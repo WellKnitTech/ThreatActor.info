@@ -4,6 +4,7 @@ description: "Ransom.Sekhmet not only encrypts a victims files, but also threate
 url: "/sekhmet"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/sekhmet"
 provenance:
   misp_galaxy:
     meta_keys: ["links","ransomnotes-filenames","ransomnotes-refs","refs"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "6fb1ea9e-5389-4932-8b22-c691b74b75a8"
     source_record_ids: ["6fb1ea9e-5389-4932-8b22-c691b74b75a8"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "sekhmet"
+  source_retrieved_at: "2026-10-27T17:25:48Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

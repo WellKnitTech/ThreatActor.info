@@ -68,31 +68,43 @@
   "groups": [
     {
       "name": "APT32",
-      "url": "/apt32"
+      "url": "/apt32/"
     },
     {
       "name": "Sandworm Team",
-      "url": "/apt0034"
+      "url": "/apt0034/"
     },
     {
       "name": "Mustang Panda",
-      "url": "/apt0129"
+      "url": "/apt0129/"
     },
     {
-      "name": "VOID MANTICORE",
-      "url": "/void-manticore"
+      "name": "Void Manticore",
+      "url": "/void-manticore/"
     },
     {
       "name": "Silence",
-      "url": "/apt0091"
+      "url": "/apt0091/"
+    },
+    {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
+    },
+    {
+      "name": "UNC1549",
+      "url": "/unc1549/"
     },
     {
       "name": "Threat Group-1314",
-      "url": "/apt0028"
+      "url": "/apt0028/"
+    },
+    {
+      "name": "ShinyHunters",
+      "url": "/shinyhunters/"
     },
     {
       "name": "Medusa Group",
-      "url": "/apt1051"
+      "url": "/apt1051/"
     }
   ]
 }

@@ -6,12 +6,15 @@ country: "Russia"
 sector_focus: ["Healthcare","Government","Education"]
 first_seen: "2018"
 last_activity: "2021"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 risk_level: "Critical"
 source_attribution: "Manually curated from open source intelligence"
 provenance:
   ransomware_vulnerability_matrix:
     references:
+      - title: "checkpoint.com"
+        url: "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"
+        source_file: "Vulnerabilities/Microsoft.md"
       - title: "cisa.gov"
         url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
         source_file: "Vulnerabilities/Microsoft.md"
@@ -53,11 +56,18 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md"]
     source_label: "Ryuk"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "Windows"
           product: "NetLogon"
           cves: ["CVE-2020-1472"]
-          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/","https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
           source_file: "Vulnerabilities/Microsoft.md"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Ryuk"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Ryuk/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Ryuk/Ryuk_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Shinra"
 aliases: ["Shinra"]
-description: "SHINRA ransomware is a variant of the Proton ransomware family, known for its malicious activities involving data encryption and demanding a ransom for data decryption.  After encrypting files, the ran"
+description: "SHINRA ransomware is a variant of the Proton ransomware family, known for its malicious activities involving data encryption and demanding a ransom for data decryption. After encrypting files, the rans"
 permalink: /shinra/
 ---
 

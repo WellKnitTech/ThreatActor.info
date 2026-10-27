@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "IronHusky"
-aliases: ["IronHusky"]
+aliases: ["BBCY-TA1","IronHusky","Operation “MysterySnail”"]
 description: "IronHusky is a Chinese-based threat actor first attributed in July 2017 targeting Russian and Mongolian governments, as well as aviation companies and research institutes. Since their initial attacks c"
 permalink: /ironhusky/
 ---
@@ -17,7 +17,11 @@ IronHusky is a Chinese-based threat actor first attributed in July 2017 targetin
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2021-08**
+- **In late August and early September 2021**
+- **Kaspersky technologies detected attacks with the use of an elevation of privilege exploit on multiple Microsoft Windows servers.**
+- **Operation “MysterySnail”**
+- **https://securelist.com/mysterysnail-attacks-with-windows-zero-day/104509/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -33,6 +37,9 @@ IronHusky is a Chinese-based threat actor first attributed in July 2017 targetin
 - **RemotePC**
 - **MysterySnail**: 
 - **CVE-2021-40449**: 
+- **MysterySnail RAT**: 
+- **PlugX**: 
+- **Poison Ivy**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

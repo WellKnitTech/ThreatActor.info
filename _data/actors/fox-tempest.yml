@@ -1,0 +1,37 @@
+name: "Fox Tempest"
+aliases: ["Fox Tempest"]
+description: "Fox Tempest is a financially motivated threat actor that operated a malware-signing-as-a-service (MSaaS) sold to other cybercriminals to sign malware, including ransomware, as trusted software and evade detection. The service, marketed through the domain signspace[.]cloud and a Telegram channel, abused Microsoft Artifact Signing to issue short-lived fraudulent code-signing certificates and offered signing plans priced between 5,000 and 9,000 USD, with higher tiers providing pre-configured virtual machines for signing malicious code. Microsoft tracked the operation from September 2025 and observed its certificates used to distribute malware families such as Oyster, Lumma Stealer, and Vidar and to support ransomware activity linked to Vanilla Tempest, Storm-0501, Storm-2561, and Storm-0249. In May 2026, Microsoft's Digital Crimes Unit disrupted the operation, seizing signspace[.]cloud, taking hundreds of signing virtual machines offline, and revoking more than 1,000 fraudulent certificates, and named Vanilla Tempest as a co-defendant in a case filed in the U.S. District Court for the Southern District of New York."
+url: "/fox-tempest"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fox_tempest"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "SPACESHIP"
+  - name: "CloudDuke"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "fox_tempest"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fox_tempest"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "56bc8e25-6915-4e2e-8d44-9d3b14aab9f6"
+  microsoft_threat_actor_list:
+    categories: ["Financially motivated"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Fox Tempest"
+    origin_category: "Financially motivated"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "foxtempest"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "56bc8e25-6915-4e2e-8d44-9d3b14aab9f6"
+    source_record_ids: ["56bc8e25-6915-4e2e-8d44-9d3b14aab9f6"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

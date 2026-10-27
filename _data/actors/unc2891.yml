@@ -1,0 +1,36 @@
+name: "UNC2891"
+aliases: ["UNC2891"]
+description: "(Mandiant) The Mandiant Advanced Practices team previously published a threat research blog post that provided an overview of UNC1945 ('LightBasin') operations where the actor compromised managed services providers to gain access to targets in the financial and professional consulting industries. Since that time, Mandiant has investigated and attributed several intrusions to a threat cluster we believe has a nexus to this actor, currently being tracked as UNC2891. Through these investigations, Mandiant has discovered additional techniques, malware, and utilities being used by UNC2891 alongside those previously observed in use by UNC1945. Despite having identified significant overlaps between these threat clusters, Mandiant has not determined they are attributable to the same actor."
+url: "/unc2891"
+country: "[\"[Unknown]\"]"
+first_seen: "2022"
+last_activity: "2022"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["BINBASH","CAKETAP","MIGLOGCLEANER","SLAPSTICK","STEELCORGI","STEELHOUND","SUN4ME","Tiny SHell","WINGCRACK","WINGHOOK","WIPERIGHT"]
+provenance:
+  aptnotes:
+    earliest_report_year: "2022"
+    latest_report_year: "2022"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/088994cnkgtar1ple8lear5ro00bxkuz"]
+    sample_titles: ["An Overview of UNC2891"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
+    sources: ["Mandiant"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "d2fd8a6e-0f59-4f61-b42c-17b66cc17c9 1"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Mandiant/FireEye: ["UNC2891"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "unc2891"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT45"
-aliases: ["APT45"]
+aliases: ["APT45","GRASS NEPTUNE"]
 description: "APT45 is a North Korean cyber threat actor that has been active since at least 2009. They have conducted espionage campaigns targeting government agencies and defense industries, as well as financially"
 permalink: /apt45/
 ---

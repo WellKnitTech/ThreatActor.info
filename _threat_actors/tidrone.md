@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TIDRONE"
-aliases: ["Earth Ammit","VENOM","TIDRONE"]
+aliases: ["Earth Ammit","TIDRONE","VENOM"]
 description: "TIDRONE is an unidentified threat actor linked to Chinese-speaking groups, with a focus on military-related industry chains, particularly drone manufacturers in Taiwan. The actor employs advanced malwa"
 permalink: /tidrone/
 ---
@@ -17,7 +17,9 @@ TIDRONE is an unidentified threat actor linked to Chinese-speaking groups, with 
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2024**
+- **Analysis on the Case of TIDRONE Threat Actor’s Attacks on Korean Companies**
+- **https://asec.ahnlab.com/en/85119/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -30,6 +32,8 @@ TIDRONE is an unidentified threat actor linked to Chinese-speaking groups, with 
 - **Remote Utilities**
 - **RemotePC**
 - **DesktopNow**
+- **CLNTEND**: 
+- **CXCLNT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

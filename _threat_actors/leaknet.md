@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "leaknet"
 aliases: ["leaknet"]
-description: "\r<br/>\r<br/>In the cyber-undergrounds, we're exploring shadowed corridors of the digital world in search of inside information. we’re a digital watchdog operating at the intersection of cybersecurity, "
+description: "<br/> <br/>In the cyber-undergrounds, we're exploring shadowed corridors of the digital world in search of inside information. we’re a digital watchdog operating at the intersection of cybersecurity, i"
 permalink: /leaknet/
 ---
 

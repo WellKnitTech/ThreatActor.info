@@ -4,6 +4,7 @@ description: "ransomware"
 url: "/inpivx"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/inpivx"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "6a4ac521-4731-4bc1-abf4-639b451018bc"
     source_record_ids: ["6a4ac521-4731-4bc1-abf4-639b451018bc"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "inpivx"
+  source_retrieved_at: "2026-10-27T17:21:33Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

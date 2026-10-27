@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "SerbRansom 2017 Ransomware"
 aliases: ["SerbRansom 2017 Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Of"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Offi"
 permalink: /serbransom-2017-ransomware/
 ---
 

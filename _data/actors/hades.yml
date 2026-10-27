@@ -1,10 +1,23 @@
 name: "Hades"
-aliases: ["Hades"]
+aliases: ["Hades","Operation “TrickyMouse”"]
 description: "ransomware"
 url: "/hades"
+country: "[\"Russia\"]"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/hades"
+operations: ["2019-06","2020-02","Attacks pretend to be from the Center for Public Health of the Ministry of Health of Ukraine and deliver bait document containing the latest news regarding #COVID-19. A backdoor written in C# gets dropped by malicious macro code to perform remote control.","Hades","Operation “TrickyMouse”","https://mp.weixin.qq.com/s/o6KC0k43AuOY5F8FKGbmMg","https://securelist.com/olympic-destroyer-is-still-alive/86169/","https://twitter.com/RedDrip7/status/1230683740508000256","the actor behind Olympic Destroyer is still alive"]
+malware:
+  - name: "Brave Prince"
+  - name: "Gold Dragon"
+  - name: "Olympic Destroyer"
+  - name: "RunningRAT"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "74367856-09d1-44d6-bff1-cb72a9514e11"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   misp_galaxy:
     meta_keys: ["date","links","refs"]
     source_cluster: "ransomware.json"
@@ -12,4 +25,15 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "c0091a62-b1cd-495d-898b-d2f3b5af601e"
     source_record_ids: ["c0091a62-b1cd-495d-898b-d2f3b5af601e"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Hades"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Hades/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Hades/Hades_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "hades"
+  source_retrieved_at: "2026-10-27T17:25:17Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

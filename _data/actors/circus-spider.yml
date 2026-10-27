@@ -1,5 +1,5 @@
 name: "CIRCUS SPIDER"
-aliases: ["CIRCUS SPIDER"]
+aliases: ["CIRCUS SPIDER","Circus Spider"]
 description: "According to Crowdstrike, the NetWalker ransomware is being developed and maintained by a Russian-speaking actor designated as CIRCUS SPIDER. Initially discovered in September 2019and havinga compilation timestamp dating back to 28 August 2019, NetWalker has been found to be used in Big Game Hunting (BGH)-style operations while also being distributed via spam. CIRCUS SPIDER is advertising NetWalkeras being a closed-affiliate program,and verifies applicants before they are being accepted as an affiliate. The requirements rangefrom providing proof of previous revenue in similar affiliates programs, experience in the field and what type of industry the applicantis targeting."
 url: "/circus-spider"
 country: "Russia"
@@ -8,19 +8,39 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/circus_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Back Orifice","Back Orifice 2000","Revenge-RAT"]
+operations: ["$4.5M ransom","2020-02","2020-03","2020-05","2020-06","2020-07","2020-09","2020-10","Cyber threat startup Cygilant hit by ransomware","Enel Group hit by ransomware again","Equinix data center giant hit by Netwalker Ransomware","Michigan State University hit by ransomware gang","Netwalker Ransomware Infecting Users via Coronavirus Phishing","Netwalker Ransomware Stole Data After Targeting Lorien Health Services","Netwalker demands $14 million","Netwalker ransomware continues assault on US colleges","Netwalker ransomware hits Argentinian government","Netwalker ransomware hits Pakistan's largest private power utility","Philadelphia-area health system says it 'isolated' a malware attack","Ransomware Attack Hinders Toll Group Operations","Ransomware recruits affiliates with huge payouts","Spanish hospitals targeted with coronavirus-themed phishing lures in Netwalker ransomware attacks","automated leaks","demands $4 million","hits UCSF","https://latesthackingnews.com/2020/07/23/netwalker-ransomware-stole-data-after-targeting-lorien-health-services/","https://techcrunch.com/2020/09/03/cygilant-ransomware/","https://threatpost.com/ransomware-attack-hinders-toll-group-operations/152552/","https://www.bleepingcomputer.com/news/security/enel-group-hit-by-ransomware-again-netwalker-demands-14-million/","https://www.bleepingcomputer.com/news/security/equinix-data-center-giant-hit-by-netwalker-ransomware-45m-ransom/","https://www.bleepingcomputer.com/news/security/netwalker-ransomware-continues-assault-on-us-colleges-hits-ucsf/","https://www.bleepingcomputer.com/news/security/netwalker-ransomware-hits-argentinian-government-demands-4-million/","https://www.bleepingcomputer.com/news/security/netwalker-ransomware-hits-pakistans-largest-private-power-utility/","https://www.bleepingcomputer.com/news/security/netwalker-ransomware-infecting-users-via-coronavirus-phishing/","https://www.bleepingcomputer.com/news/security/ransomware-recruits-affiliates-with-huge-payouts-automated-leaks/","https://www.computing.co.uk/news/4012969/hospitals-coronavirus-ransomware","https://www.cyberscoop.com/crozer-keystone-cyber-attack-netwalker-ransomware/","https://www.zdnet.com/article/michigan-state-university-hit-by-ransomware-gang/"]
+malware:
+  - "Back Orifice"
+  - "Back Orifice 2000"
+  - "Revenge-RAT"
+  - name: "NetWalker"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "0de32c9a-cacb-4de5-84c5-866625288f24"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Circus Spider"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "circusspider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "circus_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/circus_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "3ebf503c-c554-4ac3-aa3e-3ef114ca2345"
   misp_galaxy:
-    meta_keys: ["country","refs"]
+    meta_keys: ["country","refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "3ebf503c-c554-4ac3-aa3e-3ef114ca2345"
     source_record_ids: ["3ebf503c-c554-4ac3-aa3e-3ef114ca2345"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

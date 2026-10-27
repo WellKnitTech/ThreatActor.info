@@ -1,10 +1,11 @@
 name: "LAPSUS$"
-aliases: ["DEV-0537","Lapsus","LAPSUS","LAPSUS$","Lapsus$","SLIPPY SPIDER","Strawberry Tempest","UNC3661"]
+aliases: ["DEV-0537","G1004","Gold Rainforest","LAPSUS","LAPSUS$","Lapsus","Lapsus$","SLIPPY SPIDER","Slippy Spider","Strawberry Tempest","UNC3661","White Dev 111"]
 description: "LAPSUS$ is cyber criminal threat group that has been active since at least mid-2021. LAPSUS$ specializes in large-scale social engineering and extortion operations, including destructive attacks without the use of ransomware. The group has targeted organizations globally, including in the government, manufacturing, higher education, energy, healthcare, technology, telecommunications, and media sectors. [BBC LAPSUS Apr 2022](https://www.bbc.com/news/technology-60953527) [MSTIC DEV-0537 Mar 2022](https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/) [UNIT 42 LAPSUS Mar 2022](https://unit42.paloaltonetworks.com/lapsus-group/)"
 url: "/apt1004"
+country: "[\"Brazil\"]"
 first_seen: "2022"
 last_activity: "2022"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 confidence: "high"
 external_id: "G1004"
 external_url: "https://attack.mitre.org/groups/G1004"
@@ -15,6 +16,7 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/lapsus"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2021-12","2022-01","2022-02","2022-03","2022-09","2K Games says hacked help desk targeted players with malware","Brazil health ministry website hit by hackers","Cyberattack brings down Vodafone Portugal mobile","E-commerce giant Mercado Libre confirms source code data breach","GPU giant NVIDIA is investigating a potential cyberattack","Globant confirms hack after Lapsus$ leaks 70GB of stolen data","Hackers leak 190GB of alleged Samsung data","In the wake of the attack last month on the Impresa group","Jornal de Negócios and CMTV – belong to the Cofina media group.","Lapsus$ Attacks Localiza","Lapsus$ Ransomware Group is hiring","Lapsus$ hackers leak 37GB of Microsoft's alleged source code","Leaked Chats Show LAPSUS$ Stole T-Mobile Source Code","Okta confirms 2.5% customers impacted by hack in January","Redirects Users to Porn Site","Rockstar confirms cyberattack","Sábado","The Lapsus$ ransomware gang has hacked and is currently extorting Impresa","Uber attributes hack to Lapsus$","Ubisoft confirms 'cyber security incident'","and TV services","https://krebsonsecurity.com/2022/04/leaked-chats-show-lapsus-stole-t-mobile-source-code/","https://securityaffairs.co/wordpress/128912/cyber-crime/lapsus-ransomware-is-hiring.html","https://thehackernews.com/2022/03/new-report-on-okta-hack-reveals-entire.html","https://therecord.media/cyberattack-brings-down-vodafone-portugal-mobile-voice-and-tv-services/","https://therecord.media/lapsus-ransomware-gang-hits-sic-portugals-largest-tv-channel/","https://therecord.media/rockstar-confirms-cyberattack-leak-of-confidential-data-including-gta-6-footage/","https://therecord.media/uber-attributes-hack-to-lapsus-working-with-fbi-and-doj-on-investigation/","https://www.bleepingcomputer.com/news/microsoft/lapsus-hackers-leak-37gb-of-microsofts-alleged-source-code/","https://www.bleepingcomputer.com/news/security/2k-games-says-hacked-help-desk-targeted-players-with-malware/","https://www.bleepingcomputer.com/news/security/e-commerce-giant-mercado-libre-confirms-source-code-data-breach/","https://www.bleepingcomputer.com/news/security/globant-confirms-hack-after-lapsus-leaks-70gb-of-stolen-data/","https://www.bleepingcomputer.com/news/security/gpu-giant-nvidia-is-investigating-a-potential-cyberattack/","https://www.bleepingcomputer.com/news/security/hackers-leak-190gb-of-alleged-samsung-data-source-code/","https://www.bleepingcomputer.com/news/security/okta-confirms-25-percent-customers-impacted-by-hack-in-january/","https://www.bleepingcomputer.com/news/security/ubisoft-confirms-cyber-security-incident-resets-staff-passwords/","https://www.databreaches.net/lapsus-and-the-terrible-horrible-no-good-very-bad-ransom-day1/","https://www.databreachtoday.com/lapsus-attacks-localiza-redirects-users-to-porn-site-a-18286","https://www.portugalresident.com/hackers-bring-down-new-media-sites-pj-cybercrime-unit-investigating/","https://www.reuters.com/technology/brazils-health-ministry-website-hit-by-hacker-attack-systems-down-2021-12-10/","https://www.securityweek.com/vodafone-investigating-source-code-theft-claims","it announced recruitment of insiders","leak of confidential data including GTA 6 footage","resets staff passwords","respectively.","source code","the country’s largest TV channel and weekly newspaper","the largest media conglomerate in Portugal and the owner of SIC and Expresso","the latest victims – Correio da Manhã (the country’s most widely-read tabloid)","vaccination data targeted","voice","working with FBI and DOJ on investigation"]
 malware:
   - name: "CyberGate"
   - name: "Cyber Eye RAT"
@@ -216,7 +218,31 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-10-27T17:29:27Z"
+    reports:
+      - organization: "Uber"
+        breach_date: "September 2022"
+        adversary_label: "Lapsus$ (eCrime)"
+        links: ["https://www.uber.com/newsroom/security-update/"]
+        archived_links: ["https://web.archive.org/web/20230405195617/https://www.uber.com/newsroom/security-update/"]
+      - organization: "Okta"
+        breach_date: "April 2022"
+        adversary_label: "Lapsus$ (eCrime)"
+        links: ["https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"]
+        archived_links: ["https://web.archive.org/web/20230325071437/https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"]
+      - organization: "Microsoft"
+        breach_date: "March 2022"
+        adversary_label: "Lapsus$ (eCrime)"
+        links: ["https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
+        archived_links: ["https://web.archive.org/web/20230212051224/https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
   aptnotes:
     earliest_report_year: "2022"
     latest_report_year: "2022"
@@ -225,57 +251,64 @@ provenance:
     sample_titles: ["LAPSUS$: Recent techniques, tactics and procedures"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["nccgroup"]
-  bushido_breach_reports:
-    reports:
-      - organization: "Uber"
-        breach_date: "September 2022"
-        adversary_label: "Lapsus$ (suspected)"
-        links: ["https://www.uber.com/newsroom/security-update/"]
-        archived_links: ["https://web.archive.org/web/20230405195617/https://www.uber.com/newsroom/security-update/"]
-      - organization: "Okta"
-        breach_date: "April 2022"
-        adversary_label: "Lapsus$"
-        links: ["https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"]
-        archived_links: ["https://web.archive.org/web/20230325071437/https://www.okta.com/blog/2022/04/okta-concludes-its-investigation-into-the-january-2022-compromise/"]
-      - organization: "Microsoft"
-        breach_date: "March 2022"
-        adversary_label: "Lapsus$"
-        links: ["https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
-        archived_links: ["https://web.archive.org/web/20230212051224/https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"]
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_retrieved_at: "2026-04-28T01:40:03Z"
+  etda_thai_group_cards:
+    mitre_group_ids: ["G1004"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "ffca877d-5411-419c-ba3b-31924cc4e4af"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Slippy Spider"]
+      Mandiant/FireEye: ["UNC3661"]
+      Microsoft: ["DEV-0537","Strawberry Tempest"]
+      PWC: ["White Dev 111"]
+      Secureworks: ["Gold Rainforest"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "lapsus"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "lapsus"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/lapsus"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "d9e5be22-1a04-4956-af6c-37af02330980"
+  microsoft_threat_actor_list:
+    categories: ["Financially motivated"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Strawberry Tempest"
+    origin_category: "Financially motivated"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "strawberrytempest"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["origin:DEV-0537","origin:UNC3661","refs","synonyms","group_attack_id","source","tags","links","microsoft-origin-threat","sector"]
+    meta_keys: ["origin:DEV-0537","origin:UNC3661","refs","synonyms","group_attack_id","source","tags","links","microsoft-origin-threat","sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json","ransomware.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d9e5be22-1a04-4956-af6c-37af02330980"
     source_record_ids: ["d9e5be22-1a04-4956-af6c-37af02330980","0060bb76-6713-4942-a4c0-d4ae01ec2866","e2e035aa-eb95-48af-98a7-f18ddfcc347b","d4dfb329-822c-5db3-a078-a8c0f77924da"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1004"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7"
   ransomware_tool_matrix:
     references:
@@ -288,10 +321,21 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md","Tools/RMM-Tools.md"]
     source_label: "Lapsus$"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T01:51:36Z"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
     tools_by_category:
       Credential Theft: ["Mimikatz"]
       Discovery: ["ADExplorer"]
       LOLBAS: ["NTDS Utility (ntdsutil)"]
       RMM Tools: ["AnyDesk"]
+  reddrip7_apt_digital_weapon:
+    actor_folder: "LAPSUS"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/LAPSUS/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/LAPSUS/LAPSUS_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "lapsuss"
+  source_retrieved_at: "2026-10-27T17:26:21Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
 source: "MITRE ATT&CK"

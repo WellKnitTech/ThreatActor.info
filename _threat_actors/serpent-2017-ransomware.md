@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Serpent 2017 Ransomware"
 aliases: ["Serpent Danish Ransomware","Serpent 2017 Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Of"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Offi"
 permalink: /serpent-2017-ransomware/
 ---
 

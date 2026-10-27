@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Blackgear"
-aliases: ["Topgear","Comnie","BLACKGEAR","Blackgear"]
+aliases: ["BLACKGEAR","Blackgear","Comnie","Topgear"]
 description: "BLACKGEAR is an espionage campaign which has targeted users in Taiwan for many years. Multiple papers and talks have been released covering this campaign, which used the ELIRKS backdoor when it was fir"
 permalink: /blackgear/
 ---
@@ -19,7 +19,10 @@ BLACKGEAR is an espionage campaign which has targeted users in Taiwan for many y
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2018-07**
+- **Abuses Social Media for C&C Communication**
+- **Resurfaces**
+- **https://blog.trendmicro.com/trendlabs-security-intelligence/blackgear-cyberespionage-campaign-resurfaces-abuses-social-media-for-cc-communication/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -36,6 +39,8 @@ BLACKGEAR is an espionage campaign which has targeted users in Taiwan for many y
 - **BlackHole**
 - **Protux**: 
 - **Eliriks**: 
+- **Comnie**: 
+- **Elirks**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Cancer Ransomware FAKE"
 aliases: ["Cancer Ransomware FAKE"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on. This is a trollware that does not encrypt your files"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. This is a trollware that does not encrypt your files "
 permalink: /cancer-ransomware-fake/
 ---
 

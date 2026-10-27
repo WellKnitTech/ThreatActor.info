@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Thor"
-aliases: ["Thor"]
+aliases: ["Thor","VantaCore"]
 description: "ransomware"
 permalink: /thor/
 ---
@@ -10,7 +10,11 @@ permalink: /thor/
 ransomware
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇺🇦 Ukraine
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,10 +26,15 @@ ransomware
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **BlackEnergy**: 
+- **BLACKCOFFEE**: 
+- **Blackshades**: 
+- **BlackNix**: 
+- **BlackHole**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: Ukraine
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

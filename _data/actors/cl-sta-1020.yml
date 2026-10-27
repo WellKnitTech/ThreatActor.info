@@ -1,0 +1,27 @@
+name: "CL-STA-1020"
+aliases: ["CL-STA-1020"]
+description: "CL-STA-1020 targets Southeast Asian government networks, employing AWS Lambda Function URLs configured with AuthType: NONE for stealthy command-and-control communication. The actor has been observed collecting sensitive information from governmental entities, including data on tariffs and trade disputes. An investigation revealed a new Windows backdoor named HazyBeacon, which utilizes this novel C2 technique. This activity cluster has demonstrated significant efforts to remain undetected while executing its operations."
+url: "/cl-sta-1020"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cl-sta-1020"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "Windows Remote Desktop"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "cl-sta-1020"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cl-sta-1020"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "93a4c01e-3d11-47a9-942c-b368c1dcf87a"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "93a4c01e-3d11-47a9-942c-b368c1dcf87a"
+    source_record_ids: ["93a4c01e-3d11-47a9-942c-b368c1dcf87a"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

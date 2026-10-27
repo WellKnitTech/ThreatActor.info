@@ -4,6 +4,7 @@ description: "D0glun is a crypto-ransomware strain first observed in January 202
 url: "/d0glun"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/doglun"
 malware:
   - name: "Small-Net"
   - name: "DesktopNow"
@@ -15,4 +16,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "5d4498ab-38a6-5096-8a44-ba33eb4b786e"
     source_record_ids: ["5d4498ab-38a6-5096-8a44-ba33eb4b786e"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "doglun"
+  source_retrieved_at: "2026-10-27T17:27:29Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -2,8 +2,10 @@ name: "Ragnarok"
 aliases: ["Ragnarok"]
 description: "Ragnarok is is a ransomware that targetscorporate networks in Big Game Huntingtargeted attacks. The ransomware is associated with 'double-extortion' tactic, stealing and publishing files on a data leak site (DLS)."
 url: "/ragnarok"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/ragnarok"
 malware:
   - name: "Ragnatela"
 provenance:
@@ -14,4 +16,26 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "fe7e4df0-97b9-4dd2-b3f8-79404fc8272d"
     source_record_ids: ["fe7e4df0-97b9-4dd2-b3f8-79404fc8272d"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "news.sophos.com"
+        url: "https://news.sophos.com/en-us/2020/05/21/asnarok2/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/NetworkEdge.md"]
+    source_label: "Ragnarok"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Network Edge:
+        - vendor: "Sophos"
+          product: "XG Firewall"
+          cves: ["CVE-2020-12271"]
+          source_links: ["https://news.sophos.com/en-us/2020/05/21/asnarok2/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "ragnarok"
+  source_retrieved_at: "2026-10-27T17:27:13Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

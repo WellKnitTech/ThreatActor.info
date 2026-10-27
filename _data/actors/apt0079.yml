@@ -1,5 +1,5 @@
 name: "DarkHydrus"
-aliases: ["DarkHydrus","G0079","LazyMeerkat","Obscure Serpens"]
+aliases: ["ATK 77","DarkHydrus","G0079","LazyMeerkat","Obscure Serpens","Hive0075","ATK77"]
 description: "DarkHydrus is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. [Unit 42 DarkHydrus July 2018](https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/) [Unit 42 Playbook Dec 2017](https://pan-unit42.github.io/playbook_viewer/)"
 url: "/apt0079"
 country: "Iran"
@@ -13,8 +13,12 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/darkhydrus"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2018","2018-06","2018-07","2019-01","2019. A backdoor dropped by macro in the lure documents can communicate with C2 server through DNS tunnel","360 Threat Intelligence Center captured several lure Excel documents written in Arabic in January 9","Attack on Middle East Government","New Attacks in the Middle East","On June 24","This attack diverged from previous attacks we observed from this group as it involved spear-phishing emails sent to targeted organizations with password protected RAR archive attachments that contained malicious Excel Web Query files (.iqy).","Unit 42 observed DarkHydrus carrying out a credential harvesting attack on an educational institution in the Middle East. The attack involved a spear-phishing email with a subject of “Project Offer” and a malicious Word document as an attachment.","as well as Google Drive API.","https://ti.360.net/blog/articles/latest-target-attack-of-darkhydruns-group-against-middle-east-en/","https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/","https://unit42.paloaltonetworks.com/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east/","https://unit42.paloaltonetworks.com/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/"]
 malware:
   - name: "RogueRobin"
+  - name: "Cobalt Strike"
+  - name: "Mimikatz"
+  - name: "Phishery"
 software:
   - name: "Mimikatz"
     mitre_id: "S0002"
@@ -77,41 +81,71 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0079"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/","https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.ez428aw98bca"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "iran"
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0079"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "2849cc26-d6c8-4484-821e-cb0f7006bddc"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      IBM: ["Hive0075"]
+      Kaspersky: ["LazyMeerkat"]
+      MITRE: ["G0079"]
+      Palo Alto: ["Obscure Serpens"]
+      Thales: ["ATK77"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "darkhydrus"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "darkhydrus"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/darkhydrus"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "ce2c2dfd-2445-4fbc-a747-9e7092e383f9"
   misp_galaxy:
-    meta_keys: ["refs","synonyms","group_attack_id","source","target_categories"]
+    meta_keys: ["refs","synonyms","group_attack_id","source","target_categories","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ce2c2dfd-2445-4fbc-a747-9e7092e383f9"
     source_record_ids: ["ce2c2dfd-2445-4fbc-a747-9e7092e383f9","f2b31240-0b4a-4fa4-82a4-6bb00e146e75"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0079"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "DarkHydrus"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/DarkHydrus/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/DarkHydrus/DarkHydrus_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
 source: "MITRE ATT&CK"

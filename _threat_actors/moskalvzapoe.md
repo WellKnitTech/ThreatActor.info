@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Moskalvzapoe"
-aliases: ["MAN1","TA511","Moskalvzapoe"]
+aliases: ["MAN1","Moskalvzapoe","TA511","Night Spider"]
 description: "Moskalvzapoe is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /moskalvzapoe/
 ---
@@ -10,10 +10,16 @@ permalink: /moskalvzapoe/
 Moskalvzapoe is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2020-10**
+- **Hancitor’s Use of Cobalt Strike and a Noisy Network Ping Tool**
+- **https://unit42.paloaltonetworks.com/hancitor-infections-cobalt-strike/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -22,10 +28,14 @@ Moskalvzapoe is a threat actor tracked by MISP Galaxy. Additional information pe
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Cobalt Strike**: 
+- **Ficker Stealer**: 
+- **Hancitor**: 
+- **NetSupport Manager**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

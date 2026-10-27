@@ -4,8 +4,10 @@ description: "Sarcoma is a ransomware group that emerged in October 2024 and has
 url: "/sarcoma"
 sector_focus: ["Energy","Technology","Manufacturing","Services","Financial","Agriculture","Retail","Private sector","Hospitality","Transportation"]
 targeted_victims: ["Italy","United States","Germany","Taiwan","Spain","Dominican Republic","Mexico","South Africa","Oman","Pakistan","Austria","Peru","Australia","United Arab Emirates","Canada","Malaysia","France","Bulgaria","New Zealand","Qatar","Kuwait","Philippines","United Kingdom"]
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/sarcoma"
 malware:
   - name: "Arcom"
   - name: "Xploit"
@@ -17,4 +19,17 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "dfe512ec-19ef-50c4-9ddf-56daf8c9b8d7"
     source_record_ids: ["dfe512ec-19ef-50c4-9ddf-56daf8c9b8d7"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["Tools/DiscoveryEnum.md"]
+    source_label: "Sarcoma"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Discovery: ["Advanced IP Scanner"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "sarcoma"
+  source_retrieved_at: "2026-10-27T17:22:12Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

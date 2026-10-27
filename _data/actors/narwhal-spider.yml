@@ -1,12 +1,14 @@
 name: "NARWHAL SPIDER"
-aliases: ["GOLD ESSEX","TA544","Storm-0302","NARWHAL SPIDER","Narwhal Spider"]
+aliases: ["GOLD ESSEX","Gold Essex","NARWHAL SPIDER","Narwhal Spider","Storm-0302","TA544"]
 description: "NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific spam campaigns, although late in 2019 there appeared to be an effort to expand by bringing in INDRIK SPIDER as a customer."
 url: "/narwhal-spider"
+country: "[\"[Unknown]\"]"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/narwhal_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2011-08","2013-10","2018-10","Cutwail botnet resurfaces in major Facebook scam-paign","The Japanese-language spam campaign uses a mixture of malicious PowerShell (PS) and steganography — a method of sending data in a concealed format — to distribute the eCrime malware family URLZone (a.k.a. Bebloh).","Without the Blackhole exploit kit around to inject malware such as the Zeus Trojan","https://threatpost.com/cutwail-botnet-feeling-effects-of-blackhole-takedown/103228/","https://www.crowdstrike.com/blog/cutwail-spam-campaign-uses-steganography-to-distribute-urlzone/","https://www.infosecurity-magazine.com/news/cutwail-botnet-resurfaces-in-major-facebook-scam/","https://www.secureworks.com/blog/cutwail-spam-swapping-blackhole-for-magnitude-exploit-kit","keepers of the Cutwail spam bot have been forced to resort to some old-school methods of sending malware such as direct email attachments."]
 malware:
   - name: "URLZone"
   - name: "Ursnif"
@@ -14,24 +16,57 @@ malware:
   - name: "Nymaim"
   - name: "Chthonic"
   - name: "Smoke Loader"
+  - name: "Cutwail"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta544-targets-geographies-italy-japan-range-malware"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "others"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "2b42c978-bc85-4aff-910d-b72e077b330f"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Narwhal Spider"]
+      Proofpoint: ["TA544"]
+      Secureworks: ["Gold Essex"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "ta544"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "narwhal_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/narwhal_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "fda9cdea-0017-495e-879d-0f348db2aa07"
+  microsoft_threat_actor_list:
+    categories: ["Group in development"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-0302"
+    origin_category: "Group in development"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm0302"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["origin:GOLD ESSEX","origin:Storm-0302","refs","synonyms","microsoft-origin-threat"]
+    meta_keys: ["origin:GOLD ESSEX","origin:Storm-0302","refs","synonyms","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "fda9cdea-0017-495e-879d-0f348db2aa07"
     source_record_ids: ["fda9cdea-0017-495e-879d-0f348db2aa07","71761cb6-1046-574b-a438-2dbc32733503"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "NARWHAL SPIDER"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/NARWHAL%20SPIDER/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/NARWHAL%20SPIDER/NARWHAL%20SPIDER_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

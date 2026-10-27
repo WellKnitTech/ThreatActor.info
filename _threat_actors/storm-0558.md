@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Storm-0558"
-aliases: ["Storm-0558","Antique Typhoon"]
+aliases: ["Antique Typhoon","Storm-0558"]
 description: "Storm-0558 is a China-based threat actor with espionage objectives. While there are some minimal overlaps with other Chinese groups such as Violet Typhoon (ZIRCONIUM, APT31), Microsoft maintain high co"
 permalink: /storm-0558/
 ---
@@ -34,6 +34,7 @@ Storm-0558 is a China-based threat actor with espionage objectives. While there 
 ## Malware and Tools
 - **China Chopper**
 - **Minimo**
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

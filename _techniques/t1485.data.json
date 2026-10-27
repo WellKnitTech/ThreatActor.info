@@ -30,27 +30,35 @@
   "groups": [
     {
       "name": "LAPSUS$",
-      "url": "/apt1004"
+      "url": "/apt1004/"
     },
     {
       "name": "Lazarus Group",
-      "url": "/lazarus"
+      "url": "/lazarus/"
     },
     {
       "name": "Storm-0501",
-      "url": "/apt1053"
+      "url": "/apt1053/"
     },
     {
       "name": "APT38",
-      "url": "/apt0082"
+      "url": "/apt0082/"
+    },
+    {
+      "name": "TeamPCP",
+      "url": "/teampcp/"
     },
     {
       "name": "Sandworm Team",
-      "url": "/apt0034"
+      "url": "/apt0034/"
     },
     {
-      "name": "VOID MANTICORE",
-      "url": "/void-manticore"
+      "name": "Void Manticore",
+      "url": "/void-manticore/"
+    },
+    {
+      "name": "ShinyHunters",
+      "url": "/shinyhunters/"
     }
   ]
 }

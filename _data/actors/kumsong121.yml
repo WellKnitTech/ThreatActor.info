@@ -1,0 +1,13 @@
+name: "Kumsong121"
+aliases: ["Kumsong121"]
+description: "A threat actor mentioned in a summary report only, so we don't know who they are yet."
+url: "/kumsong121"
+country: "[\"North Korea\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "accadf97-a8c7-4d2d-88cb-26a733a466ea"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

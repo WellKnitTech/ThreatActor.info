@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "cactus"
-aliases: ["cactus"]
+aliases: ["Cactus","Cactus Ransomware Group","cactus"]
 description: "The CACTUS ransomware is said to have emerged around March 2023. The group became known for exploiting vulnerabilities to gain initial access and maintain a presence within the organization's infrastru"
 permalink: /cactus/
 ---
@@ -16,13 +16,28 @@ The CACTUS ransomware is said to have emerged around March 2023. The group becam
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Network Edge | Pulse Secure / Ivanti | Ivanti MobileIron | CVE-2023-38035 |
+| Applications | Qlik | QlikSense | CVE-2023-41265 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 - **Xploit**: 
+
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Discovery | Nmap, SoftPerfect NetScan |
+| Exfiltration | RClone |
+| Networking | Chisel |
+| OffSec | Cobalt Strike |
+| RMM Tools | AnyDesk, Splashtop, SuperOps |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

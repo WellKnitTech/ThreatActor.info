@@ -22,7 +22,12 @@ Embargo is a Ransomware-as-a-Service (RaaS) operation first observed in May 2024
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Defense Evasion | s4killer (Minifilter Driver) |
+| LOLBAS | BCDEdit, ServiceControl (sc.exe) |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

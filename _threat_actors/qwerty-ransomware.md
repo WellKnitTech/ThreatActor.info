@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Qwerty Ransomware"
 aliases: ["Qwerty Ransomware"]
-description: "A new ransomware has been discovered that utilizes the legitimate GnuPG, or GPG, encryption program to encrypt a victim's files.  Currently in the wild, this ransomware is called Qwerty Ransomware and "
+description: "A new ransomware has been discovered that utilizes the legitimate GnuPG, or GPG, encryption program to encrypt a victim's files. Currently in the wild, this ransomware is called Qwerty Ransomware and w"
 permalink: /qwerty-ransomware/
 ---
 

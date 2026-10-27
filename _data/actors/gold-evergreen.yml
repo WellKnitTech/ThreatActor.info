@@ -1,5 +1,5 @@
 name: "GOLD EVERGREEN"
-aliases: ["GOLD EVERGREEN"]
+aliases: ["GOLD EVERGREEN","The Business Club","Gold Evergreen"]
 description: "GOLD EVERGREEN was a financially motivated cybercriminal threat group that operated the Gameover Zeus (aka Mapp, P2P Zeus) botnet until June 2014. It encompasses an expansive and long running criminal conspiracy operated by a confederation of individuals calling themselves The Business Club from the mid 2000s until 2014. GOLD EVERGREEN's technical operation was facilitated primarily through botnets using the Zeus, JabberZeus, and eventually Gameover Zeus malware families. These malware families were designed and maintained by a Russian national Evgeniy Bogachev (aka 'slavik') who was indicted by the U.S. DOJ in 2014 and remains a fugitive."
 url: "/gold-evergreen"
 source_name: "MISP Galaxy"
@@ -9,17 +9,27 @@ source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["P2P ZeuS","CyberGate","Cyber Eye RAT"]
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      Secureworks: ["Gold Evergreen"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "thebusinessclub"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "gold_evergreen"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gold_evergreen"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "fc1c1d9f-1432-417f-a3bf-e730ddd1d139"
   misp_galaxy:
-    meta_keys: ["origin:GOLD EVERGREEN","refs"]
+    meta_keys: ["origin:GOLD EVERGREEN","refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "fc1c1d9f-1432-417f-a3bf-e730ddd1d139"
     source_record_ids: ["fc1c1d9f-1432-417f-a3bf-e730ddd1d139"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

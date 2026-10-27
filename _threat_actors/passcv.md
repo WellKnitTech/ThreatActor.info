@@ -1,8 +1,8 @@
 ---
 layout: threat_actor
 title: "PassCV"
-aliases: ["PassCV","Winnti Umbrella","China Cracking Group","TG-3279"]
-description: "The PassCV group continues to be one of the most successful and active threat groups that leverage a wide array of stolen Authenticode-signing certificates.  Snorre Fagerland of Blue Coat Systems first"
+aliases: ["China Cracking Group","PassCV","TG-3279","Winnti Umbrella"]
+description: "The PassCV group continues to be one of the most successful and active threat groups that leverage a wide array of stolen Authenticode-signing certificates. Snorre Fagerland of Blue Coat Systems first "
 permalink: /passcv/
 ---
 
@@ -47,6 +47,11 @@ The PassCV group continues to be one of the most successful and active threat gr
 - **Gh0st RAT**: 
 - **NetCommander**: 
 - **Carberp RAT**: 
+- **Cobalt Strike**: 
+- **Excalibur**: 
+- **NetWire RC**: 
+- **Winnti**: 
+- **ZXShell**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

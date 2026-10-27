@@ -14,11 +14,15 @@
   "groups": [
     {
       "name": "APT29",
-      "url": "/apt29"
+      "url": "/apt29/"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082/"
     },
     {
       "name": "APT-C-36",
-      "url": "/apt0099"
+      "url": "/apt0099/"
     }
   ]
 }

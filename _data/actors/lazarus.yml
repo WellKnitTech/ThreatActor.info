@@ -1,5 +1,5 @@
 name: "Lazarus Group"
-aliases: ["Andariel","Appleworm","APT 38","APT-C-26","APT38","ATK117","ATK3","BeagleBoyz","Black Artemis","Bluenoroff","Bureau 121","Citrine Sleet","COPERNICIUM","COVELLITE","Dark Seoul","DEV-0139","DEV-1222","Diamond Sleet","G0032","G0082","Group 77","Guardians of Peace","Hastati Group","Hidden Cobra","HIDDEN COBRA","Labyrinth Chollima","Lazarus Group","Lazarus group","Moonstone Sleet","NewRomanic Cyber Army Team","NICKEL ACADEMY","Nickel Academy","NICKEL GLADSTONE","Operation AppleJeus","Operation DarkSeoul","Operation GhostSecret","Operation Troy","Sapphire Sleet","Stardust Chollima","Subgroup: Bluenoroff","TA404","Unit 121","Whois Hacking Team","ZINC","Zinc","Lazarus - APT-C-26","Lazarus","Genie Spider","UNC1069","Alluring Pisces","CageyChameleon","CryptoCore","MASAN"]
+aliases: ["APT 38","APT-C-26","APT38","ATK117","ATK3","Alluring Pisces","Andariel","Appleworm","BeagleBoyz","Black Artemis","Bluenoroff","Bureau 121","COPERNICIUM","COVELLITE","CTG-2460","CageyChameleon","Citrine Sleet","CryptoCore","DEV-0139","DEV-1222","Dark Seoul","Diamond Sleet","G0032","G0082","Genie Spider","Group 77","Guardians of Peace","HIDDEN COBRA","Hastati Group","Hidden Cobra","Labyrinth Chollima","Lazarus","Lazarus - APT-C-26","Lazarus Group","Lazarus group","MASAN","Moonstone Sleet","NICKEL ACADEMY","NICKEL GLADSTONE","NewRomanic Cyber Army Team","Nickel Academy","Operation AppleJeus","Operation DarkSeoul","Operation GhostSecret","Operation Troy","Sapphire Sleet","Stardust Chollima","Subgroup: Bluenoroff","TA404","UNC1069","Unit 121","Whois Hacking Team","ZINC","Zinc","MIDNIGHT NEPTUNE"]
 description: "Lazarus Group is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). [US-CERT HIDDEN COBRA June 2017](https://www.us-cert.gov/ncas/alerts/TA17-164A) [Treasury North Korean Cyber Groups September 2019](https://home.treasury.gov/news/press-releases/sm774) Lazarus Group has been active since at least 2009 and is reportedly responsible for the November 2014 destructive wiper attack on Sony Pictures Entertainment, identified by Novetta as part of Operation Blockbuster. Malware used by Lazarus Group correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain. [Novetta Blockbuster](https://web.archive.org/web/20160226161828/https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf)\n\nNorth Korea’s cyber operations have shown a consistent pattern of adaptation, forming and reorganizing units as national priorities shift. These units frequently share personnel, infrastructure, malware, and tradecraft, making it difficult to attribute specific operations with high confidence. Public reporting often uses “Lazarus Group” as an umbrella term for multiple North Korean cyber operators conducting espionage, destructive attacks, and financially motivated campaigns. [Mandiant DPRK Laz Org Breakdown 2022](https://cloud.google.com/blog/topics/threat-intelligence/mapping-dprk-groups-to-government/) [Mandiant DPRK Groups 2023](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023) [JPCert Blog Laz Subgroups 2025](https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html)\n\n"
 url: "/lazarus"
 country: "North Korea"
@@ -10,6 +10,7 @@ first_seen: "2009"
 last_activity: "2024"
 last_updated: "2026-04-27"
 risk_level: "Critical"
+confidence: "high"
 external_id: "G0032"
 external_url: "https://attack.mitre.org/groups/G0032"
 mitre_id: "G0032"
@@ -559,6 +560,17 @@ ttps:
     technique_name: "Spearphishing Attachment"
     url: "https://attack.mitre.org/techniques/T0865"
     stix_id: "attack-pattern--648f995e-9c3a-41e4-aeee-98bb41037426"
+attck_techniques: ["T0865","T1001.003","T1005","T1008","T1010","T1012","T1016","T1021.001","T1021.002","T1021.004","T1027.007","T1027.009","T1027.013","T1033","T1036.003","T1036.004","T1036.005","T1041","T1046","T1047","T1048.003","T1049","T1053.005","T1055.001","T1056.001","T1057","T1059.001","T1059.003","T1059.005","T1070","T1070.003","T1070.004","T1070.006","T1071.001","T1074.001","T1078","T1082","T1083","T1090.001","T1090.002","T1098","T1102.002","T1104","T1105","T1106","T1110.003","T1124","T1132.001","T1134.002","T1140","T1189","T1202","T1203","T1204.002","T1218","T1218.005","T1218.011","T1485","T1489","T1491.001","T1529","T1542.003","T1543.003","T1547.001","T1547.009","T1553.002","T1557.001","T1560","T1560.002","T1560.003","T1561.001","T1561.002","T1564.001","T1566.001","T1566.002","T1566.003","T1571","T1573.001","T1574.001","T1574.013","T1583.001","T1583.006","T1584.004","T1585.001","T1585.002","T1587.001","T1588.002","T1588.004","T1589.002","T1591","T1620","T1680","T1685","T1686.003"]
+attck_software: ["S0103","S0108","S0174","S0180","S0181","S0238","S0239","S0241","S0245","S0246","S0263","S0271","S0347","S0364","S0366","S0376","S0431","S0497","S0498","S0520","S0567","S0584","S0586","S0593","S0665","S1182"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0032"
+    external_id: "G0032"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "Operation Dream Job"
     campaign_id: "C0022"
@@ -570,7 +582,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.mcafee.com/us/resources/white-papers/wp-dissecting-operation-troy.pdf"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "unknown"
   aptnotes:
     earliest_report_year: "2013"
@@ -580,13 +592,18 @@ provenance:
     sample_titles: ["Dissecting Operation Troy: Cyberespionage In South Korea","Dark Seoul Cyber Attack: Could It Be Worse?","Lazarus & Watering-Hole Attacks","Lazarus' False Flag Malware","Taiwan Heist: Lazarus Tools And Ransomware","Lazarus Group Targets More Cryptocurrency Exchanges and FinTech Companies","Attacks Of The Lazarus Cybercriminal Group Attended To Organizations In Russia","Lazarus supply-chain attack in South Korea","Lazarus covets COVID-19-related intelligence","North Korea's Lazarus APT leverages Windows Update client, GitHub in latest campaign"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Ahnlab","BAE Systems","Cyber Geeks","Dongseo University","ESET","Intezer","Kaspersky","MalwareBytes","McAfee","SecureSoft","Symantec","zscaler"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "f04ded49-5b0e-4422-9c6c-4c6e2ed7d3d3"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc1069"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc1069"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "b7e897da-108b-4f5b-b32b-3fd9375cc55e"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category","microsoft-origin-threat","sector"]
@@ -595,19 +612,26 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "e6f4af06-fbb5-5471-82ae-b0bdb4d446ce"
     source_record_ids: ["e6f4af06-fbb5-5471-82ae-b0bdb4d446ce","9630b0aa-ee9e-5b58-9f79-cf7fa8d291a8"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.0"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0032"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Lazarus Group"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Lazarus%20Group/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Lazarus%20Group/Lazarus%20Group_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

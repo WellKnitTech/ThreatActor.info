@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Cyber Army of Russia"
-aliases: ["Cyber Army of Russia"]
+aliases: ["Cyber Army of Russia","CyberArmyOfRussia","UAC-0107"]
 description: "The Cyber Army of Russia is a threat group that appears to carry out cyber attacks in line with Russian strategic interests. The group has claimed many distributed denial of service (DDoS) attacks agai"
 permalink: /cyber-army-of-russia/
 ---

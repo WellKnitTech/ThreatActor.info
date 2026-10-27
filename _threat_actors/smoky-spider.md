@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SMOKY SPIDER"
-aliases: ["SMOKY SPIDER"]
+aliases: ["SMOKY SPIDER","Smoky Spider"]
 description: "Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report."
 permalink: /smoky-spider/
 ---
@@ -10,10 +10,37 @@ permalink: /smoky-spider/
 Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2015**
+- **2018-04**
+- **2018-06**
+- **2018-07**
+- **2018-11**
+- **2019-04**
+- **Analysis of Smoke Loader in New Tsunami Campaign**
+- **Proofpoint observed that the malware returned to regular attacks against German and Swiss users in April 2019 after taking a hiatus in 2018. These campaigns helped reveal several new techniques now employed by the banking Trojan. One geographically targeted campaign against Switzerland**
+- **Smoke Loader malware improves after Microsoft spoils its Campaign**
+- **Smoke Loader – downloader with a smokescreen still alive**
+- **Smoking Guns - Smoke Loader learned new tricks**
+- **The Cylance Threat Research team recently dissected a resurgent form of Smoke Loader. Our investigation uncovered two other samples of malware working with Smoke Loader: a document packed with malicious macros**
+- **a banking Trojan.**
+- **and Trickbot**
+- **downloaded Retefe two hours after infection.**
+- **for instance**
+- **https://blog.malwarebytes.com/threat-analysis/2016/08/smoke-loader-downloader-with-a-smokescreen-still-alive/**
+- **https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html**
+- **https://securityintelligence.com/news/retefe-banking-trojan-returns-with-smoke-loader-as-its-intermediate-loader/**
+- **https://threatvector.cylance.com/en_us/home/threat-spotlight-resurgent-smoke-loader-malware-dissected.html**
+- **https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/**
+- **https://www.spamhaus.org/news/article/774/smoke-loader-malware-improves-after-microsoft-spoils-its-campaign**
+- **in turn**
+- **used an Object Linking and Embedding (OLE) package to deliver Smoke Loader. This threat**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -23,9 +50,12 @@ Mentioned as operator of SmokeLoader in CrowdStrike's 2020 Report.
 
 ## Malware and Tools
 - **Smoke Loader**
+- **Sasfis**: 
+- **Smoke Loader**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

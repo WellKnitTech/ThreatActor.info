@@ -1,0 +1,14 @@
+name: "[Unnamed groups: Iran]"
+aliases: ["[Unnamed groups: Iran]"]
+description: "These are reported APT activities attributed to a country, but not to an individual threat group."
+url: "/unnamed-groups-iran"
+country: "[\"Iran\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["2017","2023-11","2023-12","Florida water agency latest to confirm cyber incident as feds warn of nation-state attacks","I Spy With My Little Eye: Uncovering an Iranian Counterintelligence Operation","North Texas water utility serving 2 million hit with cyberattack","Pennsylvania water authority hit with cyberattack allegedly tied to pro-Iran group","https://cloud.google.com/blog/topics/threat-intelligence/uncovering-iranian-counterintelligence-operation","https://therecord.media/florida-water-agency-ransomware-cisa-warning-utilities","https://therecord.media/north-texas-water-utility-cyberattack","https://therecord.media/water-authority-pennsylvania-cyberattack-pro-iran-group"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "01106777-4eb0-4a37-b7d3-c8ca539e2403"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

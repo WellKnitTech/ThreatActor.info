@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Roaming Tiger"
-aliases: ["BRONZE WOODLAND","Rotten Tomato","Roaming Tiger"]
+aliases: ["BRONZE WOODLAND","Bronze Woodland","CTG-7273","Roaming Tiger","Rotten Tomato"]
 description: "Roaming Tiger is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 permalink: /roaming-tiger/
 ---
@@ -10,11 +10,19 @@ permalink: /roaming-tiger/
 Roaming Tiger is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+**First Seen**: 2014
+
+**Last Activity**: 2014
+
 
 ## Notable Campaigns
+- **2015-08**
 - **Roaming Tiger**
 - **TOPNEWS**
+- **https://unit42.paloaltonetworks.com/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -28,9 +36,13 @@ Roaming Tiger is a threat actor tracked by MISP Galaxy. Additional information p
 - **TEMPFUN**: 
 - **FIRSTBLOOD**: 
 - **PI**: 
+- **BBSRAT**: 
+- **Gh0st RAT**: 
+- **PlugX**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

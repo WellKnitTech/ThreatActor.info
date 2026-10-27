@@ -22,7 +22,14 @@ Dagon Locker is a double-extortion ransomware family that surfaced around Septem
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Discovery | AdFind, Nbtscan, Seatbelt, ShareFinder, SoftPerfect NetScan |
+| Exfiltration | RClone |
+| OffSec | Cobalt Strike |
+| RMM Tools | AnyDesk |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

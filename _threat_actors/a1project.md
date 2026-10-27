@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "a1project"
 aliases: ["a1project"]
-description: "The locker is written in C/C++/ASM.\r<br/>It supports all systems starting from Windows 2003, has a separate binary for ESXi, and uses a unified encrypted file format across all systems.\r<br/>WINDOWS:\r<"
+description: "The locker is written in C/C++/ASM. <br/>It supports all systems starting from Windows 2003, has a separate binary for ESXi, and uses a unified encrypted file format across all systems. <br/>WINDOWS: <"
 permalink: /a1project/
 ---
 

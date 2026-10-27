@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "WIP19"
-aliases: ["WIP19"]
+aliases: ["WIP19","Shadow Force"]
 description: "WIP19 is a Chinese-speaking threat group involved in espionage targeting the Middle East and Asia. They utilize a stolen certificate to sign their malware, including SQLMaggie, ScreenCap, and a credent"
 permalink: /wip19/
 ---

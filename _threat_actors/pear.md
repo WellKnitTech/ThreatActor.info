@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "pear"
 aliases: ["pear"]
-description: "ABOUT US:\r<br/>\r<br/>\"Pure Extraction And Ransom (PEAR) Team is the community of highly responsible and strictly disciplined members. We are a private team and have nothing common with any other threat"
+description: "ABOUT US: <br/> <br/>\"Pure Extraction And Ransom (PEAR) Team is the community of highly responsible and strictly disciplined members. We are a private team and have nothing common with any other threat"
 permalink: /pear/
 ---
 

@@ -31,12 +31,20 @@
   ],
   "groups": [
     {
+      "name": "TeamPCP",
+      "url": "/teampcp/"
+    },
+    {
       "name": "APT29",
-      "url": "/apt29"
+      "url": "/apt29/"
+    },
+    {
+      "name": "ShinyHunters",
+      "url": "/shinyhunters/"
     },
     {
       "name": "APT28",
-      "url": "/apt28"
+      "url": "/apt28/"
     }
   ]
 }

@@ -4,6 +4,7 @@ description: "dAn0n is a data-extortion actor that first appeared in April 2024.
 url: "/dan0n"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/danon"
 malware:
   - name: "Small-Net"
   - name: "UNITEDRAKE"
@@ -17,4 +18,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "3e099540-9fe5-5e2e-9a48-ed0ec8b35828"
     source_record_ids: ["3e099540-9fe5-5e2e-9a48-ed0ec8b35828"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "danon"
+  source_retrieved_at: "2026-10-27T17:20:08Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

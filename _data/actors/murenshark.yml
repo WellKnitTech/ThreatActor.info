@@ -1,5 +1,5 @@
 name: "MurenShark"
-aliases: ["Actor210426","MurenShark"]
+aliases: ["Actor210426","MurenShark","Murenshark"]
 description: "MurenShark is an advanced persistent threat group that operates primarily in the Middle East, with a focus on targeting Turkey. They have shown interest in military projects, as well as research institutes and universities. This group is highly skilled in counter-analysis and reverse traceability, using sophisticated tactics to avoid detection. They utilize compromised websites as file servers and command and control servers, and have been known to use attack tools like NiceRender for phishing purposes."
 url: "/murenshark"
 source_name: "MISP Galaxy"
@@ -9,11 +9,21 @@ source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["SharK","Killer RAT"]
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      NSFOCUS Fuying Lab: ["Actor210426","Murenshark"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "murenshark"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Unknown"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "murenshark"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/murenshark"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "e5c78742-bf60-4da8-b038-d548ae3f4ecb"
   misp_galaxy:
     meta_keys: ["refs","synonyms"]
@@ -22,4 +32,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "e5c78742-bf60-4da8-b038-d548ae3f4ecb"
     source_record_ids: ["e5c78742-bf60-4da8-b038-d548ae3f4ecb"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "murenshark"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/murenshark/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/murenshark/murenshark_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

@@ -4,6 +4,7 @@ description: "Br0k3r is not a conventional ransomware gang, but rather an Iran-l
 url: "/br0k3r"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/brok3r"
 malware:
   - name: "BlackEnergy"
   - name: "BLACKCOFFEE"
@@ -20,4 +21,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "d0e15668-b345-5509-bb12-17640cbc06f1"
     source_record_ids: ["d0e15668-b345-5509-bb12-17640cbc06f1"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "brok3r"
+  source_retrieved_at: "2026-10-27T17:24:36Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

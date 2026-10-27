@@ -1,0 +1,14 @@
+name: "[Unnamed groups: North Korea]"
+aliases: ["Operation “DEV#POPPER”"]
+description: "These are reported APT activities attributed to a country, but not to an individual threat group."
+url: "/unnamed-groups-north-korea"
+country: "[\"North Korea\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["2019-08","2024-04","2024-07","2024-08","2024-10","APT Actors Embed Malware within macOS Flutter Applications","Analysis of DEV#POPPER: New Attack Campaign Targeting Software Developers Likely Associated With North Korean Threat Actors","Operation “DEV#POPPER”","Research Update: Threat Actors Behind the DEV#POPPER Campaign Have Retooled and are Continuing to Target Software Developers via Social Engineering","South Korea says DPRK hackers stole spy plane technical data","Suspected North Korean Cyber Espionage Campaign Targets Multiple Foreign Ministries and Think Tanks","https://www.anomali.com/blog/suspected-north-korean-cyber-espionage-campaign-targets-multiple-foreign-ministries-and-think-tanks#When:14:00:00Z","https://www.bleepingcomputer.com/news/security/south-korea-says-dprk-hackers-stole-spy-plane-technical-data/","https://www.jamf.com/blog/jamf-threat-labs-apt-actors-embed-malware-within-macos-flutter-applications/","https://www.securonix.com/blog/analysis-of-devpopper-new-attack-campaign-targeting-software-developers-likely-associated-with-north-korean-threat-actors/","https://www.securonix.com/blog/research-update-threat-actors-behind-the-devpopper-campaign-have-retooled-and-are-continuing-to-target-software-developers-via-social-engineering/"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "42a46962-999d-4cd2-bde5-c842e3efdd22"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

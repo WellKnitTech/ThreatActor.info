@@ -20,7 +20,9 @@ This group's activity was first observed in November 2013. It leverages a bankin
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2013-01**
+- **New Version of Shylock Malware Spreading Through Skype**
+- **https://threatpost.com/new-version-shylock-malware-spreading-through-skype-011713/77416/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -31,6 +33,7 @@ This group's activity was first observed in November 2013. It leverages a bankin
 ## Malware and Tools
 - **Trojan.Karagany**
 - **Trojan.Mebromi**
+- **Shylock**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

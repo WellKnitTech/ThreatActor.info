@@ -1,0 +1,14 @@
+name: "Operation SalmonSlalom"
+aliases: ["Operation SalmonSlalom"]
+description: "(Kaspersky) A Kaspersky ICS CERT investigation uncovered a cyberthreat specifically targeting various industrial organizations in the Asia-Pacific region. The threat was orchestrated by attackers using legitimate Chinese cloud content delivery network (CDN) myqcloud and the Youdao Cloud Notes service as part of their attack infrastructure. The attackers employed a sophisticated multi-stage payload delivery framework to ensure evasion of detection. Their techniques included the use of a native file hosting CDN, publicly available packers for sample encryption, dynamic changes in command and control (C2) addresses, a CDN hosting the payload, and the use of DLL sideloading."
+url: "/operation-salmonslalom"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["FatalRAT"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "98b23cd0-b341-47a8-85cb-5aeb9df8b974"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

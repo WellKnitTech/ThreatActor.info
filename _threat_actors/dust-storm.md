@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Dust Storm"
-aliases: ["G0031","Dust Storm"]
+aliases: ["Dust Storm","G0031"]
 description: "Threat actors behind the Operation Dust Storm have been active since at least 2010, the hackers targeted several organizations in Japan, South Korea, the US, Europe, and other Asian countries."
 permalink: /dust-storm/
 ---
@@ -10,7 +10,11 @@ permalink: /dust-storm/
 Threat actors behind the Operation Dust Storm have been active since at least 2010, the hackers targeted several organizations in Japan, South Korea, the US, Europe, and other Asian countries.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,10 +26,15 @@ Threat actors behind the Operation Dust Storm have been active since at least 20
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Gh0st RAT**: 
+- **MiS-Type**: 
+- **Misdat**: 
+- **Poison Ivy**: 
+- **S-Type**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 [1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0031)

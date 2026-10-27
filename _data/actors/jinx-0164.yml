@@ -1,0 +1,29 @@
+name: "JINX-0164"
+aliases: ["JINX-0164"]
+description: "JINX-0164 is a financially motivated threat actor active since mid-2025, primarily targeting software developers through recruitment-themed social engineering to steal cryptocurrencies and conduct supply chain attacks. Their operations have focused on macOS devices, utilizing malware such as AUDIOFIX and MINIRAT, with a notable supply chain compromise involving the trojanization of an npm package. The actor employs a shell script for initial system profiling and payload delivery, often spoofing legitimate services like Microsoft Teams and cryptocurrency companies. JINX-0164's infrastructure includes numerous lookalike domains and utilizes VPN exit nodes for accessing victim systems."
+url: "/jinx-0164"
+country: "North Korea"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/jinx-0164"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Trojan.Karagany"
+  - name: "Trojan.Mebromi"
+  - name: "miniRAT"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "jinx-0164"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/jinx-0164"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "3714b184-50ea-4251-acd8-4ad1e2b0a4d7"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "3714b184-50ea-4251-acd8-4ad1e2b0a4d7"
+    source_record_ids: ["3714b184-50ea-4251-acd8-4ad1e2b0a4d7"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

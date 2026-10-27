@@ -4,6 +4,7 @@ description: "Ransomware May download additional malware after encryption"
 url: "/troldesh-orshade-xtbl"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/shade"
 provenance:
   misp_galaxy:
     meta_keys: ["encryption","extensions","links","payment-method","ransomnotes-filenames","refs","synonyms"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "6c3dd006-3501-4ebc-ab86-b06e4d555194"
     source_record_ids: ["6c3dd006-3501-4ebc-ab86-b06e4d555194"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "shade"
+  source_retrieved_at: "2026-10-27T17:20:11Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

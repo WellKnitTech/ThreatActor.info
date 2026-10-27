@@ -1,5 +1,5 @@
 name: "SharpPanda"
-aliases: ["Sharp Dragon","SharpPanda","Sharp Panda","Sharp Dragon (CHKPT)"]
+aliases: ["Sharp Dragon","Sharp Dragon (CHKPT)","Sharp Panda","SharpPanda"]
 description: "SharpPanda, an APT group originating from China, has seen a rise in its cyber-attack operations starting from at least 2018. The APT group utilizes spear-phishing techniques to obtain initial access, employing a combination of outdated Microsoft Office document vulnerabilities, novel evasion techniques, and highly potent backdoor malware."
 url: "/sharppanda"
 country: "China"
@@ -9,6 +9,7 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sharppanda"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2024","2024-03","Chinese Espionage Campaign Expands to Target Africa and The Caribbean","Inside the SharpPanda's Malware Targeting Malaysia","https://blog.checkpoint.com/research/chinese-espionage-campaign-expands-to-target-africa-and-the-caribbean/","https://notes.netbytesec.com/2024/05/inside-sharppandas-malware-targeting.html"]
 malware:
   - "Backdoor.Oldrea"
   - "China Chopper"
@@ -19,24 +20,31 @@ malware:
   - name: "VictoryDLL"
   - name: "Soul framework"
   - name: "Cobalt Strike Beacon"
+  - name: "8.t Dropper"
+  - name: "Cobalt Strike"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://research.checkpoint.com/2024/sharp-dragon-expands-towards-africa-and-the-caribbean/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "7b0c519a-09c7-4d39-80cf-0b4bac1d5199"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "sharppanda"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sharppanda"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "7133a722-088c-4d5a-b2e0-a1f9915f807d"
   misp_galaxy:
-    meta_keys: ["cfr-suspected-victims","country","refs","synonyms"]
+    meta_keys: ["cfr-suspected-victims","country","refs","synonyms","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "7133a722-088c-4d5a-b2e0-a1f9915f807d"
     source_record_ids: ["7133a722-088c-4d5a-b2e0-a1f9915f807d"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

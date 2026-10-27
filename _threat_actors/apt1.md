@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT1"
-aliases: ["APT1","Brown Fox","Byzantine Candor","Comment Crew","Comment Group","Comment Panda","COMMENT PANDA","G0006","GIF89a","Group 3","PLA Unit 61398","ShadyRAT","Shanghai Group","TG-8223"]
+aliases: ["APT 1","APT1","Brown Fox","BrownFox","Byzantine Candor","Byzantine Hades","COMMENT PANDA","Comment Crew","Comment Group","Comment Panda","G0006","GIF89a","Group 3","Operation “Oceansalt”","Operation “Seasalt”","Operation “Siesta”","PLA Unit 61398","ShadyRAT","Shanghai Group","TG-8223","Shady RAT"]
 description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
 permalink: /apt1/
 ---
@@ -25,8 +25,39 @@ APT1 is a Chinese cyber espionage group that has been conducting cyber espionage
 **Suspected Victims**: United States, Taiwan, Israel, Norway, United Arab Emirates, United Kingdom, Singapore, India, Belgium, South Africa...
 
 ## Notable Campaigns
-- **Shady RAT**
+- **2006/2010**
+- **2011-03**
+- **2011/2012**
+- **2014-02**
+- **2018-05**
+- **Breach of RSA**
+- **FireEye recently looked deeper into the activity discussed in TrendMicro’s blog and dubbed the “Siesta” campaign. The tools**
 - **GhostNet**
+- **Hackers Plundered Israeli Defense Firms that Built ‘Iron Dome’ Missile Defense System**
+- **Method: Oceansalt appears to be the first stage of an advanced persistent threat. The malware can send system data to a control server and execute commands on infected machines**
+- **Method: Spear-phishing with malicious documents.**
+- **Note: It is possible that this operation was not performed by the actual Comment Crew group (as they are supposedly in jail).**
+- **Operation “Oceansalt”**
+- **Operation “Seasalt”**
+- **Operation “Siesta”**
+- **Shady RAT**
+- **Target: 140 US companies in the quest for sensitive corporate and intellectual property data.**
+- **Target: Oceansalt appears to have been part of an operation targeting South Korea**
+- **They breached security systems designed to keep out intruders by creating duplicates to “SecurID” electronic keys from EMC Corp’s EMC.N RSA security division**
+- **United States**
+- **and Canada in a well-focused attack. A variation of this malware has been distributed from two compromised sites in South Korea.**
+- **and infrastructure used in the campaign present two possibilities: either the Chinese cyberespionage unit APT 1 is perpetrating this activity**
+- **but we do not yet know its ultimate purpose.**
+- **https://blog.trendmicro.com/trendlabs-security-intelligence/the-siesta-campaign-a-new-targeted-attack-awakens/**
+- **https://krebsonsecurity.com/2014/07/hackers-plundered-israeli-defense-firms-that-built-iron-dome-missile-defense-system/**
+- **https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/operation-oceansalt-delivers-wave-after-wave/**
+- **https://www.fireeye.com/blog/threat-research/2014/03/a-detailed-examination-of-the-siesta-campaign.html**
+- **https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf**
+- **https://www.reuters.com/article/us-usa-defense-hackers/exclusive-hackers-breached-u-s-defense-contractors-idUSTRE74Q6VY20110527**
+- **https://www.wired.com/story/the-full-story-of-the-stunning-rsa-hack-can-finally-be-told/**
+- **modus operandi**
+- **or another group is using the same tactics and tools as the legacy APT 1.**
+- **said the person who was not authorized to publicly discuss the matter.**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 - [T1003.001 LSASS Memory](https://attack.mitre.org/techniques/T1003/001)
@@ -86,6 +117,47 @@ APT1 is a Chinese cyber espionage group that has been conducting cyber espionage
 - **Hacking Team UEFI Rootkit**
 - **WEBC2**: 
 - **BISCUIT and many others**: 
+- **Auriga**: 
+- **BISCUIT**: 
+- **Bouncer**: 
+- **CALENDAR**: 
+- **Cachedump**: 
+- **Combos**: 
+- **CookieBag**: 
+- **Dairy**: 
+- **GDOCUPLOAD**: 
+- **GLASSES**: 
+- **GLOOXMAIL**: 
+- **GOGGLES**: 
+- **GREENCAT**: 
+- **GetMail**: 
+- **Hackfase**: 
+- **Helauto**: 
+- **Kurton**: 
+- **LIGHTBOLT**: 
+- **LIGHTDART**: 
+- **LONGRUN**: 
+- **Living off the Land**: 
+- **Lslsass**: 
+- **MAPIget**: 
+- **ManItsMe**: 
+- **Mimikatz**: 
+- **MiniASP**: 
+- **NewsReels**: 
+- **Oceansalt**: 
+- **Pass-The-Hash Toolkit**: 
+- **Poison Ivy**: 
+- **ProcDump**: 
+- **Seasalt**: 
+- **ShadyRAT**: 
+- **StarsyPound**: 
+- **Sword**: 
+- **TabMsgSQL**: 
+- **Tarsip**: 
+- **WARP**: 
+- **bangat**: 
+- **gsecdump**: 
+- **pwdump**: 
 
 ### MITRE ATT&CK Software
 - [Seasalt (S0345) — malware](https://attack.mitre.org/software/S0345)

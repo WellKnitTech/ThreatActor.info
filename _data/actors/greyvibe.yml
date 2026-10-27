@@ -1,0 +1,25 @@
+name: "GreyVibe"
+aliases: ["GreyVibe"]
+description: "GREYVIBE is a low-to-moderately sophisticated threat actor associated with Russian state interests, primarily targeting Ukrainian entities. The group employs custom malware like LegionRelay and PhantomRelay, utilizing techniques such as decoy-and-payload execution logic and systematic use of GenAI and LLMs throughout their operations. Their campaigns exhibit operational overlaps with other groups, including shared C2 infrastructure and post-compromise tooling. WithSecure has identified design flaws in their malware that have provided insights into their victimology and operational behavior."
+url: "/greyvibe"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/greyvibe"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "greyvibe"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/greyvibe"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "2454eeca-8660-42c6-af7e-efbc8f90a490"
+  misp_galaxy:
+    meta_keys: ["country","name-attribution","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "2454eeca-8660-42c6-af7e-efbc8f90a490"
+    source_record_ids: ["2454eeca-8660-42c6-af7e-efbc8f90a490"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

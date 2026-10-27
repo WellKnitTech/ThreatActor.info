@@ -1,0 +1,26 @@
+name: "Operation Manul"
+aliases: ["Operation Manul"]
+description: "(Electronic Frontier Foundation) This report covers a campaign of phishing and malware which we have named “Operation Manul” and which, based on the available evidence, we believe is likely to have been carried out on behalf of the government of Kazakhstan against journalists, dissidents living in Europe, their family members, known associates, and their lawyers. Many of the targets are involved in litigation with the government of Kazakhstan in European and American courts whose substance ranges from attempts by the government of Kazakhstan to unmask the administrators behind an anonymous website that publishes leaks alleging government corruption (Kazaword) to allegations of kidnapping. Our research suggests links between this campaign and other campaigns that have been attributed to an Indian security company called Appin Security Group. A hired actor is consistent with our findings on the Command and Control servers related to this campaign, which included web-based control panels for multiple RATs, suggesting that several campaigns were being run at once. A hired actor may also explain the generic and uninspired nature of the phishing, which often took the form of an email purporting to contain an invoice or a legal document with an attachment containing a blurry image. An investigation by the Swiss federal police of some of the emails linked to Operation Manul concludes that they were sent from IP addresses in India, which also suggests a link to Appin."
+url: "/operation-manul"
+country: "[\"Kazakhstan\"]"
+first_seen: "2016"
+last_activity: "2016"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["Bandook","JRat"]
+provenance:
+  aptnotes:
+    earliest_report_year: "2016"
+    latest_report_year: "2016"
+    report_count: 1
+    sample_links: ["https://app.box.com/s/0dhelcscwtesl3biuldgrbeddaffwneu"]
+    sample_titles: ["Operation Manul"]
+    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
+    source_repository: "https://github.com/aptnotes/data"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
+    sources: ["EFF"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "2eb09560-6cce-4c19-ab9d-7cb929bd110c"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

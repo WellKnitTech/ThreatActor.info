@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Operation Emmental"
-aliases: ["Retefe Gang","Retefe Group","Operation Emmental"]
+aliases: ["Operation Emmental","Retefe Gang","Retefe Group"]
 description: "Operation Emmental, also known as the Retefe gang, is a threat actor group that has been active since at least 2012. They primarily target customers of banks in countries such as Austria, Sweden, Switz"
 permalink: /operation-emmental/
 ---
@@ -26,7 +26,10 @@ Operation Emmental, also known as the Retefe gang, is a threat actor group that 
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Citadel**: 
+- **Retefe**: 
+- **Retefe (Android)**: 
+- **Tinba**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

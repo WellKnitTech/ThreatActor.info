@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Antihacker2017 Ransomware"
 aliases: ["Antihacker2017 Ransomware"]
-description: "It’s directed to Russian speaking users, there fore is able to infect mosty the old USSR countries.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, inc"
+description: "It’s directed to Russian speaking users, there fore is able to infect mosty the old USSR countries. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, inclu"
 permalink: /antihacker2017-ransomware/
 ---
 

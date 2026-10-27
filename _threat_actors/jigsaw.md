@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Jigsaw"
-aliases: ["CryptoHitMan","Jigsaw Original","Jigsaw"]
+aliases: ["CryptoHitMan","Jigsaw","Jigsaw Original"]
 description: "Ransomware Has a GUI"
 permalink: /jigsaw/
 ---

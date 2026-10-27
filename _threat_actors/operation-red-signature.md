@@ -32,6 +32,7 @@ The threat actors compromised the update server of a remote support solutions pr
 - **RemotePC**
 - **9002**
 - **Client Maximus**
+- **9002 RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

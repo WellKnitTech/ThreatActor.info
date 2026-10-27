@@ -1,5 +1,5 @@
 name: "APT39"
-aliases: ["APT39","Burgundy Sandstorm","Cadelle","Chafer","COBALT HICKMAN","G0087","ITG07","Radio Serpens","Remix Kitten","REMIX KITTEN","TA454"]
+aliases: ["APT 39","APT39","Burgundy Sandstorm","CINDER ION","COBALT HICKMAN","Cadelle","Chafer","Cobalt Hickman","G0087","ITG07","REMIX KITTEN","Radio Serpens","Remix Kitten","TA454"]
 description: "APT39 is one of several names for cyber espionage activity conducted by the Iranian Ministry of Intelligence and Security (MOIS) through the front company Rana Intelligence Computing since at least 2014. APT39 has primarily targeted the travel, hospitality, academic, and telecommunications industries in Iran and across Asia, Africa, Europe, and North America to track individuals and entities considered to be a threat by the MOIS. [FireEye APT39 Jan 2019](https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html) [Symantec Chafer Dec 2015](https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets) [FBI FLASH APT39 September 2020](https://www.iranwatch.org/sites/default/files/public-intelligence-alert.pdf) [Dept. of Treasury Iran Sanctions September 2020](https://home.treasury.gov/news/press-releases/sm1127) [DOJ Iran Indictments September 2020](https://www.justice.gov/opa/pr/department-justice-and-partner-departments-and-agencies-conduct-coordinated-actions-disrupt)"
 url: "/apt0087"
 country: "Iran"
@@ -16,7 +16,31 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt39"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Backdoor.Oldrea"]
+operations: ["2017","2018","2018 Autumn","2018-02","Bitdefender researchers have found attacks conducted by this actor in the Middle East region","Chafer appears to have been undeterred by its exposure in 2015 and continued to be very active during 2017","Jordan","Saudi Arabia","Sectors targeted included airlines","Spying on Iran-based foreign diplomatic entities","Symantec has also found evidence of attacks against one African airline and attempts to compromise an international travel reservations firm.","This new secondary payload is Python-based and compiled into executable form using the PyInstaller utility. This is the first instance where Unit 42 has identified a Python-based payload used by these operators. We’ve also identified code overlap with OilRig’s Clayside VBScript but at this time track Chafer and OilRig as separate threat groups. We have named this payload MechaFlounder for tracking purposes.","Throughout the autumn of 2018 we analyzed a long-standing (and still active at that time) cyberespionage campaign that was primarily targeting foreign diplomatic entities based in Iran. The attackers were using an improved version of Remexi in what the victimology suggests might be a domestic cyberespionage operation.","Turkish Government Targeting","aircraft services","and Turkey.","and attacking nine new target organizations in the region. The group hit organizations in Israel","and document management software. Outside of the Middle East","as well as different hacking tools and a custom built backdoor.","dating back to 2018. The campaigns were based on several tools","engineering consultancies","https://securelist.com/chafer-used-remexi-malware/89538/","https://unit42.paloaltonetworks.com/new-python-based-payload-mechaflounder-used-by-chafer/","https://www.bitdefender.com/files/News/CaseStudies/study/332/Bitdefender-Whitepaper-Chafer-creat4491-en-EN-interactive.pdf","https://www.symantec.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions","including “living off the land” tools","payroll services","rolling out new infrastructure","software and IT services companies serving the air and sea transport sectors","telecoms services","the United Arab Emirates","using seven new tools","which makes attribution difficult"]
+malware:
+  - "Backdoor.Oldrea"
+  - name: "ASPXSpy"
+  - name: "Antak"
+  - name: "EternalBlue"
+  - name: "HTTPTunnel"
+  - name: "Living off the Land"
+  - name: "MechaFlounder"
+  - name: "Metasploit"
+  - name: "Mimikatz"
+  - name: "Non-sucking Service Manager"
+  - name: "OilRig"
+  - name: "POWBAT"
+  - name: "Plink"
+  - name: "Rana"
+  - name: "Remcom"
+  - name: "Remexi"
+  - name: "SEAWEED"
+  - name: "SMB hacking tools"
+  - name: "SafetyKatz"
+  - name: "UltraVNC"
+  - name: "Windows Credentials Editor"
+  - name: "nbtscan"
+  - name: "pwdump"
 software:
   - name: "NBTscan"
     mitre_id: "S0590"
@@ -311,6 +335,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2019"
@@ -320,35 +347,66 @@ provenance:
     sample_titles: ["Chafer used Remexi malware to spy on Iran-based foreign diplomatic entities"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Kaspersky"]
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0087"]
+    mitre_technique_ids: ["T4491"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "d7f937b7-b50b-4022-bca1-9e403ffefe45"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Remix Kitten"]
+      IBM: ["ITG07"]
+      MITRE: ["G0087"]
+      Mandiant/FireEye: ["APT39"]
+      Palo Alto: ["Radio Serpens"]
+      Proofpoint: ["TA454"]
+      Secureworks: ["Cobalt Hickman"]
+      Symantec: ["Chafer"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "apt39"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "cadelle"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cadelle"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "03f13462-003c-4296-8784-bccea16710a9"
   misp_galaxy:
-    meta_keys: ["attribution-confidence","country","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat"]
+    meta_keys: ["attribution-confidence","country","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","target_categories","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c2c64bd3-a325-446f-91a8-b4c0f173a30b"
     source_record_ids: ["c2c64bd3-a325-446f-91a8-b4c0f173a30b","a57b52c7-9f64-4ffe-a7c3-0de738fb2af1","855828a7-8e3d-5ee7-8c5c-8bb619f6db6c"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0087"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Chafer"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Chafer/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Chafer/Chafer_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
 source: "MITRE ATT&CK"

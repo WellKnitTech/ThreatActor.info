@@ -4,11 +4,17 @@ description: "ransomware"
 url: "/storm"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/storm"
 provenance:
   misp_galaxy:
+    meta_keys: ["links","refs"]
     source_cluster: "ransomware.json"
     source_clusters: ["ransomware.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "e6b1ec39-e118-47d2-9205-468c87be86c2"
     source_record_ids: ["e6b1ec39-e118-47d2-9205-468c87be86c2"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "storm"
+  source_retrieved_at: "2026-10-27T17:25:23Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

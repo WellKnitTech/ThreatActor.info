@@ -1,0 +1,15 @@
+name: "UltraRank"
+aliases: ["UltraRank"]
+description: "(Group-IB) In August 2020, Group-IB published the report 'UltraRank: the unexpected twist of a JS-sniffer triple threat'. The report described the operations of the cybercriminal group UltraRank, which in five years of activity had successfully attacked 691 eCommerce stores and 13 website service providers. In November 2020, Group-IB experts discovered a new wave of UltraRank attacks. Even though new attacks were detected at the time, part of the group's infrastructure remained active and some sites were still infected. The cybercriminals did not use existing domains for new attacks but switched to a new infrastructure to store malicious code and collect intercepted payment data."
+url: "/ultrarank"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["2020-11","Group-IB experts discovered a new wave of UltraRank attacks.","https://www.group-ib.com/blog/ultrarank"]
+malware: ["SnifLite"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "bc7f20e6-c4c5-4112-98f5-a36717a3ebcb"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

@@ -38,59 +38,63 @@
   "groups": [
     {
       "name": "CURIUM",
-      "url": "/apt1012"
+      "url": "/apt1012/"
     },
     {
       "name": "Windshift",
-      "url": "/apt0112"
+      "url": "/apt0112/"
     },
     {
       "name": "Ajax Security Team",
-      "url": "/apt0130"
+      "url": "/apt0130/"
     },
     {
       "name": "EXOTIC LILY",
-      "url": "/apt1011"
+      "url": "/apt1011/"
     },
     {
       "name": "Contagious Interview",
-      "url": "/apt1052"
+      "url": "/apt1052/"
     },
     {
       "name": "ToddyCat",
-      "url": "/apt1022"
+      "url": "/apt1022/"
+    },
+    {
+      "name": "APT38",
+      "url": "/apt0082/"
     },
     {
       "name": "FIN6",
-      "url": "/apt0037"
+      "url": "/apt0037/"
     },
     {
       "name": "APT29",
-      "url": "/apt29"
+      "url": "/apt29/"
     },
     {
       "name": "OilRig",
-      "url": "/apt34"
+      "url": "/oilrig/"
     },
     {
       "name": "Dark Caracal",
-      "url": "/apt0070"
+      "url": "/apt0070/"
     },
     {
       "name": "Lazarus Group",
-      "url": "/lazarus"
+      "url": "/lazarus/"
     },
     {
       "name": "Storm-1811",
-      "url": "/apt1046"
+      "url": "/apt1046/"
     },
     {
-      "name": "Magic Hound",
-      "url": "/apt35"
+      "name": "APT35",
+      "url": "/apt35/"
     },
     {
       "name": "Moonstone Sleet",
-      "url": "/apt1036"
+      "url": "/apt1036/"
     }
   ]
 }

@@ -10,7 +10,11 @@ permalink: /shroudedsnooper/
 In September 2023, Cisco Talos identified a new malware family that it calls ‘HTTPSnoop’ being deployed against telecommunications providers in the Middle East. They also discovered a sister implant to 'HTTPSnoop,’ that they are naming ‘PipeSnoop,’ which can accept arbitrary shellcode from a named pipe and execute it on the infected endpoint. Based on these findings, the researchers assess with high confidence that both implants belong to a new intrusion set that it named ‘ShroudedSnooper.’
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -24,9 +28,12 @@ In September 2023, Cisco Talos identified a new malware family that it calls ‘
 ## Malware and Tools
 - **Snoopy**
 - **Archelaus Beta**
+- **HTTPSnoop**: 
+- **PipeSnoop**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

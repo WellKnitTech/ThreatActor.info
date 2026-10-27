@@ -4,6 +4,7 @@ description: "Groove was a short-lived ransomware group and cybercrime gang that
 url: "/groove"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/groove"
 malware:
   - name: "BlackEnergy"
   - name: "BLACKCOFFEE"
@@ -21,4 +22,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "267b7b61-ed82-4809-aafe-9d2487c56f19"
     source_record_ids: ["267b7b61-ed82-4809-aafe-9d2487c56f19"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "groove"
+  source_retrieved_at: "2026-10-27T17:25:03Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

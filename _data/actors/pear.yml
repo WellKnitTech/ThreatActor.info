@@ -4,6 +4,7 @@ description: "ABOUT US:\r<br/>\r<br/>\"Pure Extraction And Ransom (PEAR) Team is
 url: "/pear"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/pear"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +13,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "62f2fd88-8200-5d7c-adda-beaf7c34732c"
     source_record_ids: ["62f2fd88-8200-5d7c-adda-beaf7c34732c"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "pear"
+  source_retrieved_at: "2026-10-27T17:27:40Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

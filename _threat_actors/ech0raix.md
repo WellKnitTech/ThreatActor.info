@@ -16,7 +16,11 @@ Anomali researchers have observed a new ransomware family, dubbed eCh0raix, targ
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications | QNAP | NAS | CVE-2021-28799 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

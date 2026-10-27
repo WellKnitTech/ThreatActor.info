@@ -1,5 +1,5 @@
 name: "BRONZE EDGEWOOD"
-aliases: ["Red Hariasa","BRONZE EDGEWOOD"]
+aliases: ["BRONZE EDGEWOOD","Bronze Edgewood","Red Hariasa","TAG-16"]
 description: "In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft Exchange Server of an organization in Southeast Asia. The threat group deployed a China Chopper webshell and ran the Nishang Invoke-PowerShellTcp.ps1 script to connect back to C2 infrastructure. The threat group is publicly linked to malware families Chinoxy, PCShare and FunnyDream. CTU researchers have discovered that BRONZE EDGEWOOD also leverages Cobalt Strike in its intrusion activity. BRONZE EDGEWOOD has been active since at least 2018 and targets government and private enterprises across Southeast Asia. CTU researchers assess with moderate confidence that BRONZE EDGEWOOD operates on behalf the Chinese government and has a remit that covers political espionage."
 url: "/bronze-edgewood"
 country: "China"
@@ -9,19 +9,46 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_edgewood"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","China Chopper","Back Orifice","Back Orifice 2000","Xploit","Archelaus Beta","Cobalt Strike"]
+malware:
+  - "PowerDuke"
+  - "POWERSTATS"
+  - "Power Loader"
+  - "POWERSOURCE"
+  - "China Chopper"
+  - "Back Orifice"
+  - "Back Orifice 2000"
+  - "Xploit"
+  - "Archelaus Beta"
+  - "Cobalt Strike"
+  - name: "Chinoxy"
+  - name: "Filepak"
+  - name: "FilepakMonitor"
+  - name: "FunnyDream"
+  - name: "Keyrecord"
+  - name: "Living off the Land"
+  - name: "Md_client"
+  - name: "PCShare"
+  - name: "ScreenCap"
+  - name: "TcpBridge"
+  - name: "Tcp_transfer"
+  - name: "ccf32"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "816f470d-f2b8-419c-afee-748a60d17eba"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "bronze_edgewood"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_edgewood"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "b4ce9385-eedf-4a71-803c-6d53a250d10b"
   misp_galaxy:
-    meta_keys: ["cfr-suspected-victims","country","origin:BRONZE EDGEWOOD","refs","synonyms"]
+    meta_keys: ["cfr-suspected-victims","country","origin:BRONZE EDGEWOOD","refs","synonyms","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b4ce9385-eedf-4a71-803c-6d53a250d10b"
     source_record_ids: ["b4ce9385-eedf-4a71-803c-6d53a250d10b"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

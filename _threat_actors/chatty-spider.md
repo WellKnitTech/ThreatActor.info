@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "CHATTY SPIDER"
-aliases: ["CHATTY SPIDER"]
+aliases: ["CHATTY SPIDER","Storm-0252"]
 description: "A cybercriminal actor known to carry out \"callback phishing\" social engineering attacks.<sup>[[CrowdStrike 2025 Global Threat Report](/references/a69b0ce3-f314-4b32-bfb3-b1380c4f0ec4)]</sup>"
 permalink: /chatty-spider/
 ---

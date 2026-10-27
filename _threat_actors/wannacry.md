@@ -16,7 +16,11 @@ According to numerous open-source reports, a widespread ransomware campaign is a
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Microsoft Products | MS Server Products | SMBv1 | CVE-2017-0144 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*

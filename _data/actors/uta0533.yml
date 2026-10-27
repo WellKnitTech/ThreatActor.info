@@ -1,0 +1,26 @@
+name: "UTA0533"
+aliases: ["UTA0533"]
+description: "UTA0533 has been linked to compromised SonicWall SMA appliances, with exploitation beginning on June 22, 2026. The actor routed traffic through ExpressVPN and Mullvad exit nodes, utilizing over 200 IP addresses. Notably, several attacker hostnames, including a Kali Linux machine, were leaked during lateral movement, indicating hands-on-keyboard intrusion."
+url: "/uta0533"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uta0533"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Xploit"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "uta0533"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uta0533"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "34d2ed46-0b42-45a0-a8a4-2148f5990036"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "34d2ed46-0b42-45a0-a8a4-2148f5990036"
+    source_record_ids: ["34d2ed46-0b42-45a0-a8a4-2148f5990036"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

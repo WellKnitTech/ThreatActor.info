@@ -4,6 +4,7 @@ description: "The ransomware does not use a customized desktop wallpaper to sign
 url: "/synack"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/synack"
 malware:
   - name: "RemoteCMD"
   - name: "Xpert"
@@ -18,4 +19,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "04585cd8-54ae-420f-9191-8ddb9b88a80c"
     source_record_ids: ["04585cd8-54ae-420f-9191-8ddb9b88a80c"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "synack"
+  source_retrieved_at: "2026-10-27T17:25:23Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

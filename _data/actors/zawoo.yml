@@ -1,0 +1,30 @@
+name: "ZaWoo"
+aliases: ["ZaWoo","ZaWoo Team","zawoo"]
+description: "ZaWoo is a ransomware group that has claimed multiple attacks on various organizations across different countries, including France, New Zealand, Germany, the USA, Canada, and the Czech Republic. Their operations have resulted in encrypted and compromised systems, leading to potential disruptions in victim operations. Notable targets include ambpvc, zenithtechnology.co.nz, and fes-sport.de."
+url: "/zawoo"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/zawoo"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "zawoo"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/zawoo"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "afd10845-ea76-4251-b385-f51a32c2dcec"
+  misp_galaxy:
+    meta_keys: ["refs","synonyms","links"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json","ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "afd10845-ea76-4251-b385-f51a32c2dcec"
+    source_record_ids: ["afd10845-ea76-4251-b385-f51a32c2dcec","4db2777b-a0f9-5a29-beef-7d08f08ad27c"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "zawoo"
+  source_retrieved_at: "2026-10-27T17:21:08Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

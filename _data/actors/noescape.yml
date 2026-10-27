@@ -1,19 +1,36 @@
-name: "Noescape"
-aliases: ["Noescape","Noescape group","Noescape ransomware","Noescape gang"]
-description: "Noescape is an active ransomware-as-a-service operation tracked by RansomLook."
+---
+name: Noescape
+aliases:
+- No Escape
+- NoEscape
+- Noescape
+- Noescape gang
+- Noescape group
+- Noescape ransomware
+description: Noescape is an active ransomware-as-a-service operation tracked by RansomLook.
 url: "/noescape"
-source_name: "RansomLook"
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
-source_record_url: "https://www.ransomlook.io/group/noescape"
-source_license: "CC BY 4.0"
-source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+source_name: RansomLook
+source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
+  Source: https://www.ransomlook.io/'
+source_record_url: https://www.ransomlook.io/group/noescape
+source_license: CC BY 4.0
+source_license_url: https://creativecommons.org/licenses/by/4.0/
 provenance:
   apt_groups_operations:
-    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
-    source_dataset_url: "https://apt.threattracking.com/"
-    source_retrieved_at: "2026-05-17T06:18:34Z"
-    tab_name: "unknown"
-  source_dataset_url: "https://www.ransomlook.io/api/groups"
-  source_record_id: "noescape"
-  source_retrieved_at: "2026-05-06T21:55:11Z"
-  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+    sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+    source_dataset_url: https://apt.threattracking.com/
+    source_retrieved_at: '2026-10-27T17:29:13Z'
+    tab_name: unknown
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: noescape
+  source_retrieved_at: '2026-10-27T17:23:12Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Stumped Scorpius

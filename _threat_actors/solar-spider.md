@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SOLAR SPIDER"
-aliases: ["SOLAR SPIDER"]
+aliases: ["SOLAR SPIDER","Solar Spider"]
 description: "SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial institutions across Africa, the Middle East, South Asia and Southeast Asia."
 permalink: /solar-spider/
 ---
@@ -11,6 +11,8 @@ SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial insti
 
 ## Activities and Tactics
 **Targeted Sectors**: Finance
+
+**Country of Origin**: 🏳️ ["[Unknown]"]
 
 
 
@@ -29,7 +31,8 @@ SOLAR SPIDER’s phishing campaigns deliver the JSOutProx RAT to financial insti
 - **CrossRat**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

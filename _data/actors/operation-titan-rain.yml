@@ -1,0 +1,13 @@
+name: "Operation Titan Rain"
+aliases: ["Operation Titan Rain"]
+description: "(Kaspersky) Hacks against the Defense Department and other U.S. agencies stretching back to 2003 were codenamed Titan Rain by investigators. The attacks, which breachedhundreds of networks, including Departments of State, Energy and Homeland Security, were coordinated from Chinese computers, investigators found. Global defense contractor Lockheed Martin and NASA were also struck in what many experts called an attempt to glean information on U.S. systems. While it’s usually difficult to locate the country of origin for such attacks, researchers were able to trace them back to the Chinese province of Guangdong. However, the individuals behind the operation remain a mystery to this day."
+url: "/operation-titan-rain"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "2af8b84d-172a-4946-9873-8d17e028e9c9"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

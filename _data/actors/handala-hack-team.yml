@@ -1,0 +1,15 @@
+name: "Handala Hack Team"
+aliases: ["Operation “HamsaUpdate”"]
+description: "(Intezer) A group calling itself “Handala Hack Team” has claimed responsibility for recent cyber attacks. They present themselves as a newly formed pro-Palestinian activist group, yet their identity behind the social media profiles remains uncertain. Handala Hack has set up various social media accounts, including on Telegram, Tox, Twitter, and BreachForums, and has also launched their own website, which is currently incomplete. As they reported the attacks in real-time, they also mocked the Israel National Cyber Directorate (INCD). Their website’s purpose is still unclear, but it may be intended for publicizing information about hacked targets."
+url: "/handala-hack-team"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["2023-12","Operation HamsaUpdate: A Sophisticated Campaign Delivering Wipers Puts Israeli Infrastructure at Risk","Operation “HamsaUpdate”","https://intezer.com/blog/research/stealth-wiper-israeli-infrastructure/"]
+malware: ["Hamsa Wiper","Handala","Hatef Wiper"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "17ec4f3c-1ded-44fb-9f0e-5c07c8096421"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

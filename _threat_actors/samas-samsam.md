@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Samas-Samsam"
-aliases: ["samsam.exe","MIKOPONI.exe","RikiRafael.exe","showmehowto.exe","SamSam Ransomware","SamSam","Samsam","Samas","Samas-Samsam"]
+aliases: ["MIKOPONI.exe","RikiRafael.exe","SamSam","SamSam Ransomware","Samas","Samas-Samsam","Samsam","samsam.exe","showmehowto.exe"]
 description: "Ransomware Targeted attacks -Jexboss -PSExec -Hyena"
 permalink: /samas-samsam/
 ---

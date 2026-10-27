@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "CryptoShield 1.0 Ransomware"
 aliases: ["CryptoShield 1.0 Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Of"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Offi"
 permalink: /cryptoshield-1-0-ransomware/
 ---
 

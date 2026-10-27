@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "YoroTrooper"
-aliases: ["Salted Earth","Sturgeon Fisher","ShadowSilk","Silent Lynx","Cavalry Werewolf","SturgeonPhisher","Comrade Saiga","YoroTrooper"]
+aliases: ["Cavalry Werewolf","Comrade Saiga","Salted Earth","ShadowSilk","Silent Lynx","Sturgeon Fisher","SturgeonPhisher","YoroTrooper"]
 description: "YoroTrooper’s main targets are government or energy organizations in Azerbaijan, Tajikistan, Kyrgyzstan and other Commonwealth of Independent States, based on Cisco Talos analysis. YoroTrooper was also"
 permalink: /yorotrooper/
 ---
@@ -28,7 +28,10 @@ YoroTrooper’s main targets are government or energy organizations in Azerbaija
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Loda**: 
+- **Meterpreter**: 
+- **Stink**: 
+- **Warzone RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Kazakhstan

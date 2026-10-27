@@ -1,25 +1,340 @@
 name: "The Gentlemen"
-aliases: ["The Gentlemen","the gentlemen"]
+aliases: ["GOLD SHERWOOD","Storm-2697","The Gentlemen","the gentlemen"]
 description: "The Gentlemen is a ransomware group that employs a dual-extortion strategy, encrypting sensitive files while exfiltrating critical business data to pressure victims into paying ransoms. Their operations leverage advanced techniques such as abusing legitimate utilities like PowerRun.exe for privilege escalation, using custom-built tools for defense evasion, and employing flexible encryption methods based on file size. The group targets medium to large organizations across various sectors, particularly in the Asia-Pacific region, and has demonstrated a high level of technical maturity and operational discipline. Their activities include systematic compromise of enterprise environments, mass account enumeration, and the use of encrypted channels for data exfiltration."
 url: "/the-gentlemen"
+last_updated: "2026-10-27"
+confidence: "high"
+external_id: "G1058"
+external_url: "https://attack.mitre.org/groups/G1058"
+mitre_id: "G1058"
+mitre_url: "https://attack.mitre.org/groups/G1058"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/the_gentlemen"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","PowerRAT","CrossRat"]
+software:
+  - name: "Wevtutil"
+    mitre_id: "S0645"
+    url: "https://attack.mitre.org/software/S0645"
+    type: "tool"
+    stix_id: "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a"
+    description: "Wevtutil is a Windows command-line utility that enables administrators to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft Documentation)"
+  - name: "The Gentlemen Ransomware"
+    mitre_id: "S9051"
+    url: "https://attack.mitre.org/software/S9051"
+    type: "malware"
+    stix_id: "malware--73526d60-8813-4895-88ac-915c68dfe8dd"
+    description: "The Gentlemen Ransomware is a ransomware-as-a-service (RaaS). The Gentlemen Ransomware has been written in Go programming language and has utilized Garble to obfuscate its code to target Windows environments. The Gentlemen Ransomware is capable of executing its’ OS lockers in Windows, Linux, NAS, BSD and ESXi environments. The Gentlemen Ransomware was first observed in mid-2025 as a closed ransomware and shortly later emerged as a RaaS to affiliates in September 2025. The Gentlemen Ransomware has"
+  - name: "PsExec"
+    mitre_id: "S0029"
+    url: "https://attack.mitre.org/software/S0029"
+    type: "tool"
+    stix_id: "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db"
+    description: "PsExec is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)"
+ttps:
+  - technique_id: "T1027.002"
+    technique_name: "Software Packing"
+    url: "https://attack.mitre.org/techniques/T1027/002"
+    stix_id: "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062"
+  - technique_id: "T1068"
+    technique_name: "Exploitation for Privilege Escalation"
+    url: "https://attack.mitre.org/techniques/T1068"
+    stix_id: "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839"
+  - technique_id: "T1583.001"
+    technique_name: "Domains"
+    url: "https://attack.mitre.org/techniques/T1583/001"
+    stix_id: "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3"
+  - technique_id: "T1486"
+    technique_name: "Data Encrypted for Impact"
+    url: "https://attack.mitre.org/techniques/T1486"
+    stix_id: "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
+  - technique_id: "T1585.001"
+    technique_name: "Social Media Accounts"
+    url: "https://attack.mitre.org/techniques/T1585/001"
+    stix_id: "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928"
+  - technique_id: "T1683.001"
+    technique_name: "Written Content"
+    url: "https://attack.mitre.org/techniques/T1683/001"
+    stix_id: "attack-pattern--6a6f9892-c46a-46db-b331-c09a99200fcf"
+  - technique_id: "T1036"
+    technique_name: "Masquerading"
+    url: "https://attack.mitre.org/techniques/T1036"
+    stix_id: "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0"
+  - technique_id: "T1036.005"
+    technique_name: "Match Legitimate Resource Name or Location"
+    url: "https://attack.mitre.org/techniques/T1036/005"
+    stix_id: "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
+  - technique_id: "T1036.001"
+    technique_name: "Invalid Code Signature"
+    url: "https://attack.mitre.org/techniques/T1036/001"
+    stix_id: "attack-pattern--b4b7458f-81f2-4d38-84be-1c5ba0167a52"
+  - technique_id: "T1190"
+    technique_name: "Exploit Public-Facing Application"
+    url: "https://attack.mitre.org/techniques/T1190"
+    stix_id: "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c"
+  - technique_id: "T1657"
+    technique_name: "Financial Theft"
+    url: "https://attack.mitre.org/techniques/T1657"
+    stix_id: "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3"
+  - technique_id: "T1683.002"
+    technique_name: "Audio-Visual Content"
+    url: "https://attack.mitre.org/techniques/T1683/002"
+    stix_id: "attack-pattern--8f452cb4-cbf4-4522-8b11-448787be95c4"
+  - technique_id: "T1219.002"
+    technique_name: "Remote Desktop Software"
+    url: "https://attack.mitre.org/techniques/T1219/002"
+    stix_id: "attack-pattern--d4287702-e2f7-4946-bdfa-2c7f5aaa5032"
+  - technique_id: "T1585"
+    technique_name: "Establish Accounts"
+    url: "https://attack.mitre.org/techniques/T1585"
+    stix_id: "attack-pattern--cdfc5f0a-9bb9-4352-b896-553cfa2d8fd8"
+  - technique_id: "T1588.002"
+    technique_name: "Tool"
+    url: "https://attack.mitre.org/techniques/T1588/002"
+    stix_id: "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0"
+  - technique_id: "T1018"
+    technique_name: "Remote System Discovery"
+    url: "https://attack.mitre.org/techniques/T1018"
+    stix_id: "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735"
+  - technique_id: "T1078"
+    technique_name: "Valid Accounts"
+    url: "https://attack.mitre.org/techniques/T1078"
+    stix_id: "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81"
+attck_techniques: ["T1018","T1027.002","T1036","T1036.001","T1036.005","T1068","T1078","T1190","T1219.002","T1486","T1583.001","T1585","T1585.001","T1588.002","T1657","T1683.001","T1683.002"]
+attck_software: ["S0029","S0645","S9051"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G1058"
+    external_id: "G1058"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "the_gentlemen"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/the_gentlemen"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "1c047671-227b-466f-9929-37df40abd485"
+  microsoft_threat_actor_list:
+    categories: ["Financially motivated"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-2697"
+    origin_category: "Financially motivated"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm2697"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["refs","links"]
+    meta_keys: ["refs","links","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","ransomware.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "1c047671-227b-466f-9929-37df40abd485"
     source_record_ids: ["1c047671-227b-466f-9929-37df40abd485","fafe7e51-a0bb-57e4-ae61-1bd83907fc28"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  mitre:
+    attack_version: "20.0"
+    attack_version_by_domain:
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
+    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+    source_dataset_urls:
+      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
+      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
+    source_record_id: "G1058"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
+    stix_intrusion_set_id: "intrusion-set--973abd91-322f-4756-94b6-67381c4089b3"
+  ransomware_tool_matrix:
+    references:
+      - title: "research.checkpoint.com"
+        url: "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"
+        date: "13 May 2026"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.kelacyber.com"
+        url: "https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"
+        date: "14 May 2026"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "ransom-isac.com"
+        url: "https://ransom-isac.com/blog/the-gentlemen-leak-analysis/"
+        date: "15 May 2026"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+      - title: "www.trendmicro.com"
+        url: "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html"
+        date: "9 September 2025"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/TheGentlemen.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "The Gentlemen / TheGentlemen"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["DumpBrowserSecrets","KslKatz","Mimikatz"]
+      Defense Evasion: ["EDRStartupHinder","KslDump","PowerRun","RedSun","ThrottleStop driver (BYOVD)"]
+      Discovery: ["API-C99-NL","Advanced IP Scanner","Censys","CertiHound","Gogo","MANSPIDER","Nmap","PrivHound","RelayKing-Depth","Shodan","SoftPerfect NetScan","TaskHound"]
+      Exfiltration: ["RClone","WinSCP"]
+      LOLBAS: ["PsExec"]
+      Networking: ["Amnezia VPN","Chisel","Cloudflared","OpenSSH","OpenVPN","Proxychains","PuTTY","Wireguard VPN"]
+      OffSec: ["Impacket","NetExec","PowerZure","RegPwn","Responder","Titanis","Velociraptor","ZeroPulse"]
+      RMM Tools: ["AnyDesk","FreeRDP","MeshAgent"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "ccb.belgium.be"
+        url: "https://ccb.belgium.be/open-media/1275/download?inline"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "checkpoint.com"
+        url: "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "checkpoint.com"
+        url: "https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "esentire.com"
+        url: "https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "forescout.com"
+        url: "https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "kelacyber.com"
+        url: "https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "ransom-isac.com"
+        url: "https://ransom-isac.com/blog/the-gentlemen-leak-analysis/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "s-rminform.com"
+        url: "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "security.com"
+        url: "https://www.security.com/threat-intelligence/lockfile-ransomware-new-petitpotam-windows"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sentinelone.com"
+        url: "https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "thedfirreport.com"
+        url: "https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "welivesecurity.com"
+        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
+        source_file: "Vulnerabilities/Microsoft.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["GroupProfiles/TheGentlemen.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md"]
+    source_label: "The Gentlemen / TheGentlemen"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Group Profile:
+        - vendor: "Cisco"
+          product: "Erlang/OTP SSH server"
+          cves: ["CVE-2025-32433"]
+          source_links: ["https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "GroupProfiles/TheGentlemen.md"
+        - vendor: "Fortinet"
+          product: "FortiOS & FortiProxy"
+          cves: ["CVE-2024-55591"]
+          source_links: ["https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "GroupProfiles/TheGentlemen.md"
+        - vendor: "MS Server Products"
+          product: "SMBv1"
+          cves: ["CVE-2017-0144"]
+          source_links: ["https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"]
+          source_file: "GroupProfiles/TheGentlemen.md"
+        - vendor: "Windows"
+          product: "Local Security Authority (LSA)"
+          cves: ["CVE-2021-36942"]
+          source_links: ["https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"]
+          source_file: "GroupProfiles/TheGentlemen.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "GroupProfiles/TheGentlemen.md"
+        - vendor: "Windows"
+          product: "SMB Client"
+          cves: ["CVE-2025-33073"]
+          source_links: ["https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "GroupProfiles/TheGentlemen.md"
+        - vendor: "Windows"
+          product: "SmartScreen"
+          cves: ["CVE-2024-21412"]
+          source_links: ["https://ransom-isac.com/blog/the-gentlemen-leak-analysis/"]
+          source_file: "GroupProfiles/TheGentlemen.md"
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "SMBv1"
+          cves: ["CVE-2017-0144"]
+          source_links: ["https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "Local Security Authority (LSA)"
+          cves: ["CVE-2021-36942"]
+          source_links: ["https://www.security.com/threat-intelligence/lockfile-ransomware-new-petitpotam-windows","https://www.kelacyber.com/blog/the-gentlemen-ransomware-internal-chat-leak-analysis-2026/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "NetLogon"
+          cves: ["CVE-2020-1472"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/","https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "SMB Client"
+          cves: ["CVE-2025-33073"]
+          source_links: ["https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "Vulnerabilities/Microsoft.md"
+        - vendor: "Windows"
+          product: "SmartScreen"
+          cves: ["CVE-2024-21412"]
+          source_links: ["https://ransom-isac.com/blog/the-gentlemen-leak-analysis/","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "Cisco"
+          product: "Erlang/OTP SSH server"
+          cves: ["CVE-2025-32433"]
+          source_links: ["https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+        - vendor: "Fortinet"
+          product: "FortiOS & FortiProxy"
+          cves: ["CVE-2024-55591"]
+          source_links: ["https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack","https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/","https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire","https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/","https://ccb.belgium.be/open-media/1275/download?inline","https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/"]
+          source_file: "Vulnerabilities/NetworkEdge.md"

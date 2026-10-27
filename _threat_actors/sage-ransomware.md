@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "Sage Ransomware"
 aliases: ["Sage Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Off"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Offi"
 permalink: /sage-ransomware/
 ---
 

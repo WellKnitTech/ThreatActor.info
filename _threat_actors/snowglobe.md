@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "SNOWGLOBE"
-aliases: ["Animal Farm","Snowglobe","ATK8","SNOWGLOBE"]
+aliases: ["ATK 8","ATK8","Animal Farm","SIG20","SNOWGLOBE","Snowglobe"]
 description: "In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days that were being used in cyberattacks in the wild. Two of these zero-day vulnerabilities are associated with an advanced "
 permalink: /snowglobe/
 ---
@@ -44,6 +44,7 @@ In 2014, researchers at Kaspersky Lab discovered and reported on three zero-days
 - **Tafacalou**: 
 - **NBot**: 
 - **Chocopop**: 
+- **EvilBunny**: 
 
 ## Attribution and Evidence
 **Country of Origin**: France

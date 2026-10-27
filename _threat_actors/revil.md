@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "REvil"
-aliases: ["Sodinokibi","Sodin","Water Mare","GrandCrab","Revil","REvil"]
+aliases: ["GrandCrab","REvil","Revil","Sodin","Sodinokibi","Water Mare"]
 description: "REvil is a Russian ransomware-as-a-service operation that has targeted major corporations worldwide."
 permalink: /revil/
 ---
@@ -31,7 +31,6 @@ REvil is a Russian ransomware-as-a-service operation that has targeted major cor
 |---|---|---|---|
 | Virtualization | Citrix | NetScaler ADC & Gateway & SD-WAN | CVE-2019-19781 |
 | Network Edge | Fortinet | FortiOS | CVE-2018-13379 |
-| Applications | Kaseya | VSA | CVE-2021-30116 |
 | Applications | Oracle | WebLogic | CVE-2019-2725 |
 | Network Edge | Pulse Secure / Ivanti | Pulse Connect Secure | CVE-2019-11510 |
 | Network Edge | Pulse Secure / Ivanti | Pulse Connect Secure & Pulse Policy Secure | CVE-2019-11539 |

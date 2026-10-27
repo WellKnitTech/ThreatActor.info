@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "HummingBad"
 aliases: ["HummingBad"]
-description: "This group created a malware that takes over Android devices and generates $300,000 per month in fraudulent ad revenue.  The group effectively controls an arsenal of over 85 million mobile devices arou"
+description: "This group created a malware that takes over Android devices and generates $300,000 per month in fraudulent ad revenue. The group effectively controls an arsenal of over 85 million mobile devices aroun"
 permalink: /hummingbad/
 ---
 

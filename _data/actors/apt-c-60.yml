@@ -12,7 +12,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt-c-60"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-60"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5"
   misp_galaxy:
     meta_keys: ["origin:APT-C-60","refs","synonyms"]
@@ -22,3 +22,10 @@ provenance:
     source_record_id: "6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5"
     source_record_ids: ["6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5"]
     source_retrieved_at: "2026-05-06T22:01:13Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "APT-Q-12"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT-Q-12/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT-Q-12/APT-Q-12_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

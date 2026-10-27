@@ -17,7 +17,9 @@ CeranaKeeper is a China-aligned APT that has been active since at least early 20
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2023**
+- **Separating the bee from the panda: CeranaKeeper making a beeline for Thailand**
+- **https://www.welivesecurity.com/en/eset-research/separating-bee-panda-ceranakeeper-making-beeline-thailand/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -29,6 +31,9 @@ CeranaKeeper is a China-aligned APT that has been active since at least early 20
 - **Backdoor.Oldrea**
 - **CloudDuke**
 - **China Chopper**
+- **PUBLOAD**: 
+- **TONEINS**: 
+- **TONESHELL**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

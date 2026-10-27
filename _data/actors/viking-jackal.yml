@@ -1,5 +1,5 @@
 name: "Viking Jackal"
-aliases: ["Vikingdom","Viking Jackal"]
+aliases: ["Viking Jackal","Vikingdom"]
 description: "Viking Jackal is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing."
 url: "/viking-jackal"
 country: "United Arab Emirates"
@@ -10,11 +10,26 @@ source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/viking_jackal
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "d4c3a0a1-57cd-4206-b3d5-046eaa89a44e"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Viking Jackal"]
+    confidence: "Unknown"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "vikingjackal"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Hacktivists"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "viking_jackal"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/viking_jackal"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "7f99ba32-421c-4905-9deb-006e8eda40c1"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"

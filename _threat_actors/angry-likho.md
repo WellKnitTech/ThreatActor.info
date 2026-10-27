@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Angry Likho"
-aliases: ["Sticky Werewolf","Angry Likho"]
+aliases: ["Angry Likho","Sticky Werewolf"]
 description: "Angry Likho is an APT group that has been active since 2023, primarily targeting large organizations and government agencies in Russia and Belarus. Their attacks typically involve spear-phishing emails"
 permalink: /angry-likho/
 ---
@@ -26,7 +26,7 @@ Angry Likho is an APT group that has been active since 2023, primarily targeting
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **LummaC2**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Russia

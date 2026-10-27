@@ -1,0 +1,26 @@
+name: "Larva-26010"
+aliases: ["Larva-26010"]
+description: "Larva-26010 targets web servers and MS-SQL servers in Korea to install SoftEther VPN, using the systems as VPN servers. After the initial breach, the actor installs a web shell or SQLShell for control, followed by the SoftEther installation. The threat actor has not exhibited additional malicious behavior beyond installing backdoor accounts or web shells. It appears they are preparing to utilize the infected systems as C&C servers in the future."
+url: "/larva-26010"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/larva-26010"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "larva-26010"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/larva-26010"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "0e982626-1472-4b89-b5c5-b2ffb5ce81da"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "0e982626-1472-4b89-b5c5-b2ffb5ce81da"
+    source_record_ids: ["0e982626-1472-4b89-b5c5-b2ffb5ce81da"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

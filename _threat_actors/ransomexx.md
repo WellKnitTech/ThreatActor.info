@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "RansomEXX"
-aliases: ["Ransom X","Defray777","Defray-777","Defray 2018","RansomEXX"]
+aliases: ["Defray 2018","Defray-777","Defray777","Ransom X","RansomEXX"]
 description: "We recently discovered a new file-encrypting Trojan built as an ELF executable and intended to encrypt data on machines controlled by Linux-based operating systems. After the initial analysis we notice"
 permalink: /ransomexx/
 ---
@@ -16,7 +16,13 @@ We recently discovered a new file-encrypting Trojan built as an ELF executable a
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications | Jenkins | Jenkins | CVE-2024-23897 |
+| Applications | SAP | NetWeaver | CVE-2025-31324 |
+| Microsoft Products | Windows | CLFS | CVE-2025-29824 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
@@ -24,6 +30,14 @@ We recently discovered a new file-encrypting Trojan built as an ELF executable a
 ## Malware and Tools
 - **Trojan.Karagany**: 
 - **Trojan.Mebromi**: 
+
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | LaZagne, Mimikatz, ProcDump |
+| LOLBAS | BCDEdit, Windows Event Utility (wevtutil) |
+| OffSec | Cobalt Strike |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

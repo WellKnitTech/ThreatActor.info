@@ -25,6 +25,11 @@
       "permalink": "/techniques/T1608.006/"
     },
     {
+      "id": "T1608.007",
+      "name": "AI Result Poisoning",
+      "permalink": "/techniques/T1608.007/"
+    },
+    {
       "id": "T1608.003",
       "name": "Install Digital Certificate",
       "permalink": "/techniques/T1608.003/"
@@ -43,7 +48,7 @@
   "groups": [
     {
       "name": "Mustang Panda",
-      "url": "/apt0129"
+      "url": "/apt0129/"
     }
   ]
 }

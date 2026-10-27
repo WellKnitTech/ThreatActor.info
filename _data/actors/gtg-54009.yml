@@ -1,0 +1,24 @@
+name: "GTG-54009"
+aliases: ["GTG-54009"]
+description: "Disrupting a commercial surveillance platform using Claude to profile the social media accounts of Iranian and Persian Gulf-based users"
+url: "/gtg-54009"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-54009"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gtg-54009"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-54009"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "c7a9b273-9859-426f-ab39-9c8e91396c2e"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "c7a9b273-9859-426f-ab39-9c8e91396c2e"
+    source_record_ids: ["c7a9b273-9859-426f-ab39-9c8e91396c2e"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

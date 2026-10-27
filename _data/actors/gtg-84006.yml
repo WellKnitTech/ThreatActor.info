@@ -1,0 +1,26 @@
+name: "GTG-84006"
+aliases: ["GTG-84006"]
+description: "Disrupting a distributed MEK/NCRI-aligned influence operation that used a shared AI agent to impersonate real people and recruit inside Iran"
+url: "/gtg-84006"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-84006"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Agent.btz"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gtg-84006"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-84006"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "7cca5c7b-c0ca-491c-afec-facbb812cf5e"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "7cca5c7b-c0ca-491c-afec-facbb812cf5e"
+    source_record_ids: ["7cca5c7b-c0ca-491c-afec-facbb812cf5e"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

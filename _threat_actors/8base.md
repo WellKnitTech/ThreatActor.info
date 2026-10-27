@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "8base"
-aliases: ["8base"]
+aliases: ["8Base","8base"]
 description: "8Base emerged in early 2022 and rapidly escalated its ransomware operations by mid-2023, positioning itself as a “simple pen tester” while executing a relentless double-extortion scheme: encrypting fil"
 permalink: /8base/
 ---
@@ -25,6 +25,15 @@ permalink: /8base/
 - **Smoke Loader**: 
 - **Small-Net**: 
 - **CrossRat**: 
+
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | LaZagne, Mimikatz, NirSoft VNCPassView, NirSoft WebBrowserPassView, PasswordFox, ProcDump |
+| Defense Evasion | GMER, PCHunter, ProcessHacker |
+| Exfiltration | RClone |
+| LOLBAS | PsExec |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

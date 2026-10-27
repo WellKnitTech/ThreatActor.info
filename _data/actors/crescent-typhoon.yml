@@ -7,6 +7,13 @@ source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 malware: ["China Chopper"]
 provenance:
+  microsoft_threat_actor_list:
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Crescent Typhoon"
+    origin_category: "China"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "crescenttyphoon"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
     source_cluster: "microsoft-activity-group.json"
@@ -14,4 +21,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "f0321b6d-ba72-556c-b2eb-df47e188ad5c"
     source_record_ids: ["f0321b6d-ba72-556c-b2eb-df47e188ad5c"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

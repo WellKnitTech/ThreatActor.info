@@ -9,17 +9,34 @@ source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware: ["Backdoor.Oldrea","Smoke Loader","Trojan.Karagany","Trojan.Mebromi","Ultra VNC","Cobalt Strike"]
 provenance:
+  eternal_liberty:
+    aliases_by_entity:
+      Mandiant/FireEye: ["UNC2465"]
+    confidence: "Mid"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "unc2465"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc2465"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc2465"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "cbdf8d63-c114-47d5-8f32-f87f365c7c43"
   misp_galaxy:
-    meta_keys: ["origin:UNC2465","refs"]
+    meta_keys: ["origin:UNC2465","refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "cbdf8d63-c114-47d5-8f32-f87f365c7c43"
     source_record_ids: ["cbdf8d63-c114-47d5-8f32-f87f365c7c43"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "UNC2465"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC2465/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC2465/UNC2465_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

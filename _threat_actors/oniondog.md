@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "OnionDog"
-aliases: ["OnionDog"]
+aliases: ["OnionDog","APT-C-03"]
 description: "This threat actor targets the South Korean government, transportation, and energy sectors."
 permalink: /oniondog/
 ---
@@ -32,7 +32,7 @@ This threat actor targets the South Korean government, transportation, and energ
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Malware on USB stick**: 
 
 ## Attribution and Evidence
 **Country of Origin**: North Korea

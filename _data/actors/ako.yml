@@ -1,9 +1,10 @@
 name: "Ako"
-aliases: ["MedusaReborn","Ako"]
+aliases: ["Ako","MedusaReborn"]
 description: "Once installed, Ako will attempt to delete Volume Shadow Copies and disable recovery services. It will then begin to encrypt all files that do not match a hard-coded list using an unknown algorithm. Whilst this is happening, Ako will scan the affected network for any connected devices or drives for it to propagate to."
 url: "/ako"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/ako"
 malware:
   - name: "Unknown Logger"
 provenance:
@@ -14,4 +15,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "7de070ce-4b63-4d3c-be73-1ede22565faf"
     source_record_ids: ["7de070ce-4b63-4d3c-be73-1ede22565faf"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "ako"
+  source_retrieved_at: "2026-10-27T17:24:36Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

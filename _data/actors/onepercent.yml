@@ -2,13 +2,31 @@ name: "Onepercent"
 aliases: ["Onepercent"]
 description: "Onepercent is an active extortion or ransomware group tracked by RansomLook."
 url: "/onepercent"
+last_updated: "2026-10-27"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/onepercent"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  ransomware_tool_matrix:
+    actor_roles: ["ransomware_affiliate"]
+    references:
+      - title: "www.ic3.gov"
+        url: "https://www.ic3.gov/Media/News/2021/210823.pdf"
+        date: "23 August 2021"
+        source_file: "ThreatIntel/ExtraThreatIntel.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/Exfiltration.md","Tools/Offsec.md"]
+    source_label: "OnePercent / OnePercent*"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["BetterSafetyKatz","Mimikatz","SharpKatz"]
+      Exfiltration: ["RClone"]
+      OffSec: ["Cobalt Strike","SharpSploit"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "onepercent"
-  source_retrieved_at: "2026-05-06T21:59:57Z"
+  source_retrieved_at: "2026-10-27T17:22:43Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

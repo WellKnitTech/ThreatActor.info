@@ -1,5 +1,5 @@
 name: "Monti"
-aliases: ["Monti"]
+aliases: ["MONTI","Monti","Storm-1194"]
 description: "Monti is an active extortion or ransomware group tracked by RansomLook."
 url: "/monti"
 source_name: "RansomLook"
@@ -8,7 +8,15 @@ source_record_url: "https://www.ransomlook.io/group/monti"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  microsoft_threat_actor_list:
+    categories: ["Group in development"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-1194"
+    origin_category: "Group in development"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm1194"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "monti"
-  source_retrieved_at: "2026-05-06T21:59:00Z"
+  source_retrieved_at: "2026-10-27T17:18:51Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

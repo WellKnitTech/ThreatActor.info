@@ -6,6 +6,14 @@ country: "Russia"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
+  microsoft_threat_actor_list:
+    categories: ["Influence operations"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Volga Flood"
+    origin_category: "Russia, Influence operations"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "volgaflood"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
     source_cluster: "microsoft-activity-group.json"
@@ -13,4 +21,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "5efac1a3-ede6-53d5-88d5-6c650df36cab"
     source_record_ids: ["5efac1a3-ede6-53d5-88d5-6c650df36cab"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

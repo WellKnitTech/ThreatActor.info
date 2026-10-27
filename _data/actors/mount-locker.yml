@@ -1,9 +1,11 @@
 name: "Mount Locker"
-aliases: ["Mount-Locker","Mount Locker","mountlocker"]
+aliases: ["Mount Locker","Mount-Locker","mountlocker"]
 description: "Ransomware"
 url: "/mount-locker"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/mountlocker"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs","synonyms"]
@@ -12,4 +14,17 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "1da28691-684a-4cd2-b2f8-e80a123e150c"
     source_record_ids: ["1da28691-684a-4cd2-b2f8-e80a123e150c","bcb30792-4c12-5fa1-bd97-03b9b470c21e"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["Tools/Exfiltration.md"]
+    source_label: "MountLocker / mount-locker"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Exfiltration: ["MEGA","PrivatLab"]
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "mountlocker"
+  source_retrieved_at: "2026-10-27T17:27:44Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

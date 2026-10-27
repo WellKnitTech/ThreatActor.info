@@ -1,0 +1,14 @@
+name: "Operation Harvest"
+aliases: ["Operation Harvest"]
+description: "(McAfee) Following a recent Incident Response, McAfee Enterprise‘s Advanced Threat Research (ATR) team worked with its Professional Services IR team to support a case that initially started as a malware incident but ultimately turned out to be a long-term cyber-attack. The diagram reflecting our outcome insinuated that 'Emissary Panda, APT 27, LuckyMouse, Bronze Union' and 'APT 41' are the most likely candidates that overlap with the (sub-)techniques we observed."
+url: "/operation-harvest"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["BadPotato","Impacket","Mimikatz","PlugX","ProcDump","PsExec","RottenPotato","SMBExec","WinRAR","Winnti","nbtscan"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "c4692959-b083-4fdc-9d6f-4a6cd1c9f44a"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

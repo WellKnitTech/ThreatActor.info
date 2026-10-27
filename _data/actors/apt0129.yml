@@ -1,49 +1,867 @@
-name: "Mustang Panda"
-aliases: ["Mustang Panda","TA416","RedDelta","BRONZE PRESIDENT","STATELY TAURUS","FIREANT","CAMARO DRAGON","EARTH PRETA","HIVE0154","TWILL TYPHOON","TANTALUM","LUMINOUS MOTH","UNC6384","TEMP.Hex","Red Lich","Stately Taurus","Camaro Dragon","HoneyMyte","TEMP.HEX","BASIN","Earth Preta","LuminousMoth","Polaris","Twill Typhoon","MUSTANG PANDA","Vertigo Panda"]
-description: "Mustang Panda is a China-based cyber espionage threat actor that has been conducting operations since at least 2012. Mustang Panda has been known to use tailored phishing lures and decoy documents to deliver malicious payloads. Mustang Panda has targeted government, diplomatic, and non-governmental organizations, including think tanks, religious institutions, and research entities, across the United States, Europe, and Asia, with notable activity in Russia, Mongolia, Myanmar, Pakistan, and Vietnam. [BlackBerry MUSTANG PANDA October 2022](https://blogs.blackberry.com/en/2022/10/mustang-panda-abuses-legitimate-apps-to-target-myanmar-based-victims) [Eset PlugX Korplug Mustang Panda March 2022](https://www.welivesecurity.com/2022/03/23/mustang-panda-hodur-old-tricks-new-korplug-variant/) [Anomali MUSTANG PANDA October 2019](https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations) [Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022](https://blog.talosintelligence.com/mustang-panda-targets-europe/) [Secureworks BRONZE PRESIDENT December 2019](https://www.secureworks.com/research/bronze-president-targets-ngos) [DOJ Affidavit Search and Seizure PlugX December 2024](https://www.justice.gov/archives/opa/media/1384136/dl) [EclecticIQ Mustang Panda PlugX](https://blog.eclecticiq.com/mustang-panda-apt-group-uses-european-commission-themed-lure-to-deliver-plugx-malware) [ATTACKIQ MUSTANG PANDA TONESHELL March 2023](https://www.attackiq.com/2023/03/23/emulating-the-politically-motivated-chinese-apt-mustang-panda/) [Crowdstrike MUSTANG PANDA June 2018](https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-june-mustang-panda/) [Palo Alto Networks, Unit 42](https://unit42.paloaltonetworks.com/stately-taurus-uses-bookworm-malware/) [Sophos PlugX September 2022](https://www.secureworks.com/blog/bronze-president-targets-russian-speakers-with-updated-plugx) [Sophos Mustang Panda PLUGX](https://www.secureworks.com/blog/bronze-president-targets-government-officials) [Zscaler](https://www.zscaler.com/blogs/security-research/latest-mustang-panda-arsenal-toneshell-and-starproxy-p1)"
+---
+name: Mustang Panda
+aliases:
+- BASIN
+- BASIN CASTLE
+- BRONZE PRESIDENT
+- Bronze Fillmore
+- CAMARO DRAGON
+- Camaro Dragon
+- ClumsyToad
+- DEV-0117
+- EARTH PRETA
+- Earth Preta
+- FIREANT
+- G0129
+- HIVE0154
+- Hive0154
+- HoneyMyte
+- ITG27
+- LUMINOUS MOTH
+- Luminous Moth
+- LuminousMoth
+- MUSTANG PANDA
+- Mustang Panda
+- Mustang Panda (CrowdStrike)
+- PKPLUG
+- Polaris
+- Red Lich
+- RedDelta
+- STATELY TAURUS
+- Stately Taurus
+- TA416
+- TANTALUM
+- TEMP.HEX
+- TEMP.Hex
+- TWILL TYPHOON
+- Tantalum
+- Twill Typhoon
+- Twill Typhoon (Microsoft)
+- UNC6384
+- UNK_SteadySplit
+- Vertigo Panda
+description: Mustang Panda is a China-based cyber espionage threat actor that has
+  been conducting operations since at least 2012. Mustang Panda has been known to
+  use tailored phishing lures and decoy documents to deliver malicious payloads. Mustang
+  Panda has targeted government, diplomatic, and non-governmental organizations, including
+  think tanks, religious institutions, and research entities, across the United States,
+  Europe, and Asia, with notable activity in Russia, Mongolia, Myanmar, Pakistan,
+  and Vietnam. [BlackBerry MUSTANG PANDA October 2022](https://blogs.blackberry.com/en/2022/10/mustang-panda-abuses-legitimate-apps-to-target-myanmar-based-victims)
+  [Eset PlugX Korplug Mustang Panda March 2022](https://www.welivesecurity.com/2022/03/23/mustang-panda-hodur-old-tricks-new-korplug-variant/)
+  [Anomali MUSTANG PANDA October 2019](https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations)
+  [Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022](https://blog.talosintelligence.com/mustang-panda-targets-europe/)
+  [Secureworks BRONZE PRESIDENT December 2019](https://www.secureworks.com/research/bronze-president-targets-ngos)
+  [DOJ Affidavit Search and Seizure PlugX December 2024](https://www.justice.gov/archives/opa/media/1384136/dl)
+  [EclecticIQ Mustang Panda PlugX](https://blog.eclecticiq.com/mustang-panda-apt-group-uses-european-commission-themed-lure-to-deliver-plugx-malware)
+  [ATTACKIQ MUSTANG PANDA TONESHELL March 2023](https://www.attackiq.com/2023/03/23/emulating-the-politically-motivated-chinese-apt-mustang-panda/)
+  [Crowdstrike MUSTANG PANDA June 2018](https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-june-mustang-panda/)
+  [Palo Alto Networks, Unit 42](https://unit42.paloaltonetworks.com/stately-taurus-uses-bookworm-malware/)
+  [Sophos PlugX September 2022](https://www.secureworks.com/blog/bronze-president-targets-russian-speakers-with-updated-plugx)
+  [Sophos Mustang Panda PLUGX](https://www.secureworks.com/blog/bronze-president-targets-government-officials)
+  [Zscaler](https://www.zscaler.com/blogs/security-research/latest-mustang-panda-arsenal-toneshell-and-starproxy-p1)
 url: "/apt0129"
-country: "China"
-sector_focus: ["Civil society"]
-targeted_victims: ["United States","Germany"]
-incident_type: "Espionage"
-first_seen: "2023"
-last_activity: "2023"
-external_id: "G0129"
-external_url: "https://attack.mitre.org/groups/G0129"
-mitre_id: "G0129"
-mitre_url: "https://attack.mitre.org/groups/G0129"
-source_name: "MISP Galaxy"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/camaro_dragon"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+country: China
+sector_focus:
+- Civil society
+targeted_victims:
+- United States
+- Germany
+incident_type: Espionage
+first_seen: '2023'
+last_activity: '2023'
+confidence: high
+external_id: G0129
+external_url: https://attack.mitre.org/groups/G0129
+mitre_id: G0129
+mitre_url: https://attack.mitre.org/groups/G0129
+source_name: MISP Galaxy
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/camaro_dragon
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+software:
+- name: CANONSTAGER
+  mitre_id: S1237
+  url: https://attack.mitre.org/software/S1237
+  type: malware
+  stix_id: malware--3d1f234e-6c60-43c1-b1f1-6bbc9e5b8e44
+  description: 'CANONSTAGER is a loader known to be leveraged by Mustang Panda and
+    was first observed utilized in 2025.  Mustang Panda utilizes DLL side-loading
+    to execute within the victim environment prior to delivering a follow-on malicious
+    encrypted payload.  CANONSTAGER leverages Thread Local Storage (TLS) and Native
+    Windows APIs within the victim environment to elude detections. CANONSTAGER also
+    hides its code utilizing window procedures and message queues.(Citation: Google
+    Threat Intelligence Group MUSTAN'
+- name: STATICPLUGIN
+  mitre_id: S1238
+  url: https://attack.mitre.org/software/S1238
+  type: malware
+  stix_id: malware--301e7370-c3d3-4f3e-893f-8a79345c2eb5
+  description: 'STATICPLUGIN is a downloader known to be leveraged by Mustang Panda
+    and was first observed utilized in 2025.  STATICPLUGIN has utilized a valid certificate
+    in order to bypass endpoint security protections.  STATICPLUGIN masqueraded as
+    legitimate software installer by using a custom TForm.  STATICPLUGIN has been
+    leveraged to deploy a loader that facilitates follow on malware.(Citation: Google
+    Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)'
+- name: ShadowPad
+  mitre_id: S0596
+  url: https://attack.mitre.org/software/S0596
+  type: malware
+  stix_id: malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc
+  description: 'ShadowPad is a modular backdoor that was first identified in a supply
+    chain compromise of the NetSarang software in mid-July 2017. The malware was originally
+    thought to be exclusively used by APT41, but has since been observed to be used
+    by various Chinese threat activity groups. (Citation: Recorded Future RedEcho
+    Feb 2021)(Citation: Securelist ShadowPad Aug 2017)(Citation: Kaspersky ShadowPad
+    Aug 2017) '
+- name: TONESHELL
+  mitre_id: S1239
+  url: https://attack.mitre.org/software/S1239
+  type: malware
+  stix_id: malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff
+  description: 'TONESHELL is a custom backdoor that has been used since at least Q1
+    2021.(Citation: Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023)   TONESHELL
+    malware has previously been leveraged by Chinese affiliated actors identified
+    as Mustang Panda.(Citation: ATTACKIQ MUSTANG PANDA TONESHELL March 2023)(Citation:
+    Zscaler)'
+- name: Cobalt Strike
+  mitre_id: S0154
+  url: https://attack.mitre.org/software/S0154
+  type: malware
+  stix_id: malware--a7881f21-e978-4fe4-af56-92c9416a2616
+  description: |-
+    Cobalt Strike is a commercial, full-featured, remote access tool that bills itself as “adversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors”. Cobalt Strike’s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system.(Citation: cobaltstrike manual)
+
+    In addition to its own capabilities, Cobalt Strike leverages the capabilities of other well-known tool
+- name: HIUPAN
+  mitre_id: S1230
+  url: https://attack.mitre.org/software/S1230
+  type: malware
+  stix_id: malware--da43312a-0188-4949-bab3-0df9a5df0aba
+  description: 'HIUPAN (aka U2DiskWatch) is a is a worm that propagates through removable
+    drives known to be leveraged by Mustang Panda and was first observed utilized
+    in 2024. (Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation:
+    Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)'
+- name: Impacket
+  mitre_id: S0357
+  url: https://attack.mitre.org/software/S0357
+  type: tool
+  stix_id: tool--26c87906-d750-42c5-946c-d4162c73fc7b
+  description: 'Impacket is an open source collection of modules written in Python
+    for programmatically constructing and manipulating network protocols. Impacket
+    contains several tools for remote service execution, Kerberos manipulation, Windows
+    credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)'
+- name: SplatCloak
+  mitre_id: S1234
+  url: https://attack.mitre.org/software/S1234
+  type: malware
+  stix_id: malware--f39c6d39-0165-46db-a7ae-43341c428d22
+  description: 'SplatCloak is a malware that disables EDR-related routines used by
+    Windows Defender and Kaspersky to aid in evading detection.  SplatCloak has been
+    deployed by SplatDropper and is known to be leveraged by Mustang Panda since 2025.(Citation:
+    Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)'
+- name: PAKLOG
+  mitre_id: S1233
+  url: https://attack.mitre.org/software/S1233
+  type: malware
+  stix_id: malware--0bf64997-7ce1-43e5-b01a-bcd2bf5dc87f
+  description: 'PAKLOG is a keylogger known to be leveraged by Mustang Panda and was
+    first observed utilized in 2024. PAKLOG is deployed via a RAR archive (e.g., key.rar),
+    which contains two files: a signed, legitimate binary (PACLOUD.exe) and the malicious
+    PAKLOG DLL (pa_lang2.dll). The PACLOUD.exe binary is used to side-load the PAKLOG
+    DLL which starts with the keylogger functionality.(Citation: Zscaler PAKLOG CorkLog
+    SplatCloak Splatdropper April 2025)'
+- name: Wevtutil
+  mitre_id: S0645
+  url: https://attack.mitre.org/software/S0645
+  type: tool
+  stix_id: tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a
+  description: 'Wevtutil is a Windows command-line utility that enables administrators
+    to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft
+    Documentation)'
+- name: AdFind
+  mitre_id: S0552
+  url: https://attack.mitre.org/software/S0552
+  type: tool
+  stix_id: tool--f59508a6-3615-47c3-b493-6676e1a39a87
+  description: 'AdFind is a free command-line query tool that can be used for gathering
+    information from Active Directory.(Citation: Red Canary Hospital Thwarted Ryuk
+    October 2020)(Citation: FireEye FIN6 Apr 2019)(Citation: FireEye Ryuk and Trickbot
+    January 2019)'
+- name: CLAIMLOADER
+  mitre_id: S1236
+  url: https://attack.mitre.org/software/S1236
+  type: malware
+  stix_id: malware--47e4b55a-7803-4bf5-822c-906a1ecbdd6e
+  description: 'CLAIMLOADER is a malware variant that frequently accompanies legitimate
+    executables that are used for DLL side-loading known to be leveraged by Mustang
+    Panda and was first observed utilized in 2021.(Citation: IBM MUSTANG PANDA PUBLOAD
+    CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG
+    PANDA)'
+- name: Mimikatz
+  mitre_id: S0002
+  url: https://attack.mitre.org/software/S0002
+  type: tool
+  stix_id: tool--afc079f3-c0ea-4096-b75d-3f05338b7f60
+  description: 'Mimikatz is a credential dumper capable of obtaining plaintext Windows
+    account logins and passwords, along with many other features that make it useful
+    for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity
+    Mimikatz Guide)'
+- name: PUBLOAD
+  mitre_id: S1228
+  url: https://attack.mitre.org/software/S1228
+  type: malware
+  stix_id: malware--3824852d-1957-4712-9da0-38143723c060
+  description: 'PUBLOAD is a stager malware that has been observed installing itself
+    in existing directories such as `C:\Users\Public` or creating new directories
+    to stage the malware and its components.(Citation: 2022 November_TrendMicro_Earth
+    Preta_Toneshell_Pubload)  PUBLOAD malware collects details of the victim host,
+    establishes persistence, encrypts victim details using RC4 and communicates victim
+    details back to C2.  PUBLOAD malware has previously been leveraged by China-affiliated
+    actors identified as Mu'
+- name: StarProxy
+  mitre_id: S1227
+  url: https://attack.mitre.org/software/S1227
+  type: malware
+  stix_id: malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49
+  description: 'StarProxy is custom malware used by Mustang Panda as a post-compromise
+    tool, to enable proxying of traffic between the infected machine and other machines
+    on the same network. (Citation: Zscaler)'
+- name: CorKLOG
+  mitre_id: S1235
+  url: https://attack.mitre.org/software/S1235
+  type: malware
+  stix_id: malware--9fd4e24b-3b12-4c7c-925f-226e2e3c3758
+  description: 'CorKLOG is a keylogger known to be leveraged by Mustang Panda and
+    was first observed utilized in 2024. CorKLOG is delivered through a RAR archive
+    (e.g., src.rar), which contains two files: an executable (lcommute.exe) and the
+    CorKLOG DLL (mscorsvc.dll).  CorKLOG has established persistence on the system
+    by creating services or with scheduled tasks.(Citation: Zscaler PAKLOG CorkLog
+    SplatCloak Splatdropper April 2025)'
+- name: RCSession
+  mitre_id: S0662
+  url: https://attack.mitre.org/software/S0662
+  type: malware
+  stix_id: malware--03acae53-9b98-46f6-b204-16b930839055
+  description: 'RCSession is a backdoor written in C++ that has been in use since
+    at least 2018 by Mustang Panda and by Threat Group-3390 (Type II Backdoor).(Citation:
+    Secureworks BRONZE PRESIDENT December 2019)(Citation: Trend Micro Iron Tiger April
+    2021)(Citation: Trend Micro DRBControl February 2020)'
+- name: NBTscan
+  mitre_id: S0590
+  url: https://attack.mitre.org/software/S0590
+  type: tool
+  stix_id: tool--b63970b7-ddfb-4aee-97b1-80d335e033a8
+  description: 'NBTscan is an open source tool that has been used by state groups
+    to conduct internal reconnaissance within a compromised network.(Citation: Debian
+    nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug
+    Jun 2019)(Citation: FireEye APT39 Jan 2019)'
+- name: PoisonIvy
+  mitre_id: S0012
+  url: https://attack.mitre.org/software/S0012
+  type: malware
+  stix_id: malware--b42378e0-f147-496f-992a-26a49705395b
+  description: 'PoisonIvy is a popular remote access tool (RAT) that has been used
+    by many groups.(Citation: FireEye Poison Ivy)(Citation: Symantec Elderwood Sept
+    2012)(Citation: Symantec Darkmoon Aug 2005)'
+- name: SplatDropper
+  mitre_id: S1232
+  url: https://attack.mitre.org/software/S1232
+  type: malware
+  stix_id: malware--6114c345-4c09-42ce-8d37-aef16360a7f3
+  description: SplatDropper is a loader that utilizes native windows API to deliver
+    its payload to the victim environment.  SplatDropper has been delivered through
+    RAR archives and used legitimate executable for DLL side-loading.  SplatDropper
+    is known to be leveraged by Mustang Panda and was first observed utilized in 2025.
+- name: BOOKWORM
+  mitre_id: S1226
+  url: https://attack.mitre.org/software/S1226
+  type: malware
+  stix_id: malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f
+  description: 'BOOKWORM is a modular trojan known to be leveraged by Mustang Panda
+    and was first observed utilized in 2015.  BOOKWORM was later updated in late 2021
+    and the fall of 2022 to launch shellcode represented as UUID parameters. (Citation:
+    Broadcom)(Citation: Unit42 Bookworm Nov2015)(Citation: Palo Alto Networks, Unit
+    42)'
+- name: China Chopper
+  mitre_id: S0020
+  url: https://attack.mitre.org/software/S0020
+  type: malware
+  stix_id: malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70
+  description: 'China Chopper is a Web Shell hosted on Web servers to provide access
+    back into an enterprise network that does not rely on an infected system calling
+    back to a remote command and control server.(Citation: Lee 2013) It has been used
+    by several threat groups.(Citation: Dell TG-3390)(Citation: FireEye Periscope
+    March 2018)(Citation: CISA AA21-200A APT40 July 2021)(Citation: Rapid7 HAFNIUM
+    Mar 2021)'
+- name: PlugX
+  mitre_id: S0013
+  url: https://attack.mitre.org/software/S0013
+  type: malware
+  stix_id: malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd
+  description: 'PlugX is a remote access tool (RAT) with modular plugins that has
+    been used by multiple threat groups.(Citation: Lastline PlugX Analysis)(Citation:
+    FireEye Clandestine Fox Part 2)(Citation: New DragonOK)(Citation: Dell TG-3390)'
+ttps:
+- technique_id: T1016
+  technique_name: System Network Configuration Discovery
+  url: https://attack.mitre.org/techniques/T1016
+  stix_id: attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0
+- technique_id: T1608.001
+  technique_name: Upload Malware
+  url: https://attack.mitre.org/techniques/T1608/001
+  stix_id: attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e
+- technique_id: T1583.006
+  technique_name: Web Services
+  url: https://attack.mitre.org/techniques/T1583/006
+  stix_id: attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54
+- technique_id: T1047
+  technique_name: Windows Management Instrumentation
+  url: https://attack.mitre.org/techniques/T1047
+  stix_id: attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055
+- technique_id: T1573.001
+  technique_name: Symmetric Cryptography
+  url: https://attack.mitre.org/techniques/T1573/001
+  stix_id: attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41
+- technique_id: T1593
+  technique_name: Search Open Websites/Domains
+  url: https://attack.mitre.org/techniques/T1593
+  stix_id: attack-pattern--a0e6614a-7740-4b24-bd65-f1bde09fc365
+- technique_id: T1204.001
+  technique_name: Malicious Link
+  url: https://attack.mitre.org/techniques/T1204/001
+  stix_id: attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9
+- technique_id: T1046
+  technique_name: Network Service Discovery
+  url: https://attack.mitre.org/techniques/T1046
+  stix_id: attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88
+- technique_id: T1140
+  technique_name: Deobfuscate/Decode Files or Information
+  url: https://attack.mitre.org/techniques/T1140
+  stix_id: attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c
+- technique_id: T1049
+  technique_name: System Network Connections Discovery
+  url: https://attack.mitre.org/techniques/T1049
+  stix_id: attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475
+- technique_id: T1059.005
+  technique_name: Visual Basic
+  url: https://attack.mitre.org/techniques/T1059/005
+  stix_id: attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67
+- technique_id: T1219.001
+  technique_name: IDE Tunneling
+  url: https://attack.mitre.org/techniques/T1219/001
+  stix_id: attack-pattern--77e29a47-e263-4f11-8692-e5012f44dbac
+- technique_id: T1567.002
+  technique_name: Exfiltration to Cloud Storage
+  url: https://attack.mitre.org/techniques/T1567/002
+  stix_id: attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b
+- technique_id: T1053.005
+  technique_name: Scheduled Task
+  url: https://attack.mitre.org/techniques/T1053/005
+  stix_id: attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9
+- technique_id: T1087.002
+  technique_name: Domain Account
+  url: https://attack.mitre.org/techniques/T1087/002
+  stix_id: attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af
+- technique_id: T1598.003
+  technique_name: Spearphishing Link
+  url: https://attack.mitre.org/techniques/T1598/003
+  stix_id: attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230
+- technique_id: T1678
+  technique_name: Delay Execution
+  url: https://attack.mitre.org/techniques/T1678
+  stix_id: attack-pattern--a1df809c-7d0e-459f-8fe5-25474bab770b
+- technique_id: T1564.001
+  technique_name: Hidden Files and Directories
+  url: https://attack.mitre.org/techniques/T1564/001
+  stix_id: attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d
+- technique_id: T1218.005
+  technique_name: Mshta
+  url: https://attack.mitre.org/techniques/T1218/005
+  stix_id: attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade
+- technique_id: T1027.007
+  technique_name: Dynamic API Resolution
+  url: https://attack.mitre.org/techniques/T1027/007
+  stix_id: attack-pattern--ea4c2f9c-9df1-477c-8c42-6da1118f2ac4
+- technique_id: T1585.002
+  technique_name: Email Accounts
+  url: https://attack.mitre.org/techniques/T1585/002
+  stix_id: attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a
+- technique_id: T1219.002
+  technique_name: Remote Desktop Software
+  url: https://attack.mitre.org/techniques/T1219/002
+  stix_id: attack-pattern--d4287702-e2f7-4946-bdfa-2c7f5aaa5032
+- technique_id: T1003
+  technique_name: OS Credential Dumping
+  url: https://attack.mitre.org/techniques/T1003
+  stix_id: attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22
+- technique_id: T1003.006
+  technique_name: DCSync
+  url: https://attack.mitre.org/techniques/T1003/006
+  stix_id: attack-pattern--f303a39a-6255-4b89-aecc-18c4d8ca7163
+- technique_id: T1218.004
+  technique_name: InstallUtil
+  url: https://attack.mitre.org/techniques/T1218/004
+  stix_id: attack-pattern--2cd950a6-16c4-404a-aa01-044322395107
+- technique_id: T1586.002
+  technique_name: Email Accounts
+  url: https://attack.mitre.org/techniques/T1586/002
+  stix_id: attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b
+- technique_id: T1560.001
+  technique_name: Archive via Utility
+  url: https://attack.mitre.org/techniques/T1560/001
+  stix_id: attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662
+- technique_id: T1070
+  technique_name: Indicator Removal
+  url: https://attack.mitre.org/techniques/T1070
+  stix_id: attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69
+- technique_id: T1071.001
+  technique_name: Web Protocols
+  url: https://attack.mitre.org/techniques/T1071/001
+  stix_id: attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161
+- technique_id: T1018
+  technique_name: Remote System Discovery
+  url: https://attack.mitre.org/techniques/T1018
+  stix_id: attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735
+- technique_id: T1069.002
+  technique_name: Domain Groups
+  url: https://attack.mitre.org/techniques/T1069/002
+  stix_id: attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c
+- technique_id: T1001.003
+  technique_name: Protocol or Service Impersonation
+  url: https://attack.mitre.org/techniques/T1001/003
+  stix_id: attack-pattern--c325b232-d5bc-4dde-a3ec-71f3db9e8adc
+- technique_id: T1048.003
+  technique_name: Exfiltration Over Unencrypted Non-C2 Protocol
+  url: https://attack.mitre.org/techniques/T1048/003
+  stix_id: attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b
+- technique_id: T1566.002
+  technique_name: Spearphishing Link
+  url: https://attack.mitre.org/techniques/T1566/002
+  stix_id: attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7
+- technique_id: T1041
+  technique_name: Exfiltration Over C2 Channel
+  url: https://attack.mitre.org/techniques/T1041
+  stix_id: attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d
+- technique_id: T1072
+  technique_name: Software Deployment Tools
+  url: https://attack.mitre.org/techniques/T1072
+  stix_id: attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414
+- technique_id: T1557
+  technique_name: Adversary-in-the-Middle
+  url: https://attack.mitre.org/techniques/T1557
+  stix_id: attack-pattern--035bb001-ab69-4a0b-9f6c-2de8b09e1b9d
+- technique_id: T1505.003
+  technique_name: Web Shell
+  url: https://attack.mitre.org/techniques/T1505/003
+  stix_id: attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb
+- technique_id: T1176.002
+  technique_name: IDE Extensions
+  url: https://attack.mitre.org/techniques/T1176/002
+  stix_id: attack-pattern--66b34be7-6915-4b83-8d5a-b0f0592b5e41
+- technique_id: T1588.003
+  technique_name: Code Signing Certificates
+  url: https://attack.mitre.org/techniques/T1588/003
+  stix_id: attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15
+- technique_id: T1091
+  technique_name: Replication Through Removable Media
+  url: https://attack.mitre.org/techniques/T1091
+  stix_id: attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4
+- technique_id: T1059.003
+  technique_name: Windows Command Shell
+  url: https://attack.mitre.org/techniques/T1059/003
+  stix_id: attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62
+- technique_id: T1052.001
+  technique_name: Exfiltration over USB
+  url: https://attack.mitre.org/techniques/T1052/001
+  stix_id: attack-pattern--a3e1e6c5-9c74-4fc0-a16c-a9d228c17829
+- technique_id: T1003.001
+  technique_name: LSASS Memory
+  url: https://attack.mitre.org/techniques/T1003/001
+  stix_id: attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90
+- technique_id: T1588.002
+  technique_name: Tool
+  url: https://attack.mitre.org/techniques/T1588/002
+  stix_id: attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0
+- technique_id: T1588.004
+  technique_name: Digital Certificates
+  url: https://attack.mitre.org/techniques/T1588/004
+  stix_id: attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421
+- technique_id: T1560.003
+  technique_name: Archive via Custom Method
+  url: https://attack.mitre.org/techniques/T1560/003
+  stix_id: attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b
+- technique_id: T1070.004
+  technique_name: File Deletion
+  url: https://attack.mitre.org/techniques/T1070/004
+  stix_id: attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c
+- technique_id: T1129
+  technique_name: Shared Modules
+  url: https://attack.mitre.org/techniques/T1129
+  stix_id: attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65
+- technique_id: T1057
+  technique_name: Process Discovery
+  url: https://attack.mitre.org/techniques/T1057
+  stix_id: attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580
+- technique_id: T1082
+  technique_name: System Information Discovery
+  url: https://attack.mitre.org/techniques/T1082
+  stix_id: attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1
+- technique_id: T1095
+  technique_name: Non-Application Layer Protocol
+  url: https://attack.mitre.org/techniques/T1095
+  stix_id: attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b
+- technique_id: T1203
+  technique_name: Exploitation for Client Execution
+  url: https://attack.mitre.org/techniques/T1203
+  stix_id: attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63
+- technique_id: T1574.005
+  technique_name: Executable Installer File Permissions Weakness
+  url: https://attack.mitre.org/techniques/T1574/005
+  stix_id: attack-pattern--70d81154-b187-45f9-8ec5-295d01255979
+- technique_id: T1608
+  technique_name: Stage Capabilities
+  url: https://attack.mitre.org/techniques/T1608
+  stix_id: attack-pattern--84771bc3-f6a0-403e-b144-01af70e5fda0
+- technique_id: T1622
+  technique_name: Debugger Evasion
+  url: https://attack.mitre.org/techniques/T1622
+  stix_id: attack-pattern--e4dc8c01-417f-458d-9ee0-bb0617c1b391
+- technique_id: T1566.001
+  technique_name: Spearphishing Attachment
+  url: https://attack.mitre.org/techniques/T1566/001
+  stix_id: attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597
+- technique_id: T1654
+  technique_name: Log Enumeration
+  url: https://attack.mitre.org/techniques/T1654
+  stix_id: attack-pattern--866d0d6d-02c6-42bd-aa2f-02907fdc0969
+- technique_id: T1083
+  technique_name: File and Directory Discovery
+  url: https://attack.mitre.org/techniques/T1083
+  stix_id: attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18
+- technique_id: T1518
+  technique_name: Software Discovery
+  url: https://attack.mitre.org/techniques/T1518
+  stix_id: attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58
+- technique_id: T1583.001
+  technique_name: Domains
+  url: https://attack.mitre.org/techniques/T1583/001
+  stix_id: attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3
+- technique_id: T1574.001
+  technique_name: DLL
+  url: https://attack.mitre.org/techniques/T1574/001
+  stix_id: attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34
+- technique_id: T1546.003
+  technique_name: Windows Management Instrumentation Event Subscription
+  url: https://attack.mitre.org/techniques/T1546/003
+  stix_id: attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58
+- technique_id: T1106
+  technique_name: Native API
+  url: https://attack.mitre.org/techniques/T1106
+  stix_id: attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670
+- technique_id: T1003.003
+  technique_name: NTDS
+  url: https://attack.mitre.org/techniques/T1003/003
+  stix_id: attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24
+- technique_id: T1059
+  technique_name: Command and Scripting Interpreter
+  url: https://attack.mitre.org/techniques/T1059
+  stix_id: attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830
+- technique_id: T1553.002
+  technique_name: Code Signing
+  url: https://attack.mitre.org/techniques/T1553/002
+  stix_id: attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082
+- technique_id: T1027
+  technique_name: Obfuscated Files or Information
+  url: https://attack.mitre.org/techniques/T1027
+  stix_id: attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a
+- technique_id: T1547.001
+  technique_name: Registry Run Keys / Startup Folder
+  url: https://attack.mitre.org/techniques/T1547/001
+  stix_id: attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279
+- technique_id: T1119
+  technique_name: Automated Collection
+  url: https://attack.mitre.org/techniques/T1119
+  stix_id: attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619
+- technique_id: T1105
+  technique_name: Ingress Tool Transfer
+  url: https://attack.mitre.org/techniques/T1105
+  stix_id: attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add
+- technique_id: T1074.001
+  technique_name: Local Data Staging
+  url: https://attack.mitre.org/techniques/T1074/001
+  stix_id: attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c
+- technique_id: T1059.007
+  technique_name: JavaScript
+  url: https://attack.mitre.org/techniques/T1059/007
+  stix_id: attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d
+- technique_id: T1059.001
+  technique_name: PowerShell
+  url: https://attack.mitre.org/techniques/T1059/001
+  stix_id: attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736
+- technique_id: T1027.016
+  technique_name: Junk Code Insertion
+  url: https://attack.mitre.org/techniques/T1027/016
+  stix_id: attack-pattern--671cd17f-a765-48fd-adc4-dad1941b1ae3
+- technique_id: T1070.006
+  technique_name: Timestomp
+  url: https://attack.mitre.org/techniques/T1070/006
+  stix_id: attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611
+- technique_id: T1204.002
+  technique_name: Malicious File
+  url: https://attack.mitre.org/techniques/T1204/002
+  stix_id: attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e
+- technique_id: T1572
+  technique_name: Protocol Tunneling
+  url: https://attack.mitre.org/techniques/T1572
+  stix_id: attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b
+- technique_id: T1036.008
+  technique_name: Masquerade File Type
+  url: https://attack.mitre.org/techniques/T1036/008
+  stix_id: attack-pattern--208884f1-7b83-4473-ac22-4e1cf6c41471
+- technique_id: T1036.007
+  technique_name: Double File Extension
+  url: https://attack.mitre.org/techniques/T1036/007
+  stix_id: attack-pattern--11f29a39-0942-4d62-92b6-fe236cf3066e
+- technique_id: T1102
+  technique_name: Web Service
+  url: https://attack.mitre.org/techniques/T1102
+  stix_id: attack-pattern--830c9528-df21-472c-8c14-a036bf17d665
+- technique_id: T1205
+  technique_name: Traffic Signaling
+  url: https://attack.mitre.org/techniques/T1205
+  stix_id: attack-pattern--451a9977-d255-43c9-b431-66de80130c8c
+- technique_id: T1036.005
+  technique_name: Match Legitimate Resource Name or Location
+  url: https://attack.mitre.org/techniques/T1036/005
+  stix_id: attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2
+- technique_id: T1587.001
+  technique_name: Malware
+  url: https://attack.mitre.org/techniques/T1587/001
+  stix_id: attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0
+- technique_id: T1027.012
+  technique_name: LNK Icon Smuggling
+  url: https://attack.mitre.org/techniques/T1027/012
+  stix_id: attack-pattern--887274fc-2d63-4bdc-82f3-fae56d1d5fdc
+attck_techniques:
+- T1001.003
+- T1003
+- T1003.001
+- T1003.003
+- T1003.006
+- T1016
+- T1018
+- T1027
+- T1027.007
+- T1027.012
+- T1027.016
+- T1036.005
+- T1036.007
+- T1036.008
+- T1041
+- T1046
+- T1047
+- T1048.003
+- T1049
+- T1052.001
+- T1053.005
+- T1057
+- T1059
+- T1059.001
+- T1059.003
+- T1059.005
+- T1059.007
+- T1069.002
+- T1070
+- T1070.004
+- T1070.006
+- T1071.001
+- T1072
+- T1074.001
+- T1082
+- T1083
+- T1087.002
+- T1091
+- T1095
+- T1102
+- T1105
+- T1106
+- T1119
+- T1129
+- T1140
+- T1176.002
+- T1203
+- T1204.001
+- T1204.002
+- T1205
+- T1218.004
+- T1218.005
+- T1219.001
+- T1219.002
+- T1505.003
+- T1518
+- T1546.003
+- T1547.001
+- T1553.002
+- T1557
+- T1560.001
+- T1560.003
+- T1564.001
+- T1566.001
+- T1566.002
+- T1567.002
+- T1572
+- T1573.001
+- T1574.001
+- T1574.005
+- T1583.001
+- T1583.006
+- T1585.002
+- T1586.002
+- T1587.001
+- T1588.002
+- T1588.003
+- T1588.004
+- T1593
+- T1598.003
+- T1608
+- T1608.001
+- T1622
+- T1654
+- T1678
+attck_software:
+- S0002
+- S0012
+- S0013
+- S0020
+- S0154
+- S0357
+- S0552
+- S0590
+- S0596
+- S0645
+- S0662
+- S1226
+- S1227
+- S1228
+- S1230
+- S1232
+- S1233
+- S1234
+- S1235
+- S1236
+- S1237
+- S1238
+- S1239
+attck_references:
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G0129
+  external_id: G0129
+  description: ''
+sources:
+- source: mitre-attack
+  imported_at: '2026-10-27T17:28:50Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+campaigns:
+- name: RedDelta Modified PlugX Infection Chain Operations
+  campaign_id: C0047
+  url: https://attack.mitre.org/campaigns/C0047
+  stix_id: campaign--276671b5-5425-48db-ad65-c8c2564a969b
+  description: 'RedDelta Modified PlugX Infection Chain Operations was executed by
+    Mustang Panda from mid-2023 through the end of 2024 against multiple entities
+    in East and Southeast Asia. RedDelta Modified PlugX Infection Chain Operations
+    involved phishing to deliver malicious files or links to users prompting follow-on
+    installer downloads to load PlugX on victim machines in a persistent state.(Citation:
+    Recorded Future RedDelta 2025)'
 provenance:
   aptnotes:
-    earliest_report_year: "2023"
-    latest_report_year: "2023"
+    earliest_report_year: '2023'
+    latest_report_year: '2023'
     report_count: 2
-    sample_links: ["https://app.box.com/s/3r1jwpewyxlnj8efx3tr6ctw9d2xghsf","https://app.box.com/s/01nfw2cbbp4hi4my8tuoik8eazecd9wm"]
-    sample_titles: ["Mustang Panda APT Group Uses European Commission-Themed Lure to Deliver PlugX Malware","MQsTTang: Mustang Panda's latest backdoor treads new ground with Qt and MQTT"]
-    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
-    source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
-    sources: ["ESET","Eclecticiq"]
+    sample_links:
+    - https://app.box.com/s/3r1jwpewyxlnj8efx3tr6ctw9d2xghsf
+    - https://app.box.com/s/01nfw2cbbp4hi4my8tuoik8eazecd9wm
+    sample_titles:
+    - Mustang Panda APT Group Uses European Commission-Themed Lure to Deliver PlugX
+      Malware
+    - 'MQsTTang: Mustang Panda''s latest backdoor treads new ground with Qt and MQTT'
+    source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+    source_repository: https://github.com/aptnotes/data
+    source_retrieved_at: '2026-05-17T06:18:35Z'
+    sources:
+    - ESET
+    - Eclecticiq
+  etda_thai_group_cards:
+    source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
+    source_record_id: 3fb2534f-f233-4247-a653-5fc809212951
+    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_transforms:
+    - normalized-name
+    - deduplicated-aliases
+    - normalized-optional-fields
+    - adapted-for-threatactor-info
+  eternal_liberty:
+    aliases_by_entity:
+      Palo Alto:
+      - Stately Taurus
+    confidence: High
+    license_status: No explicit upstream license; approved as the sole no-license
+      import exception.
+    source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
+    source_record_id: pkplug
+    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_version: '1.2'
+    type: APT
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "unc6384"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc6384"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
-    source_uuid: "a3e4a57e-4b50-4bca-9282-3307e92e5539"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: unc6384
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc6384
+    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_uuid: a3e4a57e-4b50-4bca-9282-3307e92e5539
   misp_galaxy:
-    meta_keys: ["country","group_attack_id","observed_motivations","owner","source","tags"]
-    source_cluster: "tidal-groups.json"
-    source_clusters: ["tidal-groups.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
-    source_record_id: "62f010b9-707f-4161-99dc-69e3c6e54e13"
-    source_record_ids: ["62f010b9-707f-4161-99dc-69e3c6e54e13"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    meta_keys:
+    - country
+    - group_attack_id
+    - observed_motivations
+    - owner
+    - source
+    - tags
+    source_cluster: tidal-groups.json
+    source_clusters:
+    - tidal-groups.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json
+    source_record_id: 62f010b9-707f-4161-99dc-69e3c6e54e13
+    source_record_ids:
+    - 62f010b9-707f-4161-99dc-69e3c6e54e13
+    source_retrieved_at: '2026-10-27T17:28:59Z'
   mitre:
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-    source_record_id: "G0129"
-    source_retrieved_at: "2026-04-26T05:01:37Z"
-source: "MITRE ATT&CK"
+    attack_version: '20.0'
+    attack_version_by_domain:
+      enterprise: '20.0'
+      ics: '20.0'
+      mobile: '20.0'
+    relationships_imported_at: '2026-10-27T17:28:50Z'
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+    source_dataset_urls:
+      enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+      ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
+      mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
+    source_record_id: G0129
+    source_retrieved_at: '2026-10-27T17:28:50Z'
+    stix_intrusion_set_id: intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4
+  reddrip7_apt_digital_weapon:
+    actor_folder: Mustang Panda
+    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Mustang%20Panda/README.md
+    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Mustang%20Panda/Mustang%20Panda_hash.md
+    source_attribution: Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon
+      and are treated as secondary, community-curated leads requiring independent
+      verification before operational use.
+    source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
+    source_retrieved_at: '2026-10-27T17:29:20Z'
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Stately Taurus
+source: MITRE ATT&CK

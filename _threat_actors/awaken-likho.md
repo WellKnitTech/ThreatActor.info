@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Awaken Likho"
-aliases: ["Core Werewolf","Awaken Likho"]
+aliases: ["Awaken Likho","Core Werewolf"]
 description: "Awaken Likho is an APT group that has targeted Russian government agencies and industrial enterprises, employing techniques such as information gathering via search engines and using MeshCentral for re"
 permalink: /awaken-likho/
 ---
@@ -10,7 +10,11 @@ permalink: /awaken-likho/
 Awaken Likho is an APT group that has targeted Russian government agencies and industrial enterprises, employing techniques such as information gathering via search engines and using MeshCentral for remote access. The group has been active since at least December 2021 and has ramped up its activities following the Russo-Ukrainian conflict. Recent reports indicate that they are focusing on espionage against critical infrastructure in the defense and energy sectors. Analysis of their malware reveals a new version that is still in development, suggesting ongoing operational capabilities.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -27,7 +31,8 @@ Awaken Likho is an APT group that has targeted Russian government agencies and i
 - **RemotePC**
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

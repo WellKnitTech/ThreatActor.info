@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Pink Sandstorm"
-aliases: ["AMERICIUM","BlackShadow","DEV-0022","Agrius","Agonizing Serpens","UNC2428","Black Shadow","SPECTRAL KITTEN","Pink Sandstorm","Deadwood","SharpBoys","DEV-0227","FireAnt","Justice Blade"]
+aliases: ["AMERICIUM","Agonizing Serpens","Agrius","Black Shadow","BlackShadow","DEV-0022","DEV-0227","Deadwood","FireAnt","Justice Blade","Pink Sandstorm","SPECTRAL KITTEN","SharpBoys","UNC2428"]
 description: "Agonizing Serpens is an Iranian-linked APT group that has been active since 2020. They are known for their destructive wiper and fake-ransomware attacks, primarily targeting Israeli organizations in th"
 permalink: /pink-sandstorm/
 ---

@@ -1,0 +1,23 @@
+{
+  "mitre_id": "T1476",
+  "mitigations": [
+
+  ],
+  "subtechniques": [
+
+  ],
+  "groups": [
+    {
+      "name": "Domestic Kitten",
+      "url": "/domestic-kitten/"
+    },
+    {
+      "name": "Dark Caracal",
+      "url": "/apt0070/"
+    },
+    {
+      "name": "Windshift",
+      "url": "/apt0112/"
+    }
+  ]
+}

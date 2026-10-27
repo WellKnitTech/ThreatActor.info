@@ -1,0 +1,14 @@
+name: "Operation Jacana"
+aliases: ["Operation Jacana"]
+description: "(ESET) In February 2023, ESET researchers detected a spearphishing campaign targeting a governmental entity in Guyana. While we haven’t been able to link the campaign, which we named Operation Jacana, to any specific APT group, we believe with medium confidence that a China-aligned threat group is behind this incident. In the attack, the operators used a previously undocumented C++ backdoor that can exfiltrate files, manipulate Windows registry keys, execute CMD commands, and more. We named the backdoor DinodasRAT based on the victim identifier it sends to its C&C: the string always begins with Din, which reminded us of the hobbit Dinodas from the Lord of the Rings."
+url: "/operation-jacana"
+country: "[\"China\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["DinodasRAT","Impacket","PlugX","SoftEther VPN"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "321affd1-6d46-4886-9edd-9d2fe9705ff0"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

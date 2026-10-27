@@ -1,25 +1,60 @@
 name: "SWEED"
-aliases: ["SWEED"]
+aliases: ["SWEED","Sweed"]
 description: "Cisco Talos recently identified a large number of ongoing malware distribution campaigns linked to a threat actor we're calling \"SWEED,\" including such notable malware as Formbook, Lokibot and Agent Tesla. Based on our research, SWEED — which has been operating since at least 2017 — primarily targets their victims with stealers and remote access trojans.\nSWEED remains consistent across most of their campaigns in their use of spear-phishing emails with malicious attachments. While these campaigns have featured a myriad of different types of malicious documents, the actor primarily tries to infect its victims with a packed version of Agent Tesla — an information stealer that's been around since at least 2014. The version of Agent Tesla that SWEED is using differs slightly from what we've seen in the past in the way that it is packed, as well as how it infects the system. In this post, we'll run down each campaign we're able to connect to SWEED, and talk about some of the actor's tactics, techniques and procedures (TTPs)."
 url: "/sweed"
+country: "[\"[Unknown]\"]"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sweed"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Agent.btz","Trojan.Karagany","RemoteCMD","Trojan.Mebromi","Remote Utilities","RemotePC","CrossRat"]
+operations: ["2017","2018-01","2018-04","2018-05","2019","Beginning in 2019","In April 2018","In May 2018","In early 2018","One of the earliest SWEED campaigns Talos identified dates back to 2017. In this attack","SWEED began making use of a previously disclosed Office exploit. One of the documents featured in these email campaigns was notable because it was a PowerPoint document (PPXS). Code contained inside one of the slides triggers an exploit for CVE-2017-8759","Steganography","a remote code execution bug in Microsoft Office that is commonly observed being leveraged in malicious documents used in commodity malware distribution.","a remote code execution vulnerability in Microsoft .NET framework.","and then attached those ZIPs to emails. The attachments usually had file names similar to “Java_Updater.zip” or “P-O of Jun2017.zip”.","campaigns being conducted by SWEED began leveraging another vulnerability in Microsoft Office: CVE-2017-11882","https://blog.talosintelligence.com/2019/07/sweed-agent-tesla.html","the JAR was directly attached to emails and used file names such as “Order_2018.jar”. The purpose of the JAR was to obtain information about the infected system and facilitate the download of a packed version of Agent Tesla.","the actors placed droppers inside of ZIP archives","the campaigns associated with SWEED began leveraging malicious Office macros. As with previous attacks","they are leveraging spear-phishing emails and malicious attachments to initiate the infection process.","we observed that SWEED began leveraging Java-based droppers. Similar to previous campaigns"]
+malware:
+  - "Agent.btz"
+  - "Trojan.Karagany"
+  - "RemoteCMD"
+  - "Trojan.Mebromi"
+  - "Remote Utilities"
+  - "RemotePC"
+  - "CrossRat"
+  - name: "Agent Tesla"
+  - name: "Formbook"
+  - name: "LokiBot"
+  - name: "RDP"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "ad9624e1-ffa9-42ca-abba-59c371e1ed53"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Thalos: ["Sweed"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "sweed"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Script Kiddies"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "sweed"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sweed"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "64ac8827-89d9-4738-9df3-cd955c628bee"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "64ac8827-89d9-4738-9df3-cd955c628bee"
     source_record_ids: ["64ac8827-89d9-4738-9df3-cd955c628bee"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "SWEED"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/SWEED/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/SWEED/SWEED_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

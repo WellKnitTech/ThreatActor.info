@@ -10,7 +10,11 @@ permalink: /andromeda-spider/
 ANDROMEDA SPIDER is a threat actor tracked by MISP Galaxy. Additional information pending cataloguing.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["Belarus"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,10 +26,11 @@ ANDROMEDA SPIDER is a threat actor tracked by MISP Galaxy. Additional informatio
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Andromeda**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["Belarus"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

@@ -16,7 +16,15 @@ In March 2022, the FBI and the U.S. Treasury Financial Crimes Enforcement Networ
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Applications | Apache | Log4j | CVE-2021-44228 |
+| Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065 |
+| Microsoft Products | MS Server Products | Exchange On-Prem | CVE-2021-31207, CVE-2021-34473, CVE-2021-34523 |
+| Applications | Veeam | Backup & Replication | CVE-2022-26500, CVE-2022-26501 |
+| Applications | Zoho | ManageEngine ADSelfService Plus | CVE-2021-40539 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
@@ -24,6 +32,19 @@ In March 2022, the FBI and the U.S. Treasury Financial Crimes Enforcement Networ
 ## Malware and Tools
 - **Dark DDoSeR**: 
 - **CrossRat**: 
+
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | LaZagne, Mimikatz, XenArmor |
+| Defense Evasion | Avast Anti-Rootkit driver |
+| Discovery | NirSoft WinLister, Nmap, SoftPerfect NetScan |
+| Exfiltration | FileZilla, Gofile[.]io, PSCP, RClone, share[.]riseup[.]net |
+| LOLBAS | PsExec, WMIC |
+| Networking | Chisel, Ligolo |
+| OffSec | Cobalt Strike, Sliver |
+| RMM Tools | AnyDesk, Atera, PDQ Deploy, Splashtop, TacticalRMM |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

@@ -14,13 +14,20 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc5330"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc5330"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "c5ea778c-df2f-4c63-b401-dded9cb2419c"
   misp_galaxy:
-    meta_keys: ["country","origin:UNC5330","refs"]
+    meta_keys: ["country","origin:UNC5330","refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c5ea778c-df2f-4c63-b401-dded9cb2419c"
     source_record_ids: ["c5ea778c-df2f-4c63-b401-dded9cb2419c"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "UNC5330"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC5330/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC5330/UNC5330_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

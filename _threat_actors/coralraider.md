@@ -17,7 +17,9 @@ CoralRaider is a financially motivated threat actor of Vietnamese origin, target
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2024-02**
+- **Suspected CoralRaider continues to expand victimology using three information stealers**
+- **https://blog.talosintelligence.com/suspected-coralraider-continues-to-expand-victimology-using-three-information-stealers/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -29,6 +31,13 @@ CoralRaider is a financially motivated threat actor of Vietnamese origin, target
 - **CORALDECK**
 - **ClientMesh**
 - **Client Maximus**
+- **AsyncRAT**: 
+- **Living off the Land**: 
+- **LummaC2**: 
+- **NetSupport Manager**: 
+- **Rhadamanthys**: 
+- **RotBot**: 
+- **XClient**: 
 
 ## Attribution and Evidence
 **Country of Origin**: Vietnam

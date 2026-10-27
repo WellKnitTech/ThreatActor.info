@@ -10,8 +10,6 @@ permalink: /dark-project/
 Dark Project is a ransomware and extortion group active as of 2026. The group has claimed several known victims, though cataloging by major ransomware monitoring sites has not yet occurred at time of initial entry. It appears in listings of recent ransomware variants alongside groups such as Kyber, Akira, and Qilin.
 
 ## Activities and Tactics
-**Targeted Sectors**: 
-
 **Country of Origin**: 🏳️ Unknown
 
 **Risk Level**: Medium

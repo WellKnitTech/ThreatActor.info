@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "rhysida"
-aliases: ["rhysida"]
+aliases: ["Rhysida","rhysida"]
 description: "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deplo"
 permalink: /rhysida/
 ---
@@ -16,13 +16,27 @@ Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The 
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Microsoft Products | Windows | NetLogon | CVE-2020-1472 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
 - **Cobalt Strike**: 
+
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Discovery | PowerView |
+| Exfiltration | WinSCP |
+| LOLBAS | NTDS Utility (ntdsutil), PsExec, WMIC, Windows Event Utility (wevtutil) |
+| OffSec | Impacket |
+| RMM Tools | AnyDesk |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

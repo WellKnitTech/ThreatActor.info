@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Equation Group"
-aliases: ["Tilded Team","EQGRP","G0020","Equation Group","Housefly","Remsec","方程式 - APT-C-40"]
+aliases: ["APT-C-40","EQGRP","Equation Group","G0020","Housefly","Platinum Colony","Remsec","Tilded Team","方程式 - APT-C-40"]
 description: "The Equation Group is a highly sophisticated threat actor described by its discoverers at Kaspersky Labs as one of the most sophisticated cyber attack groups in the world, operating alongside but alway"
 permalink: /equation-group/
 ---
@@ -48,6 +48,18 @@ The Equation Group is a highly sophisticated threat actor described by its disco
 - **RemSec**: 
 - **Gauss**: 
 - **Apple iOS 0days**: 
+- **Bvp47**: 
+- **DanderSpritz**: 
+- **DarkPulsar**: 
+- **DoubleFeature**: 
+- **DoublePulsar**: 
+- **Duqu**: 
+- **Flame**: 
+- **GROK**: 
+- **Lambert**: 
+- **OddJob**: 
+- **UNITEDRAKE**: 
+- **many others**: 
 
 ## Attribution and Evidence
 **Country of Origin**: United States

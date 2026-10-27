@@ -84,19 +84,27 @@
   "groups": [
     {
       "name": "Lazarus Group",
-      "url": "/lazarus"
+      "url": "/lazarus/"
+    },
+    {
+      "name": "UNC1549",
+      "url": "/unc1549/"
+    },
+    {
+      "name": "TeamPCP",
+      "url": "/teampcp/"
     },
     {
       "name": "Scattered Spider",
-      "url": "/apt1015"
+      "url": "/apt1015/"
     },
     {
-      "name": "VOID MANTICORE",
-      "url": "/void-manticore"
+      "name": "Void Manticore",
+      "url": "/void-manticore/"
     },
     {
       "name": "HAFNIUM",
-      "url": "/apt0125"
+      "url": "/apt0125/"
     }
   ]
 }

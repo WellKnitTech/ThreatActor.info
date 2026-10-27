@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD FLANDERS"
-aliases: ["GOLD FLANDERS"]
+aliases: ["GOLD FLANDERS","Gold Flanders"]
 description: "GOLD FLANDERS is a financially motivated group responsible for distributed denial of service (DDOS) attacks linked to extortion emails demanding between 5 and 30 bitcoins. The attacks consist mostly of"
 permalink: /gold-flanders/
 ---

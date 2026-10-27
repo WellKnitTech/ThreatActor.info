@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "DORRA"
 aliases: ["DORRA"]
-description: "A new ransomware variant has been identified, named DORRA. It is worth mentioning in advance that this variant is derived from the Makop ransomware family.  This variant encrypts data by adding the “.D"
+description: "A new ransomware variant has been identified, named DORRA. It is worth mentioning in advance that this variant is derived from the Makop ransomware family. This variant encrypts data by adding the “.DO"
 permalink: /dorra/
 ---
 

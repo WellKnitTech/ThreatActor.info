@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Vicious Panda"
-aliases: ["SixLittleMonkeys","Vicious Panda"]
+aliases: ["SixLittleMonkeys","Vicious Panda","Mikroceen"]
 description: "Check Point Research discovered a new campaign against the Mongolian public sector, which takes advantage of the current Coronavirus scare, in order to deliver a previously unknown malware implant to t"
 permalink: /vicious-panda/
 ---
@@ -19,7 +19,9 @@ Check Point Research discovered a new campaign against the Mongolian public sect
 **Suspected Victims**: Belarus, Russia, Mongolia, Ukraine
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2021-03**
+- **Exchange servers under siege from at least 10 APT groups**
+- **https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -35,6 +37,12 @@ Check Point Research discovered a new campaign against the Mongolian public sect
 - **Microcin**: 
 - **BYEBY**: 
 - **Mikroceen**: 
+- **Gh0st RAT**: 
+- **Mimikatz**: 
+- **logon.dll**: 
+- **logsupport.dll**: 
+- **pcaudit.bat**: 
+- **sqllauncher.dll**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

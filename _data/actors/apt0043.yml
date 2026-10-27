@@ -2,6 +2,7 @@ name: "Group5"
 aliases: ["G0043","Group5"]
 description: "Group5 is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. Group5 has used two commonly available remote access tools (RATs), njRAT and NanoCore, as well as an Android RAT, DroidJack. [Citizen Lab Group5](https://citizenlab.ca/2016/08/group5-syria/)"
 url: "/apt0043"
+country: "[\"Iran\"]"
 first_seen: "2016"
 last_activity: "2016"
 confidence: "high"
@@ -14,7 +15,20 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/group5"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["SPACESHIP","PowerDuke","POWERSTATS","Power Loader","POWERSOURCE","DroidJack","Androrat","Windows Remote Desktop","Archelaus Beta","PowerRAT"]
+malware:
+  - "SPACESHIP"
+  - "PowerDuke"
+  - "POWERSTATS"
+  - "Power Loader"
+  - "POWERSOURCE"
+  - "DroidJack"
+  - "Androrat"
+  - "Windows Remote Desktop"
+  - "Archelaus Beta"
+  - "PowerRAT"
+  - name: "DroidJack"
+  - name: "NanoCore RAT"
+  - name: "njRAT"
 software:
   - name: "njRAT"
     mitre_id: "S0385"
@@ -59,6 +73,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2016"
@@ -68,35 +85,52 @@ provenance:
     sample_titles: ["Group5: Syria and the Iranian Connection"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Citizen Lab"]
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0043"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "316b9d45-f67a-4595-bdf3-5137489fb3c5"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      Citizen Lab: ["Group5"]
+      MITRE: ["G0043"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "group5"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "group5"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/group5"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "bc8390aa-8c4e-11e9-a9cb-e37c361210af"
   misp_galaxy:
-    meta_keys: ["refs","synonyms","group_attack_id","source"]
+    meta_keys: ["refs","synonyms","group_attack_id","source","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "bc8390aa-8c4e-11e9-a9cb-e37c361210af"
     source_record_ids: ["bc8390aa-8c4e-11e9-a9cb-e37c361210af","fcc6d937-8cd6-4f2c-adb8-48caedbde70a"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0043"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40"
 source: "MITRE ATT&CK"

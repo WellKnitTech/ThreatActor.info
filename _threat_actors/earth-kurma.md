@@ -10,7 +10,11 @@ permalink: /earth-kurma/
 Earth Kurma is an APT group targeting government and telecommunications sectors in Southeast Asia, with a primary focus on data exfiltration. They employ advanced custom malware, including rootkits like KRNRAT and MORIYA, and utilize cloud storage services for exfiltration. Their toolsets include TESDAT and SIMPOBOXSPY, and they demonstrate adaptive TTPs and complex evasion techniques. Attribution overlaps with other APT groups, but distinct attack patterns warrant their separate designation.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇨🇳 ["China"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -23,9 +27,18 @@ Earth Kurma is an APT group targeting government and telecommunications sectors 
 
 ## Malware and Tools
 - **CloudDuke**
+- **Cobalt Strike**: 
+- **DMLOADER**: 
+- **DUNLOADER**: 
+- **KRNRAT**: 
+- **Moriya**: 
+- **ODRIZ**: 
+- **SIMPOBOXSPY**: 
+- **TESDAT**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["China"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

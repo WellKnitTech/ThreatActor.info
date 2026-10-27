@@ -1,0 +1,15 @@
+name: "SunCrypt Gang"
+aliases: ["SunCrypt Gang"]
+description: "(Acronis) This ransomware family was first spotted in October 2019, but it was not very active at that time. The group behind it was independent in the beginning, but they recently joined the so-called Maze cartel – combining forces to rob individuals and companies around the world."
+url: "/suncrypt-gang"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+operations: ["000 Patients","2020-05","2020-08","2020-09","2020-10","MU Health Care Phishing Attack Impacts 5","Ransomware gang attacks Texas unit of global steel conglomerate","Ransomware gangs add DDoS attacks to their extortion arsenal","SunCrypt Ransomware sheds light on the Maze ransomware cartel","SunCrypt Ransomware shuts down North Carolina school district","University Hospital New Jersey hit by SunCrypt ransomware","data leaked","https://itwire.com/security/ransomware-gang-attacks-texas-unit-of-global-steel-conglomerate.html","https://www.bleepingcomputer.com/news/security/ransomware-gangs-add-ddos-attacks-to-their-extortion-arsenal/","https://www.bleepingcomputer.com/news/security/suncrypt-ransomware-sheds-light-on-the-maze-ransomware-cartel/","https://www.bleepingcomputer.com/news/security/suncrypt-ransomware-shuts-down-north-carolina-school-district/","https://www.bleepingcomputer.com/news/security/university-hospital-new-jersey-hit-by-suncrypt-ransomware-data-leaked/","https://www.hipaajournal.com/mu-health-care-phishing-attack-impacts-5000-patients/"]
+malware: ["SunCrypt","WARPRISM"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "e2ecfc72-93c2-4b6c-8edc-001b2b87261b"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

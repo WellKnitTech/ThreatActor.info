@@ -1,25 +1,44 @@
 name: "VIKING SPIDER"
-aliases: ["VIKING SPIDER"]
+aliases: ["VIKING SPIDER","Viking Spider"]
 description: "VIKING SPIDER is the criminal group behind the development and distribution of Ragnar Locker ransomware. While public reporting indicates the group began threatening to leak victim data in February 2020, a DLS was not observed until April 2020. The DLS is hosted on Tor, and similar to other actors, proof of data exfiltration is provided before the stolen data is fully leaked. It was also noted that On Dec. 22, 2020, a new post made to MountLocker ransomware’s Tor-hosted DLS was titled 'Cartel News' and included details of a victim of VIKING SPIDER’s Ragnar Locker"
 url: "/viking-spider"
+country: "[\"[Unknown]\"]"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/viking_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Ragnatela"]
+operations: ["$15 million demanded","1TB allegedly stolen","2020-04","2020-05","2020-07","2020-11","2021-01","2021-06","2021-09","2022-08","2022-09","2022-11","2023-08","Campari hit by Ragnar Locker Ransomware","Capcom hit by Ragnar Locker ransomware","Computer memory maker ADATA hit by Ragnar Locker ransomware","Customer Care Giant TTEC Hit By Ransomware","Hackers claim to publish prominent Israeli hospital’s patient data","Ragnar Locker Likely Behind Attack on Greek Gas Operator","Ragnar Locker Ransomware Attack Impacts Employee Records at Dassault Falcon Jet","Ragnar Locker Targets CWT in Ransomware Attack","Ragnar Locker ransomware claims attack on Portugal's flag airline","RagnarLocker ransomware hits EDP energy giant","Ransomware Group Turns to Facebook Ads","Ransomware deploys virtual machines to hide itself from antivirus software","Ransomware gang targets Belgian municipality","Ransomware gang threatens to leak data if victim contacts FBI","asks for €10M","hits police instead","https://chaslescorp.com/ragnar-locker-ransomware-attack-impacts-employee-records-at-dassault-falcon-jet/","https://cybelangel.com/blog/ragnar-locker-targets-cwt/","https://krebsonsecurity.com/2020/11/ransomware-group-turns-to-facebook-ads/","https://krebsonsecurity.com/2021/09/customer-care-giant-ttec-hit-by-ransomware/","https://therecord.media/israel-hospital-data-leaked-ragnar-locker-ransomware","https://www.bankinfosecurity.com/ragnar-locker-likely-behind-attack-on-greek-gas-operator-a-19907","https://www.bleepingcomputer.com/news/security/campari-hit-by-ragnar-locker-ransomware-15-million-demanded/","https://www.bleepingcomputer.com/news/security/capcom-hit-by-ragnar-locker-ransomware-1tb-allegedly-stolen/","https://www.bleepingcomputer.com/news/security/computer-memory-maker-adata-hit-by-ragnar-locker-ransomware/","https://www.bleepingcomputer.com/news/security/ragnar-locker-ransomware-claims-attack-on-portugals-flag-airline/","https://www.bleepingcomputer.com/news/security/ragnarlocker-ransomware-hits-edp-energy-giant-asks-for-10m/","https://www.bleepingcomputer.com/news/security/ransomware-gang-targets-belgian-municipality-hits-police-instead/","https://www.bleepingcomputer.com/news/security/ransomware-gang-threatens-to-leak-data-if-victim-contacts-fbi-police/","https://www.zdnet.com/article/ransomware-deploys-virtual-machines-to-hide-itself-from-antivirus-software/","police"]
+malware:
+  - "Ragnatela"
+  - name: "RagnarLocker"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "e3579aff-2cc6-452c-837b-91f4b3825bf2"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Viking Spider"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "vikingspider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "viking_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/viking_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "ffc02459-3d94-4558-bff0-2e7f0bbf70c6"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ffc02459-3d94-4558-bff0-2e7f0bbf70c6"
     source_record_ids: ["ffc02459-3d94-4558-bff0-2e7f0bbf70c6"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

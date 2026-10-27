@@ -1,5 +1,5 @@
 name: "DAGGER PANDA"
-aliases: ["IceFog","Trident","RedFoxtrot","Red Wendigo","PLA Unit 69010","UAT-7290","Red Foxtrot","DAGGER PANDA","Fucobha","Temp.Trident","Ice Fog"]
+aliases: ["ATK 23","DAGGER PANDA","Dagger Panda","Fucobha","Ice Fog","IceFog","Icefog","PLA Unit 69010","Red Foxtrot","Red Wendigo","RedFoxtrot","Temp.Trident","Trident","UAT-7290","ATK23","SectorB06"]
 description: "Operate since at least 2011, from several locations in China, with  members in Korea and Japan as well. Possibly linked to Onion Dog. This threat actor targets government institutions, military contractors, maritime and shipbuilding groups, telecommunications operators, and others, primarily in Japan and South Korea."
 url: "/dagger-panda"
 country: "China"
@@ -14,6 +14,7 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dagger_panda"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2014-01","2015","2016","2018","2018/2019","India","Kazakhstan","Since the publication of our report","Target: An unknown entity in the Philippines.","Target: Government","Target: Kazach officials.","Target: Organizations in Turkey and Kazakhstan.","Target: Water source provider","The Icefog APT Hits US Targets With Java Backdoor","Uzbekistan","and Tajikistan.","and finance organizations in Russia and Mongolia.","and government entities in Turkey","banks","further to be referenced as “Javafog”.","https://securelist.com/the-icefog-apt-hits-us-targets-with-java-backdoor/58209/","https://www.zdnet.com/article/ancient-icefog-apt-malware-spotted-again-in-new-wave-of-attacks/","media","shutting down all known command-and-control servers. Nevertheless","the Icefog attackers went completely dark","we continued to monitor the operation by sinkholing domains and nalyzing victim connections. During this monitoring","we observed an interesting type of connection which seemed to indicate a Java version of Icefog","“APPER” Campaign","“PHKIGHT” Campaign","“SKYLINE” Campaign","“TOPNEWS” Campaign","“WATERFIGHT” Campaign"]
 malware:
   - "China Chopper"
   - "OnionDuke"
@@ -24,12 +25,16 @@ malware:
   - name: "PlugX-Talisman"
   - name: "ShadowPad"
   - name: "GUNTERS"
+  - name: "8.t Dropper"
+  - name: "Dagger Three"
+  - name: "Javafog"
+  - name: "ShadowPad Winnti"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.recordedfuture.com/redfoxtrot-china-pla-targets-bordering-asian-countries/","https://go.recordedfuture.com/redfoxtrot-insikt-report","https://www.recordedfuture.com/chinese-apt-groups-target-afghan-telecommunications-firm/","https://www.sentinelone.com/labs/moshen-dragons-triad-and-error-approach-abusing-security-software-to-sideload-plugx-and-shadowpad/","https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/plugx-a-talisman-to-behold.html"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2013"
@@ -41,17 +46,43 @@ provenance:
     source_repository: "https://github.com/aptnotes/data"
     source_retrieved_at: "2026-05-06T22:01:18Z"
     sources: ["Kaspersky"]
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "d311b620-e98f-4210-b136-cd24749584b0"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Dagger Panda"]
+      Kaspersky: ["Icefog"]
+      PWC: ["Red Wendigo"]
+      Thales: ["ATK23"]
+      ThreatRecon: ["SectorB06"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "icefog"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dagger_panda"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dagger_panda"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "32c534b9-abec-4823-b223-a810f897b47b"
   misp_galaxy:
-    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms","targeted-sector"]
+    meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms","targeted-sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "32c534b9-abec-4823-b223-a810f897b47b"
     source_record_ids: ["32c534b9-abec-4823-b223-a810f897b47b"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "IceFog"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/IceFog/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/IceFog/IceFog_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

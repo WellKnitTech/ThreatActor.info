@@ -8,11 +8,27 @@ source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/magecart"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 provenance:
+  bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-10-27T17:29:27Z"
+    reports:
+      - organization: "Direct Clothing Co. UK (DDCUK)"
+        breach_date: "August 2021"
+        adversary_label: "Magecart (suspected) (eCrime)"
+        links: ["https://ico.org.uk/media2/e3ef5pfb/direct-clothing-company-uk-reprimand.pdf"]
+        archived_links: ["https://web.archive.org/web/20260505181650/https://ico.org.uk/media2/e3ef5pfb/direct-clothing-company-uk-reprimand.pdf"]
+      - organization: "Chartered Institute for Securities & Investment (CISI)"
+        breach_date: "February 2020"
+        adversary_label: "Magecart (suspected) (eCrime)"
+        links: ["https://ico.org.uk/media2/1kip5gw2/chartered-institiute-for-securities-and-investment-reprimand.pdf"]
+        archived_links: ["https://web.archive.org/web/20260505180518/https://ico.org.uk/media2/1kip5gw2/chartered-institiute-for-securities-and-investment-reprimand.pdf"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "magecart"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/magecart"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "0768fd50-c547-11e8-9aa5-776183769eab"
   misp_galaxy:
     meta_keys: ["refs"]
@@ -21,4 +37,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "0768fd50-c547-11e8-9aa5-776183769eab"
     source_record_ids: ["0768fd50-c547-11e8-9aa5-776183769eab"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "MageCart"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/MageCart/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/MageCart/MageCart_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

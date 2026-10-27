@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "HURRICANE PANDA"
-aliases: ["HURRICANE PANDA"]
+aliases: ["HURRICANE PANDA","Operation “Poisoned Hurricane”","Hurricane Panda"]
 description: "We have investigated their intrusions since 2013 and have been battling them nonstop over the last year at several large telecommunications and technology companies. The determination of this China-bas"
 permalink: /hurricane-panda/
 ---
@@ -16,21 +16,27 @@ We have investigated their intrusions since 2013 and have been battling them non
 
 **Risk Level**: High
 
+**First Seen**: 2014
 
+**Last Activity**: 2014
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2014-03**
+- **Operation “Poisoned Hurricane”**
+- **https://www.fireeye.com/blog/threat-research/2014/08/operation-poisoned-hurricane.html**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 1 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
 - **China Chopper**
 - **TINY**
+- **China Chopper**: 
+- **Mimikatz**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

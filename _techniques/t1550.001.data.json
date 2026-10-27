@@ -37,12 +37,20 @@
   ],
   "groups": [
     {
+      "name": "ShinyHunters",
+      "url": "/shinyhunters/"
+    },
+    {
+      "name": "TeamPCP",
+      "url": "/teampcp/"
+    },
+    {
       "name": "APT28",
-      "url": "/apt28"
+      "url": "/apt28/"
     },
     {
       "name": "HAFNIUM",
-      "url": "/apt0125"
+      "url": "/apt0125/"
     }
   ]
 }

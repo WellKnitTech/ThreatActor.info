@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Void Rabisu"
-aliases: ["Tropical Scorpius","Void Rabisu","UNC2596","Tropicalscorpius","Storm-0671"]
+aliases: ["Cuba","DEB-0978","Romcom","Storm-0671","Storm-0671 (Microsoft)","Storm-0978 (Microsoft)","Tropical Scorpius","Tropicalscorpius","UAC-0142","UAT-5647","UNC2596","Void Rabisu"]
 description: "Void Rabisu is an intrusion set associated with both financially motivated ransomware attacks and targeted campaigns on Ukraine and countries supporting Ukraine."
 permalink: /void-rabisu/
 ---

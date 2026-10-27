@@ -2,8 +2,10 @@ name: "Hive"
 aliases: ["Hive"]
 description: "First observed in June 2021, Hive ransomware was originally written in GoLang but recently, new Hive variants have been seen written in Rust. Targets Healthcare sector."
 url: "/hive"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/hive"
 provenance:
   misp_galaxy:
     meta_keys: ["extensions","links","ransomnotes","ransomnotes-filenames","refs"]
@@ -12,4 +14,72 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "8ce915d3-8c6d-4841-b509-18379d7a8999"
     source_record_ids: ["8ce915d3-8c6d-4841-b509-18379d7a8999"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_tool_matrix:
+    references:
+      - title: "From ScreenConnect to Hive Ransomware in 61 hours"
+        url: "https://thedfirreport.com/2023/09/25/from-screenconnect-to-hive-ransomware-in-61-hours/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+      - title: "CISA Alert aa22-321a"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
+        date: "25 November 2022"
+        source_file: "ThreatIntel/CISAThreatGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/TheDFIRReportGroups.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
+    source_label: "Hive"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Defense Evasion: ["GMER","PCHunter"]
+      Discovery: ["Advanced IP Scanner","Bloodhound","SoftPerfect NetScan"]
+      Exfiltration: ["MEGA","PrivatLab","RClone","Sendspace","UFile"]
+      LOLBAS: ["BCDEdit","BITSAdmin","WMIC","Windows Event Utility (wevtutil)"]
+      OffSec: ["Cobalt Strike","Impacket","Metasploit","Meterpreter","PowerShell Empire"]
+      RMM Tools: ["Atera","ScreenConnect","Splashtop"]
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"
+        source_file: "Vulnerabilities/NetworkEdge.md"
+      - title: "cisa.gov"
+        url: "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "securelist.com"
+        url: "https://securelist.com/cuba-ransomware/110533/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "trendmicro.com"
+        url: "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker"
+        source_file: "Vulnerabilities/Microsoft.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md"]
+    source_label: "Hive"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Microsoft Products:
+        - vendor: "MS Server Products"
+          product: "Exchange On-Prem"
+          cves: ["CVE-2021-31207","CVE-2021-34473","CVE-2021-34523"]
+          source_links: ["https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a","https://securelist.com/cuba-ransomware/110533/","https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker","https://www.trendmicro.com/en_gb/research/22/d/an-investigation-of-the-blackcat-ransomware.html","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a"]
+          source_file: "Vulnerabilities/Microsoft.md"
+      Network Edge:
+        - vendor: "Fortinet"
+          product: "FortiOS SSL VPN"
+          cves: ["CVE-2020-12812"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a"]
+          source_file: "Vulnerabilities/NetworkEdge.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "hive"
+  source_retrieved_at: "2026-10-27T17:21:01Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -51,6 +51,11 @@
       "permalink": "/techniques/T1685.002/"
     },
     {
+      "id": "T1685.007",
+      "name": "Impair Autonomous Defenses",
+      "permalink": "/techniques/T1685.007/"
+    },
+    {
       "id": "T1685.001",
       "name": "Disable or Modify Windows Event Log",
       "permalink": "/techniques/T1685.001/"
@@ -79,131 +84,135 @@
   "groups": [
     {
       "name": "Scattered Spider",
-      "url": "/apt1015"
+      "url": "/apt1015/"
     },
     {
       "name": "Kimsuky",
-      "url": "/apt0094"
+      "url": "/apt0094/"
     },
     {
       "name": "Gorgon Group",
-      "url": "/apt0078"
+      "url": "/apt0078/"
     },
     {
       "name": "FIN6",
-      "url": "/apt0037"
+      "url": "/apt0037/"
     },
     {
       "name": "MirrorFace",
-      "url": "/mirrorface"
+      "url": "/mirrorface/"
     },
     {
       "name": "Agrius",
-      "url": "/apt1030"
+      "url": "/apt1030/"
     },
     {
       "name": "APT5",
-      "url": "/apt1023"
+      "url": "/apt1023/"
     },
     {
       "name": "TA2541",
-      "url": "/apt1018"
+      "url": "/apt1018/"
     },
     {
       "name": "BlackByte",
-      "url": "/apt1043"
+      "url": "/apt1043/"
     },
     {
       "name": "Indrik Spider",
-      "url": "/apt0119"
+      "url": "/apt0119/"
     },
     {
       "name": "Contagious Interview",
-      "url": "/apt1052"
+      "url": "/apt1052/"
     },
     {
       "name": "APT38",
-      "url": "/apt0082"
+      "url": "/apt0082/"
     },
     {
       "name": "Saint Bear",
-      "url": "/apt1031"
+      "url": "/apt1031/"
     },
     {
       "name": "Putter Panda",
-      "url": "/apt0024"
+      "url": "/apt0024/"
     },
     {
-      "name": "Wizard Spider",
-      "url": "/wizard-spider"
+      "name": "WIZARD SPIDER",
+      "url": "/wizard-spider/"
     },
     {
       "name": "APT41",
-      "url": "/apt41"
+      "url": "/apt41/"
     },
     {
       "name": "BRONZE BUTLER",
-      "url": "/apt0060"
+      "url": "/apt0060/"
     },
     {
       "name": "Turla",
-      "url": "/apt0010"
+      "url": "/apt0010/"
     },
     {
       "name": "Lazarus Group",
-      "url": "/lazarus"
+      "url": "/lazarus/"
     },
     {
       "name": "MuddyWater",
-      "url": "/apt0069"
+      "url": "/apt0069/"
     },
     {
       "name": "Gamaredon Group",
-      "url": "/apt0047"
+      "url": "/apt0047/"
     },
     {
       "name": "INC Ransom",
-      "url": "/apt1032"
+      "url": "/apt1032/"
     },
     {
       "name": "UNC3886",
-      "url": "/apt1048"
+      "url": "/apt1048/"
     },
     {
       "name": "Aquatic Panda",
-      "url": "/apt0143"
+      "url": "/apt0143/"
     },
     {
       "name": "Velvet Ant",
-      "url": "/apt1047"
+      "url": "/apt1047/"
     },
     {
       "name": "TeamTNT",
-      "url": "/apt0139"
+      "url": "/apt0139/"
+    },
+    {
+      "name": "Salt Typhoon",
+      "url": "/apt1045/"
     },
     {
       "name": "Akira",
-      "url": "/akira"
+      "url": "/akira/"
     },
     {
       "name": "Medusa Group",
-      "url": "/apt1051"
+      "url": "/apt1051/"
     },
     {
       "name": "TA505",
-      "url": "/cl0p"
+      "url": "/ta505/"
     },
     {
       "name": "Rocke",
-      "url": "/apt0106"
+      "url": "/apt0106/"
     },
     {
-      "name": "Magic Hound",
-      "url": "/apt35"
+      "name": "APT35",
+      "url": "/apt35/"
     },
     {
       "name": "Play",
-      "url": "/play"
+      "url": "/play/"
     }
   ]
 }

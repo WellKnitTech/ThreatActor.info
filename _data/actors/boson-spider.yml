@@ -2,11 +2,13 @@ name: "BOSON SPIDER"
 aliases: ["BOSON SPIDER","Boson Spider"]
 description: "BOSON SPIDER is a cyber criminal group, which was first identified in 2015, recently and inexplicably went dark in the spring of 2016, appears to be a tightly knit group operating out of Eastern Europe. They have used a variety of distribution mechanisms such as the infamous (and now defunct) angler exploit kit, and obfuscated JavaScript to reduce the detection by antivirus solutions."
 url: "/boson-spider"
+country: "[\"[Unknown]\"]"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/boson_spider"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2017-11","Banque National are all targeted by those behind the campaign","Customers of TD","Des-Jardins","RBC","Scotia Bank","Spotted by researchers at Deep Instinct","a new version of CoreBot is being distributed in spam email campaigns with the intention of stealing information from customers of Canadian banking websites.","https://www.zdnet.com/article/corebot-banking-trojan-malware-returns-after-two-year-break/","with successful execution of the malware allowing the attackers to steal the credentials of infected users as they login into these sites."]
 malware:
   - "CyberGate"
   - "Dark DDoSeR"
@@ -19,19 +21,34 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf see slide 15","https://go.crowdstrike.com/rs/281-OBQ-266/images/Report_BosonSpider.pdf"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "others"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "165f23ac-4e69-433d-bc3a-5e8acd384c16"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Boson Spider"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "bosonspider"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "boson_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/boson_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "9c11a822-2239-42ca-a439-ee57edb44ebf"
   misp_galaxy:
-    meta_keys: ["refs"]
+    meta_keys: ["refs","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "9c11a822-2239-42ca-a439-ee57edb44ebf"
     source_record_ids: ["9c11a822-2239-42ca-a439-ee57edb44ebf"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"

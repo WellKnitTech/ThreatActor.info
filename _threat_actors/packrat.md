@@ -12,6 +12,8 @@ A threat group that has been active for at least seven years has used malware, p
 ## Activities and Tactics
 **Targeted Sectors**: Activists, Journalist, Political party
 
+**Country of Origin**: 🏳️ ["[Latin America]"]
+
 
 
 
@@ -32,9 +34,14 @@ A threat group that has been active for at least seven years has used malware, p
 - **Remote Utilities**
 - **RemotePC**
 - **Archelaus Beta**
+- **Adwind**: 
+- **Adzok**: 
+- **CyberGate RAT**: 
+- **XtremeRAT**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Latin America]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

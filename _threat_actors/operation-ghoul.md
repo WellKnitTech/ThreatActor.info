@@ -10,7 +10,11 @@ permalink: /operation-ghoul/
 Operation Ghoul is a profit-driven threat actor that targeted over 130 organizations in 30 countries, primarily in the industrial and engineering sectors. They employed high-quality social engineering techniques, such as spear-phishing emails disguised as payment advice from a UAE bank, to distribute malware. The group's main motivation is financial gain through the sale of stolen intellectual property and business intelligence, as well as attacks on banking accounts. Their attacks were effective, particularly against companies that were unprepared to detect them.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,10 +26,11 @@ Operation Ghoul is a profit-driven threat actor that targeted over 130 organizat
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **OpGhoul**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

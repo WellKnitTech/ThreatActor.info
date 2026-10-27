@@ -1,0 +1,25 @@
+name: "GTG-20006"
+aliases: ["GTG-20006"]
+description: "GTG-20006 is a Russian espionage operator that has targeted over 20 organizations in Ukrainian and European government, defense, and diplomatic sectors, exfiltrating more than 300,000 national identity records. The actor employs an auto-rebuild loop for flagged implants to evade detection and has delivered payloads that freeze victim machines' security updates. GTG-20006 has also been linked to an intrusion into a North African government technology authority, compromising a central account server to exfiltrate a credential database. The group utilizes customized AI-driven workflows throughout its attack chain."
+url: "/gtg-20006"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-20006"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gtg-20006"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gtg-20006"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_uuid: "edc11644-6375-4760-8403-0153bd092aa0"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "edc11644-6375-4760-8403-0153bd092aa0"
+    source_record_ids: ["edc11644-6375-4760-8403-0153bd092aa0"]
+    source_retrieved_at: "2026-10-27T17:28:59Z"

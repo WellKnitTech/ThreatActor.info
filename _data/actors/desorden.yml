@@ -1,0 +1,12 @@
+name: "Desorden"
+aliases: ["Desorden"]
+description: "Not much is known about this person or group, other than the breach reports. Seems to be a renamed ALTDOS."
+url: "/desorden"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "9d97dda6-27d7-4b10-8855-2709412c618a"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

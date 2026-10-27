@@ -1,5 +1,5 @@
 name: "Conti"
-aliases: ["Ryuk","Wizard Spider","Conti","TEMP.MixMaster","GOLD BLACKBURN","FIN12","Periwinkle Tempest","DEV-0193","Storm-0193","Trickbot LLC","UNC2053","Pistachio Tempest","DEV-0237","Storm-0230","WIZARD SPIDER"]
+aliases: ["Conti","DEV-0193","DEV-0237","FIN12","GOLD BLACKBURN","Periwinkle Tempest","Pistachio Tempest","Ryuk","Storm-0193","Storm-0230","TEMP.MixMaster","Trickbot LLC","UNC2053","WIZARD SPIDER","Wizard Spider"]
 description: "Conti is a Russian ransomware-as-a-service operation known for targeting healthcare and critical infrastructure."
 url: "/conti"
 country: "Russia"
@@ -7,7 +7,7 @@ sector_focus: ["Healthcare","Critical Infrastructure","Government","Defense","Fi
 targeted_victims: ["Australia","Bahamas","Canada","Costa Rica","France","Germany","India","Ireland","Italy","Japan","Mexico","New Zealand","Spain","Switzerland","Taiwan","United Kingdom","Ukraine","United States"]
 first_seen: "2020"
 last_activity: "2022"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 risk_level: "Critical"
 source_name: "MITRE CISA KEV"
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed under CC BY 4.0 license."
@@ -164,6 +164,10 @@ cisa_kev_cves:
     product: "vCenter Server"
 provenance:
   bushido_breach_reports:
+    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
+    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
+    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
+    source_retrieved_at: "2026-10-27T17:29:27Z"
     reports:
       - organization: "Gloucester Council"
         breach_date: "November 2021"
@@ -175,15 +179,11 @@ provenance:
         adversary_label: "Conti (Ransomware)"
         links: ["https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"]
         archived_links: ["https://web.archive.org/web/20230323031057/https://www.hse.ie/eng/services/news/media/pressrel/hse-publishes-independent-report-on-conti-cyber-attack.html"]
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_retrieved_at: "2026-04-28T01:40:03Z"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "wizard_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/wizard_spider"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "bdf4fe4f-af8a-495f-a719-cf175cecda1f"
   misp_galaxy:
     meta_keys: ["attribution-confidence","country","extensions","links","ransomnotes","refs"]
@@ -192,7 +192,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "201eff54-d41e-4f70-916c-5dfb9301730a"
     source_record_ids: ["201eff54-d41e-4f70-916c-5dfb9301730a"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   ransomware_tool_matrix:
     references:
       - title: "BazarCall to Conti Ransomware via Trickbot and Cobalt Strike"
@@ -216,7 +216,7 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Conti"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T01:51:36Z"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
     tools_by_category:
       Credential Theft: ["Mimikatz","ProcDump","Router Scan","SharpChrome"]
       Defense Evasion: ["GMER","PCHunter"]
@@ -229,6 +229,9 @@ provenance:
     references:
       - title: "blog.talosintelligence.com"
         url: "https://blog.talosintelligence.com/vice-society-ransomware-printnightmare/"
+        source_file: "Vulnerabilities/Microsoft.md"
+      - title: "checkpoint.com"
+        url: "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"
         source_file: "Vulnerabilities/Microsoft.md"
       - title: "cisa.gov"
         url: "https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware"
@@ -307,7 +310,7 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
     source_label: "Conti"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "MS Server Products"
@@ -343,7 +346,7 @@ provenance:
         - vendor: "Windows"
           product: "NetLogon"
           cves: ["CVE-2020-1472"]
-          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/"]
+          source_links: ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a","https://www.cisa.gov/news-events/alerts/2021/09/22/conti-ransomware","https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/","https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a","https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a","https://thedfirreport.com/2025/04/28/navigating-through-the-fog/","https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/"]
           source_file: "Vulnerabilities/Microsoft.md"
         - vendor: "Windows"
           product: "Print Spooler"
@@ -377,3 +380,14 @@ provenance:
           cves: ["CVE-2021-21985"]
           source_links: ["https://www.tenable.com/blog/contileaks-chats-reveal-over-30-vulnerabilities-used-by-conti-ransomware-affiliates"]
           source_file: "Vulnerabilities/Virtualization.md"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Ryuk"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Ryuk/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Ryuk/Ryuk_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "conti"
+  source_retrieved_at: "2026-10-27T17:24:13Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

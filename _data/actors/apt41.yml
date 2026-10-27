@@ -1,168 +1,477 @@
-name: "APT41"
-aliases: ["Amoeba","APT41","Barium","BARIUM","Blackfly","Brass Typhoon","BRONZE ATLAS","BRONZE EXPORT","Double Dragon","Earth Baku","G0044","G0096","Grayfly","HOODOO","LEAD","Leopard Typhoon","Red Kelpie","TA415","TG-2633","Wicked Panda","WICKED PANDA","WICKED SPIDER","Wicked Spider","Winnti","Winnti Group","Winnti Umbrella"]
-description: "APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, APT41 has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries. [apt41_mandiant](https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf) Notable behaviors include using a wide range of malware and tools to complete mission objectives. APT41 overlaps at least partially with public reporting on groups including BARIUM and Winnti Group. [FireEye APT41 Aug 2019](https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf) [Group IB APT 41 June 2021](https://www.group-ib.com/blog/colunmtk-apt41/)\n"
+---
+name: APT41
+aliases:
+- APT41
+- ATK122
+- Amoeba
+- Anonymous
+- BARIUM
+- BRONZE ATLAS
+- BRONZE EXPORT
+- Barium
+- Blackfly
+- Brass Typhoon
+- Double Dragon
+- Earth Baku
+- G0044
+- G0096
+- Grayfly
+- Grey Ares
+- HOODOO
+- LEAD
+- Lead
+- Leopard Typhoon
+- Red Kelpie
+- SPIRE CASTLE
+- TA415
+- TG-2633
+- TG-2768
+- Vanadinite
+- WICKED PANDA
+- WICKED SPIDER
+- Wicked Panda
+- Wicked Spider
+- Winnti
+- Winnti Group
+- Winnti Umbrella
+description: 'APT41 is a threat group that researchers have assessed as Chinese state-sponsored
+  espionage group that also conducts financially-motivated operations. Active since
+  at least 2012, APT41 has been observed targeting various industries, including but
+  not limited to healthcare, telecom, technology, finance, education, retail and video
+  game industries in 14 countries. [apt41_mandiant](https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf)
+  Notable behaviors include using a wide range of malware and tools to complete mission
+  objectives. APT41 overlaps at least partially with public reporting on groups including
+  BARIUM and Winnti Group. [FireEye APT41 Aug 2019](https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf)
+  [Group IB APT 41 June 2021](https://www.group-ib.com/blog/colunmtk-apt41/)
+
+  '
 url: "/apt41"
-country: "China"
-sector_focus: ["Gaming","Technology","Healthcare","Automotive","Business","Services","Cryptocurrency","Education","Energy","Financial","High-Tech","Intergovernmental","Media and Entertainment","Pharmaceuticals","Private sector","Retail","Telecommunications","Travel"]
-targeted_victims: ["China","France","Hong Kong","India","Italy","Japan","Myanmar","Netherlands","Singapore","South Korea","South Africa","Switzerland","Thailand","Turkey","United Kingdom","United States"]
-first_seen: "2012"
-last_activity: "2024"
-last_updated: "2026-04-27"
-risk_level: "High"
-confidence: "high"
-external_id: "G0096"
-external_url: "https://attack.mitre.org/groups/G0096"
-mitre_id: "G0096"
-mitre_url: "https://attack.mitre.org/groups/G0096"
-source_name: "APT Groups & Operations Spreadsheet"
-source_attribution: "© The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation."
-source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt41"
-source_license: "CC BY-NC-SA 3.0"
-source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+country: China
+sector_focus:
+- Gaming
+- Technology
+- Healthcare
+- Automotive
+- Business
+- Services
+- Cryptocurrency
+- Education
+- Energy
+- Financial
+- High-Tech
+- Intergovernmental
+- Media and Entertainment
+- Pharmaceuticals
+- Private sector
+- Retail
+- Telecommunications
+- Travel
+targeted_victims:
+- China
+- France
+- Hong Kong
+- India
+- Italy
+- Japan
+- Myanmar
+- Netherlands
+- Singapore
+- South Korea
+- South Africa
+- Switzerland
+- Thailand
+- Turkey
+- United Kingdom
+- United States
+first_seen: '2012'
+last_activity: '2024'
+last_updated: '2026-04-27'
+risk_level: High
+confidence: high
+external_id: G0096
+external_url: https://attack.mitre.org/groups/G0096
+mitre_id: G0096
+mitre_url: https://attack.mitre.org/groups/G0096
+source_name: APT Groups & Operations Spreadsheet
+source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
+  with the permission of The MITRE Corporation."
+source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt41
+source_license: CC BY-NC-SA 3.0
+source_license_url: https://malpedia.caad.fkie.fraunhofer.de/legal
+operations:
+- '2010'
+- '2011'
+- 2014 Summer
+- 2014-08
+- '2015'
+- 2015-07
+- 2015-10
+- 2016 Summer
+- 2016-02
+- 2016-06
+- 2017-03
+- 2018-04
+- 2018-11
+- '2019'
+- 2019 Early
+- 2019 Late
+- 2020-02
+- 2021-03
+- A BASF spokeswoman tells us in an email that in July 2015
+- According to Siemens
+- Another manufacturer of adhesives
+- Based on previous knowledge and targeting of the Winnti Group
+- Bostik of France
+- Breach of German Steelmaker ThyssenKrupp
+- Breach of German chemicals company Lanxess
+- Breach of German chemicals giant Bayer
+- Breach of Swiss drug maker Roche
+- Breach of a Vietnamese gaming company
+- Covestro is regarded as Germany’s most successful spin-off in the recent past. Up
+  until June 2019
+- During the investigation
+- Exchange servers under siege from at least 10 APT groups
+- For example
+- HBGary investigated an information security incident at an American video game company.
+- In the autumn of 2011
+- In the case of another Japanese company
+- Lion Air
+- Ltd.
+- Marriott and Valve declined to comment or were not immediately available for comment
+- Recently
+- Shin-Etsu Chemical. We have in our hands several varieties of the 2015 malware which
+  was most likely used for the attack.
+- Sumitomo Electric
+- The Winnti hackers broke into Henkel’s network in 2014. We have three files showing
+  that this happened.
+- The hackers behind Winnti have also set their sights on Japan’s biggest chemical
+  company
+- This time the operators put such tag in the configuration and it turned out to be
+  the name of the well-known global pharmaceutical company headquartered in Europe.
+- Winnti apparently penetrated their networks during the summer of 2016.
+- a Linux version of Winnti was found.
+- a South Korean video game company. The company is known for its Massive Multiplayer
+  Online Role Playing Game (MMORPG) Ragnarok Online
+- a Trojan was detected on a huge number of computers – all of them linked by the
+  fact that they were used by players of a popular online game. It emerged that the
+  piece of malware landed on users’ computers as part of a regular update from the
+  game’s official update server. Some even suspected that the publisher itself was
+  spying on players. However
+- 'a company that offers so-called freemium games: while playing the games is free'
+- a threat actor with a past of traditional cybercrime –particularly with financial
+  fraud
+- by 2011
+- hackers had successfully overcome “the first levels” of defense.
+- has been seen abusing GitHub by turning it into a conduit for the command and control
+  (C&C) communications of their seemingly new backdoor (detected by Trend Micro as
+  BKDR64_WINNTI.ONM).
+- https://blog.trendmicro.com/trendlabs-security-intelligence/winnti-abuses-github/
+- https://blog.vsec.com.vn/apt/initial-winnti-analysis-against-vietnam-game-company.html
+- https://media.cert.europa.eu/static/MEMO/2019/TLP-WHITE-CERT-EU-MEMO-190725-1.pdf
+- https://medium.com/chronicle-blog/winnti-more-than-just-windows-and-gates-e4f03436031a
+- https://quointelligence.eu/2020/04/winnti-group-insights-from-the-past/
+- https://securelist.com/games-are-over/70991/
+- https://securelist.com/winnti-more-than-just-a-game/37029/
+- https://web.br.de/interaktiv/winnti/english/
+- https://www.dw.com/en/bayer-points-finger-at-wicked-panda-in-cyberattack/a-48196004
+- https://www.dw.com/en/thyssenkrupp-victim-of-cyber-attack/a-36695341
+- https://www.reuters.com/article/us-germany-cyber/basf-siemens-henkel-roche-target-of-cyber-attacks-idUSKCN1UJ147
+- https://www.tagesschau.de/investigativ/ndr/hackerangriff-chemieunternehmen-101.html
+- https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
+- it is possible to buy virtual items/money with real money.The Winnti hackers were
+  able to directly access Gameforge’s databases and modify accounts to become ‘virtually’
+  richer.
+- 'it later became clear that the malicious program ended up on the users’ computers
+  by mistake: the cybercriminals were in fact targeting the companies that develop
+  and release computer games.'
+- one of their victims was Gameforge
+- the Winnti group
+- they had at least two systems on which the Winnti malware had been installed.
+- they were penetrated by the hackers in June 2016.
+- was infected with Winnti in early 2019.
+- we assess that this sample was likely used to target Gravity Co.
+- which is also offered as a mobile application.
 malware:
-  - "CyberGate"
-  - "Cyber Eye RAT"
-  - name: "Winnti Rootkit malware"
-  - name: "CRACKSHOT"
-  - name: "GEARSHIFT"
-  - name: "HIGHNOON"
-  - name: "JUMPALL"
-  - name: "POISONPLUG"
-  - name: "HOTCHAI"
-  - name: "LATELUNCH"
-  - name: "LIFEBOAT"
-  - name: "LOWKEY"
-  - name: "NJRAT"
-  - name: "PACMAN"
-  - name: "PHOTO"
-  - name: "POTROAST"
-  - name: "ROCKBOOT"
-  - name: "SAGEHIRE"
-  - name: "SWEETCANDLE"
-  - name: "SOGU"
-  - name: "TERA"
-  - name: "TIDYELF"
-  - name: "WIDETONE"
-  - name: "WINTERLOVE"
-  - name: "XDoor"
-  - name: "Xmrig"
-  - name: "ZxShell"
+- CyberGate
+- Cyber Eye RAT
+- name: Winnti Rootkit malware
+- name: CRACKSHOT
+- name: GEARSHIFT
+- name: HIGHNOON
+- name: JUMPALL
+- name: POISONPLUG
+- name: HOTCHAI
+- name: LATELUNCH
+- name: LIFEBOAT
+- name: LOWKEY
+- name: NJRAT
+- name: PACMAN
+- name: PHOTO
+- name: POTROAST
+- name: ROCKBOOT
+- name: SAGEHIRE
+- name: SWEETCANDLE
+- name: SOGU
+- name: TERA
+- name: TIDYELF
+- name: WIDETONE
+- name: WINTERLOVE
+- name: XDoor
+- name: Xmrig
+- name: ZxShell
+- name: Cobalt Strike
+- name: FunnySwitch
+- name: Winnti
 software:
-  - name: "PipeMon"
-    mitre_id: "S0501"
-    url: "https://attack.mitre.org/software/S0501"
-    type: "malware"
-    stix_id: "malware--8393dac0-0583-456a-9372-fd81691bca20"
-    description: "PipeMon is a multi-stage modular backdoor used by Winnti Group.(Citation: ESET PipeMon May 2020)"
-  - name: "Winnti for Windows"
-    mitre_id: "S0141"
-    url: "https://attack.mitre.org/software/S0141"
-    type: "malware"
-    stix_id: "malware--d3afa961-a80c-4043-9509-282cdf69ab21"
-    description: "Winnti for Windows is a modular remote access Trojan (RAT) that has been used likely by multiple groups to carry out intrusions in various regions since at least 2010, including by one group referred to as the same name, Winnti Group.(Citation: Kaspersky Winnti April 2013)(Citation: Microsoft Winnti Jan 2017)(Citation: Novetta Winnti April 2015)(Citation: 401 TRG Winnti Umbrella May 2018). The Linux variant is tracked separately under Winnti for Linux.(Citation: Chronicle Winnti for Linux May 201"
-  - name: "PlugX"
-    mitre_id: "S0013"
-    url: "https://attack.mitre.org/software/S0013"
-    type: "malware"
-    stix_id: "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd"
-    description: "PlugX is a remote access tool (RAT) with modular plugins that has been used by multiple threat groups.(Citation: Lastline PlugX Analysis)(Citation: FireEye Clandestine Fox Part 2)(Citation: New DragonOK)(Citation: Dell TG-3390)"
+- name: PipeMon
+  mitre_id: S0501
+  url: https://attack.mitre.org/software/S0501
+  type: malware
+  stix_id: malware--8393dac0-0583-456a-9372-fd81691bca20
+  description: 'PipeMon is a multi-stage modular backdoor used by Winnti Group.(Citation:
+    ESET PipeMon May 2020)'
+- name: Winnti for Windows
+  mitre_id: S0141
+  url: https://attack.mitre.org/software/S0141
+  type: malware
+  stix_id: malware--d3afa961-a80c-4043-9509-282cdf69ab21
+  description: 'Winnti for Windows is a modular remote access Trojan (RAT) that has
+    been used likely by multiple groups to carry out intrusions in various regions
+    since at least 2010, including by one group referred to as the same name, Winnti
+    Group.(Citation: Kaspersky Winnti April 2013)(Citation: Microsoft Winnti Jan 2017)(Citation:
+    Novetta Winnti April 2015)(Citation: 401 TRG Winnti Umbrella May 2018). The Linux
+    variant is tracked separately under Winnti for Linux.(Citation: Chronicle Winnti
+    for Linux May 201'
+- name: PlugX
+  mitre_id: S0013
+  url: https://attack.mitre.org/software/S0013
+  type: malware
+  stix_id: malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd
+  description: 'PlugX is a remote access tool (RAT) with modular plugins that has
+    been used by multiple threat groups.(Citation: Lastline PlugX Analysis)(Citation:
+    FireEye Clandestine Fox Part 2)(Citation: New DragonOK)(Citation: Dell TG-3390)'
 ttps:
-  - technique_id: "T1014"
-    technique_name: "Rootkit"
-    url: "https://attack.mitre.org/techniques/T1014"
-    stix_id: "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b"
-  - technique_id: "T1105"
-    technique_name: "Ingress Tool Transfer"
-    url: "https://attack.mitre.org/techniques/T1105"
-    stix_id: "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add"
-  - technique_id: "T1083"
-    technique_name: "File and Directory Discovery"
-    url: "https://attack.mitre.org/techniques/T1083"
-    stix_id: "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18"
-  - technique_id: "T1583.001"
-    technique_name: "Domains"
-    url: "https://attack.mitre.org/techniques/T1583/001"
-    stix_id: "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3"
-  - technique_id: "T1057"
-    technique_name: "Process Discovery"
-    url: "https://attack.mitre.org/techniques/T1057"
-    stix_id: "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580"
-  - technique_id: "T1553.002"
-    technique_name: "Code Signing"
-    url: "https://attack.mitre.org/techniques/T1553/002"
-    stix_id: "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082"
-attck_techniques: ["T1014","T1057","T1083","T1105","T1553.002","T1583.001"]
-attck_software: ["S0013","S0141","S0501"]
+- technique_id: T1014
+  technique_name: Rootkit
+  url: https://attack.mitre.org/techniques/T1014
+  stix_id: attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b
+- technique_id: T1105
+  technique_name: Ingress Tool Transfer
+  url: https://attack.mitre.org/techniques/T1105
+  stix_id: attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add
+- technique_id: T1083
+  technique_name: File and Directory Discovery
+  url: https://attack.mitre.org/techniques/T1083
+  stix_id: attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18
+- technique_id: T1583.001
+  technique_name: Domains
+  url: https://attack.mitre.org/techniques/T1583/001
+  stix_id: attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3
+- technique_id: T1057
+  technique_name: Process Discovery
+  url: https://attack.mitre.org/techniques/T1057
+  stix_id: attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580
+- technique_id: T1553.002
+  technique_name: Code Signing
+  url: https://attack.mitre.org/techniques/T1553/002
+  stix_id: attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082
+attck_techniques:
+- T1014
+- T1057
+- T1083
+- T1105
+- T1553.002
+- T1583.001
+attck_software:
+- S0013
+- S0141
+- S0501
 attck_references:
-  - source: "mitre-attack"
-    url: "https://attack.mitre.org/groups/G0096"
-    external_id: "G0096"
-    description: ""
-  - source: "mitre-attack"
-    url: "https://attack.mitre.org/groups/G0044"
-    external_id: "G0044"
-    description: ""
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G0096
+  external_id: G0096
+  description: ''
+- source: mitre-attack
+  url: https://attack.mitre.org/groups/G0044
+  external_id: G0044
+  description: ''
 sources:
-  - source: "mitre-attack"
-    imported_at: "2026-05-10T05:53:38Z"
-    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-  - source: "mitre-attack"
-    imported_at: "2026-05-17T06:10:47Z"
-    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+- source: mitre-attack
+  imported_at: '2026-05-10T05:53:38Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-05-17T06:10:47Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T17:28:50Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
-  apt_groups_operations:
-    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
-    source_dataset_url: "https://apt.threattracking.com/"
-    source_links: ["https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf see slide 15","https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-july-wicked-spider/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
-    tab_name: "others"
-  aptnotes:
-    earliest_report_year: "2013"
-    latest_report_year: "2023"
-    report_count: 9
-    sample_links: ["https://app.box.com/s/dlzp6f7hv9q3r0kreqvu8yyt36lzdbxw","https://app.box.com/s/7rzfjpwud8blv668j1kxa7qmhcadn6pr","https://app.box.com/s/tv5rhy7awdq8ecfrugcrk1d4zcce3xnq","https://app.box.com/s/f090ea4pi40hoaxe6otzfw7yl65ylw6y","https://app.box.com/s/tijt08320isuaywxn1swd2uvbus7v7zl","https://app.box.com/s/0pvkz8uf1ozvinoec0sufupzzhblkumn","https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x","https://app.box.com/s/jtahutqqimavakqi7ynau7sdxrvrsw3s","https://app.box.com/s/haoo75g6usi9rbje6mdi9618lqglo1vz"]
-    sample_titles: ["Winnti: More Than Just A Game","The Anthem Hack: All Roads Lead To China","WINNTI Analysis","Games Are Over: Winnti Is Now Targeting Pharmaceutical Companies","APT41: A Dual Espionage and Cyber Crime Operation","APT41 Resurfaces as Earth Baku With New Cyberespionage Campaign","A Summary of APT41 Targeting U.S. State Governments","Blackfly: Espionage Group Targets Materials Technology"]
-    source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
-    source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
-    sources: ["FireEye","Kaspersky","Mandiant","Novetta","Symantec","ThreatConnect","Trend Micro"]
   bushido_breach_reports:
+    source_repository: https://github.com/BushidoUK/Breach-Report-Collection
+    source_dataset_url: https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md
+    source_attribution: References were identified via the BushidoToken Breach Report
+      Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
+      used here as a report index. Copyright in linked reports remains with the original
+      publishers.
+    source_retrieved_at: '2026-10-27T17:29:27Z'
     reports:
-      - organization: "Avast/CCleaner"
-        breach_date: "September 2016"
-        adversary_label: "WickedPanda (CN APT)"
-        links: ["https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer"]
-        archived_links: ["https://web.archive.org/web/20230406024839/https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer"]
-    source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
-    source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
-    source_retrieved_at: "2026-04-28T01:40:03Z"
+    - organization: Avast/CCleaner
+      breach_date: September 2016
+      adversary_label: WickedPanda (CN APT)
+      links:
+      - https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer
+      archived_links:
+      - https://web.archive.org/web/20230406024839/https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer
+  apt_groups_operations:
+    sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+    source_dataset_url: https://apt.threattracking.com/
+    source_links:
+    - https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf
+      see slide 15
+    - https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-july-wicked-spider/
+    source_retrieved_at: '2026-10-27T17:29:13Z'
+    tab_name: others
+  aptnotes:
+    earliest_report_year: '2013'
+    latest_report_year: '2023'
+    report_count: 9
+    sample_links:
+    - https://app.box.com/s/dlzp6f7hv9q3r0kreqvu8yyt36lzdbxw
+    - https://app.box.com/s/7rzfjpwud8blv668j1kxa7qmhcadn6pr
+    - https://app.box.com/s/tv5rhy7awdq8ecfrugcrk1d4zcce3xnq
+    - https://app.box.com/s/f090ea4pi40hoaxe6otzfw7yl65ylw6y
+    - https://app.box.com/s/tijt08320isuaywxn1swd2uvbus7v7zl
+    - https://app.box.com/s/0pvkz8uf1ozvinoec0sufupzzhblkumn
+    - https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x
+    - https://app.box.com/s/jtahutqqimavakqi7ynau7sdxrvrsw3s
+    - https://app.box.com/s/haoo75g6usi9rbje6mdi9618lqglo1vz
+    sample_titles:
+    - 'Winnti: More Than Just A Game'
+    - 'The Anthem Hack: All Roads Lead To China'
+    - WINNTI Analysis
+    - 'Games Are Over: Winnti Is Now Targeting Pharmaceutical Companies'
+    - 'APT41: A Dual Espionage and Cyber Crime Operation'
+    - APT41 Resurfaces as Earth Baku With New Cyberespionage Campaign
+    - A Summary of APT41 Targeting U.S. State Governments
+    - 'Blackfly: Espionage Group Targets Materials Technology'
+    source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
+    source_repository: https://github.com/aptnotes/data
+    source_retrieved_at: '2026-10-27T17:29:15Z'
+    sources:
+    - FireEye
+    - Kaspersky
+    - Mandiant
+    - Novetta
+    - Symantec
+    - ThreatConnect
+    - Trend Micro
+  etda_thai_group_cards:
+    mitre_group_ids:
+    - G0044
+    source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
+    source_record_id: 55d0e323-bb26-4779-b09f-cae04740b0bd
+    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_transforms:
+    - normalized-name
+    - deduplicated-aliases
+    - normalized-optional-fields
+    - adapted-for-threatactor-info
+  eternal_liberty:
+    aliases_by_entity:
+      Dragos:
+      - Vanadinite
+      Microsoft:
+      - Lead
+    confidence: Mid
+    license_status: No explicit upstream license; approved as the sole no-license
+      import exception.
+    source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
+    source_record_id: vanadinite
+    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_version: '1.2'
+    type: APT
   malpedia:
-    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
-    source_record_id: "apt41"
-    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt41"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
-    source_uuid: "9c124874-042d-48cd-b72b-ccdc51ecbbd6"
+    source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
+    source_record_id: apt41
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt41
+    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_uuid: 9c124874-042d-48cd-b72b-ccdc51ecbbd6
+  microsoft_threat_actor_list:
+    license_status: Microsoft publishes this workbook for public reuse and regular
+      updates; imports preserve source attribution and importer provenance.
+    microsoft_name: Brass Typhoon
+    origin_category: China
+    source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
+    source_record_id: brasstyphoon
+    source_retrieved_at: '2026-10-27T17:18:32Z'
   misp_galaxy:
-    meta_keys: ["cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","country","origin:BRONZE ATLAS","origin:BRONZE EXPORT","origin:Earth Baku","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","microsoft-origin-threat","sector"]
-    source_cluster: "threat-actor.json"
-    source_clusters: ["threat-actor.json","tidal-groups.json","microsoft-activity-group.json"]
-    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
-    source_record_id: "9c124874-042d-48cd-b72b-ccdc51ecbbd6"
-    source_record_ids: ["9c124874-042d-48cd-b72b-ccdc51ecbbd6","502223ee-8947-42f8-a532-a3b3da12b7d9","cc70bdbd-afa7-4e19-bba2-2443811ef3af","2fc42ffc-dd1a-560e-ac97-05e8fa27bbe5","f542442e-ba0f-425d-b386-6c10351a468e","6932662a-53a7-4e43-877f-6e940e2d744b"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    meta_keys:
+    - cfr-suspected-state-sponsor
+    - cfr-suspected-victims
+    - cfr-target-category
+    - country
+    - origin:BRONZE ATLAS
+    - origin:BRONZE EXPORT
+    - origin:Earth Baku
+    - refs
+    - synonyms
+    - group_attack_id
+    - observed_countries
+    - observed_motivations
+    - source
+    - tags
+    - target_categories
+    - microsoft-origin-threat
+    - sector
+    - name-attribution
+    source_cluster: threat-actor.json
+    source_clusters:
+    - threat-actor.json
+    - tidal-groups.json
+    - microsoft-activity-group.json
+    source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
+    source_record_id: 9c124874-042d-48cd-b72b-ccdc51ecbbd6
+    source_record_ids:
+    - 9c124874-042d-48cd-b72b-ccdc51ecbbd6
+    - 502223ee-8947-42f8-a532-a3b3da12b7d9
+    - cc70bdbd-afa7-4e19-bba2-2443811ef3af
+    - 2fc42ffc-dd1a-560e-ac97-05e8fa27bbe5
+    - f542442e-ba0f-425d-b386-6c10351a468e
+    - 6932662a-53a7-4e43-877f-6e940e2d744b
+    source_retrieved_at: '2026-10-27T17:28:59Z'
   mitre:
-    attack_version: "19.1"
+    attack_version: '20.0'
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
-    source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+      enterprise: '20.0'
+      ics: '20.0'
+      mobile: '20.0'
+    relationships_imported_at: '2026-10-27T17:28:50Z'
+    source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
-      enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
-      ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
-      mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
-    source_record_id: "G0044"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
-    stix_intrusion_set_id: "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff"
+      enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+      ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
+      mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
+    source_record_id: G0044
+    source_retrieved_at: '2026-10-27T17:28:50Z'
+    stix_intrusion_set_id: intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff
+  reddrip7_apt_digital_weapon:
+    actor_folder: APT41
+    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT41/README.md
+    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT41/APT41_hash.md
+    source_attribution: Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon
+      and are treated as secondary, community-curated leads requiring independent
+      verification before operational use.
+    source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
+    source_retrieved_at: '2026-10-27T17:29:20Z'
+  dragos_threat_groups:
+    source_name: Dragos Threat Groups
+    source_dataset_url: https://www.dragos.com/threat-groups
+    source_retrieved_at: '2026-10-27T17:28:31Z'
+    source_record_id: VANADINITE
+    source_urls:
+    - https://www.dragos.com/threat/vanadinite
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Starchy Taurus

@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "tooda"
 aliases: ["tooda"]
-description: "Members:\r<br/>Eco\r<br/>Ego\r<br/>emo\r<br/>elo\r<br/>user\r<br/>Dante\r<br/>Sevy"
+description: "Members: <br/>Eco <br/>Ego <br/>emo <br/>elo <br/>user <br/>Dante <br/>Sevy"
 permalink: /tooda/
 ---
 

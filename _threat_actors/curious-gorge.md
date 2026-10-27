@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Curious Gorge"
-aliases: ["UNC3742","Curious Gorge"]
+aliases: ["Curious Gorge","UNC3742"]
 description: "Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaigns against government and military organizations in Ukraine, Russia, Kazakhstan, and Mongolia. The actor has remained acti"
 permalink: /curious-gorge/
 ---
@@ -22,7 +22,14 @@ Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaign
 **Suspected Victims**: Ukraine, Russia, Kazakhstan, Mongolia
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2022-04**
+- **Curious Gorge**
+- **Russia and Central Asia.**
+- **a group TAG attributes to China's PLA SSF**
+- **has remained active against government**
+- **https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe/**
+- **logistics and manufacturing organizations in Ukraine**
+- **military**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*

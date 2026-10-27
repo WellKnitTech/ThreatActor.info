@@ -10,7 +10,11 @@ permalink: /operation-wizardopium/
 We are calling these attacks Operation WizardOpium. So far, we have been unable to establish a definitive link with any known threat actors. There are certain very weak code similarities with Lazarus attacks, although these could very well be a false flag. The profile of the targeted website is more in line with earlier DarkHotel attacks that have recently deployed similar false flag attacks.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇰🇵 ["North Korea"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -25,7 +29,8 @@ We are calling these attacks Operation WizardOpium. So far, we have been unable 
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["North Korea"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

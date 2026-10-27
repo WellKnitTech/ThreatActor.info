@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "LoveLock Ransomware or Love2Lock Ransomware"
 aliases: ["LoveLock","Love2Lock","LoveLock Ransomware or Love2Lock Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Of"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Offi"
 permalink: /lovelock-ransomware-or-love2lock-ransomware/
 ---
 

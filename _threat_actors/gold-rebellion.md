@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD REBELLION"
-aliases: ["WANDERING SPIDER","White Dev 115","Dark Scorpius","GOLD REBELLION"]
+aliases: ["Black Basta","BlackBasta","Black_Basta","Cardina","Curly Spider (CrowdStrike)","Dark Scorpius","GOLD REBELLION","Gold Rebellion","Lockean","Storm-1811 (Microsoft)","UNC4393","WANDERING SPIDER","Wandering Spider","White Dev 115"]
 description: "GOLD REBELLION is a financially motivated cybercriminal threat group that operates the Black Basta name-and-shame ransomware. The group posted its first victim to its leak site in April 2022 and has co"
 permalink: /gold-rebellion/
 ---
@@ -21,7 +21,6 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 
 | Category | Vendor | Product | CVEs |
 |---|---|---|---|
-| Applications | ConnectWise | ScreenConnect | CVE-2024-1708, CVE-2024-1709 |
 | Group Profile | ConnectWise | ScreenConnect | CVE-2024-1709 |
 | Group Profile, Virtualization | VMware | ESXi | CVE-2024-37085 |
 | Group Profile, Microsoft Products | Windows | Active Directory | CVE-2021-42278, CVE-2021-42287 |
@@ -50,7 +49,7 @@ GOLD REBELLION is a financially motivated cybercriminal threat group that operat
 | Category | Observed tools |
 |---|---|
 | Credential Theft | Mimikatz |
-| Defense Evasion | Backstab, Backstab (Process Explorer driver) |
+| Defense Evasion | Backstab, Backstab/Process Explorer driver (BYOVD) |
 | Discovery | AdFind, Bloodhound, PSNmap, PowerView, SoftPerfect NetScan |
 | Exfiltration | Qaz[.]im, RClone, Rclone |
 | LOLBAS | BITSAdmin, PsExec, Quick Assist |

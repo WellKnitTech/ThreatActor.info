@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "black suit"
-aliases: ["black suit"]
+aliases: ["BlackSuit","black suit"]
 description: "BlackSuit is a type of malicious software classified as ransomware. Its operation involves multifaceted extortion, encrypting and exfiltrating victim data, and hosting public data leak sites for victim"
 permalink: /black-suit/
 ---

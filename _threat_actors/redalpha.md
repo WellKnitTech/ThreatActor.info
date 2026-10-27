@@ -17,7 +17,15 @@ Recorded Future’s Insikt Group has identified two new cyberespionage campaigns
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2017**
+- **2021**
+- **RedAlpha Conducts Multi-Year Credential Theft Campaign Targeting Global Humanitarian**
+- **RedAlpha: New Campaigns Discovered Targeting the Tibetan Community**
+- **Think Tank**
+- **and Government Organizations**
+- **https://go.recordedfuture.com/hubfs/reports/cta-2018-0626.pdf**
+- **https://go.recordedfuture.com/hubfs/reports/ta-2022-0816.pdf**
+- **https://www.recordedfuture.com/redalpha-cyber-campaigns/**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -28,6 +36,12 @@ Recorded Future’s Insikt Group has identified two new cyberespionage campaigns
 ## Malware and Tools
 - **CyberGate**
 - **Cyber Eye RAT**
+- **FormerFirstRAT**: 
+- **Gh0st RAT**: 
+- **NetHelp Infostealer**: 
+- **RedAlpha**: 
+- **a vulnerability in MS Office**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

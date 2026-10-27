@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Killsec"
-aliases: ["Killsec","KillSec","killsec"]
+aliases: ["KillSec","Killsec","killsec"]
 description: "Killsec is an active extortion or ransomware group tracked by RansomLook."
 permalink: /killsec/
 ---

@@ -1,25 +1,65 @@
 name: "XDSpy"
-aliases: ["XDSpy"]
+aliases: ["XDSpy","UAC-0033"]
 description: "Rare is the APT group that goes largely undetected for nine years, but XDSpy is just that; a previously undocumented espionage group that has been active since 2011. It has attracted very little public attention, with the exception of an advisory from the Belarusian CERT in February 2020. In the interim, the group has compromised many government agencies and private companies in Eastern Europe and the Balkans."
 url: "/xdspy"
+country: "[\"[Unknown]\"]"
 sector_focus: ["Government, Administration"]
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/xdspy"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+operations: ["2024-07","Moldova targeted by obscure hacking group in new cyberespionage campaign","Russia","https://therecord.media/russia-moldova-cyberespionage-campaign"]
+malware:
+  - name: "ChromePass"
+  - name: "IE PassView"
+  - name: "MailPassView"
+  - name: "Network Password Recovery"
+  - name: "OperaPassView"
+  - name: "PasswordFox"
+  - name: "Protected Storage PassView"
+  - name: "XDDown"
+  - name: "XDList"
+  - name: "XDLoc"
+  - name: "XDMonitor"
+  - name: "XDPass"
+  - name: "XDRecon"
+  - name: "XDUpload"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "647ee86f-5474-437c-b2e3-825424b0fd1c"
+    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CERT-UA: ["UAC-0033"]
+      ESET: ["XDSpy"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "xdspy"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "xdspy"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/xdspy"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "b205584e-db93-433a-b97a-7f2e19d8c188"
   misp_galaxy:
-    meta_keys: ["refs","targeted-sector"]
+    meta_keys: ["refs","targeted-sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "b205584e-db93-433a-b97a-7f2e19d8c188"
     source_record_ids: ["b205584e-db93-433a-b97a-7f2e19d8c188"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "XDSpy"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/XDSpy/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/XDSpy/XDSpy_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

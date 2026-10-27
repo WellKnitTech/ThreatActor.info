@@ -1,0 +1,37 @@
+---
+layout: threat_actor
+title: "Operation ViceLeaker"
+aliases: ["Operation ViceLeaker"]
+description: "(Kaspersky) In May 2018, we discovered a campaign targeting dozens of mobile Android devices belonging to Israeli citizens. Kaspersky spyware sensors caught the signal of an attack from the device of o"
+permalink: /operation-viceleaker/
+---
+
+## Introduction
+(Kaspersky) In May 2018, we discovered a campaign targeting dozens of mobile Android devices belonging to Israeli citizens. Kaspersky spyware sensors caught the signal of an attack from the device of one of the victims; and a hash of the APK involved (Android application) was tagged in our sample feed for inspection. Once we looked into the file, we quickly found out that the inner-workings of the APK included a malicious payload, embedded in the original code of the application. This was an original spyware program, designed to exfiltrate almost all accessible information. During the course of our research, we noticed that we were not the only ones to have found the operation. Researchers from Bitdefender also released an analysis of one of the samples in a blogpost. Although something had already been published, we decided to do something different with the data we acquired. The following month, we released a private report on our Threat Intelligence Portal to alert our clients about this newly discovered operation and began writing YARA rules in order to catch more samples. We decided to call the operation “ViceLeaker”, because of strings and variables in its code.
+
+## Activities and Tactics
+**Country of Origin**: 🏳️ ["[Unknown]"]
+
+
+
+
+
+## Notable Campaigns
+*Information pending cataloguing.*
+
+## Tactics, Techniques, and Procedures (TTPs)
+*Information pending cataloguing.*
+
+## Notable Indicators of Compromise (IOCs)
+*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+
+## Malware and Tools
+- **ViceLeaker**
+
+## Attribution and Evidence
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
+
+## References
+*References pending cataloguing.*
+

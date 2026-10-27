@@ -16,7 +16,11 @@ According to Vitali Kremez and Michael Gillespie, this ransomware shares much co
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Virtualization | Citrix | Workspace app and Receiver for Windows | CVE-2019-11634 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*

@@ -14,23 +14,27 @@
   "groups": [
     {
       "name": "APT28",
-      "url": "/apt28"
+      "url": "/apt28/"
     },
     {
-      "name": "Magic Hound",
-      "url": "/apt35"
+      "name": "APT35",
+      "url": "/apt35/"
     },
     {
-      "name": "Leviathan",
-      "url": "/apt40"
+      "name": "APT40",
+      "url": "/apt40/"
     },
     {
       "name": "LAPSUS$",
-      "url": "/apt1004"
+      "url": "/apt1004/"
+    },
+    {
+      "name": "ShinyHunters",
+      "url": "/shinyhunters/"
     },
     {
       "name": "Chimera",
-      "url": "/apt0114"
+      "url": "/apt0114/"
     }
   ]
 }

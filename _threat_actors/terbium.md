@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "TERBIUM"
-aliases: ["TERBIUM"]
+aliases: ["TERBIUM","Terbium","Shamoon","Disttrack"]
 description: "Microsoft Threat Intelligence identified similarities between this recent attack and previous 2012 attacks against tens of thousands of computers belonging to organizations in the energy sector. Micros"
 permalink: /terbium/
 ---
@@ -12,8 +12,12 @@ Microsoft Threat Intelligence identified similarities between this recent attack
 ## Activities and Tactics
 **Targeted Sectors**: Energy
 
+**Country of Origin**: 🏳️ ["[Unknown]"]
 
 
+**First Seen**: 2012
+
+**Last Activity**: 2018
 
 
 ## Notable Campaigns
@@ -23,13 +27,15 @@ Microsoft Threat Intelligence identified similarities between this recent attack
 *Information pending cataloguing.*
 
 ## Notable Indicators of Compromise (IOCs)
-*No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
+*No atomic indicators are listed in this profile. The APTnotes snapshot indexes 3 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Depriz**: 
+- **Shamoon / Disttrack**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

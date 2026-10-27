@@ -2,8 +2,10 @@ name: "Nefilim"
 aliases: ["Nefilim"]
 description: "According to Vitali Kremez and Michael Gillespie, this ransomware shares much code with Nemty 2.5. A difference is removal of the RaaS component, which was switched to email communications for payments. Uses AES-128, which is then protected RSA2048."
 url: "/nefilim"
+last_updated: "2026-10-27"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/nefilim"
 provenance:
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -12,4 +14,26 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "d12f369c-f776-468a-8abf-8000b1b30642"
     source_record_ids: ["d12f369c-f776-468a-8abf-8000b1b30642"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  ransomware_vulnerability_matrix:
+    references:
+      - title: "sophos.com"
+        url: "https://news.sophos.com/en-us/2021/01/26/nefilim-ransomware-attack-uses-ghost-credentials/"
+        source_file: "Vulnerabilities/Virtualization.md"
+    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
+    source_files: ["Vulnerabilities/Virtualization.md"]
+    source_label: "Nefilim"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
+    vulnerabilities_by_category:
+      Virtualization:
+        - vendor: "Citrix"
+          product: "Workspace app and Receiver for Windows"
+          cves: ["CVE-2019-11634"]
+          source_links: ["https://news.sophos.com/en-us/2021/01/26/nefilim-ransomware-attack-uses-ghost-credentials/"]
+          source_file: "Vulnerabilities/Virtualization.md"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "nefilim"
+  source_retrieved_at: "2026-10-27T17:23:22Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

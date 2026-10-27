@@ -10,7 +10,11 @@ permalink: /moneytaker/
 In less than two years, this group has conducted over 20 successful attacks on financial institutions and legal firms in the USA, UK and Russia. The group has primarily been targeting card processing systems, including the AWS CBR (Russian Interbank System) and purportedly SWIFT (US). Given the wide usage of STAR in LATAM, financial institutions in LATAM could have particular exposure to a potential interest from the MoneyTaker group.
 
 ## Activities and Tactics
-*Information pending cataloguing.*
+**Country of Origin**: 🇷🇺 ["Russia"]
+
+
+
+
 
 ## Notable Campaigns
 *Information pending cataloguing.*
@@ -22,10 +26,15 @@ In less than two years, this group has conducted over 20 successful attacks on f
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Citadel**: 
+- **Kronos**: 
+- **Metasploit**: 
+- **MoneyTaker**: 
+- **Screenshotter**: 
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["Russia"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

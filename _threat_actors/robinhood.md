@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "RobinHood"
-aliases: ["HelpYemen","RobinHood"]
+aliases: ["HelpYemen","RobinHood","Robinhood"]
 description: "Detected in April 2019. Known for paralyzing the cities of Baltimore and Greenville. Probably also exfiltrate data"
 permalink: /robinhood/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "blackshrantac"
-aliases: ["blackshrantac","black shrantac"]
+aliases: ["black shrantac","blackshrantac"]
 description: "aka black shrantac"
 permalink: /blackshrantac/
 ---

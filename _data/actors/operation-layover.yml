@@ -1,0 +1,14 @@
+name: "Operation Layover"
+aliases: ["Operation Layover"]
+description: "(Talos) Cisco Talos and other security researchers have recently reported on a series of malicious campaigns targeting the aviation industry. These reports mainly center around the crypter that hides the usage of commodity malicious remote access tools. We decided this would be a good starting point to demonstrate how a researcher can pivot from the initial discovery of a RAT and eventually profile a threat actor. This post will show how we discovered previous campaigns targeting the aviation industry, which links back to an actor that's been active for approximately six years. We believe the actor is based out of Nigeria with a high degree of confidence and doesn't seem to be technically sophisticated, using off-the-shelf malware since the beginning of its activities without developing its own malware. The actor also buys the crypters that allow the usage of such malware without being detected, throughout the years it has used several different cryptors, mostly bought on online forums. We also believe with a high degree of confidence that the actor has been active for at least five years. For the last two, they've been targeting the aviation industry, while conducting other campaigns at the same time. Pivoting from an initial discovery is not an exact science — in this process, a researcher must assert a certain level of confidence in these associations."
+url: "/operation-layover"
+country: "[\"Nigeria\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["AsyncRAT","CyberGate RAT","njRAT"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "3c999046-a518-4df5-acc2-b96146331ac7"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

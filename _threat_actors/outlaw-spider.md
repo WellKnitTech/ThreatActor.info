@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "OUTLAW SPIDER"
-aliases: ["OUTLAW SPIDER"]
+aliases: ["OUTLAW SPIDER","Outlaw Spider"]
 description: "On May 7, 2019, Mayor Bernard “Jack” Young confirmed that the network for the U.S. City of Baltimore (CoB) was infected with ransomware, which was announced via Twitter1. This infection was later confi"
 permalink: /outlaw-spider/
 ---
@@ -11,6 +11,8 @@ On May 7, 2019, Mayor Bernard “Jack” Young confirmed that the network for th
 
 ## Activities and Tactics
 **Targeted Sectors**: Government, Administration
+
+**Country of Origin**: 🏳️ ["[Unknown]"]
 
 
 
@@ -29,7 +31,8 @@ On May 7, 2019, Mayor Bernard “Jack” Young confirmed that the network for th
 *Information pending cataloguing.*
 
 ## Attribution and Evidence
-*Information pending cataloguing.*
+**Country of Origin**: ["[Unknown]"]
+*Additional attribution information pending cataloguing.*
 
 ## References
 *References pending cataloguing.*

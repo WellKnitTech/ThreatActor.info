@@ -30,6 +30,7 @@ CardinalLizard, a cyber threat actor linked to China, has targeted entities in A
 - **CyberGate**
 - **Cyber Eye RAT**
 - **Cardinal**
+- **PlugX**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

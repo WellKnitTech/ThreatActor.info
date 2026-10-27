@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Sath-ı Müdafaa"
-aliases: ["Sath-ı Müdafaa"]
+aliases: ["Sath-ı Müdafaa","Sath-Ä± MÃ¼dafaa"]
 description: "A Turkish hacking group, Sath-ı Müdafaa, is encouraging individuals to join its DDoS-for-Points platform that features points and prizes for carrying out distributed denial-of-service (DDoS) attacks ag"
 permalink: /sath-m-dafaa/
 ---

@@ -2,13 +2,30 @@ name: "Netwalker"
 aliases: ["Netwalker"]
 description: "Netwalker is an active extortion or ransomware group tracked by RansomLook."
 url: "/netwalker"
+last_updated: "2026-10-27"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/netwalker"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
 provenance:
+  ransomware_tool_matrix:
+    references:
+      - title: "NetWalker Ransomware in 1 Hour"
+        url: "https://thedfirreport.com/2020/08/31/netwalker-ransomware-in-1-hour/"
+        source_file: "ThreatIntel/TheDFIRReportGroups.md"
+    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
+    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
+    source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md","Tools/Offsec.md"]
+    source_label: "NetWalker"
+    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
+    source_retrieved_at: "2026-10-27T17:27:56Z"
+    tools_by_category:
+      Credential Theft: ["Mimikatz","ProcDump"]
+      Discovery: ["AdFind"]
+      LOLBAS: ["PsExec"]
+      OffSec: ["Cobalt Strike"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "netwalker"
-  source_retrieved_at: "2026-05-06T22:00:15Z"
+  source_retrieved_at: "2026-10-27T17:22:12Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

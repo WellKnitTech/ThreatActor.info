@@ -1,5 +1,5 @@
 name: "Earth Lamia"
-aliases: ["UNC5454","Earth Lamia"]
+aliases: ["Earth Lamia","UNC5454"]
 description: "Earth Lamia is a China-nexus APT that targets organizations across multiple sectors, including finance, logistics, and government, primarily in Latin America, the Middle East, and Southeast Asia. The actor exploits web application vulnerabilities, such as CVE-2025-55182, and employs techniques like SQL injection, DLL sideloading, and the deployment of custom backdoors like PULSEPACK and BypassBoss. Earth Lamia conducts reconnaissance, file operations, and credential theft, often utilizing tools like Cobalt Strike and VShell."
 url: "/earth-lamia"
 country: "China"
@@ -8,19 +8,31 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_lamia"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["Backdoor.Oldrea","China Chopper","Xploit","Cobalt Strike","CrossRat"]
+malware:
+  - "Backdoor.Oldrea"
+  - "China Chopper"
+  - "Xploit"
+  - "Cobalt Strike"
+  - "CrossRat"
+  - name: "BypassBoss"
+  - name: "PULSEPACK"
 provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "17ebc5f9-e718-4b31-b0ba-5abe21916af5"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "earth_lamia"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_lamia"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "2828da6c-12d0-4287-9938-531165e19b47"
   misp_galaxy:
-    meta_keys: ["country","origin:Earth Lamia","origin:UNC5454","refs","synonyms"]
+    meta_keys: ["country","origin:Earth Lamia","origin:UNC5454","refs","synonyms","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "2828da6c-12d0-4287-9938-531165e19b47"
     source_record_ids: ["2828da6c-12d0-4287-9938-531165e19b47"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"

@@ -1,117 +1,423 @@
-name: "Qilin"
-aliases: ["Qilin Ransomware","Qilin Gang","Qilin Group","Qilin"]
-description: "Qilin is a ransomware group that first appeared in 2022 but had a breakout year in 2024, with around 200 victims, 156 of them based in the U.S."
+---
+name: Qilin
+aliases:
+- Agenda
+- Qilin
+- Qilin Gang
+- Qilin Group
+- Qilin Ransomware
+- Qilin Team
+description: Qilin is a ransomware group that first appeared in 2022 but had a breakout
+  year in 2024, with around 200 victims, 156 of them based in the U.S.
 url: "/qilin"
-country: "Unknown"
-sector_focus: ["Critical Infrastructure","Manufacturing","Healthcare","Government"]
-first_seen: "2022"
-last_activity: "2025"
-last_updated: "2026-04-28"
-risk_level: "High"
-source_name: "APT Groups & Operations Spreadsheet"
-source_attribution: "Manually curated from open source intelligence"
+country: Unknown
+sector_focus:
+- Critical Infrastructure
+- Manufacturing
+- Healthcare
+- Government
+first_seen: '2022'
+last_activity: '2025'
+last_updated: '2026-10-27'
+risk_level: High
+source_name: APT Groups & Operations Spreadsheet
+source_attribution: Manually curated from open source intelligence
+source_record_url: https://www.ransomlook.io/group/qilin
 malware:
-  - name: "Agenda"
-  - name: "Qilin"
+- name: Agenda
+- name: Qilin
 provenance:
   apt_groups_operations:
-    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
-    source_dataset_url: "https://apt.threattracking.com/"
-    source_links: ["https://therecord.media/researchers-infiltrate-qilin-ransomware","https://www.group-ib.com/blog/qilin-ransomware/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
-    tab_name: "unknown"
+    sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
+    source_dataset_url: https://apt.threattracking.com/
+    source_links:
+    - https://therecord.media/researchers-infiltrate-qilin-ransomware
+    - https://www.group-ib.com/blog/qilin-ransomware/
+    source_retrieved_at: '2026-10-27T17:29:13Z'
+    tab_name: unknown
   ransomware_tool_matrix:
     community_reports:
-      - source_file: "CommunityReports/CR-012-Qilin-April-2023.md"
-        incident_time: "April 2023"
-        victim_sector: "Manufacturing"
-        victim_country: "Asia Pacific"
-      - source_file: "CommunityReports/CR-013-Qilin-June-2022.md"
-        incident_time: "June 2022"
-        victim_sector: "Unknown"
-        victim_country: "Unknown"
-      - source_file: "CommunityReports/CR-014-Qilin-May-2024.md"
-        incident_time: "May 2024"
-        victim_sector: "Unknown"
-        victim_country: "USA"
+    - source_file: CommunityReports/CR-012-Qilin-April-2023.md
+      incident_time: April 2023
+      victim_sector: Manufacturing
+      victim_country: Asia Pacific
+    - source_file: CommunityReports/CR-013-Qilin-June-2022.md
+      incident_time: June 2022
+      victim_sector: Unknown
+      victim_country: Unknown
+    - source_file: CommunityReports/CR-014-Qilin-May-2024.md
+      incident_time: May 2024
+      victim_sector: Unknown
+      victim_country: USA
     references:
-      - title: "news.sophos.com"
-        url: "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/"
-        date: "1 April 2025"
-        source_file: "GroupProfiles/Qilin.md"
-      - title: "www.picussecurity.com"
-        url: "https://www.picussecurity.com/resource/blog/qilin-ransomware"
-        date: "10 March 2025"
-        source_file: "GroupProfiles/Qilin.md"
-      - title: "www.sophos.com"
-        url: "https://www.sophos.com/en-us/blog/i-am-not-a-robot-clickfix-used-to-deploy-stealc-and-qilin"
-        date: "18 December 2025"
-        source_file: "ThreatIntel/ExtraThreatIntel.md"
-      - title: "www.secureworks.com"
-        url: "https://www.secureworks.com/research/threat-profiles/gold-feather"
-        date: "19 June 2024"
-        source_file: "GroupProfiles/Qilin.md"
-      - title: "redpiranha.net"
-        url: "https://redpiranha.net/news/qilin-ransomware-all-you-need-know"
-        date: "25 April 2025"
-        source_file: "GroupProfiles/Qilin.md"
-      - title: "www.trendmicro.com"
-        url: "https://www.trendmicro.com/en_us/research/22/h/new-golang-ransomware-agenda-customizes-attacks.html"
-        date: "25 August 2022"
-        source_file: "GroupProfiles/Qilin.md"
-      - title: "www.trendmicro.com"
-        url: "https://www.trendmicro.com/en_us/research/24/c/agenda-ransomware-propagates-to-vcenters-and-esxi-via-custom-pow.html"
-        date: "26 March 2024"
-        source_file: "GroupProfiles/Qilin.md"
-      - title: "www.darktrace.com"
-        url: "https://www.darktrace.com/blog/a-busy-agenda-darktraces-detection-of-qilin-ransomware-as-a-service-operator"
-        date: "4/7/2024"
-        source_file: "CommunityReports/CR-012-Qilin-April-2023.md"
-    source_attribution: "Tool observations were reviewed from the BushidoUK Ransomware Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix is used here as a secondary ransomware tradecraft reference, not as sole attribution evidence."
-    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1"
-    source_files: ["CommunityReports/CR-012-Qilin-April-2023.md","CommunityReports/CR-013-Qilin-June-2022.md","CommunityReports/CR-014-Qilin-May-2024.md","GroupProfiles/Qilin.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
-    source_label: "Qilin / Qilin Ransomware"
-    source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-04-28T01:51:36Z"
+    - title: news.sophos.com
+      url: https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+      date: 1 April 2025
+      source_file: GroupProfiles/Qilin.md
+    - title: www.picussecurity.com
+      url: https://www.picussecurity.com/resource/blog/qilin-ransomware
+      date: 10 March 2025
+      source_file: GroupProfiles/Qilin.md
+    - title: www.sophos.com
+      url: https://www.sophos.com/en-us/blog/i-am-not-a-robot-clickfix-used-to-deploy-stealc-and-qilin
+      date: 18 December 2025
+      source_file: ThreatIntel/ExtraThreatIntel.md
+    - title: www.secureworks.com
+      url: https://www.secureworks.com/research/threat-profiles/gold-feather
+      date: 19 June 2024
+      source_file: GroupProfiles/Qilin.md
+    - title: redpiranha.net
+      url: https://redpiranha.net/news/qilin-ransomware-all-you-need-know
+      date: 25 April 2025
+      source_file: GroupProfiles/Qilin.md
+    - title: www.trendmicro.com
+      url: https://www.trendmicro.com/en_us/research/22/h/new-golang-ransomware-agenda-customizes-attacks.html
+      date: 25 August 2022
+      source_file: GroupProfiles/Qilin.md
+    - title: www.trendmicro.com
+      url: https://www.trendmicro.com/en_us/research/24/c/agenda-ransomware-propagates-to-vcenters-and-esxi-via-custom-pow.html
+      date: 26 March 2024
+      source_file: GroupProfiles/Qilin.md
+    - title: www.darktrace.com
+      url: https://www.darktrace.com/blog/a-busy-agenda-darktraces-detection-of-qilin-ransomware-as-a-service-operator
+      date: 4/7/2024
+      source_file: CommunityReports/CR-012-Qilin-April-2023.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Ransomware
+      Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix
+      is used here as a secondary ransomware tradecraft reference, not as sole attribution
+      evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - CommunityReports/CR-012-Qilin-April-2023.md
+    - CommunityReports/CR-013-Qilin-June-2022.md
+    - CommunityReports/CR-014-Qilin-May-2024.md
+    - GroupProfiles/Qilin.md
+    - ThreatIntel/ExtraThreatIntel.md
+    - Tools/CredentialTheft.md
+    - Tools/DefenseEvasion.md
+    - Tools/DiscoveryEnum.md
+    - Tools/Exfiltration.md
+    - Tools/LOLBAS.md
+    - Tools/Networking.md
+    - Tools/Offsec.md
+    - Tools/RMM-Tools.md
+    source_label: Qilin / Qilin Ransomware
+    source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:27:56Z'
     tools_by_category:
-      Credential Theft: ["Mimikatz"]
-      Defense Evasion: ["EDRSandBlast","PCHunter","PowerTool","Toshiba power management driver (BYOVD)","Updater for Carbon Black’s Cloud Sensor AV (upd.exe)","YDArk","Zemana Anti-Rootkit driver"]
-      Discovery: ["Nmap","Nping"]
-      Exfiltration: ["EasyUpload","EasyUpload.io","FTP (102GB)","HTTP/S (783GB)","MEGA cloud storage (30GB)","Not observed (3 systems encrypted)"]
-      LOLBAS: ["PowerShell","PsExec","WinRM","fsutil"]
-      Networking: ["Proxychains","RDP","Used SCCM and VMWare ESXi for lateral movement in network","Used SMB, RDP, WMI for lateral movement in network","WMI","lateral movement via DCE-RPC and RDP"]
-      OffSec: ["Cobalt Strike","Cobalt Strike - (HTTP/SSL traffic linked to Cobalt Strike, including PowerShell request for sihost64.dll)","Evilginx","Kali Linux","NetExec","SystemBC","Tofsee a modular trojan"]
-      RMM Tools: ["NetSupport","ScreenConnect"]
+      Credential Theft:
+      - Mimikatz
+      Defense Evasion:
+      - EDRSandBlast
+      - PCHunter
+      - PowerTool
+      - Toshiba power management driver (BYOVD)
+      - Updater for Carbon Black’s Cloud Sensor AV (upd.exe)
+      - YDArk
+      - Zemana Anti-Rootkit driver
+      Discovery:
+      - Nmap
+      - Nping
+      Exfiltration:
+      - EasyUpload
+      - EasyUpload.io
+      - FTP (102GB)
+      - HTTP/S (783GB)
+      - MEGA cloud storage (30GB)
+      - Not observed (3 systems encrypted)
+      LOLBAS:
+      - PowerShell
+      - PsExec
+      - WinRM
+      - fsutil
+      Networking:
+      - Proxychains
+      - RDP
+      - Used SCCM and VMWare ESXi for lateral movement in network
+      - Used SMB, RDP, WMI for lateral movement in network
+      - WMI
+      - lateral movement via DCE-RPC and RDP
+      OffSec:
+      - Cobalt Strike
+      - Cobalt Strike - (HTTP/SSL traffic linked to Cobalt Strike, including PowerShell
+        request for sihost64.dll)
+      - Evilginx
+      - Kali Linux
+      - NetExec
+      - SystemBC
+      - Tofsee a modular trojan
+      RMM Tools:
+      - NetSupport
+      - ScreenConnect
   ransomware_vulnerability_matrix:
     references:
-      - title: "blogs.blackberry.com"
-        url: "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "labs.withsecure.com"
-        url: "https://labs.withsecure.com/publications/fin7-target-veeam-servers"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "news.sophos.com"
-        url: "https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "security.com"
-        url: "https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "sophos.com"
-        url: "https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/"
-        source_file: "Vulnerabilities/Applications.md"
-      - title: "welivesecurity.com"
-        url: "https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/"
-        source_file: "Vulnerabilities/Applications.md"
-    source_attribution: "Vulnerability observations were reviewed from the BushidoUK Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix). The matrix is used here as a secondary ransomware exploitation reference, not as sole attribution evidence."
-    source_dataset_url: "https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1"
-    source_files: ["Vulnerabilities/Applications.md"]
-    source_label: "Qilin"
-    source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    - title: binarydefense.com
+      url: https://binarydefense.com/resources/blog/technical-analysis-killer-ultra-malware-targeting-edr-products-in-ransomware-attacks
+      source_file: GroupProfiles/Qilin.md
+    - title: blog.checkpoint.com
+      url: https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: blogs.blackberry.com
+      url: https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
+      source_file: Vulnerabilities/Applications.md
+    - title: ccb.belgium.be
+      url: https://ccb.belgium.be/open-media/1275/download?inline
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: checkpoint.com
+      url: https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: checkpoint.com
+      url: https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: ctrlaltintel.com
+      url: https://ctrlaltintel.com/research/Qilin/
+      source_file: Vulnerabilities/Applications.md
+    - title: esentire.com
+      url: https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: forescout.com
+      url: https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: group-ib.com
+      url: https://www.group-ib.com/blog/qilin-revisited/
+      source_file: Vulnerabilities/Applications.md
+    - title: https://binarydefense.com/resources/blog/technical-analysis-killer-ultra-malware-targeting-edr-products-in-ransomware-attacks](https://binarydefense.com/resources/blog/technical-analysis-killer-ultra-malware-targeting-edr-products-in-ransomware-attacks
+      url: https://binarydefense.com/resources/blog/technical-analysis-killer-ultra-malware-targeting-edr-products-in-ransomware-attacks](https://binarydefense.com/resources/blog/technical-analysis-killer-ultra-malware-targeting-edr-products-in-ransomware-attacks
+      source_file: GroupProfiles/Qilin.md
+    - title: https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/](https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/
+      url: https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/](https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/
+      source_file: GroupProfiles/Qilin.md
+    - title: https://ctrlaltintel.com/research/Qilin/](https://ctrlaltintel.com/research/Qilin/
+      url: https://ctrlaltintel.com/research/Qilin/](https://ctrlaltintel.com/research/Qilin/
+      source_file: GroupProfiles/Qilin.md
+    - title: https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/](https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+      url: https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/](https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+      source_file: GroupProfiles/Qilin.md
+    - title: https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/](https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/
+      url: https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/](https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/
+      source_file: GroupProfiles/Qilin.md
+    - title: https://www.group-ib.com/blog/qilin-revisited/](https://www.group-ib.com/blog/qilin-revisited/
+      url: https://www.group-ib.com/blog/qilin-revisited/](https://www.group-ib.com/blog/qilin-revisited/
+      source_file: GroupProfiles/Qilin.md
+    - title: labs.withsecure.com
+      url: https://labs.withsecure.com/publications/fin7-target-veeam-servers
+      source_file: Vulnerabilities/Applications.md
+    - title: news.sophos.com
+      url: https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+      source_file: Vulnerabilities/Applications.md
+    - title: s-rminform.com
+      url: https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire
+      source_file: Vulnerabilities/NetworkEdge.md
+    - title: security.com
+      url: https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor
+      source_file: Vulnerabilities/Applications.md
+    - title: sophos.com
+      url: https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/
+      source_file: Vulnerabilities/Applications.md
+    - title: welivesecurity.com
+      url: https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+      source_file: Vulnerabilities/Applications.md
+    source_attribution: Vulnerability observations were reviewed from the BushidoUK
+      Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix).
+      The matrix is used here as a secondary ransomware exploitation reference, not
+      as sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1
+    source_files:
+    - GroupProfiles/Qilin.md
+    - Vulnerabilities/Applications.md
+    - Vulnerabilities/NetworkEdge.md
+    source_label: Qilin
+    source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
+    source_retrieved_at: '2026-10-27T17:28:00Z'
     vulnerabilities_by_category:
       Applications:
-        - vendor: "Veeam"
-          product: "Backup & Replication"
-          cves: ["CVE-2023-27532"]
-          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
-          source_file: "Vulnerabilities/Applications.md"
+      - vendor: Apache
+        product: Apache bRPC
+        cves:
+        - CVE-2025-60021
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: Vulnerabilities/Applications.md
+      - vendor: SmarterTools
+        product: SmarterMail
+        cves:
+        - CVE-2026-24423
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: Vulnerabilities/Applications.md
+      - vendor: SolarWinds
+        product: SolarWinds Web Help Desk
+        cves:
+        - CVE-2025-40554
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: Vulnerabilities/Applications.md
+      - vendor: Telnet
+        product: Telnetd in GNU Inetutils
+        cves:
+        - CVE-2026-24061
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: Vulnerabilities/Applications.md
+      - vendor: Veeam
+        product: Backup & Replication
+        cves:
+        - CVE-2023-27532
+        source_links:
+        - https://labs.withsecure.com/publications/fin7-target-veeam-servers
+        - https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
+        - https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
+        - https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/
+        - https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+        - https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor
+        - https://www.group-ib.com/blog/qilin-revisited/
+        source_file: Vulnerabilities/Applications.md
+      Group Profile:
+      - vendor: Apache
+        product: Apache bRPC
+        cves:
+        - CVE-2025-60021
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: Check Point
+        product: VPN Remote Access and Mobile Access
+        cves:
+        - CVE-2026-50751
+        source_links:
+        - https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: Fortinet
+        product: FortiOS
+        cves:
+        - CVE-2025-59718
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: Fortinet
+        product: FortiOS & FortiProxy
+        cves:
+        - CVE-2024-21762
+        source_links:
+        - https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: Fortinet
+        product: FortiOS & FortiProxy
+        cves:
+        - CVE-2024-55591
+        source_links:
+        - https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: SmarterTools
+        product: SmarterMail
+        cves:
+        - CVE-2026-24423
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: SolarWinds
+        product: SolarWinds Web Help Desk
+        cves:
+        - CVE-2025-40554
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: Telnet
+        product: Telnetd in GNU Inetutils
+        cves:
+        - CVE-2026-24061
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: Veeam
+        product: Backup & Replication
+        cves:
+        - CVE-2023-27532
+        source_links:
+        - https://www.group-ib.com/blog/qilin-revisited/
+        - https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+        - https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/](https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: WatchGuard
+        product: WatchGuard Fireware OS
+        cves:
+        - CVE-2025-14733
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: WatchGuard
+        product: WatchGuard Fireware OS
+        cves:
+        - CVE-2025-9242
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: GroupProfiles/Qilin.md
+      - vendor: Zemana
+        product: Zemana AntiLogger
+        cves:
+        - CVE-2024-1853
+        source_links:
+        - https://binarydefense.com/resources/blog/technical-analysis-killer-ultra-malware-targeting-edr-products-in-ransomware-attacks
+        source_file: GroupProfiles/Qilin.md
+      Network Edge:
+      - vendor: Check Point
+        product: VPN Remote Access and Mobile Access
+        cves:
+        - CVE-2026-50751
+        source_links:
+        - https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: Fortinet
+        product: FortiOS
+        cves:
+        - CVE-2025-59718
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: Fortinet
+        product: FortiOS & FortiProxy
+        cves:
+        - CVE-2024-21762
+        source_links:
+        - https://ccb.belgium.be/open-media/1275/download?inline
+        - https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: Fortinet
+        product: FortiOS & FortiProxy
+        cves:
+        - CVE-2024-55591
+        source_links:
+        - https://www.esentire.com/blog/from-access-to-encryption-dissecting-hunters-internationals-latest-ransomware-attack
+        - https://www.forescout.com/blog/new-ransomware-operator-exploits-fortinet-vulnerability-duo/
+        - https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-nightspire
+        - https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/
+        - https://ccb.belgium.be/open-media/1275/download?inline
+        - https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/qilin-ransomware/
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: WatchGuard
+        product: WatchGuard Fireware OS
+        cves:
+        - CVE-2025-14733
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: Vulnerabilities/NetworkEdge.md
+      - vendor: WatchGuard
+        product: WatchGuard Fireware OS
+        cves:
+        - CVE-2025-9242
+        source_links:
+        - https://ctrlaltintel.com/research/Qilin/
+        source_file: Vulnerabilities/NetworkEdge.md
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: qilin
+  source_retrieved_at: '2026-10-27T17:21:32Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Spikey Scorpius

@@ -16,13 +16,27 @@ Darkside, the latest ransomware operation to emerge has been attacking organizat
 *Information pending cataloguing.*
 
 ## Tactics, Techniques, and Procedures (TTPs)
-*Information pending cataloguing.*
+### Ransomware Vulnerability Matrix observations
+
+| Category | Vendor | Product | CVEs |
+|---|---|---|---|
+| Network Edge | Palo Alto Networks | GlobalProtect Portal & Gateway Interface | CVE-2019-1579 |
 
 ## Notable Indicators of Compromise (IOCs)
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz, SessionGopher |
+| Discovery | ADRecon, AdFind, Advanced IP Scanner, SoftPerfect NetScan |
+| Exfiltration | Bashupload, MEGA, PrivatLab, RClone, Sendspace, pCloud |
+| LOLBAS | PsExec |
+| Networking | Plink |
+| OffSec | Cobalt Strike, CrackMapExec, Impacket, PowerSploit |
+| RMM Tools | AnyDesk, GoToAssist, TightVNC |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

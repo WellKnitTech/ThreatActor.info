@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "DynA-Crypt Ransomware"
 aliases: ["DynA CryptoLocker Ransomware","DynA-Crypt Ransomware"]
-description: "It’s directed to English speaking users, therefore is able to infect worldwide.  It is spread using email spam, fake updates, attachments and so on.  It encrypts all your files, including: music, MS Of"
+description: "It’s directed to English speaking users, therefore is able to infect worldwide. It is spread using email spam, fake updates, attachments and so on. It encrypts all your files, including: music, MS Offi"
 permalink: /dyna-crypt-ransomware/
 ---
 

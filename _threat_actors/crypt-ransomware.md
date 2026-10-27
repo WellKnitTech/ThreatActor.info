@@ -2,7 +2,7 @@
 layout: threat_actor
 title: "crypt ransomware"
 aliases: ["crypt ransomware"]
-description: ".crYpt \r<br/>MD5: 54EFAC23D7B524D56BEDBCE887E11849\r<br/>\r<br/>Babuk Variant"
+description: ".crYpt <br/>MD5: 54EFAC23D7B524D56BEDBCE887E11849 <br/> <br/>Babuk Variant"
 permalink: /crypt-ransomware/
 ---
 

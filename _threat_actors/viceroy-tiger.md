@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "VICEROY TIGER"
-aliases: ["OPERATION HANGOVER","Donot Team","APT-C-35","SectorE02","Orange Kala","VICEROY TIGER","APTC35","Donot","肚脑虫 - APT-C-35"]
+aliases: ["APT-C-35","APTC35","Donot","Donot Team","Mint Tempest","OPERATION HANGOVER","Orange Kala","Origami Elephant","SectorE02","VICEROY TIGER","肚脑虫 - APT-C-35","Viceroy Tiger","Orange Berserker"]
 description: "VICEROY TIGER is an adversary with a nexus to India that has historically targeted entities throughout multiple sectors. Older activity targeted multiple sectors and countries; however, since 2015 this"
 permalink: /viceroy-tiger/
 ---
@@ -22,7 +22,36 @@ VICEROY TIGER is an adversary with a nexus to India that has historically target
 **Suspected Victims**: Germany
 
 ## Notable Campaigns
+- **2019-03**
+- **2019-04**
+- **2019-12**
+- **2020**
+- **2020-05**
+- **2022-08**
+- **2023-06**
+- **2024-10**
+- **APT-C-35 Gets a New Upgrade**
+- **An Indicator From Twitter Brings The Donot Android Espionage Group Back Into Focus**
+- **Android Malware in DONOT APT Operations**
+- **DoNot APT Elevates its Tactics by Deploying Malicious Android Apps on Google Play Store**
+- **ESET researchers take a deep look into recent attacks carried out by Donot Team throughout 2020 and 2021**
+- **From March to July this year**
 - **Lucky Elephant**
+- **Recently**
+- **StealJob: New Android Malware**
+- **Togo: Prominent activist targeted with Indian-made spyware linked to notorious hacker group**
+- **https://blog.morphisec.com/apt-c-35-new-windows-framework-revealed**
+- **https://threatrecon.nshc.net/2019/08/02/sectore02-updates-yty-framework-in-new-targeted-campaign-against-pakistan-government/**
+- **https://ti.360.net/blog/articles/stealjob-new-android-malware-used-by-donot-apt-group-en/**
+- **https://www.amnesty.org/en/latest/news/2021/10/togo-activist-targeted-with-spyware-by-notorious-hacker-group/**
+- **https://www.cyfirma.com/outofband/donot-apt-elevates-its-tactics-by-deploying-malicious-android-apps-on-google-play-store/**
+- **https://www.cyfirma.com/research/android-malware-in-donot-apt-operations/**
+- **https://www.riskiq.com/blog/external-threat-management/donot-mobile-malware-espionage/**
+- **https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/**
+- **targeting government and military entities in several South Asian countries**
+- **the ThreatRecon team noticed a spear phishing campaign by the SectorE02 group going on against the Government of Pakistan and organizations there related to defense and intelligence.**
+- **we have observed a large-scale upgrade of its malicious Android APK framework to make it more stable and practical. Since the new APK framework is quite different from the one used in the past**
+- **we named it as StealJob since “job” is frequently used in the code.**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -39,6 +68,7 @@ VICEROY TIGER is an adversary with a nexus to India that has historically target
 - **Androrat**
 - **EHDevel**: 
 - **yty**: 
+- **BackConfig**: 
 
 ## Attribution and Evidence
 **Country of Origin**: India

@@ -1,5 +1,5 @@
 name: "APT30"
-aliases: ["APT30","G0013","Raspberry Typhoon","RADIUM","LotusBlossom","LOTUS PANDA","Spring Dragon","ST Group","DRAGONFISH","BRONZE ELGIN","ATK1","G0030","Red Salamander","Lotus BLossom","Billbug","Lotus Blossom"]
+aliases: ["APT30","ATK1","Billbug","BRONZE ELGIN","DRAGONFISH","G0013","G0030","Lotus BLossom","Lotus Blossom","LOTUS PANDA","LotusBlossom","RADIUM","Raspberry Typhoon","Red Salamander","Spring Dragon","ST Group","ISTHMUS CASTLE"]
 description: "APT30 is a threat group suspected to be associated with the Chinese government. While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches. [FireEye APT30](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/05/20081935/rpt-apt30.pdf) [Baumgartner Golovkin Naikon 2015](https://securelist.com/the-naikon-apt/69953/)"
 url: "/apt0013"
 country: "China"
@@ -7,6 +7,7 @@ sector_focus: ["Government","Military","Government, Administration"]
 targeted_victims: ["United States","South Korea","Saudi Arabia","Thailand","Vietnam","Malaysia","India","Japan","Philippines","Hong Kong","Indonesia","Taiwan"]
 incident_type: "Espionage"
 risk_level: "High"
+confidence: "high"
 external_id: "G0013"
 external_url: "https://attack.mitre.org/groups/G0013"
 mitre_id: "G0013"
@@ -56,26 +57,37 @@ ttps:
     technique_name: "Malicious File"
     url: "https://attack.mitre.org/techniques/T1204/002"
     stix_id: "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e"
+attck_techniques: ["T1204.002","T1566.001"]
+attck_software: ["S0028","S0031","S0034","S0035","S0036"]
+attck_references:
+  - source: "mitre-attack"
+    url: "https://attack.mitre.org/groups/G0013"
+    external_id: "G0013"
+    description: ""
+sources:
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "raspberry_typhoon"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/raspberry_typhoon"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "37f012df-54d8-4b3d-a288-af47240430ea"
   mitre:
-    attack_version: "19.0"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.0"
-      ics: "19.0"
-      mobile: "19.0"
-    relationships_imported_at: "2026-05-06T21:54:34Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0013"
-    source_retrieved_at: "2026-05-06T21:54:34Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd"
 source: "MITRE ATT&CK"

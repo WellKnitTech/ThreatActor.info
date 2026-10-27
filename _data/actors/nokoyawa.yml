@@ -1,14 +1,86 @@
-name: "Nokoyawa"
-aliases: ["Nokoyawa"]
-description: "Nokoyawa is an active extortion or ransomware group tracked by RansomLook."
+---
+name: Nokoyawa
+aliases:
+- Nokoyawa
+description: Nokoyawa is an active extortion or ransomware group tracked by RansomLook.
 url: "/nokoyawa"
-source_name: "RansomLook"
-source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
-source_record_url: "https://www.ransomlook.io/group/nokoyawa"
-source_license: "CC BY 4.0"
-source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+last_updated: '2026-10-27'
+source_name: RansomLook
+source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
+  Source: https://www.ransomlook.io/'
+source_record_url: https://www.ransomlook.io/group/nokoyawa
+source_license: CC BY 4.0
+source_license_url: https://creativecommons.org/licenses/by/4.0/
 provenance:
-  source_dataset_url: "https://www.ransomlook.io/api/groups"
-  source_record_id: "nokoyawa"
-  source_retrieved_at: "2026-05-06T21:57:52Z"
-  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
+  ransomware_tool_matrix:
+    references:
+    - title: 'From OneNote to RansomNote: An Ice Cold Intrusion'
+      url: https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion/
+      source_file: ThreatIntel/TheDFIRReportGroups.md
+    - title: IcedID Macro Ends in Nokoyawa Ransomware
+      url: https://thedfirreport.com/2023/05/22/icedid-macro-ends-in-nokoyawa-ransomware/
+      source_file: ThreatIntel/TheDFIRReportGroups.md
+    source_attribution: Tool observations were reviewed from the BushidoUK Ransomware
+      Tool Matrix (https://github.com/BushidoUK/Ransomware-Tool-Matrix). The matrix
+      is used here as a secondary ransomware tradecraft reference, not as sole attribution
+      evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Tool-Matrix/git/trees/main?recursive=1
+    source_files:
+    - ThreatIntel/TheDFIRReportGroups.md
+    - Tools/DiscoveryEnum.md
+    - Tools/Exfiltration.md
+    - Tools/LOLBAS.md
+    - Tools/Offsec.md
+    - Tools/RMM-Tools.md
+    source_label: Nokoyawa
+    source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
+    source_retrieved_at: '2026-10-27T17:27:56Z'
+    tools_by_category:
+      Discovery:
+      - AdFind
+      - SoftPerfect NetScan
+      Exfiltration:
+      - FileZilla
+      LOLBAS:
+      - PsExec
+      OffSec:
+      - Cobalt Strike
+      RMM Tools:
+      - AnyDesk
+  ransomware_vulnerability_matrix:
+    references:
+    - title: securelist.com
+      url: https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/
+      source_file: Vulnerabilities/Microsoft.md
+    source_attribution: Vulnerability observations were reviewed from the BushidoUK
+      Ransomware Vulnerability Matrix (https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix).
+      The matrix is used here as a secondary ransomware exploitation reference, not
+      as sole attribution evidence.
+    source_dataset_url: https://api.github.com/repos/BushidoUK/Ransomware-Vulnerability-Matrix/git/trees/main?recursive=1
+    source_files:
+    - Vulnerabilities/Microsoft.md
+    source_label: Nokoyawa
+    source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
+    source_retrieved_at: '2026-10-27T17:28:00Z'
+    vulnerabilities_by_category:
+      Microsoft Products:
+      - vendor: Windows
+        product: CLFS
+        cves:
+        - CVE-2023-28252
+        source_links:
+        - https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/
+        source_file: Vulnerabilities/Microsoft.md
+  source_dataset_url: https://www.ransomlook.io/api/groups
+  source_record_id: nokoyawa
+  source_retrieved_at: '2026-10-27T17:22:45Z'
+  source_transforms:
+  - normalized-name
+  - deduplicated-aliases
+  - omitted-volatile-iocs
+  - adapted-for-threatactor-info
+  unit42_threat_actor_groups:
+    source_name: Palo Alto Networks Unit 42 Threat Actor Groups
+    source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
+    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_record_id: Bashful Scorpius

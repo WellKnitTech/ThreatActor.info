@@ -1,0 +1,14 @@
+name: "Tomiris"
+aliases: ["Tomiris"]
+description: "(Kaspersky) Tomiris focuses on intelligence gathering in Central Asia. Tomiris’s endgame consistently appears to be the regular theft of internal documents. The threat actor targets government and diplomatic entities in the CIS. The occasional victims discovered in other regions (such as the Middle East or South-East Asia) turn out to be foreign representations of CIS countries, illustrating Tomiris’s narrow focus. It is characterized by its tendency to develop numerous low-sophistication “burner” implants in a variety of programming languages that are repeatedly deployed against the same targets, using elementary but efficient packaging and distribution techniques. Tomiris occasionally leverages commercial or open-source RATs. Language artifacts discovered in Tomiris’s implant families and infrastructure from distinct campaigns all indicate that the threat actor is Russian-speaking. Overall, Tomiris is a very agile and determined actor, open to experimentation – for instance with delivery methods (DNS hijacking) or command and control (C2) channels (Telegram). Kaspersky also asserts that there exists a form of deliberate cooperation between Tomiris and 'Turla, Waterbug, Venomous Bear'."
+url: "/tomiris"
+country: "[\"[Unknown]\"]"
+source_name: "ETDA / ThaiCERT Threat Group Cards"
+source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
+malware: ["JLOGRAB","JLORAT","KopiLuwak","Meterpreter","RATel","RocketMan","Roopy","Telemiris","Tomiris","Topinambour","Tunnus","Warzone RAT"]
+provenance:
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "ddad8bb4-d188-46de-8c2d-2ed50ebbc59f"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

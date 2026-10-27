@@ -4,6 +4,7 @@ description: "Gwisin is a targeted ransomware group first publicly reported in J
 url: "/gwisin"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://www.ransomlook.io/group/gwisin"
 malware:
   - name: "Windows Remote Desktop"
   - name: "Xploit"
@@ -16,4 +17,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "179c08be-e9aa-502f-bff9-3059f05654a2"
     source_record_ids: ["179c08be-e9aa-502f-bff9-3059f05654a2"]
-    source_retrieved_at: "2026-05-17T06:18:29Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
+  source_dataset_url: "https://www.ransomlook.io/api/groups"
+  source_record_id: "gwisin"
+  source_retrieved_at: "2026-10-27T17:18:45Z"
+  source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

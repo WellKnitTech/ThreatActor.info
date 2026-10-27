@@ -31,6 +31,12 @@ Sarcoma is a ransomware group that emerged in October 2024 and has been actively
 - **Arcom**: 
 - **Xploit**: 
 
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Discovery | Advanced IP Scanner |
+
 ## Attribution and Evidence
 *Information pending cataloguing.*
 

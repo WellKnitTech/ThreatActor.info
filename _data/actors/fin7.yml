@@ -1,5 +1,5 @@
 name: "FIN7"
-aliases: ["Anunak","ATK32","Calcium","Carbanak","Carbanak - APT-C-11","Carbanak Group","Carbon Spider","CARBON SPIDER","CarbonSpider","Coreid","Coried","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","ITG14","JokerStash","Navigator Group","Sangria Tempest"]
+aliases: ["APT-C-11","ATK 32","ATK32","Anunak","CARBON SPIDER","Calcium","Carbanak","Carbanak - APT-C-11","Carbanak Group","Carbon Spider","CarbonSpider","Coreid","Coried","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","Gold Niagara","GrayAlpha","ITG14","JokerStash","Navigator","Navigator Group","Sangria Tempest","TAG-CR1","WILD COMET","Elbrus","Magecart Group 7","TelePort Crew"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities industries in the United States. A portion of FIN7 was operated out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, FIN7 shifted operations to big game hunting (BGH), including use of REvil ransomware and their own Ransomware-as-a-Service (RaaS), Darkside. FIN7 may be linked to the Carbanak Group, but multiple threat groups have been observed using Carbanak, leading these groups to be tracked separately. [FireEye FIN7 March 2017](https://web.archive.org/web/20180808125108/https:/www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html) [FireEye FIN7 April 2017](https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html) [FireEye CARBANAK June 2017](https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html) [FireEye FIN7 Aug 2018](https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html) [CrowdStrike Carbon Spider August 2021](https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/) [Mandiant FIN7 Apr 2022](https://www.mandiant.com/resources/evolution-of-fin7) [BiZone Lizar May 2021](https://bi-zone.medium.com/from-pentest-to-apt-attack-cybercriminal-group-fin7-disguises-its-malware-as-an-ethical-hackers-c23c9a75e319)"
 url: "/fin7"
 country: "Unknown"
@@ -7,7 +7,7 @@ sector_focus: ["Retail","Hospitality","Financial"]
 incident_type: "Financial Theft"
 first_seen: "2015"
 last_activity: "2024"
-last_updated: "2026-04-28"
+last_updated: "2026-10-27"
 risk_level: "High"
 confidence: "high"
 external_id: "G0046"
@@ -19,7 +19,7 @@ source_attribution: "© The MITRE Corporation. This work is reproduced and distr
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fin7"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-operations: ["Odinaff"]
+operations: ["2017","2017-02","2017-03","2017-04","2017-06","2017-07","2017-10","2018","2018-05","2018-11","2018/2019","2019-01","2019-10","2020-03","2020-07","2020-12","2021-06","2021-10","2022-01","2023 Late","2023-03","2024-04","2024-07","A US hospitality provider has recently been the target of an incredibly rare BadUSB attack","A unique aspect of the incidents was how the group installed the CARBANAK backdoor for persistent access. Mandiant identified that the group leveraged an application shim database to achieve persistence on systems in multiple environments. The shim injected a malicious in-memory patch into the Services Control Manager (“services.exe”) process","All of the observed intended recipients of the spear phishing campaign appeared to be involved with SEC filings for their respective organizations.","Arby’s","Attack to target banks and the enterprise","Burgerville","Chili’s","Chipotle: A mysterious group known as Fin7.","Collaboration between FIN7 and the RYUK group","Cybercrime Group FIN7 Using Windows 11 Alpha-Themed Docs to Drop Javascript Backdoor","FIN7 Deploys Anubis Backdoor to Hijack Windows Systems via Compromised SharePoint Sites","FIN7 Power Hour: Adversary Archaeology and the Evolution of FIN7","FIN7 Recruits Talent For Push Into Ransomware","FIN7 Uses Trusted Brands and Sponsored Google Ads to Distribute MSIX Payloads","FIN7 again unleashed a new attack able to bypass almost every security solution. The attack","FIN7 hosting honeypot domains with malicious AI DeepNude Generators – New Silent Push research","FIN7 modified their phishing techniques to implement unique infection and persistence mechanisms. FIN7 has moved away from weaponized Microsoft Office macros in order to evade detection. This round of FIN7 phishing lures implements hidden shortcut files (LNK files) to initiate the infection and VBScript functionality launched by mshta.exe to infect the victim.","FIN7 tradecraft seen in attacks against Veeam backup servers","FIN7: The Truth Doesn't Need to be so STARK","Fifth Avenue","FireEye as a Service (FaaS) identified a spear phishing campaign that appeared to be targeting personnel involved with United States Securities and Exchange Commission (SEC) filings at various organizations.","Flashpoint analysts recently uncovered a new attack panel used by this group in campaigns they have called Astra. The panel","High-profile breaches including Red Robin","Highly sophisticated fileless attack targeting restaurants across the US","In 2018-2019","In a newly-identified campaign","In late February 2017","In this blog","In this blog post","Jason’s Deli","Leveraging Shim Databases for Persistence","Like clockwork","Morphisec Lab identified a new","New Attack Panel and Malware Samples","Odinaff","Omni Hotels and Saks Fifth Avenue","On June 7","Proofpoint researchers have uncovered that the threat actor commonly referred to as FIN7 has added a new Jscript backdoor called Bateleur and updated macros to its toolkit.","Saks Off 5th","Since the loader is specifically built for each targeted machine and requires administrative permissions to deploy","The attack happened after the company received an envelope containing a fake BestBuy gift card","The campaigns","The shared codebase with recent tools attributed to FIN7","This report presents an attack chain that was intercepted and prevented within a customer’s network in December 2020","Threat Group FIN7 Targets the U.S. Automotive Industry","Trump Hotels","Two recent fileless malware campaigns targeting financial institutions","Whole Foods","ZDNet has learned from cyber-security firm Trustwave.","allows to attribute this new loader to the cybercrime group. The timestamps","along with a USB thumb drive.","among many others.","and Lord & Taylor department stores—all owned by The Hudson’s Bay Company—acknowledged a data breach impacting more than five million credit and debit card numbers. The culprits? The same group that’s spent the last few years pulling off data heists from Omni Hotels & Resorts","and then spawned a CARBANAK backdoor process.","disclosed by Kaspersky Lab and Cisco’s Talos research outfit in the last five weeks","during the investigation","functions as a script-management system","government agencies and other enterprises have been linked to the same attack group.","highly sophisticated fileless attack targeting restaurants across the US. The ongoing campaign allows hackers to seize system control and install a backdoor to steal financial information at will. It incorporates some never before seen evasive techniques that allow it to bypass most security solutions – signature and behavior based.","http://blog.morphisec.com/fin7-attack-modifications-revealed","http://blog.morphisec.com/fin7-attacks-restaurant-industry","http://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign","https://blog.morphisec.com/the-evolution-of-the-fin7-jssloader","https://blog.truesec.com/2020/12/22/collaboration-between-fin7-and-the-ryuk-group-a-truesec-investigation/","https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry","https://geminiadvisory.io/fin7-ransomware-bastion-secure/","https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/","https://thehackernews.com/2025/04/fin7-deploys-anubis-backdoor-to-hijack.html","https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369/","https://www.anomali.com/blog/cybercrime-group-fin7-using-windows-11-alpha-themed-docs-to-drop-javascript-backdoor","https://www.esentire.com/blog/fin7-uses-trusted-brands-and-sponsored-google-ads-to-distribute-msix-payloads","https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html","https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html","https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html","https://www.fireeye.com/blog/threat-research/2019/10/mahalo-fin7-responding-to-new-tools-and-techniques.html","https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/","https://www.fortinet.com/blog/threat-research/bioload-fin7-boostwrite-lost-twin.html","https://www.mandiant.com/resources/evolution-of-fin7","https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor","https://www.silentpush.com/blog/fin7-malware-deepfake-ai-honeypot/","https://www.team-cymru.com/post/fin7-the-truth-doesn-t-need-to-be-so-stark","https://www.zdnet.com/article/rare-badusb-attack-detected-in-the-wild-against-us-hospitality-provider/","is yet another demonstration of the high-paced innovation by threat actors.","it suggests the group gathers information about its targets’ networks.","leading the researchers to believe that this threat actor had remained active despite the 2018 arrests. In addition","made extensive use of fileless malware and known penetration testing tools and utilities to spy on organizations and move data and money off of networks.","pushing attack scripts down to compromised computers.","researchers of Kaspersky Lab’s Global Research and Analysis Team analyzed various campaigns that used the same Tactics Tools and Procedures (TTPs) as the historic FIN7","suggest BIOLOAD is a preceding iteration of BOOSTWRITE.","then will focus on a component from a typical FIN7 attack chain - JSSLoader.","together with simpler functionality","together with the same techniques and backdoor","we discovered certain similarities to other attacker groups that seemed to share or copy the FIN7 TTPs in their own operations.","we present our findings on two campaigns","we reveal two of FIN7’s new tools that we have called BOOSTWRITE and RDFSNIFFER.","which occurred in the first and second weeks of November. These campaigns follow patterns similar to those presented by FireEye in August but with just enough variations to bypass many security vendors.","which took place between October 8 to 10","written in PHP"]
 malware:
   - name: "PowerSource"
   - name: "Mimikatz"
@@ -38,6 +38,26 @@ malware:
   - name: "VB Flash"
   - name: "JS FLash"
   - name: "Bateleur"
+  - name: "7Logger"
+  - name: "Anubis Backdoor"
+  - name: "Astra"
+  - name: "BIOLOAD"
+  - name: "BIRDWATCH"
+  - name: "Boostwrite"
+  - name: "CROWVIEW"
+  - name: "Carbanak"
+  - name: "DNSMessenger"
+  - name: "Griffon"
+  - name: "HALFBAKED"
+  - name: "JSSLoader"
+  - name: "LOADOUT"
+  - name: "Lizar"
+  - name: "Meterpreter"
+  - name: "NetSupport Manager"
+  - name: "POWERPLANT"
+  - name: "RDFSNIFFER"
+  - name: "SQLRAT"
+  - name: "Sardonic"
 software:
   - name: "Carbanak"
     mitre_id: "S0030"
@@ -118,13 +138,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-05-17T06:10:47Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T17:28:50Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0008"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/files/2015/02/Carbanak_APT_eng.pdf","http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf","https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks","https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "others"
   aptnotes:
     earliest_report_year: "2014"
@@ -134,42 +157,83 @@ provenance:
     sample_titles: ["Anunak: Apt Against Financial Institutions","Carbanak APT The Great Bank Robbery","Carbanak is packing new guns","Carbanak Oracle Breach","Visa Alert and Update on the Oracle Breach","New Carbanak / Anunak Attack Methodology","The Digital Plagiarist Campaign: TelePorting the Carbanak Crew to a New Dimension","FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings","The Carbanak/Fin7 syndicate","Inside the Response of a Unique CARBANAK Intrusion"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-05-17T06:18:35Z"
+    source_retrieved_at: "2026-10-27T17:29:15Z"
     sources: ["Anomali","Brian Krebs","ESET","FireEye","Group-IB, FOX-IT","Kaspersky","RSA","Trustwave","Visa","tr1adx"]
+  etda_thai_group_cards:
+    mitre_group_ids: ["G0046"]
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "c3f1f1ff-7d79-4385-bb5b-340c252c5a77"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Carbon Spider"]
+      Fox-IT: ["Navigator"]
+      Group-IB: ["Anunak"]
+      IBM: ["ITG14"]
+      Kaspersky: ["Carbanak"]
+      MITRE: ["G0046"]
+      Mandiant/FireEye: ["FIN7"]
+      Microsoft: ["Elbrus","Sangria Tempest"]
+      Qihoo 360: ["APT-C-11"]
+      Recorded Future: ["TAG-CR1"]
+      RiskIQ: ["Magecart Group 7"]
+      Secureworks: ["Gold Niagara"]
+      Symantec: ["Calcium","Coreid"]
+      Thales: ["ATK32"]
+      tr1adx: ["TelePort Crew"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "fin7"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "fin7"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fin7"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "00220228-a5a4-4032-a30d-826bb55aa3fb"
+  microsoft_threat_actor_list:
+    categories: ["Financially motivated"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Sangria Tempest"
+    origin_category: "Ukraine, Financially motivated"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "sangriatempest"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["attribution-confidence","cfr-type-of-incident","country","motive","origin:FIN7","origin:GOLD NIAGARA","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector"]
+    meta_keys: ["attribution-confidence","cfr-type-of-incident","country","motive","origin:FIN7","origin:GOLD NIAGARA","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","tidal-groups.json","360net.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "00220228-a5a4-4032-a30d-826bb55aa3fb"
     source_record_ids: ["00220228-a5a4-4032-a30d-826bb55aa3fb","4348c510-50fc-4448-ab8d-c8cededd19ff","a4aba29f-fb91-50d9-bdf9-2b184922a200","9471ad21-0553-5483-bf7c-e6ad9c062c79","72d9bea7-9ca1-43e6-8702-2fb7fb1355de"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:59Z"
   mitre:
-    attack_version: "19.1"
+    attack_version: "20.0"
     attack_version_by_domain:
-      enterprise: "19.1"
-      ics: "19.1"
-      mobile: "19.1"
-    relationships_imported_at: "2026-05-17T06:10:47Z"
+      enterprise: "20.0"
+      ics: "20.0"
+      mobile: "20.0"
+    relationships_imported_at: "2026-10-27T17:28:50Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0008"
-    source_retrieved_at: "2026-05-17T06:10:47Z"
+    source_retrieved_at: "2026-10-27T17:28:50Z"
     stix_intrusion_set_id: "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c"
   ransomware_vulnerability_matrix:
     actor_roles: ["ransomware_affiliate"]
     references:
       - title: "blogs.blackberry.com"
         url: "https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america"
+        source_file: "Vulnerabilities/Applications.md"
+      - title: "group-ib.com"
+        url: "https://www.group-ib.com/blog/qilin-revisited/"
         source_file: "Vulnerabilities/Applications.md"
       - title: "labs.withsecure.com"
         url: "https://labs.withsecure.com/publications/fin7-target-veeam-servers"
@@ -191,11 +255,18 @@ provenance:
     source_files: ["Vulnerabilities/Applications.md"]
     source_label: "FIN7"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-04-28T02:11:22Z"
+    source_retrieved_at: "2026-10-27T17:28:00Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "Veeam"
           product: "Backup & Replication"
           cves: ["CVE-2023-27532"]
-          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor"]
+          source_links: ["https://labs.withsecure.com/publications/fin7-target-veeam-servers","https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america","https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/","https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/","https://news.sophos.com/en-us/2025/04/01/sophos-mdr-tracks-ongoing-campaign-by-qilin-affiliates-targeting-screenconnect/","https://www.security.com/threat-intelligence/ransomhub-betruger-backdoor","https://www.group-ib.com/blog/qilin-revisited/"]
           source_file: "Vulnerabilities/Applications.md"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "FIN7"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/FIN7/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/FIN7/FIN7_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

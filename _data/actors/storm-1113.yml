@@ -12,13 +12,28 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "storm-1113"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-1113"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "993e81e8-63f4-4666-9538-4053a69287ba"
+  microsoft_threat_actor_list:
+    categories: ["Financially motivated"]
+    license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
+    microsoft_name: "Storm-1113"
+    origin_category: "Financially motivated"
+    source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
+    source_record_id: "storm1113"
+    source_retrieved_at: "2026-10-27T17:18:32Z"
   misp_galaxy:
-    meta_keys: ["origin:Storm-1113","refs","synonyms","microsoft-origin-threat"]
+    meta_keys: ["origin:Storm-1113","refs","synonyms","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
     source_clusters: ["threat-actor.json","microsoft-activity-group.json"]
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "993e81e8-63f4-4666-9538-4053a69287ba"
     source_record_ids: ["993e81e8-63f4-4666-9538-4053a69287ba","669b24db-d543-560a-851a-5ba81a586350"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
+  reddrip7_apt_digital_weapon:
+    actor_folder: "Storm-1113"
+    actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Storm-1113/README.md"
+    ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Storm-1113/Storm-1113_hash.md"
+    source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
+    source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
+    source_retrieved_at: "2026-10-27T17:29:20Z"

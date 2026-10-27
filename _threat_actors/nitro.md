@@ -22,7 +22,14 @@ These attackers were the subject of an extensive report by Symantec in 2011, whi
 
 
 ## Notable Campaigns
-*Information pending cataloguing.*
+- **2014-07**
+- **Historically**
+- **New Indicators of Compromise found**
+- **Nitro appears to have somewhat modified their malware and delivery methods to include Spindest and legitimate compromised websites**
+- **Nitro is known for targeted spear phishing campaigns and using Poison Ivy malware**
+- **as reported by Cyber Squared’s TCIRT.**
+- **https://unit42.paloaltonetworks.com/new-indicators-compromise-apt-group-nitro-uncovered/**
+- **which was not seen in these attacks. Since at least 2013**
 
 ## Tactics, Techniques, and Procedures (TTPs)
 *Information pending cataloguing.*
@@ -31,7 +38,10 @@ These attackers were the subject of an extensive report by Symantec in 2011, whi
 *No atomic indicators are listed in this profile. The APTnotes snapshot indexes 2 public reports that may contain IOCs; see Source Attribution for dataset links.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Gh0st RAT**: 
+- **PCClient**: 
+- **Poison Ivy**: 
+- **Spindest**: 
 
 ## Attribution and Evidence
 **Country of Origin**: China

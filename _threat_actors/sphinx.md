@@ -22,7 +22,11 @@ ransomware
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+### Ransomware Tool Matrix observations
+
+| Category | Observed tools |
+|---|---|
+| Credential Theft | Mimikatz, SessionGopher |
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

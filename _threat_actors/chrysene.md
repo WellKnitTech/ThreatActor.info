@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "CHRYSENE"
-aliases: ["OilRig","Greenbug","CHRYSENE","Hazel Sandstorm","EUROPIUM","Cobalt Gypsy","APT34","HELIX KITTEN","Crambus"]
+aliases: ["APT34","CHRYSENE","Cobalt Gypsy","Crambus","EUROPIUM","Greenbug","HELIX KITTEN","Hazel Sandstorm","OilRig"]
 description: "Adversaries abusing ICS (based on Dragos Inc adversary list). This threat actor targets organizations involved in oil, gas, and electricity production, primarily in the Gulf region, for espionage purpo"
 permalink: /chrysene/
 ---

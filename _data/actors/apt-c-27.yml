@@ -1,5 +1,5 @@
 name: "APT-C-27"
-aliases: ["GoldMouse","Golden RAT","ATK80","APT-C-27","Golden Rat","Goldmouse","黄金鼠 - APT-C-27"]
+aliases: ["APT-C-27","ATK 80","ATK80","GoldMouse","Golden RAT","Golden Rat","Goldmouse","黄金鼠 - APT-C-27","Deadeye Hawk"]
 description: "A threat actor which is ac tive since at least November 2014. This group launched long-term at tacks against organizations in the Syrian region using Android and Windows malwares. Its objective is the theft of sensitive information."
 url: "/apt-c-27"
 country: "China"
@@ -9,19 +9,42 @@ source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 lic
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-27"
 source_license: "CC BY-NC-SA 3.0"
 source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
-malware: ["DroidJack","Androrat","Windows Remote Desktop"]
+malware:
+  - "DroidJack"
+  - "Androrat"
+  - "Windows Remote Desktop"
+  - name: "GoldenRAT"
+  - name: "a WinRAR exploit"
+  - name: "njRAT"
 provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.anquanke.com/post/id/94072","https://securityaffairs.co/wordpress/74670/malware/apt-c-27-syria-espionage.html","https://blog.360totalsecurity.com/en/the-sample-analysis-of-apt-c-27s-recent-attack/","https://ti.360.net/blog/articles/apt-c-27-(goldmouse):-suspected-target-attack-against-the-middle-east-with-winrar-exploit-en/"]
-    source_retrieved_at: "2026-05-17T06:18:34Z"
+    source_retrieved_at: "2026-10-27T17:29:13Z"
     tab_name: "middle-east"
+  etda_thai_group_cards:
+    source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
+    source_record_id: "a9039e6e-531f-4b17-9c0d-ba8905ce5293"
+    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Deadeye Hawk"]
+      Qihoo 360: ["APT-C-27"]
+      Thales: ["ATK80"]
+    confidence: "High"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "goldmouse"
+    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_version: "1.2"
+    type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt-c-27"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt-c-27"
-    source_retrieved_at: "2026-05-17T06:18:32Z"
+    source_retrieved_at: "2026-10-27T17:29:04Z"
     source_uuid: "ee7f535d-cc3e-40f3-99f3-c97963cfa250"
   misp_galaxy:
     meta_keys: ["country","origin:APT-C-27","refs","since","suspected-victims","synonyms"]
@@ -30,4 +53,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "ee7f535d-cc3e-40f3-99f3-c97963cfa250"
     source_record_ids: ["ee7f535d-cc3e-40f3-99f3-c97963cfa250","b3b6f113-fe2c-5d75-ba41-b333ce726f4a"]
-    source_retrieved_at: "2026-05-17T06:18:28Z"
+    source_retrieved_at: "2026-10-27T17:28:58Z"
