@@ -20,8 +20,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "8c97d58a-cd24-57a8-90ba-4bb20f00e8ae"
     source_record_ids: ["8c97d58a-cd24-57a8-90ba-4bb20f00e8ae"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "kasseika"
-  source_retrieved_at: "2026-10-27T17:23:57Z"
+  source_retrieved_at: "2026-10-27T20:37:17Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

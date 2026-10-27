@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DarkPink"
-aliases: ["Dark PInk","DarkPink","Saaiwc","Saaiwc Group","Dark Pink","APT-LY-1005"]
+aliases: ["APT-LY-1005","Dark PInk","Dark Pink","DarkPink","Saaiwc","Saaiwc Group"]
 description: "DarkPink is an APT group that has been active since mid-2021, primarily targeting government, military, and non-profit organizations in Southeast Asia and Europe. The group employs spear phishing techn"
 permalink: /darkpink/
 ---

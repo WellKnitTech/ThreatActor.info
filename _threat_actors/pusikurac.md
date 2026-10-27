@@ -27,6 +27,7 @@ permalink: /pusikurac/
 
 ## Malware and Tools
 - **Orcus RAT**
+- **Orcus RAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

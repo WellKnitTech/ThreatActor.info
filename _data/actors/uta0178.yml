@@ -28,7 +28,7 @@ provenance:
     source_repository: "https://github.com/BushidoUK/Breach-Report-Collection"
     source_dataset_url: "https://raw.githubusercontent.com/BushidoUK/Breach-Report-Collection/main/README.md"
     source_attribution: "References were identified via the BushidoToken Breach Report Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is used here as a report index. Copyright in linked reports remains with the original publishers."
-    source_retrieved_at: "2026-10-27T17:29:27Z"
+    source_retrieved_at: "2026-10-27T20:42:06Z"
     reports:
       - organization: "MITRE"
         breach_date: "April 2024"
@@ -38,13 +38,13 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "41ed823b-f62c-439a-9304-f9016f8dcef1"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "uta0178"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uta0178"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "f288f686-b5b3-4c86-9960-5f8fb18709a3"
   misp_galaxy:
     meta_keys: ["cfr-suspected-victims","country","origin:UNC5221","refs","synonyms","group_attack_id","observed_countries","observed_motivations","owner","source","tags","target_categories","name-attribution","origin:ARMORY CASTLE"]
@@ -53,11 +53,17 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f288f686-b5b3-4c86-9960-5f8fb18709a3"
     source_record_ids: ["f288f686-b5b3-4c86-9960-5f8fb18709a3","71e9b27e-8d68-4ed6-b3ab-14142558b9ff"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   reddrip7_apt_digital_weapon:
     actor_folder: "UNC5221"
     actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC5221/README.md"
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/UNC5221/UNC5221_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
+  wiz_cloud_threat_landscape:
+    source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
+    source_name: "Wiz Cloud Threat Landscape"
+    source_record_id: "threat-actor--82494930-131b-5754-8de7-233c22554b02"
+    source_record_modified: "2024-03-11T17:40:00.000Z"
+    source_retrieved_at: "2026-10-27T20:32:42Z"

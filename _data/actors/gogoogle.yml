@@ -12,7 +12,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "df998c50-52d0-462d-9bbb-5b93a5adc7b0"
     source_record_ids: ["df998c50-52d0-462d-9bbb-5b93a5adc7b0"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "GoGoogle Ransomware"
@@ -23,7 +23,7 @@ provenance:
     source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md"]
     source_label: "GoGoogle"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["LaZagne","Mimikatz","NirSoft BulletsPassView","NirSoft ChromePass","NirSoft Dialupass","NirSoft IEPassView (iepv)","NirSoft MailPassView","NirSoft Netpass","NirSoft OperaPassView","NirSoft RemoteDesktopPassView (rdpv)","NirSoft RouterPassView","NirSoft SniffPass","NirSoft VNCPassView","NirSoft WebBrowserPassView","NirSoft WirelessKeyView","PasswordFox"]
       Discovery: ["Advanced IP Scanner"]

@@ -66,13 +66,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0017"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/","http://researchcenter.paloaltonetworks.com/2017/01/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions/","https://blogs.forcepoint.com/security-labs/trojanized-adobe-installer-used-install-dragonok%E2%80%99s-new-custom-backdoor","http://www.morphick.com/resources/news/deep-dive-dragonok-rambo-backdoor","https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf","https://decoded.avast.io/luigicamastra/operation-dragon-castling-apt-group-targeting-betting-companies/","https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2017"
@@ -82,19 +85,19 @@ provenance:
     sample_titles: ["DragonOK Updates Toolset and Targets Multiple Geographic Regions"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Palo Alto Networks"]
   etda_thai_group_cards:
     mitre_group_ids: ["G0017"]
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "6823d807-dfa8-42f3-84d5-986a7ef60c56"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dragonok"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonok"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "a9b44750-992c-4743-8922-129880d277ea"
   mitre:
     attack_version: "20.0"
@@ -102,14 +105,14 @@ provenance:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0017"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--f3bdec95-3d62-42d9-a840-29630f6cdc1a"
   reddrip7_apt_digital_weapon:
     actor_folder: "DragonCastling"
@@ -117,5 +120,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/DragonCastling/DragonCastling_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
 source: "MITRE ATT&CK"

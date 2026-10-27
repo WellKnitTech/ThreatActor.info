@@ -16,7 +16,7 @@ provenance:
     sample_titles: ["You Only Click Twice: Finfisher's Global Proliferation","Global Threat Intel Report","Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Citizen Lab","Crowdstrike","cisa"]
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -25,8 +25,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "0876ad69-117b-5eaf-a364-a4b65811a261"
     source_record_ids: ["0876ad69-117b-5eaf-a364-a4b65811a261"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "global"
-  source_retrieved_at: "2026-10-27T17:21:33Z"
+  source_retrieved_at: "2026-10-27T20:35:37Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

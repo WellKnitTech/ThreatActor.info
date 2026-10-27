@@ -36,7 +36,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Trigona
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -71,7 +71,7 @@ provenance:
     - Vulnerabilities/Applications.md
     source_label: Trigona
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-10-27T17:28:00Z'
+    source_retrieved_at: '2026-10-27T20:40:36Z'
     vulnerabilities_by_category:
       Applications:
       - vendor: Zoho
@@ -84,7 +84,7 @@ provenance:
         source_file: Vulnerabilities/Applications.md
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: trigona
-  source_retrieved_at: '2026-10-27T17:21:42Z'
+  source_retrieved_at: '2026-10-27T20:35:44Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -93,5 +93,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Salty Scorpius

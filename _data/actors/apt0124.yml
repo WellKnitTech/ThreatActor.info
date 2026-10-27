@@ -66,6 +66,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   misp_galaxy:
     meta_keys: ["group_attack_id","source"]
@@ -74,20 +77,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "eeb69751-8c22-4a5f-8da2-239cc7d7746c"
     source_record_ids: ["eeb69751-8c22-4a5f-8da2-239cc7d7746c"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0124"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--4e868dad-682d-4897-b8df-2dc98f46c68a"
 source: "MITRE ATT&CK"

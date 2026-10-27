@@ -2,6 +2,7 @@ name: "Patchwork"
 aliases: ["Chinastrats","Dropping Elephant","Hangover Group","MONSOON","Operation Hangover","Patchwork"]
 description: "Patchwork is a cyber espionage group that was first observed in December 2015. While the group has not been definitively attributed, circumstantial evidence suggests the group may be a pro-Indian or Indian entity. Patchwork has been seen targeting industries related to diplomatic and government agencies. Much of the code used by this group was copied and pasted from online forums. Patchwork was also seen operating spearphishing campaigns targeting U.S. think tank groups in March and April of 2018. [Cymmetria Patchwork](https://web.archive.org/web/20180825085952/https:/s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf) [Symantec Patchwork](http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries) [TrendMicro Patchwork Dec 2017](https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf) [Volexity Patchwork June 2018](https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/)"
 url: "/apt0040"
+confidence: "high"
 external_id: "G0040"
 external_url: "https://attack.mitre.org/groups/G0040"
 mitre_id: "G0040"
@@ -238,6 +239,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   mitre:
     attack_version: "20.0"
@@ -245,14 +249,14 @@ provenance:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0040"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0"
   reddrip7_apt_digital_weapon:
     actor_folder: "PatchWork"
@@ -260,5 +264,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/PatchWork/PatchWork_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
 source: "MITRE ATT&CK"

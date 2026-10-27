@@ -113,6 +113,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 campaigns:
 - name: Triton Safety Instrumented System Attack
   campaign_id: C0030
@@ -143,7 +146,7 @@ provenance:
     - https://ics-cert.us-cert.gov/MAR-17-352-01-HatMan%E2%80%94Safety-System-Targeted-Malware
     - https://www.fireeye.com/blog/threat-research/2017/12/attackers-deploy-new-ics-attack-framework-triton.html
     - https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: unknown
   aptnotes:
     earliest_report_year: '2017'
@@ -158,16 +161,23 @@ provenance:
       to Critical Infrastructure
     source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
     source_repository: https://github.com/aptnotes/data
-    source_retrieved_at: '2026-10-27T17:29:15Z'
+    source_retrieved_at: '2026-10-27T20:41:54Z'
     sources:
     - Dragos
     - FireEye
+  dragos_threat_groups:
+    source_name: Dragos Threat Groups
+    source_dataset_url: https://www.dragos.com/threat-groups
+    source_retrieved_at: '2026-10-27T20:41:06Z'
+    source_record_id: XENOTIME
+    source_urls:
+    - https://www.dragos.com/threat/xenotime
   etda_thai_group_cards:
     mitre_group_ids:
     - G0088
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: ea108a02-eb3a-4e08-be7b-bd164fc5c220
-    source_retrieved_at: '2026-10-27T17:18:12Z'
+    source_retrieved_at: '2026-10-27T20:33:01Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -188,14 +198,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: tritongroup
-    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_retrieved_at: '2026-10-27T20:33:17Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: temp.veles
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/temp.veles
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: 90abfc42-91c6-11e9-89b1-af58de8f7ec2
   misp_galaxy:
     meta_keys:
@@ -227,21 +237,21 @@ provenance:
     - 90abfc42-91c6-11e9-89b1-af58de8f7ec2
     - 3a54b8dc-a231-4db8-96da-1c0c1aa396f6
     - acb04037-e160-4a4e-a8cf-8a53a2f8221b
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:37Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0088
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4
   reddrip7_apt_digital_weapon:
     actor_folder: TRITON
@@ -251,12 +261,5 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-10-27T17:29:20Z'
-  dragos_threat_groups:
-    source_name: Dragos Threat Groups
-    source_dataset_url: https://www.dragos.com/threat-groups
-    source_retrieved_at: '2026-10-27T17:28:31Z'
-    source_record_id: XENOTIME
-    source_urls:
-    - https://www.dragos.com/threat/xenotime
+    source_retrieved_at: '2026-10-27T20:41:59Z'
 source: MITRE ATT&CK

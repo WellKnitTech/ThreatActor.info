@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "MALLARD SPIDER"
-aliases: ["GOLD LAGOON","Gold Lagoon","MALLARD SPIDER","Mallard Spider","ITG26","White Horoja"]
+aliases: ["GOLD LAGOON","Gold Lagoon","ITG26","MALLARD SPIDER","Mallard Spider","White Horoja"]
 description: "Crowdstrike tarcks the operators behind the Qbot as MALLARD SPIDER"
 permalink: /mallard-spider/
 ---

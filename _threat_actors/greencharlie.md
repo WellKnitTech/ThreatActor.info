@@ -30,6 +30,10 @@ permalink: /greencharlie/
 - **NOKNOK**
 - **POWERSTAR**
 - **TAMECAT**
+- **GORBLE**: 
+- **NOKNOK**: 
+- **POWERSTAR**: 
+- **TAMECAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Iran"]

@@ -6,18 +6,28 @@ country: "[\"China\"]"
 source_name: "ETDA / ThaiCERT Threat Group Cards"
 source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
 operations: ["2017-01","A Whale of a Tale: HummingBad Returns","https://blog.checkpoint.com/2017/01/23/hummingbad-returns/"]
-malware: ["DroidPlugin","Eomobi","HummingBad","HummingWhale","Yispecter"]
+malware:
+  - "DroidPlugin"
+  - "Eomobi"
+  - "HummingBad"
+  - "HummingWhale"
+  - "Yispecter"
+  - name: "DroidPlugin"
+  - name: "Eomobi"
+  - name: "HummingBad"
+  - name: "HummingWhale"
+  - name: "Yispecter"
 provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "e97f9ec0-b69d-408b-aa78-049e67d50c93"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     confidence: "High"
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "yingmob"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"

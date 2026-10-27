@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT1"
-aliases: ["APT 1","APT1","Brown Fox","BrownFox","Byzantine Candor","Byzantine Hades","COMMENT PANDA","Comment Crew","Comment Group","Comment Panda","G0006","GIF89a","Group 3","Operation “Oceansalt”","Operation “Seasalt”","Operation “Siesta”","PLA Unit 61398","ShadyRAT","Shanghai Group","TG-8223","Shady RAT"]
+aliases: ["APT 1","APT1","Brown Fox","BrownFox","Byzantine Candor","Byzantine Hades","COMMENT PANDA","Comment Crew","Comment Group","Comment Panda","G0006","GIF89a","Group 3","Operation “Oceansalt”","Operation “Seasalt”","Operation “Siesta”","PLA Unit 61398","Shady RAT","ShadyRAT","Shanghai Group","TG-8223"]
 description: "APT1 is a Chinese cyber espionage group that has been conducting cyber espionage against a broad range of victims."
 permalink: /apt1/
 ---

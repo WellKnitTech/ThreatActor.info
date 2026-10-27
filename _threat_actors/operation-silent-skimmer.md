@@ -35,6 +35,15 @@ permalink: /operation-silent-skimmer/
 - **PowerShell RAT**
 - **SharpToken**
 - **SweetPotato**
+- **BadPotato**: 
+- **Cobalt Strike**: 
+- **GodPotato**: 
+- **Godzilla**: 
+- **JuicyPotato**: 
+- **Living off the Land**: 
+- **PowerShell RAT**: 
+- **SharpToken**: 
+- **SweetPotato**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

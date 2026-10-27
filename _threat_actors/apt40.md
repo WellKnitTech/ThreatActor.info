@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "APT40"
-aliases: ["APT 40","APT40","ATK 29","ATK29","BRONZE MOHAWK","Bronze Mohawk","Electric Panda","Feverdream","Flaccid Rose","G0065","GADOLINIUM","Gadolinium","Gingham Typhoon","Hainan Xiandun Technology Company","ISLAND CASTLE","ISLANDDREAMS","ITG09","IslandDreams","JJDoor","Jumper Taurus","KRYPTONITE PANDA","Kryptonite Panda","Ladon","Leviathan","Leviathon","MUDCARP","Mudcarp","Nanhaishu","Pickleworm","Red Ladon","ScanBox","TA423","TEMP.Jumper","TEMP.Periscope","Temp.Jumper","Temp.Periscope"]
+aliases: ["APT 40","APT40","ATK 29","ATK29","BRONZE MOHAWK","Bronze Mohawk","ELECTRIC PANDA","Electric Panda","Feverdream","Flaccid Rose","G0065","GADOLINIUM","Gadolinium","Gingham Typhoon","Hainan Xiandun Technology Company","ISLAND CASTLE","ISLANDDREAMS","ITG09","IslandDreams","JJDoor","Jumper Taurus","KRYPTONITE PANDA","Kryptonite Panda","Ladon","Leviathan","Leviathon","MUDCARP","Mudcarp","Nanhaishu","Pickleworm","Red Ladon","ScanBox","TA423","TEMP.Jumper","TEMP.Periscope","Temp.Jumper","Temp.Periscope"]
 description: "Leviathan is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company. [CISA A"
 permalink: /apt40/
 ---

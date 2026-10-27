@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "DAGGER PANDA"
-aliases: ["ATK 23","DAGGER PANDA","Dagger Panda","Fucobha","Ice Fog","IceFog","Icefog","PLA Unit 69010","Red Foxtrot","Red Wendigo","RedFoxtrot","Temp.Trident","Trident","UAT-7290","ATK23","SectorB06"]
+aliases: ["ATK 23","ATK23","DAGGER PANDA","Dagger Panda","Fucobha","Ice Fog","IceFog","Icefog","PLA Unit 69010","Red Foxtrot","Red Wendigo","RedFoxtrot","SectorB06","Temp.Trident","Trident","UAT-7290"]
 description: "Operate since at least 2011, from several locations in China, with members in Korea and Japan as well. Possibly linked to Onion Dog. This threat actor targets government institutions, military contract"
 permalink: /dagger-panda/
 ---

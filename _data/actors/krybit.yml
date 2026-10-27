@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "krybit"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/krybit"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "d73792c0-97d3-4aff-8e34-96bf335bf54b"
   misp_galaxy:
     meta_keys: ["refs","links"]
@@ -22,8 +22,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d73792c0-97d3-4aff-8e34-96bf335bf54b"
     source_record_ids: ["d73792c0-97d3-4aff-8e34-96bf335bf54b","df0c10ac-63b4-5361-b661-e4c250c6bce9"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "krybit"
-  source_retrieved_at: "2026-10-27T17:26:57Z"
+  source_retrieved_at: "2026-10-27T20:39:44Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

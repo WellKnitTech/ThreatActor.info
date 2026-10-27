@@ -1,5 +1,5 @@
 name: "Naikon"
-aliases: ["BRONZE GENEVA","BRONZE STERLING","Camerashy","G0013","G0019","Naikon","OVERRIDE PANDA","PLA Unit 78020","NAIKON CASTLE"]
+aliases: ["BRONZE GENEVA","BRONZE STERLING","Camerashy","G0013","G0019","Naikon","NAIKON CASTLE","OVERRIDE PANDA","PLA Unit 78020"]
 description: "Naikon is assessed to be a state-sponsored cyber espionage group attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau (Military Unit Cover Designator 78020). [CameraShy](http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf) Active since at least 2010, Naikon has primarily conducted operations against government, military, and civil organizations in Southeast Asia, as well as against international bodies such as the United Nations Development Programme (UNDP) and the Association of Southeast Asian Nations (ASEAN). [CameraShy](http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf) [Baumgartner Naikon 2015](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf) \n\nWhile Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches. [Baumgartner Golovkin Naikon 2015](https://securelist.com/the-naikon-apt/69953/)"
 url: "/apt0019"
 country: "China"
@@ -190,13 +190,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0019"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/analysis/publications/69953/the-naikon-apt/","http://blog.trendmicro.com/trendlabs-security-intelligence/rarstone-found-in-targeted-attacks/","https://www.threatconnect.com/camerashy/","http://www.crowdstrike.com/blog/rhetoric-foreshadows-cyber-activity-in-the-south-china-sea/","https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets","https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/","https://www.symantec.com/blogs/threat-intelligence/thrip-apt-south-east-asia","https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/","https://cluster25.io/2022/04/29/lotus-panda-awake-last-strike/","https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/espionage-asia-governments-cert-authority","https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf","https://symantec-enterprise-blogs.security.com/threat-intelligence/telecoms-espionage-asia"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2015"
@@ -206,13 +209,13 @@ provenance:
     sample_titles: ["The Msnmm Campaigns: The Earliest Naikon APT Campaigns"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Kaspersky"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "naikon"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/naikon"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "2f1fd017-9df6-4759-91fb-e7039609b5ff"
   mitre:
     attack_version: "20.0"
@@ -220,13 +223,13 @@ provenance:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0019"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050"
 source: "MITRE ATT&CK"

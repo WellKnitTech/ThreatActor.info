@@ -20,7 +20,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Everest"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["ProcDump"]
       Discovery: ["SoftPerfect NetScan"]
@@ -28,5 +28,5 @@ provenance:
       RMM Tools: ["AnyDesk","Atera","Splashtop"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "everest"
-  source_retrieved_at: "2026-10-27T17:19:18Z"
+  source_retrieved_at: "2026-10-27T20:33:58Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

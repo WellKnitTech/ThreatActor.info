@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "b87375f3-fa83-5a36-af3a-801ca589cd49"
     source_record_ids: ["b87375f3-fa83-5a36-af3a-801ca589cd49"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_vulnerability_matrix:
     references:
       - title: "arcticwolf.com"
@@ -25,7 +25,7 @@ provenance:
     source_files: ["Vulnerabilities/Applications.md"]
     source_label: "Lorenz"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "Mitel"
@@ -35,5 +35,5 @@ provenance:
           source_file: "Vulnerabilities/Applications.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "lorenz"
-  source_retrieved_at: "2026-10-27T17:21:25Z"
+  source_retrieved_at: "2026-10-27T20:35:32Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -31,6 +31,11 @@ permalink: /bookworm/
 - **PlugX**
 - **Poison Ivy**
 - **Scieron**
+- **Bookworm**: 
+- **FormerFirstRAT**: 
+- **PlugX**: 
+- **Poison Ivy**: 
+- **Scieron**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

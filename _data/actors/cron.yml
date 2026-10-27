@@ -6,12 +6,18 @@ country: "[\"Russia\"]"
 source_name: "ETDA / ThaiCERT Threat Group Cards"
 source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
 operations: ["200 financial institutions","2017-12","New malware targets accounts at over 2","https://blog.avast.com/new-version-of-mobile-malware-catelites-possibly-linked-to-cron-cyber-gang"]
-malware: ["Catelites Bot","CronBot","TinyZBot"]
+malware:
+  - "Catelites Bot"
+  - "CronBot"
+  - "TinyZBot"
+  - name: "Catelites Bot"
+  - name: "CronBot"
+  - name: "TinyZBot"
 provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "f7dde02d-7652-4c04-8782-cf56b07b667a"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -20,6 +26,6 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "cron"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"

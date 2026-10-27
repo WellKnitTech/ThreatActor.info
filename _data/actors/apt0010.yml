@@ -1142,6 +1142,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   apt_groups_operations:
     matched_mitre_ids:
@@ -1169,7 +1172,7 @@ provenance:
     - https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/
     - https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments
     - https://securelist.com/turla-renews-its-arsenal-with-topinambour/91687/
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: russia
   aptnotes:
     earliest_report_year: '2014'
@@ -1200,7 +1203,7 @@ provenance:
     - Turla group update Neuron malware
     source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
     source_repository: https://github.com/aptnotes/data
-    source_retrieved_at: '2026-10-27T17:29:15Z'
+    source_retrieved_at: '2026-10-27T20:41:54Z'
     sources:
     - BAE Systems
     - Bitdefender
@@ -1217,7 +1220,7 @@ provenance:
     - T1202
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: ebff5365-ae36-4e47-a310-28c1f3be0b3a
-    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_retrieved_at: '2026-10-27T20:33:01Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -1267,14 +1270,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: turla
-    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_retrieved_at: '2026-10-27T20:33:17Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: white_bear
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/white_bear
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6
   microsoft_threat_actor_list:
     license_status: Microsoft publishes this workbook for public reuse and regular
@@ -1283,7 +1286,7 @@ provenance:
     origin_category: Russia
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: secretblizzard
-    source_retrieved_at: '2026-10-27T17:18:32Z'
+    source_retrieved_at: '2026-10-27T20:33:19Z'
   misp_galaxy:
     meta_keys:
     - attribution-confidence
@@ -1321,21 +1324,21 @@ provenance:
     - 1972273e-2152-558c-b575-222c6d2f3e10
     - 8d19da8a-d0fa-5194-ad6f-315cc4f36c8b
     - 822b3254-d715-46bc-8011-c5b647d314dc
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0010
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6
   reddrip7_apt_digital_weapon:
     actor_folder: Turla
@@ -1345,7 +1348,7 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-10-27T17:29:20Z'
+    source_retrieved_at: '2026-10-27T20:41:59Z'
   russian_apt_tool_matrix:
     references:
     - title: web-assets.esetstatic.com
@@ -1393,7 +1396,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Turla
     source_repository: https://github.com/BushidoUK/Russian-APT-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:28:04Z'
+    source_retrieved_at: '2026-10-27T20:40:40Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -1425,6 +1428,6 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Pensive Ursa
 source: MITRE ATT&CK

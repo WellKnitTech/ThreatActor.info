@@ -6,10 +6,12 @@ country: "[\"[Unknown]\"]"
 source_name: "ETDA / ThaiCERT Threat Group Cards"
 source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
 operations: ["2020-11","Group-IB experts discovered a new wave of UltraRank attacks.","https://www.group-ib.com/blog/ultrarank"]
-malware: ["SnifLite"]
+malware:
+  - "SnifLite"
+  - name: "SnifLite"
 provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "bc7f20e6-c4c5-4112-98f5-a36717a3ebcb"
-    source_retrieved_at: "2026-10-27T17:18:13Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

@@ -30,6 +30,10 @@ permalink: /operation-digital-eye/
 - **Mimikatz**
 - **PHPsert**
 - **mim221**
+- **Living off the Land**: 
+- **Mimikatz**: 
+- **PHPsert**: 
+- **mim221**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

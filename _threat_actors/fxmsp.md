@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Fxmsp"
-aliases: ["ATK 134","Fxmsp","TAG-CR17","ATK134"]
+aliases: ["ATK 134","ATK134","Fxmsp","TAG-CR17"]
 description: "Throughout 2017 and 2018, Fxmsp established a network of trusted proxy resellers to promote their breaches on the criminal underground. Some of the known Fxmsp TTPs included accessing network environme"
 permalink: /fxmsp/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Predatory Sparrow"
-aliases: ["Gonjeshk Darand","GonjeshkDarand","Gonjeshke Darande","Indra","Predatory Sparrow","گنجشک درنده","UNC4368","MeteorExpress"]
+aliases: ["Gonjeshk Darand","GonjeshkDarand","Gonjeshke Darande","Indra","MeteorExpress","Predatory Sparrow","UNC4368","گنجشک درنده"]
 description: "A self-proclaimed hacktivist group that carried out attacks against Iranian railway systems and against Iranian steel plants."
 permalink: /predatory-sparrow/
 ---

@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "alpha_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/alpha_spider"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "6149f3b6-510d-4e45-bf88-cd25c7193702"
   misp_galaxy:
     meta_keys: ["refs","synonyms"]
@@ -89,7 +89,7 @@ provenance:
     source_files: ["GroupProfiles/BlackCat.md","Vulnerabilities/Applications.md","Vulnerabilities/Linux.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
     source_label: "ALPHV / Black Cat / BlackCat"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "Veritas"

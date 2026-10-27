@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "luna_moth"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/luna_moth"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "f5022a01-27c3-4cff-bc64-9980dc003a66"
   misp_galaxy:
     meta_keys: ["refs","synonyms","group_attack_id","observed_motivations","owner","source","tags","target_categories"]

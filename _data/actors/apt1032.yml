@@ -260,6 +260,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   apt_groups_operations:
     sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
@@ -268,7 +271,7 @@ provenance:
     - https://www.cybereason.com/blog/threat-alert-inc-ransomware
     - https://www.sentinelone.com/anthology/inc-ransom/
     - https://www.malwarebytes.com/blog/threat-intelligence/2023/09/ransomware-review-september-2023
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: unknown
   misp_galaxy:
     meta_keys:
@@ -289,21 +292,21 @@ provenance:
     source_record_ids:
     - 8957f42d-a069-542b-bce6-3059a2fa0f2e
     - 382c9986-8a55-5917-b04e-b0bf2e495320
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1032
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--cb41e991-65f4-4668-a65f-f4200545b5a1
   ransomware_tool_matrix:
     community_reports:
@@ -351,7 +354,7 @@ provenance:
     - Tools/LOLBAS.md
     source_label: INC Ransom
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -401,7 +404,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: INC Ransom
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-10-27T17:28:00Z'
+    source_retrieved_at: '2026-10-27T20:40:36Z'
     vulnerabilities_by_category:
       Virtualization:
       - vendor: Citrix
@@ -418,6 +421,6 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Tarnished Scorpius
 source: MITRE ATT&CK

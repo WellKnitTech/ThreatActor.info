@@ -12,7 +12,7 @@ provenance:
     origin_category: "Financially motivated"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "storm2755"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["microsoft-origin-threat","refs"]
     source_cluster: "microsoft-activity-group.json"
@@ -20,4 +20,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "5f98bdf4-a39c-5e99-ba2d-fc36c10c2b0c"
     source_record_ids: ["5f98bdf4-a39c-5e99-ba2d-fc36c10c2b0c"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

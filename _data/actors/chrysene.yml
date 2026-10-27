@@ -39,29 +39,29 @@ malware:
 - Cyber Eye RAT
 - Xploit
 provenance:
+  dragos_threat_groups:
+    source_name: Dragos Threat Groups
+    source_dataset_url: https://www.dragos.com/threat-groups
+    source_retrieved_at: '2026-10-27T20:41:06Z'
+    source_record_id: CHRYSENE
+    source_urls:
+    - https://www.dragos.com/threat/chrysene
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: greenbug
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/greenbug
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: 47204403-34c9-4d25-a006-296a0939d1a2
   misp_galaxy:
     source_dataset_url: https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
     source_record_id: a0082cfa-32e2-42b8-92d8-5c7a7409dcf1
     source_retrieved_at: '2026-04-26T05:47:15Z'
   reddrip7_apt_digital_weapon:
-    actor_folder: OilRig
-    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/OilRig/README.md
-    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/OilRig/OilRig_hash.md
+    actor_folder: APT34
+    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT34/README.md
+    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT34/APT34_hash.md
     source_attribution: Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-10-27T17:29:20Z'
-  dragos_threat_groups:
-    source_name: Dragos Threat Groups
-    source_dataset_url: https://www.dragos.com/threat-groups
-    source_retrieved_at: '2026-10-27T17:28:31Z'
-    source_record_id: CHRYSENE
-    source_urls:
-    - https://www.dragos.com/threat/chrysene
+    source_retrieved_at: '2026-10-27T20:41:59Z'

@@ -33,6 +33,11 @@ permalink: /yingmob/
 - **HummingBad**
 - **HummingWhale**
 - **Yispecter**
+- **DroidPlugin**: 
+- **Eomobi**: 
+- **HummingBad**: 
+- **HummingWhale**: 
+- **Yispecter**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

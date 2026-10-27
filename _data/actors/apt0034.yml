@@ -546,6 +546,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "2015 Ukraine Electric Power Attack"
     campaign_id: "C0028"
@@ -571,7 +574,7 @@ provenance:
     sample_titles: ["Be2 Custom Plugins, Router Abuse, And Target Profiles","Operation Oil Tanker: The Phantom Menace"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Kaspersky","Pandalabs"]
   eternal_liberty:
     aliases_by_entity:
@@ -580,14 +583,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "uac0145"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Unknown"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "sandworm"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/sandworm"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "f512de42-f76b-40d2-9923-59e7dbdfec35"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -596,21 +599,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "473eb51c-36cb-5e3a-8347-2f57df809be9"
     source_record_ids: ["473eb51c-36cb-5e3a-8347-2f57df809be9","16a65ee9-cd60-4f04-ba34-f2f45fcfc666"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0034"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192"
   reddrip7_apt_digital_weapon:
     actor_folder: "Sandworm"
@@ -618,9 +621,9 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Sandworm/Sandworm_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "phantom"
-  source_retrieved_at: "2026-10-27T17:25:02Z"
+  source_retrieved_at: "2026-10-27T20:38:08Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]
 source: "MITRE ATT&CK"

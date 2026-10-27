@@ -15,7 +15,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "operation_c-major"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/operation_c-major"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "acbb5cad-ffe7-4b0e-a57a-2dbc916e8905"
   misp_galaxy:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
@@ -27,4 +27,4 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/C-Major/C-Major_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"

@@ -36,6 +36,16 @@ permalink: /raticate/
 - **NetWire RC**
 - **RemcosRAT**
 - **njRAT**
+- **Agent Tesla**: 
+- **BetaBot**: 
+- **BlackRAT**: 
+- **Formbook**: 
+- **GuLoader**: 
+- **LokiBot**: 
+- **NSIS**: 
+- **NetWire RC**: 
+- **RemcosRAT**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

@@ -24,7 +24,7 @@ provenance:
     source_files: ["GroupProfiles/Interlock.md","ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Interlock"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Defense Evasion: ["ProcessHacker","ThreatFire System Monitor driver","ThreatFire System Monitor driver (BYOVD)"]
       Discovery: ["Advanced Port Scanner","Azure Storage Explorer"]
@@ -35,5 +35,5 @@ provenance:
       RMM Tools: ["AnyDesk","ScreenConnect"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "interlock"
-  source_retrieved_at: "2026-10-27T17:21:57Z"
+  source_retrieved_at: "2026-10-27T20:35:55Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

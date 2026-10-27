@@ -28,6 +28,8 @@ permalink: /operation-tainted-love/
 ## Malware and Tools
 - **Mimikatz**
 - **mim221**
+- **Mimikatz**: 
+- **mim221**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

@@ -45,12 +45,12 @@ provenance:
     source_dataset_url: https://apt.threattracking.com/
     source_links:
     - https://www.cisa.gov/uscert/ncas/alerts/aa22-152a
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: russia
   etda_thai_group_cards:
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: a0013d64-bbae-4488-876b-b8ee9d364f3a
-    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_retrieved_at: '2026-10-27T20:33:01Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -65,14 +65,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: karakurtteam
-    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_retrieved_at: '2026-10-27T20:33:17Z'
     source_version: '1.2'
     type: Organized Crime
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: karakurt
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/karakurt
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: 035fbd5c-e4a1-4c7b-80fb-f5a89a361aed
   misp_galaxy:
     meta_keys:
@@ -90,7 +90,7 @@ provenance:
     source_record_ids:
     - 035fbd5c-e4a1-4c7b-80fb-f5a89a361aed
     - a7623a1b-4551-4e5a-a622-2b91dea16b42
-    source_retrieved_at: '2026-10-27T17:28:58Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   ransomware_tool_matrix:
     references:
     - title: CISA Alert aa22-152a
@@ -111,7 +111,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Karakurt
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -133,10 +133,10 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-10-27T17:29:20Z'
+    source_retrieved_at: '2026-10-27T20:41:59Z'
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: karakurt
-  source_retrieved_at: '2026-10-27T17:26:43Z'
+  source_retrieved_at: '2026-10-27T20:39:16Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -145,5 +145,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Mushy Scorpius

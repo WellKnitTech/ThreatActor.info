@@ -18,14 +18,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "candiru"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Mercenary"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "caramel_tsunami"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/caramel_tsunami"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "062938a2-6fa1-4217-ad73-f5e0b5186966"
   microsoft_threat_actor_list:
     categories: ["Private sector offensive actor"]
@@ -34,7 +34,7 @@ provenance:
     origin_category: "Israel, Private sector offensive actor"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "carameltsunami"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["refs","synonyms","country","microsoft-origin-threat","sector","name-attribution"]
     source_cluster: "threat-actor.json"
@@ -42,11 +42,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "062938a2-6fa1-4217-ad73-f5e0b5186966"
     source_record_ids: ["062938a2-6fa1-4217-ad73-f5e0b5186966","1b15288c-ff19-5f52-8c4b-6185de934ff8"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   reddrip7_apt_digital_weapon:
     actor_folder: "SOURGUM"
     actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/SOURGUM/README.md"
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/SOURGUM/SOURGUM_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"

@@ -32,6 +32,9 @@ permalink: /handala-hack-team/
 - **Hamsa Wiper**
 - **Handala**
 - **Hatef Wiper**
+- **Hamsa Wiper**: 
+- **Handala**: 
+- **Hatef Wiper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

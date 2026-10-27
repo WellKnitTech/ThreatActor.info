@@ -33,6 +33,13 @@ permalink: /hydrochasma/
 - **Living off the Land**
 - **ProcDump**
 - **SoftEther VPN**
+- **BrowserGhost**: 
+- **Cobalt Strike**: 
+- **GO Simple Tunnel**: 
+- **HackBrowserData**: 
+- **Living off the Land**: 
+- **ProcDump**: 
+- **SoftEther VPN**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

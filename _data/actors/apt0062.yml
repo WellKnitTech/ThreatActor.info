@@ -86,19 +86,22 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0062"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts#.WS3IBVFV4no.twitter","https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "china"
   etda_thai_group_cards:
     mitre_group_ids: ["G0062"]
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "da14ab64-16ed-4d61-93a7-69cf3f06115d"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -108,14 +111,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "ta459"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta459"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta459"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "c6472ae1-c6ad-4cf1-8d6e-8c94b94fe314"
   misp_galaxy:
     meta_keys: ["attribution-confidence","country","refs","synonyms","group_attack_id","observed_countries","source","name-attribution"]
@@ -124,20 +127,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c6472ae1-c6ad-4cf1-8d6e-8c94b94fe314"
     source_record_ids: ["c6472ae1-c6ad-4cf1-8d6e-8c94b94fe314","e343c1f1-458c-467b-bc4a-c1b97b2127e3"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0062"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481"
 source: "MITRE ATT&CK"

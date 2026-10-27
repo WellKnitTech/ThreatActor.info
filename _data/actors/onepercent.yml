@@ -21,12 +21,12 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/Exfiltration.md","Tools/Offsec.md"]
     source_label: "OnePercent / OnePercent*"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["BetterSafetyKatz","Mimikatz","SharpKatz"]
       Exfiltration: ["RClone"]
       OffSec: ["Cobalt Strike","SharpSploit"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "onepercent"
-  source_retrieved_at: "2026-10-27T17:22:43Z"
+  source_retrieved_at: "2026-10-27T20:36:30Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

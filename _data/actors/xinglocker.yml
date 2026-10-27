@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "e92d5c00-81ae-4909-9994-74bf48180f22"
     source_record_ids: ["e92d5c00-81ae-4909-9994-74bf48180f22"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "IcedID to XingLocker Ransomware in 24 hours"
@@ -25,11 +25,11 @@ provenance:
     source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/DiscoveryEnum.md","Tools/Offsec.md"]
     source_label: "XingLocker"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Discovery: ["AdFind","Bloodhound","PowerView","ShareFinder"]
       OffSec: ["Cobalt Strike"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "xinglocker"
-  source_retrieved_at: "2026-10-27T17:20:27Z"
+  source_retrieved_at: "2026-10-27T20:34:50Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

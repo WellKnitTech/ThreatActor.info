@@ -34,6 +34,12 @@ permalink: /wirte-group/
 - **PowerShell and VBA scripts**
 - **SameCoin**
 - **several VBScript**
+- **EmpireProject**: 
+- **H-Worm**: 
+- **Living off the Land**: 
+- **PowerShell and VBA scripts**: 
+- **SameCoin**: 
+- **several VBScript**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Middle East]"]

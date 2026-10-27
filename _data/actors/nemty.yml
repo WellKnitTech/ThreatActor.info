@@ -18,8 +18,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "5fb75933-1ed5-4512-a062-d39865eedab0"
     source_record_ids: ["5fb75933-1ed5-4512-a062-d39865eedab0"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "nemty"
-  source_retrieved_at: "2026-10-27T17:19:56Z"
+  source_retrieved_at: "2026-10-27T20:34:25Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

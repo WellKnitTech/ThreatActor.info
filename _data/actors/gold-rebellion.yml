@@ -4,12 +4,16 @@ aliases:
 - Black Basta
 - BlackBasta
 - Black_Basta
+- CURLY SPIDER
 - Cardina
+- Cardinal
 - Curly Spider (CrowdStrike)
 - Dark Scorpius
 - GOLD REBELLION
 - Gold Rebellion
 - Lockean
+- STAC5777
+- Storm-1811
 - Storm-1811 (Microsoft)
 - UNC4393
 - WANDERING SPIDER
@@ -71,7 +75,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-10-27T17:29:27Z'
+    source_retrieved_at: '2026-10-27T20:42:06Z'
     reports:
     - organization: Capita
       breach_date: March 2023
@@ -98,15 +102,15 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: goldrebellion
-    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_retrieved_at: '2026-10-27T20:33:17Z'
     source_version: '1.2'
     type: Organized Crime
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
-    source_record_id: gold_rebellion
-    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/gold_rebellion
-    source_retrieved_at: '2026-10-27T17:29:04Z'
-    source_uuid: 835c7fc6-a066-447d-a0fc-b096bd9c412f
+    source_record_id: unc4393
+    source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc4393
+    source_retrieved_at: '2026-10-27T20:41:42Z'
+    source_uuid: 8191e28a-fb2d-4d50-b992-b877807a2f37
   misp_galaxy:
     meta_keys:
     - origin:GOLD REBELLION
@@ -127,7 +131,7 @@ provenance:
     source_record_ids:
     - 835c7fc6-a066-447d-a0fc-b096bd9c412f
     - c88e3c8d-cb71-48e1-a2c4-5f00300dfa0b
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   ransomware_tool_matrix:
     actor_roles:
     - ransomware_affiliate
@@ -166,7 +170,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Black Basta / BlackBasta / Lockean / Lockean*
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -281,7 +285,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: Black Basta / BlackBasta
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-10-27T17:28:00Z'
+    source_retrieved_at: '2026-10-27T20:40:36Z'
     vulnerabilities_by_category:
       Group Profile:
       - vendor: ConnectWise
@@ -403,8 +407,17 @@ provenance:
         - https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/
         - https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/
         source_file: Vulnerabilities/Virtualization.md
+  reddrip7_apt_digital_weapon:
+    actor_folder: Storm-1811
+    actor_readme_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Storm-1811/README.md
+    ioc_hashes_url: https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Storm-1811/Storm-1811_hash.md
+    source_attribution: Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon
+      and are treated as secondary, community-curated leads requiring independent
+      verification before operational use.
+    source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
+    source_retrieved_at: '2026-10-27T20:41:59Z'
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Dark Scorpius

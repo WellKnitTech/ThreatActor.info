@@ -15,7 +15,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "storm-2603"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/storm-2603"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "981402be-3b2d-4310-a7c6-c773aec869c1"
   microsoft_threat_actor_list:
     license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
@@ -23,7 +23,7 @@ provenance:
     origin_category: "China"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "storm2603"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["country","origin:Storm-2603","refs","microsoft-origin-threat","name-attribution","synonyms"]
     source_cluster: "threat-actor.json"
@@ -31,7 +31,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "981402be-3b2d-4310-a7c6-c773aec869c1"
     source_record_ids: ["981402be-3b2d-4310-a7c6-c773aec869c1","afe95d2e-227c-59d3-918f-007163912e8f"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_vulnerability_matrix:
     references:
       - title: "linkedin.com"
@@ -51,7 +51,7 @@ provenance:
     source_files: ["GroupProfiles/WarLock.md","Vulnerabilities/Applications.md","Vulnerabilities/FileTransferServers.md","Vulnerabilities/Microsoft.md"]
     source_label: "Storm-2603"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "SmarterTools"

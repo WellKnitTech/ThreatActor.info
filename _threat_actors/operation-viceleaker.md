@@ -27,6 +27,7 @@ permalink: /operation-viceleaker/
 
 ## Malware and Tools
 - **ViceLeaker**
+- **ViceLeaker**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

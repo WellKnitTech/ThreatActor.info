@@ -763,6 +763,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 campaigns:
 - name: RedDelta Modified PlugX Infection Chain Operations
   campaign_id: C0047
@@ -795,7 +798,7 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 3fb2534f-f233-4247-a653-5fc809212951
-    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_retrieved_at: '2026-10-27T20:33:01Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -810,14 +813,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: pkplug
-    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_retrieved_at: '2026-10-27T20:33:17Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: unc6384
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc6384
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: a3e4a57e-4b50-4bca-9282-3307e92e5539
   misp_galaxy:
     meta_keys:
@@ -834,21 +837,21 @@ provenance:
     source_record_id: 62f010b9-707f-4161-99dc-69e3c6e54e13
     source_record_ids:
     - 62f010b9-707f-4161-99dc-69e3c6e54e13
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0129
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4
   reddrip7_apt_digital_weapon:
     actor_folder: Mustang Panda
@@ -858,10 +861,16 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-10-27T17:29:20Z'
+    source_retrieved_at: '2026-10-27T20:41:59Z'
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Stately Taurus
+  wiz_cloud_threat_landscape:
+    source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
+    source_name: Wiz Cloud Threat Landscape
+    source_record_id: threat-actor--bd8bb7d4-e2c5-513e-9b7c-46f1f67852b6
+    source_record_modified: '2025-02-19T09:35:00.000Z'
+    source_retrieved_at: '2026-10-27T20:32:42Z'
 source: MITRE ATT&CK

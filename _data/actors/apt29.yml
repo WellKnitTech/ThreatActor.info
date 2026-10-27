@@ -937,6 +937,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 campaigns:
 - name: SolarWinds Compromise
   campaign_id: C0024
@@ -968,7 +971,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-10-27T17:29:27Z'
+    source_retrieved_at: '2026-10-27T20:42:06Z'
     reports:
     - organization: Microsoft
       breach_date: January 2024
@@ -1025,7 +1028,7 @@ provenance:
     - https://www.mandiant.com/resources/blog/unc3524-eye-spy-email
     - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cranefly-new-tools-technique-geppei-danfuan
     - https://blog.eclecticiq.com/german-embassy-lure-likely-part-of-campaign-against-nato-aligned-ministries-of-foreign-affairs
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: russia
   aptnotes:
     earliest_report_year: '2015'
@@ -1045,7 +1048,7 @@ provenance:
     - APT29 Domain Fronting With TOR
     source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
     source_repository: https://github.com/aptnotes/data
-    source_retrieved_at: '2026-10-27T17:29:15Z'
+    source_retrieved_at: '2026-10-27T20:41:54Z'
     sources:
     - F-Secure
     - FireEye
@@ -1056,7 +1059,7 @@ provenance:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: unc3524
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc3524
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: bee8b09c-07e5-4c12-94d6-266ebcb1ec24
   misp_galaxy:
     meta_keys:
@@ -1073,21 +1076,21 @@ provenance:
     source_record_ids:
     - 31982812-c8bf-5e85-b0ba-0c64a7d05d20
     - d7247cf9-13b6-4781-b789-a5f33521633b
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0016
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542
   reddrip7_apt_digital_weapon:
     actor_folder: APT29
@@ -1097,7 +1100,7 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-10-27T17:29:20Z'
+    source_retrieved_at: '2026-10-27T20:41:59Z'
   russian_apt_tool_matrix:
     references:
     - title: www.cisa.gov
@@ -1161,7 +1164,7 @@ provenance:
     - Tools/Offsec.md
     source_label: COZY BEAR
     source_repository: https://github.com/BushidoUK/Russian-APT-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:28:04Z'
+    source_retrieved_at: '2026-10-27T20:40:40Z'
     tools_by_category:
       Credential Theft:
       - CookieEditor
@@ -1205,5 +1208,11 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Cloaked Ursa
+  wiz_cloud_threat_landscape:
+    source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
+    source_name: Wiz Cloud Threat Landscape
+    source_record_id: threat-actor--08a5cf5b-b37e-5247-9f2b-3a315a20004d
+    source_record_modified: '2024-10-14T13:40:00.000Z'
+    source_retrieved_at: '2026-10-27T20:32:42Z'

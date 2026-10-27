@@ -108,19 +108,22 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0075"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/","https://meltx0r.github.io/tech/2019/09/11/rancor-apt.html","https://research.checkpoint.com/rancor-the-year-of-the-phish/","https://unit42.paloaltonetworks.com/rancor-cyber-espionage-group-uses-new-custom-malware-to-attack-southeast-asia/"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "china"
   etda_thai_group_cards:
     mitre_group_ids: ["G0075"]
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "020d538c-5250-46d8-9713-e739536cdd7e"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -130,14 +133,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "rancorgroup"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "rancor"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/rancor"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "79c7c7e0-79d5-11e8-9b9c-1ff96be20c0b"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","name-attribution"]
@@ -146,21 +149,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "79c7c7e0-79d5-11e8-9b9c-1ff96be20c0b"
     source_record_ids: ["79c7c7e0-79d5-11e8-9b9c-1ff96be20c0b","021b3c71-6467-4e46-a413-8b726f066f2c"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0075"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--f40eb8ce-2a74-4e56-89a1-227021410142"
   reddrip7_apt_digital_weapon:
     actor_folder: "RANCOR"
@@ -168,5 +171,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/RANCOR/RANCOR_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
 source: "MITRE ATT&CK"

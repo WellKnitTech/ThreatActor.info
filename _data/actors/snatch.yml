@@ -10,7 +10,7 @@ provenance:
   apt_groups_operations:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "unknown"
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -19,7 +19,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "1a58eeac-26dc-40e6-8182-22cd461ba736"
     source_record_ids: ["1a58eeac-26dc-40e6-8182-22cd461ba736"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   ransomware_tool_matrix:
     references:
       - title: "Snatch Ransomware"
@@ -34,11 +34,11 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/TheDFIRReportGroups.md","Tools/LOLBAS.md","Tools/Offsec.md"]
     source_label: "Snatch"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       LOLBAS: ["BCDEdit","ServiceControl (sc.exe)"]
       OffSec: ["Cobalt Strike","Meterpreter"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "snatch"
-  source_retrieved_at: "2026-10-27T17:26:53Z"
+  source_retrieved_at: "2026-10-27T20:39:41Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

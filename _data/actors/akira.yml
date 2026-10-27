@@ -37,6 +37,7 @@ external_id: G1024
 external_url: https://attack.mitre.org/groups/G1024
 mitre_id: G1024
 mitre_url: https://attack.mitre.org/groups/G1024
+source_name: Palo Alto Networks Unit 42 Threat Actor Groups
 source_attribution: "© The MITRE Corporation. This work is reproduced and distributed
   with the permission of The MITRE Corporation."
 software:
@@ -223,6 +224,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 cisa_kev_cves:
 - cve: CVE-2019-6693
   dateAdded: '2025-06-25'
@@ -276,7 +280,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-10-27T17:29:27Z'
+    source_retrieved_at: '2026-10-27T20:42:06Z'
     reports:
     - organization: Nissan Australia
       breach_date: December 2023
@@ -298,14 +302,14 @@ provenance:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1024
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--46bb06cb-f2d9-4b37-8c92-a27e224ad90d
   ransomware_tool_matrix:
     community_reports:
@@ -383,7 +387,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Akira
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Credential Theft:
       - DonPAPI
@@ -510,7 +514,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: Akira
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-10-27T17:28:00Z'
+    source_retrieved_at: '2026-10-27T20:40:36Z'
     vulnerabilities_by_category:
       Applications:
       - vendor: Veeam
@@ -669,6 +673,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Howling Scorpius
-source_name: Palo Alto Networks Unit 42 Threat Actor Groups

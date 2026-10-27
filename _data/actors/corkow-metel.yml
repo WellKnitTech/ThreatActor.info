@@ -5,12 +5,16 @@ url: "/corkow-metel"
 country: "[\"Russia\"]"
 source_name: "ETDA / ThaiCERT Threat Group Cards"
 source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
-malware: ["Corkow","Metel"]
+malware:
+  - "Corkow"
+  - "Metel"
+  - name: "Corkow"
+  - name: "Metel"
 provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "d2e095c9-2561-4c36-afe6-d38320bb63a9"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -20,6 +24,6 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "metel"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"

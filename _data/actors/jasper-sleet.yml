@@ -12,7 +12,7 @@ provenance:
     origin_category: "North Korea"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "jaspersleet"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","synonyms"]
     source_cluster: "microsoft-activity-group.json"
@@ -20,4 +20,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "c7b33217-b9d9-538d-8947-63dc0d89e9dc"
     source_record_ids: ["c7b33217-b9d9-538d-8947-63dc0d89e9dc"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

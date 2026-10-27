@@ -1,5 +1,5 @@
 name: "Star Blizzard"
-aliases: ["Blue Callisto","BlueCharlie","COLDRIVER","Callisto","Callisto Group","Cold River","GOSSAMER BEAR","IRON FRONTIER","Nahr Elbard","Nahr el bared","Reuse Team","SEABORGIUM","Star Blizzard","TA446","TAG-53","UNC4057","COLD RELIC"]
+aliases: ["Blue Callisto","BlueCharlie","COLD RELIC","COLDRIVER","Callisto","Callisto Group","Cold River","GOSSAMER BEAR","IRON FRONTIER","Nahr Elbard","Nahr el bared","Reuse Team","SEABORGIUM","Star Blizzard","TA446","TAG-53","UNC4057"]
 description: "Star Blizzard is a cyber espionage and influence group originating in Russia that has been active since at least 2019. Star Blizzard campaigns align closely with Russian state interests and have included persistent phishing and credential theft against academic, defense, government, NGO, and think tank organizations in NATO countries, particularly the US and the UK. [Microsoft Star Blizzard August 2022](https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/) [CISA Star Blizzard Advisory December 2023](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a) [StarBlizzard](https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/) [Google TAG COLDRIVER January 2024](https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/)\n"
 url: "/apt1033"
 country: "Russia"
@@ -123,17 +123,20 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "1d40756d-0618-4559-a46a-79672377cebe"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "cold_river"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/cold_river"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "7d99d2f7-adf0-44e4-9044-d18ff6842a16"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs","sector","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -142,21 +145,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "06630ccd-98ed-5aec-8083-e04c894bd2d6"
     source_record_ids: ["06630ccd-98ed-5aec-8083-e04c894bd2d6","649642a4-0659-5e10-ae19-1282f73a1785"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G1033"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--9b36c218-4d80-4ec6-a68d-cc2886bbe410"
   reddrip7_apt_digital_weapon:
     actor_folder: "Cold River"
@@ -164,5 +167,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Cold%20River/Cold%20River_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"
 source: "MITRE ATT&CK"

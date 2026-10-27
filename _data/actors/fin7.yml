@@ -1,5 +1,5 @@
 name: "FIN7"
-aliases: ["APT-C-11","ATK 32","ATK32","Anunak","CARBON SPIDER","Calcium","Carbanak","Carbanak - APT-C-11","Carbanak Group","Carbon Spider","CarbonSpider","Coreid","Coried","ELBRUS","FIN7","G0008","G0046","GOLD NIAGARA","Gold Niagara","GrayAlpha","ITG14","JokerStash","Navigator","Navigator Group","Sangria Tempest","TAG-CR1","WILD COMET","Elbrus","Magecart Group 7","TelePort Crew"]
+aliases: ["APT-C-11","ATK 32","ATK32","Anunak","CARBON SPIDER","Calcium","Carbanak","Carbanak - APT-C-11","Carbanak Group","Carbon Spider","CarbonSpider","Coreid","Coried","ELBRUS","Elbrus","FIN7","G0008","G0046","GOLD NIAGARA","Gold Niagara","GrayAlpha","ITG14","JokerStash","Magecart Group 7","Navigator","Navigator Group","Sangria Tempest","TAG-CR1","TelePort Crew","WILD COMET"]
 description: "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities industries in the United States. A portion of FIN7 was operated out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, FIN7 shifted operations to big game hunting (BGH), including use of REvil ransomware and their own Ransomware-as-a-Service (RaaS), Darkside. FIN7 may be linked to the Carbanak Group, but multiple threat groups have been observed using Carbanak, leading these groups to be tracked separately. [FireEye FIN7 March 2017](https://web.archive.org/web/20180808125108/https:/www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html) [FireEye FIN7 April 2017](https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html) [FireEye CARBANAK June 2017](https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html) [FireEye FIN7 Aug 2018](https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html) [CrowdStrike Carbon Spider August 2021](https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/) [Mandiant FIN7 Apr 2022](https://www.mandiant.com/resources/evolution-of-fin7) [BiZone Lizar May 2021](https://bi-zone.medium.com/from-pentest-to-apt-attack-cybercriminal-group-fin7-disguises-its-malware-as-an-ethical-hackers-c23c9a75e319)"
 url: "/fin7"
 country: "Unknown"
@@ -141,29 +141,32 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0008"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://securelist.com/files/2015/02/Carbanak_APT_eng.pdf","http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf","https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks","https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group/"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "others"
   aptnotes:
     earliest_report_year: "2014"
     latest_report_year: "2021"
-    report_count: 13
-    sample_links: ["https://app.box.com/s/exmsfcvad1sjqtmvtzbiil9k52js62ir","https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe","https://app.box.com/s/h1dn7d6ptcpwjbcfj468fy5201ev4bbz","https://app.box.com/s/4sfhcqaaxwui1dbvd13254wm5wfy9bmk","https://app.box.com/s/ejrvucttqc6eanln2kkmqtjklg563jxg","https://app.box.com/s/cbclbgiu54ihivxe7bvblwsv1e8jq44h","https://app.box.com/s/7pr8b7cy9liv1bi88ha7frtzgrjycex3","https://app.box.com/s/7f2wiynwlbi58vsv206zn0695id5nl0k","https://app.box.com/s/kos1krnm5s1r47do98nlyv6y9jcybf12","https://app.box.com/s/egwg3so00e433s191jow7xlb1o27z7m7","https://app.box.com/s/etrhh2gb4df9sybsieg3xs1j9mx6yw8s","https://app.box.com/s/rel5slouyleepdl3u7xilbmzsuk091n3","https://app.box.com/s/33zj46v2nv1cxiging8hc1w4j4zy05ip"]
-    sample_titles: ["Anunak: Apt Against Financial Institutions","Carbanak APT The Great Bank Robbery","Carbanak is packing new guns","Carbanak Oracle Breach","Visa Alert and Update on the Oracle Breach","New Carbanak / Anunak Attack Methodology","The Digital Plagiarist Campaign: TelePorting the Carbanak Crew to a New Dimension","FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings","The Carbanak/Fin7 syndicate","Inside the Response of a Unique CARBANAK Intrusion"]
+    report_count: 12
+    sample_links: ["https://app.box.com/s/exmsfcvad1sjqtmvtzbiil9k52js62ir","https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe","https://app.box.com/s/h1dn7d6ptcpwjbcfj468fy5201ev4bbz","https://app.box.com/s/4sfhcqaaxwui1dbvd13254wm5wfy9bmk","https://app.box.com/s/ejrvucttqc6eanln2kkmqtjklg563jxg","https://app.box.com/s/cbclbgiu54ihivxe7bvblwsv1e8jq44h","https://app.box.com/s/7pr8b7cy9liv1bi88ha7frtzgrjycex3","https://app.box.com/s/7f2wiynwlbi58vsv206zn0695id5nl0k","https://app.box.com/s/egwg3so00e433s191jow7xlb1o27z7m7","https://app.box.com/s/etrhh2gb4df9sybsieg3xs1j9mx6yw8s","https://app.box.com/s/rel5slouyleepdl3u7xilbmzsuk091n3","https://app.box.com/s/33zj46v2nv1cxiging8hc1w4j4zy05ip"]
+    sample_titles: ["Anunak: Apt Against Financial Institutions","Carbanak APT The Great Bank Robbery","Carbanak is packing new guns","Carbanak Oracle Breach","Visa Alert and Update on the Oracle Breach","New Carbanak / Anunak Attack Methodology","The Digital Plagiarist Campaign: TelePorting the Carbanak Crew to a New Dimension","FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings","Inside the Response of a Unique CARBANAK Intrusion","CARBANAK Week Part Two: Continuing the CARBANAK Source Code Analysis"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Anomali","Brian Krebs","ESET","FireEye","Group-IB, FOX-IT","Kaspersky","RSA","Trustwave","Visa","tr1adx"]
   etda_thai_group_cards:
     mitre_group_ids: ["G0046"]
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "c3f1f1ff-7d79-4385-bb5b-340c252c5a77"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -186,14 +189,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "fin7"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "fin7"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/fin7"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "00220228-a5a4-4032-a30d-826bb55aa3fb"
   microsoft_threat_actor_list:
     categories: ["Financially motivated"]
@@ -202,7 +205,7 @@ provenance:
     origin_category: "Ukraine, Financially motivated"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "sangriatempest"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-type-of-incident","country","motive","origin:FIN7","origin:GOLD NIAGARA","refs","synonyms","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector","name-attribution"]
     source_cluster: "threat-actor.json"
@@ -210,21 +213,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "00220228-a5a4-4032-a30d-826bb55aa3fb"
     source_record_ids: ["00220228-a5a4-4032-a30d-826bb55aa3fb","4348c510-50fc-4448-ab8d-c8cededd19ff","a4aba29f-fb91-50d9-bdf9-2b184922a200","9471ad21-0553-5483-bf7c-e6ad9c062c79","72d9bea7-9ca1-43e6-8702-2fb7fb1355de"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0008"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c"
   ransomware_vulnerability_matrix:
     actor_roles: ["ransomware_affiliate"]
@@ -255,7 +258,7 @@ provenance:
     source_files: ["Vulnerabilities/Applications.md"]
     source_label: "FIN7"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "Veeam"
@@ -269,4 +272,4 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/FIN7/FIN7_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"

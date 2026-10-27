@@ -28,6 +28,8 @@ permalink: /operation-potao-express/
 ## Malware and Tools
 - **FakeTC**
 - **Patao**
+- **FakeTC**: 
+- **Patao**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

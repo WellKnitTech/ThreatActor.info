@@ -29,6 +29,9 @@ permalink: /operation-windigo/
 - **CDorked**
 - **Calfbot**
 - **Ebury**
+- **CDorked**: 
+- **Calfbot**: 
+- **Ebury**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Russia"]

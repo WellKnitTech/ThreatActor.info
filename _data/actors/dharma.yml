@@ -19,8 +19,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "570ba5cf-69da-53ba-98ad-4bd7176cafb1"
     source_record_ids: ["570ba5cf-69da-53ba-98ad-4bd7176cafb1"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "dharma"
-  source_retrieved_at: "2026-10-27T17:25:54Z"
+  source_retrieved_at: "2026-10-27T20:38:39Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

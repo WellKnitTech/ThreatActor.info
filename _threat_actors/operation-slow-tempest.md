@@ -28,6 +28,8 @@ permalink: /operation-slow-tempest/
 ## Malware and Tools
 - **Cobalt Strike**
 - **Mimikatz**
+- **Cobalt Strike**: 
+- **Mimikatz**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

@@ -18,9 +18,9 @@ provenance:
     sample_titles: ["Cylance Spear Team: A Threat Actor Resurfaces","The Deception Project: A New Japanese-Centric Threat"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["Cylance"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "cylance"
-  source_retrieved_at: "2026-10-27T17:24:58Z"
+  source_retrieved_at: "2026-10-27T20:38:05Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

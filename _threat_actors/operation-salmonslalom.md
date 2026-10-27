@@ -27,6 +27,7 @@ permalink: /operation-salmonslalom/
 
 ## Malware and Tools
 - **FatalRAT**
+- **FatalRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

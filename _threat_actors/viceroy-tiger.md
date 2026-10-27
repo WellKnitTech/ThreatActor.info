@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "VICEROY TIGER"
-aliases: ["APT-C-35","APTC35","Donot","Donot Team","Mint Tempest","OPERATION HANGOVER","Orange Kala","Origami Elephant","SectorE02","VICEROY TIGER","肚脑虫 - APT-C-35","Viceroy Tiger","Orange Berserker"]
+aliases: ["APT-C-35","APTC35","Donot","Donot Team","Mint Tempest","OPERATION HANGOVER","Orange Berserker","Orange Kala","Origami Elephant","SectorE02","VICEROY TIGER","Viceroy Tiger","肚脑虫 - APT-C-35"]
 description: "VICEROY TIGER is an adversary with a nexus to India that has historically targeted entities throughout multiple sectors. Older activity targeted multiple sectors and countries; however, since 2015 this"
 permalink: /viceroy-tiger/
 ---

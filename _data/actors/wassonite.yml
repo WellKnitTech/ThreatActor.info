@@ -39,12 +39,19 @@ provenance:
     source_dataset_url: https://apt.threattracking.com/
     source_links:
     - https://www.dragos.com/threat/wassonite/
-    source_retrieved_at: '2026-10-27T17:29:13Z'
+    source_retrieved_at: '2026-10-27T20:41:51Z'
     tab_name: north-korea
+  dragos_threat_groups:
+    source_name: Dragos Threat Groups
+    source_dataset_url: https://www.dragos.com/threat-groups
+    source_retrieved_at: '2026-10-27T20:41:06Z'
+    source_record_id: WASSONITE
+    source_urls:
+    - https://www.dragos.com/threat/wassonite
   etda_thai_group_cards:
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 7ff50a06-a05b-4871-b2d5-1a49dcab389b
-    source_retrieved_at: '2026-10-27T17:18:13Z'
+    source_retrieved_at: '2026-10-27T20:33:01Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -59,14 +66,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: wassonite
-    source_retrieved_at: '2026-10-27T17:18:29Z'
+    source_retrieved_at: '2026-10-27T20:33:17Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: wassonite
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/wassonite
-    source_retrieved_at: '2026-10-27T17:29:04Z'
+    source_retrieved_at: '2026-10-27T20:41:42Z'
     source_uuid: fba00660-d18c-4af7-831c-25757e495907
   misp_galaxy:
     meta_keys:
@@ -80,11 +87,4 @@ provenance:
     source_record_id: fba00660-d18c-4af7-831c-25757e495907
     source_record_ids:
     - fba00660-d18c-4af7-831c-25757e495907
-    source_retrieved_at: '2026-10-27T17:28:59Z'
-  dragos_threat_groups:
-    source_name: Dragos Threat Groups
-    source_dataset_url: https://www.dragos.com/threat-groups
-    source_retrieved_at: '2026-10-27T17:28:31Z'
-    source_record_id: WASSONITE
-    source_urls:
-    - https://www.dragos.com/threat/wassonite
+    source_retrieved_at: '2026-10-27T20:41:36Z'

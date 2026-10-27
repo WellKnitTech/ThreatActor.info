@@ -18,13 +18,13 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "94bb4827-bba0-4b88-a6de-c7db9e6e8c1d"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "earth_wendigo"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_wendigo"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "c96e1329-cf7e-44ac-a3db-9e251dc98ec5"
   misp_galaxy:
     meta_keys: ["cfr-suspected-victims","cfr-target-category","country","origin:Earth Wendigo","refs","name-attribution"]
@@ -33,11 +33,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "c96e1329-cf7e-44ac-a3db-9e251dc98ec5"
     source_record_ids: ["c96e1329-cf7e-44ac-a3db-9e251dc98ec5"]
-    source_retrieved_at: "2026-10-27T17:28:58Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   reddrip7_apt_digital_weapon:
     actor_folder: "Earth Wendigo"
     actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Earth%20Wendigo/README.md"
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Earth%20Wendigo/Earth%20Wendigo_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T17:29:20Z"
+    source_retrieved_at: "2026-10-27T20:41:59Z"

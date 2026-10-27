@@ -281,6 +281,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-10-27T17:28:50Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-10-27T20:41:25Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   misp_galaxy:
     meta_keys:
@@ -302,21 +305,21 @@ provenance:
     - 60f686d0-ae3d-5662-af32-119217dee2a7
     - 353be17b-d108-55e9-a0f1-2f4829183df0
     - fec32bbf-c4f8-499d-8e2a-743bcdd071e7
-    source_retrieved_at: '2026-10-27T17:28:59Z'
+    source_retrieved_at: '2026-10-27T20:41:36Z'
   mitre:
     attack_version: '20.0'
     attack_version_by_domain:
       enterprise: '20.0'
       ics: '20.0'
       mobile: '20.0'
-    relationships_imported_at: '2026-10-27T17:28:50Z'
+    relationships_imported_at: '2026-10-27T20:41:25Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1040
-    source_retrieved_at: '2026-10-27T17:28:50Z'
+    source_retrieved_at: '2026-10-27T20:41:25Z'
     stix_intrusion_set_id: intrusion-set--ecbf507f-6786-4121-a4cc-0fd6a8d3a29d
   ransomware_tool_matrix:
     community_reports:
@@ -351,7 +354,7 @@ provenance:
     - Tools/Offsec.md
     source_label: PLAY
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T17:27:56Z'
+    source_retrieved_at: '2026-10-27T20:40:32Z'
     tools_by_category:
       Credential Theft:
       - HandleKatz
@@ -410,7 +413,7 @@ provenance:
     - Vulnerabilities/NetworkEdge.md
     source_label: PLAY
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-10-27T17:28:00Z'
+    source_retrieved_at: '2026-10-27T20:40:36Z'
     vulnerabilities_by_category:
       Microsoft Products:
       - vendor: MS Server Products
@@ -450,7 +453,7 @@ provenance:
         source_file: Vulnerabilities/NetworkEdge.md
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: play
-  source_retrieved_at: '2026-10-27T17:19:01Z'
+  source_retrieved_at: '2026-10-27T20:33:46Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -459,5 +462,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T17:28:35Z'
+    source_retrieved_at: '2026-10-27T20:41:10Z'
     source_record_id: Fiddling Scorpius

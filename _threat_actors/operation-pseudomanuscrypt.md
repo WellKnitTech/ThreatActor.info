@@ -27,6 +27,7 @@ permalink: /operation-pseudomanuscrypt/
 
 ## Malware and Tools
 - **PseudoManuscrypt**
+- **PseudoManuscrypt**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

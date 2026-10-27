@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "drivesurge"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/drivesurge"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "d0a254d1-4277-4f80-bc32-2fdb0c387be0"
   misp_galaxy:
     meta_keys: ["refs"]
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "d0a254d1-4277-4f80-bc32-2fdb0c387be0"
     source_record_ids: ["d0a254d1-4277-4f80-bc32-2fdb0c387be0"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

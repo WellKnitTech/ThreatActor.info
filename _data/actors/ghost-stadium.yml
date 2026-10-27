@@ -17,7 +17,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ghost_stadium"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ghost_stadium"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "f37e6dda-f6e2-45a9-86ed-a2d22042221f"
   misp_galaxy:
     meta_keys: ["country","name-attribution","refs"]
@@ -26,4 +26,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f37e6dda-f6e2-45a9-86ed-a2d22042221f"
     source_record_ids: ["f37e6dda-f6e2-45a9-86ed-a2d22042221f"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "COBALT KATANA"
-aliases: ["COBALT KATANA","Cobalt Katana","Hive0081","Hive0081 (IBM)","Hunter Serpens","SectorD01","SectorD01 (NHSC)","xHunt campaign (Palo Alto)","xHunt","Warlord Kitten"]
+aliases: ["COBALT KATANA","Cobalt Katana","Hive0081","Hive0081 (IBM)","Hunter Serpens","SectorD01","SectorD01 (NHSC)","Warlord Kitten","xHunt","xHunt campaign (Palo Alto)"]
 description: "COBALT KATANA has been active since at least March 2018, and it focuses many of its operations on organizations based in or associated with Kuwait. The group has targeted government, logistics, and shi"
 permalink: /cobalt-katana/
 ---

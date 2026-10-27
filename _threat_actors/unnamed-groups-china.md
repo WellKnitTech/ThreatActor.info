@@ -76,6 +76,7 @@ These are reported APT activities attributed to a country, but not to an individ
 
 ## Malware and Tools
 - **COATHANGER**
+- **COATHANGER**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

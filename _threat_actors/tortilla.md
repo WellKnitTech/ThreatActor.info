@@ -28,6 +28,8 @@ permalink: /tortilla/
 ## Malware and Tools
 - **Babuk Locker**
 - **China Chopper**
+- **Babuk Locker**: 
+- **China Chopper**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

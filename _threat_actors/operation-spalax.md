@@ -29,6 +29,9 @@ permalink: /operation-spalax/
 - **AsyncRAT**
 - **RemcosRAT**
 - **njRAT**
+- **AsyncRAT**: 
+- **RemcosRAT**: 
+- **njRAT**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

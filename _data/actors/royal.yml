@@ -16,7 +16,7 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "royal"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"
   ransomware_vulnerability_matrix:
@@ -29,7 +29,7 @@ provenance:
     source_files: ["Vulnerabilities/Virtualization.md"]
     source_label: "Royal"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
     vulnerabilities_by_category:
       Virtualization:
         - vendor: "Citrix"
@@ -39,5 +39,5 @@ provenance:
           source_file: "Vulnerabilities/Virtualization.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "royal"
-  source_retrieved_at: "2026-10-27T17:20:54Z"
+  source_retrieved_at: "2026-10-27T20:35:09Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -45,6 +45,8 @@ permalink: /suncrypt-gang/
 ## Malware and Tools
 - **SunCrypt**
 - **WARPRISM**
+- **SunCrypt**: 
+- **WARPRISM**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["[Unknown]"]

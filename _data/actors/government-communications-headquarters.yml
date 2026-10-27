@@ -12,7 +12,7 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "9d92be76-3493-4c22-a22c-73e34bb2bb66"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   misp_galaxy:
     meta_keys: ["country","country_name","refs"]
@@ -21,4 +21,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/intelligence-agencies.json"
     source_record_id: "744085af-33f8-5a62-886a-a746c4815647"
     source_record_ids: ["744085af-33f8-5a62-886a-a746c4815647"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:37Z"

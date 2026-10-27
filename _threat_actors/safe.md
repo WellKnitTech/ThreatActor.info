@@ -37,6 +37,15 @@ permalink: /safe/
 - **UsbDoc**
 - **UsbExe**
 - **an MS Office 0-day exploit**
+- **DebugView**: 
+- **LZ77**: 
+- **OpenDoc**: 
+- **Safe**: 
+- **TypeConfig**: 
+- **UPXShell**: 
+- **UsbDoc**: 
+- **UsbExe**: 
+- **an MS Office 0-day exploit**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

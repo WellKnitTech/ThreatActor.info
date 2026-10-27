@@ -17,8 +17,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "05be1a86-92a9-48e1-8be1-9c1014dfd1cd"
     source_record_ids: ["05be1a86-92a9-48e1-8be1-9c1014dfd1cd"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "babuklocker"
-  source_retrieved_at: "2026-10-27T17:24:20Z"
+  source_retrieved_at: "2026-10-27T20:37:35Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -30,6 +30,10 @@ permalink: /operation-jacana/
 - **Impacket**
 - **PlugX**
 - **SoftEther VPN**
+- **DinodasRAT**: 
+- **Impacket**: 
+- **PlugX**: 
+- **SoftEther VPN**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["China"]

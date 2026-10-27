@@ -30,6 +30,8 @@ permalink: /operation-manul/
 ## Malware and Tools
 - **Bandook**
 - **JRat**
+- **Bandook**: 
+- **JRat**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["Kazakhstan"]

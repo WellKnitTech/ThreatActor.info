@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "GOLD SKYLINE"
-aliases: ["GOLD SKYLINE","Gold Skyline","Wire-Wire Group 1"]
+aliases: ["GOLD SKYLINE","Gold Skyline","Wire-Wire Group 1","Yahoo Boys","TG-2798","Ojie Victor"]
 description: "GOLD SKYLINE is a financially motivated cybercriminal threat group operating from Nigeria engaged in high-value wire fraud facilitated by business email compromise (BEC) and spoofing (BES). Also known "
 permalink: /gold-skyline/
 ---

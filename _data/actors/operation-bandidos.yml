@@ -5,10 +5,12 @@ url: "/operation-bandidos"
 country: "[\"[Unknown]\"]"
 source_name: "ETDA / ThaiCERT Threat Group Cards"
 source_attribution: "Contains data derived from ETDA/ThaiCERT Threat Group Cards (https://apt.etda.or.th/), adapted with attribution for research and enrichment."
-malware: ["Bandook"]
+malware:
+  - "Bandook"
+  - name: "Bandook"
 provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "bfea8c04-ab0d-41ac-a997-f5d9cdb740bc"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

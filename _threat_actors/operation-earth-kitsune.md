@@ -32,6 +32,10 @@ permalink: /operation-earth-kitsune/
 - **WhiskerSpy**
 - **agfSpy**
 - **dneSpy**
+- **SLUB**: 
+- **WhiskerSpy**: 
+- **agfSpy**: 
+- **dneSpy**: 
 
 ## Attribution and Evidence
 **Country of Origin**: ["North Korea"]

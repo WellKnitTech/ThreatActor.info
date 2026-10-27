@@ -13,7 +13,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "grim_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/grim_spider"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "3cf6dbb5-bf9e-47d4-a8d5-b6d76f5a791f"
   misp_galaxy:
     meta_keys: ["origin:GOLD ULRICK","refs","synonyms"]

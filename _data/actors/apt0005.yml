@@ -1,5 +1,5 @@
 name: "APT12"
-aliases: ["APT 12","APT12","BRONZE GLOBE","BeeBus","Bronze Globe","CTG-8223","Calc Team","Crimson Iron","DNS-Calc","DNSCALC","DNSCalc","DynCALC","DynCalc","G0005","Group 22","HORDE","HYDROGEN","Hexagon Typhoon","IXESHE","NUMBERED PANDA","Numbered Panda","Red Anubis","TG-2754","TG-2754 (tentative)","Group22"]
+aliases: ["APT 12","APT12","BRONZE GLOBE","BeeBus","Bronze Globe","CTG-8223","Calc Team","Crimson Iron","DNS-Calc","DNSCALC","DNSCalc","DynCALC","DynCalc","G0005","Group 22","Group22","HORDE","HYDROGEN","Hexagon Typhoon","IXESHE","NUMBERED PANDA","Numbered Panda","Red Anubis","TG-2754","TG-2754 (tentative)"]
 description: "APT12 is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments. [Meyers Numbered Panda](http://www.crowdstrike.com/blog/whois-numbered-panda/)"
 url: "/apt0005"
 country: "China"
@@ -92,13 +92,16 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-10-27T17:28:50Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-10-27T20:41:25Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   apt_groups_operations:
     matched_mitre_ids: ["G0005"]
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.crowdstrike.com/blog/whois-numbered-panda/","http://www.computerworld.com/s/article/9241577/The_Chinese_hacker_group_that_hit_the_N.Y._Times_is_back_with_updated_tools?taxonomyId=17","http://blog.crowdstrike.com/whois-numbered-panda/","http://www.secureworks.com/cyber-threat-intelligence/threats/analysis-of-dhs-nccic-indicators/","http://blog.trendmicro.com/taking-a-bite-out-of-ixeshe/","http://www.arbornetworks.com/asert/2014/06/illuminating-the-etumbot-apt-backdoor/","https://cysinfo.com/sx-2nd-meetup-reversing-and-decrypting-the-communications-of-apt-malware/","http://blog.macnica.net/blog/2017/08/post-fb81.html"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "china"
   aptnotes:
     earliest_report_year: "2012"
@@ -108,13 +111,13 @@ provenance:
     sample_titles: ["Ixeshe An Apt Campaign","Operation Beebus","The Mutter Backdoor: Operation Beebus with New Targets","IXESHE Derivative IHEATE Targets Users in America"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T17:29:15Z"
+    source_retrieved_at: "2026-10-27T20:41:54Z"
     sources: ["FireEye","Fireeye","Trend Micro"]
   etda_thai_group_cards:
     mitre_group_ids: ["G0005"]
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "a85ba864-0a13-4337-bd57-8df380b7b4fa"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:00Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -130,14 +133,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "apt12"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt12"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt12"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "48146604-6693-4db1-bd94-159744726514"
   microsoft_threat_actor_list:
     license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
@@ -145,7 +148,7 @@ provenance:
     origin_category: "China"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "hexagontyphoon"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:BRONZE GLOBE","refs","synonyms","group_attack_id","observed_countries","source","target_categories","microsoft-origin-threat"]
     source_cluster: "threat-actor.json"
@@ -153,20 +156,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "48146604-6693-4db1-bd94-159744726514"
     source_record_ids: ["48146604-6693-4db1-bd94-159744726514","225314a7-8f40-48d4-9cff-3ec39b177762","a8df4364-1b52-5cee-b103-da42fa640ddc"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
   mitre:
     attack_version: "20.0"
     attack_version_by_domain:
       enterprise: "20.0"
       ics: "20.0"
       mobile: "20.0"
-    relationships_imported_at: "2026-10-27T17:28:50Z"
+    relationships_imported_at: "2026-10-27T20:41:25Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0005"
-    source_retrieved_at: "2026-10-27T17:28:50Z"
+    source_retrieved_at: "2026-10-27T20:41:25Z"
     stix_intrusion_set_id: "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb"
 source: "MITRE ATT&CK"

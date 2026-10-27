@@ -28,7 +28,7 @@ provenance:
     source_files: ["GroupProfiles/Warlock.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Warlock"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T17:27:56Z"
+    source_retrieved_at: "2026-10-27T20:40:32Z"
     tools_by_category:
       Credential Theft: ["Mimikatz","Veeam-Get-Creds"]
       Defense Evasion: ["Antiy System In-Depth Analysis Toolkit driver (BYOVD)","NsecSoft driver (BYOVD)","Rising Antivirus driver (BYOVD)","VMTools AV Killer (BYOVD)"]
@@ -57,8 +57,8 @@ provenance:
     source_files: ["GroupProfiles/WarLock.md"]
     source_label: "War Lock"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T17:28:00Z"
+    source_retrieved_at: "2026-10-27T20:40:36Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "warlock"
-  source_retrieved_at: "2026-10-27T17:19:17Z"
+  source_retrieved_at: "2026-10-27T20:33:57Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

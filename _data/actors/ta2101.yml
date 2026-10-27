@@ -1,5 +1,5 @@
 name: "TA2101"
-aliases: ["DEV-0216","GOLD VILLAGE","Gold Village","Maze Team","Storm-0216","TA2101","TUNNEL SPIDER","TWISTED SPIDER","Twisted Spider","UNC2198","White Labyrinth","Hive0104","Tunnel Spider"]
+aliases: ["DEV-0216","GOLD VILLAGE","Gold Village","Hive0104","Maze Team","Storm-0216","TA2101","TUNNEL SPIDER","TWISTED SPIDER","Tunnel Spider","Twisted Spider","UNC2198","White Labyrinth"]
 description: "Proofpoint researchers detected campaigns from a relatively new actor, tracked internally as TA2101, targeting German companies and organizations to deliver and install backdoor malware. The actor initiated their campaigns impersonating the Bundeszentralamt fur Steuern, the German Federal Ministry of Finance, with lookalike domains, verbiage, and stolen branding in the emails. For their campaigns in Germany, the actor chose Cobalt Strike, a commercially licensed software tool that is generally used for penetration testing and emulates the type of backdoor framework used by Metasploit, a similar penetration testing tool. Proofpoint researchers have also observed this actor distributing Maze ransomware, employing similar social engineering techniques to those it uses for Cobalt Strike, while also targeting organizations in Italy and impersonating the Agenzia Delle Entrate, the Italian Revenue Agency. We have also recently observed the actor targeting organizations in the United States using the IcedID banking Trojan while impersonating the United States Postal Service (USPS)."
 url: "/ta2101"
 country: "Russia"
@@ -35,12 +35,12 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us","https://securityintelligence.com/news/ta2101-threat-actor-targeted-german-italian-and-us-organizations-with-maze-ransomware/","https://www.cyfirma.com/maze-ransomware-group-declared-successful-exploits-of-many-organizations-and-released-massive-data-on-public-site-in-one-day/"]
-    source_retrieved_at: "2026-10-27T17:29:13Z"
+    source_retrieved_at: "2026-10-27T20:41:51Z"
     tab_name: "others"
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "046da342-795f-491e-b6d1-b61cd6c1f2d9"
-    source_retrieved_at: "2026-10-27T17:18:12Z"
+    source_retrieved_at: "2026-10-27T20:33:01Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -49,14 +49,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "tunnelspider"
-    source_retrieved_at: "2026-10-27T17:18:29Z"
+    source_retrieved_at: "2026-10-27T20:33:17Z"
     source_version: "1.2"
     type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta2101"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta2101"
-    source_retrieved_at: "2026-10-27T17:29:04Z"
+    source_retrieved_at: "2026-10-27T20:41:42Z"
     source_uuid: "39925aa0-c7bf-4b9b-97d6-7d600329453d"
   microsoft_threat_actor_list:
     categories: ["Financially motivated"]
@@ -65,7 +65,7 @@ provenance:
     origin_category: "Financially motivated"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "storm0216"
-    source_retrieved_at: "2026-10-27T17:18:32Z"
+    source_retrieved_at: "2026-10-27T20:33:19Z"
   misp_galaxy:
     meta_keys: ["country","origin:DEV-0216","origin:GOLD VILLAGE","origin:Storm-0216","origin:TA2101","origin:UNC2198","refs","synonyms","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
@@ -73,4 +73,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "39925aa0-c7bf-4b9b-97d6-7d600329453d"
     source_record_ids: ["39925aa0-c7bf-4b9b-97d6-7d600329453d","4435483b-a130-5d25-96f2-3625ed1d02b5"]
-    source_retrieved_at: "2026-10-27T17:28:59Z"
+    source_retrieved_at: "2026-10-27T20:41:36Z"
