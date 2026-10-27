@@ -241,11 +241,31 @@ jobs:
           fi
           git commit -m "Weekly threat data refresh"
           git push -u origin "$branch"
-          gh pr create \
-            --base main \
-            --head "$branch" \
-            --title "Weekly threat data refresh" \
-            --body-file tmp/import-health.md
+
+          # Branch is already validated and pushed. Soft-warn (do not fail the
+          # run) when Actions cannot open PRs or one already exists for the
+          # branch; any other gh pr create failure remains fatal.
+          set +e
+          pr_create_output="$(
+            gh pr create \
+              --base main \
+              --head "$branch" \
+              --title "Weekly threat data refresh" \
+              --body-file tmp/import-health.md 2>&1
+          )"
+          pr_create_status=$?
+          set -e
+          if [[ "$pr_create_status" -ne 0 ]]; then
+            printf '%s\n' "$pr_create_output"
+            if [[ "$pr_create_output" == *"GitHub Actions is not permitted to create or approve pull requests"* ]] || \
+               [[ "$pr_create_output" == *"already exists"* ]]; then
+              compare_url="https://github.com/${GITHUB_REPOSITORY}/pull/new/${branch}"
+              echo "::warning::Weekly data branch pushed, but GitHub Actions could not open a pull request (Actions PR creation disabled, or a PR already exists). Open manually: ${compare_url}"
+              exit 0
+            fi
+            exit "$pr_create_status"
+          fi
+          printf '%s\n' "$pr_create_output"
 
           # Queue normal protected auto-merge; never bypass branch rules.
           # Soft-fail when the repository has not enabled auto-merge or when
