@@ -10,6 +10,9 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main ]
+  # Manual runs, and weekly import post-merge dispatch (GITHUB_TOKEN merges
+  # do not fire push-triggered workflows).
+  workflow_dispatch:
 
 jobs:
   validate:

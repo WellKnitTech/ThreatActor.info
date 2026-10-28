@@ -2,9 +2,21 @@
 
 The weekly threat-data workflow keeps unattended ingestion, but it cannot merge
 around repository controls. It creates a bot pull request after the import and
-validation steps, then uses GitHub's normal auto-merge path (`gh pr merge
---auto`). It deliberately does not use `--admin`; required checks, required
-reviews, and any other branch-protection rules on `main` remain authoritative.
+validation steps, waits for pull-request check runs to register (and finish)
+before enabling GitHub's normal auto-merge path (`gh pr merge --auto`), and
+deliberately does not use `--admin`. Required checks, required reviews, and any
+other branch-protection rules on `main` remain authoritative.
+
+Waiting for checks before `--auto` avoids a GitHub race: enabling auto-merge
+immediately after `gh pr create` can merge and delete the head branch before
+`pull_request` jobs are scheduled, which shows up as 0-job failed Content
+Validation / CodeQL runs.
+
+`GITHUB_TOKEN` merges do not trigger other workflows' `push` handlers. When
+auto-merge lands the weekly PR, the import job therefore dispatches
+`Deploy GitHub Pages` and `Content Validation` on `main` via
+`workflow_dispatch` (both workflows accept that event). A human merge still
+relies on the normal `push` triggers.
 
 Repository administrators should keep `main` protected with the validation
 workflow as a required status check and require an approving review (or an

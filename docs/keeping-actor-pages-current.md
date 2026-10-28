@@ -45,7 +45,7 @@ Without `--force`, [`scripts/generate-pages.rb`](../scripts/generate-pages.rb) m
 | [`.github/workflows/weekly-data.yml`](../.github/workflows/weekly-data.yml) | Scheduled execution of the same canonical **`import-automated-sources.rb --apply`** runner used for broad refreshes, followed by source-delta evaluation, schema/content validation, and **`jekyll build --safe`** before opening and auto-merging a PR branch. **Not a separate import logic path.** |
 | [`.github/workflows/daily-news.yml`](../.github/workflows/daily-news.yml) | News feed + generators + validators + build; commits news-related updates. |
 | [`.github/workflows/validate.yml`](../.github/workflows/validate.yml) | Runs **`scripts/validate.sh`** on pushes/PRs. |
-| [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) | On push to `main`: regenerate pages/indexes, build `_site`, deploy Pages. |
+| [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) | On push to `main` or `workflow_dispatch`: regenerate pages/indexes, build `_site`, deploy Pages. Weekly bot merges also dispatch this workflow because `GITHUB_TOKEN` pushes do not trigger `push` workflows. |
 
 Do not assume weekly pushes alone cover the same surface as **Automated Source Imports**; use the right workflow for the sources you care about.
 
