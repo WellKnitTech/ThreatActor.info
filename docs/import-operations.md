@@ -8,8 +8,11 @@ fetch snapshot -> plan -> validate plans -> import -> regenerate -> validate -> 
 ```
 
 The workflows never write directly to `main`. They create a pull request (and
-the weekly workflow queues normal protected auto-merge when all repository
-rules allow it).
+the weekly workflow waits for PR checks, then queues normal protected
+auto-merge when all repository rules allow it). After a `GITHUB_TOKEN`
+auto-merge, the job dispatches `Deploy GitHub Pages` and `Content Validation`
+on `main` so deploy/validation still run despite GitHub's no-recursive-trigger
+rule for the default Actions token.
 
 ## Workflows and scheduling
 

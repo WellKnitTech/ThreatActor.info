@@ -26,7 +26,13 @@ def update_data_job_has_write_permissions?(workflow)
   permissions_start = job_lines.index { |line| line.match?(/\A    permissions:\s*\z/) }
   return false unless permissions_start
 
-  job_lines[(permissions_start + 1)..]&.take(2) == ["      contents: write\n", "      pull-requests: write\n"]
+  granted = job_lines[(permissions_start + 1)..]&.take_while { |line| line.match?(/\A      \S/) } || []
+  required = [
+    "      contents: write\n",
+    "      pull-requests: write\n",
+    "      actions: write\n"
+  ]
+  required.all? { |line| granted.include?(line) }
 end
 
 # Extract concrete path arguments from `git add` / `git add --` in the open-PR
@@ -64,6 +70,16 @@ failures << "workflow must not contain an admin merge bypass" if combined.match?
 failures << "workflow must queue a normal protected auto-merge" unless combined.match?(/gh\s+pr\s+merge\s+\"\$branch\"\s+--auto\s+--squash\s+--delete-branch/)
 failures << "workflow default permissions must be read-only for repository contents" unless workflow.match?(/^permissions:\s*\n\s+contents:\s+read\s*$/)
 failures << "write permissions must be scoped to the update-data job" unless update_data_job_has_write_permissions?(workflow)
+failures << "update-data job must grant actions: write for post-merge workflow dispatch" unless workflow.match?(/actions:\s*write/) && pipeline.match?(/actions:\s*write/)
+failures << "open-PR step must wait for PR checks before enabling auto-merge" unless pipeline.match?(/Waiting for pull request checks to register/) &&
+                                                                                    pipeline.match?(/gh\s+pr\s+checks/) &&
+                                                                                    pipeline.index("Waiting for pull request checks to register") < pipeline.index('gh pr merge "$branch" --auto --squash --delete-branch')
+failures << "open-PR step must dispatch Pages after a GITHUB_TOKEN merge" unless pipeline.match?(/gh\s+workflow\s+run\s+\"Deploy GitHub Pages\"\s+--ref\s+main/)
+failures << "open-PR step must dispatch Content Validation after a GITHUB_TOKEN merge" unless pipeline.match?(/gh\s+workflow\s+run\s+\"Content Validation\"\s+--ref\s+main/)
+failures << "open-PR step must only dispatch post-merge workflows for github-actions merges" unless pipeline.match?(/github-actions\[bot\]/) &&
+                                                                                                  pipeline.match?(/mergedBy\.login/)
+failures << "pages.yml must support workflow_dispatch for manual and post-merge deploys" unless File.read(File.expand_path('../.github/workflows/pages.yml', __dir__)).match?(/workflow_dispatch:/)
+failures << "validate.yml must support workflow_dispatch for manual and post-merge runs" unless File.read(File.expand_path('../.github/workflows/validate.yml', __dir__)).match?(/workflow_dispatch:/)
 failures << "workflow must not use continue-on-error to hide source failures" if workflow.match?(/continue-on-error/)
 failures << "workflow must not retry the full import universe" if pipeline.match?(/while \(\( attempt <= max_attempts \)\)/)
 failures << "workflow must bound per-source retries" unless pipeline.match?(/IMPORT_SOURCE_MAX_ATTEMPTS:\s*'3'/) && pipeline.match?(/IMPORT_SOURCE_DEADLINE_SECONDS:/)

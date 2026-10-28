@@ -42,6 +42,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     env:
       IMPORT_REPORT_DIR: tmp/import-reports
       FAILURE_DIAGNOSTICS_DIR: tmp/failure-diagnostics
@@ -267,8 +268,71 @@ jobs:
           fi
           printf '%s\n' "$pr_create_output"
 
+          pr_number="$(gh pr view "$branch" --json number -q .number)"
+          if [[ -z "$pr_number" ]]; then
+            echo "::warning::Could not resolve PR number for ${branch}; skipping auto-merge."
+            exit 0
+          fi
+
+          # Wait until pull_request check runs exist before enabling --auto.
+          # Otherwise GitHub can merge immediately (no required checks yet
+          # registered), delete the head ref, and leave Content Validation /
+          # CodeQL as 0-job failed runs. See Weekly Run #79 / PR #164.
+          echo "Waiting for pull request checks to register on #${pr_number}..."
+          checks_ready=0
+          for _ in $(seq 1 60); do
+            if gh pr checks "$pr_number" 2>/dev/null | grep -q .; then
+              checks_ready=1
+              break
+            fi
+            check_count="$(gh api "repos/${GITHUB_REPOSITORY}/commits/$(git rev-parse HEAD)/check-runs" --jq '.total_count' 2>/dev/null || echo 0)"
+            if [[ "${check_count}" =~ ^[1-9][0-9]*$ ]]; then
+              checks_ready=1
+              break
+            fi
+            sleep 5
+          done
+          if [[ "$checks_ready" -ne 1 ]]; then
+            echo "::warning::Timed out waiting for PR checks to register on #${pr_number}; queueing auto-merge anyway."
+          else
+            # Finish (or observe) registered checks before --auto so a
+            # no-required-checks repo cannot merge+delete mid-scheduling.
+            gh pr checks "$pr_number" --watch --interval 10 || \
+              echo "::warning::One or more PR checks reported failure; still queueing protected auto-merge for branch rules to evaluate."
+          fi
+
           # Queue normal protected auto-merge; never bypass branch rules.
           # Soft-fail when the repository has not enabled auto-merge or when
           # protection requirements leave the PR open for normal review.
-          gh pr merge "$branch" --auto --squash --delete-branch || \
+          if ! gh pr merge "$branch" --auto --squash --delete-branch; then
             echo "Auto-merge was not queued; leaving pull request open for normal review."
+            exit 0
+          fi
+
+          # GITHUB_TOKEN merges do not create repository_dispatch/push events
+          # that other workflows can consume. When auto-merge lands the PR,
+          # explicitly dispatch Pages + Validation on main.
+          # GITHUB_TOKEN merges skip push triggers; human merges do not. Only
+          # dispatch when the bot completed the merge to avoid double-running
+          # Pages/Validation alongside a human push event.
+          echo "Waiting for auto-merge of #${pr_number} (GITHUB_TOKEN merges skip push triggers)..."
+          for _ in $(seq 1 90); do
+            pr_state="$(gh pr view "$pr_number" --json state -q .state 2>/dev/null || echo UNKNOWN)"
+            if [[ "$pr_state" == "MERGED" ]]; then
+              merged_by="$(gh pr view "$pr_number" --json mergedBy -q .mergedBy.login 2>/dev/null || true)"
+              if [[ "$merged_by" == "github-actions[bot]" ]] || [[ "$merged_by" == "github-actions" ]]; then
+                echo "PR #${pr_number} merged by ${merged_by}; dispatching Deploy GitHub Pages and Content Validation on main."
+                gh workflow run "Deploy GitHub Pages" --ref main
+                gh workflow run "Content Validation" --ref main
+              else
+                echo "PR #${pr_number} merged by ${merged_by:-unknown}; push triggers will run workflows (no dispatch)."
+              fi
+              exit 0
+            fi
+            if [[ "$pr_state" != "OPEN" ]]; then
+              echo "PR #${pr_number} state is ${pr_state}; skipping post-merge workflow dispatch."
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Auto-merge still pending for #${pr_number}; leaving PR open. A human merge will trigger push workflows."

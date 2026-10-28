@@ -90,6 +90,48 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
     assert_match(/gh\s+pr\s+merge\s+\"\$branch\"\s+--auto\s+--squash\s+--delete-branch/, pipeline)
   end
 
+  def test_open_pr_step_waits_for_checks_and_dispatches_post_merge_workflows
+    pipeline = File.read(PIPELINE)
+    pages = File.read(File.expand_path('../.github/workflows/pages.yml', __dir__))
+    validate = File.read(File.expand_path('../.github/workflows/validate.yml', __dir__))
+    weekly = File.read(WORKFLOW)
+
+    assert_match(/Waiting for pull request checks to register/, pipeline)
+    assert_match(/gh\s+pr\s+checks/, pipeline)
+    assert_operator pipeline.index('Waiting for pull request checks to register'),
+                    :<,
+                    pipeline.index('gh pr merge "$branch" --auto --squash --delete-branch')
+    assert_match(/gh\s+workflow\s+run\s+\"Deploy GitHub Pages\"\s+--ref\s+main/, pipeline)
+    assert_match(/gh\s+workflow\s+run\s+\"Content Validation\"\s+--ref\s+main/, pipeline)
+    assert_match(/github-actions\[bot\]/, pipeline)
+    assert_match(/mergedBy\.login/, pipeline)
+    assert_match(/GITHUB_TOKEN merges skip push triggers|do not create repository_dispatch\/push events/i, pipeline)
+    assert_match(/actions:\s*write/, weekly)
+    assert_match(/actions:\s*write/, pipeline)
+    assert_match(/workflow_dispatch:/, pages)
+    assert_match(/workflow_dispatch:/, validate)
+  end
+
+  def test_open_pr_step_without_check_wait_or_post_merge_dispatch_is_rejected
+    pipeline = File.read(PIPELINE)
+    stripped = pipeline
+      .gsub(/Waiting for pull request checks to register/, 'Skipping check wait')
+      .gsub(/gh workflow run "Deploy GitHub Pages" --ref main/, 'echo skip-pages')
+      .gsub(/gh workflow run "Content Validation" --ref main/, 'echo skip-validate')
+    refute_equal pipeline, stripped, 'expected to remove check-wait / dispatch markers'
+
+    Tempfile.create(['import-pipeline', '.yml']) do |file|
+      file.write(stripped)
+      file.flush
+      _stdout, stderr, status = Timeout.timeout(3) do
+        Open3.capture3(RbConfig.ruby, SCRIPT, file.path)
+      end
+
+      refute status.success?, stderr
+      assert_match(/wait for PR checks|dispatch Pages|dispatch Content Validation/i, stderr)
+    end
+  end
+
   def test_open_pr_step_without_create_soft_warn_is_rejected
     pipeline = File.read(PIPELINE)
     stripped = pipeline
