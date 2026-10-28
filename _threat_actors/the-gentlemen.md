@@ -99,21 +99,6 @@ The Gentlemen is a ransomware group that employs a dual-extortion strategy, encr
 *Information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G1058)
-[4] [BradyUnit42_TheGentlemen_July2026](https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/)
-   Brady, M. (2026, July 10). No Manners Here: The Ruthless Rise of The Gentlemen Ransomware. Retrieved September 18, 2026.
-[5] [CarveyODonnellWelchHuntress_TheGentlemen_May2026](https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps)
-   Carvey, H., O'Donnell-Welch, L. (2026, May 21). The Gentlemen (Ransomware) in Disguise: Defense Evasion and other TTPs. Retrieved September 18, 2026.
-[6] [CheckPointResearch_TheGentlemen_April2026](https://research.checkpoint.com/2026/dfir-report-the-gentlemen/)
-   Check Point Research. (2026, April 20). DFIR Report – The Gentlemen & SystemBC: A Sneak Peek Behind the Proxy. Retrieved September 18, 2026.
-[7] [Intel471_TheGentlemen_Aug2026](https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen)
-   Intel 471. (2026, August 11). Threat Hunting Case Study: The Gentlemen. Retrieved September 18, 2026.
-[8] [MSTI_GentelmenRansomware_May2026](https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/)
-   Microsoft Threat Intelligence. (2026, May 28). The Gentlemen ransomware: Dissecting a self-propagating Go encryptor . Retrieved September 18, 2026.
-[9] [TrendAI_TheGentlemen_Sept2025](https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware)
-   Santos, J., et al. (2025, September 9). Unmasking The Gentlemen Ransomware: Tactics, Techniques, and Procedures Revealed . Retrieved September 18, 2026.
-[10] [Sophos_TheGentlemen_Sept2026](https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation)
-   Sophos Counter Threat Unit Research Team. (2026, September 1). Ungentlemanly behavior: Insights into a ransomware operation. Retrieved September 18, 2026.
-[11] [SoučekESET_Gentlemen_Jun2026](https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/)
-   Souček, J. (2026, June 18). Killing me gently: Inside Gentlemen’s EDR killer framework. Retrieved September 18, 2026.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1058)
+   MITRE ATT&CK entry
 

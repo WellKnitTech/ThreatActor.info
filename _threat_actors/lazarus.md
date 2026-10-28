@@ -263,27 +263,18 @@ Lazarus Group is a North Korean state-sponsored cyber threat group attributed to
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G0032)
-[8] [CrowdStrike Labyrinth Chollima Feb 2022](https://web.archive.org/web/20210723190317/https://adversary.crowdstrike.com/en-US/adversary/labyrinth-chollima/)
-   CrowdStrike. (2022, February 1). CrowdStrike Adversary Labyrinth Chollima. Retrieved February 1, 2022.
-[9] [Mandiant DPRK Groups 2023](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023)
-   Michael Barnhart, Austin Larsen, Jeff Johnson, Taylor Long, Michelle Cantos, Adrian Hernandez. (2023, October 10). Assessed Cyber Structure and Alignments of North Korea in 2023. Retrieved August 25, 2025.
-[10] [Mandiant DPRK Laz Org Breakdown 2022](https://cloud.google.com/blog/topics/threat-intelligence/mapping-dprk-groups-to-government/)
-   Michael Barnhart, Michelle Cantos, Jeffery Johnson, Elias fox, Gary Freas, Dan Scott. (2022, March 23). Not So Lazarus: Mapping DPRK Cyber Threat Groups to Government Organizations. Retrieved September 9, 2025.
-[11] [Microsoft Threat Actor Naming July 2023](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide)
-   Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.
-[12] [Novetta Blockbuster](https://web.archive.org/web/20160226161828/https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf)
-   Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
-[13] [Secureworks NICKEL ACADEMY Dec 2017](https://www.secureworks.com/about/press/media-alert-secureworks-discovers-north-korean-cyber-threat-group-lazarus-spearphishing)
-   Secureworks. (2017, December 15). Media Alert - Secureworks Discovers North Korean Cyber Threat Group, Lazarus, Spearphishing Financial Executives of Cryptocurrency Companies. Retrieved December 27, 2017.
-[14] [Microsoft ZINC disruption Dec 2017](https://blogs.microsoft.com/on-the-issues/2017/12/19/microsoft-facebook-disrupt-zinc-malware-attack-protect-customers-internet-ongoing-cyberthreats/)
-   Smith, B. (2017, December 19). Microsoft and Facebook disrupt ZINC malware attack to protect customers and the internet from ongoing cyberthreats. Retrieved December 20, 2017.
-[16] [Treasury North Korean Cyber Groups September 2019](https://home.treasury.gov/news/press-releases/sm774)
-   US Treasury . (2019, September 13). Treasury Sanctions North Korean State-Sponsored Malicious Cyber Groups. Retrieved September 29, 2021.
-[17] [US-CERT HIDDEN COBRA June 2017](https://www.us-cert.gov/ncas/alerts/TA17-164A)
-   US-CERT. (2017, June 13). Alert (TA17-164A) HIDDEN COBRA – North Korea’s DDoS Botnet Infrastructure. Retrieved July 13, 2017.
-[18] [US-CERT HOPLIGHT Apr 2019](https://www.us-cert.gov/ncas/analysis-reports/AR19-100A)
-   US-CERT. (2019, April 10). MAR-10135536-8 – North Korean Trojan: HOPLIGHT. Retrieved April 19, 2019.
-[19] [JPCert Blog Laz Subgroups 2025](https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html)
-   佐々木勇人 Hayato Sasaki. (2025, March 25). Tempted to Classifying APT Actors: Practical Challenges of Attribution in the Case of Lazarus’s Subgroup. Retrieved August 25, 2025.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0032)
+   MITRE ATT&CK entry
+[2] [US-CERT HIDDEN COBRA June 2017](https://www.us-cert.gov/ncas/alerts/TA17-164A)
+[3] [Treasury North Korean Cyber Groups September 2019](https://home.treasury.gov/news/press-releases/sm774)
+[4] [Novetta Blockbuster](https://web.archive.org/web/20160226161828/https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf)
+[5] [Mandiant DPRK Laz Org Breakdown 2022](https://cloud.google.com/blog/topics/threat-intelligence/mapping-dprk-groups-to-government/)
+[6] [Mandiant DPRK Groups 2023](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-cyber-structure-alignment-2023)
+[7] [JPCert Blog Laz Subgroups 2025](https://blogs.jpcert.or.jp/en/2025/03/classifying-lazaruss-subgroup.html)
+
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption](https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html)
+  The Hacker News - 2026-10-27T
 

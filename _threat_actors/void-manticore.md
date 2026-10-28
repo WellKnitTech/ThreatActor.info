@@ -161,15 +161,10 @@ VOID MANTICORE is a threat group assessed to operate on behalf of Iran’s Minis
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G1055)
-[9] [Check Point VOID MANTICORE Handala Hack March 2026](https://research.checkpoint.com/2026/handala-hack-unveiling-groups-modus-operandi/)
-   Check Point Research. (2026, March 12). “Handala Hack” – Unveiling Group’s Modus Operandi. Retrieved April 20, 2026.
-[10] [DOJ FBI Handala Hack March 2026](https://www.justice.gov/opa/media/1431956/dl?inline)
-   DOJ/FBI. (2026, March 19). Case 1:26-mj-00683-CDA: Affidavit in Support of Seizure Warrant: In the Matter of the Seizure of Domain Names Justicehomeland[.]org; karmabelow80[.]org; handala-hack[.]to; and handala-redwatned[.]to. Retrieved April 20, 2026.
-[11] [Domain Tools Handala Hack Karma Homeland Justice MOIS April 2026](https://dti.domaintools.com/research/handala-mois-linked-cyber-influence-ecosystem-threat-intelligence-assessment)
-   DomainTools Investigations. (2026, April 6). Handala: MOIS Linked Cyber Influence Ecosystem Threat Intelligence Assessment. Retrieved April 20, 2026.
-[12] [Palo Alto VOID MANTICORE Iran Cyber Threats March 2026](https://unit42.paloaltonetworks.com/evolution-of-iran-cyber-threats/)
-   Justin Moore. (2026, March 16). Iranian Cyber Threat Evolution: From MBR Wipers to Identity Weaponization. Retrieved April 20, 2026.
-[13] [Sophos VOID MANTICORE COBALT MYSTIQUE other Names April 2026](https://www.sophos.com/en-us/threat-profiles/cobalt-mystique)
-   Sophos. (2026, April 20). Iran COBALT MYSTIQUE. Retrieved April 20, 2026.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1055)
+   MITRE ATT&CK entry
+[2] [Check Point VOID MANTICORE Handala Hack March 2026](https://research.checkpoint.com/2026/handala-hack-unveiling-groups-modus-operandi/)
+[3] [Palo Alto VOID MANTICORE Iran Cyber Threats March 2026](https://unit42.paloaltonetworks.com/evolution-of-iran-cyber-threats/)
+[4] [DOJ FBI Handala Hack March 2026](https://www.justice.gov/opa/media/1431956/dl?inline)
+[5] [Domain Tools Handala Hack Karma Homeland Justice MOIS April 2026](https://dti.domaintools.com/research/handala-mois-linked-cyber-influence-ecosystem-threat-intelligence-assessment)
 

@@ -198,27 +198,6 @@ Wizard Spider is reportedly associated with Grim Spider and Lunar Spider. The WI
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G0102)
-[12] [DHS/CISA Ransomware Targeting Healthcare October 2020](https://us-cert.cisa.gov/ncas/alerts/aa20-302a)
-   DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.
-[13] [FireEye Ryuk and Trickbot January 2019](https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html)
-   Goody, K., et al (2019, January 11). A Nasty Trick: From Credential Theft Malware to Business Disruption. Retrieved May 12, 2020.
-[14] [CrowdStrike Ryuk January 2019](https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware/)
-   Hanel, A. (2019, January 10). Big Game Hunting with Ryuk: Another Lucrative Targeted Ransomware. Retrieved May 12, 2020.
-[15] [CrowdStrike Grim Spider May 2019](https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/)
-   John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.
-[16] [FireEye KEGTAP SINGLEMALT October 2020](https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html)
-   Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.
-[17] [Microsoft Threat Actor Naming July 2023](https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide)
-   Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.
-[18] [Microsoft_PistachioTempest_Jan2024](https://www.microsoft.com/en-us/security/security-insider/threat-landscape/pistachio-tempest)
-   Microsoft. (2024, January 25). Financially Motivated Threat Actor Pistachio Tempest. Retrieved December 15, 2025.
-[19] [CrowdStrike Wizard Spider October 2020](https://www.crowdstrike.com/blog/wizard-spider-adversary-update/)
-   Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.
-[20] [Secureworks Gold Blackburn Mar 2022](https://www.secureworks.com/research/threat-profiles/gold-blackburn)
-   Secureworks Counter Threat Unit. (2022, March 1). Gold Blackburn Threat Profile. Retrieved June 15, 2023.
-[21] [Mandiant FIN12 Oct 2021](https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf)
-   Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.
-[22] [IBM X-Force ITG23 Oct 2021](https://securityintelligence.com/posts/trickbot-gang-doubles-down-enterprise-infection/)
-   Villadsen, O., et al. (2021, October 13). Trickbot Rising - Gang Doubles Down on Infection Efforts to Amass Network Footholds. Retrieved June 15, 2023.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G0102)
+   MITRE ATT&CK entry
 

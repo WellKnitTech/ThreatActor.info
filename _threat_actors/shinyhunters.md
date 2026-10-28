@@ -260,21 +260,20 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G1057)
-[4] [ElecticIQ Buyukkaya_ShinyHunters_Sept2025](https://blog.eclecticiq.com/shinyhunters-calling-financially-motivated-data-extortion-group-targeting-enterprise-cloud-applications)
-   Büyükkaya, A. (2025, September 22). ShinyHunters Calling: Financially Motivated Data Extortion Group Targeting Enterprise Cloud Applications. Retrieved May 18, 2026.
-[5] [FBI_SHLMS_May2026](https://www.ic3.gov/PSA/2026/PSA260515)
-   Federal Bureau of Investigation. (2026, May 15). ShinyHunters: Cyber Criminal Group Attacks Learning Management System. Retrieved July 1, 2026.
-[6] [Google Salesforce JUN 2025](https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion)
-   Google Threat Intelligence Group. (2025, June 4). The Cost of a Call: From Voice Phishing to Data Extortion. Retrieved October 22, 2025.
-[7] [Intel471_SH_Aug2021](https://www.intel471.com/blog/shinyhunters-data-breach-mitre-attack)
-   Intel 471. (2021, August 23). Here’s how to guard your enterprise against ShinyHunters. Retrieved July 29, 2026.
-[8] [Unit42KelleyVaya_BlingLibra_Aug2024](https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/)
-   Kelley, M., Vaya, C. (2024, August 23). Bling Libra’s Tactical Evolution: The Threat Actor Group Behind ShinyHunters Ransomware. Retrieved May 18, 2026.
-[9] [Google_SHOracle_Jun2026](https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit)
-   Mandiant, Google Threat Intelligence Group. (2026, June 11). ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit. Retrieved June 11, 2026.
-[10] [Mandiant_SHDataTheft_Jan2026](https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft)
-   Mandiant. (2026, January 30). Vishing for Access: Tracking the Expansion of ShinyHunters-Branded SaaS Data Theft. Retrieved June 16, 2026.
-[11] [SOCRadar_ShinyHunters_Mar2024](https://socradar.io/dark-web-profile-shinyhunters/)
-   SOCRadar. (2024, March 18). Dark Web Profile: ShinyHunters. Retrieved May 18, 2026.
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1057)
+   MITRE ATT&CK entry
+[2] [ElecticIQ Buyukkaya_ShinyHunters_Sept2025](https://blog.eclecticiq.com/shinyhunters-calling-financially-motivated-data-extortion-group-targeting-enterprise-cloud-applications)
+[3] [SOCRadar_ShinyHunters_Mar2024](https://socradar.io/dark-web-profile-shinyhunters/)
+[4] [Unit42KelleyVaya_BlingLibra_Aug2024](https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/)
+[5] [Intel471_SH_Aug2021](https://www.intel471.com/blog/shinyhunters-data-breach-mitre-attack)
+[6] [FBI_SHLMS_May2026](https://www.ic3.gov/PSA/2026/PSA260515)
+[7] [Google_SHOracle_Jun2026](https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit)
+[8] [Mandiant_SHDataTheft_Jan2026](https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft)
+[9] [Google Salesforce JUN 2025](https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion)
+
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
+  The Hacker News - 2026-10-28T
 

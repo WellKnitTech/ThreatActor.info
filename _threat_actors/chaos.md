@@ -30,9 +30,3 @@ Chaos is a rapidly evolving Ransomware-as-a-Service (RaaS) group first observed 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More](https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html)
-  The Hacker News - 2026-10-26T
-

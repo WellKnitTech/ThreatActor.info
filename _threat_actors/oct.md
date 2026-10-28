@@ -33,6 +33,14 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)](https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/)
-  Unit 42 - 2026-10-23T
+- [20% Off Samsung Promo Code | October 2026](https://www.wired.com/story/samsung-promo-codes/)
+  Wired - 2026-10-28T
+- [Dyson Promo Codes: 25% Off in October 2026](https://www.wired.com/story/dyson-cordless-vacuum-promo-code/)
+  Wired - 2026-10-28T
+- [Squarespace Promo Codes: 20% Off in October 2026](https://www.wired.com/story/squarespace-promo-code/)
+  Wired - 2026-10-28T
+- [30% VistaPrint Coupon & Promo Codes | October 2026](https://www.wired.com/story/vistaprint-coupon-code/)
+  Wired - 2026-10-28T
+- [LG Promo Codes and Coupons for October 2026](https://www.wired.com/story/lg-promo-code/)
+  Wired - 2026-10-28T
 

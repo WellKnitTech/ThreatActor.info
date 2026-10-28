@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Simplify User Access Management with SCIM on Rapid7 Command Platform](https://www.rapid7.com/blog/post/pt-scim-simplifies-user-access-management-uam-command-platform)
+  Rapid7 - 2026-10-27T
+
