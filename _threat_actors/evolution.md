@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Anthropic Says It Will Revolutionize Biology—Some Day](https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/)
-  Wired - 2026-10-27T
-

@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach](https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html)
-  The Hacker News - 2026-10-28T
-- [Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers](https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html)
-  The Hacker News - 2026-10-28T
-- [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
-  The Hacker News - 2026-10-28T
-- [Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges](https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html)
-  The Hacker News - 2026-10-28T
-- [Should AI Decide Your Court Case? This Judge Says Yes](https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/)
-  Wired - 2026-10-28T
+- [China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility](https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html)
+  The Hacker News - 2026-10-29T
+- [Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces](https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html)
+  The Hacker News - 2026-10-29T
+- [Skullcandy Discount Code: 30% Off | November 2026](https://www.wired.com/story/skullcandy-discount-code/)
+  Wired - 2026-10-29T
+- [Petlibro Offers: 30% Off in November 2026](https://www.wired.com/story/petlibro-discount-code/)
+  Wired - 2026-10-29T
+- [30% Off Tempur-Pedic Promo Codes | November 2026](https://www.wired.com/story/tempur-pedic-promo-code/)
+  Wired - 2026-10-29T
 

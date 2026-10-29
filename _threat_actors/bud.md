@@ -33,8 +33,6 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr](https://www.wired.com/story/motorola-razr-deal-october-2026/)
-  Wired - 2026-10-27T
 - [Budgets Are Stalling Firewall Deals. Here’s How Partners Can Get Them Moving Again](https://blog.checkpoint.com/security/budgets-are-stalling-firewall-deals-heres-how-partners-can-get-them-moving-again/)
   Check Point - 2026-10-26T
 

@@ -32,3 +32,9 @@ Software supply chain campaign and its unnamed operator, first reported by GitGu
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub](https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github)
+  DarkReading - 2026-10-28T
+

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T07:54:22Z",
+  "updated": "2026-10-29T07:59:15Z",
   "sources": [
     "BleepingComputer",
     "The Hacker News",
@@ -19,11 +19,153 @@
     "Rapid7"
   ],
   "actor_news": {
+    "PL": [
+      {
+        "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+        "date": "2026-10-29T11:52:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+        "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+        "date": "2026-10-29T11:20:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Loop Earplugs Discount Codes: 40% Off",
+        "link": "https://www.wired.com/story/loop-earplugs-discount-code/",
+        "date": "2026-10-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Bluesky Is Blocking Links to a Major Leak of DHS Employee Records",
+        "link": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+        "date": "2026-10-29T03:34:46+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+        "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "date": "2026-10-28T23:38:33+05:30",
+        "source": "The Hacker News"
+      }
+    ],
     "R": [
       {
-        "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-        "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-        "date": "2026-10-28T12:43:21+05:30",
+        "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+        "date": "2026-10-29T11:52:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+        "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+        "date": "2026-10-29T11:20:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Skullcandy Discount Code: 30% Off | November 2026",
+        "link": "https://www.wired.com/story/skullcandy-discount-code/",
+        "date": "2026-10-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Petlibro Offers: 30% Off in November 2026",
+        "link": "https://www.wired.com/story/petlibro-discount-code/",
+        "date": "2026-10-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "30% Off Tempur-Pedic Promo Codes | November 2026",
+        "link": "https://www.wired.com/story/tempur-pedic-promo-code/",
+        "date": "2026-10-29T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Ra": [
+      {
+        "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+        "date": "2026-10-29T11:52:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Pura Promo Codes: $20 Off November 2026",
+        "link": "https://www.wired.com/story/pura-promo-code/",
+        "date": "2026-10-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+        "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "date": "2026-10-28T23:38:33+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+        "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+        "date": "2026-10-28T23:15:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+        "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+        "date": "2026-10-28T21:53:34+05:30",
+        "source": "The Hacker News"
+      }
+    ],
+    "PHP": [
+      {
+        "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+        "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+        "date": "2026-10-29T11:20:17+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+        "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+        "date": "2026-10-28T21:32:45+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+        "link": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+        "date": "2026-10-28T19:05:46+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+        "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+        "date": "2026-10-28T09:50:59-04:00",
+        "source": "BleepingComputer"
+      },
+      {
+        "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+        "link": "https://blog.cloudflare.com/php-ctf/",
+        "date": "2026-10-27T13:00:00+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Skull": [
+      {
+        "title": "Skullcandy Discount Code: 30% Off | November 2026",
+        "link": "https://www.wired.com/story/skullcandy-discount-code/",
+        "date": "2026-10-29T05:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Root": [
+      {
+        "title": "Hungryroot Coupon Codes: 30% Off This November 2026",
+        "link": "https://www.wired.com/story/hungryroot-promo-code/",
+        "date": "2026-10-29T05:00:00+00:00",
+        "source": "Wired"
+      },
+      {
+        "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+        "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+        "date": "2026-10-28T21:32:45+05:30",
         "source": "The Hacker News"
       },
       {
@@ -31,56 +173,264 @@
         "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
         "date": "2026-10-28T11:50:37+05:30",
         "source": "The Hacker News"
-      },
+      }
+    ],
+    "Bluesky": [
       {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T11:34:58+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-        "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-        "date": "2026-10-28T11:12:26+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-        "link": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-        "date": "2026-10-28T06:00:00+00:00",
+        "title": "Bluesky Is Blocking Links to a Major Leak of DHS Employee Records",
+        "link": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+        "date": "2026-10-29T03:34:46+00:00",
         "source": "Wired"
       }
     ],
-    "Ra": [
+    "Volt Typhoon": [
       {
-        "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-        "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-        "date": "2026-10-28T12:43:21+05:30",
+        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+        "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "date": "2026-10-28T23:38:33+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T11:34:58+05:30",
+        "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+        "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+        "date": "2026-10-28T12:00:00-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Silent": [
+      {
+        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+        "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "date": "2026-10-28T23:38:33+05:30",
         "source": "The Hacker News"
       },
       {
-        "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-        "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-        "date": "2026-10-28T11:12:26+05:30",
-        "source": "The Hacker News"
-      },
+        "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+        "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+        "date": "2026-10-28T12:00:00-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "Oled": [
       {
-        "title": "Paramount+ Coupon Codes and Deals for 2026",
-        "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
-        "date": "2026-10-28T05:00:00+00:00",
+        "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal",
+        "link": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/",
+        "date": "2026-10-28T22:54:16+00:00",
         "source": "Wired"
+      }
+    ],
+    "AnDROid": [
+      {
+        "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+        "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+        "date": "2026-10-28T22:38:09+05:30",
+        "source": "The Hacker News"
       },
       {
-        "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-        "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-        "date": "2026-10-27T23:56:46+05:30",
+        "title": "Xreal Aura is a new wired headset powered by Android XR",
+        "link": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+        "date": "2026-10-28T17:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "One": [
+      {
+        "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+        "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+        "date": "2026-10-28T22:38:09+05:30",
         "source": "The Hacker News"
+      },
+      {
+        "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+        "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+        "date": "2026-10-28T21:53:34+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+        "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+        "date": "2026-10-28T13:07:50+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
+        "link": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+        "date": "2026-10-27T19:58:06+00:00",
+        "source": "DarkReading"
+      },
+      {
+        "title": "Three Gartner Reports. One Emerging Direction for Exposure Management.",
+        "link": "https://blog.checkpoint.com/security/three-gartner-reports-one-emerging-direction-for-exposure-management/",
+        "date": "2026-10-27T13:00:09+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "Deadeye Jackal": [
+      {
+        "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+        "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+        "date": "2026-10-28T21:53:34+05:30",
+        "source": "The Hacker News"
+      },
+      {
+        "title": "Google expands AI Search ads globally as core ad growth slows",
+        "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+        "date": "2026-10-28T21:48:37+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Unwrapping Retail Peak Season Cyber Threats",
+        "link": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+        "date": "2026-10-28T18:00:10+00:00",
+        "source": "Unit 42"
+      },
+      {
+        "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+        "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+        "date": "2026-10-28T17:00:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Discord to let search engines index public server messages",
+        "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+        "date": "2026-10-28T14:44:16-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "core": [
+      {
+        "title": "Google expands AI Search ads globally as core ad growth slows",
+        "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+        "date": "2026-10-28T21:48:37+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+        "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+        "date": "2026-10-28T09:50:59-04:00",
+        "source": "BleepingComputer"
+      }
+    ],
+    "global": [
+      {
+        "title": "Google expands AI Search ads globally as core ad growth slows",
+        "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+        "date": "2026-10-28T21:48:37+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "NMoreira": [
+      {
+        "title": "Google expands AI Search ads globally as core ad growth slows",
+        "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+        "date": "2026-10-28T21:48:37+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Andariel": [
+      {
+        "title": "This Is What the GOP’s Final Midterms Push Looks Like",
+        "link": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
+        "date": "2026-10-28T21:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Final": [
+      {
+        "title": "This Is What the GOP’s Final Midterms Push Looks Like",
+        "link": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
+        "date": "2026-10-28T21:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Silent Chollima": [
+      {
+        "title": "This Is What the GOP’s Final Midterms Push Looks Like",
+        "link": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
+        "date": "2026-10-28T21:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "INC Ransom": [
+      {
+        "title": "Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents",
+        "link": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+        "date": "2026-10-28T20:01:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
+        "link": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+        "date": "2026-10-28T20:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "Homeland": [
+      {
+        "title": "Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents",
+        "link": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+        "date": "2026-10-28T20:01:00+00:00",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
+        "link": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+        "date": "2026-10-28T20:00:00+00:00",
+        "source": "Wired"
+      }
+    ],
+    "ghost": [
+      {
+        "title": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+        "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+        "date": "2026-10-28T19:39:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "GhostAction": [
+      {
+        "title": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+        "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+        "date": "2026-10-28T19:39:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Lurk": [
+      {
+        "title": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+        "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+        "date": "2026-10-28T19:39:00+00:00",
+        "source": "DarkReading"
+      }
+    ],
+    "Mini": [
+      {
+        "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+        "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+        "date": "2026-10-28T17:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Rakhni": [
+      {
+        "title": "Xreal Aura is a new wired headset powered by Android XR",
+        "link": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+        "date": "2026-10-28T17:00:00+00:00",
+        "source": "TechCrunch"
+      }
+    ],
+    "Rapid": [
+      {
+        "title": "How Rapid7 InsightGovCloud Supports BOD 22-01 Compliance",
+        "link": "https://www.rapid7.com/blog/post/pt-insightgovcloud-supports-bod-22-01-compliance",
+        "date": "2026-10-28T13:16:39+00:00",
+        "source": "Rapid7"
+      },
+      {
+        "title": "Simplify User Access Management with SCIM on Rapid7 Command Platform",
+        "link": "https://www.rapid7.com/blog/post/pt-scim-simplifies-user-access-management-uam-command-platform",
+        "date": "2026-10-27T12:24:04+00:00",
+        "source": "Rapid7"
       }
     ],
     "Hacked": [
@@ -91,318 +441,34 @@
         "source": "The Hacker News"
       }
     ],
-    "Root": [
-      {
-        "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-        "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-        "date": "2026-10-28T11:50:37+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-        "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-        "date": "2026-10-27T10:09:46-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hunt": [
-      {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T11:34:58+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-        "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-        "date": "2026-10-27T10:01:11-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Hunters": [
-      {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T11:34:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "PL": [
-      {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T11:34:58+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-        "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-        "date": "2026-10-28T11:12:26+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Disney Plus Discount Codes: 52% Off October 2026",
-        "link": "https://www.wired.com/story/disney-plus-discounts/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026",
-        "link": "https://www.wired.com/story/nordvpn-coupon/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Discord is making its public communities more searchable, and people have concerns",
-        "link": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/",
-        "date": "2026-10-27T21:22:35+00:00",
-        "source": "TechCrunch"
-      }
-    ],
     "RNS": [
       {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T11:34:58+05:30",
-        "source": "The Hacker News"
+        "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+        "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+        "date": "2026-10-28T10:00:00-04:00",
+        "source": "BleepingComputer"
       },
       {
-        "title": "Discord is making its public communities more searchable, and people have concerns",
-        "link": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/",
-        "date": "2026-10-27T21:22:35+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-        "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-        "date": "2026-10-27T10:09:46-04:00",
+        "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+        "date": "2026-10-28T06:46:23-04:00",
         "source": "BleepingComputer"
       }
     ],
-    "ShinyHunters": [
+    "Hive": [
       {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T11:34:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Judge": [
-      {
-        "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-        "link": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-        "date": "2026-10-28T06:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "OCT": [
-      {
-        "title": "20% Off Samsung Promo Code | October 2026",
-        "link": "https://www.wired.com/story/samsung-promo-codes/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Dyson Promo Codes: 25% Off in October 2026",
-        "link": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Squarespace Promo Codes: 20% Off in October 2026",
-        "link": "https://www.wired.com/story/squarespace-promo-code/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "30% VistaPrint Coupon & Promo Codes | October 2026",
-        "link": "https://www.wired.com/story/vistaprint-coupon-code/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "LG Promo Codes and Coupons for October 2026",
-        "link": "https://www.wired.com/story/lg-promo-code/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "SunCrypt": [
-      {
-        "title": "20% Off Samsung Promo Code | October 2026",
-        "link": "https://www.wired.com/story/samsung-promo-codes/",
-        "date": "2026-10-28T05:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "The data center boom has an upside: innovation for the US grid",
-        "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-        "date": "2026-10-27T22:55:41+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "BooM": [
-      {
-        "title": "The data center boom has an upside: innovation for the US grid",
-        "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-        "date": "2026-10-27T22:55:41+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "nova": [
-      {
-        "title": "The data center boom has an upside: innovation for the US grid",
-        "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-        "date": "2026-10-27T22:55:41+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "One": [
-      {
-        "title": "Guidewire buys Hyperexponential for $1.7B in cash",
-        "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
-        "date": "2026-10-27T22:26:03+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
-        "link": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
-        "date": "2026-10-27T19:58:06+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-        "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-        "date": "2026-10-27T19:29:09+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-        "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-        "date": "2026-10-27T17:16:00+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-        "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
-        "date": "2026-10-27T17:08:08+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
-        "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-        "date": "2026-10-27T21:44:34+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-        "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-        "date": "2026-10-27T10:01:11-04:00",
+        "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+        "link": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+        "date": "2026-10-28T05:43:15-04:00",
         "source": "BleepingComputer"
       }
     ],
-    "Deadeye Jackal": [
+    "Nefilim": [
       {
-        "title": "Discord is making its public communities more searchable, and people have concerns",
-        "link": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/",
-        "date": "2026-10-27T21:22:35+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-        "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-        "date": "2026-10-27T13:52:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Evolution": [
-      {
-        "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-        "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-        "date": "2026-10-27T19:39:04+00:00",
-        "source": "Wired"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-        "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-        "date": "2026-10-27T19:39:04+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-        "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-        "date": "2026-10-27T13:52:43+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
-        "date": "2026-10-26T18:01:40+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Revolution": [
-      {
-        "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-        "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-        "date": "2026-10-27T19:39:04+00:00",
-        "source": "Wired"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-        "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-        "date": "2026-10-27T19:29:48+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-        "date": "2026-10-27T17:02:31+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Bringing post-quantum cryptography to geographically fenced key management",
-        "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-        "date": "2026-10-23T18:06:56+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "core": [
-      {
-        "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-        "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-        "date": "2026-10-27T19:29:09+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-        "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-        "date": "2026-10-27T06:36:12-04:00",
+        "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+        "link": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+        "date": "2026-10-28T05:43:15-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "IPA": [
-      {
-        "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-        "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-        "date": "2026-10-27T19:29:09+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Light": [
-      {
-        "title": "Best Skylight Calendar Alternative on Sale: Save $100 on Everblog HomeCal (2026)",
-        "link": "https://www.wired.com/story/everblog-homecal-deal-october-2026/",
-        "date": "2026-10-27T18:51:17+00:00",
-        "source": "Wired"
       }
     ],
     "Safe": [
@@ -411,88 +477,6 @@
         "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
         "date": "2026-10-27T18:43:27-04:00",
         "source": "BleepingComputer"
-      }
-    ],
-    "Bud": [
-      {
-        "title": "Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr",
-        "link": "https://www.wired.com/story/motorola-razr-deal-october-2026/",
-        "date": "2026-10-27T18:41:41+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Budgets Are Stalling Firewall Deals. Here’s How Partners Can Get Them Moving Again",
-        "link": "https://blog.checkpoint.com/security/budgets-are-stalling-firewall-deals-heres-how-partners-can-get-them-moving-again/",
-        "date": "2026-10-26T13:05:17+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-        "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-        "date": "2026-10-27T17:39:50+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "DN": [
-      {
-        "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-        "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-        "date": "2026-10-27T17:02:46+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Rising Borrowing Costs Shouldn’t Delay Your Security: Meet Firewall-as-a-Subscription",
-        "link": "https://blog.checkpoint.com/security/rising-borrowing-costs-shouldnt-delay-your-security-meet-firewall-as-a-subscription/",
-        "date": "2026-10-26T12:50:01+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Lazarus": [
-      {
-        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-        "date": "2026-10-27T17:02:31+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "EnCrypt": [
-      {
-        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-        "date": "2026-10-27T17:02:31+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Korean": [
-      {
-        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-        "date": "2026-10-27T17:02:31+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Lazarus Group": [
-      {
-        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-        "date": "2026-10-27T17:02:31+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Quantum": [
-      {
-        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-        "date": "2026-10-27T17:02:31+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Bringing post-quantum cryptography to geographically fenced key management",
-        "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-        "date": "2026-10-23T18:06:56+00:00",
-        "source": "Cloudflare"
       }
     ],
     "Payment": [
@@ -517,68 +501,12 @@
         "source": "Check Point"
       }
     ],
-    "Rector": [
+    "ONI": [
       {
-        "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-        "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-        "date": "2026-10-27T14:59:09+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DDE": [
-      {
-        "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-        "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-        "date": "2026-10-27T13:52:43+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-        "link": "https://blog.cloudflare.com/php-ctf/",
-        "date": "2026-10-27T13:00:00+00:00",
-        "source": "Cloudflare"
-      },
-      {
-        "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-        "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-        "date": "2026-10-27T10:07:59+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-        "date": "2026-10-27T04:20:54-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
-        "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
-        "date": "2026-10-23T19:41:23+00:00",
+        "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
+        "date": "2026-10-26T18:01:40+00:00",
         "source": "DarkReading"
-      },
-      {
-        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-        "date": "2026-10-23T19:00:34+00:00",
-        "source": "Unit 42"
-      }
-    ],
-    "Rapid": [
-      {
-        "title": "Simplify User Access Management with SCIM on Rapid7 Command Platform",
-        "link": "https://www.rapid7.com/blog/post/pt-scim-simplifies-user-access-management-uam-command-platform",
-        "date": "2026-10-27T12:24:04+00:00",
-        "source": "Rapid7"
-      }
-    ],
-    "INC Ransom": [
-      {
-        "title": "DreamHost forces password resets in ongoing \"incident\"",
-        "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-        "date": "2026-10-26T15:26:20-04:00",
-        "source": "BleepingComputer"
       }
     ],
     "APT41": [
@@ -595,6 +523,46 @@
         "link": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management/",
         "date": "2026-10-26T15:07:43+00:00",
         "source": "Palo Alto Networks"
+      }
+    ],
+    "Bud": [
+      {
+        "title": "Budgets Are Stalling Firewall Deals. Here’s How Partners Can Get Them Moving Again",
+        "link": "https://blog.checkpoint.com/security/budgets-are-stalling-firewall-deals-heres-how-partners-can-get-them-moving-again/",
+        "date": "2026-10-26T13:05:17+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "DN": [
+      {
+        "title": "Rising Borrowing Costs Shouldn’t Delay Your Security: Meet Firewall-as-a-Subscription",
+        "link": "https://blog.checkpoint.com/security/rising-borrowing-costs-shouldnt-delay-your-security-meet-firewall-as-a-subscription/",
+        "date": "2026-10-26T12:50:01+00:00",
+        "source": "Check Point"
+      }
+    ],
+    "OCT": [
+      {
+        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
+        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+        "date": "2026-10-23T19:00:34+00:00",
+        "source": "Unit 42"
+      }
+    ],
+    "CryLocker": [
+      {
+        "title": "Bringing post-quantum cryptography to geographically fenced key management",
+        "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+        "date": "2026-10-23T18:06:56+00:00",
+        "source": "Cloudflare"
+      }
+    ],
+    "Quantum": [
+      {
+        "title": "Bringing post-quantum cryptography to geographically fenced key management",
+        "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+        "date": "2026-10-23T18:06:56+00:00",
+        "source": "Cloudflare"
       }
     ],
     "Conti": [
@@ -619,22 +587,6 @@
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
         "date": "2026-10-23T15:38:56+00:00",
         "source": "Rapid7"
-      }
-    ],
-    "BB": [
-      {
-        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
-        "date": "2026-10-23T14:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "global": [
-      {
-        "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-        "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
-        "date": "2026-10-23T14:00:00+00:00",
-        "source": "DarkReading"
       }
     ]
   }

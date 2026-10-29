@@ -44,3 +44,9 @@ First observed in June 2021, Hive ransomware was originally written in GoLang bu
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Nefilim and Hive ransomware affiliate gets 70 months in prison](https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/)
+  BleepingComputer - 2026-10-28T
+

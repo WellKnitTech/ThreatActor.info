@@ -33,8 +33,8 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads](https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html)
-  The Hacker News - 2026-10-27T
-- [Apple backports CoreGraphics zero-day patches to older iPhones](https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/)
-  BleepingComputer - 2026-10-27T
+- [Google expands AI Search ads globally as core ad growth slows](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)
+  TechCrunch - 2026-10-28T
+- [Even after PHP2Shell, blast radius matters more than a CVSS score](https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/)
+  BleepingComputer - 2026-10-28T
 

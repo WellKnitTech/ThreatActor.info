@@ -30,9 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Best Skylight Calendar Alternative on Sale: Save $100 on Everblog HomeCal (2026)](https://www.wired.com/story/everblog-homecal-deal-october-2026/)
-  Wired - 2026-10-27T
-

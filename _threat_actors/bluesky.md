@@ -30,3 +30,9 @@ Ransomware.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Bluesky Is Blocking Links to a Major Leak of DHS Employee Records](https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/)
+  Wired - 2026-10-29T
+

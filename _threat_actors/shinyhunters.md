@@ -271,9 +271,3 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
 [8] [Mandiant_SHDataTheft_Jan2026](https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft)
 [9] [Google Salesforce JUN 2025](https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion)
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
-  The Hacker News - 2026-10-28T
-

@@ -33,8 +33,6 @@ It’s directed to English speaking users, therefore is able to infect worldwide
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [AI-Generated Fake Login Pages Are Making Account Takeovers Easier](https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html)
-  The Hacker News - 2026-10-27T
 - [Rising Borrowing Costs Shouldn’t Delay Your Security: Meet Firewall-as-a-Subscription](https://blog.checkpoint.com/security/rising-borrowing-costs-shouldnt-delay-your-security-meet-firewall-as-a-subscription/)
   Check Point - 2026-10-26T
 

@@ -33,10 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Anthropic Says It Will Revolutionize Biology—Some Day](https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/)
-  Wired - 2026-10-27T
-- [OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections](https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html)
-  The Hacker News - 2026-10-27T
 - ['Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets](https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets)
   DarkReading - 2026-10-26T
 
