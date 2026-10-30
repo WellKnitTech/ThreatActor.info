@@ -44,9 +44,3 @@ First observed in June 2021, Hive ransomware was originally written in GoLang bu
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Fan-fiction site Archive of Our Own (AO3) could be offline for up to 4 weeks after security incident](https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/)
-  TechCrunch - 2026-10-29T
-

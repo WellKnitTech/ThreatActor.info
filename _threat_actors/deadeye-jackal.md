@@ -54,17 +54,3 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [As search traffic dries up, Reddit announces it’s shifting to a logged-in experience](https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/)
-  TechCrunch - 2026-10-29T
-- [Chrome extensions with 13.4 million installs caught hijacking searches](https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/)
-  BleepingComputer - 2026-10-29T
-- [An AI Breakthrough Has Made Decades of Computer Science Research ‘Irrelevant’](https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/)
-  Wired - 2026-10-29T
-- [Unwrapping Retail Peak Season Cyber Threats](https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/)
-  Unit 42 - 2026-10-28T
-- [Discord to let search engines index public server messages](https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/)
-  BleepingComputer - 2026-10-28T
-

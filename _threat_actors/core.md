@@ -30,9 +30,3 @@ Core ransomware surfaced in early 2025 as a new variant within the broader Makop
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions](https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html)
-  The Hacker News - 2026-10-29T
-

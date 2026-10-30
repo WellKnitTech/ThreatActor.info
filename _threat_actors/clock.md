@@ -30,9 +30,3 @@ Ransomware Does not encrypt anything
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [I Gave My Blood to the AI Death Clock](https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/)
-  Wired - 2026-10-29T
-

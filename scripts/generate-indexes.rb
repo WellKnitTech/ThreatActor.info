@@ -255,6 +255,7 @@ class ThreatActorIndexGenerator
 
     write_json('threat_actors.json', actor_documents)
     write_json('recently_updated.json', build_recently_updated(actor_documents))
+    write_json('news.json', build_news_payload)
     write_json('iocs.json', ioc_documents)
 
     # Build facets with malware counts
@@ -635,6 +636,47 @@ class ThreatActorIndexGenerator
       country_counts: country_counts,
       risk_counts: risk_counts,
       sector_counts: sector_counts
+    }
+  end
+
+  def build_news_payload
+    path = '_data/news_feed.yml'
+    return { updated: nil, window_days: nil, item_count: 0, items: [], source_health: {} } unless File.exist?(path)
+
+    content = File.read(path).strip
+    data =
+      if content.start_with?('{')
+        JSON.parse(content)
+      else
+        safe_load_yaml(content) || {}
+      end
+
+    items = Array(data['items']).map do |item|
+      {
+        title: item['title'],
+        link: item['link'],
+        canonical_url: item['canonical_url'],
+        date: item['date'],
+        source: item['source'],
+        cves: Array(item['cves']),
+        tags: Array(item['tags']),
+        actors: Array(item['actors']).map do |actor|
+          {
+            name: actor['name'],
+            url: actor['url'],
+            matched_alias: actor['matched_alias']
+          }
+        end
+      }
+    end
+
+    {
+      updated: data['updated'],
+      window_days: data['window_days'],
+      item_count: items.length,
+      sources: Array(data['sources']),
+      source_health: data['source_health'] || {},
+      items: items
     }
   end
 

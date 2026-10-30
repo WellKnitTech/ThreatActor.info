@@ -30,9 +30,3 @@ Ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Rivian expands joint venture with VW to include AI assistant](https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/)
-  TechCrunch - 2026-10-29T
-

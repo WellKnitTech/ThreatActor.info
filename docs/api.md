@@ -93,6 +93,21 @@ Per-actor shards are available at `/api/ransomware-ecosystem/<actor-slug>.json`.
 
 The actor page displays this data only as secondary context: accepted derived records are marked with confidence/review badges, endpoint entity types, source version/date, Orange Cyberdefense CERT World Watch attribution, and an uncertainty/non-exhaustive disclaimer. Actors with no accepted records render no panel.
 
+### `/api/news.json`
+
+Daily security-news digest produced by `scripts/fetch-news.rb` and mirrored into `_data/generated/news.json`.
+
+Fields:
+
+- `updated` — ISO-8601 UTC timestamp for the last successful fetch
+- `window_days` — retention window used when filtering items
+- `item_count`
+- `sources` — feed names considered by the fetcher
+- `source_health` — per-source ok/error/item counts from the last run
+- `items[]` — recent relevant articles with `title`, `link`, `canonical_url`, `date`, `source`, `cves`, `tags`, and `actors` (`name`, `url`, `matched_alias`)
+
+The human-readable page is `/news/`. Actor pages also surface high-confidence matches under **Recent News**.
+
 ### `/api/recently-updated.json`
 
 Array of actor records with `last_updated` values, sorted newest first for homepage freshness cards.

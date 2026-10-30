@@ -2,233 +2,67 @@
 # frozen_string_literal: true
 
 # RSS News Fetcher for Threat Actors
-# Fetches recent security news and maps to threat actors
+# Fetches recent security news, filters/deduplicates, and maps to threat actors.
 
 require 'net/http'
 require 'uri'
 require 'rss'
 require 'open-uri'
-require 'yaml'
 require 'json'
 require 'rexml/document'
-require 'set'
+require 'time'
 
-OUTPUT_FILE = '_data/news_feed.yml'
+require_relative 'lib/news_feed'
 
-# Security RSS feeds
-RSS_FEEDS = [
-  # Major security news
-  { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', weight: 2 },
-  { name: 'The Hacker News', url: 'https://feeds.feedburner.com/TheHackersNews', weight: 2 },
-  { name: 'KrebsOnSecurity', url: 'https://krebsonsecurity.com/feed/', weight: 2 },
-  { name: 'DarkReading', url: 'https://www.darkreading.com/rss.xml', weight: 1 },
-  { name: 'SecurityWeek', url: 'https://www.securityweek.com/feed', weight: 1 },
-  { name: 'Threatpost', url: 'https://threatpost.com/feed/', weight: 1 },
-  
-  # Tech/news
-  { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', weight: 1 },
-  { name: 'Wired', url: 'https://www.wired.com/feed/rss', weight: 1 },
-  { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', weight: 1 },
-  
-  # Vendor blogs
-  { name: 'Unit 42', url: 'https://unit42.paloaltonetworks.com/feed/', weight: 2 },
-  { name: 'Palo Alto Networks', url: 'https://blog.paloaltonetworks.com/feed/', weight: 2 },
-  { name: 'Elastic', url: 'https://www.elastic.co/blog/feed', weight: 1 },
-  { name: 'Cloudflare', url: 'https://blog.cloudflare.com/rss/', weight: 1 },
-  { name: 'Check Point', url: 'https://blog.checkpoint.com/feed/', weight: 1 },
-  { name: 'SentinelOne', url: 'https://www.sentinelone.com/blog/feed/', weight: 1 },
-  { name: 'Rapid7', url: 'https://www.rapid7.com/blog/rss', weight: 1 },
-].freeze
-
-# Actor name keywords for matching
-ACTOR_KEYWORDS = {
-  # Major APT groups - Russian
-  'APT28' => ['apt28', 'fancy bear', 'sofacy', 'pawn storm', 'sednit', 'strontium', 'forest Blizzard'],
-  'APT29' => ['apt29', 'cozy bear', 'the duke', 'nobelium', 'yttrium', 'midnight blizzard'],
-  'Sandworm' => ['sandworm', 'voodoo bear', 'electrum', 'industroyer', 'notpetya', 'bare rock'],
-  'Turla' => ['turla', 'snake', 'waterbug', 'venomous bear', 'urobos'],
-  
-  # Major APT groups - Chinese
-  'APT41' => ['apt41', 'winnti', 'barium', 'wintrip', 'blackfly', 'wicked panda'],
-  'APT10' => ['apt10', 'menupass', 'stone panda', 'menupass'],
-  'APT17' => ['apt17', 'hidden lynx', 'aurora panda'],
-  'Barium' => ['barium', 'winnti group'],
-  
-  # Major APT groups - Iranian
-  'APT33' => ['apt33', 'elfin', 'magnallium'],
-  'MuddyWater' => ['muddywater', 'seedworm', 'static kitten', 'muddy water'],
-  'OilRig' => ['oilrig', 'cobalt gypsy', 'twisted kitten', 'elix'],
-  
-  # Major APT groups - North Korean
-  'Lazarus' => ['lazarus', 'hidden cobra', 'zinc', 'labyrinth chollima', 'zinc'],
-  'Kimsuky' => ['kimsuky', 'thallium', 'velvet chollima', 'zinc'],
-  
-  # Major ransomware
-  'LockBit' => ['lockbit', 'lockbit 3.0', 'lockbit ransomware'],
-  'Conti' => ['conti', 'wizard spider', 'wizard spider'],
-  'REvil' => ['revil', 'sodinokibi', 'sodiniki'],
-  'BlackCat' => ['alphv', 'blackcat', 'blackcat ransomware'],
-  'Clop' => ['clop', 'cl0p', 'clop ransomware'],
-  'Akira' => ['akira ransomware'],
-  'BlackBasta' => ['blackbasta', 'basta ransomware'],
-  'Royal' => ['royal ransomware', 'royal dp'],
-  'Knight' => ['knight ransomware'],
-  'Play' => ['play ransomware'],
-  'Rhysida' => ['rhysida ransomware'],
-  'Cuba' => ['cuba ransomware', 'cuba'],
-  
-  # Initial access brokers
-  'Fin7' => ['fin7', 'carbanak', 'navigator', 'fin 7'],
-  'Carbanak' => ['carbanak', 'carbon spider'],
-  'TA505' => ['ta505', 'fin一致的', 'lovense'],
-  
-  # Other notable
-  'Emotet' => ['emotet', 'heodo'],
-  'TrickBot' => ['trickbot', 'trickster'],
-  'Qakbot' => ['qakbot', 'qbot', 'quakbot'],
-  'IcedID' => ['icedid', 'bokbot'],
-  'Cobalt' => ['cobalt', 'cobalt strike'],
-  'Metasploit' => ['metasploit'],
-  'Mimikatz' => ['mimikatz'],
-  
-  # State-sponsored groups
-  'Mustang Panda' => ['mustang panda', 'bvp22', 'temp not'],
-  'Ghost Shark' => ['ghost shark', 'gothic panda'],
-  'Patchwork' => ['patchwork', 'dropping eagle'],
-  'Sidewinder' => ['sidewinder', 'groundbait'],
-}.freeze
-
-def normalize_keyword(keyword)
-  keyword.to_s.strip.downcase
-end
-
-def load_actor_keywords
-  actor_files = Dir.glob('_data/actors/*.yml').sort
-  keywords = Hash.new { |h, k| h[k] = Set.new }
-
-  actor_files.each do |path|
-    actor = YAML.safe_load(File.read(path), permitted_classes: [Date, Time], aliases: false)
-    next unless actor.is_a?(Hash)
-
-    actor_name = actor['name'].to_s.strip
-    next if actor_name.empty?
-
-    keywords[actor_name] << normalize_keyword(actor_name)
-
-    Array(actor['aliases']).each do |ali|
-      normalized = normalize_keyword(ali)
-      keywords[actor_name] << normalized unless normalized.empty?
-    end
-  rescue Psych::SyntaxError => e
-    puts "  Warning: #{path} - #{e.message.lines.first.to_s.strip}"
-  end
-
-  keywords
-end
-
-def combined_actor_keywords
-  combined = Hash.new { |h, k| h[k] = Set.new }
-
-  ACTOR_KEYWORDS.each do |actor, words|
-    words.each { |word| combined[actor] << normalize_keyword(word) }
-  end
-
-  load_actor_keywords.each do |actor, words|
-    words.each { |word| combined[actor] << word }
-  end
-
-  combined
-end
-
-def parse_feed(feed)
+def parse_feed(feed, health)
   items = []
-  
+  started = Time.now
+
   begin
-    raw = URI.parse(feed[:url]).open(read_timeout: 10).read
-    rss = RSS::Parser.parse(raw)
-    
-    rss.items.first(15).each do |item|
-      next unless item.title && item.link
-      
+    raw = URI.parse(feed[:url]).open(
+      read_timeout: 12,
+      open_timeout: 8,
+      'User-Agent' => 'ThreatActor.info daily-news/1.0'
+    ).read
+    rss = RSS::Parser.parse(raw, false)
+
+    unless rss && rss.respond_to?(:items)
+      health[feed[:name]] = { 'ok' => false, 'error' => 'unrecognized feed format', 'items' => 0 }
+      return items
+    end
+
+    rss.items.first(NewsFeed::MAX_PER_FEED).each do |item|
+      title = item.title.to_s.strip
+      link = item.link.is_a?(String) ? item.link : item.link&.href
+      link = link.to_s.strip
+      next if title.empty? || link.empty?
+
+      date = item.respond_to?(:date) ? item.date : nil
+      date ||= item.respond_to?(:dc_date) ? item.dc_date : nil
+      date ||= item.respond_to?(:pubDate) ? item.pubDate : nil
+      date ||= item.respond_to?(:updated) ? item.updated : nil
+
       items << {
-        title: item.title[0..200],
-        link: item.link,
-        date: item.date&.iso8601,
+        title: title[0..200],
+        link: link,
+        date: date,
         source: feed[:name],
-        weight: feed[:weight] || 1
+        weight: feed[:weight] || 1,
+        category: feed[:category] || :security
       }
     end
-  rescue => e
-    puts "  Warning: #{feed[:name]} - #{e.message[0..40]}"
+
+    health[feed[:name]] = {
+      'ok' => true,
+      'items' => items.size,
+      'latency_ms' => ((Time.now - started) * 1000).round
+    }
+  rescue StandardError => e
+    health[feed[:name]] = { 'ok' => false, 'error' => e.message.to_s[0..120], 'items' => 0 }
+    warn "  Warning: #{feed[:name]} - #{e.message.to_s[0..80]}"
   end
-  
+
   items
-end
-
-def match_actors(title, text)
-  title_lower = title.downcase
-  text_lower = text.downcase
-  
-  matched = []
-  
-  combined_actor_keywords.each do |actor, keywords|
-    keywords.each do |kw|
-      next if kw.empty?
-
-      if title_lower.include?(kw) || text_lower.include?(kw)
-        matched << actor
-        break
-      end
-    end
-  end
-  
-  matched.uniq
-end
-
-def fetch_news
-  puts "Fetching security news..."
-  
-  all_items = []
-  
-  RSS_FEEDS.each do |feed|
-    items = parse_feed(feed)
-    all_items.concat(items)
-    puts "  #{feed[:name]}: #{items.size} items"
-  end
-  
-  # Fetch Beazley Security Labs (scraper)
-  all_items.concat(fetch_beazley_articles)
-  puts "  Beazley Security Labs: #{@beazley_count || 0} items"
-  
-  # Sort by date, newest first
-  all_items.sort_by! { |i| i[:date] || '1970-01-01' }
-  all_items.reverse!
-  
-  all_items.first(100)  # Keep recent 100
-end
-
-def fetch_beazley_articles
-  @beazley_count = 0
-  articles = []
-  
-  begin
-    feeds = [
-      { url: 'https://labs.beazley.security/articles/atom.xml', source: 'Beazley Security Labs Articles' },
-      { url: 'https://labs.beazley.security/advisories/atom.xml', source: 'Beazley Security Labs Advisories' }
-    ]
-
-    feeds.each do |feed|
-      raw = URI.parse(feed[:url]).open(read_timeout: 10).read
-      articles.concat(parse_beazley_atom_entries(raw, feed[:source]))
-    end
-
-    articles.uniq! { |item| item[:link] }
-    @beazley_count = articles.size
-  rescue => e
-    puts "  Beazley: #{e.message[0..30]}"
-  end
-  
-  articles
 end
 
 def parse_beazley_atom_entries(xml, source)
@@ -246,77 +80,127 @@ def parse_beazley_atom_entries(xml, source)
       link: link,
       source: source,
       date: published,
-      weight: 2
+      weight: 2,
+      category: :security
     }
   end
 
-  entries.first(15)
+  entries.first(NewsFeed::MAX_PER_FEED)
 end
 
-def map_actors_to_news(news_items)
-  puts "Mapping to threat actors..."
-  
-  actor_news = {}
-  
-  news_items.each do |item|
-    matches = match_actors(item[:title], item[:title])
-    
-    matches.each do |actor|
-      actor_news[actor] ||= []
-      actor_news[actor] << {
-        title: item[:title],
-        link: item[:link],
-        date: item[:date],
-        source: item[:source]
+def fetch_beazley_articles(health)
+  articles = []
+  feeds = [
+    { url: 'https://labs.beazley.security/articles/atom.xml', source: 'Beazley Security Labs Articles' },
+    { url: 'https://labs.beazley.security/advisories/atom.xml', source: 'Beazley Security Labs Advisories' }
+  ]
+
+  feeds.each do |feed|
+    started = Time.now
+    begin
+      raw = URI.parse(feed[:url]).open(
+        read_timeout: 12,
+        open_timeout: 8,
+        'User-Agent' => 'ThreatActor.info daily-news/1.0'
+      ).read
+      parsed = parse_beazley_atom_entries(raw, feed[:source])
+      articles.concat(parsed)
+      health[feed[:source]] = {
+        'ok' => true,
+        'items' => parsed.size,
+        'latency_ms' => ((Time.now - started) * 1000).round
       }
+    rescue StandardError => e
+      health[feed[:source]] = { 'ok' => false, 'error' => e.message.to_s[0..120], 'items' => 0 }
+      warn "  Beazley (#{feed[:source]}): #{e.message.to_s[0..80]}"
     end
   end
-  
-  actor_news.each do |actor, news|
-    # Keep only 5 most recent per actor
-    actor_news[actor] = news.first(5)
-  end
-  
-  actor_news
+
+  articles.uniq { |item| NewsFeed.canonicalize_url(item[:link]) }
 end
 
-def save_news(actor_news)
-  puts "Saving to #{OUTPUT_FILE}..."
-  
-  # Ensure all keys are strings for YAML compatibility
-  string_actor_news = {}
-  actor_news.each do |k, v|
-    string_actor_news[k.to_s] = v
+def fetch_news(health)
+  puts 'Fetching security news...'
+
+  all_items = []
+  NewsFeed::RSS_FEEDS.each do |feed|
+    items = parse_feed(feed, health)
+    all_items.concat(items)
+    status = health[feed[:name]]
+    suffix = status && status['ok'] ? "#{items.size} items" : "FAILED (#{status && status['error']})"
+    puts "  #{feed[:name]}: #{suffix}"
   end
-  
-  # Build structured output with string keys
-  output = {
-    'updated' => Time.now.utc.iso8601,
-    'sources' => RSS_FEEDS.map { |f| f[:name] },
-    'actor_news' => string_actor_news
-  }
-  
-  # Use JSON for safer serialization
-  File.write(OUTPUT_FILE, JSON.pretty_generate(output))
-  
-  matched_count = string_actor_news.keys.select { |k| string_actor_news[k].any? }.size
-  puts "Actors with news: #{matched_count}"
+
+  beazley = fetch_beazley_articles(health)
+  all_items.concat(beazley)
+  puts "  Beazley Security Labs: #{beazley.size} items"
+
+  all_items
 end
 
-# Main
-if __FILE__ == $0
-  puts "=" * 50
-  puts "RSS News Fetcher"
-  puts "=" * 50
-  
-  news_items = fetch_news
-  actor_news = map_actors_to_news(news_items)
-  save_news(actor_news)
-  
-  puts ""
-  puts "Top actors with news:"
-  actor_news.select { |k, v| v.any? }
-        .sort_by { |k, v| -v.size }
-        .first(10)
-        .each { |k, v| puts "  #{k}: #{v.size} articles" }
+def load_items_from_json(path)
+  data = JSON.parse(File.read(path))
+  rows = data.is_a?(Array) ? data : Array(data['items'])
+  rows.map do |row|
+    {
+      title: row['title'],
+      link: row['link'],
+      date: row['date'],
+      source: row['source'] || 'fixture',
+      weight: row['weight'] || 1,
+      category: (row['category'] || 'security').to_sym
+    }
+  end
 end
+
+def save_news(output)
+  puts "Saving to #{NewsFeed::OUTPUT_FILE}..."
+  File.write(NewsFeed::OUTPUT_FILE, JSON.pretty_generate(output))
+  matched = output['actor_news'].count { |_, v| v.any? }
+  puts "Items kept: #{output['items'].size}"
+  puts "Actors with news: #{matched}"
+  dead = output['source_health'].count { |_, v| !v['ok'] }
+  puts "Unhealthy sources: #{dead}" if dead.positive?
+end
+
+def main(argv)
+  puts '=' * 50
+  puts 'RSS News Fetcher'
+  puts '=' * 50
+
+  health = {}
+  raw_items =
+    if (idx = argv.index('--from-json'))
+      path = argv[idx + 1] or abort('Usage: fetch-news.rb --from-json PATH')
+      puts "Loading fixtures from #{path}"
+      load_items_from_json(path)
+    else
+      fetch_news(health)
+    end
+
+  keyword_index = NewsFeed.build_keyword_index
+  processed = NewsFeed.process_items(raw_items, keyword_index: keyword_index)
+
+  sources = NewsFeed::RSS_FEEDS.map { |f| f[:name] }
+  sources |= health.keys
+  output = NewsFeed.build_output(processed, source_health: health, sources: sources)
+  save_news(output)
+
+  puts ''
+  puts 'Top actors with news:'
+  output['actor_news']
+    .select { |_, v| v.any? }
+    .sort_by { |_, v| -v.size }
+    .first(10)
+    .each { |k, v| puts "  #{k}: #{v.size} articles" }
+
+  puts ''
+  puts 'Sample recent items:'
+  output['items'].first(5).each do |item|
+    actors = Array(item['actors']).map { |a| a['name'] }.join(', ')
+    puts "  - #{item['title'][0..90]}"
+    puts "    #{item['source']} | actors: #{actors.empty? ? '(none)' : actors}"
+  end
+end
+
+main(ARGV) if $PROGRAM_NAME == __FILE__

@@ -72,12 +72,6 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Palo Alto Networks Brings Continuous AI Defense and Prisma AIRS to the OpenAI Marketplace](https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-brings-continuous-ai-defense-and-prisma-airs-to-the-openai-marketplace/)
-  Palo Alto Networks - 2026-10-23T
-
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*
 

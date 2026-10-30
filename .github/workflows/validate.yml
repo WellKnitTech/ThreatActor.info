@@ -10,8 +10,8 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main ]
-  # Manual runs, and weekly import post-merge dispatch (GITHUB_TOKEN merges
-  # do not fire push-triggered workflows).
+  # Manual runs, plus post-push dispatch from weekly import merges and the
+  # daily news job (GITHUB_TOKEN commits do not fire push-triggered workflows).
   workflow_dispatch:
 
 jobs:

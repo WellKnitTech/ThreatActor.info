@@ -30,13 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Nothing Headphones Sale: Stylish and Up to 41% Off](https://www.wired.com/story/nothing-cmf-deals-october-2026/)
-  Wired - 2026-10-29T
-- [SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack](https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack)
-  DarkReading - 2026-10-27T
-- [Three Gartner Reports. One Emerging Direction for Exposure Management.](https://blog.checkpoint.com/security/three-gartner-reports-one-emerging-direction-for-exposure-management/)
-  Check Point - 2026-10-27T
-

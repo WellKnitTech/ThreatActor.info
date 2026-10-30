@@ -30,9 +30,3 @@ Ank is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories](https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html)
-  The Hacker News - 2026-10-30T
-

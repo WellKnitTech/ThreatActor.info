@@ -8,24 +8,27 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+# GITHUB_TOKEN pushes do not fire other workflows' push handlers, so this job
+# must be able to workflow_dispatch Pages + Validation after a successful push.
 permissions:
   contents: write
+  actions: write
   pages: read
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-          
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.5'
           bundler-cache: true
-          
+
       - name: Capture actor baseline
         run: |
           mkdir -p tmp/delta-baseline
@@ -34,7 +37,7 @@ jobs:
       # News changes constantly - needs daily
       - name: Fetch security news
         run: ruby scripts/fetch-news.rb
-          
+
       - name: Generate pages
         run: ruby scripts/generate-pages.rb --force
 
@@ -62,14 +65,36 @@ jobs:
       - name: Validate built API JSON
         run: |
           ruby -e "require 'json'; Dir.glob('_site/api/**/*.json').each { |path| JSON.parse(File.read(path)) }"
-          
+
       - name: Commit news changes
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --staged --quiet || git commit -m "Daily news update ($(date +'%Y-%m-%d'))"
-          
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No news changes to commit."
+          else
+            git commit -m "Daily news update ($(date +'%Y-%m-%d'))"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Push changes
-        run: git push
-        continue-on-error: true
+        id: push
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # GITHUB_TOKEN commits skip push triggers for other workflows (same class
+      # of bug as weekly import merges; see PR #165). Dispatch only when we
+      # actually pushed a news commit so idle days do not redeploy.
+      - name: Dispatch Pages and Validation
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Dispatching Deploy GitHub Pages and Content Validation on main after GITHUB_TOKEN news push."
+          gh workflow run "Deploy GitHub Pages" --ref main
+          gh workflow run "Content Validation" --ref main

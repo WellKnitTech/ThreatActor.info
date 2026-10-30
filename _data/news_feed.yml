@@ -1,628 +1,1625 @@
 {
-  "updated": "2026-10-30T08:01:38Z",
+  "updated": "2026-10-30T16:53:04Z",
+  "window_days": 14,
   "sources": [
     "BleepingComputer",
     "The Hacker News",
     "KrebsOnSecurity",
     "DarkReading",
     "SecurityWeek",
-    "Threatpost",
-    "TechCrunch",
-    "Wired",
-    "Ars Technica",
+    "The Record",
+    "CISA Advisories",
+    "Microsoft Security",
+    "Cisco Talos",
+    "Securelist",
+    "Malwarebytes",
     "Unit 42",
     "Palo Alto Networks",
-    "Elastic",
+    "Elastic Security",
     "Cloudflare",
     "Check Point",
     "SentinelOne",
-    "Rapid7"
+    "Rapid7",
+    "Ars Technica",
+    "TechCrunch",
+    "Wired Security"
+  ],
+  "source_health": {
+  },
+  "items": [
+    {
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "canonical_url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "date": "2026-10-30T07:27:05Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "canonical_url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "date": "2026-10-30T04:14:59Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+      "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+      "canonical_url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto",
+      "date": "2026-10-29T22:27:23Z",
+      "source": "TechCrunch",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining",
+      "date": "2026-10-29T22:09:24Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+      "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced",
+      "date": "2026-10-29T21:47:25Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Rethinking Cybersecurity Awareness in the AI Era",
+      "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+      "canonical_url": "https://darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+      "date": "2026-10-29T20:15:37Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Polymarket Halted International Trading After Hackers Drained Accounts",
+      "link": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+      "canonical_url": "https://wired.com/story/polymarket-flagship-platform-hack-traders-lose-money",
+      "date": "2026-10-29T19:51:56Z",
+      "source": "Wired",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "canonical_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619",
+      "date": "2026-10-29T18:00:34Z",
+      "source": "Unit 42",
+      "weight": 1,
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Backdoor or Confused Agent? What We Learned Replaying the Qwen Incident",
+      "link": "https://blog.checkpoint.com/ai-security/qwen-incident-backdoor-ai-agents/",
+      "canonical_url": "https://blog.checkpoint.com/ai-security/qwen-incident-backdoor-ai-agents",
+      "date": "2026-10-29T14:09:53Z",
+      "source": "Check Point",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks",
+      "date": "2026-10-29T13:59:48Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+      "canonical_url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+      "date": "2026-10-29T13:42:40Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards",
+      "link": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
+      "canonical_url": "https://wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards",
+      "date": "2026-10-29T10:30:00Z",
+      "source": "Wired",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+      "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+      "canonical_url": "https://darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+      "date": "2026-10-29T10:00:00Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "canonical_url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "date": "2026-10-29T09:05:39Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "canonical_url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "date": "2026-10-29T08:24:22Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "canonical_url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "date": "2026-10-29T06:22:33Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "canonical_url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "date": "2026-10-29T05:50:17Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents",
+      "link": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+      "canonical_url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents",
+      "date": "2026-10-28T20:01:00Z",
+      "source": "TechCrunch",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
+      "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+      "canonical_url": "https://darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+      "date": "2026-10-28T19:39:00Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "GhostAction",
+          "url": "/ghostaction",
+          "matched_alias": "ghostaction"
+        }
+      ]
+    },
+    {
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "canonical_url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "date": "2026-10-28T18:08:33Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Volt Typhoon",
+          "url": "/apt1017",
+          "matched_alias": "volt typhoon"
+        }
+      ]
+    },
+    {
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework",
+      "date": "2026-10-28T16:00:00Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Volt Typhoon",
+          "url": "/apt1017",
+          "matched_alias": "volt typhoon"
+        }
+      ]
+    },
+    {
+      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw",
+      "date": "2026-10-28T10:46:23Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison",
+      "date": "2026-10-28T09:43:15Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+        {
+          "name": "Nefilim",
+          "url": "/nefilim",
+          "matched_alias": "nefilim"
+        }
+      ]
+    },
+    {
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "canonical_url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "date": "2026-10-28T07:13:21Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "canonical_url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "date": "2026-10-28T06:04:58Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "ShinyHunters",
+          "url": "/shinyhunters",
+          "matched_alias": "shinyhunters"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "canonical_url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "date": "2026-10-28T05:42:26Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers hijack Convertr analytics script to steal payment card data",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data",
+      "date": "2026-10-27T20:57:25Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
+      "link": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+      "canonical_url": "https://darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+      "date": "2026-10-27T19:58:06Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "canonical_url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "date": "2026-10-27T18:26:46Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation",
+      "date": "2026-10-27T14:09:46Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "canonical_url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "date": "2026-10-27T11:46:00Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "canonical_url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "date": "2026-10-27T11:32:31Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Lazarus",
+          "url": "",
+          "matched_alias": "lazarus"
+        },
+        {
+          "name": "Lazarus Group",
+          "url": "/lazarus",
+          "matched_alias": "lazarus"
+        }
+      ]
+    },
+    {
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+      "canonical_url": "https://bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones",
+      "date": "2026-10-27T10:36:12Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks",
+      "date": "2026-10-27T08:20:54Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "canonical_url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "date": "2026-10-27T04:37:59Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "canonical_url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "date": "2026-10-26T18:12:22Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "canonical_url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "date": "2026-10-26T15:52:40Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "canonical_url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "date": "2026-10-26T11:52:41Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "canonical_url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "date": "2026-10-26T09:54:02Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "canonical_url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "date": "2026-10-25T06:54:29Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "canonical_url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "date": "2026-10-24T11:09:29Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "canonical_url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "date": "2026-10-24T09:04:24Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "canonical_url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "date": "2026-10-24T06:25:57Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks",
+      "date": "2026-10-23T20:55:05Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "canonical_url": "https://bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection",
+      "date": "2026-10-23T18:54:41Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "canonical_url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "date": "2026-10-23T17:54:08Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "canonical_url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "date": "2026-10-23T17:50:47Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+      "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability",
+      "date": "2026-10-23T15:38:05Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "canonical_url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "date": "2026-10-23T11:25:43Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "canonical_url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "date": "2026-10-23T08:40:43Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "canonical_url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "date": "2026-10-23T07:40:45Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "State Bank of India Suffers a Customer PII Data Leak",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+      "date": "2026-10-23T03:30:00Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach",
+      "date": "2026-10-22T21:25:31Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+      "date": "2026-10-22T20:42:17Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Storm-0940",
+          "url": "/storm-0940",
+          "matched_alias": "storm-0940"
+        }
+      ]
+    },
+    {
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware",
+      "date": "2026-10-22T19:12:51Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "canonical_url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "date": "2026-10-22T19:05:35Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "canonical_url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "date": "2026-10-22T19:05:17Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "GitLab warns of new max severity code execution vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability",
+      "date": "2026-10-22T11:41:48Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+      "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "canonical_url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "date": "2026-10-22T06:34:10Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "canonical_url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "date": "2026-10-22T04:21:26Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+      "link": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+      "canonical_url": "https://wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched",
+      "date": "2026-10-22T02:24:17Z",
+      "source": "Wired",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+      "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery",
+      "date": "2026-10-21T20:31:48Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Lazarus",
+          "url": "",
+          "matched_alias": "lazarus"
+        },
+        {
+          "name": "Lazarus Group",
+          "url": "/lazarus",
+          "matched_alias": "lazarus"
+        }
+      ]
+    },
+    {
+      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+      "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "canonical_url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "date": "2026-10-21T18:57:34Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "canonical_url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "date": "2026-10-21T18:01:57Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Optiv Launches CyberBOT Cybersecurity Awareness Training Program",
+      "link": "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program",
+      "canonical_url": "https://darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program",
+      "date": "2026-10-21T15:44:48Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "canonical_url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "date": "2026-10-21T14:00:00Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "How Fraudulent Airline Support Numbers Exploit Search Results and AI-Generated Answers",
+      "link": "https://blog.checkpoint.com/research/how-fraudulent-airline-support-numbers-exploit-search-results-and-ai-generated-answers/",
+      "canonical_url": "https://blog.checkpoint.com/research/how-fraudulent-airline-support-numbers-exploit-search-results-and-ai-generated-answers",
+      "date": "2026-10-21T13:00:48Z",
+      "source": "Check Point",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations",
+      "date": "2026-10-21T08:36:24Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+        {
+          "name": "SafePay",
+          "url": "/safepay",
+          "matched_alias": "safepay"
+        }
+      ]
+    },
+    {
+      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+      "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+      "canonical_url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+      "date": "2026-10-21T07:44:22Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+      "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+      "canonical_url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+      "date": "2026-10-21T04:57:50Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+      "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates",
+      "date": "2026-10-21T00:46:42Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+      "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+      "canonical_url": "https://blog.cloudflare.com/emudhra-certificate-compromise",
+      "date": "2026-10-20T22:20:16Z",
+      "source": "Cloudflare",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "canonical_url": "https://darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "date": "2026-10-20T21:45:47Z",
+      "source": "DarkReading",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
+      "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+      "canonical_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257",
+      "date": "2026-10-20T20:30:42Z",
+      "source": "Unit 42",
+      "weight": 1,
+      "cves": [
+        "CVE-2026-0257"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "canonical_url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "date": "2026-10-20T17:09:53Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "canonical_url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "date": "2026-10-20T15:38:52Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "canonical_url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "date": "2026-10-20T15:32:27Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+        {
+          "name": "INC Ransom",
+          "url": "/apt1032",
+          "matched_alias": "inc ransomware"
+        }
+      ]
+    },
+    {
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "canonical_url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "date": "2026-10-20T12:59:44Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+      "link": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+      "canonical_url": "https://bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe",
+      "date": "2026-10-20T11:18:35Z",
+      "source": "BleepingComputer",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+      "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+      "canonical_url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+      "date": "2026-10-20T11:06:25Z",
+      "source": "The Hacker News",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "apt",
+        "breach"
+      ],
+      "actors": [
+        {
+          "name": "APT28",
+          "url": "/apt28",
+          "matched_alias": "apt28"
+        }
+      ]
+    }
   ],
   "actor_news": {
-    "PL": [
-      {
-        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-        "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-        "date": "2026-10-30T12:57:05+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
-        "link": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
-        "date": "2026-10-30T07:01:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-        "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-        "date": "2026-10-29T20:50:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "What to Know About China’s Top-Secret Spaceplane",
-        "link": "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/",
-        "date": "2026-10-29T20:45:36+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-        "date": "2026-10-29T19:35:52-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "R": [
-      {
-        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-        "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-        "date": "2026-10-30T12:57:05+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-        "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-        "date": "2026-10-30T09:44:59+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
-        "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
-        "date": "2026-10-30T08:00:00+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
-        "link": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
-        "date": "2026-10-30T07:01:00+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-        "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-        "date": "2026-10-30T01:20:48+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Frozen": [
-      {
-        "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-        "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-        "date": "2026-10-30T09:44:59+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Lv": [
-      {
-        "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
-        "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
-        "date": "2026-10-30T08:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Ank": [
-      {
-        "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-        "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-        "date": "2026-10-30T00:41:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "ONI": [
-      {
-        "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-        "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-        "date": "2026-10-30T00:41:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Trojan": [
-      {
-        "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-        "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-        "date": "2026-10-30T00:41:58+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ra": [
-      {
-        "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
-        "link": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
-        "date": "2026-10-29T23:44:56+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
-        "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-        "date": "2026-10-29T22:27:23+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Rethinking Cybersecurity Awareness in the AI Era",
-        "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-        "date": "2026-10-29T20:15:37+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-        "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-        "date": "2026-10-29T20:08:31+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Polymarket Halted International Trading After Hackers Drained Accounts",
-        "link": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
-        "date": "2026-10-29T19:51:56+00:00",
-        "source": "Wired"
-      }
-    ],
-    "First": [
-      {
-        "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-        "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-        "date": "2026-10-29T23:42:22+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "CryLocker": [
-      {
-        "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
-        "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-        "date": "2026-10-29T22:27:23+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-        "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-        "date": "2026-10-29T20:50:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Binance probes potential $5.8 billion crypto-theft hack",
-        "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-        "date": "2026-10-29T18:45:23-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-        "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-        "date": "2026-10-29T18:09:24-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-        "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-        "date": "2026-10-29T17:47:25-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "Estonian Foreign Intelligence Service": [
-      {
-        "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin",
-        "link": "https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/",
-        "date": "2026-10-29T21:51:29+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "core": [
-      {
-        "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-        "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-        "date": "2026-10-29T21:27:05+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "BooM": [
-      {
-        "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
-        "link": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
-        "date": "2026-10-29T21:20:47+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "DN": [
-      {
-        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-        "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-        "date": "2026-10-29T20:50:29+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-        "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-        "date": "2026-10-29T15:23:41-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Rising Borrowing Costs Shouldn’t Delay Your Security: Meet Firewall-as-a-Subscription",
-        "link": "https://blog.checkpoint.com/security/rising-borrowing-costs-shouldnt-delay-your-security-meet-firewall-as-a-subscription/",
-        "date": "2026-10-26T12:50:01+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "INC Ransom": [
-      {
-        "title": "Fan-fiction site Archive of Our Own (AO3) could be offline for up to 4 weeks after security incident",
-        "link": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
-        "date": "2026-10-29T20:43:56+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Rivian expands joint venture with VW to include AI assistant",
-        "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-        "date": "2026-10-29T20:05:47+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Backdoor or Confused Agent? What We Learned Replaying the Qwen Incident",
-        "link": "https://blog.checkpoint.com/ai-security/qwen-incident-backdoor-ai-agents/",
-        "date": "2026-10-29T14:09:53+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "Hive": [
-      {
-        "title": "Fan-fiction site Archive of Our Own (AO3) could be offline for up to 4 weeks after security incident",
-        "link": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
-        "date": "2026-10-29T20:43:56+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "Aware": [
-      {
-        "title": "Rethinking Cybersecurity Awareness in the AI Era",
-        "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-        "date": "2026-10-29T20:15:37+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Deadeye Jackal": [
-      {
-        "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-        "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-        "date": "2026-10-29T20:08:31+00:00",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-        "link": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-        "date": "2026-10-29T12:10:31-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "An AI Breakthrough Has Made Decades of Computer Science Research ‘Irrelevant’",
-        "link": "https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/",
-        "date": "2026-10-29T10:45:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Unwrapping Retail Peak Season Cyber Threats",
-        "link": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
-        "date": "2026-10-28T18:00:10+00:00",
-        "source": "Unit 42"
-      },
-      {
-        "title": "Discord to let search engines index public server messages",
-        "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
-        "date": "2026-10-28T14:44:16-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "NMoreira": [
-      {
-        "title": "Rivian expands joint venture with VW to include AI assistant",
-        "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-        "date": "2026-10-29T20:05:47+00:00",
-        "source": "TechCrunch"
-      }
-    ],
-    "One": [
-      {
-        "title": "Nothing Headphones Sale: Stylish and Up to 41% Off",
-        "link": "https://www.wired.com/story/nothing-cmf-deals-october-2026/",
-        "date": "2026-10-29T19:41:36+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
-        "link": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
-        "date": "2026-10-27T19:58:06+00:00",
-        "source": "DarkReading"
-      },
-      {
-        "title": "Three Gartner Reports. One Emerging Direction for Exposure Management.",
-        "link": "https://blog.checkpoint.com/security/three-gartner-reports-one-emerging-direction-for-exposure-management/",
-        "date": "2026-10-27T13:00:09+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "APT41": [
-      {
-        "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-        "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-        "date": "2026-10-29T19:12:40+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Privileged Access Management",
-        "link": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management/",
-        "date": "2026-10-26T15:07:43+00:00",
-        "source": "Palo Alto Networks"
-      }
-    ],
-    "Mini": [
-      {
-        "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-        "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-        "date": "2026-10-29T19:12:40+05:30",
-        "source": "The Hacker News"
-      },
-      {
-        "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-        "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-        "date": "2026-10-29T18:09:24-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Go Minimal—the Ridge Wallet is 20 Percent Off Right Now",
-        "link": "https://www.wired.com/story/ridge-wallet-deal-october-2026/",
-        "date": "2026-10-29T17:41:36+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "Hisense UR8 RGB MiniLED TV: Midrange Quality, Upscale Color Accuracy",
-        "link": "https://www.wired.com/review/review-hisense-ur8/",
-        "date": "2026-10-29T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "RNS": [
-      {
-        "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-        "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-        "date": "2026-10-29T18:09:24-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-        "date": "2026-10-29T09:59:48-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "OCT": [
-      {
-        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-        "date": "2026-10-29T18:00:34+00:00",
-        "source": "Unit 42"
-      }
-    ],
-    "PHP": [
-      {
-        "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-        "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-        "date": "2026-10-29T18:00:34+00:00",
-        "source": "Unit 42"
-      },
-      {
-        "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-        "date": "2026-10-29T09:59:48-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-        "link": "https://blog.cloudflare.com/php-ctf/",
-        "date": "2026-10-27T13:00:00+00:00",
-        "source": "Cloudflare"
-      }
-    ],
-    "RIP (Phoenix) Ransomware": [
-      {
-        "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-        "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-        "date": "2026-10-29T17:47:25-04:00",
-        "source": "BleepingComputer"
-      },
-      {
-        "title": "Rising Borrowing Costs Shouldn’t Delay Your Security: Meet Firewall-as-a-Subscription",
-        "link": "https://blog.checkpoint.com/security/rising-borrowing-costs-shouldnt-delay-your-security-meet-firewall-as-a-subscription/",
-        "date": "2026-10-26T12:50:01+00:00",
-        "source": "Check Point"
-      }
-    ],
-    "AnDROid": [
-      {
-        "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-        "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-        "date": "2026-10-29T17:09:18+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Telegram": [
-      {
-        "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-        "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-        "date": "2026-10-29T17:09:18+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Ruby": [
-      {
-        "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-        "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-        "date": "2026-10-29T14:35:39+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Play": [
-      {
-        "title": "Backdoor or Confused Agent? What We Learned Replaying the Qwen Incident",
-        "link": "https://blog.checkpoint.com/ai-security/qwen-incident-backdoor-ai-agents/",
-        "date": "2026-10-29T14:09:53+00:00",
-        "source": "Check Point"
-      },
-      {
-        "title": "A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards",
-        "link": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
-        "date": "2026-10-29T10:30:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Frog": [
-      {
-        "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-        "link": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-        "date": "2026-10-29T14:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "EnCrypt": [
-      {
-        "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-        "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-        "date": "2026-10-29T13:54:22+05:30",
-        "source": "The Hacker News"
-      }
-    ],
-    "Tk": [
-      {
-        "title": "Petkit Automatic Cat Litter Box Sale (2026)",
-        "link": "https://www.wired.com/story/petkit-sale-october-2026/",
-        "date": "2026-10-29T13:41:26+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Desktop": [
-      {
-        "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-        "date": "2026-10-29T10:35:40-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "APT3": [
-      {
-        "title": "Hisense UR8 RGB MiniLED TV: Midrange Quality, Upscale Color Accuracy",
-        "link": "https://www.wired.com/review/review-hisense-ur8/",
-        "date": "2026-10-29T10:30:00+00:00",
-        "source": "Wired"
-      },
-      {
-        "title": "I Did Push-Ups With Snap’s Chunky AR Glasses",
-        "link": "https://www.wired.com/story/i-did-push-ups-with-snaps-chunky-ar-glasses/",
-        "date": "2026-10-29T10:15:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Clock": [
-      {
-        "title": "I Gave My Blood to the AI Death Clock",
-        "link": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/",
-        "date": "2026-10-29T10:00:00+00:00",
-        "source": "Wired"
-      }
-    ],
-    "Shadow": [
-      {
-        "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-        "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-        "date": "2026-10-29T10:00:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Frag": [
-      {
-        "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-        "date": "2026-10-29T09:59:48-04:00",
-        "source": "BleepingComputer"
-      }
-    ],
-    "ghost": [
-      {
-        "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
-        "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
-        "date": "2026-10-28T19:39:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
     "GhostAction": [
       {
         "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
         "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
-        "date": "2026-10-28T19:39:00+00:00",
-        "source": "DarkReading"
+        "date": "2026-10-28T19:39:00Z",
+        "source": "DarkReading",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
       }
     ],
-    "Lurk": [
+    "Volt Typhoon": [
       {
-        "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
-        "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
-        "date": "2026-10-28T19:39:00+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Root": [
-      {
-        "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
-        "link": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
-        "date": "2026-10-28T15:29:06+00:00",
-        "source": "DarkReading"
-      }
-    ],
-    "Rapid": [
-      {
-        "title": "How Rapid7 InsightGovCloud Supports BOD 22-01 Compliance",
-        "link": "https://www.rapid7.com/blog/post/pt-insightgovcloud-supports-bod-22-01-compliance",
-        "date": "2026-10-28T13:16:39+00:00",
-        "source": "Rapid7"
+        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+        "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "date": "2026-10-28T18:08:33Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
       },
       {
-        "title": "Simplify User Access Management with SCIM on Rapid7 Command Platform",
-        "link": "https://www.rapid7.com/blog/post/pt-scim-simplifies-user-access-management-uam-command-platform",
-        "date": "2026-10-27T12:24:04+00:00",
-        "source": "Rapid7"
+        "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+        "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+        "date": "2026-10-28T16:00:00Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
       }
     ],
-    "Magic": [
+    "Nefilim": [
       {
-        "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Privileged Access Management",
-        "link": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management/",
-        "date": "2026-10-26T15:07:43+00:00",
-        "source": "Palo Alto Networks"
+        "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+        "link": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+        "date": "2026-10-28T09:43:15Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "ransomware"
+        ]
       }
     ],
-    "Bud": [
+    "ShinyHunters": [
       {
-        "title": "Budgets Are Stalling Firewall Deals. Here’s How Partners Can Get Them Moving Again",
-        "link": "https://blog.checkpoint.com/security/budgets-are-stalling-firewall-deals-heres-how-partners-can-get-them-moving-again/",
-        "date": "2026-10-26T13:05:17+00:00",
-        "source": "Check Point"
+        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+        "date": "2026-10-28T06:04:58Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
       }
     ],
-    "Quantum": [
+    "Lazarus": [
       {
-        "title": "Bringing post-quantum cryptography to geographically fenced key management",
-        "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-        "date": "2026-10-23T18:06:56+00:00",
-        "source": "Cloudflare"
+        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+        "date": "2026-10-27T11:32:31Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+        "date": "2026-10-21T20:31:48Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
       }
     ],
-    "Conti": [
+    "Lazarus Group": [
       {
-        "title": "Palo Alto Networks Brings Continuous AI Defense and Prisma AIRS to the OpenAI Marketplace",
-        "link": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-brings-continuous-ai-defense-and-prisma-airs-to-the-openai-marketplace/",
-        "date": "2026-10-23T16:32:14+00:00",
-        "source": "Palo Alto Networks"
+        "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+        "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+        "date": "2026-10-27T11:32:31Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+        "date": "2026-10-21T20:31:48Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
       }
     ],
-    "PRISM": [
+    "Storm-0940": [
       {
-        "title": "Palo Alto Networks Brings Continuous AI Defense and Prisma AIRS to the OpenAI Marketplace",
-        "link": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-brings-continuous-ai-defense-and-prisma-airs-to-the-openai-marketplace/",
-        "date": "2026-10-23T16:32:14+00:00",
-        "source": "Palo Alto Networks"
+        "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+        "date": "2026-10-22T20:42:17Z",
+        "source": "DarkReading",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "SafePay": [
+      {
+        "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+        "date": "2026-10-21T08:36:24Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "ransomware"
+        ]
+      }
+    ],
+    "INC Ransom": [
+      {
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "date": "2026-10-20T15:32:27Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+          "ransomware"
+        ]
+      }
+    ],
+    "APT28": [
+      {
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+        "date": "2026-10-20T11:06:25Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+          "apt",
+          "breach"
+        ]
       }
     ]
   }
