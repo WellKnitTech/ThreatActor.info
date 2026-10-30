@@ -38,9 +38,3 @@ permalink: /lurk/
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub](https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github)
-  DarkReading - 2026-10-28T
-

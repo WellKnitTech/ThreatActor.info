@@ -1,0 +1,64 @@
+---
+layout: default
+title: Security News
+permalink: /news/
+---
+
+<section class="news-page">
+  <header class="news-page-header">
+    <h1>Security News</h1>
+    <p>
+      Recent publicly reported cyber threat coverage from free RSS sources,
+      filtered for security relevance and linked to matching threat actors when attribution is clear.
+    </p>
+    {% if site.data.news_feed.updated %}
+    <p class="news-updated">
+      Feed updated <time datetime="{{ site.data.news_feed.updated }}">{{ site.data.news_feed.updated | date: "%b %-d, %Y %H:%M UTC" }}</time>
+      {% if site.data.news_feed.window_days %} · last {{ site.data.news_feed.window_days }} days{% endif %}
+      · <a href="{{ "/api/news.json" | relative_url }}">JSON</a>
+    </p>
+    {% endif %}
+  </header>
+
+  {% assign news_items = site.data.news_feed.items %}
+  {% if news_items and news_items.size > 0 %}
+  <ol class="news-list">
+    {% for item in news_items %}
+    <li class="news-item">
+      <h2 class="news-item-title"><a href="{{ item.link }}" rel="noopener noreferrer">{{ item.title }}</a></h2>
+      <div class="news-item-meta">
+        <span class="news-source">{{ item.source }}</span>
+        {% if item.date %}
+        <time datetime="{{ item.date }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+        {% endif %}
+        {% if item.cves and item.cves.size > 0 %}
+        <span class="news-cves">
+          {% for cve in item.cves limit: 4 %}
+          <code>{{ cve }}</code>
+          {% endfor %}
+        </span>
+        {% endif %}
+      </div>
+      {% if item.actors and item.actors.size > 0 %}
+      <ul class="news-actors">
+        {% for actor in item.actors %}
+        <li>
+          {% if actor.url and actor.url != "" %}
+          <a href="{{ actor.url | relative_url }}">{{ actor.name }}</a>
+          {% else %}
+          {{ actor.name }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if item.tags and item.tags.size > 0 %}
+      <p class="news-tags">{{ item.tags | join: ", " }}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="news-empty">No recent security news items are available yet.</p>
+  {% endif %}
+</section>

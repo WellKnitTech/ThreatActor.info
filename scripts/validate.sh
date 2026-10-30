@@ -46,6 +46,7 @@ check_file "scripts/check-persona-content.rb"
 
 check_file "scripts/check-source-freshness.rb"
 check_file "scripts/verify-weekly-data-workflow.rb"
+check_file "scripts/verify-daily-news-workflow.rb"
 check_file "scripts/verify-import-sources-workflow.rb"
 check_file "scripts/test-import-runner-contract.rb"
 
@@ -54,6 +55,7 @@ ruby scripts/check-source-freshness.rb --mode warn --report-json tmp/source-fres
 
 echo "Checking scheduled workflow merge safety..."
 ruby scripts/verify-weekly-data-workflow.rb
+ruby scripts/verify-daily-news-workflow.rb
 ruby scripts/verify-import-sources-workflow.rb
 ruby scripts/test-import-runner-contract.rb
 
@@ -69,6 +71,8 @@ bundle exec ruby test/actor_store_data_path_test.rb
 bundle exec ruby test/malware_actor_urls_test.rb
 bundle exec ruby test/import_dragos_unit42_data_path_test.rb
 bundle exec ruby test/verify_weekly_data_workflow_test.rb
+bundle exec ruby test/verify_daily_news_workflow_test.rb
+bundle exec ruby test/news_feed_test.rb
 bundle exec ruby test/liquid_safe_text_test.rb
 bundle exec ruby test/import_mitre_group_slug_map_test.rb
 

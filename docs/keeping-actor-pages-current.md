@@ -43,9 +43,9 @@ Without `--force`, [`scripts/generate-pages.rb`](../scripts/generate-pages.rb) m
 |----------|------|
 | [`.github/workflows/import-sources.yml`](../.github/workflows/import-sources.yml) | Full **`import-automated-sources.rb --apply`** (all configured sources in priority order), regenerates pages/indexes, validates content, **`jekyll build`**, opens a PR with actor + generated + api paths. **Primary path for a broad, PR-reviewed refresh.** |
 | [`.github/workflows/weekly-data.yml`](../.github/workflows/weekly-data.yml) | Scheduled execution of the same canonical **`import-automated-sources.rb --apply`** runner used for broad refreshes, followed by source-delta evaluation, schema/content validation, and **`jekyll build --safe`** before opening and auto-merging a PR branch. **Not a separate import logic path.** |
-| [`.github/workflows/daily-news.yml`](../.github/workflows/daily-news.yml) | News feed + generators + validators + build; commits news-related updates. |
-| [`.github/workflows/validate.yml`](../.github/workflows/validate.yml) | Runs **`scripts/validate.sh`** on pushes/PRs. |
-| [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) | On push to `main` or `workflow_dispatch`: regenerate pages/indexes, build `_site`, deploy Pages. Weekly bot merges also dispatch this workflow because `GITHUB_TOKEN` pushes do not trigger `push` workflows. |
+| [`.github/workflows/daily-news.yml`](../.github/workflows/daily-news.yml) | News feed + generators + validators + build; commits news-related updates. After a successful `GITHUB_TOKEN` push it `workflow_dispatch`es Pages and Validation (idle days with no news commit do not redeploy). |
+| [`.github/workflows/validate.yml`](../.github/workflows/validate.yml) | Runs **`scripts/validate.sh`** on pushes/PRs (also accepts `workflow_dispatch`). |
+| [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) | On push to `main` or `workflow_dispatch`: regenerate pages/indexes, build `_site`, deploy Pages. Weekly bot merges and daily news pushes also dispatch this workflow because `GITHUB_TOKEN` commits do not trigger `push` workflows. |
 
 Do not assume weekly pushes alone cover the same surface as **Automated Source Imports**; use the right workflow for the sources you care about.
 

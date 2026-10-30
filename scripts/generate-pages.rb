@@ -904,9 +904,15 @@ sections << "## References"
             link = news_item['link'] || ''
             source = news_item['source'] || ''
             date = news_item['date'] || ''
-            
+            cves = Array(news_item['cves']).compact.reject(&:empty?)
+            tags = Array(news_item['tags']).compact.reject(&:empty?)
+
             sections << "- [#{title}](#{link})"
-            sections << "  #{source}#{date ? " - #{date[0..10]}" : ""}"
+            meta = [source]
+            meta << date[0..9] if date && !date.empty?
+            meta.concat(cves.first(3)) if cves.any?
+            meta << "tags: #{tags.join(', ')}" if tags.any?
+            sections << "  #{meta.join(' — ')}"
           end
           sections << ""
         end

@@ -135,11 +135,3 @@ Play is a ransomware group that has been active since at least 2022 deploying Pl
 [3] [Trend Micro Ransomware Spotlight Play July 2023](https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-play)
    Trend Micro Research. (2023, July 21). Ransomware Spotlight: Play. Retrieved September 24, 2024.
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Backdoor or Confused Agent? What We Learned Replaying the Qwen Incident](https://blog.checkpoint.com/ai-security/qwen-incident-backdoor-ai-agents/)
-  Check Point - 2026-10-29T
-- [A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards](https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/)
-  Wired - 2026-10-29T
-

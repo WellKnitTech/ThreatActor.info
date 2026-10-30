@@ -30,9 +30,3 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [AI Takes Root in Hospital Corridors, Raises Security Stakes](https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes)
-  DarkReading - 2026-10-28T
-
