@@ -33,6 +33,6 @@ ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)](https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/)
-  Unit 42 - 2026-10-23T
+- [Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)](https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/)
+  Unit 42 - 2026-10-29T
 

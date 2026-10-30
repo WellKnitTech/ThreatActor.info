@@ -30,3 +30,9 @@ Estonian Foreign Intelligence Service (VLA) (Välisluureamet)
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Elon Musk is ‘truly a genius,’ says Vladimir Putin](https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/)
+  TechCrunch - 2026-10-29T
+

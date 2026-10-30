@@ -30,3 +30,9 @@ Frag is a relatively new ransomware and data extortion group first seen in Febru
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks](https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/)
+  BleepingComputer - 2026-10-29T
+

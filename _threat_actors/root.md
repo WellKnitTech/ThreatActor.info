@@ -33,10 +33,6 @@ Root is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [Hungryroot Coupon Codes: 30% Off This November 2026](https://www.wired.com/story/hungryroot-promo-code/)
-  Wired - 2026-10-29T
-- [PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network](https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html)
-  The Hacker News - 2026-10-28T
-- [Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers](https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html)
-  The Hacker News - 2026-10-28T
+- [AI Takes Root in Hospital Corridors, Raises Security Stakes](https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes)
+  DarkReading - 2026-10-28T
 

@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Petkit Automatic Cat Litter Box Sale (2026)](https://www.wired.com/story/petkit-sale-october-2026/)
+  Wired - 2026-10-29T
+

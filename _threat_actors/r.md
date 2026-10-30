@@ -33,14 +33,14 @@ Ransomware
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility](https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html)
-  The Hacker News - 2026-10-29T
-- [Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces](https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html)
-  The Hacker News - 2026-10-29T
-- [Skullcandy Discount Code: 30% Off | November 2026](https://www.wired.com/story/skullcandy-discount-code/)
-  Wired - 2026-10-29T
-- [Petlibro Offers: 30% Off in November 2026](https://www.wired.com/story/petlibro-discount-code/)
-  Wired - 2026-10-29T
-- [30% Off Tempur-Pedic Promo Codes | November 2026](https://www.wired.com/story/tempur-pedic-promo-code/)
-  Wired - 2026-10-29T
+- [CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV](https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html)
+  The Hacker News - 2026-10-30T
+- [Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen](https://thehackernews.com/2026/10/binance-suffers-security-breach.html)
+  The Hacker News - 2026-10-30T
+- [As Russia's Cyberwar Evolves, Belarus Steps Forward](https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward)
+  DarkReading - 2026-10-30T
+- [Waymo taps Toyota to supply robotaxis for Japan and the U.K.](https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/)
+  TechCrunch - 2026-10-30T
+- [You don’t need to believe in a god to get a religious exemption from using AI at work](https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/)
+  TechCrunch - 2026-10-30T
 

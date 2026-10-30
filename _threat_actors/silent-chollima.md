@@ -36,9 +36,3 @@ Andariel is a threat actor that primarily targets South Korean corporations and 
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [This Is What the GOP’s Final Midterms Push Looks Like](https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/)
-  Wired - 2026-10-28T
-

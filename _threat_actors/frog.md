@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race](https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/)
+  Wired - 2026-10-29T
+
