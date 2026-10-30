@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'cgi'
 require 'json'
 require 'set'
 require 'time'
@@ -173,10 +174,21 @@ module NewsFeed
     ts >= (now - (days * 24 * 60 * 60)) && ts <= (now + (2 * 60 * 60))
   end
 
-  def canonicalize_url(url)
+  # Only allow http(s) links with a host. Rejects javascript:, data:, etc.
+  def safe_http_url?(url)
     uri = URI.parse(url.to_s.strip)
-    return url.to_s.strip if uri.scheme.nil? || uri.host.nil?
+    return false unless uri.is_a?(URI::HTTP)
+    return false if uri.host.to_s.strip.empty?
 
+    %w[http https].include?(uri.scheme.to_s.downcase)
+  rescue URI::InvalidURIError, ArgumentError
+    false
+  end
+
+  def canonicalize_url(url)
+    return nil unless safe_http_url?(url)
+
+    uri = URI.parse(url.to_s.strip)
     uri.scheme = uri.scheme.downcase
     uri.host = uri.host.downcase.sub(/\Awww\./, '')
     uri.fragment = nil
@@ -188,8 +200,18 @@ module NewsFeed
     path = path.sub(%r{/\z}, '') if path.length > 1
     uri.path = path.empty? ? '/' : path
     uri.to_s
-  rescue URI::InvalidURIError
-    url.to_s.strip
+  rescue URI::InvalidURIError, ArgumentError
+    nil
+  end
+
+  # Strip markup from feed-supplied text so HTML never lands in stored JSON/markdown.
+  # Templates still HTML-escape on render for defense in depth.
+  def sanitize_feed_text(text)
+    value = CGI.unescapeHTML(text.to_s)
+    value = value.gsub(/<!--.*?-->/m, ' ')
+    value = value.gsub(/<[^>]*>/, ' ')
+    value = value.gsub(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/, '')
+    value.gsub(/\s+/, ' ').strip
   end
 
   def normalize_title(title)
@@ -283,12 +305,22 @@ module NewsFeed
     matched.values
   end
 
+  def sort_items_by_date_desc(items)
+    # Stable newest-first ordering (index tiebreak) used after dedup replacement.
+    items.each_with_index.sort_by do |item, index|
+      timestamp = parse_time(item[:date] || item['date']) || Time.at(0)
+      [-timestamp.to_f, index]
+    end.map(&:first)
+  end
+
   def deduplicate_items(items)
-    sorted = items.sort_by { |i| parse_time(i[:date]) || Time.at(0) }.reverse
+    sorted = sort_items_by_date_desc(items)
     kept = []
 
     sorted.each do |item|
       canonical = item[:canonical_url] || canonicalize_url(item[:link])
+      next if canonical.nil? || canonical.empty?
+
       duplicate = kept.find do |other|
         other_canonical = other[:canonical_url] || canonicalize_url(other[:link])
         next true if other_canonical == canonical
@@ -307,11 +339,18 @@ module NewsFeed
       kept << item.merge(canonical_url: canonical)
     end
 
-    kept
+    # Replacing a duplicate in place can leave an older higher-weight item ahead of
+    # a newer unrelated item; restore newest-first before applying limits.
+    sort_items_by_date_desc(kept)
   end
 
   def enrich_item(item, keyword_index)
-    title = item[:title].to_s
+    title = sanitize_feed_text(item[:title])
+    source = sanitize_feed_text(item[:source])
+    link = item[:link].to_s.strip
+    canonical = canonicalize_url(link)
+    return nil if title.empty? || canonical.nil?
+
     cves = extract_cves(title)
     actors = match_actors(title, keyword_index)
     tags = []
@@ -321,7 +360,10 @@ module NewsFeed
     tags << 'breach' if title.match?(/\bbreach|data\s+leak|extortion\b/i)
 
     item.merge(
-      canonical_url: canonicalize_url(item[:link]),
+      title: title,
+      source: source,
+      link: canonical,
+      canonical_url: canonical,
       date: (parse_time(item[:date]) || Time.now.utc).iso8601,
       cves: cves,
       tags: tags,
@@ -392,11 +434,12 @@ module NewsFeed
   def process_items(raw_items, keyword_index: build_keyword_index, now: Time.now.utc, window_days: WINDOW_DAYS)
     filtered = raw_items.select do |item|
       category = item[:category] || :security
-      within_window?(item[:date], now: now, days: window_days) &&
+      safe_http_url?(item[:link]) &&
+        within_window?(item[:date], now: now, days: window_days) &&
         security_relevant?(item[:title], category: category)
     end
 
-    enriched = filtered.map { |item| enrich_item(item, keyword_index) }
+    enriched = filtered.filter_map { |item| enrich_item(item, keyword_index) }
     deduplicate_items(enriched).first(MAX_ITEMS)
   end
 end

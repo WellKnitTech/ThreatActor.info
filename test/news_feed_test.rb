@@ -86,6 +86,75 @@ class NewsFeedTest < Minitest::Test
     assert_equal 'https://example.com/path/article?id=1', canonical
   end
 
+  def test_sanitize_feed_text_strips_html_payloads
+    dirty = '&lt;img src=x onerror=alert(1)&gt; LockBit ransomware hits hospital'
+    clean = NewsFeed.sanitize_feed_text(dirty)
+    refute_includes clean, '<'
+    refute_includes clean, '>'
+    refute_match(/onerror/i, clean)
+    assert_includes clean, 'LockBit ransomware hits hospital'
+  end
+
+  def test_javascript_and_non_http_links_are_rejected
+    refute NewsFeed.safe_http_url?('javascript:alert(1)')
+    refute NewsFeed.safe_http_url?('data:text/html,<script>alert(1)</script>')
+    refute NewsFeed.safe_http_url?('ftp://example.com/a')
+    assert_nil NewsFeed.canonicalize_url('javascript:alert(1)')
+
+    now = Time.parse('2026-10-30T12:00:00Z')
+    processed = NewsFeed.process_items(
+      [
+        {
+          title: 'LockBit ransomware via javascript link',
+          link: 'javascript:alert(1)',
+          date: '2026-10-29T00:00:00Z',
+          source: 'Evil',
+          weight: 2,
+          category: :security
+        },
+        {
+          title: 'LockBit ransomware via https link',
+          link: 'https://ex.test/ok',
+          date: '2026-10-29T00:00:00Z',
+          source: 'Good',
+          weight: 2,
+          category: :security
+        }
+      ],
+      keyword_index: @index,
+      now: now
+    )
+
+    assert_equal 1, processed.size
+    assert_equal 'https://ex.test/ok', processed.first[:link]
+    refute_includes processed.map { |i| i[:link] }, 'javascript:alert(1)'
+  end
+
+  def test_process_items_strips_html_from_titles_in_output
+    now = Time.parse('2026-10-30T12:00:00Z')
+    processed = NewsFeed.process_items(
+      [
+        {
+          title: '<img src=x onerror=alert(1)> LockBit ransomware campaign',
+          link: 'https://ex.test/xss',
+          date: '2026-10-29T00:00:00Z',
+          source: '<b>EvilSource</b>',
+          weight: 2,
+          category: :security
+        }
+      ],
+      keyword_index: @index,
+      now: now
+    )
+
+    assert_equal 1, processed.size
+    refute_includes processed.first[:title], '<'
+    refute_match(/onerror/i, processed.first[:title])
+    assert_equal 'EvilSource', processed.first[:source]
+    output = NewsFeed.build_output(processed, source_health: {}, updated: now)
+    refute_includes output['items'].first['title'], '<'
+  end
+
   def test_deduplicate_by_canonical_url_and_title_similarity
     items = [
       { title: 'LockBit hits hospital', link: 'https://www.example.com/a?utm_source=1', date: '2026-10-30T10:00:00Z', source: 'A', weight: 1 },
@@ -95,8 +164,40 @@ class NewsFeedTest < Minitest::Test
 
     deduped = NewsFeed.deduplicate_items(items)
     assert_equal 2, deduped.size
-    assert_equal 'B', deduped[1][:source] unless deduped[0][:source] == 'B'
     assert(deduped.any? { |i| i[:source] == 'B' })
+  end
+
+  def test_dedup_replacement_restores_newest_first_order
+    items = [
+      {
+        title: 'LockBit ransomware hits hospital',
+        link: 'https://example.com/lockbit',
+        date: '2026-10-30T12:00:00Z',
+        source: 'LowWeight',
+        weight: 1
+      },
+      {
+        title: 'Unrelated DNS malware campaign',
+        link: 'https://example.com/dns',
+        date: '2026-10-30T11:00:00Z',
+        source: 'Mid',
+        weight: 1
+      },
+      {
+        title: 'LockBit ransomware hits hospital',
+        link: 'https://example.com/lockbit?utm_source=dup',
+        date: '2026-10-30T10:00:00Z',
+        source: 'HighWeight',
+        weight: 3
+      }
+    ]
+
+    deduped = NewsFeed.deduplicate_items(items)
+    assert_equal 2, deduped.size
+    assert_equal 'Mid', deduped[0][:source], 'newer unrelated item must stay ahead of older replacement'
+    assert_equal 'HighWeight', deduped[1][:source]
+    dates = deduped.map { |i| NewsFeed.parse_time(i[:date]) }
+    assert dates[0] > dates[1]
   end
 
   def test_date_window_and_relevance_filters

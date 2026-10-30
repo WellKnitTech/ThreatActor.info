@@ -13,7 +13,7 @@ permalink: /news/
     </p>
     {% if site.data.news_feed.updated %}
     <p class="news-updated">
-      Feed updated <time datetime="{{ site.data.news_feed.updated }}">{{ site.data.news_feed.updated | date: "%b %-d, %Y %H:%M UTC" }}</time>
+      Feed updated <time datetime="{{ site.data.news_feed.updated | escape }}">{{ site.data.news_feed.updated | date: "%b %-d, %Y %H:%M UTC" }}</time>
       {% if site.data.news_feed.window_days %} · last {{ site.data.news_feed.window_days }} days{% endif %}
       · <a href="{{ "/api/news.json" | relative_url }}">JSON</a>
     </p>
@@ -25,16 +25,16 @@ permalink: /news/
   <ol class="news-list">
     {% for item in news_items %}
     <li class="news-item">
-      <h2 class="news-item-title"><a href="{{ item.link }}" rel="noopener noreferrer">{{ item.title }}</a></h2>
+      <h2 class="news-item-title"><a href="{{ item.link | escape }}" rel="noopener noreferrer">{{ item.title | escape }}</a></h2>
       <div class="news-item-meta">
-        <span class="news-source">{{ item.source }}</span>
+        <span class="news-source">{{ item.source | escape }}</span>
         {% if item.date %}
-        <time datetime="{{ item.date }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+        <time datetime="{{ item.date | escape }}">{{ item.date | date: "%b %-d, %Y" }}</time>
         {% endif %}
         {% if item.cves and item.cves.size > 0 %}
         <span class="news-cves">
           {% for cve in item.cves limit: 4 %}
-          <code>{{ cve }}</code>
+          <code>{{ cve | escape }}</code>
           {% endfor %}
         </span>
         {% endif %}
@@ -44,16 +44,16 @@ permalink: /news/
         {% for actor in item.actors %}
         <li>
           {% if actor.url and actor.url != "" %}
-          <a href="{{ actor.url | relative_url }}">{{ actor.name }}</a>
+          <a href="{{ actor.url | relative_url | escape }}">{{ actor.name | escape }}</a>
           {% else %}
-          {{ actor.name }}
+          {{ actor.name | escape }}
           {% endif %}
         </li>
         {% endfor %}
       </ul>
       {% endif %}
       {% if item.tags and item.tags.size > 0 %}
-      <p class="news-tags">{{ item.tags | join: ", " }}</p>
+      <p class="news-tags">{% for tag in item.tags %}{% unless forloop.first %}, {% endunless %}{{ tag | escape }}{% endfor %}</p>
       {% endif %}
     </li>
     {% endfor %}

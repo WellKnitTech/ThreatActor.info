@@ -22,6 +22,7 @@ require_relative 'actor_store'
 require_relative 'front_matter_yaml'
 require_relative 'ioc_yaml_reader'
 require_relative 'lib/liquid_safe_text'
+require_relative 'lib/news_feed'
 
 PAGE_DIR = '_threat_actors'
 
@@ -900,19 +901,21 @@ sections << "## References"
           sections << "*Latest articles from security news feeds mentioning this actor.*"
           sections << ""
           actor_news.each do |news_item|
-            title = news_item['title'] || ''
-            link = news_item['link'] || ''
-            source = news_item['source'] || ''
-            date = news_item['date'] || ''
-            cves = Array(news_item['cves']).compact.reject(&:empty?)
-            tags = Array(news_item['tags']).compact.reject(&:empty?)
+            title = sanitize_news_markdown_text(news_item['title'])
+            link = sanitize_news_markdown_url(news_item['link'])
+            source = sanitize_news_markdown_text(news_item['source'])
+            date = news_item['date'].to_s
+            cves = Array(news_item['cves']).compact.reject(&:empty?).map { |cve| sanitize_news_markdown_text(cve) }
+            tags = Array(news_item['tags']).compact.reject(&:empty?).map { |tag| sanitize_news_markdown_text(tag) }
+            next if title.empty? || link.nil?
 
             sections << "- [#{title}](#{link})"
-            meta = [source]
-            meta << date[0..9] if date && !date.empty?
+            meta = []
+            meta << source unless source.empty?
+            meta << date[0..9] if date.length >= 10
             meta.concat(cves.first(3)) if cves.any?
             meta << "tags: #{tags.join(', ')}" if tags.any?
-            sections << "  #{meta.join(' — ')}"
+            sections << "  #{meta.join(' — ')}" unless meta.empty?
           end
           sections << ""
         end
@@ -968,6 +971,15 @@ def sanitize_description(value)
          .gsub(/\(Citation:\s*[^)]+\)/i, '')
          .strip
   )
+end
+
+def sanitize_news_markdown_text(value)
+  # Strip markup then HTML-escape so kramdown cannot revive feed-supplied tags.
+  CGI.escapeHTML(NewsFeed.sanitize_feed_text(value)).gsub(']', '&#93;')
+end
+
+def sanitize_news_markdown_url(value)
+  NewsFeed.canonicalize_url(value)
 end
 
 def build_metadata_fallback_description(actor)
