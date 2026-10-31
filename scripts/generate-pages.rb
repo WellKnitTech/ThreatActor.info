@@ -897,10 +897,15 @@ sections << "## References"
         end
         
         if actor_news && actor_news.any?
+          # actor_news accumulates all matched items (newest first). Show a
+          # short recent list on the page and link to the full /news/ archive.
+          news_rows = Array(actor_news)
+          display_limit = defined?(NewsFeed::MAX_PER_ACTOR_DISPLAY) ? NewsFeed::MAX_PER_ACTOR_DISPLAY : 8
+          visible = news_rows.first(display_limit)
           sections << "## Recent News"
           sections << "*Latest articles from security news feeds mentioning this actor.*"
           sections << ""
-          actor_news.each do |news_item|
+          visible.each do |news_item|
             title = sanitize_news_markdown_text(news_item['title'])
             link = sanitize_news_markdown_url(news_item['link'])
             source = sanitize_news_markdown_text(news_item['source'])
@@ -916,6 +921,10 @@ sections << "## References"
             meta.concat(cves.first(3)) if cves.any?
             meta << "tags: #{tags.join(', ')}" if tags.any?
             sections << "  #{meta.join(' — ')}" unless meta.empty?
+          end
+          if news_rows.size > visible.size
+            sections << ""
+            sections << "*#{news_rows.size} matched articles total. [Browse all security news](/news/archive/).* "
           end
           sections << ""
         end

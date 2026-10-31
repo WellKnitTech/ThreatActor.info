@@ -1,0 +1,67 @@
+---
+layout: default
+title: Security News Archive
+permalink: /news/archive/
+---
+
+<section class="news-page">
+  <header class="news-page-header">
+    <h1>Security News Archive</h1>
+    <p>
+      Full additive archive of security-news items retained by the daily pipeline.
+      The <a href="{{ "/news/" | relative_url }}">main news page</a> shows the newest items;
+      monthly shards under <code>data/news/archive/</code> keep the corpus from bloating a single Jekyll data file.
+    </p>
+    {% if site.data.news_feed.item_count_total %}
+    <p class="news-updated">
+      {{ site.data.news_feed.item_count_total }} items stored
+      · <a href="{{ "/api/news.json" | relative_url }}">JSON index</a>
+    </p>
+    {% endif %}
+  </header>
+
+  {% assign months = site.data.generated.news_archive_months %}
+  {% if months and months.size > 0 %}
+  <ul class="news-archive-months">
+    {% for month in months %}
+    <li>
+      <a href="{{ month.api_path | relative_url }}">{{ month.month | escape }}</a>
+      — {{ month.item_count }} items
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% assign archive_preview = site.data.generated.news_archive_preview %}
+  {% if archive_preview and archive_preview.size > 0 %}
+  <h2>All stored items (newest first)</h2>
+  <ol class="news-list">
+    {% for item in archive_preview %}
+    <li class="news-item">
+      <h2 class="news-item-title"><a href="{{ item.link | escape }}" rel="noopener noreferrer">{{ item.title | escape }}</a></h2>
+      <div class="news-item-meta">
+        <span class="news-source">{{ item.source | escape }}</span>
+        {% if item.date %}
+        <time datetime="{{ item.date | escape }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+        {% endif %}
+      </div>
+      {% if item.actors and item.actors.size > 0 %}
+      <ul class="news-actors">
+        {% for actor in item.actors %}
+        <li>
+          {% if actor.url and actor.url != "" %}
+          <a href="{{ actor.url | relative_url | escape }}">{{ actor.name | escape }}</a>
+          {% else %}
+          {{ actor.name | escape }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+  {% else %}
+  <p class="news-empty">No archived news months are available yet.</p>
+  {% endif %}
+</section>

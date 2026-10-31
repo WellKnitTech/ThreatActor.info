@@ -37,3 +37,10 @@ Caramel Tsunami is a threat actor that specializes in spyware attacks. They have
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Targeted ads installed Candiru spyware in zero-click attacks](https://bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware)
+  BleepingComputer — 2026-10-16
+- [Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads](https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html)
+  The Hacker News — 2026-10-15

@@ -10,11 +10,20 @@ permalink: /news/
     <p>
       Recent publicly reported cyber threat coverage from free RSS sources,
       filtered for security relevance and linked to matching threat actors when attribution is clear.
+      The underlying archive is additive — older items are retained even when feeds stop returning them.
     </p>
     {% if site.data.news_feed.updated %}
     <p class="news-updated">
       Feed updated <time datetime="{{ site.data.news_feed.updated | escape }}">{{ site.data.news_feed.updated | date: "%b %-d, %Y %H:%M UTC" }}</time>
-      {% if site.data.news_feed.window_days %} · last {{ site.data.news_feed.window_days }} days{% endif %}
+      {% if site.data.news_feed.item_count_total %}
+        · {{ site.data.news_feed.item_count_total }} stored
+        {% if site.data.news_feed.display_items %}
+          · showing newest {{ site.data.news_feed.display_items }}
+        {% endif %}
+      {% elsif site.data.news_feed.window_days %}
+        · last {{ site.data.news_feed.window_days }} days fetch window
+      {% endif %}
+      · <a href="{{ "/news/archive/" | relative_url }}">Archive</a>
       · <a href="{{ "/api/news.json" | relative_url }}">JSON</a>
     </p>
     {% endif %}
@@ -58,6 +67,7 @@ permalink: /news/
     </li>
     {% endfor %}
   </ol>
+  <p class="news-archive-link"><a href="{{ "/news/archive/" | relative_url }}">View full news archive by month →</a></p>
   {% else %}
   <p class="news-empty">No recent security news items are available yet.</p>
   {% endif %}

@@ -97,16 +97,24 @@ The actor page displays this data only as secondary context: accepted derived re
 
 Daily security-news digest produced by `scripts/fetch-news.rb` and mirrored into `_data/generated/news.json`.
 
+The store is **additive**: each run merges newly fetched items into monthly archive shards under `data/news/archive/YYYY-MM.json` and never deletes previously stored articles. The 14-day `window_days` value only bounds which freshly fetched feed entries are candidates; it is not a retention/deletion window.
+
 Fields:
 
 - `updated` — ISO-8601 UTC timestamp for the last successful fetch
-- `window_days` — retention window used when filtering items
-- `item_count`
+- `window_days` — fetch candidate window (not a deletion rule)
+- `retention` — `additive_archive`
+- `item_count` — number of items in the default display payload
+- `item_count_total` — full archive size
+- `display_items` — max items shown on `/news/`
+- `archive_months[]` — `{ month, item_count, path, api_path }` for monthly shards
 - `sources` — feed names considered by the fetcher
-- `source_health` — per-source ok/error/item counts from the last run
-- `items[]` — recent relevant articles with `title`, `link`, `canonical_url`, `date`, `source`, `cves`, `tags`, and `actors` (`name`, `url`, `matched_alias`)
+- `source_health` — per-source ok/error/item/latency counts from the last run (403s may set `dropped`)
+- `items[]` — newest display slice with `title`, `link`, `canonical_url`, `date`, `source`, `cves`, `tags`, and `actors` (`name`, `url`, `matched_alias`)
 
-The human-readable page is `/news/`. Actor pages also surface high-confidence matches under **Recent News**.
+Monthly shards are also published at `/api/news/by-month/YYYY-MM.json`.
+
+The human-readable pages are `/news/` (newest slice) and `/news/archive/` (full archive index). Actor pages surface high-confidence matches under **Recent News** (newest first, with a link to the archive when the list is long).
 
 ### `/api/recently-updated.json`
 

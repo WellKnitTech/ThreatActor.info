@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "link": "https://example.test/volt-typhoon-silent-train",
+      "date": "2026-10-28T12:00:00Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "category": "security"
+    },
+    {
+      "title": "Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia",
+      "link": "https://example.test/unknown-apt-netamloader",
+      "date": "2026-10-29T12:00:00Z",
+      "source": "Securelist",
+      "weight": 2,
+      "category": "security"
+    },
+    {
+      "title": "How CVE-2026-73570 turns a Zimbra log file into remote code execution",
+      "link": "https://example.test/zimbra-cve-log-rce",
+      "date": "2026-10-23T12:00:00Z",
+      "source": "Elastic Security",
+      "weight": 2,
+      "category": "security"
+    },
+    {
+      "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
+      "link": "https://example.test/ghostaction-wave",
+      "date": "2026-10-30T12:00:00Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "category": "security"
+    }
+  ]
+}

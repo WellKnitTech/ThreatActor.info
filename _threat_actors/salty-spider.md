@@ -44,3 +44,8 @@ Beginning in January 2018 and persisting through the first half of the year, Cro
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Sality botnet infrastructure dismantled in joint global takedown](https://bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown)
+  BleepingComputer — 2026-09-02

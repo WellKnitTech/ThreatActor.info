@@ -1,20 +1,32 @@
 # frozen_string_literal: true
 
 require 'cgi'
+require 'fileutils'
 require 'json'
 require 'set'
 require 'time'
 require 'uri'
 require 'yaml'
 
-# Shared helpers for daily security-news fetch, filter, dedup, and actor matching.
+# Shared helpers for daily security-news fetch, filter, dedup, actor matching,
+# and additive archive storage.
 module NewsFeed
   OUTPUT_FILE = '_data/news_feed.yml'
+  ARCHIVE_DIR = 'data/news/archive'
   ACTORS_GLOB = '_data/actors/*.yml'
+
+  # Window still decides which freshly fetched feed items are candidates.
+  # It is NOT a deletion rule — stored archive items persist forever.
   WINDOW_DAYS = 14
-  MAX_ITEMS = 80
-  MAX_PER_ACTOR = 5
+  DISPLAY_ITEMS = 100
+  MAX_PER_ACTOR_DISPLAY = 8
   MAX_PER_FEED = 15
+  FEED_DEADLINE_SECONDS = 45
+  OPEN_TIMEOUT = 8
+  READ_TIMEOUT = 12
+
+  BROWSER_UA = 'Mozilla/5.0 (compatible; ThreatActorInfo/1.0; +https://threatactor.info) ' \
+               'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 
   # Native security/intel sources keep items that pass a light relevance gate.
   # General tech sources must match a stricter security-relevance pattern.
@@ -23,6 +35,7 @@ module NewsFeed
     { name: 'The Hacker News', url: 'https://feeds.feedburner.com/TheHackersNews', weight: 2, category: :security },
     { name: 'KrebsOnSecurity', url: 'https://krebsonsecurity.com/feed/', weight: 2, category: :security },
     { name: 'DarkReading', url: 'https://www.darkreading.com/rss.xml', weight: 2, category: :security },
+    # SecurityWeek has historically 403'd bot UAs; kept with browser UA + health tracking.
     { name: 'SecurityWeek', url: 'https://www.securityweek.com/feed', weight: 2, category: :security },
     { name: 'The Record', url: 'https://therecord.media/feed', weight: 2, category: :security },
     { name: 'CISA Advisories', url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml', weight: 2, category: :security },
@@ -38,7 +51,8 @@ module NewsFeed
     { name: 'SentinelOne', url: 'https://www.sentinelone.com/blog/feed/', weight: 1, category: :security },
     { name: 'Rapid7', url: 'https://www.rapid7.com/blog/rss', weight: 1, category: :security },
     # General tech — kept for breach/security coverage but filtered strictly.
-    { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/security', weight: 1, category: :general },
+    # Feedburner /feeds.arstechnica.com/arstechnica/security went 404; current path is /security/rss.
+    { name: 'Ars Technica', url: 'https://arstechnica.com/security/rss', weight: 1, category: :general },
     { name: 'TechCrunch', url: 'https://techcrunch.com/tag/security/feed/', weight: 1, category: :general },
     { name: 'Wired Security', url: 'https://www.wired.com/feed/category/security/latest/rss', weight: 1, category: :general }
   ].freeze
@@ -81,6 +95,7 @@ module NewsFeed
 
   # Short/common aliases that create false positives via substring or English-word hits.
   # Includes frequent RansomLook/MISP single-token names that are ordinary English words.
+  # These are never indexed.
   AMBIGUOUS_ALIASES = %w[
     r pl ra lv dn tk bb php rns oct bud ank oni cry sea inc inc. one mini core first
     aware hive ghost light shadow root safe global rapid judge clock frog frag boom
@@ -95,6 +110,23 @@ module NewsFeed
     action train covert python rector russian chinese korean iranian syrian
     american european asian african japanese german french british israeli
     ukraine ukrainian poland polish taiwan taiwanese vietnam vietnamese
+    unknown fake common simple special general private public official personal
+    national international local modern digital virtual physical critical important
+    standard advanced basic primary secondary major minor large small new old
+    last best worst true false real open closed free paid soft hard
+  ].freeze
+
+  # Distinctive product/vendor/platform names that also appear as ransomware or actor
+  # labels. Indexed, but a title match requires nearby group-identity context
+  # (e.g. "Zimbra ransomware") — not merely mentioning the product.
+  PRODUCT_VENDOR_ALIASES = %w[
+    zimbra microsoft google apple cisco vmware oracle adobe amazon aws azure
+    facebook meta twitter linkedin github gitlab slack zoom nokia samsung intel
+    amd nvidia exchange outlook sharepoint wordpress joomla drupal jenkins
+    elasticsearch elastic kibana splunk nginx apache mysql postgres mongodb redis
+    docker kubernetes ubuntu windows linux android ios chrome firefox sophos crowdstrike
+    fortinet juniper aruba akamai cloudflare qualys tenable nessus telegram discord
+    whatsapp signal dropbox box icloud office365
   ].freeze
 
   CODE_LIKE = /\A(?:apt|ta|fin|unc|apt-?)?\d{1,5}[a-z]?\z/i
@@ -132,6 +164,24 @@ module NewsFeed
     AMBIGUOUS_ALIASES.include?(normalize_keyword(keyword))
   end
 
+  def product_vendor_alias?(keyword)
+    PRODUCT_VENDOR_ALIASES.include?(normalize_keyword(keyword))
+  end
+
+  # Product/vendor aliases and any future explicit stoplist entries require
+  # group-identity context. Coined actor tokens (LockBit, GhostAction,
+  # ShinyHunters) are not in PRODUCT_VENDOR_ALIASES and match freely.
+  # Ordinary English words live in AMBIGUOUS_ALIASES and are never indexed.
+  def context_required_alias?(keyword, curated: false)
+    return false if curated
+
+    kw = normalize_keyword(keyword)
+    return false if kw.include?(' ')
+    return false if CODE_LIKE.match?(kw)
+
+    product_vendor_alias?(kw)
+  end
+
   def usable_alias?(keyword, curated: false)
     kw = normalize_keyword(keyword)
     return false if kw.empty?
@@ -140,9 +190,11 @@ module NewsFeed
     return true if curated
     return true if kw.include?(' ')
     return true if CODE_LIKE.match?(kw)
-    # Single-token auto aliases must be reasonably distinctive; common words are
-    # blocked via AMBIGUOUS_ALIASES even when long (e.g. homeland, silent).
+    # Product/vendor aliases are indexed but matched with extra context.
+    return true if product_vendor_alias?(kw)
+    # Single-token auto aliases must be reasonably distinctive.
     return true if kw.length >= 6
+
     false
   end
 
@@ -154,7 +206,22 @@ module NewsFeed
 
   def text_match?(haystack, keyword)
     return false if haystack.to_s.empty?
+
     word_boundary_pattern(keyword).match?(haystack)
+  end
+
+  # Require the alias to appear as a named group/family, not merely as a product
+  # or English adjective (blocks "Unknown APT", "Zimbra log file").
+  def actor_context_match?(haystack, keyword)
+    kw = Regexp.escape(normalize_keyword(keyword)).gsub('\\ ', '[[:space:]]+')
+    patterns = [
+      /\b#{kw}[[:space:]]+ransomware\b/i,
+      /\b#{kw}[[:space:]]+(?:ransomware[[:space:]]+)?(?:group|gang|crew|family|operation)\b/i,
+      /\b(?:ransomware|threat)[[:space:]]+(?:group|gang|crew|actor)[[:space:]]+#{kw}\b/i,
+      /\b#{kw}[[:space:]]+(?:threat[[:space:]]+)?actor\b/i,
+      /\bransomware[[:space:]]+(?:group|gang|crew|family)?[[:space:]]*#{kw}\b/i
+    ]
+    patterns.any? { |re| re.match?(haystack.to_s) }
   end
 
   def parse_time(value)
@@ -172,6 +239,13 @@ module NewsFeed
     return false unless ts
 
     ts >= (now - (days * 24 * 60 * 60)) && ts <= (now + (2 * 60 * 60))
+  end
+
+  def month_key(value)
+    ts = parse_time(value)
+    return 'unknown' unless ts
+
+    ts.strftime('%Y-%m')
   end
 
   # Only allow http(s) links with a host. Rejects javascript:, data:, etc.
@@ -264,7 +338,7 @@ module NewsFeed
   end
 
   def build_keyword_index(actors = load_actor_records)
-    # keyword -> [{name:, url:, alias:}, ...]
+    # keyword -> [{name:, url:, alias:, context_required:}, ...]
     index = Hash.new { |h, k| h[k] = [] }
 
     CURATED_KEYWORDS.each do |actor_name, words|
@@ -272,7 +346,12 @@ module NewsFeed
       words.each do |word|
         next unless usable_alias?(word, curated: true)
 
-        index[normalize_keyword(word)] << { name: actor_name, url: url, alias: normalize_keyword(word) }
+        index[normalize_keyword(word)] << {
+          name: actor_name,
+          url: url,
+          alias: normalize_keyword(word),
+          context_required: false
+        }
       end
     end
 
@@ -282,27 +361,74 @@ module NewsFeed
         next unless usable_alias?(raw, curated: false)
 
         kw = normalize_keyword(raw)
-        index[kw] << { name: actor['name'], url: actor['url'], alias: kw }
+        index[kw] << {
+          name: actor['name'],
+          url: actor['url'],
+          alias: kw,
+          context_required: context_required_alias?(raw, curated: false) || product_vendor_alias?(kw)
+        }
       end
     end
 
     index.transform_values(&:uniq)
   end
 
+  def partition_keyword_index(keyword_index)
+    single = Hash.new { |h, k| h[k] = [] }
+    multi = []
+    keyword_index.each do |keyword, entries|
+      if keyword.include?(' ')
+        multi << [keyword, word_boundary_pattern(keyword), entries]
+      else
+        single[keyword].concat(entries)
+      end
+    end
+    [single, multi]
+  end
+
   def match_actors(title, keyword_index = build_keyword_index)
     text = title.to_s
     matched = {}
 
-    keyword_index.each do |keyword, entries|
-      next unless text_match?(text, keyword)
+    # Fast path: token lookup for single-word aliases, regex only for multi-word.
+    single, multi =
+      if keyword_index.is_a?(Hash) && keyword_index.key?(:__single) && keyword_index.key?(:__multi)
+        [keyword_index[:__single], keyword_index[:__multi]]
+      else
+        partition_keyword_index(keyword_index)
+      end
+
+    tokens = text.downcase.scan(/[a-z0-9][a-z0-9'+.\-]*/)
+    tokens.each do |tok|
+      Array(single[tok]).each do |entry|
+        if entry[:context_required] || entry['context_required']
+          next unless actor_context_match?(text, tok)
+        end
+        key = entry[:name] || entry['name']
+        matched[key] ||= entry
+      end
+    end
+
+    multi.each do |keyword, pattern, entries|
+      next unless pattern.match?(text)
 
       entries.each do |entry|
-        key = entry[:name]
+        if entry[:context_required] || entry['context_required']
+          next unless actor_context_match?(text, keyword)
+        end
+        key = entry[:name] || entry['name']
         matched[key] ||= entry
       end
     end
 
     matched.values
+  end
+
+  # Build an index pre-partitioned for fast match_actors scans.
+  def build_match_index(actors = load_actor_records)
+    raw = build_keyword_index(actors)
+    single, multi = partition_keyword_index(raw)
+    { __single: single, __multi: multi, __raw: raw }
   end
 
   def sort_items_by_date_desc(items)
@@ -318,25 +444,27 @@ module NewsFeed
     kept = []
 
     sorted.each do |item|
-      canonical = item[:canonical_url] || canonicalize_url(item[:link])
+      canonical = item[:canonical_url] || item['canonical_url'] || canonicalize_url(item[:link] || item['link'])
       next if canonical.nil? || canonical.empty?
 
       duplicate = kept.find do |other|
-        other_canonical = other[:canonical_url] || canonicalize_url(other[:link])
+        other_canonical = other[:canonical_url] || other['canonical_url'] || canonicalize_url(other[:link] || other['link'])
         next true if other_canonical == canonical
 
-        title_similarity(other[:title], item[:title]) >= 0.9
+        title_similarity(other[:title] || other['title'], item[:title] || item['title']) >= 0.9
       end
 
       if duplicate
         # Prefer higher-weight / earlier-listed security sources.
-        if (item[:weight] || 1) > (duplicate[:weight] || 1)
-          kept[kept.index(duplicate)] = item.merge(canonical_url: canonical)
+        item_weight = item[:weight] || item['weight'] || 1
+        dup_weight = duplicate[:weight] || duplicate['weight'] || 1
+        if item_weight > dup_weight
+          kept[kept.index(duplicate)] = symbolize_item(item).merge(canonical_url: canonical)
         end
         next
       end
 
-      kept << item.merge(canonical_url: canonical)
+      kept << symbolize_item(item).merge(canonical_url: canonical)
     end
 
     # Replacing a duplicate in place can leave an older higher-weight item ahead of
@@ -344,11 +472,28 @@ module NewsFeed
     sort_items_by_date_desc(kept)
   end
 
+  def symbolize_item(item)
+    return item if item.is_a?(Hash) && item.key?(:title)
+
+    {
+      title: item[:title] || item['title'],
+      link: item[:link] || item['link'],
+      canonical_url: item[:canonical_url] || item['canonical_url'],
+      date: item[:date] || item['date'],
+      source: item[:source] || item['source'],
+      weight: item[:weight] || item['weight'] || 1,
+      category: item[:category] || item['category'] || :security,
+      cves: item[:cves] || item['cves'] || [],
+      tags: item[:tags] || item['tags'] || [],
+      actors: item[:actors] || item['actors'] || []
+    }
+  end
+
   def enrich_item(item, keyword_index)
-    title = sanitize_feed_text(item[:title])
-    source = sanitize_feed_text(item[:source])
-    link = item[:link].to_s.strip
-    canonical = canonicalize_url(link)
+    title = sanitize_feed_text(item[:title] || item['title'])
+    source = sanitize_feed_text(item[:source] || item['source'])
+    link = (item[:link] || item['link']).to_s.strip
+    canonical = canonicalize_url(item[:canonical_url] || item['canonical_url'] || link)
     return nil if title.empty? || canonical.nil?
 
     cves = extract_cves(title)
@@ -359,19 +504,24 @@ module NewsFeed
     tags << 'apt' if title.match?(/\bapt\d*\b/i)
     tags << 'breach' if title.match?(/\bbreach|data\s+leak|extortion\b/i)
 
-    item.merge(
+    {
       title: title,
       source: source,
       link: canonical,
       canonical_url: canonical,
-      date: (parse_time(item[:date]) || Time.now.utc).iso8601,
+      date: (parse_time(item[:date] || item['date']) || Time.now.utc).iso8601,
+      weight: item[:weight] || item['weight'] || 1,
+      category: item[:category] || item['category'] || :security,
       cves: cves,
       tags: tags,
-      actors: actors.map { |a| { 'name' => a[:name], 'url' => a[:url], 'matched_alias' => a[:alias] } }
-    )
+      actors: actors.map { |a| { 'name' => a[:name] || a['name'], 'url' => a[:url] || a['url'], 'matched_alias' => a[:alias] || a['alias'] } }
+    }
   end
 
-  def build_actor_news(items)
+  def build_actor_news(items, display_limit: nil)
+    # display_limit is retained for callers; actor_news stores the full
+    # newest-first accumulation. Pages truncate when rendering.
+    _ = display_limit
     actor_news = Hash.new { |h, k| h[k] = [] }
 
     items.each do |item|
@@ -390,7 +540,11 @@ module NewsFeed
       end
     end
 
-    actor_news.transform_values { |list| list.first(MAX_PER_ACTOR) }
+    actor_news.transform_values do |list|
+      serialize_items(sort_items_by_date_desc(list.map { |row| symbolize_item(row) })).map do |row|
+        row.slice('title', 'link', 'date', 'source', 'cves', 'tags')
+      end
+    end
   end
 
   def serialize_items(items)
@@ -409,7 +563,7 @@ module NewsFeed
             {
               'name' => actor[:name] || actor['name'],
               'url' => actor[:url] || actor['url'],
-              'matched_alias' => actor[:matched_alias] || actor['matched_alias']
+              'matched_alias' => actor[:matched_alias] || actor['matched_alias'] || actor[:alias] || actor['alias']
             }
           else
             { 'name' => actor.to_s, 'url' => '', 'matched_alias' => '' }
@@ -419,27 +573,129 @@ module NewsFeed
     end
   end
 
-  def build_output(items, source_health:, sources: RSS_FEEDS.map { |f| f[:name] }, updated: Time.now.utc)
-    enriched_source = items
+  def archive_path(month)
+    File.join(ARCHIVE_DIR, "#{month}.json")
+  end
+
+  def ensure_archive_dir!
+    FileUtils.mkdir_p(ARCHIVE_DIR)
+  end
+
+  def load_json_file(path)
+    return nil unless path && File.exist?(path)
+
+    content = File.read(path).strip
+    return nil if content.empty?
+
+    if content.start_with?('{') || content.start_with?('[')
+      JSON.parse(content)
+    else
+      YAML.safe_load(content, permitted_classes: [Date, Time], aliases: false)
+    end
+  rescue JSON::ParserError, Psych::SyntaxError
+    nil
+  end
+
+  def load_archived_items(archive_dir: ARCHIVE_DIR)
+    return [] unless Dir.exist?(archive_dir)
+
+    Dir.glob(File.join(archive_dir, '*.json')).sort.flat_map do |path|
+      data = load_json_file(path)
+      next [] unless data
+
+      rows = data.is_a?(Array) ? data : Array(data['items'])
+      rows.map { |row| symbolize_item(row) }
+    end
+  end
+
+  def load_existing_store(output_file: OUTPUT_FILE, archive_dir: ARCHIVE_DIR)
+    archived = load_archived_items(archive_dir: archive_dir)
+    current = load_json_file(output_file)
+    current_items = current.is_a?(Hash) ? Array(current['items']).map { |row| symbolize_item(row) } : []
+    deduplicate_items(archived + current_items)
+  end
+
+  def write_monthly_archives!(items, archive_dir: ARCHIVE_DIR)
+    FileUtils.mkdir_p(archive_dir)
+
+    by_month = Hash.new { |h, k| h[k] = [] }
+    items.each do |item|
+      by_month[month_key(item[:date] || item['date'])] << item
+    end
+
+    written = []
+    by_month.keys.sort.each do |month|
+      next if month == 'unknown'
+
+      path = File.join(archive_dir, "#{month}.json")
+      payload = {
+        'month' => month,
+        'item_count' => by_month[month].size,
+        'items' => serialize_items(sort_items_by_date_desc(by_month[month]))
+      }
+      File.write(path, JSON.pretty_generate(payload))
+      written << { 'month' => month, 'item_count' => payload['item_count'], 'path' => path }
+    end
+    written
+  end
+
+  def rematch_items(items, keyword_index: build_match_index)
+    items.filter_map do |item|
+      enrich_item(item, keyword_index)
+    end
+  end
+
+  def build_output(items, source_health:, sources: RSS_FEEDS.map { |f| f[:name] }, updated: Time.now.utc,
+                   archive_months: [], display_limit: DISPLAY_ITEMS)
+    sorted = sort_items_by_date_desc(items)
+    display_items = sorted.first(display_limit)
     {
       'updated' => updated.iso8601,
       'window_days' => WINDOW_DAYS,
+      'display_items' => display_limit,
+      'item_count_total' => sorted.size,
+      'item_count' => display_items.size,
+      'retention' => 'additive_archive',
+      'archive_dir' => ARCHIVE_DIR,
+      'archive_months' => archive_months,
       'sources' => sources,
       'source_health' => source_health,
-      'items' => serialize_items(enriched_source),
-      'actor_news' => build_actor_news(enriched_source)
+      'items' => serialize_items(display_items),
+      'actor_news' => build_actor_news(sorted)
     }
   end
 
-  def process_items(raw_items, keyword_index: build_keyword_index, now: Time.now.utc, window_days: WINDOW_DAYS)
+  # Process freshly fetched feed items (window + relevance). Does not load archive.
+  def process_fresh_items(raw_items, keyword_index: build_keyword_index, now: Time.now.utc, window_days: WINDOW_DAYS)
     filtered = raw_items.select do |item|
-      category = item[:category] || :security
-      safe_http_url?(item[:link]) &&
-        within_window?(item[:date], now: now, days: window_days) &&
-        security_relevant?(item[:title], category: category)
+      category = item[:category] || item['category'] || :security
+      safe_http_url?(item[:link] || item['link']) &&
+        within_window?(item[:date] || item['date'], now: now, days: window_days) &&
+        security_relevant?(item[:title] || item['title'], category: category)
     end
 
-    enriched = filtered.filter_map { |item| enrich_item(item, keyword_index) }
-    deduplicate_items(enriched).first(MAX_ITEMS)
+    filtered.filter_map { |item| enrich_item(item, keyword_index) }
+  end
+
+  # Merge fresh candidates into the existing store. Never deletes prior items.
+  # Re-applies actor matching to the full corpus so stoplist changes take effect.
+  def merge_additive(existing_items, fresh_items, keyword_index: build_match_index)
+    combined = deduplicate_items(Array(existing_items) + Array(fresh_items))
+    rematched = rematch_items(combined, keyword_index: keyword_index)
+    deduplicate_items(rematched)
+  end
+
+  # Back-compat wrapper used by older tests: window-filter then cap display size.
+  # Prefer process_fresh_items + merge_additive for the daily pipeline.
+  def process_items(raw_items, keyword_index: build_keyword_index, now: Time.now.utc, window_days: WINDOW_DAYS)
+    process_fresh_items(raw_items, keyword_index: keyword_index, now: now, window_days: window_days)
+      .then { |items| sort_items_by_date_desc(items).first(DISPLAY_ITEMS) }
+  end
+
+  def drop_feed_on_forbidden?(health_entry)
+    return false unless health_entry.is_a?(Hash)
+
+    error = health_entry['error'].to_s
+    error.match?(/\b403\b/) || error.downcase.include?('forbidden')
   end
 end

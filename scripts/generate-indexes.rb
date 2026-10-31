@@ -255,7 +255,9 @@ class ThreatActorIndexGenerator
 
     write_json('threat_actors.json', actor_documents)
     write_json('recently_updated.json', build_recently_updated(actor_documents))
-    write_json('news.json', build_news_payload)
+    news_payload = build_news_payload
+    write_json('news.json', news_payload)
+    write_news_archive_artifacts(news_payload)
     write_json('iocs.json', ioc_documents)
 
     # Build facets with malware counts
@@ -639,9 +641,51 @@ class ThreatActorIndexGenerator
     }
   end
 
+  def map_news_item(item)
+    {
+      title: item['title'] || item[:title],
+      link: item['link'] || item[:link],
+      canonical_url: item['canonical_url'] || item[:canonical_url],
+      date: item['date'] || item[:date],
+      source: item['source'] || item[:source],
+      cves: Array(item['cves'] || item[:cves]),
+      tags: Array(item['tags'] || item[:tags]),
+      actors: Array(item['actors'] || item[:actors]).map do |actor|
+        {
+          name: actor['name'] || actor[:name],
+          url: actor['url'] || actor[:url],
+          matched_alias: actor['matched_alias'] || actor[:matched_alias]
+        }
+      end
+    }
+  end
+
+  def load_news_archive_items
+    dir = 'data/news/archive'
+    return [] unless Dir.exist?(dir)
+
+    Dir.glob(File.join(dir, '*.json')).sort.flat_map do |path|
+      raw = JSON.parse(File.read(path))
+      rows = raw.is_a?(Array) ? raw : Array(raw['items'])
+      rows.map { |item| map_news_item(item) }
+    rescue JSON::ParserError
+      []
+    end
+  end
+
   def build_news_payload
     path = '_data/news_feed.yml'
-    return { updated: nil, window_days: nil, item_count: 0, items: [], source_health: {} } unless File.exist?(path)
+    empty = {
+      updated: nil,
+      window_days: nil,
+      item_count: 0,
+      item_count_total: 0,
+      items: [],
+      source_health: {},
+      archive_months: [],
+      retention: 'additive_archive'
+    }
+    return empty unless File.exist?(path)
 
     content = File.read(path).strip
     data =
@@ -651,33 +695,57 @@ class ThreatActorIndexGenerator
         safe_load_yaml(content) || {}
       end
 
-    items = Array(data['items']).map do |item|
+    items = Array(data['items']).map { |item| map_news_item(item) }
+    archive_months = Array(data['archive_months']).map do |month|
       {
-        title: item['title'],
-        link: item['link'],
-        canonical_url: item['canonical_url'],
-        date: item['date'],
-        source: item['source'],
-        cves: Array(item['cves']),
-        tags: Array(item['tags']),
-        actors: Array(item['actors']).map do |actor|
-          {
-            name: actor['name'],
-            url: actor['url'],
-            matched_alias: actor['matched_alias']
-          }
-        end
+        month: month['month'] || month[:month],
+        item_count: month['item_count'] || month[:item_count],
+        path: month['path'] || month[:path],
+        api_path: "/api/news/by-month/#{month['month'] || month[:month]}.json"
       }
     end
 
     {
       updated: data['updated'],
       window_days: data['window_days'],
+      display_items: data['display_items'],
       item_count: items.length,
+      item_count_total: data['item_count_total'] || items.length,
+      retention: data['retention'] || 'additive_archive',
+      archive_dir: data['archive_dir'],
+      archive_months: archive_months,
       sources: Array(data['sources']),
       source_health: data['source_health'] || {},
       items: items
     }
+  end
+
+  def write_news_archive_artifacts(news_payload)
+    months = Array(news_payload[:archive_months] || news_payload['archive_months'])
+    write_json('news_archive_months.json', months)
+
+    archived = load_news_archive_items
+    # Full newest-first preview for the /news/archive/ page (cap to keep builds bounded).
+    preview = archived.sort_by { |item| item[:date].to_s }.reverse.first(500)
+    write_json('news_archive_preview.json', preview)
+
+    months.each do |month|
+      key = month[:month] || month['month']
+      next if key.to_s.empty?
+
+      path = File.join('data/news/archive', "#{key}.json")
+      next unless File.exist?(path)
+
+      raw = JSON.parse(File.read(path))
+      payload = {
+        month: key,
+        item_count: raw['item_count'] || Array(raw['items']).length,
+        items: Array(raw['items']).map { |item| map_news_item(item) }
+      }
+      write_api_json(File.join('news', 'by-month', "#{key}.json"), payload)
+    rescue JSON::ParserError
+      next
+    end
   end
 
   def build_recently_updated(actors)

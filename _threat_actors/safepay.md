@@ -52,3 +52,8 @@ SafePay is a ransomware group particularly active in Germany, responsible for 24
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [CISA: SafePay ransomware hit over 600 critical infrastructure orgs](https://bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations)
+  BleepingComputer — 2026-10-21 — tags: ransomware
