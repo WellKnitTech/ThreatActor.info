@@ -5,7 +5,7 @@
 - Keep: **84**
 - Remove: **30**
 - After applying audit + canonical remaps: **84** assignments
-- Keep-set equality: missing=0 extra=0
+- Keep-set equality (after curated→YAML canonical names): missing=0 extra=0
 
 ## Removed assignments
 
@@ -55,7 +55,7 @@
 | Callisto | 2026-09-30 | DarkReading | `star blizzard` | Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net | borderline: Callisto catalog aliases include Star Blizzard (same cluster) |
 | Caramel Tsunami | 2026-10-15 | The Hacker News | `candiru` | Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads | Candiru is a catalog alias of Caramel Tsunami |
 | Caramel Tsunami | 2026-10-16 | BleepingComputer | `candiru` | Targeted ads installed Candiru spyware in zero-click attacks | Candiru is a catalog alias of Caramel Tsunami |
-| Clop | 2026-08-17 | BleepingComputer | `clop ransomware` | Philips and GE investigating Clop ransomware data theft claims | title names Clop ransomware |
+| Cl0p | 2026-08-17 | BleepingComputer | `clop ransomware` | Philips and GE investigating Clop ransomware data theft claims | title names Clop ransomware; stored as canonical YAML actor Cl0p |
 | Conti | 2026-09-11 | BleepingComputer | `conti ransomware` | Conti ransomware gang member sentenced to 4 years in prison | title/alias clearly refers to this threat actor |
 | Dark Caracal | 2026-08-26 | DarkReading | `dark caracal` | Dark Caracal Adds New Malware to Cyber Espionage Arsenal | title/alias clearly refers to this threat actor |
 | Deadeye Jackal | 2026-10-30 | The Record | `syrian electronic army` | Syrian Electronic Army hacker gets prison time for attacks on Western targets | title/alias clearly refers to this threat actor |
