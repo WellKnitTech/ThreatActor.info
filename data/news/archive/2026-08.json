@@ -26,11 +26,6 @@
       ],
       "actors": [
         {
-          "name": "Rhysida",
-          "url": "/rhysida",
-          "matched_alias": "rhysida"
-        },
-        {
           "name": "rhysida",
           "url": "/rhysida",
           "matched_alias": "rhysida"
@@ -50,11 +45,6 @@
       ],
       "actors": [
         {
-          "name": "Aurora",
-          "url": "/aurora",
-          "matched_alias": "aurora"
-        },
-        {
           "name": "Aurora Ransomware",
           "url": "/aurora-ransomware",
           "matched_alias": "aurora ransomware"
@@ -70,13 +60,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Spring",
-          "url": "/spring",
-          "matched_alias": "spring"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
@@ -120,13 +104,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Apocalypse",
-          "url": "/apocalypse",
-          "matched_alias": "apocalypse"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
@@ -499,13 +477,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Payload",
-          "url": "/payload",
-          "matched_alias": "payload"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Machine vs. machine: The new reality of cybersecurity in ANZ",
@@ -540,13 +512,7 @@
       "tags": [
         "breach"
       ],
-      "actors": [
-        {
-          "name": "Sanctions",
-          "url": "/sanctions",
-          "matched_alias": "sanctions"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "That fake Grand Theft Auto VI demo is actually just malware",
@@ -1053,13 +1019,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Bluesky",
-          "url": "/bluesky",
-          "matched_alias": "bluesky"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
@@ -1151,8 +1111,8 @@
       ],
       "actors": [
         {
-          "name": "Clop",
-          "url": "",
+          "name": "Cl0p",
+          "url": "/cl0p",
           "matched_alias": "clop ransomware"
         }
       ]
@@ -1190,13 +1150,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Defender",
-          "url": "/defender",
-          "matched_alias": "defender"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
@@ -1427,11 +1381,6 @@
       "tags": [],
       "actors": [
         {
-          "name": "Lazarus",
-          "url": "",
-          "matched_alias": "lazarus"
-        },
-        {
           "name": "Lazarus Group",
           "url": "/lazarus",
           "matched_alias": "lazarus"
@@ -1448,11 +1397,6 @@
       "cves": [],
       "tags": [],
       "actors": [
-        {
-          "name": "Lazarus",
-          "url": "",
-          "matched_alias": "lazarus"
-        },
         {
           "name": "Lazarus Group",
           "url": "/lazarus",
@@ -1493,13 +1437,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Defender",
-          "url": "/defender",
-          "matched_alias": "defender"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
@@ -1510,13 +1448,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Defender",
-          "url": "/defender",
-          "matched_alias": "defender"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",

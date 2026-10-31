@@ -168,8 +168,3 @@ VOID MANTICORE is a threat group assessed to operate on behalf of Iran’s Minis
 [4] [DOJ FBI Handala Hack March 2026](https://www.justice.gov/opa/media/1431956/dl?inline)
 [5] [Domain Tools Handala Hack Karma Homeland Justice MOIS April 2026](https://dti.domaintools.com/research/handala-mois-linked-cyber-influence-ecosystem-threat-intelligence-assessment)
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords](https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html)
-  The Hacker News — 2026-09-17

@@ -30,8 +30,3 @@ Ransomware Based on EDA2
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites](https://darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites)
-  DarkReading — 2026-09-08

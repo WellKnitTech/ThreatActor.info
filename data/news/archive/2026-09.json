@@ -299,13 +299,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "hermes",
-          "url": "/hermes",
-          "matched_alias": "hermes"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
@@ -443,13 +437,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Payload",
-          "url": "/payload",
-          "matched_alias": "payload"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
@@ -720,13 +708,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Defender",
-          "url": "/defender",
-          "matched_alias": "defender"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
@@ -748,13 +730,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Defender",
-          "url": "/defender",
-          "matched_alias": "defender"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
@@ -793,13 +769,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "APT41",
-          "url": "/apt41",
-          "matched_alias": "anonymous"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
@@ -980,11 +950,6 @@
           "name": "Transparent Tribe",
           "url": "/apt0134",
           "matched_alias": "transparent tribe"
-        },
-        {
-          "name": "Operation C-Major",
-          "url": "/operation-c-major",
-          "matched_alias": "transparent tribe"
         }
       ]
     },
@@ -1114,11 +1079,6 @@
           "name": "Handala",
           "url": "/handala",
           "matched_alias": "handala"
-        },
-        {
-          "name": "Void Manticore",
-          "url": "/void-manticore",
-          "matched_alias": "handala hack"
         }
       ]
     },
@@ -1367,11 +1327,6 @@
           "name": "Sandworm Team",
           "url": "/apt0034",
           "matched_alias": "sandworm"
-        },
-        {
-          "name": "cyclops",
-          "url": "/cyclops",
-          "matched_alias": "cyclops"
         }
       ]
     },
@@ -1678,18 +1633,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Nightmare",
-          "url": "/nightmare",
-          "matched_alias": "nightmare"
-        },
-        {
-          "name": "Eclipse",
-          "url": "/eclipse",
-          "matched_alias": "eclipse"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
@@ -1817,13 +1761,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Defender",
-          "url": "/defender",
-          "matched_alias": "defender"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
@@ -1834,13 +1772,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Defender",
-          "url": "/defender",
-          "matched_alias": "defender"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Google warns of new Chrome zero-day bug exploited in attacks",
@@ -1956,13 +1888,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Brazilian",
-          "url": "/brazilian",
-          "matched_alias": "brazilian"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
@@ -2260,13 +2186,7 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Falcon",
-          "url": "/falcon",
-          "matched_alias": "falcon"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",

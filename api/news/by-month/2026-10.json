@@ -743,11 +743,6 @@
       "tags": [],
       "actors": [
         {
-          "name": "Lazarus",
-          "url": "",
-          "matched_alias": "lazarus"
-        },
-        {
           "name": "Lazarus Group",
           "url": "/lazarus",
           "matched_alias": "lazarus"
@@ -1213,11 +1208,6 @@
       "cves": [],
       "tags": [],
       "actors": [
-        {
-          "name": "Lazarus",
-          "url": "",
-          "matched_alias": "lazarus"
-        },
         {
           "name": "Lazarus Group",
           "url": "/lazarus",
@@ -2041,13 +2031,7 @@
       "source": "Wired",
       "cves": [],
       "tags": [],
-      "actors": [
-        {
-          "name": "Nightmare",
-          "url": "/nightmare",
-          "matched_alias": "nightmare"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
@@ -2905,13 +2889,7 @@
       "tags": [
         "breach"
       ],
-      "actors": [
-        {
-          "name": "District",
-          "url": "/district",
-          "matched_alias": "district"
-        }
-      ]
+      "actors": []
     },
     {
       "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",

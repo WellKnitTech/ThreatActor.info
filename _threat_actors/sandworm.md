@@ -64,5 +64,7 @@ This threat actor targets industrial control systems, using a tool called Black 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- ['Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink](https://darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink)
+  DarkReading — 2026-09-14
 - [Sandworm hackers target IT pros with trojanized WireGuard VPN client](https://bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client)
   BleepingComputer — 2026-08-11

@@ -116,5 +116,3 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia](https://securelist.com/uefi-bootkit-blackx/121539)
   Securelist — 2026-10-22 — tags: apt
-- [WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session](https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html)
-  The Hacker News — 2026-09-22

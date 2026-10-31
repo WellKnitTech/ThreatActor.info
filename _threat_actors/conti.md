@@ -72,6 +72,7 @@ Conti is a Russian ransomware-as-a-service operation known for targeting healthc
 ## References
 *References pending cataloguing.*
 
+
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 

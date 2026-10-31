@@ -31,3 +31,8 @@ JADEPUFFER is an agentic threat actor that executed a fully autonomous ransomwar
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources](https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html)
+  The Hacker News — 2026-09-28

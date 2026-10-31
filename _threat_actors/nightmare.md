@@ -30,8 +30,3 @@ ransomware
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [‘Nightmare Scenario’: Zero-Click Spyware Is Infecting Phones via Targeted Ads](https://wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads)
-  Wired — 2026-10-15

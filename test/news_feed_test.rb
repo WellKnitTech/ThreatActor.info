@@ -17,7 +17,7 @@ class NewsFeedTest < Minitest::Test
       { 'name' => 'INC Ransom', 'url' => '/apt1032', 'aliases' => ['INC Ransom', 'Inc', 'Inc.', 'INC ransomware'] },
       { 'name' => 'LockBit', 'url' => '/lockbit', 'aliases' => ['LockBit', 'LockBit 3.0'] },
       { 'name' => 'APT28', 'url' => '/apt28', 'aliases' => ['APT28', 'Fancy Bear'] },
-      { 'name' => 'APT41', 'url' => '/apt41', 'aliases' => ['APT41'] },
+      { 'name' => 'APT41', 'url' => '/apt41', 'aliases' => ['APT41', 'Anonymous'] },
       { 'name' => 'Hive', 'url' => '/hive', 'aliases' => ['Hive'] },
       { 'name' => 'Play', 'url' => '/play', 'aliases' => ['Play'] },
       { 'name' => 'Silent', 'url' => '/silent', 'aliases' => ['Silent'] },
@@ -28,13 +28,41 @@ class NewsFeedTest < Minitest::Test
       { 'name' => 'Unknown', 'url' => '/unknown', 'aliases' => ['Unknown'] },
       { 'name' => 'Zimbra', 'url' => '/zimbra', 'aliases' => ['Zimbra'] },
       { 'name' => 'GhostAction', 'url' => '/ghostaction', 'aliases' => ['GhostAction'] },
-      { 'name' => 'ShinyHunters', 'url' => '/shinyhunters', 'aliases' => ['ShinyHunters'] }
+      { 'name' => 'ShinyHunters', 'url' => '/shinyhunters', 'aliases' => ['ShinyHunters'] },
+      { 'name' => 'Defender', 'url' => '/defender', 'aliases' => ['Defender'] },
+      { 'name' => 'Payload', 'url' => '/payload', 'aliases' => ['Payload'] },
+      { 'name' => 'Falcon', 'url' => '/falcon', 'aliases' => ['Falcon'] },
+      { 'name' => 'Bluesky', 'url' => '/bluesky', 'aliases' => ['Bluesky'] },
+      { 'name' => 'Brazilian', 'url' => '/brazilian', 'aliases' => ['Brazilian'] },
+      { 'name' => 'District', 'url' => '/district', 'aliases' => ['District'] },
+      { 'name' => 'Sanctions', 'url' => '/sanctions', 'aliases' => ['Sanctions'] },
+      { 'name' => 'Apocalypse', 'url' => '/apocalypse', 'aliases' => ['Apocalypse'] },
+      { 'name' => 'Spring', 'url' => '/spring', 'aliases' => ['Spring'] },
+      { 'name' => 'hermes', 'url' => '/hermes', 'aliases' => ['hermes'] },
+      { 'name' => 'cyclops', 'url' => '/cyclops', 'aliases' => ['cyclops'] },
+      { 'name' => 'Eclipse', 'url' => '/eclipse', 'aliases' => ['Eclipse'] },
+      { 'name' => 'Nightmare', 'url' => '/nightmare', 'aliases' => ['Nightmare'] },
+      { 'name' => 'Aurora', 'url' => '/aurora', 'aliases' => ['Aurora'] },
+      { 'name' => 'Aurora Ransomware', 'url' => '/aurora-ransomware', 'aliases' => ['Aurora Ransomware'] },
+      { 'name' => 'Lazarus Group', 'url' => '/lazarus', 'aliases' => ['Lazarus', 'Lazarus Group'] },
+      { 'name' => 'Cl0p', 'url' => '/cl0p', 'aliases' => ['Clop', 'Cl0p', 'CL0P'] },
+      { 'name' => 'rhysida', 'url' => '/rhysida', 'aliases' => ['Rhysida', 'rhysida'] },
+      { 'name' => 'Handala', 'url' => '/handala', 'aliases' => ['Handala'] },
+      { 'name' => 'Void Manticore', 'url' => '/void-manticore', 'aliases' => ['Void Manticore', 'Handala Hack'] },
+      { 'name' => 'Transparent Tribe', 'url' => '/transparent-tribe', 'aliases' => ['Transparent Tribe'] },
+      { 'name' => 'Operation C-Major', 'url' => '/operation-c-major', 'aliases' => ['Operation C-Major', 'Transparent Tribe'] },
+      { 'name' => 'Callisto', 'url' => '/callisto', 'aliases' => ['Callisto', 'Star Blizzard'] },
+      { 'name' => 'Star Blizzard', 'url' => '/star-blizzard', 'aliases' => ['Star Blizzard'] }
     ]
     @index = NewsFeed.build_keyword_index(@actors)
   end
 
   def test_short_aliases_are_not_indexed
-    %w[pl r cry sea inc hive play silent magic chaos homeland unknown].each do |keyword|
+    %w[
+      pl r cry sea inc hive play silent magic chaos homeland unknown
+      defender payload falcon bluesky brazilian district sanctions apocalypse
+      spring hermes cyclops eclipse nightmare aurora anonymous
+    ].each do |keyword|
       assert_nil @index[keyword], "expected #{keyword.inspect} to be omitted from the index"
     end
   end
@@ -118,6 +146,70 @@ class NewsFeedTest < Minitest::Test
 
     possessive = NewsFeed.match_actors("LockBit's ransomware affiliate leaks hospital data", @index).map { |m| m[:name] }
     assert_includes possessive, 'LockBit'
+  end
+
+  def test_archive_audit_false_positives_are_blocked
+    samples = {
+      "Microsoft working on Defender patch for ShieldBreak zero-day" => [],
+      'Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload' => [],
+      'Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon' => [],
+      'Bluesky says its recent outage was caused by another DDoS attack' => [],
+      'Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites' => [],
+      'Frontline Education breach exposes school district employee data' => [],
+      'U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches' => [],
+      'The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn' => [],
+      'Spring Ring: An Inside Look at Voice Phishing Campaigns in Microsoft Teams' => [],
+      'Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent' => [],
+      "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit" => [],
+      '‘Nightmare Scenario’: Zero-Click Spyware Is Infecting Phones via Targeted Ads' => [],
+      'WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session' => [],
+      'Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets' => ['Aurora Ransomware'],
+      'Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords' => ['Handala'],
+      'Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2' => ['Transparent Tribe']
+    }
+
+    samples.each do |title, expected|
+      names = NewsFeed.match_actors(title, @index).map { |m| m[:name] }.sort
+      assert_equal expected.sort, names, "unexpected matches for #{title.inspect}: #{names.inspect}"
+    end
+
+    cyclops_title = "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink"
+    cyclops_names = NewsFeed.match_actors(cyclops_title, @index).map { |m| m[:name] }
+    refute_includes cyclops_names, 'cyclops'
+    assert_includes cyclops_names, 'Sandworm'
+  end
+
+  def test_curated_names_resolve_to_yaml_canonical_actors
+    names = NewsFeed.match_actors('Lazarus hackers use post-quantum cryptography for malware delivery', @index).map { |m| m[:name] }
+    assert_includes names, 'Lazarus Group'
+    refute_includes names, 'Lazarus'
+
+    clop = NewsFeed.match_actors('Philips and GE investigating Clop ransomware data theft claims', @index).map { |m| m[:name] }
+    assert_includes clop, 'Cl0p'
+    refute_includes clop, 'Clop'
+
+    rhys = NewsFeed.match_actors('Berlin confirms data theft after Rhysida ransomware attack claims', @index).map { |m| m[:name] }
+    assert_includes rhys, 'rhysida'
+    refute_includes rhys, 'Rhysida'
+  end
+
+  def test_shared_exact_aliases_still_match_cluster_actors
+    names = NewsFeed.match_actors("Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net", @index).map { |m| m[:name] }
+    assert_includes names, 'Star Blizzard'
+    assert_includes names, 'Callisto'
+  end
+
+  def test_audit_keep_set_matches_rematched_archive_fixture
+    path = File.expand_path('../fixtures/news/assignment_audit_keep.json', __dir__)
+    skip 'audit keep fixture not present' unless File.exist?(path)
+
+    data = JSON.parse(File.read(path))
+    # Lightweight check: every keep title+actor still matches under current rules when
+    # the actor exists in the fixture index or is curated-resolved.
+    data.fetch('spot_checks').each do |row|
+      names = NewsFeed.match_actors(row['title'], @index).map { |m| m[:name] }
+      assert_includes names, row['actor'], "expected #{row['actor']} for #{row['title'].inspect}"
+    end
   end
 
   def test_word_boundaries_reject_substring_hits

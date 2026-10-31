@@ -114,6 +114,9 @@ module NewsFeed
     national international local modern digital virtual physical critical important
     standard advanced basic primary secondary major minor large small new old
     last best worst true false real open closed free paid soft hard
+    # Product / common-noun / nationality / metaphor collisions from archive audit:
+    defender payload falcon bluesky brazilian district sanctions apocalypse spring
+    hermes cyclops eclipse nightmare aurora anonymous
   ].freeze
 
   # Distinctive product/vendor/platform names that also appear as ransomware or actor
@@ -126,7 +129,7 @@ module NewsFeed
     elasticsearch elastic kibana splunk nginx apache mysql postgres mongodb redis
     docker kubernetes ubuntu windows linux android ios chrome firefox sophos crowdstrike
     fortinet juniper aruba akamai cloudflare qualys tenable nessus telegram discord
-    whatsapp signal dropbox box icloud office365
+    whatsapp signal dropbox box icloud office365 defender falcon bluesky
   ].freeze
 
   CODE_LIKE = /\A(?:apt|ta|fin|unc|apt-?)?\d{1,5}[a-z]?\z/i
@@ -337,20 +340,57 @@ module NewsFeed
     end
   end
 
-  def build_keyword_index(actors = load_actor_records)
-    # keyword -> [{name:, url:, alias:, context_required:}, ...]
-    index = Hash.new { |h, k| h[k] = [] }
+  # Map curated labels (e.g. Lazarus, Clop, Rhysida) onto canonical YAML actor names.
+  def resolve_actor_record(name, actors)
+    exact = actors.find { |actor| actor['name'].casecmp?(name) }
+    return exact if exact
 
-    CURATED_KEYWORDS.each do |actor_name, words|
-      url = actors.find { |a| a['name'].casecmp?(actor_name) }&.dig('url').to_s
+    hits = actors.select do |actor|
+      Array(actor['aliases']).any? { |alias_name| alias_name.casecmp?(name) }
+    end
+    return nil if hits.empty?
+
+    # Prefer longer canonical names (Lazarus Group over short collisions).
+    hits.max_by { |actor| [actor['name'].length, actor['name']] }
+  end
+
+  def operation_style_actor?(actor_name)
+    actor_name.to_s.match?(/\AOperation\b/i)
+  end
+
+  def alias_requires_own_primary?(alias_kw, actor_name, primary_names)
+    return true if operation_style_actor?(actor_name)
+
+    own = normalize_keyword(actor_name)
+    primary_names.any? do |other|
+      next false if other == own
+      next false if other.length < 5
+      # Exact shared aliases (Star Blizzard on Callisto) are intentional cluster links.
+      next false if alias_kw == other
+
+      # Proper containment: "handala hack" contains primary "handala".
+      alias_kw.match?(/(?<![[:alnum:]])#{Regexp.escape(other)}(?![[:alnum:]])/)
+    end
+  end
+
+  def build_keyword_index(actors = load_actor_records)
+    # keyword -> [{name:, url:, alias:, context_required:, require_primary:}, ...]
+    index = Hash.new { |h, k| h[k] = [] }
+    primary_names = actors.map { |actor| normalize_keyword(actor['name']) }.to_set
+
+    CURATED_KEYWORDS.each do |curated_name, words|
+      resolved = resolve_actor_record(curated_name, actors)
+      canonical_name = resolved ? resolved['name'] : curated_name
+      url = resolved ? resolved['url'].to_s : ''
       words.each do |word|
         next unless usable_alias?(word, curated: true)
 
         index[normalize_keyword(word)] << {
-          name: actor_name,
+          name: canonical_name,
           url: url,
           alias: normalize_keyword(word),
-          context_required: false
+          context_required: false,
+          require_primary: operation_style_actor?(canonical_name)
         }
       end
     end
@@ -365,7 +405,8 @@ module NewsFeed
           name: actor['name'],
           url: actor['url'],
           alias: kw,
-          context_required: context_required_alias?(raw, curated: false) || product_vendor_alias?(kw)
+          context_required: context_required_alias?(raw, curated: false) || product_vendor_alias?(kw),
+          require_primary: alias_requires_own_primary?(kw, actor['name'], primary_names)
         }
       end
     end
@@ -404,15 +445,24 @@ module NewsFeed
     tokens = text.downcase.scan(/[a-z0-9]+(?:[.'\-][a-z0-9]+)*/)
     tokens.concat(text.downcase.scan(/[a-z0-9]+/))
     tokens.uniq!
+    accept = lambda do |entry, alias_key|
+      if entry[:context_required] || entry['context_required']
+        return false unless actor_context_match?(text, alias_key)
+      end
+      if entry[:require_primary] || entry['require_primary']
+        primary = entry[:name] || entry['name']
+        return false unless text_match?(text, primary)
+      end
+      true
+    end
+
     tokens.each do |tok|
       Array(single[tok]).each do |entry|
         alias_key = entry[:alias] || entry['alias'] || tok
         # Re-check boundaries so "apt28" inside a longer alnum run cannot hit.
         next unless text_match?(text, alias_key)
+        next unless accept.call(entry, alias_key)
 
-        if entry[:context_required] || entry['context_required']
-          next unless actor_context_match?(text, alias_key)
-        end
         key = entry[:name] || entry['name']
         matched[key] ||= entry
       end
@@ -422,9 +472,8 @@ module NewsFeed
       next unless pattern.match?(text)
 
       entries.each do |entry|
-        if entry[:context_required] || entry['context_required']
-          next unless actor_context_match?(text, keyword)
-        end
+        next unless accept.call(entry, keyword)
+
         key = entry[:name] || entry['name']
         matched[key] ||= entry
       end
