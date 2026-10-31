@@ -690,7 +690,13 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": []
+      "actors": [
+        {
+          "name": "ShinyHunters",
+          "url": "/shinyhunters",
+          "matched_alias": "shinyhunters"
+        }
+      ]
     },
     {
       "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
@@ -1984,7 +1990,13 @@
       "tags": [
         "apt"
       ],
-      "actors": []
+      "actors": [
+        {
+          "name": "APT29",
+          "url": "/apt29",
+          "matched_alias": "apt29"
+        }
+      ]
     },
     {
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",

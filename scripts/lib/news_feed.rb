@@ -398,11 +398,20 @@ module NewsFeed
         partition_keyword_index(keyword_index)
       end
 
-    tokens = text.downcase.scan(/[a-z0-9][a-z0-9'+.\-]*/)
+    # Token candidates must preserve the old word-boundary semantics:
+    # "APT28-Linked" and "LockBit's" still expose apt28 / lockbit, while
+    # hyphenated aliases like "storm-0940" remain lookup keys too.
+    tokens = text.downcase.scan(/[a-z0-9]+(?:[.'\-][a-z0-9]+)*/)
+    tokens.concat(text.downcase.scan(/[a-z0-9]+/))
+    tokens.uniq!
     tokens.each do |tok|
       Array(single[tok]).each do |entry|
+        alias_key = entry[:alias] || entry['alias'] || tok
+        # Re-check boundaries so "apt28" inside a longer alnum run cannot hit.
+        next unless text_match?(text, alias_key)
+
         if entry[:context_required] || entry['context_required']
-          next unless actor_context_match?(text, tok)
+          next unless actor_context_match?(text, alias_key)
         end
         key = entry[:name] || entry['name']
         matched[key] ||= entry

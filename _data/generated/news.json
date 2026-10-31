@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T14:30:21Z",
+  "updated": "2026-10-31T14:37:48Z",
   "window_days": 14,
   "display_items": 100,
   "item_count": 100,
@@ -802,7 +802,13 @@
       "source": "The Hacker News",
       "cves": [],
       "tags": [],
-      "actors": []
+      "actors": [
+        {
+          "name": "ShinyHunters",
+          "url": "/shinyhunters",
+          "matched_alias": "shinyhunters"
+        }
+      ]
     },
     {
       "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",

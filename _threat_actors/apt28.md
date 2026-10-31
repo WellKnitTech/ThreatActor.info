@@ -393,3 +393,5 @@ APT28 is a threat group that has been attributed to Russia's General Staff Main 
 
 - [Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader](https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html)
   The Hacker News — 2026-10-20 — tags: apt, breach
+- [APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations](https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html)
+  The Hacker News — 2026-08-28 — tags: apt

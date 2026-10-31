@@ -630,7 +630,13 @@
     "source": "The Hacker News",
     "cves": [],
     "tags": [],
-    "actors": []
+    "actors": [
+      {
+        "name": "ShinyHunters",
+        "url": "/shinyhunters",
+        "matched_alias": "shinyhunters"
+      }
+    ]
   },
   {
     "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
@@ -1820,7 +1826,13 @@
     "tags": [
       "apt"
     ],
-    "actors": []
+    "actors": [
+      {
+        "name": "APT29",
+        "url": "/apt29",
+        "matched_alias": "apt29"
+      }
+    ]
   },
   {
     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
@@ -3349,7 +3361,13 @@
     "source": "The Hacker News",
     "cves": [],
     "tags": [],
-    "actors": []
+    "actors": [
+      {
+        "name": "JadePuffer",
+        "url": "/jadepuffer",
+        "matched_alias": "jadepuffer"
+      }
+    ]
   },
   {
     "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
@@ -4305,6 +4323,16 @@
     "tags": [],
     "actors": [
       {
+        "name": "Sandworm",
+        "url": "/sandworm",
+        "matched_alias": "sandworm"
+      },
+      {
+        "name": "Sandworm Team",
+        "url": "/apt0034",
+        "matched_alias": "sandworm"
+      },
+      {
         "name": "cyclops",
         "url": "/cyclops",
         "matched_alias": "cyclops"
@@ -4589,7 +4617,18 @@
     "source": "DarkReading",
     "cves": [],
     "tags": [],
-    "actors": []
+    "actors": [
+      {
+        "name": "Nightmare",
+        "url": "/nightmare",
+        "matched_alias": "nightmare"
+      },
+      {
+        "name": "Eclipse",
+        "url": "/eclipse",
+        "matched_alias": "eclipse"
+      }
+    ]
   },
   {
     "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
@@ -5270,7 +5309,13 @@
     "source": "The Hacker News",
     "cves": [],
     "tags": [],
-    "actors": []
+    "actors": [
+      {
+        "name": "SALTY SPIDER",
+        "url": "/salty-spider",
+        "matched_alias": "sality"
+      }
+    ]
   },
   {
     "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
@@ -5607,7 +5652,13 @@
     "tags": [
       "apt"
     ],
-    "actors": []
+    "actors": [
+      {
+        "name": "APT28",
+        "url": "/apt28",
+        "matched_alias": "apt28"
+      }
+    ]
   },
   {
     "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",

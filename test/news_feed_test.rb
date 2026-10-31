@@ -102,6 +102,24 @@ class NewsFeedTest < Minitest::Test
     assert_includes shiny, 'ShinyHunters'
   end
 
+  def test_tokenizer_preserves_punctuation_boundaries
+    # Hyphen / possessive must not swallow the actor token during the fast path.
+    apt = NewsFeed.match_actors(
+      'APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations',
+      @index
+    ).map { |m| m[:name] }
+    assert_includes apt, 'APT28'
+
+    shiny = NewsFeed.match_actors(
+      'ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws',
+      @index
+    ).map { |m| m[:name] }
+    assert_includes shiny, 'ShinyHunters'
+
+    possessive = NewsFeed.match_actors("LockBit's ransomware affiliate leaks hospital data", @index).map { |m| m[:name] }
+    assert_includes possessive, 'LockBit'
+  end
+
   def test_word_boundaries_reject_substring_hits
     refute NewsFeed.text_match?('incident response playbook', 'inc')
     refute NewsFeed.text_match?('crypto miners deployed', 'cry')

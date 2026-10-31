@@ -316,7 +316,13 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": []
+      "actors": [
+        {
+          "name": "JadePuffer",
+          "url": "/jadepuffer",
+          "matched_alias": "jadepuffer"
+        }
+      ]
     },
     {
       "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
@@ -1353,6 +1359,16 @@
       "tags": [],
       "actors": [
         {
+          "name": "Sandworm",
+          "url": "/sandworm",
+          "matched_alias": "sandworm"
+        },
+        {
+          "name": "Sandworm Team",
+          "url": "/apt0034",
+          "matched_alias": "sandworm"
+        },
+        {
           "name": "cyclops",
           "url": "/cyclops",
           "matched_alias": "cyclops"
@@ -1662,7 +1678,18 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": []
+      "actors": [
+        {
+          "name": "Nightmare",
+          "url": "/nightmare",
+          "matched_alias": "nightmare"
+        },
+        {
+          "name": "Eclipse",
+          "url": "/eclipse",
+          "matched_alias": "eclipse"
+        }
+      ]
     },
     {
       "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
@@ -2404,7 +2431,13 @@
       "weight": 1,
       "cves": [],
       "tags": [],
-      "actors": []
+      "actors": [
+        {
+          "name": "SALTY SPIDER",
+          "url": "/salty-spider",
+          "matched_alias": "sality"
+        }
+      ]
     },
     {
       "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
