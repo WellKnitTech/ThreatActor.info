@@ -30,9 +30,3 @@ Ransomware mpritsken@priest.com
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [How CVE-2026-73570 turns a Zimbra log file into remote code execution](https://elastic.co/security-labs/threat-command/command-injection-zimbra-cve-2026-73570)
-  Elastic Security — 2026-10-23 — CVE-2026-73570 — tags: cve
-

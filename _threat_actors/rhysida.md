@@ -44,3 +44,8 @@ Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The 
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Berlin confirms data theft after Rhysida ransomware attack claims](https://bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims)
+  BleepingComputer — 2026-08-31 — tags: ransomware

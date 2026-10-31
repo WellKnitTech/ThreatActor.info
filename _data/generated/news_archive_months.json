@@ -1,0 +1,20 @@
+[
+  {
+    "month": "2026-08",
+    "item_count": 129,
+    "path": "data/news/archive/2026-08.json",
+    "api_path": "/api/news/by-month/2026-08.json"
+  },
+  {
+    "month": "2026-09",
+    "item_count": 199,
+    "path": "data/news/archive/2026-09.json",
+    "api_path": "/api/news/by-month/2026-09.json"
+  },
+  {
+    "month": "2026-10",
+    "item_count": 268,
+    "path": "data/news/archive/2026-10.json",
+    "api_path": "/api/news/by-month/2026-10.json"
+  }
+]

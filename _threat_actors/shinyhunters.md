@@ -274,6 +274,21 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
+  The Hacker News — 2026-10-28
 - [Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site](https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site)
   KrebsOnSecurity — 2026-10-19 — tags: breach
+- [Cyber exec arrested in case allegedly tied to ShinyHunters hackers](https://bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers)
+  BleepingComputer — 2026-10-10
+- [FBI arrests another suspected ShinyHunters hacker after agency breach](https://bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach)
+  BleepingComputer — 2026-10-09 — tags: breach
+- [FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach](https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html)
+  The Hacker News — 2026-10-06 — tags: breach
+- [ShinyHunters hacker reportedly detained in Jordan, aiding FBI](https://bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi)
+  BleepingComputer — 2026-10-03
+- [Dutch police arrest ShinyHunters hacker accused of planning two murders](https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders)
+  TechCrunch — 2026-09-29
+- [Dutch police confirm arrest in ShinyHunters hacking investigation](https://bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation)
+  BleepingComputer — 2026-09-28
 
+*17 matched articles total. [Browse all security news](/news/archive/).* 
