@@ -54,3 +54,9 @@ The Syrian Electronic Army (SEA) is a group of computer hackers which first surf
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Syrian Electronic Army hacker gets prison time for attacks on Western targets](https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years)
+  The Record — 2026-10-30
+

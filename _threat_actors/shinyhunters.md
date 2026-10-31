@@ -274,6 +274,6 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
-- [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
-  The Hacker News — 2026-10-28
+- [Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site](https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site)
+  KrebsOnSecurity — 2026-10-19 — tags: breach
 

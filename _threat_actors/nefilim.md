@@ -34,9 +34,3 @@ According to Vitali Kremez and Michael Gillespie, this ransomware shares much co
 ## References
 *References pending cataloguing.*
 
-## Recent News
-*Latest articles from security news feeds mentioning this actor.*
-
-- [Nefilim and Hive ransomware affiliate gets 70 months in prison](https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/)
-  BleepingComputer — 2026-10-28 — tags: ransomware
-
