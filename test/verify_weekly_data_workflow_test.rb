@@ -96,14 +96,17 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
     validate = File.read(File.expand_path('../.github/workflows/validate.yml', __dir__))
     weekly = File.read(WORKFLOW)
 
-    assert_match(/Waiting for pull request checks to register/, pipeline)
+    assert_match(/Waiting for Content Validation jobs to register/, pipeline)
+    assert_match(/validate\.yml/, pipeline)
+    assert_match(/jobCount/, pipeline)
     assert_match(/gh\s+pr\s+checks/, pipeline)
-    assert_operator pipeline.index('Waiting for pull request checks to register'),
+    assert_operator pipeline.index('Waiting for Content Validation jobs to register'),
                     :<,
                     pipeline.index('gh pr merge "$branch" --auto --squash --delete-branch')
     assert_match(/gh\s+workflow\s+run\s+\"Deploy GitHub Pages\"\s+--ref\s+main/, pipeline)
     assert_match(/gh\s+workflow\s+run\s+\"Content Validation\"\s+--ref\s+main/, pipeline)
     assert_match(/github-actions\[bot\]/, pipeline)
+    assert_match(%r{app/github-actions}, pipeline)
     assert_match(/mergedBy\.login/, pipeline)
     assert_match(/GITHUB_TOKEN merges skip push triggers|do not create repository_dispatch\/push events/i, pipeline)
     assert_match(/actions:\s*write/, weekly)
@@ -115,7 +118,9 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
   def test_open_pr_step_without_check_wait_or_post_merge_dispatch_is_rejected
     pipeline = File.read(PIPELINE)
     stripped = pipeline
-      .gsub(/Waiting for pull request checks to register/, 'Skipping check wait')
+      .gsub(/Waiting for Content Validation jobs to register/, 'Skipping check wait')
+      .gsub(/validate\.yml/, 'other.yml')
+      .gsub(/jobCount/, 'job_total')
       .gsub(/gh workflow run "Deploy GitHub Pages" --ref main/, 'echo skip-pages')
       .gsub(/gh workflow run "Content Validation" --ref main/, 'echo skip-validate')
     refute_equal pipeline, stripped, 'expected to remove check-wait / dispatch markers'
@@ -128,7 +133,7 @@ class VerifyWeeklyDataWorkflowTest < Minitest::Test
       end
 
       refute status.success?, stderr
-      assert_match(/wait for PR checks|dispatch Pages|dispatch Content Validation/i, stderr)
+      assert_match(/Content Validation jobs|dispatch Pages|dispatch Content Validation/i, stderr)
     end
   end
 
