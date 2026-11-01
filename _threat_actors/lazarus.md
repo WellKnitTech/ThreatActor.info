@@ -283,3 +283,4 @@ Lazarus Group is a North Korean state-sponsored cyber threat group attributed to
   The Hacker News — 2026-08-12
 - [Lazarus hackers exploited Windows zero-day to target defense firms](https://bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms)
   BleepingComputer — 2026-08-12
+

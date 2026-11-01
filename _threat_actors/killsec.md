@@ -42,3 +42,4 @@ Killsec is an active extortion or ransomware group tracked by RansomLook.
   The Hacker News — 2026-10-01 — tags: ransomware
 - [Police dismantle KillSec ransomware gang allegedly led by 16-year-old](https://bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old)
   BleepingComputer — 2026-10-01 — tags: ransomware
+

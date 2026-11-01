@@ -13,8 +13,14 @@
   },
   {
     "month": "2026-10",
-    "item_count": 268,
+    "item_count": 274,
     "path": "data/news/archive/2026-10.json",
     "api_path": "/api/news/by-month/2026-10.json"
+  },
+  {
+    "month": "2026-11",
+    "item_count": 2,
+    "path": "data/news/archive/2026-11.json",
+    "api_path": "/api/news/by-month/2026-11.json"
   }
 ]
