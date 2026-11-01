@@ -18,7 +18,7 @@ sector_focus:
 - Government
 first_seen: '2022'
 last_activity: '2025'
-last_updated: '2026-10-27'
+last_updated: '2026-11-01'
 risk_level: High
 source_name: APT Groups & Operations Spreadsheet
 source_attribution: Manually curated from open source intelligence
@@ -33,7 +33,7 @@ provenance:
     source_links:
     - https://therecord.media/researchers-infiltrate-qilin-ransomware
     - https://www.group-ib.com/blog/qilin-ransomware/
-    source_retrieved_at: '2026-10-27T20:41:51Z'
+    source_retrieved_at: '2026-11-01T09:59:39Z'
     tab_name: unknown
   ransomware_tool_matrix:
     community_reports:
@@ -103,7 +103,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Qilin / Qilin Ransomware
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-10-27T20:40:32Z'
+    source_retrieved_at: '2026-11-01T09:58:24Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -228,7 +228,7 @@ provenance:
     - Vulnerabilities/NetworkEdge.md
     source_label: Qilin
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-10-27T20:40:36Z'
+    source_retrieved_at: '2026-11-01T09:58:28Z'
     vulnerabilities_by_category:
       Applications:
       - vendor: Apache
@@ -410,7 +410,7 @@ provenance:
         source_file: Vulnerabilities/NetworkEdge.md
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: qilin
-  source_retrieved_at: '2026-10-27T20:35:36Z'
+  source_retrieved_at: '2026-11-01T09:55:50Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -419,5 +419,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-10-27T20:41:10Z'
+    source_retrieved_at: '2026-11-01T09:58:57Z'
     source_record_id: Spikey Scorpius

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:02:39Z",
+  "generated_at": "2026-11-01T10:00:19Z",
   "actors": [
     {
       "kind": "actor",
@@ -7061,6 +7061,19 @@
       "name": "Audit Team",
       "permalink": "/audit-team/",
       "description": "Audit Team is an active extortion or ransomware group tracked by RansomLook.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Aur0ra",
+      "permalink": "/aur0ra/",
+      "description": "Ransomware operated by the GOLD OGRE cybercriminal group, reported by Sophos, with Windows and Linux (ESXi-compatible) binaries. Gambit Security and CloudSEK described the operation in late August 2026 from an exposed open directory (172.86.113[.]245) holding the toolkit, shell hi",
       "country": null,
       "attck_techniques": [
 
@@ -14731,6 +14744,19 @@
     },
     {
       "kind": "actor",
+      "name": "CyberCartel",
+      "permalink": "/cybercartel/",
+      "description": "CyberCartel is a Latin American e-crime group employing a multi-agent system called CARLIY0S to coordinate attacks against financial institutions and payment providers. The group's operations utilize AI models for deep reconnaissance, zero-day vulnerability analysis, exploit code ",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "CyberDrill2",
       "permalink": "/cyberdrill2/",
       "description": "Ransomware",
@@ -15316,6 +15342,19 @@
     },
     {
       "kind": "actor",
+      "name": "DarkBlinders",
+      "permalink": "/darkblinders/",
+      "description": "DarkBlinders hackers are deploying a fake video meeting application to establish a backdoor and facilitate cyberespionage against Israel and the Kurdistan Region of Iraq. Their operations have led to compromises within a government cloud environment in Kurdistan and targeting a si",
+      "country": "Iran",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "DarkCasino",
       "permalink": "/darkcasino/",
       "description": "DarkCasino is an economically motivated APT group that targets online trading platforms, including cryptocurrencies, online casinos, network banks, and online credit platforms. They are skilled at stealing passwords to access victims' online accounts and have been active for over ",
@@ -15579,6 +15618,19 @@
       "name": "Dataleak",
       "permalink": "/dataleak/",
       "description": "Dataleak is an active extortion or ransomware group tracked by RansomLook.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "DataSuckers",
+      "permalink": "/datasuckers/",
+      "description": "DataSuckers is a financially motivated hacking group linked to major data breaches affecting businesses in Russia and Ukraine, with claims of having stolen 2-3 TB of data from approximately 68 million customers. The group has demonstrated TTPs such as customer data theft, extortio",
       "country": null,
       "attck_techniques": [
 
@@ -18047,6 +18099,19 @@
     },
     {
       "kind": "actor",
+      "name": "Earth Sirrush",
+      "permalink": "/earth-sirrush/",
+      "description": "Earth Sirrush has conducted sustained spear-phishing campaigns against Ukrainian governmental and defense entities, deploying PowerShell and Go-based tools such as LONEPAGE and SEAGLOW, delivered via malicious archives and exploiting CVE-2023-38831. Their operations transitioned t",
+      "country": "Russia",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Earth Wendigo",
       "permalink": "/earth-wendigo/",
       "description": "Earth Wendigo is a threat actor from China that has been targeting several organizations — including government organizations, research institutions, and universities in Taiwan — since May 2019, aiming to exfiltrate emails from targeted organizations via the injection of JavaScrip",
@@ -19181,6 +19246,19 @@
       "name": "Everest",
       "permalink": "/everest/",
       "description": "Everest is a ransomware group active since at least December 2020, known for its double-extortion tactics. The group initially operated as a typical ransomware outfit, encrypting files with strong cryptography and appending victim-specific extensions, but later shifted toward pure",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Everstake",
+      "permalink": "/everstake/",
+      "description": "Everstake is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -22283,6 +22361,19 @@
       "name": "GOLD NORTHFIELD",
       "permalink": "/gold-northfield/",
       "description": "Operational since at least October 2020, GOLD NORTHFIELD is a financially motivated cybercriminal threat group that leverages GOLD SOUTHFIELD's REvil ransomware in their attacks. To do this, the threat actors replace the configuration of the REvil ransomware binary with their own ",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "GOLD OGRE",
+      "permalink": "/gold-ogre/",
+      "description": "Cybercriminal group tracked by the Sophos Counter Threat Unit (CTU) that operates the Aur0ra ransomware (also known as Aurora ransomware). Sophos reports that the group used AI extensively: it tested the evasion capabilities of tools and techniques against several EDR products in ",
       "country": null,
       "attck_techniques": [
 
@@ -43208,6 +43299,19 @@
     },
     {
       "kind": "actor",
+      "name": "STAC4749",
+      "permalink": "/stac4749/",
+      "description": "STAC4749 is a financially motivated activity cluster reported by Sophos in July 2026, observed between February and June 2026 against dozens of organizations, nearly 95% of them in Canada and the U.S. Operators contact victims through Microsoft Teams chats and calls impersonating ",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "STAC5143",
       "permalink": "/stac5143/",
       "description": "STAC5143 is a threat actor group tracked by Sophos, notable for its sophisticated use of Microsoft Office 365's legitimate services to conduct ransomware and data extortion campaigns. Unlike FIN7, which typically targets larger organizations through phishing and malicious Google A",
@@ -47404,6 +47508,19 @@
     },
     {
       "kind": "actor",
+      "name": "UAT-10147",
+      "permalink": "/uat-10147/",
+      "description": "UAT-10147 is a Chinese-speaking, financially motivated threat actor targeting internet-facing Windows and Linux servers through the exploitation of publicly disclosed vulnerabilities. The group employs advanced techniques including AI-assisted workflows, deploying malware such as ",
+      "country": "China",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "UAT-10362",
       "permalink": "/uat-10362/",
       "description": "UAT-10362 is a threat actor identified by Cisco Talos, conducting spear-phishing campaigns targeting Taiwanese NGOs and suspected universities to deploy the malware \"LucidRook.\" The malware features a multi-language modular design, layered anti-analysis capabilities, and stealth-f",
@@ -47420,6 +47537,19 @@
       "name": "UAT-10608",
       "permalink": "/uat-10608/",
       "description": "UAT-10608 is a threat cluster observed by Cisco Talos conducting a large-scale, automated credential-harvesting campaign against public-facing web applications, especially Next.js deployments, using a custom framework called NEXUS Listener to extract and exfiltrate secrets such as",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "UAT-11473",
+      "permalink": "/uat-11473/",
+      "description": "Highly sophisticated APT reported and named by Cisco Talos that exploited CVE-2026-20127, an authentication bypass in Cisco SD-WAN Catalyst Controller, to gain unauthorized access and install the custom KeyDrift malware framework (PolyFlame, LittleFilch), designed for long-term pe",
       "country": null,
       "attck_techniques": [
 
@@ -47459,6 +47589,19 @@
       "name": "UAT-5918",
       "permalink": "/uat-5918/",
       "description": "UAT-5918 is an APT group that targets entities in Taiwan, primarily in telecommunications, healthcare, and IT sectors, to establish long-term access for information theft. They exploit N-day vulnerabilities in unpatched web and application servers to gain initial access and utiliz",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "UAT-6275",
+      "permalink": "/uat-6275/",
+      "description": "UAT-6275 is a cyberespionage actor targeting government organizations across Central Asia and the CIS, with a focus on diplomacy, economic development, and environmental management. The group employs custom RATs like Chvost, Laplas, and PickleShell, leveraging methods such as WinR",
       "country": null,
       "attck_techniques": [
 
@@ -51662,6 +51805,19 @@
       "name": "XTPLocker 5.0 Ransomware",
       "permalink": "/xtplocker-5-0-ransomware/",
       "description": "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including mus",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Xuanye Group",
+      "permalink": "/xuanye-group/",
+      "description": "Xuanye Group is implicated in a breach at ASOS, utilizing social engineering to impersonate a trusted contact and obtain login credentials. They claimed responsibility for the attack, asserting the theft of customer data while clarifying that financial information was not compromi",
       "country": null,
       "attck_techniques": [
 

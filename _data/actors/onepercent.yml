@@ -2,7 +2,7 @@ name: "Onepercent"
 aliases: ["Onepercent"]
 description: "Onepercent is an active extortion or ransomware group tracked by RansomLook."
 url: "/onepercent"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/onepercent"
@@ -21,12 +21,12 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/Exfiltration.md","Tools/Offsec.md"]
     source_label: "OnePercent / OnePercent*"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:32Z"
+    source_retrieved_at: "2026-11-01T09:58:24Z"
     tools_by_category:
       Credential Theft: ["BetterSafetyKatz","Mimikatz","SharpKatz"]
       Exfiltration: ["RClone"]
       OffSec: ["Cobalt Strike","SharpSploit"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "onepercent"
-  source_retrieved_at: "2026-10-27T20:36:30Z"
+  source_retrieved_at: "2026-11-01T09:52:26Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

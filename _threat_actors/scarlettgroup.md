@@ -22,7 +22,10 @@ Scarlettgroup is an active extortion or ransomware group tracked by RansomLook.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **CyberGate**: 
+- **Dark DDoSeR**: 
+- **Cyber Eye RAT**: 
+- **Windows Remote Desktop**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

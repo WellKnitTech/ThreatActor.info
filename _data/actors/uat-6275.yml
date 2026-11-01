@@ -1,0 +1,29 @@
+name: "UAT-6275"
+aliases: ["UAT-6275"]
+description: "UAT-6275 is a cyberespionage actor targeting government organizations across Central Asia and the CIS, with a focus on diplomacy, economic development, and environmental management. The group employs custom RATs like Chvost, Laplas, and PickleShell, leveraging methods such as WinRAR exploits and malicious documents for payload delivery. Evidence indicates UAT-6275 has a Kazakhstan nexus, supported by Russian-language artifacts and specific operational hours. Its activity includes the creation of publicly accessible malware staging directories and interest in expanding to additional platforms, including Linux."
+url: "/uat-6275"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uat-6275"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "uat-6275"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uat-6275"
+    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_uuid: "9d0e4a28-8765-45c5-9cf8-18c5d11235b0"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9d0e4a28-8765-45c5-9cf8-18c5d11235b0"
+    source_record_ids: ["9d0e4a28-8765-45c5-9cf8-18c5d11235b0"]
+    source_retrieved_at: "2026-11-01T09:59:24Z"

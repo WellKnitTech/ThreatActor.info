@@ -2,7 +2,7 @@ name: "Darkside"
 aliases: ["BlackMatter","Darkside"]
 description: "Darkside, the latest ransomware operation to emerge has been attacking organizations beginning earlier this month. Darkside’s customized attacks on companies have already garnered them million-dollar payouts.\nThrough their “press release”, these threat actors have claimed to be affiliated with prior ransomware operations making millions of dollars. They stated that they created this new product to match their needs, as prior products didn’t.\n Darkside explains that they only target companies they know that can pay the specified ransom. They have allegedly promised that they will not attack the following sectors. They include medicine, education, non-profit organizations, and the government sector."
 url: "/darkside"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/darkside"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "f514a46e-53ff-4f07-b75a-aed289cf221f"
     source_record_ids: ["f514a46e-53ff-4f07-b75a-aed289cf221f"]
-    source_retrieved_at: "2026-10-27T20:41:36Z"
+    source_retrieved_at: "2026-11-01T09:59:24Z"
   ransomware_tool_matrix:
     references:
       - title: "news.sophos.com"
@@ -38,7 +38,7 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "BlackMatter / DarkSide / Darkside"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:32Z"
+    source_retrieved_at: "2026-11-01T09:58:24Z"
     tools_by_category:
       Credential Theft: ["Mimikatz","SessionGopher"]
       Discovery: ["ADRecon","AdFind","Advanced IP Scanner","SoftPerfect NetScan"]
@@ -57,7 +57,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "DarkSide"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:36Z"
+    source_retrieved_at: "2026-11-01T09:58:28Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "Palo Alto Networks"
@@ -71,8 +71,8 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/DarkSide/DarkSide_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T20:41:59Z"
+    source_retrieved_at: "2026-11-01T09:59:46Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "darkside"
-  source_retrieved_at: "2026-10-27T20:38:41Z"
+  source_retrieved_at: "2026-11-01T09:55:35Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

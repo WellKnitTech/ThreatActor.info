@@ -1,0 +1,22 @@
+name: "Aur0ra"
+aliases: ["Aur0ra"]
+description: "Ransomware operated by the GOLD OGRE cybercriminal group, reported by Sophos, with Windows and Linux (ESXi-compatible) binaries. Gambit Security and CloudSEK described the operation in late August 2026 from an exposed open directory (172.86.113[.]245) holding the toolkit, shell history and Cursor chat logs; Sophos links it to an AI-assisted EDR evasion testing framework and reports AI agents (Cursor Composer, Anthropic, xAI and Moonshot models) driving Active Directory discovery, credential attacks and lateral movement before data theft to S3-compatible storage and ransomware deployment, with Cobalt Strike C2 and victims named on a data leak site. Naming: Sophos notes it is also known as Aurora ransomware. It is unrelated to misp-galaxy:ransomware=\"Aurora Ransomware\", the 2018 family appending .aurora or .animus to encrypted files; the leak-site entry misp-galaxy:ransomware=\"aurora\" (ransomlook) may correspond to this operation, but the sources read do not confirm it."
+url: "/aur0ra"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+malware:
+  - name: "CloudDuke"
+  - name: "Agent.btz"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Windows Remote Desktop"
+  - name: "Cobalt Strike"
+provenance:
+  misp_galaxy:
+    meta_keys: ["date","refs"]
+    source_cluster: "ransomware.json"
+    source_clusters: ["ransomware.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
+    source_record_id: "1faca9ba-fb54-4bfe-8743-c10837dd4b67"
+    source_record_ids: ["1faca9ba-fb54-4bfe-8743-c10837dd4b67"]
+    source_retrieved_at: "2026-11-01T09:59:24Z"

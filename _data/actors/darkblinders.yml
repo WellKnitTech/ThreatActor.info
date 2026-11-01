@@ -1,0 +1,30 @@
+name: "DarkBlinders"
+aliases: ["DarkBlinders"]
+description: "DarkBlinders hackers are deploying a fake video meeting application to establish a backdoor and facilitate cyberespionage against Israel and the Kurdistan Region of Iraq. Their operations have led to compromises within a government cloud environment in Kurdistan and targeting a significant Israeli individual linked to security. They are also abusing GitHub repositories as part of their TTPs. The investigation has confirmed their focused efforts in this cyber campaign."
+url: "/darkblinders"
+country: "Iran"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/darkblinders"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "CloudDuke"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "darkblinders"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/darkblinders"
+    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_uuid: "9a15723b-0148-4807-b8bf-b5bdca7bf725"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "9a15723b-0148-4807-b8bf-b5bdca7bf725"
+    source_record_ids: ["9a15723b-0148-4807-b8bf-b5bdca7bf725"]
+    source_retrieved_at: "2026-11-01T09:59:24Z"

@@ -2,7 +2,7 @@ name: "Diavol"
 aliases: ["Diavol"]
 description: "A ransomware with potential ties to Wizard Spider."
 url: "/diavol"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/diavol"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "6c4b88a4-64d6-4fa2-a552-99974794de16"
     source_record_ids: ["6c4b88a4-64d6-4fa2-a552-99974794de16"]
-    source_retrieved_at: "2026-10-27T20:41:36Z"
+    source_retrieved_at: "2026-11-01T09:59:24Z"
   ransomware_tool_matrix:
     references:
       - title: "Diavol Ransomware"
@@ -25,7 +25,7 @@ provenance:
     source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Diavol"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:32Z"
+    source_retrieved_at: "2026-11-01T09:58:24Z"
     tools_by_category:
       Discovery: ["AdFind","Advanced IP Scanner","ShareFinder"]
       Exfiltration: ["FileZilla"]
@@ -33,5 +33,5 @@ provenance:
       RMM Tools: ["AnyDesk"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "diavol"
-  source_retrieved_at: "2026-10-27T20:34:18Z"
+  source_retrieved_at: "2026-11-01T09:50:54Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

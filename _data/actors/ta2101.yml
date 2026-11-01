@@ -35,12 +35,12 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us","https://securityintelligence.com/news/ta2101-threat-actor-targeted-german-italian-and-us-organizations-with-maze-ransomware/","https://www.cyfirma.com/maze-ransomware-group-declared-successful-exploits-of-many-organizations-and-released-massive-data-on-public-site-in-one-day/"]
-    source_retrieved_at: "2026-10-27T20:41:51Z"
+    source_retrieved_at: "2026-11-01T09:59:39Z"
     tab_name: "others"
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "046da342-795f-491e-b6d1-b61cd6c1f2d9"
-    source_retrieved_at: "2026-10-27T20:33:01Z"
+    source_retrieved_at: "2026-11-01T09:49:53Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -49,14 +49,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "tunnelspider"
-    source_retrieved_at: "2026-10-27T20:33:17Z"
+    source_retrieved_at: "2026-11-01T09:50:09Z"
     source_version: "1.2"
     type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "ta2101"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/ta2101"
-    source_retrieved_at: "2026-10-27T20:41:42Z"
+    source_retrieved_at: "2026-11-01T09:59:30Z"
     source_uuid: "39925aa0-c7bf-4b9b-97d6-7d600329453d"
   microsoft_threat_actor_list:
     categories: ["Financially motivated"]
@@ -65,7 +65,7 @@ provenance:
     origin_category: "Financially motivated"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "storm0216"
-    source_retrieved_at: "2026-10-27T20:33:19Z"
+    source_retrieved_at: "2026-11-01T09:50:12Z"
   misp_galaxy:
     meta_keys: ["country","origin:DEV-0216","origin:GOLD VILLAGE","origin:Storm-0216","origin:TA2101","origin:UNC2198","refs","synonyms","microsoft-origin-threat","name-attribution"]
     source_cluster: "threat-actor.json"
@@ -73,4 +73,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "39925aa0-c7bf-4b9b-97d6-7d600329453d"
     source_record_ids: ["39925aa0-c7bf-4b9b-97d6-7d600329453d","4435483b-a130-5d25-96f2-3625ed1d02b5"]
-    source_retrieved_at: "2026-10-27T20:41:36Z"
+    source_retrieved_at: "2026-11-01T09:59:24Z"

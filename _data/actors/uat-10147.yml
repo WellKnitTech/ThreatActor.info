@@ -1,0 +1,31 @@
+name: "UAT-10147"
+aliases: ["UAT-10147"]
+description: "UAT-10147 is a Chinese-speaking, financially motivated threat actor targeting internet-facing Windows and Linux servers through the exploitation of publicly disclosed vulnerabilities. The group employs advanced techniques including AI-assisted workflows, deploying malware such as SPECTRE and various RATs, and utilizing capabilities like remote code execution and privilege escalation. Their operations are characterized by the integration of AI for reconnaissance, exploit refinement, and persistent access management. UAT-10147 has a target list of approximately 170,000 URLs and impacts various sectors, including government and education."
+url: "/uat-10147"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uat-10147"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "Windows Remote Desktop"
+  - name: "RemotePC"
+  - name: "Xploit"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "uat-10147"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uat-10147"
+    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_uuid: "a92ce123-9be2-4a2e-a972-ca3ebdafe88c"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "a92ce123-9be2-4a2e-a972-ca3ebdafe88c"
+    source_record_ids: ["a92ce123-9be2-4a2e-a972-ca3ebdafe88c"]
+    source_retrieved_at: "2026-11-01T09:59:24Z"
