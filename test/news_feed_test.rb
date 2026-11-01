@@ -623,9 +623,13 @@ class NewsFeedTest < Minitest::Test
     sw_urls = NewsFeed.feed_urls(sw)
     assert_operator bc_urls.size, :>=, 2
     assert_operator sw_urls.size, :>=, 2
-    assert(bc_urls.any? { |u| URI.parse(u).host&.end_with?('bleepingcomputer.com') && u.include?('/feed') })
-    assert(sw_urls.any? { |u| URI.parse(u).host&.end_with?('securityweek.com') && u.include?('/feed') })
-    assert(sw_urls.any? { |u| URI.parse(u).host == 'feeds.feedburner.com' })
+    bc_hosts = bc_urls.map { |u| URI.parse(u).host }
+    sw_hosts = sw_urls.map { |u| URI.parse(u).host }
+    assert_includes bc_hosts, 'www.bleepingcomputer.com'
+    assert(bc_urls.any? { |u| URI.parse(u).host == 'www.bleepingcomputer.com' && URI.parse(u).path.to_s.start_with?('/feed') })
+    assert_includes sw_hosts, 'www.securityweek.com'
+    assert(sw_urls.any? { |u| URI.parse(u).host == 'www.securityweek.com' && URI.parse(u).path.to_s.start_with?('/feed') })
+    assert_includes sw_hosts, 'feeds.feedburner.com'
 
     headers = NewsFeed.browser_http_headers
     assert_match(/Mozilla\/5\.0/, headers['User-Agent'])
