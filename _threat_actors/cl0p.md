@@ -147,4 +147,3 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 
 - [Philips and GE investigating Clop ransomware data theft claims](https://bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims)
   BleepingComputer — 2026-08-17 — tags: ransomware
-

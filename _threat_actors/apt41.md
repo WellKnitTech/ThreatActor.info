@@ -116,4 +116,3 @@ APT41 is a threat group that researchers have assessed as Chinese state-sponsore
 
 - [How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia](https://securelist.com/uefi-bootkit-blackx/121539)
   Securelist — 2026-10-22 — tags: apt
-

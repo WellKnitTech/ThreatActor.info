@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T09:02:25Z",
+  "updated": "2026-11-01T14:57:51Z",
   "window_days": 14,
   "display_items": 100,
   "item_count": 100,
@@ -63,119 +63,163 @@
       "error": "403 Forbidden",
       "items": 0,
       "latency_ms": 116,
-      "dropped": true
+      "consecutive_failures": 3,
+      "unhealthy": true
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 164
+      "latency_ms": 164,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 143
+      "latency_ms": 143,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 373
+      "latency_ms": 373,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "SecurityWeek": {
       "ok": false,
       "error": "403 Forbidden",
       "items": 0,
       "latency_ms": 94,
-      "dropped": true
+      "consecutive_failures": 3,
+      "unhealthy": true
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 290
+      "latency_ms": 290,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 1050725
+      "latency_ms": 1050725,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 126
+      "latency_ms": 126,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 120
+      "latency_ms": 120,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1023
+      "latency_ms": 1023,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 239
+      "latency_ms": 239,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 202
+      "latency_ms": 202,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 314
+      "latency_ms": 314,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Elastic Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 4958
+      "latency_ms": 4958,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 109
+      "latency_ms": 109,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 220
+      "latency_ms": 220,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 338
+      "latency_ms": 338,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 207
+      "latency_ms": 207,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 530
+      "latency_ms": 530,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 98
+      "latency_ms": 98,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 131
+      "latency_ms": 131,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 601
+      "latency_ms": 601,
+      "consecutive_failures": 0,
+      "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 366
+      "latency_ms": 366,
+      "consecutive_failures": 0,
+      "unhealthy": false
     }
   },
   "items": [

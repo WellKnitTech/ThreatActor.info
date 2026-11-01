@@ -36,4 +36,3 @@ Luna Moth conducts high-tempo callback phishing campaigns targeting legal and fi
 
 - [How Luna Moth Runs Data Extortion Like a Business](https://blog.checkpoint.com/security/how-luna-moth-runs-data-extortion-like-a-business)
   Check Point — 2026-10-09 — tags: breach
-

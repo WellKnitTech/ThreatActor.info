@@ -39,4 +39,3 @@ Software supply chain campaign and its unnamed operator, first reported by GitGu
   DarkReading — 2026-10-28
 - [GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories](https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html)
   The Hacker News — 2026-10-19
-
