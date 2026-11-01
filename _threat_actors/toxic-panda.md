@@ -36,3 +36,10 @@ A group targeting dissident groups in China and at the boundaries.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [ToxicPanda Banking Trojan Matures Into Enterprise Threat](https://darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat)
+  DarkReading — 2026-08-24
+- [ToxicPanda Android malware uses VPN permissions to block Google Play](https://bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play)
+  BleepingComputer — 2026-08-23

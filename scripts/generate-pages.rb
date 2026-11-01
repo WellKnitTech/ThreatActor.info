@@ -983,8 +983,7 @@ def sanitize_description(value)
 end
 
 def sanitize_news_markdown_text(value)
-  # Strip markup then HTML-escape so kramdown cannot revive feed-supplied tags.
-  CGI.escapeHTML(NewsFeed.sanitize_feed_text(value)).gsub(']', '&#93;')
+  NewsFeed.sanitize_news_markdown_text(value)
 end
 
 def sanitize_news_markdown_url(value)

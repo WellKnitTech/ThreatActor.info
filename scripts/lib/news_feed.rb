@@ -3,8 +3,11 @@
 require 'cgi'
 require 'fileutils'
 require 'json'
+require 'net/http'
 require 'set'
+require 'stringio'
 require 'time'
+require 'timeout'
 require 'uri'
 require 'yaml'
 
@@ -24,19 +27,45 @@ module NewsFeed
   FEED_DEADLINE_SECONDS = 45
   OPEN_TIMEOUT = 8
   READ_TIMEOUT = 12
+  # Bound parallel live fetches so one slow host cannot serialize the whole run.
+  FEED_CONCURRENCY = 6
+  # After this many consecutive failures, annotate as unhealthy (never permanent-drop).
+  UNHEALTHY_FAILURE_THRESHOLD = 3
 
   BROWSER_UA = 'Mozilla/5.0 (compatible; ThreatActorInfo/1.0; +https://threatactor.info) ' \
                'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 
   # Native security/intel sources keep items that pass a light relevance gate.
   # General tech sources must match a stricter security-relevance pattern.
+  # `alternate_urls` are tried in order after the primary `url` within the same
+  # per-feed wall-clock deadline (403/empty responses advance to the next URL).
   RSS_FEEDS = [
-    { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', weight: 2, category: :security },
+    {
+      name: 'BleepingComputer',
+      url: 'https://www.bleepingcomputer.com/feed/',
+      alternate_urls: [
+        'https://bleepingcomputer.com/feed/',
+        'https://www.bleepingcomputer.com/feed/news/',
+        'https://www.bleepingcomputer.com/feed/category/security/'
+      ],
+      weight: 2,
+      category: :security
+    },
     { name: 'The Hacker News', url: 'https://feeds.feedburner.com/TheHackersNews', weight: 2, category: :security },
     { name: 'KrebsOnSecurity', url: 'https://krebsonsecurity.com/feed/', weight: 2, category: :security },
     { name: 'DarkReading', url: 'https://www.darkreading.com/rss.xml', weight: 2, category: :security },
-    # SecurityWeek has historically 403'd bot UAs; kept with browser UA + health tracking.
-    { name: 'SecurityWeek', url: 'https://www.securityweek.com/feed', weight: 2, category: :security },
+    # SecurityWeek has historically 403'd bot UAs; keep alternate endpoints + health tracking.
+    {
+      name: 'SecurityWeek',
+      url: 'https://www.securityweek.com/feed/',
+      alternate_urls: [
+        'https://www.securityweek.com/feed',
+        'https://feeds.feedburner.com/Securityweek',
+        'https://securityweek.com/feed/'
+      ],
+      weight: 2,
+      category: :security
+    },
     { name: 'The Record', url: 'https://therecord.media/feed', weight: 2, category: :security },
     { name: 'CISA Advisories', url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml', weight: 2, category: :security },
     { name: 'Microsoft Security', url: 'https://www.microsoft.com/en-us/security/blog/feed/', weight: 2, category: :security },
@@ -163,6 +192,57 @@ module NewsFeed
     keyword.to_s.strip.downcase.gsub(/\s+/, ' ')
   end
 
+  def compact_keyword(keyword)
+    normalize_keyword(keyword).delete(' ')
+  end
+
+  # Split CamelCase / PascalCase tokens into spaced words before lowercasing.
+  # "ShinyHunters" -> "Shiny Hunters"; "APT28" stays "APT28".
+  def camel_spaced_form(raw)
+    raw.to_s.strip
+       .gsub(/([a-z0-9])([A-Z])/, '\1 \2')
+       .gsub(/([A-Z]+)([A-Z][a-z])/, '\1 \2')
+  end
+
+  # Forms used for primary-name co-occurrence checks (includes CamelCase↔spaced).
+  def alias_keyword_forms(raw)
+    raw_s = raw.to_s.strip
+    return [] if raw_s.empty?
+
+    forms = [normalize_keyword(raw_s), compact_keyword(raw_s)]
+    spaced = camel_spaced_form(raw_s)
+    forms << normalize_keyword(spaced) unless spaced.empty?
+    forms.map { |form| normalize_keyword(form) }.uniq.reject(&:empty?)
+  end
+
+  # Index forms: keep explicit aliases + compact multi-word → single token
+  # ("Shiny Hunters" → shinyhunters). Do NOT auto-index CamelCase→spaced
+  # ("NewWave" → "new wave") — that creates English false positives.
+  def indexable_alias_forms(raw)
+    raw_s = raw.to_s.strip
+    return [] if raw_s.empty?
+
+    [normalize_keyword(raw_s), compact_keyword(raw_s)]
+      .map { |form| normalize_keyword(form) }
+      .uniq
+      .reject(&:empty?)
+  end
+
+  # Title-case / ALL-CAPS tokens (news headlines), not lowercase English prose
+  # or bare digits ("10" in "Windows 10").
+  def prominent_name_token?(token)
+    value = token.to_s
+    return false if value.match?(/\A\d+\z/)
+
+    value.match?(/\A(?:[A-Z][A-Za-z0-9'\-]*|[A-Z]{2,}[A-Z0-9'\-]*)\z/)
+  end
+
+  # True CamelCase/PascalCase compounds (ShinyHunters, GhostAction), not
+  # single-capital tokens (Dataleak) or digit suffixes (Windows10).
+  def camel_case_compound?(raw)
+    raw.to_s.match?(/[a-z][A-Z]/)
+  end
+
   def ambiguous_alias?(keyword)
     AMBIGUOUS_ALIASES.include?(normalize_keyword(keyword))
   end
@@ -211,6 +291,11 @@ module NewsFeed
     return false if haystack.to_s.empty?
 
     word_boundary_pattern(keyword).match?(haystack)
+  end
+
+  # Match primary actor names across compact/spaced camelCase variants.
+  def primary_text_match?(haystack, primary)
+    alias_keyword_forms(primary).any? { |form| text_match?(haystack, form) }
   end
 
   # Require the alias to appear as a named group/family, not merely as a product
@@ -291,6 +376,13 @@ module NewsFeed
     value.gsub(/\s+/, ' ').strip
   end
 
+  # Actor-page Recent News titles: strip markup, escape only markdown-significant
+  # brackets. Do not HTML-escape (avoids &#39; churn). /news/ still uses Liquid
+  # | escape with http(s)-only links.
+  def sanitize_news_markdown_text(text)
+    sanitize_feed_text(text).gsub(']', '&#93;').gsub('[', '&#91;')
+  end
+
   def normalize_title(title)
     title.to_s.downcase.gsub(/[^a-z0-9\s]/, ' ').gsub(/\s+/, ' ').strip
   end
@@ -362,11 +454,19 @@ module NewsFeed
     return true if operation_style_actor?(actor_name)
 
     own = normalize_keyword(actor_name)
+    own_compact = compact_keyword(actor_name)
+    # Spaced/compact form of the owner name is not a cross-actor leak
+    # (e.g. alias "shiny hunters" for primary ShinyHunters).
+    return false if compact_keyword(alias_kw) == own_compact
+
     primary_names.any? do |other|
       next false if other == own
       next false if other.length < 5
       # Exact shared aliases (Star Blizzard on Callisto) are intentional cluster links.
       next false if alias_kw == other
+      # Stoplisted English/common primaries (hunters, play, ...) are not distinctive
+      # enough to force a primary-name co-occurrence gate on longer aliases.
+      next false if ambiguous_alias?(other)
 
       # Proper containment: "handala hack" contains primary "handala".
       alias_kw.match?(/(?<![[:alnum:]])#{Regexp.escape(other)}(?![[:alnum:]])/)
@@ -385,13 +485,17 @@ module NewsFeed
       words.each do |word|
         next unless usable_alias?(word, curated: true)
 
-        index[normalize_keyword(word)] << {
-          name: canonical_name,
-          url: url,
-          alias: normalize_keyword(word),
-          context_required: false,
-          require_primary: operation_style_actor?(canonical_name)
-        }
+        indexable_alias_forms(word).each do |kw|
+          next unless usable_alias?(kw, curated: true)
+
+          index[kw] << {
+            name: canonical_name,
+            url: url,
+            alias: kw,
+            context_required: false,
+            require_primary: operation_style_actor?(canonical_name)
+          }
+        end
       end
     end
 
@@ -400,14 +504,27 @@ module NewsFeed
       candidates.each do |raw|
         next unless usable_alias?(raw, curated: false)
 
-        kw = normalize_keyword(raw)
-        index[kw] << {
-          name: actor['name'],
-          url: actor['url'],
-          alias: kw,
-          context_required: context_required_alias?(raw, curated: false) || product_vendor_alias?(kw),
-          require_primary: alias_requires_own_primary?(kw, actor['name'], primary_names)
-        }
+        # Evaluate require_primary on the original alias text so compacting
+        # "Handala Hack" → handalahack cannot drop the Handala co-occurrence gate.
+        requires_primary = alias_requires_own_primary?(
+          normalize_keyword(raw), actor['name'], primary_names
+        )
+        # Only CamelCase compounds may match spaced Title-Case headlines via
+        # adjacent-token join (ShinyHunters ↔ "Shiny Hunters").
+        spaced_title_match = camel_case_compound?(raw) && !raw.to_s.include?(' ')
+
+        indexable_alias_forms(raw).each do |kw|
+          next unless usable_alias?(kw, curated: false)
+
+          index[kw] << {
+            name: actor['name'],
+            url: actor['url'],
+            alias: kw,
+            context_required: context_required_alias?(kw, curated: false) || product_vendor_alias?(kw),
+            require_primary: requires_primary,
+            spaced_title_match: spaced_title_match
+          }
+        end
       end
     end
 
@@ -451,7 +568,7 @@ module NewsFeed
       end
       if entry[:require_primary] || entry['require_primary']
         primary = entry[:name] || entry['name']
-        return false unless text_match?(text, primary)
+        return false unless primary_text_match?(text, primary)
       end
       true
     end
@@ -465,6 +582,32 @@ module NewsFeed
 
         key = entry[:name] || entry['name']
         matched[key] ||= entry
+      end
+    end
+
+    # Compact CamelCase aliases (ShinyHunters) may appear spaced in headlines
+    # ("Shiny Hunters"). Join adjacent Title-Case / ALL-CAPS tokens and look up
+    # the compact form — never match lowercase English prose like "new wave".
+    surface_tokens = text.scan(/[A-Za-z0-9]+(?:[.'\-][A-Za-z0-9]+)*/)
+    (0...surface_tokens.length).each do |start|
+      (2..3).each do |width|
+        break if start + width > surface_tokens.length
+
+        slice = surface_tokens[start, width]
+        next unless slice.all? { |tok| prominent_name_token?(tok) }
+
+        compact = slice.map { |tok| tok.downcase.gsub(/[^a-z0-9]/, '') }.join
+        next if compact.length < 6
+
+        Array(single[compact]).each do |entry|
+          next unless entry[:spaced_title_match] || entry['spaced_title_match']
+
+          alias_key = entry[:alias] || entry['alias'] || compact
+          next unless accept.call(entry, alias_key)
+
+          key = entry[:name] || entry['name']
+          matched[key] ||= entry
+        end
       end
     end
 
@@ -750,10 +893,231 @@ module NewsFeed
       .then { |items| sort_items_by_date_desc(items).first(DISPLAY_ITEMS) }
   end
 
+  # Legacy helper retained for tests; permanent auto-drop is no longer used.
   def drop_feed_on_forbidden?(health_entry)
     return false unless health_entry.is_a?(Hash)
 
     error = health_entry['error'].to_s
     error.match?(/\b403\b/) || error.downcase.include?('forbidden')
+  end
+
+  def feed_urls(feed)
+    urls = [feed[:url], *Array(feed[:alternate_urls])]
+    urls.map { |url| url.to_s.strip }.reject(&:empty?).uniq
+  end
+
+  # Try primary then alternate URLs within one wall-clock deadline. Per-URL
+  # open/read timeouts (Timeout::Error subclasses) advance to the next URL when
+  # budget remains; only an exhausted deadline is terminal.
+  def with_feed_url_fallbacks(urls, deadline_seconds: FEED_DEADLINE_SECONDS)
+    deadline_at = Time.now + deadline_seconds.to_f
+    last_error = nil
+
+    Array(urls).each do |url|
+      remaining = deadline_at - Time.now
+      if remaining <= 0.05
+        raise Timeout::Error, "deadline exceeded (#{deadline_seconds.round}s)"
+      end
+
+      begin
+        return [url, yield(url, remaining)]
+      rescue Timeout::Error => e
+        remaining_after = deadline_at - Time.now
+        deadline_hit = e.message.to_s.match?(/deadline exceeded/i) || remaining_after <= 0.05
+        if deadline_hit
+          raise Timeout::Error, "deadline exceeded (#{deadline_seconds.round}s)"
+        end
+
+        last_error = e
+        next
+      rescue StandardError => e
+        last_error = e
+        next
+      end
+    end
+
+    raise(last_error || StandardError.new('all feed URLs failed'))
+  end
+
+  def browser_http_headers
+    {
+      'User-Agent' => BROWSER_UA,
+      'Accept' => 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+      'Accept-Language' => 'en-US,en;q=0.9',
+      'Cache-Control' => 'no-cache',
+      'Pragma' => 'no-cache',
+      'Connection' => 'close'
+    }
+  end
+
+  # Hard wall-clock deadline covering DNS/connect/TLS/read/redirects. MRI's
+  # Timeout.timeout alone is unreliable around blocked SSL reads; combine an
+  # interruptible worker thread with Net::HTTP open/read timeouts.
+  def fetch_url_with_deadline(url, deadline: FEED_DEADLINE_SECONDS, headers: browser_http_headers,
+                              open_timeout: OPEN_TIMEOUT, read_timeout: READ_TIMEOUT, fetcher: nil)
+    deadline = deadline.to_f
+    raise ArgumentError, 'deadline must be positive' unless deadline.positive?
+
+    result = nil
+    error = nil
+    worker = Thread.new do
+      begin
+        result =
+          if fetcher
+            fetcher.call(url, headers: headers, open_timeout: open_timeout, read_timeout: read_timeout)
+          else
+            http_get_with_timeouts(url, headers: headers, open_timeout: open_timeout, read_timeout: read_timeout)
+          end
+      rescue Exception => e # rubocop:disable Lint/RescueException -- must surface to join
+        error = e
+      end
+    end
+
+    finished = worker.join(deadline)
+    unless finished
+      force_kill_thread(worker)
+      raise Timeout::Error, "deadline exceeded (#{deadline.round}s)"
+    end
+    raise error if error
+
+    result
+  end
+
+  def http_get_with_timeouts(url, headers:, open_timeout:, read_timeout:, limit: 5)
+    raise ArgumentError, 'too many redirects' if limit <= 0
+
+    uri = URI.parse(url.to_s)
+    raise ArgumentError, "unsupported URL: #{url}" unless uri.is_a?(URI::HTTP)
+
+    http = Net::HTTP.new(uri.host, uri.port)
+    begin
+      http.use_ssl = uri.scheme == 'https'
+      http.open_timeout = open_timeout
+      http.read_timeout = read_timeout
+      http.write_timeout = read_timeout if http.respond_to?(:write_timeout=)
+      http.max_retries = 0 if http.respond_to?(:max_retries=)
+
+      path = uri.request_uri
+      request = Net::HTTP::Get.new(path)
+      headers.each { |key, value| request[key] = value }
+
+      response = http.request(request)
+      case response
+      when Net::HTTPSuccess
+        body = response.body.to_s
+        if response['Content-Encoding'].to_s.downcase.include?('gzip')
+          require 'zlib'
+          body = Zlib::GzipReader.new(StringIO.new(body)).read
+        end
+        body
+      when Net::HTTPRedirection
+        location = response['location'].to_s
+        raise ArgumentError, 'redirect without location' if location.empty?
+
+        next_url = URI.join(uri.to_s, location).to_s
+        http_get_with_timeouts(
+          next_url,
+          headers: headers,
+          open_timeout: open_timeout,
+          read_timeout: read_timeout,
+          limit: limit - 1
+        )
+      else
+        raise "HTTP #{response.code} #{response.message}".strip
+      end
+    ensure
+      http.finish if http.started?
+    end
+  end
+
+  def force_kill_thread(thread)
+    return unless thread&.alive?
+
+    thread.kill
+    thread.join(1)
+  rescue StandardError
+    nil
+  end
+
+  def map_concurrent(items, concurrency: FEED_CONCURRENCY)
+    list = Array(items)
+    return [] if list.empty?
+
+    workers = [[concurrency.to_i, 1].max, list.size].min
+    queue = Queue.new
+    list.each_with_index { |item, index| queue << [index, item] }
+    results = Array.new(list.size)
+    errors = []
+    mutex = Mutex.new
+
+    threads = Array.new(workers) do
+      Thread.new do
+        loop do
+          index, item = queue.pop(true)
+          begin
+            results[index] = yield(item)
+          rescue StandardError => e
+            mutex.synchronize { errors << e }
+          end
+        rescue ThreadError
+          break
+        end
+      end
+    end
+    threads.each(&:join)
+    raise errors.first if errors.any?
+
+    results
+  end
+
+  # Never permanently skip a source. Track consecutive failures and mark
+  # unhealthy after UNHEALTHY_FAILURE_THRESHOLD failures; always retry next run.
+  def merge_source_health_entry(current_entry, previous_entry = nil, now: Time.now.utc)
+    current = current_entry.is_a?(Hash) ? current_entry.transform_keys(&:to_s) : {}
+    previous = previous_entry.is_a?(Hash) ? previous_entry.transform_keys(&:to_s) : {}
+    entry = current.dup
+    entry.delete('dropped')
+
+    timed_out = entry['error'].to_s.match?(/deadline exceeded|timed?\s*out/i) || entry['timed_out'] == true
+    entry['timed_out'] = timed_out if timed_out || entry.key?('timed_out')
+
+    if entry['ok']
+      entry['consecutive_failures'] = 0
+      entry['last_success_at'] = (parse_time(entry['last_success_at']) || now).utc.iso8601
+      entry['unhealthy'] = false
+    else
+      failures = previous['consecutive_failures'].to_i + 1
+      entry['consecutive_failures'] = failures
+      if previous['last_success_at']
+        entry['last_success_at'] = previous['last_success_at']
+      end
+      entry['unhealthy'] = failures >= UNHEALTHY_FAILURE_THRESHOLD
+    end
+    entry
+  end
+
+  def normalize_source_health(health)
+    Hash(health).each_with_object({}) do |(name, entry), out|
+      next unless entry.is_a?(Hash)
+
+      cleaned = entry.transform_keys(&:to_s).dup
+      was_dropped = cleaned.delete('dropped')
+      failures = cleaned['consecutive_failures'].to_i
+      # Migrating legacy permanent-drop flags: treat them as having already
+      # crossed the unhealthy threshold so the next run still alerts, while
+      # always retrying the source.
+      if was_dropped && failures < UNHEALTHY_FAILURE_THRESHOLD
+        failures = UNHEALTHY_FAILURE_THRESHOLD
+      end
+      cleaned['consecutive_failures'] = failures
+      cleaned['unhealthy'] = failures >= UNHEALTHY_FAILURE_THRESHOLD
+      out[name.to_s] = cleaned
+    end
+  end
+
+  def unhealthy_sources(source_health)
+    Hash(source_health).select do |_name, entry|
+      entry.is_a?(Hash) && (entry['unhealthy'] || entry[:unhealthy])
+    end
   end
 end

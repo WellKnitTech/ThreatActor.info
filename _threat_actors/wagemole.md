@@ -43,4 +43,3 @@ WageMole is a North Korean state-sponsored APT that employs social engineering a
 
 - [North Korean WaterPlum hackers infected 30,000 devices worldwide](https://bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide)
   BleepingComputer — 2026-09-19
-

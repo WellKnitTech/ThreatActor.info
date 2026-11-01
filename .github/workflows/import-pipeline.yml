@@ -274,26 +274,32 @@ jobs:
             exit 0
           fi
 
-          # Wait until pull_request check runs exist before enabling --auto.
-          # Otherwise GitHub can merge immediately (no required checks yet
-          # registered), delete the head ref, and leave Content Validation /
-          # CodeQL as 0-job failed runs. See Weekly Run #79 / PR #164.
-          echo "Waiting for pull request checks to register on #${pr_number}..."
+          # Wait until Content Validation (and ideally codeql.yml) have registered
+          # real jobs — not merely "any" check. Default Code Scanning Analyze
+          # often appears first; enabling --auto then can merge+delete the head
+          # branch while Content Validation / advanced CodeQL are still queued,
+          # which GitHub records as failure with 0 jobs (Weekly Run #79 / PR #164,
+          # and again PR #168 after the weaker "any checks" gate from #165).
+          echo "Waiting for Content Validation jobs to register on #${pr_number}..."
+          head_sha="$(git rev-parse HEAD)"
           checks_ready=0
-          for _ in $(seq 1 60); do
-            if gh pr checks "$pr_number" 2>/dev/null | grep -q .; then
-              checks_ready=1
-              break
-            fi
-            check_count="$(gh api "repos/${GITHUB_REPOSITORY}/commits/$(git rev-parse HEAD)/check-runs" --jq '.total_count' 2>/dev/null || echo 0)"
-            if [[ "${check_count}" =~ ^[1-9][0-9]*$ ]]; then
+          for _ in $(seq 1 90); do
+            validate_jobs="$(gh run list --commit "$head_sha" --workflow "validate.yml" --limit 5 \
+              --json databaseId,status,jobCount,name 2>/dev/null || true)"
+            validate_ready="$(printf '%s' "$validate_jobs" | jq -r \
+              '[.[] | select((.jobCount // 0) > 0 or .status == "completed" or .status == "in_progress")] | length' 2>/dev/null || echo 0)"
+            # Fallback: a check-run named like Content Validation / validate.
+            check_names="$(gh api "repos/${GITHUB_REPOSITORY}/commits/${head_sha}/check-runs" \
+              --jq '[.check_runs[].name] | join("\n")' 2>/dev/null || true)"
+            if [[ "${validate_ready}" =~ ^[1-9][0-9]*$ ]] || \
+               printf '%s\n' "$check_names" | grep -Eiq 'content validation|^validate$'; then
               checks_ready=1
               break
             fi
             sleep 5
           done
           if [[ "$checks_ready" -ne 1 ]]; then
-            echo "::warning::Timed out waiting for PR checks to register on #${pr_number}; queueing auto-merge anyway."
+            echo "::warning::Timed out waiting for Content Validation jobs on #${pr_number}; queueing auto-merge anyway."
           else
             # Finish (or observe) registered checks before --auto so a
             # no-required-checks repo cannot merge+delete mid-scheduling.
@@ -315,12 +321,16 @@ jobs:
           # GITHUB_TOKEN merges skip push triggers; human merges do not. Only
           # dispatch when the bot completed the merge to avoid double-running
           # Pages/Validation alongside a human push event.
+          # Note: gh reports bot mergers as app/github-actions (not only
+          # github-actions[bot]); accept both (PR #168 skipped dispatch).
           echo "Waiting for auto-merge of #${pr_number} (GITHUB_TOKEN merges skip push triggers)..."
           for _ in $(seq 1 90); do
             pr_state="$(gh pr view "$pr_number" --json state -q .state 2>/dev/null || echo UNKNOWN)"
             if [[ "$pr_state" == "MERGED" ]]; then
               merged_by="$(gh pr view "$pr_number" --json mergedBy -q .mergedBy.login 2>/dev/null || true)"
-              if [[ "$merged_by" == "github-actions[bot]" ]] || [[ "$merged_by" == "github-actions" ]]; then
+              if [[ "$merged_by" == "github-actions[bot]" ]] || \
+                 [[ "$merged_by" == "github-actions" ]] || \
+                 [[ "$merged_by" == "app/github-actions" ]]; then
                 echo "PR #${pr_number} merged by ${merged_by}; dispatching Deploy GitHub Pages and Content Validation on main."
                 gh workflow run "Deploy GitHub Pages" --ref main
                 gh workflow run "Content Validation" --ref main

@@ -128,6 +128,65 @@ class NewsFeedTest < Minitest::Test
 
     shiny = NewsFeed.match_actors('Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site', @index).map { |m| m[:name] }
     assert_includes shiny, 'ShinyHunters'
+
+    # Spaced title must match compact CamelCase alias (and vice versa).
+    shiny_spaced = NewsFeed.match_actors(
+      "Dutch Police Arrest 'Reformed' Hacker in Shiny Hunters Investigation",
+      @index
+    ).map { |m| m[:name] }
+    assert_includes shiny_spaced, 'ShinyHunters'
+  end
+
+  def test_shinyhunters_matches_across_compact_and_spaced_forms
+    # Indexing keeps compact forms of multi-word aliases, not CamelCase→spaced.
+    assert_includes NewsFeed.indexable_alias_forms('Shiny Hunters'), 'shinyhunters'
+    refute_includes NewsFeed.indexable_alias_forms('ShinyHunters'), 'shiny hunters'
+    assert_includes NewsFeed.alias_keyword_forms('ShinyHunters'), 'shiny hunters'
+
+    compact = NewsFeed.match_actors('ShinyHunters claims FBI breach', @index).map { |m| m[:name] }
+    spaced = NewsFeed.match_actors('Shiny Hunters claims FBI breach', @index).map { |m| m[:name] }
+    assert_includes compact, 'ShinyHunters'
+    assert_includes spaced, 'ShinyHunters'
+
+    # Ambiguous primary "hunters" must not steal or block the longer alias when
+    # a Hunters actor exists in the index corpus.
+    actors = @actors + [{ 'name' => 'Hunters', 'url' => '/hunters', 'aliases' => ['Hunters'] }]
+    index = NewsFeed.build_keyword_index(actors)
+    names = NewsFeed.match_actors(
+      'Dutch Police Arrest Reformed Hacker in Shiny Hunters Investigation',
+      index
+    ).map { |m| m[:name] }
+    assert_includes names, 'ShinyHunters'
+    refute_includes names, 'Hunters'
+  end
+
+  def test_generated_spaced_camelcase_does_not_match_lowercase_english
+    actors = @actors + [
+      { 'name' => 'NewWave', 'url' => '/newwave', 'aliases' => ['NewWave'] },
+      { 'name' => 'Windows10', 'url' => '/windows10', 'aliases' => ['Windows10'] },
+      { 'name' => 'Dataleak', 'url' => '/dataleak', 'aliases' => ['Dataleak'] }
+    ]
+    index = NewsFeed.build_keyword_index(actors)
+
+    refute_includes NewsFeed.indexable_alias_forms('NewWave'), 'new wave'
+    lowercase = NewsFeed.match_actors(
+      'Cloudflare report: geopolitical tensions drive a new wave of DDoS attacks',
+      index
+    ).map { |m| m[:name] }
+    refute_includes lowercase, 'NewWave'
+
+    title_case = NewsFeed.match_actors('NewWave ransomware group leaks victim data', index).map { |m| m[:name] }
+    assert_includes title_case, 'NewWave'
+
+    # Adjacent Title-Case joins must not invent matches for non-compounds.
+    refute_includes(
+      NewsFeed.match_actors('Malware Targets Government Windows 10 Systems', index).map { |m| m[:name] },
+      'Windows10'
+    )
+    refute_includes(
+      NewsFeed.match_actors('State Bank of India Confirms Data Leak After Records Found', index).map { |m| m[:name] },
+      'Dataleak'
+    )
   end
 
   def test_tokenizer_preserves_punctuation_boundaries
@@ -232,6 +291,20 @@ class NewsFeedTest < Minitest::Test
     refute_includes clean, '>'
     refute_match(/onerror/i, clean)
     assert_includes clean, 'LockBit ransomware hits hospital'
+  end
+
+  def test_sanitize_news_markdown_text_keeps_apostrophes_escapes_brackets
+    title = "Russia's Star Blizzard Ditches ClickFix"
+    md = NewsFeed.sanitize_news_markdown_text(title)
+    assert_equal title, md
+    refute_includes md, '&#39;'
+
+    tricky = 'Foo [bar] baz <b>x</b>'
+    md2 = NewsFeed.sanitize_news_markdown_text(tricky)
+    refute_includes md2, '<'
+    assert_includes md2, '&#91;'
+    assert_includes md2, '&#93;'
+    assert_includes md2, 'Foo'
   end
 
   def test_javascript_and_non_http_links_are_rejected
@@ -458,12 +531,141 @@ class NewsFeedTest < Minitest::Test
 
   def test_feed_deadline_constant_is_bounded
     assert NewsFeed::FEED_DEADLINE_SECONDS.between?(30, 60)
+    assert NewsFeed::FEED_CONCURRENCY.between?(2, 16)
+    assert_equal 3, NewsFeed::UNHEALTHY_FAILURE_THRESHOLD
+  end
+
+  def test_fetch_url_with_deadline_enforces_hard_wall_clock
+    started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    slow = lambda do |_url, **_kwargs|
+      sleep 5
+      'should-not-return'
+    end
+
+    err = assert_raises(Timeout::Error) do
+      NewsFeed.fetch_url_with_deadline(
+        'https://example.test/slow-feed',
+        deadline: 0.3,
+        fetcher: slow
+      )
+    end
+    elapsed = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started
+
+    assert_match(/deadline exceeded/i, err.message)
+    assert_operator elapsed, :<, 2.0, "deadline leaked: #{elapsed}s"
+  end
+
+  def test_map_concurrent_preserves_order
+    out = NewsFeed.map_concurrent([1, 2, 3, 4], concurrency: 2) { |n| n * 10 }
+    assert_equal [10, 20, 30, 40], out
   end
 
   def test_drop_feed_on_forbidden_helper
     assert NewsFeed.drop_feed_on_forbidden?({ 'ok' => false, 'error' => '403 Forbidden' })
     refute NewsFeed.drop_feed_on_forbidden?({ 'ok' => false, 'error' => '404 Not Found' })
     refute NewsFeed.drop_feed_on_forbidden?({ 'ok' => true })
+  end
+
+  def test_source_health_never_permanent_drops_and_tracks_consecutive_failures
+    prev = { 'ok' => false, 'error' => '403 Forbidden', 'dropped' => true, 'consecutive_failures' => 2 }
+    failed = NewsFeed.merge_source_health_entry(
+      { 'ok' => false, 'error' => '403 Forbidden', 'items' => 0, 'latency_ms' => 12 },
+      prev
+    )
+    refute failed.key?('dropped')
+    assert_equal 3, failed['consecutive_failures']
+    assert failed['unhealthy']
+
+    recovered = NewsFeed.merge_source_health_entry(
+      { 'ok' => true, 'items' => 5, 'latency_ms' => 40 },
+      failed
+    )
+    assert_equal 0, recovered['consecutive_failures']
+    refute recovered['unhealthy']
+    refute recovered.key?('dropped')
+    refute_nil recovered['last_success_at']
+
+    timed = NewsFeed.merge_source_health_entry(
+      {
+        'ok' => false,
+        'error' => "deadline exceeded (#{NewsFeed::FEED_DEADLINE_SECONDS}s)",
+        'items' => 0,
+        'latency_ms' => 45_100,
+        'timed_out' => true
+      },
+      {}
+    )
+    assert timed['timed_out']
+    assert_equal 1, timed['consecutive_failures']
+    refute timed['unhealthy']
+
+    normalized = NewsFeed.normalize_source_health(
+      'SecurityWeek' => { 'ok' => false, 'dropped' => true, 'error' => '403 Forbidden', 'consecutive_failures' => 5 }
+    )
+    refute normalized['SecurityWeek'].key?('dropped')
+    assert_equal 5, normalized['SecurityWeek']['consecutive_failures']
+    assert normalized['SecurityWeek']['unhealthy']
+
+    migrated = NewsFeed.normalize_source_health(
+      'BleepingComputer' => { 'ok' => false, 'dropped' => true, 'error' => '403 Forbidden' }
+    )
+    refute migrated['BleepingComputer'].key?('dropped')
+    assert_equal NewsFeed::UNHEALTHY_FAILURE_THRESHOLD, migrated['BleepingComputer']['consecutive_failures']
+    assert migrated['BleepingComputer']['unhealthy']
+  end
+
+  def test_bleepingcomputer_and_securityweek_have_fallback_urls_and_browser_headers
+    bc = NewsFeed::RSS_FEEDS.find { |f| f[:name] == 'BleepingComputer' }
+    sw = NewsFeed::RSS_FEEDS.find { |f| f[:name] == 'SecurityWeek' }
+    refute_nil bc
+    refute_nil sw
+    bc_urls = NewsFeed.feed_urls(bc)
+    sw_urls = NewsFeed.feed_urls(sw)
+    assert_operator bc_urls.size, :>=, 2
+    assert_operator sw_urls.size, :>=, 2
+    bc_hosts = bc_urls.map { |u| URI.parse(u).host }
+    sw_hosts = sw_urls.map { |u| URI.parse(u).host }
+    assert_includes bc_hosts, 'www.bleepingcomputer.com'
+    assert(bc_urls.any? { |u| URI.parse(u).host == 'www.bleepingcomputer.com' && URI.parse(u).path.to_s.start_with?('/feed') })
+    assert_includes sw_hosts, 'www.securityweek.com'
+    assert(sw_urls.any? { |u| URI.parse(u).host == 'www.securityweek.com' && URI.parse(u).path.to_s.start_with?('/feed') })
+    assert_includes sw_hosts, 'feeds.feedburner.com'
+
+    headers = NewsFeed.browser_http_headers
+    assert_match(/Mozilla\/5\.0/, headers['User-Agent'])
+    assert_match(/rss\+xml|application\/xml/, headers['Accept'])
+    assert_match(/en-US/, headers['Accept-Language'])
+  end
+
+  def test_feed_url_fallbacks_continue_after_per_url_timeout
+    require 'net/http'
+
+    attempts = []
+    url, body = NewsFeed.with_feed_url_fallbacks(
+      %w[https://primary.example/feed https://alternate.example/feed],
+      deadline_seconds: 5
+    ) do |candidate, _remaining|
+      attempts << candidate
+      raise Net::ReadTimeout, 'execution expired' if candidate.include?('primary.example')
+
+      'ok-body'
+    end
+
+    assert_equal %w[https://primary.example/feed https://alternate.example/feed], attempts
+    assert_equal 'https://alternate.example/feed', url
+    assert_equal 'ok-body', body
+  end
+
+  def test_feed_url_fallbacks_terminal_on_deadline_exceeded
+    err = assert_raises(Timeout::Error) do
+      NewsFeed.with_feed_url_fallbacks(
+        %w[https://primary.example/feed https://alternate.example/feed],
+        deadline_seconds: 5
+      ) do |_candidate, _remaining|
+        raise Timeout::Error, 'deadline exceeded (45s)'
+      end
+    end
+    assert_match(/deadline exceeded/i, err.message)
   end
 
   def test_browser_ua_is_not_the_old_bot_token
