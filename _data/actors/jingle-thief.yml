@@ -4,10 +4,19 @@ description: "Jingle Thief is a financially motivated gift card fraud campaign d
 url: "/jingle-thief"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/jingle_thief"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
 malware:
   - name: "CloudDuke"
   - name: "CrossRat"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "jingle_thief"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/jingle_thief"
+    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_uuid: "5869bc41-c58a-4e06-9419-b3874a4d3a12"
   misp_galaxy:
     meta_keys: ["date","refs","synonyms"]
     source_cluster: "threat-actor.json"
@@ -15,4 +24,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "5869bc41-c58a-4e06-9419-b3874a4d3a12"
     source_record_ids: ["5869bc41-c58a-4e06-9419-b3874a4d3a12"]
-    source_retrieved_at: "2026-10-27T20:41:36Z"
+    source_retrieved_at: "2026-11-01T09:59:24Z"

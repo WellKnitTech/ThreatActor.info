@@ -4,7 +4,7 @@ description: "Quantum is an active extortion or ransomware group tracked by Rans
 url: "/quantum"
 first_seen: "2014"
 last_activity: "2014"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/quantum"
@@ -19,7 +19,7 @@ provenance:
     sample_titles: ["Operation Quantum Entanglement"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-10-27T20:41:54Z"
+    source_retrieved_at: "2026-11-01T09:59:41Z"
     sources: ["FireEye"]
   ransomware_tool_matrix:
     references:
@@ -34,7 +34,7 @@ provenance:
     source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Quantum"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:32Z"
+    source_retrieved_at: "2026-11-01T09:58:24Z"
     tools_by_category:
       Credential Theft: ["Mimikatz","ProcDump"]
       Discovery: ["AdFind"]
@@ -88,7 +88,7 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md"]
     source_label: "Quantum"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:36Z"
+    source_retrieved_at: "2026-11-01T09:58:28Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "Windows"
@@ -102,8 +102,8 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Quantum/Quantum_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-10-27T20:41:59Z"
+    source_retrieved_at: "2026-11-01T09:59:46Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "quantum"
-  source_retrieved_at: "2026-10-27T20:38:23Z"
+  source_retrieved_at: "2026-11-01T09:58:01Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

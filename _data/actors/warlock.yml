@@ -2,7 +2,7 @@ name: "Warlock"
 aliases: ["Warlock"]
 description: "Warlock is an active extortion or ransomware group tracked by RansomLook."
 url: "/warlock"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/warlock"
@@ -28,7 +28,7 @@ provenance:
     source_files: ["GroupProfiles/Warlock.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Warlock"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:32Z"
+    source_retrieved_at: "2026-11-01T09:58:24Z"
     tools_by_category:
       Credential Theft: ["Mimikatz","Veeam-Get-Creds"]
       Defense Evasion: ["Antiy System In-Depth Analysis Toolkit driver (BYOVD)","NsecSoft driver (BYOVD)","Rising Antivirus driver (BYOVD)","VMTools AV Killer (BYOVD)"]
@@ -57,8 +57,8 @@ provenance:
     source_files: ["GroupProfiles/WarLock.md"]
     source_label: "War Lock"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:36Z"
+    source_retrieved_at: "2026-11-01T09:58:28Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "warlock"
-  source_retrieved_at: "2026-10-27T20:33:57Z"
+  source_retrieved_at: "2026-11-01T09:55:09Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

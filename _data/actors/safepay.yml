@@ -6,7 +6,7 @@ country: "Unknown"
 sector_focus: ["Healthcare","Logistics","Manufacturing","Government"]
 first_seen: "2024"
 last_activity: "2025"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 risk_level: "High"
 source_name: "MISP Galaxy"
 source_attribution: "Manually curated from open source intelligence"
@@ -24,7 +24,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "156a6b97-c64f-5742-a530-ea8415c746e3"
     source_record_ids: ["156a6b97-c64f-5742-a530-ea8415c746e3"]
-    source_retrieved_at: "2026-10-27T20:41:36Z"
+    source_retrieved_at: "2026-11-01T09:59:24Z"
   ransomware_tool_matrix:
     references:
       - title: "It's Not Safe to Pay SafePay"
@@ -36,7 +36,7 @@ provenance:
     source_files: ["GroupProfiles/SafePay.md"]
     source_label: "Safe Pay"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-10-27T20:40:32Z"
+    source_retrieved_at: "2026-11-01T09:58:24Z"
     tools_by_category:
       Discovery: ["Invoke-ShareFinder"]
       Exfiltration: ["7zip","FileZilla","WinRAR"]
@@ -44,5 +44,5 @@ provenance:
       RMM Tools: ["Microsoft RDP"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "safepay"
-  source_retrieved_at: "2026-10-27T20:34:03Z"
+  source_retrieved_at: "2026-11-01T09:54:34Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

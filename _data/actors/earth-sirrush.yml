@@ -1,0 +1,33 @@
+name: "Earth Sirrush"
+aliases: ["SHADOW-EARTH-065","Earth Sirrush"]
+description: "Earth Sirrush has conducted sustained spear-phishing campaigns against Ukrainian governmental and defense entities, deploying PowerShell and Go-based tools such as LONEPAGE and SEAGLOW, delivered via malicious archives and exploiting CVE-2023-38831. Their operations transitioned to image-based steganography in the CINDERBLOT campaign, using phishing lures that impersonate Ukrainian state services. Despite continuously adapting their tooling, identifiable indicators of compromise can link their campaigns, demonstrating consistent development habits and delivery patterns. Their targets have included the National Police, State Border Guard Service, and various ministries related to logistics and defense supply chains."
+url: "/earth-sirrush"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_sirrush"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "PowerDuke"
+  - name: "POWERSTATS"
+  - name: "Power Loader"
+  - name: "POWERSOURCE"
+  - name: "Xploit"
+  - name: "GraphicBooting"
+  - name: "PowerRAT"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "earth_sirrush"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_sirrush"
+    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_uuid: "785a6aea-7a98-4290-8497-2e665b1115b3"
+  misp_galaxy:
+    meta_keys: ["country","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "785a6aea-7a98-4290-8497-2e665b1115b3"
+    source_record_ids: ["785a6aea-7a98-4290-8497-2e665b1115b3"]
+    source_retrieved_at: "2026-11-01T09:59:24Z"

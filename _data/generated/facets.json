@@ -222,7 +222,7 @@
 
   ],
   "counts": {
-    "threat_actors": 3840,
+    "threat_actors": 3852,
     "iocs": 0,
     "techniques": 937,
     "tactics": 39,
@@ -230,10 +230,10 @@
     "mitigations": 109
   },
   "country_counts": {
-    "China": 271,
-    "Russia": 120,
+    "China": 272,
+    "Russia": 121,
     "[\"[Unknown]\"]": 98,
-    "Iran": 81,
+    "Iran": 82,
     "[\"China\"]": 41,
     "North Korea": 32,
     "United States": 25,
@@ -265,10 +265,10 @@
     "Xploit": 187,
     "Virus RAT:": 105,
     "Backdoor.Oldrea": 104,
+    "CyberGate:": 98,
+    "Cyber Eye RAT:": 98,
     "China Chopper": 96,
-    "CyberGate:": 92,
-    "Cyber Eye RAT:": 92,
-    "Archelaus Beta": 71,
-    "RemoteCMD": 70
+    "Xploit:": 75,
+    "Archelaus Beta": 71
   }
 }
