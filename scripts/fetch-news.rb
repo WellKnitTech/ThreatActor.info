@@ -72,39 +72,16 @@ end
 def parse_feed(feed, health, previous_entry: nil)
   items = []
   started = Time.now
-  deadline_at = started + NewsFeed::FEED_DEADLINE_SECONDS
-  last_error = nil
-  used_url = nil
 
   begin
-    NewsFeed.feed_urls(feed).each do |url|
-      remaining = deadline_at - Time.now
-      if remaining <= 0.05
-        raise Timeout::Error, "deadline exceeded (#{NewsFeed::FEED_DEADLINE_SECONDS}s)"
-      end
-
-      begin
-        raw = open_feed_within_budget(url, remaining)
-        parsed, parse_error = parse_feed_items(raw, feed)
-        if parse_error
-          last_error = parse_error
-          next
-        end
-        items = parsed
-        used_url = url
-        break
-      rescue Timeout::Error
-        raise
-      rescue StandardError => e
-        last_error = e.message.to_s[0..120]
-        # Advance to alternate URL on HTTP/network failures (e.g. 403).
-        next
-      end
+    used_url, raw = NewsFeed.with_feed_url_fallbacks(
+      NewsFeed.feed_urls(feed),
+      deadline_seconds: NewsFeed::FEED_DEADLINE_SECONDS
+    ) do |url, remaining|
+      open_feed_within_budget(url, remaining)
     end
-
-    if used_url.nil?
-      raise StandardError, last_error || 'all feed URLs failed'
-    end
+    items, parse_error = parse_feed_items(raw, feed)
+    raise StandardError, parse_error if parse_error
 
     entry = {
       'ok' => true,

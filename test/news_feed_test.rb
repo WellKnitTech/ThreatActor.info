@@ -138,9 +138,10 @@ class NewsFeedTest < Minitest::Test
   end
 
   def test_shinyhunters_matches_across_compact_and_spaced_forms
-    # Fixture indexes only ShinyHunters; spaced + compact titles must both hit.
+    # Indexing keeps compact forms of multi-word aliases, not CamelCase→spaced.
+    assert_includes NewsFeed.indexable_alias_forms('Shiny Hunters'), 'shinyhunters'
+    refute_includes NewsFeed.indexable_alias_forms('ShinyHunters'), 'shiny hunters'
     assert_includes NewsFeed.alias_keyword_forms('ShinyHunters'), 'shiny hunters'
-    assert_includes NewsFeed.alias_keyword_forms('Shiny Hunters'), 'shinyhunters'
 
     compact = NewsFeed.match_actors('ShinyHunters claims FBI breach', @index).map { |m| m[:name] }
     spaced = NewsFeed.match_actors('Shiny Hunters claims FBI breach', @index).map { |m| m[:name] }
@@ -157,6 +158,35 @@ class NewsFeedTest < Minitest::Test
     ).map { |m| m[:name] }
     assert_includes names, 'ShinyHunters'
     refute_includes names, 'Hunters'
+  end
+
+  def test_generated_spaced_camelcase_does_not_match_lowercase_english
+    actors = @actors + [
+      { 'name' => 'NewWave', 'url' => '/newwave', 'aliases' => ['NewWave'] },
+      { 'name' => 'Windows10', 'url' => '/windows10', 'aliases' => ['Windows10'] },
+      { 'name' => 'Dataleak', 'url' => '/dataleak', 'aliases' => ['Dataleak'] }
+    ]
+    index = NewsFeed.build_keyword_index(actors)
+
+    refute_includes NewsFeed.indexable_alias_forms('NewWave'), 'new wave'
+    lowercase = NewsFeed.match_actors(
+      'Cloudflare report: geopolitical tensions drive a new wave of DDoS attacks',
+      index
+    ).map { |m| m[:name] }
+    refute_includes lowercase, 'NewWave'
+
+    title_case = NewsFeed.match_actors('NewWave ransomware group leaks victim data', index).map { |m| m[:name] }
+    assert_includes title_case, 'NewWave'
+
+    # Adjacent Title-Case joins must not invent matches for non-compounds.
+    refute_includes(
+      NewsFeed.match_actors('Malware Targets Government Windows 10 Systems', index).map { |m| m[:name] },
+      'Windows10'
+    )
+    refute_includes(
+      NewsFeed.match_actors('State Bank of India Confirms Data Leak After Records Found', index).map { |m| m[:name] },
+      'Dataleak'
+    )
   end
 
   def test_tokenizer_preserves_punctuation_boundaries
@@ -593,14 +623,45 @@ class NewsFeedTest < Minitest::Test
     sw_urls = NewsFeed.feed_urls(sw)
     assert_operator bc_urls.size, :>=, 2
     assert_operator sw_urls.size, :>=, 2
-    assert(bc_urls.any? { |u| u.include?('bleepingcomputer.com/feed') })
-    assert(sw_urls.any? { |u| u.include?('securityweek.com/feed') })
-    assert(sw_urls.any? { |u| u.include?('feedburner') || u.include?('feeds.feedburner.com') })
+    assert(bc_urls.any? { |u| URI.parse(u).host&.end_with?('bleepingcomputer.com') && u.include?('/feed') })
+    assert(sw_urls.any? { |u| URI.parse(u).host&.end_with?('securityweek.com') && u.include?('/feed') })
+    assert(sw_urls.any? { |u| URI.parse(u).host == 'feeds.feedburner.com' })
 
     headers = NewsFeed.browser_http_headers
     assert_match(/Mozilla\/5\.0/, headers['User-Agent'])
     assert_match(/rss\+xml|application\/xml/, headers['Accept'])
     assert_match(/en-US/, headers['Accept-Language'])
+  end
+
+  def test_feed_url_fallbacks_continue_after_per_url_timeout
+    require 'net/http'
+
+    attempts = []
+    url, body = NewsFeed.with_feed_url_fallbacks(
+      %w[https://primary.example/feed https://alternate.example/feed],
+      deadline_seconds: 5
+    ) do |candidate, _remaining|
+      attempts << candidate
+      raise Net::ReadTimeout, 'execution expired' if candidate.include?('primary.example')
+
+      'ok-body'
+    end
+
+    assert_equal %w[https://primary.example/feed https://alternate.example/feed], attempts
+    assert_equal 'https://alternate.example/feed', url
+    assert_equal 'ok-body', body
+  end
+
+  def test_feed_url_fallbacks_terminal_on_deadline_exceeded
+    err = assert_raises(Timeout::Error) do
+      NewsFeed.with_feed_url_fallbacks(
+        %w[https://primary.example/feed https://alternate.example/feed],
+        deadline_seconds: 5
+      ) do |_candidate, _remaining|
+        raise Timeout::Error, 'deadline exceeded (45s)'
+      end
+    end
+    assert_match(/deadline exceeded/i, err.message)
   end
 
   def test_browser_ua_is_not_the_old_bot_token

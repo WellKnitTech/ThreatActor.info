@@ -204,7 +204,7 @@ module NewsFeed
        .gsub(/([A-Z]+)([A-Z][a-z])/, '\1 \2')
   end
 
-  # Compact + spaced forms so ShinyHunters and "Shiny Hunters" share an index.
+  # Forms used for primary-name co-occurrence checks (includes CamelCase↔spaced).
   def alias_keyword_forms(raw)
     raw_s = raw.to_s.strip
     return [] if raw_s.empty?
@@ -213,6 +213,34 @@ module NewsFeed
     spaced = camel_spaced_form(raw_s)
     forms << normalize_keyword(spaced) unless spaced.empty?
     forms.map { |form| normalize_keyword(form) }.uniq.reject(&:empty?)
+  end
+
+  # Index forms: keep explicit aliases + compact multi-word → single token
+  # ("Shiny Hunters" → shinyhunters). Do NOT auto-index CamelCase→spaced
+  # ("NewWave" → "new wave") — that creates English false positives.
+  def indexable_alias_forms(raw)
+    raw_s = raw.to_s.strip
+    return [] if raw_s.empty?
+
+    [normalize_keyword(raw_s), compact_keyword(raw_s)]
+      .map { |form| normalize_keyword(form) }
+      .uniq
+      .reject(&:empty?)
+  end
+
+  # Title-case / ALL-CAPS tokens (news headlines), not lowercase English prose
+  # or bare digits ("10" in "Windows 10").
+  def prominent_name_token?(token)
+    value = token.to_s
+    return false if value.match?(/\A\d+\z/)
+
+    value.match?(/\A(?:[A-Z][A-Za-z0-9'\-]*|[A-Z]{2,}[A-Z0-9'\-]*)\z/)
+  end
+
+  # True CamelCase/PascalCase compounds (ShinyHunters, GhostAction), not
+  # single-capital tokens (Dataleak) or digit suffixes (Windows10).
+  def camel_case_compound?(raw)
+    raw.to_s.match?(/[a-z][A-Z]/)
   end
 
   def ambiguous_alias?(keyword)
@@ -457,7 +485,7 @@ module NewsFeed
       words.each do |word|
         next unless usable_alias?(word, curated: true)
 
-        alias_keyword_forms(word).each do |kw|
+        indexable_alias_forms(word).each do |kw|
           next unless usable_alias?(kw, curated: true)
 
           index[kw] << {
@@ -476,7 +504,16 @@ module NewsFeed
       candidates.each do |raw|
         next unless usable_alias?(raw, curated: false)
 
-        alias_keyword_forms(raw).each do |kw|
+        # Evaluate require_primary on the original alias text so compacting
+        # "Handala Hack" → handalahack cannot drop the Handala co-occurrence gate.
+        requires_primary = alias_requires_own_primary?(
+          normalize_keyword(raw), actor['name'], primary_names
+        )
+        # Only CamelCase compounds may match spaced Title-Case headlines via
+        # adjacent-token join (ShinyHunters ↔ "Shiny Hunters").
+        spaced_title_match = camel_case_compound?(raw) && !raw.to_s.include?(' ')
+
+        indexable_alias_forms(raw).each do |kw|
           next unless usable_alias?(kw, curated: false)
 
           index[kw] << {
@@ -484,7 +521,8 @@ module NewsFeed
             url: actor['url'],
             alias: kw,
             context_required: context_required_alias?(kw, curated: false) || product_vendor_alias?(kw),
-            require_primary: alias_requires_own_primary?(kw, actor['name'], primary_names)
+            require_primary: requires_primary,
+            spaced_title_match: spaced_title_match
           }
         end
       end
@@ -544,6 +582,32 @@ module NewsFeed
 
         key = entry[:name] || entry['name']
         matched[key] ||= entry
+      end
+    end
+
+    # Compact CamelCase aliases (ShinyHunters) may appear spaced in headlines
+    # ("Shiny Hunters"). Join adjacent Title-Case / ALL-CAPS tokens and look up
+    # the compact form — never match lowercase English prose like "new wave".
+    surface_tokens = text.scan(/[A-Za-z0-9]+(?:[.'\-][A-Za-z0-9]+)*/)
+    (0...surface_tokens.length).each do |start|
+      (2..3).each do |width|
+        break if start + width > surface_tokens.length
+
+        slice = surface_tokens[start, width]
+        next unless slice.all? { |tok| prominent_name_token?(tok) }
+
+        compact = slice.map { |tok| tok.downcase.gsub(/[^a-z0-9]/, '') }.join
+        next if compact.length < 6
+
+        Array(single[compact]).each do |entry|
+          next unless entry[:spaced_title_match] || entry['spaced_title_match']
+
+          alias_key = entry[:alias] || entry['alias'] || compact
+          next unless accept.call(entry, alias_key)
+
+          key = entry[:name] || entry['name']
+          matched[key] ||= entry
+        end
       end
     end
 
@@ -840,6 +904,39 @@ module NewsFeed
   def feed_urls(feed)
     urls = [feed[:url], *Array(feed[:alternate_urls])]
     urls.map { |url| url.to_s.strip }.reject(&:empty?).uniq
+  end
+
+  # Try primary then alternate URLs within one wall-clock deadline. Per-URL
+  # open/read timeouts (Timeout::Error subclasses) advance to the next URL when
+  # budget remains; only an exhausted deadline is terminal.
+  def with_feed_url_fallbacks(urls, deadline_seconds: FEED_DEADLINE_SECONDS)
+    deadline_at = Time.now + deadline_seconds.to_f
+    last_error = nil
+
+    Array(urls).each do |url|
+      remaining = deadline_at - Time.now
+      if remaining <= 0.05
+        raise Timeout::Error, "deadline exceeded (#{deadline_seconds.round}s)"
+      end
+
+      begin
+        return [url, yield(url, remaining)]
+      rescue Timeout::Error => e
+        remaining_after = deadline_at - Time.now
+        deadline_hit = e.message.to_s.match?(/deadline exceeded/i) || remaining_after <= 0.05
+        if deadline_hit
+          raise Timeout::Error, "deadline exceeded (#{deadline_seconds.round}s)"
+        end
+
+        last_error = e
+        next
+      rescue StandardError => e
+        last_error = e
+        next
+      end
+    end
+
+    raise(last_error || StandardError.new('all feed URLs failed'))
   end
 
   def browser_http_headers
