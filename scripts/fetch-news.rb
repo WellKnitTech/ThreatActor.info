@@ -9,7 +9,6 @@ require 'fileutils'
 require 'net/http'
 require 'uri'
 require 'rss'
-require 'open-uri'
 require 'json'
 require 'rexml/document'
 require 'time'
@@ -18,74 +17,120 @@ require 'timeout'
 require_relative 'lib/news_feed'
 
 def feed_http_headers
-  {
-    'User-Agent' => NewsFeed::BROWSER_UA,
-    'Accept' => 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8'
-  }
+  NewsFeed.browser_http_headers
 end
 
 def open_feed(url)
-  URI.parse(url).open(
-    read_timeout: NewsFeed::READ_TIMEOUT,
+  NewsFeed.fetch_url_with_deadline(
+    url,
+    deadline: NewsFeed::FEED_DEADLINE_SECONDS,
+    headers: feed_http_headers,
     open_timeout: NewsFeed::OPEN_TIMEOUT,
-    **feed_http_headers
-  ).read
+    read_timeout: NewsFeed::READ_TIMEOUT
+  )
 end
 
-def parse_feed(feed, health)
+def open_feed_within_budget(url, deadline_seconds)
+  NewsFeed.fetch_url_with_deadline(
+    url,
+    deadline: deadline_seconds,
+    headers: feed_http_headers,
+    open_timeout: [NewsFeed::OPEN_TIMEOUT, deadline_seconds].min,
+    read_timeout: [NewsFeed::READ_TIMEOUT, deadline_seconds].min
+  )
+end
+
+def parse_feed_items(raw, feed)
+  items = []
+  rss = RSS::Parser.parse(raw, false)
+  return [items, 'unrecognized feed format'] unless rss && rss.respond_to?(:items)
+
+  rss.items.first(NewsFeed::MAX_PER_FEED).each do |item|
+    title = item.title.to_s.strip
+    link = item.link.is_a?(String) ? item.link : item.link&.href
+    link = link.to_s.strip
+    next if title.empty? || link.empty?
+
+    date = item.respond_to?(:date) ? item.date : nil
+    date ||= item.respond_to?(:dc_date) ? item.dc_date : nil
+    date ||= item.respond_to?(:pubDate) ? item.pubDate : nil
+    date ||= item.respond_to?(:updated) ? item.updated : nil
+
+    items << {
+      title: title[0..200],
+      link: link,
+      date: date,
+      source: feed[:name],
+      weight: feed[:weight] || 1,
+      category: feed[:category] || :security
+    }
+  end
+
+  [items, nil]
+end
+
+def parse_feed(feed, health, previous_entry: nil)
   items = []
   started = Time.now
+  deadline_at = started + NewsFeed::FEED_DEADLINE_SECONDS
+  last_error = nil
+  used_url = nil
 
   begin
-    raw = Timeout.timeout(NewsFeed::FEED_DEADLINE_SECONDS) { open_feed(feed[:url]) }
-    rss = RSS::Parser.parse(raw, false)
+    NewsFeed.feed_urls(feed).each do |url|
+      remaining = deadline_at - Time.now
+      if remaining <= 0.05
+        raise Timeout::Error, "deadline exceeded (#{NewsFeed::FEED_DEADLINE_SECONDS}s)"
+      end
 
-    unless rss && rss.respond_to?(:items)
-      health[feed[:name]] = { 'ok' => false, 'error' => 'unrecognized feed format', 'items' => 0 }
-      return items
+      begin
+        raw = open_feed_within_budget(url, remaining)
+        parsed, parse_error = parse_feed_items(raw, feed)
+        if parse_error
+          last_error = parse_error
+          next
+        end
+        items = parsed
+        used_url = url
+        break
+      rescue Timeout::Error
+        raise
+      rescue StandardError => e
+        last_error = e.message.to_s[0..120]
+        # Advance to alternate URL on HTTP/network failures (e.g. 403).
+        next
+      end
     end
 
-    rss.items.first(NewsFeed::MAX_PER_FEED).each do |item|
-      title = item.title.to_s.strip
-      link = item.link.is_a?(String) ? item.link : item.link&.href
-      link = link.to_s.strip
-      next if title.empty? || link.empty?
-
-      date = item.respond_to?(:date) ? item.date : nil
-      date ||= item.respond_to?(:dc_date) ? item.dc_date : nil
-      date ||= item.respond_to?(:pubDate) ? item.pubDate : nil
-      date ||= item.respond_to?(:updated) ? item.updated : nil
-
-      items << {
-        title: title[0..200],
-        link: link,
-        date: date,
-        source: feed[:name],
-        weight: feed[:weight] || 1,
-        category: feed[:category] || :security
-      }
+    if used_url.nil?
+      raise StandardError, last_error || 'all feed URLs failed'
     end
 
-    health[feed[:name]] = {
+    entry = {
       'ok' => true,
       'items' => items.size,
-      'latency_ms' => ((Time.now - started) * 1000).round
+      'latency_ms' => ((Time.now - started) * 1000).round,
+      'url' => used_url
     }
+    health[feed[:name]] = NewsFeed.merge_source_health_entry(entry, previous_entry)
   rescue Timeout::Error
-    health[feed[:name]] = {
+    entry = {
       'ok' => false,
       'error' => "deadline exceeded (#{NewsFeed::FEED_DEADLINE_SECONDS}s)",
       'items' => 0,
-      'latency_ms' => ((Time.now - started) * 1000).round
+      'latency_ms' => ((Time.now - started) * 1000).round,
+      'timed_out' => true
     }
-    warn "  Warning: #{feed[:name]} - deadline exceeded"
+    health[feed[:name]] = NewsFeed.merge_source_health_entry(entry, previous_entry)
+    warn "  Warning: #{feed[:name]} - deadline exceeded (#{health[feed[:name]]['latency_ms']}ms)"
   rescue StandardError => e
-    health[feed[:name]] = {
+    entry = {
       'ok' => false,
       'error' => e.message.to_s[0..120],
       'items' => 0,
       'latency_ms' => ((Time.now - started) * 1000).round
     }
+    health[feed[:name]] = NewsFeed.merge_source_health_entry(entry, previous_entry)
     warn "  Warning: #{feed[:name]} - #{e.message.to_s[0..80]}"
   end
 
@@ -115,93 +160,123 @@ def parse_beazley_atom_entries(xml, source)
   entries.first(NewsFeed::MAX_PER_FEED)
 end
 
-def fetch_beazley_articles(health)
+def fetch_beazley_articles(health, previous_health: {})
   articles = []
   feeds = [
     { url: 'https://labs.beazley.security/articles/atom.xml', source: 'Beazley Security Labs Articles' },
     { url: 'https://labs.beazley.security/advisories/atom.xml', source: 'Beazley Security Labs Advisories' }
   ]
 
-  feeds.each do |feed|
+  results = NewsFeed.map_concurrent(feeds, concurrency: [NewsFeed::FEED_CONCURRENCY, feeds.size].min) do |feed|
     started = Time.now
+    previous_entry = previous_health[feed[:source]]
     begin
-      raw = Timeout.timeout(NewsFeed::FEED_DEADLINE_SECONDS) { open_feed(feed[:url]) }
+      raw = open_feed(feed[:url])
       parsed = parse_beazley_atom_entries(raw, feed[:source])
-      articles.concat(parsed)
-      health[feed[:source]] = {
+      entry = {
         'ok' => true,
         'items' => parsed.size,
         'latency_ms' => ((Time.now - started) * 1000).round
       }
+      [feed[:source], parsed, NewsFeed.merge_source_health_entry(entry, previous_entry)]
     rescue Timeout::Error
-      health[feed[:source]] = {
+      entry = {
         'ok' => false,
         'error' => "deadline exceeded (#{NewsFeed::FEED_DEADLINE_SECONDS}s)",
         'items' => 0,
-        'latency_ms' => ((Time.now - started) * 1000).round
+        'latency_ms' => ((Time.now - started) * 1000).round,
+        'timed_out' => true
       }
       warn "  Beazley (#{feed[:source]}): deadline exceeded"
+      [feed[:source], [], NewsFeed.merge_source_health_entry(entry, previous_entry)]
     rescue StandardError => e
-      health[feed[:source]] = {
+      entry = {
         'ok' => false,
         'error' => e.message.to_s[0..120],
         'items' => 0,
         'latency_ms' => ((Time.now - started) * 1000).round
       }
       warn "  Beazley (#{feed[:source]}): #{e.message.to_s[0..80]}"
+      [feed[:source], [], NewsFeed.merge_source_health_entry(entry, previous_entry)]
     end
+  end
+
+  results.each do |source, parsed, entry|
+    health[source] = entry
+    articles.concat(parsed)
   end
 
   articles.uniq { |item| NewsFeed.canonicalize_url(item[:link]) }
 end
 
-def active_rss_feeds(previous_health = {})
-  NewsFeed::RSS_FEEDS.reject do |feed|
-    # Only skip feeds we already marked dropped after a browser-UA 403.
-    # A bare historical 403 (old bot UA) still gets one retry with BROWSER_UA.
-    prev = previous_health[feed[:name]]
-    if prev.is_a?(Hash) && prev['dropped']
-      warn "  Skipping #{feed[:name]} (dropped after 403 Forbidden with browser UA)"
-      true
-    else
-      false
-    end
+# Always retry every configured feed. Permanent auto-drop was removed: a prior
+# `dropped: true` flag is cleared and never skips the source.
+def active_rss_feeds(_previous_health = {})
+  NewsFeed::RSS_FEEDS
+end
+
+def emit_unhealthy_source_alerts(health)
+  unhealthy = NewsFeed.unhealthy_sources(health)
+  return if unhealthy.empty?
+
+  puts ''
+  puts "Unhealthy sources (>= #{NewsFeed::UNHEALTHY_FAILURE_THRESHOLD} consecutive failures):"
+  unhealthy.each do |name, entry|
+    failures = entry['consecutive_failures']
+    error = entry['error']
+    msg = "#{name}: #{failures} consecutive failures (#{error})"
+    puts "  #{msg}"
+    warn "::warning::News source unhealthy — #{msg}"
   end
+
+  summary = ENV['GITHUB_STEP_SUMMARY']
+  return if summary.to_s.empty?
+
+  File.open(summary, 'a') do |io|
+    io.puts '### Unhealthy news sources'
+    io.puts
+    io.puts "Sources with >= #{NewsFeed::UNHEALTHY_FAILURE_THRESHOLD} consecutive failures (still retried next run):"
+    io.puts
+    unhealthy.each do |name, entry|
+      io.puts "- **#{name}**: #{entry['consecutive_failures']} failures — `#{entry['error']}`"
+    end
+    io.puts
+  end
+rescue StandardError => e
+  warn "  Warning: could not write unhealthy-source summary (#{e.message})"
 end
 
 def fetch_news(health, previous_health: {})
   puts 'Fetching security news...'
+  puts "  Concurrency: #{NewsFeed::FEED_CONCURRENCY}, per-feed deadline: #{NewsFeed::FEED_DEADLINE_SECONDS}s"
+
+  feeds = active_rss_feeds(previous_health)
+  results = NewsFeed.map_concurrent(feeds, concurrency: NewsFeed::FEED_CONCURRENCY) do |feed|
+    local_health = {}
+    items = parse_feed(feed, local_health, previous_entry: previous_health[feed[:name]])
+    [feed[:name], items, local_health[feed[:name]]]
+  end
 
   all_items = []
-  feeds = active_rss_feeds(previous_health)
-  feeds.each do |feed|
-    items = parse_feed(feed, health)
+  results.each do |name, items, status|
+    health[name] = status if status
     all_items.concat(items)
-    status = health[feed[:name]]
-    suffix = status && status['ok'] ? "#{items.size} items (#{status['latency_ms']}ms)" : "FAILED (#{status && status['error']})"
-    puts "  #{feed[:name]}: #{suffix}"
-
-    # If this run hits 403 with the browser UA, record drop recommendation.
-    if NewsFeed.drop_feed_on_forbidden?(status)
-      health[feed[:name]]['dropped'] = true
-      warn "  Dropping #{feed[:name]} from future runs (403 Forbidden with browser UA)"
-    end
+    suffix =
+      if status && status['ok']
+        "#{items.size} items (#{status['latency_ms']}ms)"
+      elsif status && status['timed_out']
+        "TIMED OUT (#{status['latency_ms']}ms, consecutive_failures=#{status['consecutive_failures']})"
+      else
+        "FAILED (#{status && status['error']}, consecutive_failures=#{status && status['consecutive_failures']})"
+      end
+    puts "  #{name}: #{suffix}"
   end
 
-  # Mark intentionally skipped feeds in health for visibility.
-  (NewsFeed::RSS_FEEDS.map { |f| f[:name] } - feeds.map { |f| f[:name] }).each do |name|
-    health[name] ||= {
-      'ok' => false,
-      'error' => 'dropped after persistent 403 Forbidden',
-      'items' => 0,
-      'dropped' => true
-    }
-  end
-
-  beazley = fetch_beazley_articles(health)
+  beazley = fetch_beazley_articles(health, previous_health: previous_health)
   all_items.concat(beazley)
   puts "  Beazley Security Labs: #{beazley.size} items"
 
+  emit_unhealthy_source_alerts(health)
   all_items
 end
 
@@ -240,7 +315,7 @@ def previous_source_health
   data = NewsFeed.load_json_file(NewsFeed::OUTPUT_FILE)
   return {} unless data.is_a?(Hash)
 
-  data['source_health'] || {}
+  NewsFeed.normalize_source_health(data['source_health'] || {})
 rescue StandardError
   {}
 end
@@ -250,7 +325,8 @@ def main(argv)
   puts 'RSS News Fetcher (additive archive)'
   puts '=' * 50
 
-  health = {}
+  previous_health = previous_source_health
+  health = previous_health.dup
   restore_only = argv.include?('--restore-only')
   skip_fetch = argv.include?('--skip-fetch') || restore_only
 
@@ -260,11 +336,17 @@ def main(argv)
       puts "Loading fixtures from #{path}"
       load_items_from_json(path)
     elsif skip_fetch
-      puts 'Skipping live feed fetch'
+      puts 'Skipping live feed fetch (preserving source_health, clearing dropped flags)'
       []
     else
-      fetch_news(health, previous_health: previous_source_health)
+      live_health = {}
+      items = fetch_news(live_health, previous_health: previous_health)
+      health = NewsFeed.normalize_source_health(previous_health).merge(live_health)
+      items
     end
+
+  # Ensure legacy dropped flags never linger in the committed store.
+  health = NewsFeed.normalize_source_health(health)
 
   keyword_index = NewsFeed.build_match_index
   existing = NewsFeed.load_existing_store
