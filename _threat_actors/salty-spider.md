@@ -51,3 +51,4 @@ Beginning in January 2018 and persisting through the first half of the year, Cro
   BleepingComputer — 2026-09-02
 - [Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads](https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html)
   The Hacker News — 2026-09-02
+

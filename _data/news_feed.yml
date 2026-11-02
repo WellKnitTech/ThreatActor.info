@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-01T15:14:15Z",
+  "updated": "2026-11-02T09:10:14Z",
   "window_days": 14,
   "display_items": 100,
-  "item_count_total": 604,
+  "item_count_total": 610,
   "item_count": 100,
   "retention": "additive_archive",
   "archive_dir": "data/news/archive",
@@ -19,12 +19,12 @@
     },
     {
       "month": "2026-10",
-      "item_count": 274,
+      "item_count": 279,
       "path": "data/news/archive/2026-10.json"
     },
     {
       "month": "2026-11",
-      "item_count": 2,
+      "item_count": 3,
       "path": "data/news/archive/2026-11.json"
     }
   ],
@@ -56,169 +56,227 @@
   "source_health": {
     "BleepingComputer": {
       "ok": false,
-      "error": "403 Forbidden",
+      "error": "HTTP 403 Forbidden",
       "items": 0,
-      "latency_ms": 116,
-      "consecutive_failures": 3,
+      "latency_ms": 189,
+      "consecutive_failures": 4,
       "unhealthy": true
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 164,
+      "latency_ms": 2495,
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:14Z",
       "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 143,
+      "latency_ms": 184,
+      "url": "https://krebsonsecurity.com/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:12Z",
       "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 373,
+      "latency_ms": 1997,
+      "url": "https://www.darkreading.com/rss.xml",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:14Z",
       "unhealthy": false
     },
     "SecurityWeek": {
-      "ok": false,
-      "error": "403 Forbidden",
-      "items": 0,
-      "latency_ms": 94,
-      "consecutive_failures": 3,
-      "unhealthy": true
+      "ok": true,
+      "items": 10,
+      "latency_ms": 135,
+      "url": "https://www.securityweek.com/feed/",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:12Z",
+      "unhealthy": false
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 290,
+      "latency_ms": 187,
+      "url": "https://therecord.media/feed",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:12Z",
       "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 1050725,
+      "latency_ms": 1050643,
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T09:07:43Z",
       "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 126,
+      "latency_ms": 53,
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:12Z",
       "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 120,
+      "latency_ms": 9523,
+      "url": "https://blog.talosintelligence.com/rss/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:22Z",
       "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1023,
+      "latency_ms": 5423,
+      "url": "https://securelist.com/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:18Z",
       "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 239,
+      "latency_ms": 5350,
+      "url": "https://www.malwarebytes.com/blog/feed",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:18Z",
       "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 202,
+      "latency_ms": 687,
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:15Z",
       "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 314,
+      "latency_ms": 1291,
+      "url": "https://blog.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:16Z",
       "unhealthy": false
     },
     "Elastic Security": {
-      "ok": true,
-      "items": 15,
-      "latency_ms": 4958,
-      "consecutive_failures": 0,
+      "ok": false,
+      "error": "deadline exceeded (45s)",
+      "items": 0,
+      "latency_ms": 45535,
+      "timed_out": true,
+      "consecutive_failures": 1,
       "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 109,
+      "latency_ms": 7341,
+      "url": "https://blog.cloudflare.com/rss/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:23Z",
       "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 220,
+      "latency_ms": 1096,
+      "url": "https://blog.checkpoint.com/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:19Z",
       "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 338,
+      "latency_ms": 5078,
+      "url": "https://www.sentinelone.com/blog/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:23Z",
       "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 207,
+      "latency_ms": 1616,
+      "url": "https://www.rapid7.com/blog/rss",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:20Z",
       "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 530,
+      "latency_ms": 1805,
+      "url": "https://arstechnica.com/security/rss",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:22Z",
       "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 98,
+      "latency_ms": 1392,
+      "url": "https://techcrunch.com/tag/security/feed/",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:23Z",
       "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 131,
+      "latency_ms": 1540,
+      "url": "https://www.wired.com/feed/category/security/latest/rss",
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T08:50:24Z",
       "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 601,
+      "latency_ms": 538,
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T09:07:43Z",
       "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 366,
+      "latency_ms": 362,
       "consecutive_failures": 0,
+      "last_success_at": "2026-11-02T09:07:43Z",
       "unhealthy": false
     }
   },
   "items": [
+    {
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "canonical_url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "date": "2026-11-02T05:51:07Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
       "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
@@ -277,6 +335,23 @@
       "date": "2026-10-31T12:00:00Z",
       "source": "Wired Security",
       "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "link": "https://securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run",
+      "canonical_url": "https://securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run",
+      "date": "2026-10-31T11:00:00Z",
+      "source": "SecurityWeek",
+      "weight": 2,
       "cves": [
 
       ],
@@ -424,6 +499,23 @@
       ]
     },
     {
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "link": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
+      "canonical_url": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
+      "date": "2026-10-30T14:41:35Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
       "link": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
       "canonical_url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
@@ -496,6 +588,23 @@
       ]
     },
     {
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "link": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
+      "canonical_url": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
+      "date": "2026-10-30T12:04:13Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "canonical_url": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -530,11 +639,45 @@
       ]
     },
     {
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores ",
+      "link": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
+      "canonical_url": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
+      "date": "2026-10-30T11:07:11Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
       "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
       "canonical_url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
       "date": "2026-10-30T10:40:45Z",
       "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "link": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+      "canonical_url": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+      "date": "2026-10-30T09:41:36Z",
+      "source": "SecurityWeek",
       "weight": 2,
       "cves": [
 
@@ -1849,108 +1992,6 @@
       ],
       "tags": [
 
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
-      "date": "2026-10-23T12:00:00Z",
-      "source": "CISA Advisories",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "canonical_url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "date": "2026-10-23T11:25:43Z",
-      "source": "The Hacker News",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "canonical_url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "date": "2026-10-23T08:40:43Z",
-      "source": "The Hacker News",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-      "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-      "canonical_url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-      "date": "2026-10-23T07:40:45Z",
-      "source": "The Hacker News",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "State Bank of India Suffers a Customer PII Data Leak",
-      "link": "https://darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
-      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
-      "date": "2026-10-23T03:30:00Z",
-      "source": "DarkReading",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "How CVE-2026-73570 turns a Zimbra log file into remote code execution",
-      "link": "https://elastic.co/security-labs/threat-command/command-injection-zimbra-cve-2026-73570",
-      "canonical_url": "https://elastic.co/security-labs/threat-command/command-injection-zimbra-cve-2026-73570",
-      "date": "2026-10-23T00:00:00Z",
-      "source": "Elastic Security",
-      "weight": 2,
-      "cves": [
-        "CVE-2026-73570"
-      ],
-      "tags": [
-        "cve"
       ],
       "actors": [
 

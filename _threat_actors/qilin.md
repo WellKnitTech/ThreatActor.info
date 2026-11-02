@@ -78,3 +78,4 @@ Qilin is a ransomware group that first appeared in 2022 but had a breakout year 
   BleepingComputer — 2026-10-09 — tags: ransomware
 - [Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware](https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html)
   The Hacker News — 2026-09-11 — tags: ransomware
+

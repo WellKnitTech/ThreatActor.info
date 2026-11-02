@@ -119,21 +119,13 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 *Additional attribution information pending cataloguing.*
 
 ## References
-[1] [mitre-attack](https://attack.mitre.org/groups/G1024)
+[1] [MITRE ATT&CK](https://attack.mitre.org/groups/G1024)
+   MITRE ATT&CK entry
+[2] [Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/)
+[3] [Secureworks GOLD SAHARA](https://www.secureworks.com/research/threat-profiles/gold-sahara)
+[4] [BushidoToken Akira 2023](https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html)
 [5] [CISA Akira Ransomware APR 2024](https://www.cisa.gov/sites/default/files/2024-04/aa24-109a-stopransomware-akira-ransomware_2.pdf)
-   CISA et al. (2024, April 18). #StopRansomware: Akira Ransomware. Retrieved December 10, 2024.
-[6] [CrowdStrike PUNK SPIDER](https://www.crowdstrike.com/adversaries/punk-spider/)
-   CrowdStrike. (n.d.). Punk Spider. Retrieved February 20, 2024.
-[7] [Cisco Akira Ransomware OCT 2024](https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/)
-   Nutland, J. and Szeliga, M. (2024, October 21). Akira ransomware continues to evolve. Retrieved December 10, 2024.
-[8] [Secureworks GOLD SAHARA](https://www.secureworks.com/research/threat-profiles/gold-sahara)
-   Secureworks. (n.d.). GOLD SAHARA. Retrieved February 20, 2024.
-[9] [Arctic Wolf Akira 2023](https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/)
-   Steven Campbell, Akshay Suthar, & Connor Belfiorre. (2023, July 26). Conti and Akira: Chained Together. Retrieved February 20, 2024.
-[10] [BushidoToken Akira 2023](https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html)
-   Will Thomas. (2023, September 15). Tracking Adversaries: Akira, another descendent of Conti. Retrieved February 21, 2024.
-[11] [Palo Alto Howling Scorpius DEC 2024](https://unit42.paloaltonetworks.com/threat-assessment-howling-scorpius-akira-ransomware/)
-   Zemah, Y. (2024, December 2). Threat Assessment: Howling Scorpius (Akira Ransomware). Retrieved January 8, 2025.
+[6] [Cisco Akira Ransomware OCT 2024](https://blog.talosintelligence.com/akira-ransomware-continues-to-evolve/)
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

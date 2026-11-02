@@ -37,3 +37,4 @@ ransomware
   The Hacker News — 2026-10-24
 - [Abandoned Popcorn Time app exposed millions of devices to RCE attacks](https://bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks)
   BleepingComputer — 2026-10-23
+

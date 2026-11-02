@@ -1,5 +1,21 @@
 [
   {
+    "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+    "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+    "canonical_url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+    "date": "2026-11-02T05:51:07Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
     "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
     "canonical_url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
@@ -53,6 +69,22 @@
     "canonical_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
     "date": "2026-10-31T12:00:00Z",
     "source": "Cisco Talos",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+    "link": "https://securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run",
+    "canonical_url": "https://securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run",
+    "date": "2026-10-31T11:00:00Z",
+    "source": "SecurityWeek",
     "cves": [
 
     ],
@@ -192,6 +224,22 @@
     ]
   },
   {
+    "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+    "link": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
+    "canonical_url": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
+    "date": "2026-10-30T14:41:35Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
     "link": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
     "canonical_url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
@@ -260,6 +308,22 @@
     ]
   },
   {
+    "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+    "link": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
+    "canonical_url": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
+    "date": "2026-10-30T12:04:13Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
     "link": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
     "canonical_url": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -292,11 +356,43 @@
     ]
   },
   {
+    "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores ",
+    "link": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
+    "canonical_url": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
+    "date": "2026-10-30T11:07:11Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
     "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
     "canonical_url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
     "date": "2026-10-30T10:40:45Z",
     "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+    "link": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+    "canonical_url": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+    "date": "2026-10-30T09:41:36Z",
+    "source": "SecurityWeek",
     "cves": [
 
     ],
@@ -8207,114 +8303,6 @@
         "name": "APT28",
         "url": "/apt28",
         "matched_alias": "apt28"
-      }
-    ]
-  },
-  {
-    "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-    "link": "https://bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks",
-    "canonical_url": "https://bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks",
-    "date": "2026-08-27T16:31:53Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-    "link": "https://bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge",
-    "canonical_url": "https://bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge",
-    "date": "2026-08-27T14:00:10Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-    "link": "https://bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks",
-    "canonical_url": "https://bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks",
-    "date": "2026-08-27T13:31:13Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-      {
-        "name": "TeamPCP",
-        "url": "/teampcp",
-        "matched_alias": "teampcp"
-      }
-    ]
-  },
-  {
-    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-    "canonical_url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-    "date": "2026-08-27T11:56:26Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-      {
-        "name": "TeamPCP",
-        "url": "/teampcp",
-        "matched_alias": "teampcp"
-      }
-    ]
-  },
-  {
-    "title": "Russian Hackers Phish EU Officials Over Messaging Apps",
-    "link": "https://darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps",
-    "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps",
-    "date": "2026-08-27T11:16:01Z",
-    "source": "DarkReading",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia",
-    "canonical_url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia",
-    "date": "2026-08-27T11:04:15Z",
-    "source": "KrebsOnSecurity",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-      {
-        "name": "TeamPCP",
-        "url": "/teampcp",
-        "matched_alias": "teampcp"
       }
     ]
   }

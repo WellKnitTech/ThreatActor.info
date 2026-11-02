@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "item_count": 274,
+  "item_count": 279,
   "items": [
     {
       "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
@@ -26,6 +26,23 @@
       "date": "2026-10-31T12:00:00Z",
       "source": "Wired Security",
       "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "link": "https://securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run",
+      "canonical_url": "https://securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run",
+      "date": "2026-10-31T11:00:00Z",
+      "source": "SecurityWeek",
+      "weight": 2,
       "cves": [
 
       ],
@@ -173,6 +190,23 @@
       ]
     },
     {
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "link": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
+      "canonical_url": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
+      "date": "2026-10-30T14:41:35Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
       "link": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
       "canonical_url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
@@ -245,6 +279,23 @@
       ]
     },
     {
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "link": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
+      "canonical_url": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
+      "date": "2026-10-30T12:04:13Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "canonical_url": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -279,11 +330,45 @@
       ]
     },
     {
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores ",
+      "link": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
+      "canonical_url": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
+      "date": "2026-10-30T11:07:11Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
       "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
       "canonical_url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
       "date": "2026-10-30T10:40:45Z",
       "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "link": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+      "canonical_url": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+      "date": "2026-10-30T09:41:36Z",
+      "source": "SecurityWeek",
       "weight": 2,
       "cves": [
 

@@ -35,3 +35,4 @@ Similar to Samas and BitPaymer, Ryuk is specifically used to target enterprise e
 
 - [Ryuk ransomware member sentenced to 24 months in prison](https://bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison)
   BleepingComputer — 2026-09-23 — tags: ransomware
+
