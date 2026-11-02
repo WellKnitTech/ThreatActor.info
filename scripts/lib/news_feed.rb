@@ -43,10 +43,15 @@ module NewsFeed
     {
       name: 'BleepingComputer',
       url: 'https://www.bleepingcomputer.com/feed/',
+      # Bot 403s persist across www/apex and category paths; keep trying alternates
+      # each run. Google News site: RSS is intentionally omitted — it often wraps
+      # google.com/url redirects rather than canonical bleepingcomputer.com links.
       alternate_urls: [
         'https://bleepingcomputer.com/feed/',
         'https://www.bleepingcomputer.com/feed/news/',
-        'https://www.bleepingcomputer.com/feed/category/security/'
+        'https://www.bleepingcomputer.com/feed/category/security/',
+        'https://www.bleepingcomputer.com/news/feed/',
+        'https://feeds.feedburner.com/BleepingComputer'
       ],
       weight: 2,
       category: :security
@@ -944,17 +949,18 @@ module NewsFeed
       'User-Agent' => BROWSER_UA,
       'Accept' => 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
       'Accept-Language' => 'en-US,en;q=0.9',
+      # Prefer gzip so large advisory feeds (e.g. CISA) transfer faster when offered.
+      'Accept-Encoding' => 'gzip, deflate',
       'Cache-Control' => 'no-cache',
       'Pragma' => 'no-cache',
       'Connection' => 'close'
     }
   end
 
-  # Hard wall-clock deadline covering DNS/connect/TLS/read/redirects. MRI's
-  # Timeout.timeout alone is unreliable around blocked SSL reads; combine an
-  # interruptible worker thread with Net::HTTP open/read timeouts.
-  def fetch_url_with_deadline(url, deadline: FEED_DEADLINE_SECONDS, headers: browser_http_headers,
-                              open_timeout: OPEN_TIMEOUT, read_timeout: READ_TIMEOUT, fetcher: nil)
+  # Hard wall-clock deadline for an arbitrary block (fetch, parse, or both).
+  # MRI's Timeout.timeout alone is unreliable around blocked SSL reads / long
+  # CPU-bound XML parses; combine an interruptible worker thread with join.
+  def run_with_deadline(deadline)
     deadline = deadline.to_f
     raise ArgumentError, 'deadline must be positive' unless deadline.positive?
 
@@ -962,12 +968,7 @@ module NewsFeed
     error = nil
     worker = Thread.new do
       begin
-        result =
-          if fetcher
-            fetcher.call(url, headers: headers, open_timeout: open_timeout, read_timeout: read_timeout)
-          else
-            http_get_with_timeouts(url, headers: headers, open_timeout: open_timeout, read_timeout: read_timeout)
-          end
+        result = yield
       rescue Exception => e # rubocop:disable Lint/RescueException -- must surface to join
         error = e
       end
@@ -981,6 +982,53 @@ module NewsFeed
     raise error if error
 
     result
+  end
+
+  # Hard wall-clock deadline covering DNS/connect/TLS/read/redirects.
+  def fetch_url_with_deadline(url, deadline: FEED_DEADLINE_SECONDS, headers: browser_http_headers,
+                              open_timeout: OPEN_TIMEOUT, read_timeout: READ_TIMEOUT, fetcher: nil)
+    run_with_deadline(deadline) do
+      if fetcher
+        fetcher.call(url, headers: headers, open_timeout: open_timeout, read_timeout: read_timeout)
+      else
+        http_get_with_timeouts(url, headers: headers, open_timeout: open_timeout, read_timeout: read_timeout)
+      end
+    end
+  end
+
+  # Trim RSS/Atom XML to the first max_items entries before a full DOM parse.
+  # Huge advisory feeds (CISA) otherwise spend minutes inside RSS::Parser.parse
+  # *after* the HTTP fetch already finished — outside any prior deadline.
+  def trim_feed_xml(raw, max_items: MAX_PER_FEED)
+    text = raw.to_s
+    return text if text.empty? || max_items.to_i <= 0
+
+    item_tag = nil
+    if text.match?(/<item[\s>]/i)
+      item_tag = 'item'
+    elsif text.match?(/<entry[\s>]/i)
+      item_tag = 'entry'
+    else
+      return text
+    end
+
+    close_re = %r{</#{item_tag}\s*>}i
+    count = 0
+    last_end = nil
+    text.to_enum(:scan, close_re).each do
+      count += 1
+      last_end = Regexp.last_match.end(0)
+      break if count >= max_items
+    end
+    return text if last_end.nil? || count < max_items
+
+    # Keep the document head through the Nth item, then close the root element.
+    head = text[0...last_end]
+    if item_tag == 'item'
+      "#{head}\n</channel>\n</rss>\n"
+    else
+      "#{head}\n</feed>\n"
+    end
   end
 
   def http_get_with_timeouts(url, headers:, open_timeout:, read_timeout:, limit: 5)
@@ -1005,9 +1053,17 @@ module NewsFeed
       case response
       when Net::HTTPSuccess
         body = response.body.to_s
-        if response['Content-Encoding'].to_s.downcase.include?('gzip')
+        encoding = response['Content-Encoding'].to_s.downcase
+        if encoding.include?('gzip')
           require 'zlib'
           body = Zlib::GzipReader.new(StringIO.new(body)).read
+        elsif encoding.include?('deflate')
+          require 'zlib'
+          body = begin
+            Zlib::Inflate.new.inflate(body)
+          rescue Zlib::DataError
+            Zlib::Inflate.new(-Zlib::MAX_WINDOW_BITS).inflate(body)
+          end
         end
         body
       when Net::HTTPRedirection

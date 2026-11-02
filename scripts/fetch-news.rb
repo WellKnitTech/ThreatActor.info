@@ -40,7 +40,7 @@ def open_feed_within_budget(url, deadline_seconds)
   )
 end
 
-def parse_feed_items(raw, feed)
+def parse_feed_items_via_rss(raw, feed)
   items = []
   rss = RSS::Parser.parse(raw, false)
   return [items, 'unrecognized feed format'] unless rss && rss.respond_to?(:items)
@@ -69,25 +69,106 @@ def parse_feed_items(raw, feed)
   [items, nil]
 end
 
+# Prefer Nokogiri (already a Gemfile dependency) for large feeds; fall back to RSS::Parser.
+def parse_feed_items_via_nokogiri(raw, feed)
+  require 'nokogiri'
+  doc = Nokogiri::XML(raw) { |cfg| cfg.nonet }
+  nodes = doc.xpath('//item | //xmlns:item | //entry | //xmlns:entry')
+  return [[], 'unrecognized feed format'] if nodes.empty?
+
+  items = []
+  nodes.first(NewsFeed::MAX_PER_FEED).each do |node|
+    title = node.at_xpath('./title | ./xmlns:title')&.text.to_s.strip
+    link_node = node.at_xpath('./link | ./xmlns:link')
+    link =
+      if link_node.nil?
+        ''
+      elsif link_node['href']
+        link_node['href'].to_s.strip
+      else
+        link_node.text.to_s.strip
+      end
+    next if title.empty? || link.empty?
+
+    date =
+      node.at_xpath('./pubDate | ./xmlns:pubDate | ./published | ./xmlns:published | ' \
+                    './updated | ./xmlns:updated | ./dc:date | ./*[local-name()="date"]')&.text
+
+    items << {
+      title: title[0..200],
+      link: link,
+      date: date,
+      source: feed[:name],
+      weight: feed[:weight] || 1,
+      category: feed[:category] || :security
+    }
+  end
+
+  [items, items.empty? ? 'unrecognized feed format' : nil]
+rescue LoadError
+  parse_feed_items_via_rss(raw, feed)
+end
+
+def parse_feed_items(raw, feed)
+  trimmed = NewsFeed.trim_feed_xml(raw, max_items: NewsFeed::MAX_PER_FEED)
+  items, err = parse_feed_items_via_nokogiri(trimmed, feed)
+  return [items, err] if err.nil?
+
+  parse_feed_items_via_rss(trimmed, feed)
+end
+
+# Entire per-feed unit of work (URL fallbacks + HTTP fetch + XML trim/parse +
+# item extraction) must share one wall-clock budget. Nov 2 showed CISA's HTTP
+# fetch finishing inside 45s while RSS::Parser.parse of the huge advisories
+# body continued for ~1000s more outside the deadline (ok=true, latency≈1050s).
+def fetch_and_parse_feed_within_deadline(feed, deadline_seconds: NewsFeed::FEED_DEADLINE_SECONDS)
+  deadline_at = Time.now + deadline_seconds.to_f
+  fetch_ms = 0
+  parse_ms = 0
+  used_url = nil
+  items = nil
+
+  NewsFeed.run_with_deadline(deadline_seconds) do
+    used_url, raw = NewsFeed.with_feed_url_fallbacks(
+      NewsFeed.feed_urls(feed),
+      deadline_seconds: [deadline_at - Time.now, 0.05].max
+    ) do |url, remaining|
+      fetch_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+      body = open_feed_within_budget(url, remaining)
+      fetch_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - fetch_started) * 1000).round
+      body
+    end
+
+    parse_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    parsed, parse_error = parse_feed_items(raw, feed)
+    parse_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - parse_started) * 1000).round
+    raise StandardError, parse_error if parse_error
+
+    items = parsed
+  end
+
+  {
+    url: used_url,
+    items: items || [],
+    fetch_ms: fetch_ms,
+    parse_ms: parse_ms
+  }
+end
+
 def parse_feed(feed, health, previous_entry: nil)
   items = []
   started = Time.now
 
   begin
-    used_url, raw = NewsFeed.with_feed_url_fallbacks(
-      NewsFeed.feed_urls(feed),
-      deadline_seconds: NewsFeed::FEED_DEADLINE_SECONDS
-    ) do |url, remaining|
-      open_feed_within_budget(url, remaining)
-    end
-    items, parse_error = parse_feed_items(raw, feed)
-    raise StandardError, parse_error if parse_error
-
+    result = fetch_and_parse_feed_within_deadline(feed)
+    items = result[:items]
     entry = {
       'ok' => true,
       'items' => items.size,
       'latency_ms' => ((Time.now - started) * 1000).round,
-      'url' => used_url
+      'fetch_ms' => result[:fetch_ms],
+      'parse_ms' => result[:parse_ms],
+      'url' => result[:url]
     }
     health[feed[:name]] = NewsFeed.merge_source_health_entry(entry, previous_entry)
   rescue Timeout::Error
@@ -148,14 +229,23 @@ def fetch_beazley_articles(health, previous_health: {})
     started = Time.now
     previous_entry = previous_health[feed[:source]]
     begin
-      raw = open_feed(feed[:url])
-      parsed = parse_beazley_atom_entries(raw, feed[:source])
+      parsed = NewsFeed.run_with_deadline(NewsFeed::FEED_DEADLINE_SECONDS) do
+        fetch_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+        raw = open_feed_within_budget(feed[:url], NewsFeed::FEED_DEADLINE_SECONDS)
+        fetch_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - fetch_started) * 1000).round
+        parse_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+        items = parse_beazley_atom_entries(raw, feed[:source])
+        parse_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - parse_started) * 1000).round
+        { items: items, fetch_ms: fetch_ms, parse_ms: parse_ms }
+      end
       entry = {
         'ok' => true,
-        'items' => parsed.size,
-        'latency_ms' => ((Time.now - started) * 1000).round
+        'items' => parsed[:items].size,
+        'latency_ms' => ((Time.now - started) * 1000).round,
+        'fetch_ms' => parsed[:fetch_ms],
+        'parse_ms' => parsed[:parse_ms]
       }
-      [feed[:source], parsed, NewsFeed.merge_source_health_entry(entry, previous_entry)]
+      [feed[:source], parsed[:items], NewsFeed.merge_source_health_entry(entry, previous_entry)]
     rescue Timeout::Error
       entry = {
         'ok' => false,
@@ -240,7 +330,11 @@ def fetch_news(health, previous_health: {})
     all_items.concat(items)
     suffix =
       if status && status['ok']
-        "#{items.size} items (#{status['latency_ms']}ms)"
+        phases = ''
+        if status['fetch_ms'] || status['parse_ms']
+          phases = " fetch_ms=#{status['fetch_ms']} parse_ms=#{status['parse_ms']}"
+        end
+        "#{items.size} items (#{status['latency_ms']}ms#{phases})"
       elsif status && status['timed_out']
         "TIMED OUT (#{status['latency_ms']}ms, consecutive_failures=#{status['consecutive_failures']})"
       else
@@ -284,8 +378,13 @@ def save_news(output)
   puts "Items in archive: #{output['item_count_total']}"
   puts "Items on /news/ display: #{output['item_count']}"
   puts "Actors with news: #{matched}"
-  dead = output['source_health'].count { |_, v| !v['ok'] }
-  puts "Unhealthy sources: #{dead}" if dead.positive?
+  # Count only sources that crossed the unhealthy threshold — not every
+  # single-run failure (e.g. one Elastic timeout). Matches step-summary list.
+  unhealthy = NewsFeed.unhealthy_sources(output['source_health'])
+  puts "Unhealthy sources: #{unhealthy.size}" if unhealthy.any?
+  unhealthy.each do |name, entry|
+    puts "  - #{name}: #{entry['consecutive_failures']} failures (#{entry['error']})"
+  end
 end
 
 def previous_source_health
