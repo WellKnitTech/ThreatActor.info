@@ -70,16 +70,18 @@ def parse_feed_items_via_rss(raw, feed)
 end
 
 # Prefer Nokogiri (already a Gemfile dependency) for large feeds; fall back to RSS::Parser.
+# Use local-name() selectors so undeclared xmlns:/dc: prefixes cannot raise
+# Nokogiri::XML::XPath::SyntaxError on ordinary RSS/Atom documents.
 def parse_feed_items_via_nokogiri(raw, feed)
   require 'nokogiri'
   doc = Nokogiri::XML(raw) { |cfg| cfg.nonet }
-  nodes = doc.xpath('//item | //xmlns:item | //entry | //xmlns:entry')
+  nodes = doc.xpath('//*[local-name()="item" or local-name()="entry"]')
   return [[], 'unrecognized feed format'] if nodes.empty?
 
   items = []
   nodes.first(NewsFeed::MAX_PER_FEED).each do |node|
-    title = node.at_xpath('./title | ./xmlns:title')&.text.to_s.strip
-    link_node = node.at_xpath('./link | ./xmlns:link')
+    title = node.at_xpath('./*[local-name()="title"]')&.text.to_s.strip
+    link_node = node.at_xpath('./*[local-name()="link"]')
     link =
       if link_node.nil?
         ''
@@ -91,8 +93,10 @@ def parse_feed_items_via_nokogiri(raw, feed)
     next if title.empty? || link.empty?
 
     date =
-      node.at_xpath('./pubDate | ./xmlns:pubDate | ./published | ./xmlns:published | ' \
-                    './updated | ./xmlns:updated | ./dc:date | ./*[local-name()="date"]')&.text
+      node.at_xpath(
+        './*[local-name()="pubDate" or local-name()="published" or ' \
+        'local-name()="updated" or local-name()="date"]'
+      )&.text
 
     items << {
       title: title[0..200],
@@ -106,6 +110,9 @@ def parse_feed_items_via_nokogiri(raw, feed)
 
   [items, items.empty? ? 'unrecognized feed format' : nil]
 rescue LoadError
+  parse_feed_items_via_rss(raw, feed)
+rescue StandardError
+  # XPath/parse failures must not skip the RSS::Parser fallback.
   parse_feed_items_via_rss(raw, feed)
 end
 

@@ -1069,8 +1069,17 @@ end
 def upsert_recent_news_section(content, news_lines)
   # Remove any existing Recent News section, then insert the new one after References
   # (or before CISA KEV / at end of body if References is missing).
+  had_news = content.match?(/^## Recent News\n/)
   without_news = content.sub(/^## Recent News\n.*?(?=^## |\z)/m, '')
-  return without_news.rstrip + "\n" if news_lines.nil? || news_lines.empty?
+
+  if news_lines.nil? || news_lines.empty?
+    # No news rows: leave the page byte-identical unless we are clearing a stale
+    # Recent News section. Never rstrip the whole file — that drops the trailing
+    # blank after a final References section and false-trips the contract guard.
+    return content unless had_news
+
+    return without_news.sub(/\n*\z/, "\n")
+  end
 
   block = news_lines.join("\n").rstrip + "\n\n"
   if without_news =~ /^## References\n/
@@ -1081,7 +1090,7 @@ def upsert_recent_news_section(content, news_lines)
       "#{refs_block}\n#{block}"
     end
   else
-    without_news.rstrip + "\n\n" + block
+    without_news.sub(/\n*\z/, "\n\n") + block
   end
 end
 
