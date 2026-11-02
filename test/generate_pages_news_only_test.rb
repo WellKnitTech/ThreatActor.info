@@ -69,10 +69,9 @@ class GeneratePagesNewsOnlyTest < Minitest::Test
       File.write(File.join(dir, '_data', 'references.json'), '{}')
 
       # Run generate-pages in the temp tree by chdir.
-      env = { 'VERBOSE' => nil }
       cmd = [RbConfig.ruby, SCRIPT, '--news-only', '--actor', 'OilRig']
-      stdout, stderr, status = Open3.capture3(env, *cmd, chdir: dir)
-      assert status.success?, "news-only failed: #{stderr}\n#{stdout}"
+      stdout, stderr, status = Open3.capture3(*cmd, chdir: dir)
+      assert status.success?, "news-only failed (status=#{status.exitstatus}): #{stderr}\n#{stdout}"
 
       updated = File.read(File.join(pages_dir, 'oilrig.md'))
       refs = updated[/^## References\n(.*?)(?=^## |\z)/m, 1]
@@ -81,13 +80,16 @@ class GeneratePagesNewsOnlyTest < Minitest::Test
       assert_includes refs, 'mitre-attack'
       assert_includes updated, '## Recent News'
       assert_includes updated, 'OilRig hits energy sector'
+      # Footnote bodies must survive the Recent News upsert.
+      assert_match(/Check Point\. \(2021, April 8\)/, refs)
 
       # Full --force with empty cache must still preserve richer existing refs.
-      stdout2, stderr2, status2 = Open3.capture3(env, RbConfig.ruby, SCRIPT, '--force', '--actor', 'OilRig', chdir: dir)
-      assert status2.success?, "force failed: #{stderr2}\n#{stdout2}"
+      stdout2, stderr2, status2 = Open3.capture3(RbConfig.ruby, SCRIPT, '--force', '--actor', 'OilRig', chdir: dir)
+      assert status2.success?, "force failed (status=#{status2.exitstatus}): #{stderr2}\n#{stdout2}"
       forced = File.read(File.join(pages_dir, 'oilrig.md'))
       refs2 = forced[/^## References\n(.*?)(?=^## |\z)/m, 1]
       assert_includes refs2, 'Check Point APT34 April 2021'
+      assert_match(/Check Point\. \(2021, April 8\)/, refs2)
     end
   end
 end

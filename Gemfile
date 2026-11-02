@@ -15,3 +15,7 @@ gem "minitest", "~> 5.0"
 
 # Importer dependencies (HTML/XML parsing for threat group sources)
 gem "nokogiri"
+
+# Bundled with MRI but hidden under `bundle exec` unless declared — required by
+# scripts/fetch-news.rb and its unit tests.
+gem "rss"

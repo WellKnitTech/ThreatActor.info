@@ -1075,11 +1075,18 @@ def upsert_recent_news_section(content, news_lines)
   block = news_lines.join("\n").rstrip + "\n\n"
   if without_news =~ /^## References\n/
     without_news.sub(/^(## References\n.*?)(?=^## |\z)/m) do |match|
-      "#{match.rstrip}\n\n#{block}"
+      # Keep the References block intact (including its internal blank lines);
+      # only ensure a single blank line before the inserted Recent News block.
+      refs_block = match.sub(/[ \t]+\z/, '').sub(/\n*\z/, "\n")
+      "#{refs_block}\n#{block}"
     end
   else
     without_news.rstrip + "\n\n" + block
   end
+end
+
+def normalize_section_body(text)
+  text.to_s.gsub("\r\n", "\n").rstrip + "\n"
 end
 
 def update_recent_news_only!(actors, dry_run: false)
@@ -1100,13 +1107,14 @@ def update_recent_news_only!(actors, dry_run: false)
       refs_before = extract_markdown_section_body(page_path, 'References')
       news_lines = build_recent_news_lines(actor, news_data)
       updated = upsert_recent_news_section(original, news_lines)
-      # Contract: news-only must not rewrite References.
-      refs_after_content = updated
+      # Contract: news-only must not rewrite References footnote content.
+      # Compare normalized bodies so trailing blank-line churn from section
+      # splicing cannot false-positive the guard.
       refs_after = begin
-        match = refs_after_content.match(/^## References\n(.*?)(?=^## |\z)/m)
+        match = updated.match(/^## References\n(.*?)(?=^## |\z)/m)
         match ? match[1] : nil
       end
-      if refs_before.to_s != refs_after.to_s
+      if normalize_section_body(refs_before) != normalize_section_body(refs_after)
         raise "References section changed unexpectedly for #{name}"
       end
 

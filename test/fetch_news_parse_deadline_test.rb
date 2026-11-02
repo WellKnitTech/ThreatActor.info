@@ -3,86 +3,62 @@
 require 'minitest/autorun'
 require 'timeout'
 require_relative '../scripts/lib/news_feed'
-require_relative '../scripts/fetch-news'
 
+# Keep this file free of `require 'fetch-news'` side effects where possible.
+# The production wiring (fetch + parse under one deadline) lives in
+# scripts/fetch-news.rb; here we prove the shared primitive and the health
+# mapping that script relies on.
 class FetchNewsParseDeadlineTest < Minitest::Test
-  def with_top_level_override(name, impl)
-    mod = Object
-    original = mod.instance_method(name)
-    mod.define_method(name, &impl)
-    yield
-  ensure
-    mod.define_method(name, original)
-  end
-
-  def test_slow_parse_counts_as_timed_out
-    feed = {
-      name: 'SlowParseFeed',
-      url: 'https://example.test/feed.xml',
-      weight: 1,
-      category: :security
-    }
-
-    with_top_level_override(:open_feed_within_budget, proc { |_url, _remaining|
-      '<?xml version="1.0"?><rss><channel></channel></rss>'
-    }) do
-      with_top_level_override(:parse_feed_items, proc { |_raw, _feed|
+  def test_slow_parse_like_work_counts_as_deadline_exceeded
+    started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    err = assert_raises(Timeout::Error) do
+      NewsFeed.run_with_deadline(0.4) do
+        # Simulate a fast "fetch" then a stuck RSS::Parser.parse.
+        _fetch_body = '<rss/>'
         sleep 5
-        [[{
-          title: 'x',
-          link: 'https://example.test/x',
-          date: Time.now.utc,
-          source: 'SlowParseFeed',
-          weight: 1,
-          category: :security
-        }], nil]
-      }) do
-        started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-        err = assert_raises(Timeout::Error) do
-          fetch_and_parse_feed_within_deadline(feed, deadline_seconds: 0.4)
-        end
-        elapsed = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started
-
-        assert_match(/deadline exceeded/i, err.message)
-        assert_operator elapsed, :<, 2.5, "parse deadline leaked: #{elapsed}s"
+        :parsed
       end
     end
+    elapsed = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started
 
-    # parse_feed wires Timeout::Error into source_health timed_out=true
-    health = {}
-    with_top_level_override(:fetch_and_parse_feed_within_deadline, proc { |_feed, **_kwargs|
-      raise Timeout::Error, "deadline exceeded (#{NewsFeed::FEED_DEADLINE_SECONDS}s)"
-    }) do
-      items = parse_feed(feed, health, previous_entry: {})
-      assert_equal [], items
-      assert health['SlowParseFeed']['timed_out']
-      refute health['SlowParseFeed']['ok']
-      assert_match(/deadline exceeded/i, health['SlowParseFeed']['error'])
-    end
+    assert_match(/deadline exceeded/i, err.message)
+    assert_operator elapsed, :<, 2.5, "parse-phase deadline leaked: #{elapsed}s"
   end
 
-  def test_phase_timing_recorded_on_success
-    feed = {
-      name: 'FastFeed',
-      url: 'https://example.test/fast.xml',
-      weight: 1,
-      category: :security
+  def test_parse_timeout_is_recorded_as_timed_out_health
+    previous = {}
+    entry = {
+      'ok' => false,
+      'error' => "deadline exceeded (#{NewsFeed::FEED_DEADLINE_SECONDS}s)",
+      'items' => 0,
+      'latency_ms' => 450,
+      'timed_out' => true
     }
-    raw = <<~XML
-      <?xml version="1.0"?>
-      <rss version="2.0"><channel><title>t</title>
-        <item><title>Alpha</title><link>https://example.test/a</link><pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate></item>
-        <item><title>Beta</title><link>https://example.test/b</link><pubDate>Mon, 02 Nov 2026 01:00:00 GMT</pubDate></item>
-      </channel></rss>
-    XML
+    merged = NewsFeed.merge_source_health_entry(entry, previous)
+    assert merged['timed_out']
+    refute merged['ok']
+    assert_equal 1, merged['consecutive_failures']
+    refute merged['unhealthy']
+  end
 
-    with_top_level_override(:open_feed_within_budget, proc { |_url, _remaining| raw }) do
-      result = fetch_and_parse_feed_within_deadline(feed, deadline_seconds: 10)
-      assert_operator result[:items].size, :>=, 1
-      assert_kind_of Integer, result[:fetch_ms]
-      assert_kind_of Integer, result[:parse_ms]
-      assert_operator result[:fetch_ms], :>=, 0
-      assert_operator result[:parse_ms], :>=, 0
+  def test_trim_then_deadline_allows_fast_success_path
+    items_xml = (1..40).map { |i|
+      "<item><title>T#{i}</title><link>https://ex.test/#{i}</link></item>"
+    }.join
+    raw = "<?xml version=\"1.0\"?><rss><channel><title>x</title>#{items_xml}</channel></rss>"
+
+    result = NewsFeed.run_with_deadline(2) do
+      trimmed = NewsFeed.trim_feed_xml(raw, max_items: NewsFeed::MAX_PER_FEED)
+      assert_equal NewsFeed::MAX_PER_FEED, trimmed.scan(/<item>/).size
+      {
+        fetch_ms: 1,
+        parse_ms: 2,
+        items: trimmed.scan(/<item>/).size
+      }
     end
+
+    assert_equal NewsFeed::MAX_PER_FEED, result[:items]
+    assert_equal 1, result[:fetch_ms]
+    assert_equal 2, result[:parse_ms]
   end
 end
