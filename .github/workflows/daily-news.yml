@@ -38,8 +38,11 @@ jobs:
       - name: Fetch security news
         run: ruby scripts/fetch-news.rb
 
+      # News-only: refresh ## Recent News without regenerating References/TTPs/IOCs.
+      # Full --force was stripping MITRE citation footnotes whenever
+      # `_data/references.json` lagged the weekly import (not staged historically).
       - name: Generate pages
-        run: ruby scripts/generate-pages.rb --force
+        run: ruby scripts/generate-pages.rb --news-only
 
       - name: Generate API indexes
         run: ruby scripts/generate-indexes.rb

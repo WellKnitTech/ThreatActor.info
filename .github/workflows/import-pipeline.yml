@@ -203,6 +203,7 @@ jobs:
             _data/actors
             _threat_actors
             _data/generated
+            _data/references.json
             _malware
             api
             data/imports

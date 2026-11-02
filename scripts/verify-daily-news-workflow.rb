@@ -16,6 +16,8 @@ failures = []
 failures << 'daily-news must grant actions: write for post-push workflow dispatch' unless workflow.match?(/actions:\s*write/)
 failures << 'daily-news must grant contents: write' unless workflow.match?(/contents:\s*write/)
 failures << 'daily-news must run scripts/fetch-news.rb' unless workflow.match?(/ruby\s+scripts\/fetch-news\.rb/)
+failures << 'daily-news must refresh pages with generate-pages.rb --news-only (not --force)' unless workflow.match?(/ruby\s+scripts\/generate-pages\.rb\s+--news-only/)
+failures << 'daily-news must not force-regenerate full actor pages' if workflow.match?(/generate-pages\.rb\s+--force/)
 failures << 'daily-news commit step must record changed=true|false' unless workflow.match?(/changed=true/) && workflow.match?(/changed=false/)
 failures << 'daily-news push step must only run when commit changed' unless workflow.match?(/steps\.commit\.outputs\.changed\s*==\s*'true'/)
 failures << 'daily-news must dispatch Deploy GitHub Pages after a news push' unless workflow.match?(/gh\s+workflow\s+run\s+\"Deploy GitHub Pages\"\s+--ref\s+main/)

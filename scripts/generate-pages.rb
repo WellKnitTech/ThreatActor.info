@@ -5,11 +5,14 @@
 #
 # Usage:
 #   ruby scripts/generate-pages.rb              # Generate all pages
-#   ruby scripts/generate-pages.rb --force    # Overwrite existing pages
-#   ruby scripts/generate-pages.rb --dry-run   # Preview without writing
+#   ruby scripts/generate-pages.rb --force       # Overwrite existing pages
+#   ruby scripts/generate-pages.rb --news-only   # Refresh Recent News only (daily)
+#   ruby scripts/generate-pages.rb --dry-run     # Preview without writing
 #
 # This script reads from _data/actors/*.yml and generates page content
 # from the YAML data, preserving manually-enriched pages.
+# Daily news workflows should use --news-only so References / TTPs / IOCs
+# are not rewritten from a stale `_data/references.json` cache.
 
 require 'fileutils'
 require 'yaml'
@@ -47,16 +50,22 @@ options = {
   force: false,
   dry_run: false,
   verbose: false,
+  news_only: false,
   actor_filters: []
 }
 
 OptionParser.new do |opts|
   opts.banner = "Usage: ruby scripts/generate-pages.rb [options]"
   opts.on("--force", "Overwrite existing pages") { |v| options[:force] = v }
+  opts.on("--news-only", "Only refresh ## Recent News on existing pages") { |v| options[:news_only] = v }
   opts.on("--dry-run", "Preview only, don't write") { |v| options[:dry_run] = v }
   opts.on("--actor NAME", "Generate a specific actor by name or slug (repeatable)") { |value| options[:actor_filters] << value }
   opts.on("-v", "--verbose", "Show detailed output") { |v| options[:verbose] = v }
 end.parse!
+
+if options[:news_only] && options[:force]
+  warn 'Note: --news-only ignores --force (Recent News upsert only).'
+end
 
 def log(msg)
   puts msg if ENV['VERBOSE'] || $VERBOSE
@@ -844,96 +853,44 @@ if actor_refs && actor_refs.any?
   sections[0] = "## Introduction"
   sections[1] = description
   
-  # References - numbered footnotes
-sections << "## References"
+  # References - numbered footnotes. Prefer an existing richer References section
+  # when the YAML/cache lookup would collapse to a MITRE-only fallback (daily
+  # --force historically flip-flopped OilRig/Wizard Spider/etc. against weekly).
+  computed_ref_lines = []
   if citations.any?
     citations.each do |cite|
-      # Handle both symbol and string keys
       url = cite[:url] || cite["url"] || ""
       source = cite[:source] || cite["source"] || "source"
       desc = cite[:description] || cite["description"] || ""
       id_val = cite[:id] || cite["id"]
-      
+
       next if id_val.nil? || url.empty?
-      
-      # Format: [1] Source: Description  
-      sections << "[#{id_val}] [#{source}](#{url})"
-      sections << "   #{desc}" if !desc.empty? && desc != "Referenced in description"
+
+      computed_ref_lines << "[#{id_val}] [#{source}](#{url})"
+      computed_ref_lines << "   #{desc}" if !desc.empty? && desc != "Referenced in description"
     end
   elsif actor['external_url']
-    sections << "[1] [MITRE ATT&CK](#{actor['external_url']})"
+    computed_ref_lines << "[1] [MITRE ATT&CK](#{actor['external_url']})"
+    computed_ref_lines << "   MITRE ATT&CK entry"
   else
-    sections << "*References pending cataloguing.*"
+    computed_ref_lines << "*References pending cataloguing.*"
   end
-  sections << ""
-  
-  # Recent News (from RSS feed)
-  news_file = '_data/news_feed.yml'
-  if File.exist?(news_file)
-    begin
-      # Try JSON format first, then YAML
-      news_data = nil
-      content = File.read(news_file).strip
-      if content.start_with?('{')
-        news_data = JSON.parse(content)
-      else
-        news_data = YAML.safe_load(content, permitted_classes: [], aliases: false)
-      end
-      
-      if news_data
-        actor_name = actor['name']
-        
-        # Use string keys
-        actor_news = news_data['actor_news'] && news_data['actor_news'][actor_name]
-        
-        if !actor_news && news_data['actor_news']
-          # Try case-insensitive match
-          news_data['actor_news'].each do |k, v|
-            if k.to_s.downcase == actor_name.to_s.downcase
-              actor_news = v
-              break
-            end
-          end
-        end
-        
-        if actor_news && actor_news.any?
-          # actor_news accumulates all matched items (newest first). Show a
-          # short recent list on the page and link to the full /news/ archive.
-          news_rows = Array(actor_news)
-          display_limit = defined?(NewsFeed::MAX_PER_ACTOR_DISPLAY) ? NewsFeed::MAX_PER_ACTOR_DISPLAY : 8
-          visible = news_rows.first(display_limit)
-          sections << "## Recent News"
-          sections << "*Latest articles from security news feeds mentioning this actor.*"
-          sections << ""
-          visible.each do |news_item|
-            title = sanitize_news_markdown_text(news_item['title'])
-            link = sanitize_news_markdown_url(news_item['link'])
-            source = sanitize_news_markdown_text(news_item['source'])
-            date = news_item['date'].to_s
-            cves = Array(news_item['cves']).compact.reject(&:empty?).map { |cve| sanitize_news_markdown_text(cve) }
-            tags = Array(news_item['tags']).compact.reject(&:empty?).map { |tag| sanitize_news_markdown_text(tag) }
-            next if title.empty? || link.nil?
 
-            sections << "- [#{title}](#{link})"
-            meta = []
-            meta << source unless source.empty?
-            meta << date[0..9] if date.length >= 10
-            meta.concat(cves.first(3)) if cves.any?
-            meta << "tags: #{tags.join(', ')}" if tags.any?
-            sections << "  #{meta.join(' — ')}" unless meta.empty?
-          end
-          if news_rows.size > visible.size
-            sections << ""
-            sections << "*#{news_rows.size} matched articles total. [Browse all security news](/news/archive/).* "
-          end
-          sections << ""
-        end
-      end
-    rescue
-      # Skip if news file has issues
+  existing_ref_body = extract_markdown_section_body(actor['__page_path'], 'References')
+  ref_lines =
+    if prefer_existing_references?(existing_ref_body, computed_ref_lines)
+      existing_ref_body.rstrip.split("\n")
+    else
+      computed_ref_lines
     end
-  end
-  
+
+  sections << "## References"
+  sections.concat(ref_lines)
+  sections << ""
+
+  news_lines = build_recent_news_lines(actor)
+  sections.concat(news_lines) if news_lines.any?
+
   # CISA KEV CVEs (if present)
   if actor['cisa_kev_cves'] && actor['cisa_kev_cves'].any?
     sections << "## CISA Known Exploited Vulnerabilities (KEV)"
@@ -1014,6 +971,166 @@ def build_metadata_fallback_description(actor)
   fragments.join(' ')
 end
 
+def load_news_feed_data
+  news_file = '_data/news_feed.yml'
+  return nil unless File.exist?(news_file)
+
+  content = File.read(news_file).strip
+  if content.start_with?('{')
+    JSON.parse(content)
+  else
+    YAML.safe_load(content, permitted_classes: [], aliases: false)
+  end
+rescue StandardError
+  nil
+end
+
+def actor_news_rows_for(actor, news_data)
+  return [] unless news_data.is_a?(Hash)
+
+  actor_name = actor['name'].to_s
+  table = news_data['actor_news']
+  return [] unless table.is_a?(Hash)
+
+  rows = table[actor_name]
+  if rows.nil?
+    table.each do |key, value|
+      if key.to_s.downcase == actor_name.downcase
+        rows = value
+        break
+      end
+    end
+  end
+  Array(rows)
+end
+
+def build_recent_news_lines(actor, news_data = nil)
+  news_data ||= load_news_feed_data
+  actor_news = actor_news_rows_for(actor, news_data)
+  return [] if actor_news.empty?
+
+  news_rows = Array(actor_news)
+  display_limit = defined?(NewsFeed::MAX_PER_ACTOR_DISPLAY) ? NewsFeed::MAX_PER_ACTOR_DISPLAY : 8
+  visible = news_rows.first(display_limit)
+  lines = []
+  lines << '## Recent News'
+  lines << '*Latest articles from security news feeds mentioning this actor.*'
+  lines << ''
+  visible.each do |news_item|
+    title = sanitize_news_markdown_text(news_item['title'])
+    link = sanitize_news_markdown_url(news_item['link'])
+    source = sanitize_news_markdown_text(news_item['source'])
+    date = news_item['date'].to_s
+    cves = Array(news_item['cves']).compact.reject(&:empty?).map { |cve| sanitize_news_markdown_text(cve) }
+    tags = Array(news_item['tags']).compact.reject(&:empty?).map { |tag| sanitize_news_markdown_text(tag) }
+    next if title.empty? || link.nil?
+
+    lines << "- [#{title}](#{link})"
+    meta = []
+    meta << source unless source.empty?
+    meta << date[0..9] if date.length >= 10
+    meta.concat(cves.first(3)) if cves.any?
+    meta << "tags: #{tags.join(', ')}" if tags.any?
+    lines << "  #{meta.join(' — ')}" unless meta.empty?
+  end
+  if news_rows.size > visible.size
+    lines << ''
+    lines << "*#{news_rows.size} matched articles total. [Browse all security news](/news/archive/).* "
+  end
+  lines << ''
+  lines
+end
+
+def extract_markdown_section_body(page_path, heading)
+  return nil if page_path.to_s.empty? || !File.exist?(page_path)
+
+  content = File.read(page_path)
+  pattern = /^## #{Regexp.escape(heading)}\n(.*?)(?=^## |\z)/m
+  match = content.match(pattern)
+  match ? match[1] : nil
+end
+
+def reference_footnote_count(text_or_lines)
+  text = text_or_lines.is_a?(Array) ? text_or_lines.join("\n") : text_or_lines.to_s
+  text.scan(/^\[\d+\]/).size
+end
+
+def prefer_existing_references?(existing_body, computed_lines)
+  return false if existing_body.nil? || existing_body.strip.empty?
+  return false if existing_body.include?('*References pending cataloguing.*')
+
+  existing_count = reference_footnote_count(existing_body)
+  computed_count = reference_footnote_count(computed_lines)
+  # Keep the on-disk section when it is materially richer than what YAML/cache
+  # can rebuild (typical when `_data/references.json` was not committed).
+  existing_count > computed_count && existing_count > 1
+end
+
+def upsert_recent_news_section(content, news_lines)
+  # Remove any existing Recent News section, then insert the new one after References
+  # (or before CISA KEV / at end of body if References is missing).
+  without_news = content.sub(/^## Recent News\n.*?(?=^## |\z)/m, '')
+  return without_news.rstrip + "\n" if news_lines.nil? || news_lines.empty?
+
+  block = news_lines.join("\n").rstrip + "\n\n"
+  if without_news =~ /^## References\n/
+    without_news.sub(/^(## References\n.*?)(?=^## |\z)/m) do |match|
+      "#{match.rstrip}\n\n#{block}"
+    end
+  else
+    without_news.rstrip + "\n\n" + block
+  end
+end
+
+def update_recent_news_only!(actors, dry_run: false)
+  news_data = load_news_feed_data
+  stats = { updated: 0, unchanged: 0, skipped: 0, errors: 0 }
+
+  actors.each do |actor|
+    name = actor['name'] || 'Unknown'
+    url = actor['url'].to_s.gsub(%r{^/|/$}, '')
+    page_path = File.join(PAGE_DIR, "#{url}.md")
+    unless File.exist?(page_path)
+      stats[:skipped] += 1
+      next
+    end
+
+    begin
+      original = File.read(page_path)
+      refs_before = extract_markdown_section_body(page_path, 'References')
+      news_lines = build_recent_news_lines(actor, news_data)
+      updated = upsert_recent_news_section(original, news_lines)
+      # Contract: news-only must not rewrite References.
+      refs_after_content = updated
+      refs_after = begin
+        match = refs_after_content.match(/^## References\n(.*?)(?=^## |\z)/m)
+        match ? match[1] : nil
+      end
+      if refs_before.to_s != refs_after.to_s
+        raise "References section changed unexpectedly for #{name}"
+      end
+
+      if updated == original
+        stats[:unchanged] += 1
+        next
+      end
+
+      if dry_run
+        puts "DRYRUN #{name} would refresh Recent News"
+      else
+        File.write(page_path, updated.end_with?("\n") ? updated : "#{updated}\n")
+        puts "NEWS    #{name}"
+      end
+      stats[:updated] += 1
+    rescue StandardError => e
+      puts "ERROR #{name}: #{e.message}"
+      stats[:errors] += 1
+    end
+  end
+
+  stats
+end
+
 # Main execution
 puts "=" * 60
 puts "Threat Actor Page Generator"
@@ -1040,6 +1157,20 @@ end
 
 puts "Found #{data.length} actors"
 
+if options[:news_only]
+  puts 'Mode: news-only (Recent News upsert; References preserved)'
+  stats = update_recent_news_only!(data, dry_run: options[:dry_run])
+  puts ''
+  puts '=' * 60
+  puts 'Summary'
+  puts '=' * 60
+  puts "Updated: #{stats[:updated]}"
+  puts "Unchanged: #{stats[:unchanged]}"
+  puts "Skipped (missing page): #{stats[:skipped]}"
+  puts "Errors: #{stats[:errors]}"
+  exit(stats[:errors].zero? ? 0 : 1)
+end
+
 # Process each actor
 stats = { created: 0, updated: 0, skipped: 0, errors: 0 }
 
@@ -1048,6 +1179,7 @@ data.each do |actor|
   url = actor['url']&.gsub(/^\/|\/$/, '') || 'unknown'
   
   page_path = File.join(PAGE_DIR, "#{url}.md")
+  actor['__page_path'] = page_path
   
   # Check if we should skip (enriched page)
   if File.exist?(page_path) && !options[:force]
