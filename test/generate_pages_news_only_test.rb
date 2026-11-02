@@ -92,4 +92,50 @@ class GeneratePagesNewsOnlyTest < Minitest::Test
       assert_match(/Check Point\. \(2021, April 8\)/, refs2)
     end
   end
+
+  def test_news_only_noop_when_actor_has_no_news_preserves_trailing_whitespace
+    Dir.mktmpdir('news-only-noop-') do |dir|
+      actors_dir = File.join(dir, '_data', 'actors')
+      pages_dir = File.join(dir, '_threat_actors')
+      FileUtils.mkdir_p(actors_dir)
+      FileUtils.mkdir_p(pages_dir)
+      FileUtils.mkdir_p(File.join(dir, '_data'))
+
+      File.write(File.join(actors_dir, 'zola.yml'), <<~YAML)
+        name: "Zola"
+        aliases: ["Zola"]
+        description: "Example actor."
+        url: "/zola"
+        external_url: "https://attack.mitre.org/groups/G9999"
+      YAML
+
+      # References is the final section and ends with a trailing blank line.
+      original = <<~PAGE
+        ---
+        layout: threat_actor
+        title: "Zola"
+        aliases: ["Zola"]
+        description: "Example actor."
+        permalink: /zola/
+        ---
+
+        ## Introduction
+        Example actor.
+
+        ## References
+        [1] [mitre-attack](https://attack.mitre.org/groups/G9999)
+        [2] [Example Report](https://example.test/report)
+           Example. (2024). Example Report.
+
+      PAGE
+      page_path = File.join(pages_dir, 'zola.md')
+      File.write(page_path, original)
+      File.write(File.join(dir, '_data', 'news_feed.yml'), JSON.pretty_generate({ 'actor_news' => {} }))
+      File.write(File.join(dir, '_data', 'references.json'), '{}')
+
+      stdout, stderr, status = Open3.capture3(RbConfig.ruby, SCRIPT, '--news-only', '--actor', 'Zola', chdir: dir)
+      assert status.success?, "news-only noop failed: #{stderr}\n#{stdout}"
+      assert_equal original, File.read(page_path)
+    end
+  end
 end
