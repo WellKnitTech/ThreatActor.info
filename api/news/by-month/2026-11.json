@@ -1,7 +1,264 @@
 {
   "month": "2026-11",
-  "item_count": 3,
+  "item_count": 19,
   "items": [
+    {
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "canonical_url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "date": "2026-11-03T07:43:07Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "date": "2026-11-03T05:34:41Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies",
+      "canonical_url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies",
+      "date": "2026-11-03T02:24:31Z",
+      "source": "KrebsOnSecurity",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
+      "link": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026",
+      "canonical_url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026",
+      "date": "2026-11-02T23:00:45Z",
+      "source": "Unit 42",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+      "link": "https://darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+      "date": "2026-11-02T22:27:24Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+      "link": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+      "canonical_url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+      "date": "2026-11-02T21:42:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+      "link": "https://microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks",
+      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks",
+      "date": "2026-11-02T20:20:59Z",
+      "source": "Microsoft Security",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+      "link": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "canonical_url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "date": "2026-11-02T19:54:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Storm Ransomware Is Scaling Fast and Selling an AI Powered Image",
+      "link": "https://blog.checkpoint.com/exposure-management/storm-ransomware-is-scaling-fast-and-selling-an-ai-powered-image",
+      "canonical_url": "https://blog.checkpoint.com/exposure-management/storm-ransomware-is-scaling-fast-and-selling-an-ai-powered-image",
+      "date": "2026-11-02T17:09:29Z",
+      "source": "Check Point",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
+      "link": "https://therecord.media/hackers-ukraine-belarus-russia",
+      "canonical_url": "https://therecord.media/hackers-ukraine-belarus-russia",
+      "date": "2026-11-02T16:30:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "canonical_url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "date": "2026-11-02T15:50:26Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
+      "link": "https://securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026",
+      "canonical_url": "https://securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026",
+      "date": "2026-11-02T15:01:11Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Revolve Data Breach Impacts at Least 200,000 People",
+      "link": "https://securityweek.com/revolve-data-breach-impacts-at-least-180000-people",
+      "canonical_url": "https://securityweek.com/revolve-data-breach-impacts-at-least-180000-people",
+      "date": "2026-11-02T13:35:21Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+      "link": "https://securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack",
+      "canonical_url": "https://securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack",
+      "date": "2026-11-02T11:29:39Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
+      "link": "https://rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+      "canonical_url": "https://rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+      "date": "2026-11-02T11:04:08Z",
+      "source": "Rapid7",
+      "cves": [
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+      "link": "https://securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack",
+      "canonical_url": "https://securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack",
+      "date": "2026-11-02T10:27:49Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
       "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
