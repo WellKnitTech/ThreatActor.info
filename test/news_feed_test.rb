@@ -627,6 +627,8 @@ class NewsFeedTest < Minitest::Test
     sw_hosts = sw_urls.map { |u| URI.parse(u).host }
     assert_includes bc_hosts, 'www.bleepingcomputer.com'
     assert(bc_urls.any? { |u| URI.parse(u).host == 'www.bleepingcomputer.com' && URI.parse(u).path.to_s.start_with?('/feed') })
+    assert_includes bc_hosts, 'feeds.feedburner.com'
+    assert(bc_urls.any? { |u| URI.parse(u).path.to_s.include?('/news/feed') })
     assert_includes sw_hosts, 'www.securityweek.com'
     assert(sw_urls.any? { |u| URI.parse(u).host == 'www.securityweek.com' && URI.parse(u).path.to_s.start_with?('/feed') })
     assert_includes sw_hosts, 'feeds.feedburner.com'
@@ -635,6 +637,7 @@ class NewsFeedTest < Minitest::Test
     assert_match(/Mozilla\/5\.0/, headers['User-Agent'])
     assert_match(/rss\+xml|application\/xml/, headers['Accept'])
     assert_match(/en-US/, headers['Accept-Language'])
+    assert_match(/gzip/, headers['Accept-Encoding'])
   end
 
   def test_feed_url_fallbacks_continue_after_per_url_timeout
@@ -671,5 +674,59 @@ class NewsFeedTest < Minitest::Test
   def test_browser_ua_is_not_the_old_bot_token
     refute_match(/daily-news\/1\.0\z/, NewsFeed::BROWSER_UA)
     assert_match(/Mozilla\/5\.0/, NewsFeed::BROWSER_UA)
+  end
+
+  def test_browser_headers_advertise_gzip
+    headers = NewsFeed.browser_http_headers
+    assert_match(/gzip/, headers['Accept-Encoding'])
+  end
+
+  def test_run_with_deadline_covers_slow_cpu_bound_work
+    started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    err = assert_raises(Timeout::Error) do
+      NewsFeed.run_with_deadline(0.3) { sleep 5 }
+    end
+    elapsed = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started
+    assert_match(/deadline exceeded/i, err.message)
+    # Allow headroom for CI runners where Thread#kill + join(1) can lag under load.
+    assert_operator elapsed, :<, 5.0, "CPU-bound deadline leaked: #{elapsed}s"
+  end
+
+  def test_trim_feed_xml_keeps_first_n_rss_items
+    items = (1..40).map { |i| "<item><title>T#{i}</title><link>https://ex.test/#{i}</link></item>" }.join
+    raw = "<?xml version=\"1.0\"?><rss><channel><title>x</title>#{items}</channel></rss>"
+    trimmed = NewsFeed.trim_feed_xml(raw, max_items: 15)
+    assert_equal 15, trimmed.scan(/<item>/).size
+    assert_includes trimmed, '</channel>'
+    assert_includes trimmed, '</rss>'
+    refute_includes trimmed, '<title>T16</title>'
+  end
+
+  def test_trim_feed_xml_keeps_first_n_atom_entries
+    entries = (1..20).map { |i| "<entry><title>E#{i}</title><link href=\"https://ex.test/#{i}\"/></entry>" }.join
+    raw = "<?xml version=\"1.0\"?><feed xmlns=\"http://www.w3.org/2005/Atom\">#{entries}</feed>"
+    trimmed = NewsFeed.trim_feed_xml(raw, max_items: 5)
+    assert_equal 5, trimmed.scan(/<entry>/).size
+    assert_includes trimmed, '</feed>'
+  end
+
+  def test_unhealthy_sources_excludes_single_failure
+    health = {
+      'BleepingComputer' => {
+        'ok' => false,
+        'unhealthy' => true,
+        'consecutive_failures' => 4,
+        'error' => 'HTTP 403 Forbidden'
+      },
+      'Elastic Security' => {
+        'ok' => false,
+        'unhealthy' => false,
+        'timed_out' => true,
+        'consecutive_failures' => 1,
+        'error' => 'deadline exceeded (45s)'
+      }
+    }
+    unhealthy = NewsFeed.unhealthy_sources(health)
+    assert_equal ['BleepingComputer'], unhealthy.keys
   end
 end

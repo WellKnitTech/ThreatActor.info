@@ -26,7 +26,8 @@ Guidance for OpenCode sessions in this repository. Keep this file compact and re
 - After editing `_data/actors/*.yml`, run `ruby scripts/generate-pages.rb --force` then `ruby scripts/generate-indexes.rb` before validating.
 - Commit actor YAML, matching `_threat_actors/*.md`, `_data/generated/*`, `api/*`, IOC shards, and `_malware/` together when generators change them.
 - `generate-pages.rb` without `--force` can skip pages it considers manually enriched; CI and Pages use `--force`, so use `--force` locally after imports or YAML edits.
-- There is no single-file test runner. The closest focused verification for content changes is `ruby scripts/validate-content.rb`; use `bash scripts/validate.sh` before PR-sized data or generator changes.
+- Daily news uses `generate-pages.rb --news-only` (Recent News upsert only). Do not switch daily back to `--force` — that rewrote References whenever `_data/references.json` lagged weekly. Weekly import must stage `_data/references.json` with actor pages.
+- There is no single-file test runner. The closest focused verification for content changes is `ruby scripts/validate-content.rb`; use `bash scripts/validate.sh` before PR-sized data or generator changes. News unit tests live under `test/news_feed_test.rb` (`ruby -Itest test/news_feed_test.rb`).
 
 ## Actor Data Rules
 

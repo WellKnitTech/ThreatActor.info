@@ -43,11 +43,19 @@ Without `--force`, [`scripts/generate-pages.rb`](../scripts/generate-pages.rb) m
 |----------|------|
 | [`.github/workflows/import-sources.yml`](../.github/workflows/import-sources.yml) | Full **`import-automated-sources.rb --apply`** (all configured sources in priority order), regenerates pages/indexes, validates content, **`jekyll build`**, opens a PR with actor + generated + api paths. **Primary path for a broad, PR-reviewed refresh.** |
 | [`.github/workflows/weekly-data.yml`](../.github/workflows/weekly-data.yml) | Scheduled execution of the same canonical **`import-automated-sources.rb --apply`** runner used for broad refreshes, followed by source-delta evaluation, schema/content validation, and **`jekyll build --safe`** before opening and auto-merging a PR branch. **Not a separate import logic path.** |
-| [`.github/workflows/daily-news.yml`](../.github/workflows/daily-news.yml) | News feed + generators + validators + build; commits news-related updates. After a successful `GITHUB_TOKEN` push it `workflow_dispatch`es Pages and Validation (idle days with no news commit do not redeploy). |
+| [`.github/workflows/daily-news.yml`](../.github/workflows/daily-news.yml) | News feed + **`generate-pages.rb --news-only`** (Recent News upsert only) + indexes/validators/build; commits news-related updates. Does **not** run full `--force` page regeneration so References/TTPs/IOCs cannot flip-flop against weekly. After a successful `GITHUB_TOKEN` push it `workflow_dispatch`es Pages and Validation (idle days with no news commit do not redeploy). |
 | [`.github/workflows/validate.yml`](../.github/workflows/validate.yml) | Runs **`scripts/validate.sh`** on pushes/PRs (also accepts `workflow_dispatch`). |
 | [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) | On push to `main` or `workflow_dispatch`: regenerate pages/indexes, build `_site`, deploy Pages. Weekly bot merges and daily news pushes also dispatch this workflow because `GITHUB_TOKEN` commits do not trigger `push` workflows. |
 
 Do not assume weekly pushes alone cover the same surface as **Automated Source Imports**; use the right workflow for the sources you care about.
+
+### Daily news vs References
+
+MITRE citation footnotes for actor pages come from `_data/references.json` (written by `import-mitre.rb`, transient on YAML). Weekly must commit that file alongside `_threat_actors/*.md`. The daily workflow only runs `generate-pages.rb --news-only` so a stale references cache cannot strip footnotes overnight. Full `--force` regeneration still prefers an existing richer References section when the cache would collapse to a MITRE-only fallback.
+
+### BleepingComputer feed health
+
+`BleepingComputer` has returned HTTP 403 to the daily fetcher across www/apex and category feed paths despite browser-like headers, `Accept-Encoding: gzip`, and Feedburner alternates. The source stays configured and is retried every run; after `UNHEALTHY_FAILURE_THRESHOLD` consecutive failures it is annotated unhealthy (never permanently dropped). Google News `site:` RSS was not added — it typically yields `news.google.com` redirect URLs rather than canonical `bleepingcomputer.com` article links. Live 403 reproduction may be blocked on egress-restricted agent VMs; confirm from GitHub Actions logs.
 
 Both import workflows share the `threat-data-import` concurrency group and do
 not cancel an active run. This prevents overlapping source fetches. Malpedia

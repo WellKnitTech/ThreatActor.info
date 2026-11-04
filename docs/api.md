@@ -109,7 +109,7 @@ Fields:
 - `display_items` — max items shown on `/news/`
 - `archive_months[]` — `{ month, item_count, path, api_path }` for monthly shards
 - `sources` — feed names considered by the fetcher
-- `source_health` — per-source ok/error/item/latency counts from the last run (403s may set `dropped`)
+- `source_health` — per-source ok/error/item/`latency_ms`/`fetch_ms`/`parse_ms` from the last run, plus `consecutive_failures` / `unhealthy` / `timed_out`. Sources are always retried; permanent `dropped` flags are no longer written.
 - `items[]` — newest display slice with `title`, `link`, `canonical_url`, `date`, `source`, `cves`, `tags`, and `actors` (`name`, `url`, `matched_alias`)
 
 Monthly shards are also published at `/api/news/by-month/YYYY-MM.json`.
