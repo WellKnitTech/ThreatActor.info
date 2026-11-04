@@ -50,7 +50,29 @@ jobs:
 
     # Mirrors scripts/validate.sh: generators → JSON schemas → content → jekyll doctor → build → parse api/*.json
     - name: Full validation pipeline
-      run: bash scripts/validate.sh
+      id: validate
+      run: |
+        set -o pipefail
+        bash scripts/validate.sh 2>&1 | tee validate-output.log
+
+    # Surface a readable failure tail via check-run annotations when Actions
+    # log blobs are unavailable to local agents (egress-restricted VMs).
+    - name: Annotate validate failure tail
+      if: failure() && steps.validate.outcome == 'failure'
+      run: |
+        if [ ! -f validate-output.log ]; then
+          echo '::error::validate.sh failed but validate-output.log was missing'
+          exit 0
+        fi
+        {
+          echo '## validate.sh failure tail'
+          echo
+          echo '```'
+          tail -n 80 validate-output.log
+          echo '```'
+        } >> "$GITHUB_STEP_SUMMARY"
+        compact="$(tail -n 40 validate-output.log | tr '\n' '|' | tr -s '|' | cut -c1-650)"
+        echo "::error title=validate.sh failure::${compact}"
 
     - name: Upload source freshness report
       if: always()
@@ -60,3 +82,4 @@ jobs:
         path: |
           tmp/source-freshness-report.json
           _data/generated/source_freshness.json
+          validate-output.log
