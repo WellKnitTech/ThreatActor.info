@@ -329,6 +329,8 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits](https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html)
+  The Hacker News — 2026-11-04 — tags: apt
 - [How SentinelOne Blocked APT29's CaptiveCrunch Campaign](https://sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign)
   SentinelOne — 2026-10-16 — tags: apt
 

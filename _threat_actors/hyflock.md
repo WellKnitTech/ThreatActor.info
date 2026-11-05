@@ -30,3 +30,9 @@ Hyflock is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [HYFLOCK Ransomware Evolves with New Builds and Encryption Weaknesses](https://blog.checkpoint.com/security/hyflock-ransomware-evolves-with-new-builds-and-encryption-weaknesses)
+  Check Point — 2026-11-04 — tags: ransomware
+
