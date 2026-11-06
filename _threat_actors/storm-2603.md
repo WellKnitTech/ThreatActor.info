@@ -43,3 +43,9 @@ The group Microsoft tracks as Storm-2603 is assessed with medium confidence to b
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603](https://securelist.com/storm-2603-fileless-toolshell-attack/121467)
+  Securelist — 2026-11-05 — tags: breach
+

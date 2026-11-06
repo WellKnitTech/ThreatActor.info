@@ -1,7 +1,287 @@
 {
   "month": "2026-11",
-  "item_count": 60,
+  "item_count": 76,
   "items": [
+    {
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "canonical_url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "date": "2026-11-06T08:04:49Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "date": "2026-11-06T05:58:54Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+      "link": "https://microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
+      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
+      "date": "2026-11-05T23:46:50Z",
+      "source": "Microsoft Security",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password",
+      "canonical_url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password",
+      "date": "2026-11-05T23:09:36Z",
+      "source": "Ars Technica",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+      "link": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+      "canonical_url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+      "date": "2026-11-05T22:08:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+      "link": "https://darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+      "canonical_url": "https://darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+      "date": "2026-11-05T21:00:47Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "APT29's Watering Holes Target Thousands of Mobile Users",
+      "link": "https://darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+      "canonical_url": "https://darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+      "date": "2026-11-05T20:05:39Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "apt"
+      ],
+      "actors": [
+        {
+          "name": "APT29",
+          "url": "/apt29",
+          "matched_alias": "apt29"
+        }
+      ]
+    },
+    {
+      "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
+      "link": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+      "canonical_url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+      "date": "2026-11-05T17:00:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Email threat landscape: Q3 2026 trends and insights",
+      "link": "https://microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+      "date": "2026-11-05T16:00:00Z",
+      "source": "Microsoft Security",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "canonical_url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "date": "2026-11-05T14:41:10Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+      "link": "https://securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns",
+      "canonical_url": "https://securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns",
+      "date": "2026-11-05T13:22:12Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+      "link": "https://securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised",
+      "canonical_url": "https://securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised",
+      "date": "2026-11-05T12:58:32Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+      "link": "https://securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day",
+      "canonical_url": "https://securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day",
+      "date": "2026-11-05T10:56:41Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+      "link": "https://securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes",
+      "canonical_url": "https://securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes",
+      "date": "2026-11-05T10:37:13Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+      "link": "https://securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks",
+      "canonical_url": "https://securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks",
+      "date": "2026-11-05T10:02:00Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "link": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+      "canonical_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+      "date": "2026-11-05T10:00:11Z",
+      "source": "Securelist",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+        {
+          "name": "Storm-2603",
+          "url": "/storm-2603",
+          "matched_alias": "storm-2603"
+        }
+      ]
+    },
     {
       "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
       "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
@@ -232,6 +512,40 @@
       ]
     },
     {
+      "title": "Modernising threat hunting: Using Semantic Search to Find Risky AI Agent Behavior",
+      "link": "https://elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
+      "canonical_url": "https://elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
+      "date": "2026-11-04T12:45:02Z",
+      "source": "Elastic Security",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "date": "2026-11-04T12:00:00Z",
+      "source": "CISA Advisories",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
       "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
       "canonical_url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
@@ -356,23 +670,6 @@
       "canonical_url": "https://darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
       "date": "2026-11-04T01:05:40Z",
       "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Monitoring AI agent sessions: Leveraging embedding models to aid threat hunting and attack discovery workflows",
-      "link": "https://elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
-      "canonical_url": "https://elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
-      "date": "2026-11-04T00:00:00Z",
-      "source": "Elastic Security",
       "weight": 2,
       "cves": [
 
@@ -561,23 +858,6 @@
       "date": "2026-11-03T12:01:55Z",
       "source": "Malwarebytes",
       "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "date": "2026-11-03T12:00:00Z",
-      "source": "CISA Advisories",
-      "weight": 2,
       "cves": [
 
       ],

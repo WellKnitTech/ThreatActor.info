@@ -593,7 +593,6 @@ apple. (2016, september 13). customizing login and logout. retrieved april 1, 20
 : https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html
 apple. (2016, september 13). startup items. retrieved july 11, 2017.: https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/StartupItems.html
 apple. (2016, september 9). creating xpc services. retrieved april 19, 2022.: https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingXPCServices.html#//apple_ref/doc/uid/10000172i-SW6-SW1
-apple. (2018, june 4). launch services keys. retrieved october 5, 2021.: https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/LaunchServicesKeys.html#//apple_ref/doc/uid/TP40009250-SW1
 apple. (2019, may 3). configuration profile reference. retrieved september 23, 2021.: https://developer.apple.com/business/documentation/Configuration-Profile-Reference.pdf
 apple. (2020, january 28). use zsh as the default shell on your mac. retrieved june 12, 2020.: https://support.apple.com/HT208050
 apple. (2020, november 30). hide a user account in macos. retrieved december 10, 2021.: https://support.apple.com/en-us/HT203998
@@ -642,7 +641,7 @@ aqua build images on hosts: https://blog.aquasec.com/malicious-container-image-d
 aqua kinsing april 2020: https://blog.aquasec.com/threat-alert-kinsing-malware-container-vulnerability
 aqua security . (2026, march 21). trivy ecosystem supply chain temporarily compromised. retrieved july 1, 2026.: https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23
 aqua security blog trivy compromise apr 2026: https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know
-aqua security cloud native threat report june 2021: https://info.aquasec.com/hubfs/Threat%20reports/AquaSecurity_Cloud_Native_Threat_Report_2021.pdf?utm_campaign=WP%20-%20Jun2021%20Nautilus%202021%20Threat%20Research%20Report&utm_medium=email&_hsmi=132931006&_hsenc=p2ANqtz-_8oopT5Uhqab8B7kE0l3iFo1koirxtyfTehxF7N-EdGYrwk30gfiwp5SiNlW3G0TNKZxUcDkYOtwQ9S6nNVNyEO-Dgrw&utm_content=132931006&utm_source=hs_automation
+aqua security cloud native threat report june 2021: https://web.archive.org/web/20220106180157/https://info.aquasec.com/hubfs/Threat%20reports/AquaSecurity_Cloud_Native_Threat_Report_2021.pdf
 aqua security trivy compromise mar 2026: https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23
 'aqua team. (2026, april 1). update: ongoing investigation and continued remediation. retrieved july 1, 2026.': https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know
 aqua teamtnt august 2020: https://blog.aquasec.com/container-security-tnt-container-attack
@@ -1115,7 +1114,7 @@ black hills red teaming ms ad azure, 2018: https://www.blackhillsinfosec.com/red
 ? 'black lotus labs. (2023, december 13). routers roasting on an open firewall: the
   kv-botnet investigation. retrieved june 10, 2024.'
 : https://blog.lumen.com/routers-roasting-on-an-open-firewall-the-kv-botnet-investigation/
-'black lotus labs. (2024, august 27). taking the crossroads: the versa director zero-day exploitaiton. retrieved august 27, 2024.': https://blog.lumen.com/taking-the-crossroads-the-versa-director-zero-day-exploitation/
+'black lotus labs. (2024, august 27). taking the crossroads: the versa director zero-day exploitaiton. retrieved august 27, 2024.': https://www.lumen.com/blog/en-us/uncovering-versa-director-zero-day-exploitation
 'black lotus labs. (2025, january 23). the j-magic show: magic packets and where to find them. retrieved february 17, 2025.': https://blog.lumen.com/the-j-magic-show-magic-packets-and-where-to-find-them/
 blackbasta: https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/
 blackberry amadey 2020: https://blogs.blackberry.com/en/2020/01/threat-spotlight-amadey-bot
@@ -2176,6 +2175,9 @@ counter threat unit research team. (2019, september 24). revil/sodinokibi ransom
   27, 2023.
 : https://web.archive.org/web/20230601025540/https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations
 counter threat unit research team. (2024, april 15). gold ionic deploys inc ransomware. retrieved june 5, 2024.: https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware
+? 'counter threat unit research team. (2025, november 16). cover their tracks: how
+  attackers are hiding c&c communication. retrieved june 12, 2026.'
+: https://www.sophos.com/en-us/blog/cover-their-tracks-how-attackers-are-hiding-cc-communication
 countercept ppid spoofing dec 2018: https://web.archive.org/web/20200726110643/https://blog.f-secure.com/detecting-parent-pid-spoofing/
 cowan, c. (2017, march 23). strengthening the microsoft edge sandbox. retrieved march 12, 2018.: https://blogs.windows.com/msedgedev/2017/03/23/strengthening-microsoft-edge-sandbox/
 craig rowland. (2019, july 25). getting an attacker ip address from a malicious linux at job. retrieved october 15, 2021.: https://www.linkedin.com/pulse/getting-attacker-ip-address-from-malicious-linux-job-craig-rowland/
@@ -2783,7 +2785,6 @@ dfir ryuk's return october 2020: https://thedfirreport.com/2020/10/08/ryuks-retu
 dhanalakshmi. (2022, april 19). vajraspy – an android rat. retrieved november 5, 2025.: https://labs.k7computing.com/index.php/vajraspy-an-android-rat/
 dhanjani-urlscheme: http://www.dhanjani.com/blog/2010/11/insecure-handling-of-url-schemes-in-apples-ios.html
 dharma_ransomware: https://www.crowdstrike.com/blog/targeted-dharma-ransomware-intrusions-exhibit-consistent-techniques/
-dhcp_serv_op_events: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn800668(v=ws.11)
 dhs cisa 2019, february 27 mar-17-352-01 hatmansafety system targeted malware (update b) retrieved. 2019/03/08: https://ics-cert.us-cert.gov/sites/default/files/documents/MAR-17-352-01%20HatMan%20-%20Safety%20System%20Targeted%20Malware%20%28Update%20B%29.pdf
 dhs cisa aa22-055a muddywater february 2022: https://www.cisa.gov/uscert/ncas/alerts/aa22-055a
 dhs cisa february 2019: https://ics-cert.us-cert.gov/sites/default/files/documents/MAR-17-352-01%20HatMan%20-%20Safety%20System%20Targeted%20Malware%20%28Update%20B%29.pdf
@@ -3068,7 +3069,7 @@ dustysky2: http://www.clearskysec.com/wp-content/uploads/2016/06/Operation-Dusty
 : https://thehackernews.com/expert-insights/2024/05/github-abuse-flaw-shows-why-we-cant.html
 ? dwoskin, e. and adam, k. (2017, may 14). more than 150 countries affected by massive
   cyberattack, europol says. retrieved march 25, 2019.
-: https://www.washingtonpost.com/business/economy/more-than-150-countries-affected-by-massive-cyberattack-europol-says/2017/05/14/5091465e-3899-11e7-9e48-c4f199710b69_story.html?utm_term=.7fa16b41cad4
+: https://www.washingtonpost.com/business/economy/more-than-150-countries-affected-by-massive-cyberattack-europol-says/2017/05/14/5091465e-3899-11e7-9e48-c4f199710b69_story.html
 dylan ayrey. (2016, december 31). trufflehog. retrieved october 19, 2020.: https://github.com/dxa4481/truffleHog
 ? e. xu, g. guo. (2019, june 28). mobile cyberespionage campaign ‘bouncing golf’ affects
   middle east. retrieved january 27, 2020.
@@ -3800,7 +3801,6 @@ fireeye-masque2: https://www.fireeye.com/blog/threat-research/2015/02/ios_masque
 fireeye-rumms: https://www.fireeye.com/blog/threat-research/2016/04/rumms-android-malware.html
 fireeye-ssl: https://www.fireeye.com/blog/threat-research/2014/08/ssl-vulnerabilities-who-listens-when-android-applications-talk.html
 'fireeye. (2014). poison ivy: assessing damage and extracting intelligence. retrieved september 19, 2024.': https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf
-'fireeye. (2014). supply chain analysis: from quartermaster to sunshopfireeye. retrieved march 6, 2017.': https://www.mandiant.com/resources/supply-chain-analysis-from-quartermaster-to-sunshop
 'fireeye. (2015). apt28: a window into russia’s cyber espionage operations?. retrieved august 19, 2015.': https://web.archive.org/web/20151022204649/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf
 'fireeye. (2015, march). southeast asia: an evolving cyber threat landscape. retrieved february 5, 2024.': https://web.archive.org/web/20220122121143/https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/rpt-southeast-asia-threat-landscape.pdf
 fireeye. (2016, november 30). fireeye responds to wave of destructive cyber attacks in gulf region. retrieved january 11, 2017.: https://www.fireeye.com/blog/threat-research/2016/11/fireeye_respondsto.html
@@ -3820,7 +3820,6 @@ fireeye. (2021, june 16). smoking out a darkside affiliate’s supply chain soft
 fireeye. (2021, may 11). shining a light on darkside ransomware operations. retrieved september 22, 2021.: https://www.fireeye.com/blog/threat-research/2021/05/shining-a-light-on-darkside-ransomware-operations.html
 fireeye. (n.d.). advanced persistent threat groups. retrieved august 3, 2018.: https://www.fireeye.com/current-threats/apt-groups.html#apt19
 fireeye. (n.d.). retrieved november 17, 2024.: https://web.archive.org/web/20210719110553/https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/ib-entertainment.pdf
-fireeyesupplychain: https://www.mandiant.com/resources/supply-chain-analysis-from-quartermaster-to-sunshop
 ? firsh, a.. (2018, february 13). zero-day vulnerability in telegram - cybercriminals
   exploited telegram flaw to launch multipurpose attacks. retrieved april 22, 2019.
 : https://securelist.com/zero-day-vulnerability-in-telegram/83800/
@@ -4498,7 +4497,7 @@ hardiman, n.. (2012, march 20). backing up and restoring snapshots on amazon ec2
   intrusion detection. retrieved august 7, 2018.
 : https://docs.microsoft.com/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection
 harmj0y abusing gpo permissions: https://blog.harmj0y.net/redteaming/abusing-gpo-permissions/
-harmj0y dcsync sept 2015: http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/
+harmj0y dcsync sept 2015: https://web.archive.org/web/20150923020927/http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/
 harmj0y domain trusts: https://posts.specterops.io/a-guide-to-attacking-domain-trusts-971e52cb2944
 harmj0y kerberoast nov 2016: https://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/
 harmj0y mimikatz and dcsync: https://blog.harmj0y.net/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/
@@ -4944,6 +4943,7 @@ ishaq mohammed . (2021, january 10). everything about csv injection and csv exce
 'ishimaru, s. (2022, october 31). apt10: tracking down lodeinfo 2022, part ii. retrieved april 17, 2026.': https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-ii/107745/
 ishimaru, s.. (2017, april 13). old malware tricks to bypass detection in the age of big data. retrieved may 30, 2019.: https://securelist.com/old-malware-tricks-to-bypass-detection-in-the-age-of-big-data/78010/
 isight sandworm 2014: https://www.fireeye.com/blog/threat-research/2016/01/ukraine-and-sandworm-team.html
+islamoglu, a. (2025, march 12). lookout discovers new spyware by north korean apt37. retrieved december 1, 2025.: https://security.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37
 issuemakerslab andariel goldenaxe may 2017: http://www.issuemakerslab.com/research3/
 issuemakerslab. (2017, may 1). operation goldenaxe. retrieved september 12, 2024.: http://www.issuemakerslab.com/research3/
 ? itkin, e. and cohen, i. (2021, february 22). the story of jian – how apt31 stole
@@ -5251,6 +5251,7 @@ karen victor. (2020, may 18). reflective loading runs netwalker fileless ransomw
 karim, t. (2018, august). trails of windshift. retrieved november 17, 2024.: https://www.scribd.com/document/661837258/WINDSHIFT-summit-archive-1554718868
 karl dominguez. (2011, october 2). android malware uses blog posts as c&c. retrieved february 6, 2017.: http://blog.trendmicro.com/trendlabs-security-intelligence/android-malware-uses-blog-posts-as-cc/
 karmi, d. (2020, january 4). a look into konni 2019 campaign. retrieved april 28, 2020.: https://medium.com/d-hunter/a-look-into-konni-2019-campaign-b45a0f321e9b
+kaspersky: https://www.kaspersky.com/resource-center/definitions/what-is-steganography
 kaspersky 3cx gopuram 2023: https://securelist.com/gopuram-backdoor-deployed-through-3cx-supply-chain-attack/109344/
 kaspersky adwind feb 2016: https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf
 kaspersky apt trends q1 2020: https://securelist.com/apt-trends-report-q1-2020/96826/
@@ -5390,6 +5391,7 @@ kaspersky-masking: https://www.kaspersky.com/blog/malicious-redirect-methods/500
 kaspersky-mobilemalware: https://securelist.com/mobile-malware-evolution-2013/58335/
 kaspersky-skygofree: https://securelist.com/skygofree-following-in-the-footsteps-of-hackingteam/83603/
 kaspersky-wuc: https://securelist.com/android-trojan-found-in-targeted-attack-58/35552/
+kaspersky. (n.d.). what is steganography? definition and explanation. retrieved june 12, 2026.: https://www.kaspersky.com/resource-center/definitions/what-is-steganography
 kaspersky_fakecalls_0422: https://www.kaspersky.com/blog/fakecalls-banking-trojan/44072/
 kasperskycarbanak: https://securelist.com/the-great-bank-robbery-the-carbanak-apt/68732/
 'kasuya, m. (2020, january 8). threat spotlight: amadey bot targets non-russian users. retrieved july 14, 2022.': https://blogs.blackberry.com/en/2020/01/threat-spotlight-amadey-bot
@@ -5714,7 +5716,6 @@ lau 2011: http://www.symantec.com/connect/blogs/are-mbr-infections-back-fashion
 'lau et al.. (2013). mactans: injecting malware into ios devices via malicious chargers. retrieved december 23, 2016.': https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf
 lau, h. (2011, august 8). are mbr infections back in fashion? (infographic). retrieved november 13, 2014.: http://www.symantec.com/connect/blogs/are-mbr-infections-back-fashion
 lau-mactans: https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf
-launch service keys developer apple: https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/LaunchServicesKeys.html#//apple_ref/doc/uid/TP40009250-SW1
 launch services apple developer: https://developer.apple.com/documentation/coreservices/launch_services
 launchctl man: https://ss64.com/osx/launchctl.html
 launchd keywords for plists: https://www.real-world-systems.com/docs/launchdPlist.1.html
@@ -5811,7 +5812,6 @@ libc: https://man7.org/linux/man-pages//man7/libc.7.html
 libzip: https://libzip.org/
 lich, b. (2016, may 31). how user account control works. retrieved june 3, 2016.: https://technet.microsoft.com/en-us/itpro/windows/keep-secure/how-user-account-control-works
 lich, b. (2016, may 31). protect derived domain credentials with credential guard. retrieved june 1, 2016.: https://technet.microsoft.com/en-us/itpro/windows/keep-secure/credential-guard
-'lich, b., miroshnikov, a. (2017, april 5). 4720(s): a user account was created. retrieved june 30, 2017.': https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720
 'lich, b., miroshnikov, a. (2017, april 5). 4738(s): a user account was changed. retrieved june 30, 2017.': https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4738
 lich, b., tobin, j. (2017, april 5). how windows defender credential guard works. retrieved november 27, 2017.: https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard-how-it-works
 lich, b., tobin, j., hall, j. (2017, april 5). manage windows defender credential guard. retrieved november 27, 2017.: https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard-manage
@@ -5951,6 +5951,7 @@ lookout_abstractemu_1021: https://www.lookout.com/blog/lookout-discovers-global-
 lookout_bouldspy_0423: https://www.lookout.com/blog/iranian-spyware-bouldspy
 lookout_dchspy_july2025: https://www.lookout.com/threat-intelligence/article/lookout-discovers-iranian-dchsy-surveillanceware
 lookout_hornbill_sunbird_0221: https://www.lookout.com/blog/lookout-discovers-novel-confucius-apt-android-spyware-linked-to-india-pakistan-conflict
+lookout_kospy_march2025: https://security.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37
 lorber, n. (2021, may 7). revealing the snip3 crypter, a highly evasive rat loader. retrieved september 13, 2023.: https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader
 lorin wu. (2018, april 19). xloader android spyware and banking trojan distributed via dns spoofing. retrieved july 6, 2018.: https://blog.trendmicro.com/trendlabs-security-intelligence/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing/
 'lotan sery. (2025, december 10). glassworm goes native: same infrastructure, hardened delivery. retrieved april 10, 2026.': https://www.koi.ai/blog/glassworm-goes-native-same-infrastructure-hardened-delivery
@@ -6011,7 +6012,7 @@ lukáš štefanko. (2019, february 8). first clipper malware discovered on googl
 : https://www.oligo.security/blog/shadowray-attack-ai-workloads-actively-exploited-in-the-wild
 lumen j-magic jan 2025: https://blog.lumen.com/the-j-magic-show-magic-packets-and-where-to-find-them/
 lumen kvbotnet 2023: https://blog.lumen.com/routers-roasting-on-an-open-firewall-the-kv-botnet-investigation/
-lumen versa 2024: https://blog.lumen.com/taking-the-crossroads-the-versa-director-zero-day-exploitation/
+lumen versa 2024: https://www.lumen.com/blog/en-us/uncovering-versa-director-zero-day-exploitation
 lumen_systembc_sept2025: https://blog.lumen.com/systembc-bringing-the-noise/
 lundgren, s. (2017, october 28). w32time. retrieved march 26, 2018.: https://github.com/scottlundgren/w32time
 ? 'lunghi, d and horejsi, j. (2018, february 13). deciphering confucius: a look at
@@ -6606,9 +6607,6 @@ metcalf, s. (2015, september 25). mimikatz dcsync usage, exploitation, and detec
 metcalf, s. (2015, september 25). mimikatz dcsync usage, exploitation, and detection. retrieved december 4, 2017.: https://adsecurity.org/?p=1729
 'metcalf, s. (2016, march 14). sneaky active directory persistence #17: group policy. retrieved march 5, 2019.': https://adsecurity.org/?p=2716
 'metcalf, s. (2016, october 21). securing windows workstations: developing a secure baseline. retrieved november 17, 2017.': https://adsecurity.org/?p=3299
-? 'metcalf, s. (2018, may 6). trimarc research: detecting password spraying with security
-  event auditing. retrieved january 16, 2019.'
-: https://www.trimarcsecurity.com/single-post/2018/05/06/Trimarc-Research-Detecting-Password-Spraying-with-Security-Event-Auditing
 methods of mac malware persistence: https://www.virusbulletin.com/uploads/pdf/conference/vb2014/VB2014-Wardle.pdf
 meyer pypi supply chain attack uncovered: https://checkmarx.com/zero-post/python-pypi-supply-chain-attack-colorama/
 meyering, j. (n.d.). nohup(1). retrieved august 30, 2023.: https://linux.die.net/man/1/nohup
@@ -6708,7 +6706,6 @@ microsoft 2269637: https://msrc-blog.microsoft.com/2010/08/21/microsoft-security
   march 4, 2022.'
 : https://www.microsoft.com/security/blog/2022/01/26/evolved-phishing-device-registration-trick-adds-to-phishers-toolbox-for-victims-without-mfa
 microsoft 4697 apr 2017: https://docs.microsoft.com/windows/security/threat-protection/auditing/event-4697
-microsoft 4768 tgt 2017: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4768
 microsoft _vba_project stream: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/ef7087ac-3974-4452-aab2-7dba2214d239
 microsoft about event tracing 2018: https://docs.microsoft.com/en-us/windows/desktop/etw/consuming-events
 microsoft about profiles: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-6
@@ -6964,7 +6961,6 @@ microsoft primary refresh token: https://learn.microsoft.com/en-us/azure/active-
 microsoft process creation flags may 2018: https://docs.microsoft.com/windows/desktop/ProcThread/process-creation-flags
 microsoft process snapshot: https://msdn.microsoft.com/library/windows/desktop/ms686701.aspx
 microsoft process wide com keys: https://msdn.microsoft.com/en-us/library/windows/desktop/ms687317(v=vs.85).aspx
-microsoft profiles: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_profiles
 microsoft profiling mar 2017: https://docs.microsoft.com/en-us/dotnet/framework/unmanaged-api/profiling/profiling-overview
 microsoft protected view: https://support.office.com/en-us/article/What-is-Protected-View-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653
 microsoft psfromcsharp apr 2014: https://blogs.msdn.microsoft.com/kebab/2014/04/28/executing-powershell-scripts-from-c/
@@ -7170,7 +7166,6 @@ microsoft uac: https://msdn.microsoft.com/library/windows/desktop/dn742497.aspx
 microsoft uac nov 2018: https://docs.microsoft.com/windows/security/identity-protection/user-account-control/how-user-account-control-works
 microsoft unidentified dec 2018: https://www.microsoft.com/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/
 microsoft unsigned driver apr 2017: https://docs.microsoft.com/en-us/windows-hardware/drivers/install/installing-an-unsigned-driver-during-development-and-test
-microsoft user creation event: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720
 microsoft user modified event: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4738
 microsoft vba: https://docs.microsoft.com/office/vba/api/overview/
 microsoft vbscript: https://docs.microsoft.com/previous-versions//1kw29xwf(v=vs.85)
@@ -7204,14 +7199,12 @@ microsoft, jasongerend, et al. (2023, february 3). clip. retrieved june 21, 2022
 microsoft. (2003, march 28). what is rpc?. retrieved june 12, 2016.: https://technet.microsoft.com/en-us/library/cc787851.aspx
 microsoft. (2005, january 21). creating logon scripts. retrieved april 27, 2016.: https://technet.microsoft.com/en-us/library/cc758918(v=ws.10).aspx
 microsoft. (2005, january 21). task scheduler and security. retrieved june 8, 2016.: https://technet.microsoft.com/en-us/library/cc785125.aspx
-microsoft. (2006, august 31). dhcp server operational events. retrieved march 7, 2022.: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn800668(v=ws.11)
 microsoft. (2006, october 18). net.exe utility. retrieved september 22, 2015.: https://msdn.microsoft.com/en-us/library/aa939914
 microsoft. (2006, october). working with the appinit_dlls registry value. retrieved july 15, 2015.: https://support.microsoft.com/en-us/kb/197571
 microsoft. (2007, august 15). the world of jscript, javascript, ecmascript …. retrieved june 23, 2020.: https://docs.microsoft.com/archive/blogs/gauravseth/the-world-of-jscript-javascript-ecmascript
 microsoft. (2007, august 31). https://technet.microsoft.com/en-us/library/cc771759(v=ws.10).aspx. retrieved april 20, 2016.: https://technet.microsoft.com/en-us/library/cc772540(v=ws.10).aspx
 microsoft. (2007, november 24). iis modules overview. retrieved june 17, 2021.: https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-modules-overview
 microsoft. (2007, october 24). windows sysinternals - appcertdlls. retrieved december 18, 2017.: https://forum.sysinternals.com/appcertdlls_topic12546.html
-microsoft. (2007, october 24). windows sysinternals - appcertdlls. retrieved november 17, 2024.: https://web.archive.org/web/20130401232752/https://forum.sysinternals.com/appcertdlls_topic12546.html
 microsoft. (2008, september 10). using smb packet signing. retrieved february 7, 2019.: https://docs.microsoft.com/en-us/previous-versions/system-center/operations-manager-2005/cc180803(v=technet.10)
 microsoft. (2009, february 9). disabling bluetooth and infrared beaming. retrieved july 26, 2018.: https://technet.microsoft.com/library/dd252791.aspx
 microsoft. (2009, may 17). backdoor:win32/lamin.a. retrieved september 6, 2018.: https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=Backdoor:Win32/Lamin.A
@@ -7271,7 +7264,6 @@ microsoft. (2016, june 1). transport agents. retrieved june 24, 2019.: https://d
 microsoft. (2016, june 20). reverse-engineering dubnium’s flash-targeting exploit. retrieved march 31, 2021.: https://www.microsoft.com/security/blog/2016/06/20/reverse-engineering-dubniums-flash-targeting-exploit/
 microsoft. (2016, june 9). reverse-engineering dubnium. retrieved march 31, 2021.: https://www.microsoft.com/security/blog/2016/06/09/reverse-engineering-dubnium-2/
 microsoft. (2016, march 26). operations overview | graph api concepts. retrieved june 18, 2020.: https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/howto/azure-ad-graph-api-operations-overview
-'microsoft. (2017, april 19). 4768(s, f): a kerberos authentication ticket (tgt) was requested. retrieved august 24, 2020.': https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4768
 microsoft. (2017, april 20). hklm\system\currentcontrolset\services registry tree. retrieved march 16, 2020.: https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-services-registry-tree
 microsoft. (2017, april 20). installing an unsigned driver during development and test. retrieved april 22, 2021.: https://docs.microsoft.com/en-us/windows-hardware/drivers/install/installing-an-unsigned-driver-during-development-and-test
 microsoft. (2017, april 9). allow log on through remote desktop services. retrieved august 5, 2024.: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/allow-log-on-through-remote-desktop-services
@@ -7376,7 +7368,6 @@ microsoft. (2021, october 6). peb structure (winternl.h). retrieved november 19,
 microsoft. (2021, october). microsoft digital defense report. retrieved november 20, 2024.: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738
 microsoft. (2021, september 15). application domains. retrieved march 28, 2024.: https://learn.microsoft.com/dotnet/framework/app-domains/application-domains
 microsoft. (2021, september 24). how to remove entries from the remote desktop connection computer box. retrieved june 15, 2022.: https://docs.microsoft.com/troubleshoot/windows-server/remote/remove-entries-from-remote-desktop-connection-computer
-microsoft. (2021, september 27). about_profiles. retrieved february 4, 2022.: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_profiles
 microsoft. (2021, september 27). fsutil behavior. retrieved january 14, 2022.: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fsutil-behavior
 ? microsoft. (2022, august 26). choose the right authentication method for your azure
   active directory hybrid identity solution. retrieved september 28, 2022.
@@ -8200,7 +8191,6 @@ objective-see ay mami 2018: https://objective-see.com/blog/blog_0x26.html
 objective-see macma nov 2021: https://objective-see.org/blog/blog_0x69.html
 objective-see windtail1 dec 2018: https://objective-see.com/blog/blog_0x3B.html
 objective-see windtail2 jan 2019: https://objective-see.com/blog/blog_0x3D.html
-objsee block blocking login items: https://objective-see.com/blog/blog_0x31.html
 objsee mac malware 2017: https://objective-see.com/blog/blog_0x25.html
 objsee netwire backdoor 2019: https://objective-see.com/blog/blog_0x44.html
 obscuresecurity get-gpppassword: https://obscuresecurity.blogspot.co.uk/2012/05/gpp-password-retrieval-with-powershell.html
@@ -8474,7 +8464,6 @@ patrick wardle. (2017). death by 1000 installers; it's all broken!. retrieved au
 patrick wardle. (2017, january 1). mac malware of 2016. retrieved september 21, 2018.: https://objective-see.org/blog/blog_0x16.html
 patrick wardle. (2018, february 17). tearing apart the undetected (osx)coldroot rat. retrieved august 8, 2019.: https://objective-see.com/blog/blog_0x2A.html
 patrick wardle. (2018, january 11). ay mami. retrieved march 19, 2018.: https://objective-see.com/blog/blog_0x26.html
-patrick wardle. (2018, july 23). block blocking login items. retrieved october 1, 2021.: https://objective-see.com/blog/blog_0x31.html
 patrick wardle. (2019, july 2). getting root with benign appstore apps. retrieved march 31, 2021.: https://objective-see.com/blog/blog_0x46.html
 patrick wardle. (2019, june 20). burned by fire(fox). retrieved october 1, 2021.: https://objective-see.com/blog/blog_0x44.html
 ? patrick wardle. (2019, september 17). writing a file monitor with apple's endpoint
@@ -9406,7 +9395,7 @@ schofield, m. & satran, m. (2018, may 30). process creation flags. retrieved jun
 ? schroeder, w. & christensen, l. (2021, june 22). certified pre-owned - abusing active
   directory certificate services. retrieved august 2, 2022.
 : https://web.archive.org/web/20220818094600/https://specterops.io/assets/resources/Certified_Pre-Owned.pdf
-schroeder, w. (2015, september 22). mimikatz and dcsync and extrasids, oh my. retrieved december 4, 2017.: http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/
+schroeder, w. (2015, september 22). mimikatz and dcsync and extrasids, oh my. retrieved december 4, 2017.: https://web.archive.org/web/20150923020927/http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/
 schroeder, w. (2015, september 22). mimikatz and dcsync and extrasids, oh my. retrieved september 23, 2024.: https://blog.harmj0y.net/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/
 schroeder, w. (2016, march 17). abusing gpo permissions. retrieved september 23, 2024.: https://blog.harmj0y.net/redteaming/abusing-gpo-permissions/
 schroeder, w. (2016, november 1). kerberoasting without mimikatz. retrieved march 23, 2018.: https://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/
@@ -9809,9 +9798,6 @@ shivang desai. (2017, january 23). spynote rat posing as netflix app. retrieved 
 shivtarkar, n. and kumar, a. (2022, june 9). lyceum .net dns backdoor. retrieved june 23, 2022.: https://www.zscaler.com/blogs/security-research/lyceum-net-dns-backdoor
 shodan: https://shodan.io
 shodan. (n.d.). shodan. retrieved october 20, 2020.: https://shodan.io
-? 'shoemaker, e. (2015, december 31). solution: monitor dhcp scopes and detect man-in-the-middle
-  attacks with prtg and powershell. retrieved september 12, 2024.'
-: https://web.archive.org/web/20231202025258/https://lockstepgroup.com/blog/monitor-dhcp-scopes-and-detect-man-in-the-middle-attacks/
 ? shoorbajee, z. (2018, june 1). playing nice? fireeye ceo says u.s. malware is more
   restrained than adversaries'. retrieved january 17, 2019.
 : https://www.cyberscoop.com/kevin-mandia-fireeye-u-s-malware-nice/
@@ -9927,7 +9913,6 @@ sogeti. (2021, march). babuk ransomware. retrieved august 11, 2021.: https://www
 solarwinds advisory dec 2020: https://www.solarwinds.com/sa-overview/securityadvisory
 solarwinds sunburst sunspot update january 2021: https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/
 solarwinds. (2020, december 24). solarwinds security advisory. retrieved february 22, 2021.: https://www.solarwinds.com/sa-overview/securityadvisory
-solution_monitor_dhcp_scopes: https://web.archive.org/web/20231202025258/https://lockstepgroup.com/blog/monitor-dhcp-scopes-and-detect-man-in-the-middle-attacks/
 ? 'somerville, l. and toro, a. (2017, march 30). playing cat & mouse: introducing
   the felismus malware. retrieved november 16, 2017.'
 : https://blogs.forcepoint.com/security-labs/playing-cat-mouse-introducing-felismus-malware
@@ -9940,6 +9925,7 @@ solution_monitor_dhcp_scopes: https://web.archive.org/web/20231202025258/https:/
 : https://pdfs.semanticscholar.org/2721/3d206bc3c1e8c229fb4820b6af09e7f975da.pdf
 sonicwall: https://www.sonicwall.com/blog/disarming-darkgate-a-deep-dive-into-thwarting-the-latest-darkgate-variant
 sophos: https://news.sophos.com/en-us/2023/05/03/doubled-dll-sideloading-dragon-breath/
+sophos - cover their tracks: https://www.sophos.com/en-us/blog/cover-their-tracks-how-attackers-are-hiding-cc-communication
 sophos anti-emulation: https://news.sophos.com/en-us/2017/04/13/android-malware-anti-emulation-techniques/
 sophos attachment: https://nakedsecurity.sophos.com/2020/10/02/serious-security-phishing-without-links-when-phishers-bring-along-their-own-web-pages/
 sophos blackcat jul 2022: https://news.sophos.com/en-us/2022/07/14/blackcat-ransomware-attacks-not-merely-a-byproduct-of-bad-luck/
@@ -10428,7 +10414,7 @@ sysdig teampcp mar 2026: https://www.sysdig.com/blog/teampcp-expands-supply-chai
   spreads from trivy to checkmarx github actions. retrieved july 1, 2026.'
 : https://www.sysdig.com/blog/teampcp-expands-supply-chain-compromise-spreads-from-trivy-to-checkmarx-github-actions
 sysdig. (2023). sysdig global cloud threat report. retrieved march 1, 2024.: https://sysdig.com/content/c/pf-2023-global-cloud-threat-report?x=u_WFRi&xs=524303#page=1
-sysinternals appcertdlls oct 2007: https://web.archive.org/web/20130401232752/https://forum.sysinternals.com/appcertdlls_topic12546.html
+sysinternals appcertdlls oct 2007: https://forum.sysinternals.com/appcertdlls_topic12546.html
 system and kernel extensions in macos: https://support.apple.com/guide/deployment/system-and-kernel-extensions-in-macos-depa5fb8376f/web
 system information discovery technique: https://www.picussecurity.com/resource/the-system-information-discovery-technique-explained-mitre-attack-t1082
 systemd remote control: https://www.tecmint.com/control-systemd-services-on-remote-linux-server/
@@ -10523,7 +10509,6 @@ tcg trusted platform module: http://www.trustedcomputinggroup.org/wp-content/upl
 tdl project. (2016, february 4). tdl (turla driver loader). retrieved april 22, 2021.: https://github.com/hfiref0x/TDL
 team cinnamon. (2017, february 3). downgrade attacks. retrieved december 9, 2021.: https://tlseminar.github.io/downgrade-attacks/
 team huntress. (2023, august 11). investigating new inc ransom group activity. retrieved june 5, 2024.: https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity
-team nautilus. (2021, june). attacks in the wild on the container supply chain and infrastructure. retrieved august 26, 2021.: https://info.aquasec.com/hubfs/Threat%20reports/AquaSecurity_Cloud_Native_Threat_Report_2021.pdf?utm_campaign=WP%20-%20Jun2021%20Nautilus%202021%20Threat%20Research%20Report&utm_medium=email&_hsmi=132931006&_hsenc=p2ANqtz-_8oopT5Uhqab8B7kE0l3iFo1koirxtyfTehxF7N-EdGYrwk30gfiwp5SiNlW3G0TNKZxUcDkYOtwQ9S6nNVNyEO-Dgrw&utm_content=132931006&utm_source=hs_automation
 team nautilus. (2021, june). attacks in the wild on the container supply chain and infrastructure. retrieved october 7, 2026.: https://web.archive.org/web/20220106180157/https://info.aquasec.com/hubfs/Threat%20reports/AquaSecurity_Cloud_Native_Threat_Report_2021.pdf
 team82. (2024, april 12). unpacking the blackjack group's fuxnet malware. retrieved september 11, 2024.: https://claroty.com/team82/research/unpacking-the-blackjack-groups-fuxnet-malware
 tech republic - restore aws snapshots: https://www.techrepublic.com/blog/the-enterprise-cloud/backing-up-and-restoring-snapshots-on-amazon-ec2-machines/
@@ -11022,7 +11007,6 @@ trevor haskell. (2020, april 1). kerberos tickets on linux red teams. retrieved 
 ? trevor mogg. (2015, june 5). florida teacher punished after signal-jamming his students’
   cell phones. retrieved november 8, 2018.
 : https://www.digitaltrends.com/mobile/florida-teacher-punished-after-signal-jamming-his-students-cell-phones/
-trimarc detecting password spraying: https://www.trimarcsecurity.com/single-post/2018/05/06/Trimarc-Research-Detecting-Password-Spraying-with-Security-Event-Auditing
 tripwire appunblocker: https://www.tripwire.com/state-of-security/off-topic/appunblocker-bypassing-applocker/
 tripwire-mazarbot: https://www.tripwire.com/state-of-security/security-data-protection/android-malware-sms/
 triton-eenews-2017: https://www.eenews.net/articles/the-inside-story-of-the-worlds-most-dangerous-malware/
@@ -11583,7 +11567,7 @@ warren, j. (2019, february 26). how to detect overpass-the-hash attacks. retriev
 'warren, r. (2017, august 2). demiguise: virginkey.js. retrieved january 17, 2019.': https://github.com/nccgroup/demiguise/blob/master/examples/virginkey.js
 warren, r. (2017, august 8). smuggling hta files in internet explorer/edge. retrieved november 17, 2024.: http://web.archive.org/web/20200608093807/https://www.nccgroup.com/uk/about-us/newsroom-and-events/blogs/2017/august/smuggling-hta-files-in-internet-exploreredge/
 warren, r. (2017, august 8). smuggling hta files in internet explorer/edge. retrieved september 12, 2024.: https://www.nccgroup.com/us/research-blog/smuggling-hta-files-in-internet-exploreredge/
-washington post wannacry 2017: https://www.washingtonpost.com/business/economy/more-than-150-countries-affected-by-massive-cyberattack-europol-says/2017/05/14/5091465e-3899-11e7-9e48-c4f199710b69_story.html?utm_term=.7fa16b41cad4
+washington post wannacry 2017: https://www.washingtonpost.com/business/economy/more-than-150-countries-affected-by-massive-cyberattack-europol-says/2017/05/14/5091465e-3899-11e7-9e48-c4f199710b69_story.html
 ? 'webb, m. (2026, may 20). teampcp wave four: github breach via poisoned vs code
   extension, durabletask pypi worm, and ~4,000 internal repositories exfiltrated.
   retrieved july 16, 2026.'
