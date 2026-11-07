@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-06T08:56:00Z",
+  "updated": "2026-11-07T08:18:21Z",
   "window_days": 14,
   "display_items": 100,
-  "item_count_total": 683,
+  "item_count_total": 695,
   "item_count": 100,
   "retention": "additive_archive",
   "archive_dir": "data/news/archive",
@@ -24,7 +24,7 @@
     },
     {
       "month": "2026-11",
-      "item_count": 76,
+      "item_count": 88,
       "path": "data/news/archive/2026-11.json"
     }
   ],
@@ -57,256 +57,477 @@
     "BleepingComputer": {
       "ok": true,
       "items": 15,
-      "latency_ms": 897,
-      "fetch_ms": 474,
-      "parse_ms": 12,
+      "latency_ms": 3795,
+      "fetch_ms": 1101,
+      "parse_ms": 20,
       "url": "https://feeds.feedburner.com/BleepingComputer",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:25Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 296,
-      "fetch_ms": 287,
-      "parse_ms": 4,
+      "latency_ms": 1372,
+      "fetch_ms": 1272,
+      "parse_ms": 8,
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:25Z",
+      "last_success_at": "2026-11-07T08:15:53Z",
       "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 216,
-      "fetch_ms": 200,
-      "parse_ms": 13,
+      "latency_ms": 573,
+      "fetch_ms": 460,
+      "parse_ms": 21,
       "url": "https://krebsonsecurity.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:25Z",
+      "last_success_at": "2026-11-07T08:15:52Z",
       "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 1286,
-      "fetch_ms": 1278,
-      "parse_ms": 5,
+      "latency_ms": 1070,
+      "fetch_ms": 969,
+      "parse_ms": 11,
       "url": "https://www.darkreading.com/rss.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:26Z",
+      "last_success_at": "2026-11-07T08:15:53Z",
       "unhealthy": false
     },
     "SecurityWeek": {
       "ok": true,
       "items": 10,
-      "latency_ms": 191,
-      "fetch_ms": 181,
-      "parse_ms": 7,
+      "latency_ms": 112,
+      "fetch_ms": 89,
+      "parse_ms": 11,
       "url": "https://www.securityweek.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:25Z",
+      "last_success_at": "2026-11-07T08:15:52Z",
       "unhealthy": false
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 199,
-      "fetch_ms": 194,
-      "parse_ms": 2,
+      "latency_ms": 158,
+      "fetch_ms": 141,
+      "parse_ms": 6,
       "url": "https://therecord.media/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:25Z",
+      "last_success_at": "2026-11-07T08:15:52Z",
       "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 3234,
-      "fetch_ms": 173,
-      "parse_ms": 3061,
+      "latency_ms": 4284,
+      "fetch_ms": 57,
+      "parse_ms": 4225,
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 105,
-      "fetch_ms": 96,
-      "parse_ms": 8,
+      "latency_ms": 2827,
+      "fetch_ms": 2813,
+      "parse_ms": 14,
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:25Z",
+      "last_success_at": "2026-11-07T08:15:55Z",
       "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 110,
-      "fetch_ms": 93,
-      "parse_ms": 17,
+      "latency_ms": 3861,
+      "fetch_ms": 3827,
+      "parse_ms": 35,
       "url": "https://blog.talosintelligence.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:25Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 3148,
-      "fetch_ms": 3134,
-      "parse_ms": 14,
+      "latency_ms": 3421,
+      "fetch_ms": 3293,
+      "parse_ms": 27,
       "url": "https://securelist.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 2877,
-      "fetch_ms": 2777,
-      "parse_ms": 7,
+      "latency_ms": 3085,
+      "fetch_ms": 2966,
+      "parse_ms": 19,
       "url": "https://www.malwarebytes.com/blog/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 1165,
-      "fetch_ms": 1155,
-      "parse_ms": 10,
+      "latency_ms": 1204,
+      "fetch_ms": 1187,
+      "parse_ms": 17,
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:26Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1993,
-      "fetch_ms": 1901,
-      "parse_ms": 7,
+      "latency_ms": 747,
+      "fetch_ms": 653,
+      "parse_ms": 13,
       "url": "https://blog.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:27Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "Elastic Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 2261,
-      "fetch_ms": 2153,
-      "parse_ms": 13,
+      "latency_ms": 445,
+      "fetch_ms": 339,
+      "parse_ms": 23,
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 1964,
-      "fetch_ms": 1863,
-      "parse_ms": 10,
+      "latency_ms": 123,
+      "fetch_ms": 104,
+      "parse_ms": 19,
       "url": "https://blog.cloudflare.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 570,
-      "fetch_ms": 473,
-      "parse_ms": 4,
+      "latency_ms": 153,
+      "fetch_ms": 144,
+      "parse_ms": 8,
       "url": "https://blog.checkpoint.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:56Z",
       "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 398,
-      "fetch_ms": 290,
-      "parse_ms": 6,
+      "latency_ms": 299,
+      "fetch_ms": 286,
+      "parse_ms": 13,
       "url": "https://www.sentinelone.com/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 288,
-      "fetch_ms": 278,
-      "parse_ms": 8,
+      "latency_ms": 200,
+      "fetch_ms": 181,
+      "parse_ms": 17,
       "url": "https://www.rapid7.com/blog/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 519,
-      "fetch_ms": 509,
-      "parse_ms": 9,
+      "latency_ms": 381,
+      "fetch_ms": 364,
+      "parse_ms": 17,
       "url": "https://arstechnica.com/security/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:29Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 147,
-      "fetch_ms": 126,
-      "parse_ms": 20,
+      "latency_ms": 123,
+      "fetch_ms": 96,
+      "parse_ms": 27,
       "url": "https://techcrunch.com/tag/security/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 150,
-      "fetch_ms": 142,
-      "parse_ms": 7,
+      "latency_ms": 152,
+      "fetch_ms": 140,
+      "parse_ms": 11,
       "url": "https://www.wired.com/feed/category/security/latest/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:28Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 545,
-      "fetch_ms": 538,
-      "parse_ms": 7,
+      "latency_ms": 547,
+      "fetch_ms": 535,
+      "parse_ms": 11,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:29Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 289,
-      "fetch_ms": 283,
-      "parse_ms": 6,
+      "latency_ms": 534,
+      "fetch_ms": 524,
+      "parse_ms": 9,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-06T08:54:29Z",
+      "last_success_at": "2026-11-07T08:15:57Z",
       "unhealthy": false
     }
   },
   "items": [
+    {
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
+      "canonical_url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
+      "date": "2026-11-06T20:56:41Z",
+      "source": "Ars Technica",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Certificate authority DigiCert reports data breach involving business customer info",
+      "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+      "canonical_url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+      "date": "2026-11-06T18:56:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "link": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "canonical_url": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "date": "2026-11-06T18:43:43Z",
+      "source": "Wired Security",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 45 (2026)",
+      "link": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
+      "canonical_url": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
+      "date": "2026-11-06T18:30:54Z",
+      "source": "SentinelOne",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+      "link": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
+      "canonical_url": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
+      "date": "2026-11-06T18:28:41Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+      "link": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+      "canonical_url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+      "date": "2026-11-06T16:53:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "date": "2026-11-06T15:21:49Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "DigiCert Data Breach Impacts Business Customer Information",
+      "link": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
+      "canonical_url": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
+      "date": "2026-11-06T14:00:07Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
+      "link": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+      "canonical_url": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+      "date": "2026-11-06T13:52:11Z",
+      "source": "Rapid7",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+      "link": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
+      "canonical_url": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
+      "date": "2026-11-06T12:47:55Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "canonical_url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "date": "2026-11-06T12:06:43Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "date": "2026-11-06T12:00:00Z",
+      "source": "CISA Advisories",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "link": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
+      "canonical_url": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
+      "date": "2026-11-06T09:33:51Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
       "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
@@ -822,23 +1043,6 @@
       "canonical_url": "https://elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
       "date": "2026-11-04T12:45:02Z",
       "source": "Elastic Security",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "date": "2026-11-04T12:00:00Z",
-      "source": "CISA Advisories",
       "weight": 2,
       "cves": [
 
@@ -1815,214 +2019,6 @@
       "date": "2026-10-30T15:06:45Z",
       "source": "SentinelOne",
       "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
-      "link": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
-      "canonical_url": "https://securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
-      "date": "2026-10-30T14:41:35Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
-      "link": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
-      "canonical_url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
-      "date": "2026-10-30T14:24:00Z",
-      "source": "The Record",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-        {
-          "name": "Deadeye Jackal",
-          "url": "/deadeye-jackal",
-          "matched_alias": "syrianelectronicarmy"
-        }
-      ]
-    },
-    {
-      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "canonical_url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "date": "2026-10-30T14:08:14Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
-      "link": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist",
-      "canonical_url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist",
-      "date": "2026-10-30T13:46:39Z",
-      "source": "Ars Technica",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA says max severity GitLab flaw now exploited in the wild",
-      "link": "https://bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks",
-      "canonical_url": "https://bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks",
-      "date": "2026-10-30T13:00:32Z",
-      "source": "BleepingComputer",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
-      "link": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
-      "canonical_url": "https://securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
-      "date": "2026-10-30T12:04:13Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "date": "2026-10-30T12:00:00Z",
-      "source": "CISA Advisories",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hackers steal and publish data on 41,000 Homeland Security workers",
-      "link": "https://malwarebytes.com/blog/data-breaches/2026/10/hackers-steal-and-publish-data-on-41000-homeland-security-workers",
-      "canonical_url": "https://malwarebytes.com/blog/data-breaches/2026/10/hackers-steal-and-publish-data-on-41000-homeland-security-workers",
-      "date": "2026-10-30T11:33:12Z",
-      "source": "Malwarebytes",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores ",
-      "link": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
-      "canonical_url": "https://securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
-      "date": "2026-10-30T11:07:11Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-      "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-      "canonical_url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-      "date": "2026-10-30T10:40:45Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-      "link": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
-      "canonical_url": "https://securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
-      "date": "2026-10-30T09:41:36Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-      "link": "https://bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop",
-      "canonical_url": "https://bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop",
-      "date": "2026-10-30T09:18:13Z",
-      "source": "BleepingComputer",
-      "weight": 2,
       "cves": [
 
       ],

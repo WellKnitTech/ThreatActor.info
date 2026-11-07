@@ -1,7 +1,215 @@
 {
   "month": "2026-11",
-  "item_count": 76,
+  "item_count": 88,
   "items": [
+    {
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
+      "canonical_url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
+      "date": "2026-11-06T20:56:41Z",
+      "source": "Ars Technica",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Certificate authority DigiCert reports data breach involving business customer info",
+      "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+      "canonical_url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+      "date": "2026-11-06T18:56:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "link": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "canonical_url": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "date": "2026-11-06T18:43:43Z",
+      "source": "Wired Security",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 45 (2026)",
+      "link": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
+      "canonical_url": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
+      "date": "2026-11-06T18:30:54Z",
+      "source": "SentinelOne",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+      "link": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
+      "canonical_url": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
+      "date": "2026-11-06T18:28:41Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+      "link": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+      "canonical_url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+      "date": "2026-11-06T16:53:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "date": "2026-11-06T15:21:49Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "DigiCert Data Breach Impacts Business Customer Information",
+      "link": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
+      "canonical_url": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
+      "date": "2026-11-06T14:00:07Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
+      "link": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+      "canonical_url": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+      "date": "2026-11-06T13:52:11Z",
+      "source": "Rapid7",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+      "link": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
+      "canonical_url": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
+      "date": "2026-11-06T12:47:55Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "canonical_url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "date": "2026-11-06T12:06:43Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "date": "2026-11-06T12:00:00Z",
+      "source": "CISA Advisories",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "link": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
+      "canonical_url": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
+      "date": "2026-11-06T09:33:51Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
       "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
@@ -488,22 +696,6 @@
       "canonical_url": "https://elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
       "date": "2026-11-04T12:45:02Z",
       "source": "Elastic Security",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "date": "2026-11-04T12:00:00Z",
-      "source": "CISA Advisories",
       "cves": [
 
       ],

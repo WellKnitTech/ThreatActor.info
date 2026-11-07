@@ -1,5 +1,213 @@
 [
   {
+    "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+    "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
+    "canonical_url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
+    "date": "2026-11-06T20:56:41Z",
+    "source": "Ars Technica",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Certificate authority DigiCert reports data breach involving business customer info",
+    "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+    "canonical_url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+    "date": "2026-11-06T18:56:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+    "link": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+    "canonical_url": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+    "date": "2026-11-06T18:43:43Z",
+    "source": "Wired Security",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 45 (2026)",
+    "link": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
+    "canonical_url": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
+    "date": "2026-11-06T18:30:54Z",
+    "source": "SentinelOne",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+    "link": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
+    "canonical_url": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
+    "date": "2026-11-06T18:28:41Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+    "link": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+    "canonical_url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+    "date": "2026-11-06T16:53:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "date": "2026-11-06T15:21:49Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "DigiCert Data Breach Impacts Business Customer Information",
+    "link": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
+    "canonical_url": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
+    "date": "2026-11-06T14:00:07Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
+    "link": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+    "canonical_url": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+    "date": "2026-11-06T13:52:11Z",
+    "source": "Rapid7",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+    "link": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
+    "canonical_url": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
+    "date": "2026-11-06T12:47:55Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "canonical_url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "date": "2026-11-06T12:06:43Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "date": "2026-11-06T12:00:00Z",
+    "source": "CISA Advisories",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+    "link": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
+    "canonical_url": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
+    "date": "2026-11-06T09:33:51Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
     "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
     "canonical_url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
@@ -485,22 +693,6 @@
     "canonical_url": "https://elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
     "date": "2026-11-04T12:45:02Z",
     "source": "Elastic Security",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "date": "2026-11-04T12:00:00Z",
-    "source": "CISA Advisories",
     "cves": [
 
     ],
@@ -8087,200 +8279,6 @@
     ],
     "tags": [
       "breach"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-    "link": "https://darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
-    "canonical_url": "https://darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
-    "date": "2026-09-09T21:19:55Z",
-    "source": "DarkReading",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Four groups caught using the same Chrome and Windows exploit kit",
-    "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit",
-    "canonical_url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit",
-    "date": "2026-09-09T20:55:02Z",
-    "source": "Ars Technica",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "August 2026 Cyber Threat Landscape: GenAI Data Exposure Emerges as a New Enterprise Risk as Attacks, Phishing, and Ransomware Accelerate",
-    "link": "https://blog.checkpoint.com/security/august-2026-cyber-threat-landscape-genai-data-exposure-emerges-as-a-new-enterprise-risk-as-attacks-phishing-and-ransomware-accelerate",
-    "canonical_url": "https://blog.checkpoint.com/security/august-2026-cyber-threat-landscape-genai-data-exposure-emerges-as-a-new-enterprise-risk-as-attacks-phishing-and-ransomware-accelerate",
-    "date": "2026-09-09T18:09:36Z",
-    "source": "Check Point",
-    "cves": [
-
-    ],
-    "tags": [
-      "ransomware"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-    "canonical_url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-    "date": "2026-09-09T16:34:05Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-    "link": "https://bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack",
-    "canonical_url": "https://bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack",
-    "date": "2026-09-09T15:31:23Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-      "ransomware",
-      "breach"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-    "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-    "canonical_url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-    "date": "2026-09-09T14:23:55Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-    "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-    "canonical_url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-    "date": "2026-09-09T07:36:49Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
-    "link": "https://bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access",
-    "canonical_url": "https://bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access",
-    "date": "2026-09-09T07:30:15Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-    "canonical_url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-    "date": "2026-09-09T06:47:27Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-    "link": "https://bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year",
-    "canonical_url": "https://bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year",
-    "date": "2026-09-09T06:25:48Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Critical Remote Code Execution Vulnerabilities in Check Point Quantum Security Gateway and Security Management (CVE-2026-85102, CVE-2026-85103)",
-    "link": "https://labs.beazley.security/advisories/BSL-A1203",
-    "canonical_url": "https://labs.beazley.security/advisories/BSL-A1203",
-    "date": "2026-09-09T05:00:00Z",
-    "source": "Beazley Security Labs Advisories",
-    "cves": [
-      "CVE-2026-85102",
-      "CVE-2026-85103"
-    ],
-    "tags": [
-      "cve"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-    "canonical_url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-    "date": "2026-09-09T04:27:51Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
     ],
     "actors": [
 
