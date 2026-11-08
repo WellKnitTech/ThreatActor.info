@@ -15,3 +15,7 @@ gem "minitest", "~> 5.0"
 
 # Importer dependencies (HTML/XML parsing for threat group sources)
 gem "nokogiri"
+
+# RSS::Parser fallback in scripts/fetch-news.rb (extracted from stdlib; needed
+# under `bundle exec` used by validate.sh / CI news tests).
+gem "rss"

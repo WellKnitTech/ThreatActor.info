@@ -3,6 +3,7 @@
 require 'minitest/autorun'
 require 'fileutils'
 require 'json'
+require 'socket'
 require 'tmpdir'
 require 'time'
 require_relative '../scripts/lib/news_feed'
@@ -638,6 +639,96 @@ class NewsFeedTest < Minitest::Test
     assert_match(/rss\+xml|application\/xml/, headers['Accept'])
     assert_match(/en-US/, headers['Accept-Language'])
     assert_match(/gzip/, headers['Accept-Encoding'])
+    assert_equal '1', headers['Upgrade-Insecure-Requests']
+    assert_equal 'document', headers['Sec-Fetch-Dest']
+    assert_equal 'navigate', headers['Sec-Fetch-Mode']
+    assert_equal 'none', headers['Sec-Fetch-Site']
+  end
+
+  def test_cisa_has_alternate_feed_urls_for_akamai_403_fallback
+    cisa = NewsFeed::RSS_FEEDS.find { |f| f[:name] == 'CISA Advisories' }
+    refute_nil cisa
+    urls = NewsFeed.feed_urls(cisa)
+    assert_operator urls.size, :>=, 3
+    assert_equal 'https://www.cisa.gov/cybersecurity-advisories/all.xml', urls.first
+    assert(urls.any? { |u| u.include?('/news.xml') })
+    assert(urls.any? { |u| u.include?('cybersecurity-advisories.xml') })
+    assert(urls.any? { |u| u.include?('ics-advisories.xml') })
+    assert(urls.any? { |u| u.include?('/uscert/ncas/alerts.xml') })
+    hosts = urls.map { |u| URI.parse(u).host }.uniq
+    assert_includes hosts, 'www.cisa.gov'
+  end
+
+  def test_browser_headers_set_referer_from_feed_url
+    headers = NewsFeed.browser_http_headers(url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml')
+    assert_equal 'https://www.cisa.gov/', headers['Referer']
+    bare = NewsFeed.browser_http_headers
+    refute bare.key?('Referer')
+  end
+
+  def test_http_get_does_not_invent_referer_for_probe_controls
+    captured = nil
+    server = TCPServer.new('127.0.0.1', 0)
+    port = server.addr[1]
+    thr = Thread.new do
+      client = server.accept
+      request = +''
+      while (line = client.gets)
+        request << line
+        break if line == "\r\n"
+      end
+      captured = request
+      client.print "HTTP/1.1 200 OK\r\nContent-Length: 5\r\nConnection: close\r\n\r\nokxml"
+      client.close
+    rescue StandardError
+      nil
+    end
+
+    begin
+      body = NewsFeed.http_get_with_timeouts(
+        "http://127.0.0.1:#{port}/feed.xml",
+        headers: { 'User-Agent' => 'Ruby' },
+        open_timeout: 2,
+        read_timeout: 2
+      )
+      assert_equal 'okxml', body
+      refute_match(/Referer:/i, captured.to_s)
+    ensure
+      begin
+        server.close
+      rescue StandardError
+        nil
+      end
+      thr.join(2)
+    end
+  end
+
+  def test_feed_body_usable_rejects_html_challenge_and_empty
+    refute NewsFeed.feed_body_usable?('')
+    refute NewsFeed.feed_body_usable?('<!DOCTYPE html><html><body>Access Denied</body></html>')
+    refute NewsFeed.feed_body_usable?('<html><body>Forbidden</body></html>')
+    assert NewsFeed.feed_body_usable?('<?xml version="1.0"?><rss><channel><item><title>x</title></item></channel></rss>')
+    assert NewsFeed.feed_body_usable?('<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom"><entry><title>e</title></entry></feed>')
+  end
+
+  def test_feed_url_fallbacks_advance_after_forbidden_then_succeed
+    attempts = []
+    url, body = NewsFeed.with_feed_url_fallbacks(
+      %w[https://www.cisa.gov/cybersecurity-advisories/all.xml https://www.cisa.gov/news.xml],
+      deadline_seconds: 5
+    ) do |candidate, _remaining|
+      attempts << candidate
+      raise StandardError, 'HTTP 403 Forbidden' if candidate.include?('all.xml')
+
+      '<?xml version="1.0"?><rss><channel><item><title>ok</title></item></channel></rss>'
+    end
+
+    assert_equal(
+      %w[https://www.cisa.gov/cybersecurity-advisories/all.xml https://www.cisa.gov/news.xml],
+      attempts
+    )
+    assert_equal 'https://www.cisa.gov/news.xml', url
+    assert_match(/<rss>/, body)
   end
 
   def test_feed_url_fallbacks_continue_after_per_url_timeout

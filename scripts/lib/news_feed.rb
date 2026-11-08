@@ -72,7 +72,22 @@ module NewsFeed
       category: :security
     },
     { name: 'The Record', url: 'https://therecord.media/feed', weight: 2, category: :security },
-    { name: 'CISA Advisories', url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml', weight: 2, category: :security },
+    # CISA/Akamai has intermittently 403'd GHA runners (~80ms) since Nov 5, 2026 even
+    # with browser UA + Accept headers. Keep trying documented alternate advisory /
+    # news / legacy US-CERT feed paths within the same per-feed deadline.
+    {
+      name: 'CISA Advisories',
+      url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml',
+      alternate_urls: [
+        'https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml',
+        'https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml',
+        'https://www.cisa.gov/news.xml',
+        'https://www.cisa.gov/uscert/ncas/alerts.xml',
+        'https://cisa.gov/cybersecurity-advisories/all.xml'
+      ],
+      weight: 2,
+      category: :security
+    },
     { name: 'Microsoft Security', url: 'https://www.microsoft.com/en-us/security/blog/feed/', weight: 2, category: :security },
     { name: 'Cisco Talos', url: 'https://blog.talosintelligence.com/rss/', weight: 2, category: :security },
     { name: 'Securelist', url: 'https://securelist.com/feed/', weight: 2, category: :security },
@@ -944,8 +959,11 @@ module NewsFeed
     raise(last_error || StandardError.new('all feed URLs failed'))
   end
 
-  def browser_http_headers
-    {
+  # Browser-like headers. Optional `url` sets Referer to the feed origin — Akamai
+  # bot scoring often treats bare Net::HTTP requests without Referer/Sec-Fetch-* as
+  # automated. Callers may still pass an explicit headers hash to override.
+  def browser_http_headers(url: nil)
+    headers = {
       'User-Agent' => BROWSER_UA,
       'Accept' => 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
       'Accept-Language' => 'en-US,en;q=0.9',
@@ -953,8 +971,37 @@ module NewsFeed
       'Accept-Encoding' => 'gzip, deflate',
       'Cache-Control' => 'no-cache',
       'Pragma' => 'no-cache',
-      'Connection' => 'close'
+      'Connection' => 'close',
+      'Upgrade-Insecure-Requests' => '1',
+      'Sec-Fetch-Dest' => 'document',
+      'Sec-Fetch-Mode' => 'navigate',
+      'Sec-Fetch-Site' => 'none',
+      'Sec-Fetch-User' => '?1'
     }
+    referer = origin_referer(url)
+    headers['Referer'] = referer if referer
+    headers
+  end
+
+  def origin_referer(url)
+    uri = URI.parse(url.to_s)
+    return nil unless uri.is_a?(URI::HTTP)
+    return nil if uri.host.to_s.strip.empty?
+
+    "#{uri.scheme}://#{uri.host}/"
+  rescue URI::InvalidURIError, ArgumentError
+    nil
+  end
+
+  # True when the body looks like RSS/Atom rather than an HTML challenge / empty
+  # soft-block page. Used so URL fallbacks advance on Akamai "Access Denied" HTML.
+  def feed_body_usable?(raw)
+    text = raw.to_s.lstrip
+    return false if text.empty?
+    return false if text.match?(/\A(?:<!DOCTYPE\s+html|<html[\s>])/i)
+
+    text.match?(/<(?:rss|feed|rdf:RDF)[\s>]/i) ||
+      text.match?(/<(?:item|entry)[\s>]/i)
   end
 
   # Hard wall-clock deadline for an arbitrary block (fetch, parse, or both).
@@ -985,8 +1032,9 @@ module NewsFeed
   end
 
   # Hard wall-clock deadline covering DNS/connect/TLS/read/redirects.
-  def fetch_url_with_deadline(url, deadline: FEED_DEADLINE_SECONDS, headers: browser_http_headers,
+  def fetch_url_with_deadline(url, deadline: FEED_DEADLINE_SECONDS, headers: nil,
                               open_timeout: OPEN_TIMEOUT, read_timeout: READ_TIMEOUT, fetcher: nil)
+    headers ||= browser_http_headers(url: url)
     run_with_deadline(deadline) do
       if fetcher
         fetcher.call(url, headers: headers, open_timeout: open_timeout, read_timeout: read_timeout)
@@ -1037,6 +1085,11 @@ module NewsFeed
     uri = URI.parse(url.to_s)
     raise ArgumentError, "unsupported URL: #{url}" unless uri.is_a?(URI::HTTP)
 
+    # Do not invent Referer here — probe controls pass bare header hashes to
+    # measure Akamai behavior without Referer. Production callers use
+    # browser_http_headers(url:) which sets Referer explicitly.
+    request_headers = headers.is_a?(Hash) ? headers.dup : {}
+
     http = Net::HTTP.new(uri.host, uri.port)
     begin
       http.use_ssl = uri.scheme == 'https'
@@ -1047,7 +1100,7 @@ module NewsFeed
 
       path = uri.request_uri
       request = Net::HTTP::Get.new(path)
-      headers.each { |key, value| request[key] = value }
+      request_headers.each { |key, value| request[key] = value }
 
       response = http.request(request)
       case response
@@ -1073,7 +1126,7 @@ module NewsFeed
         next_url = URI.join(uri.to_s, location).to_s
         http_get_with_timeouts(
           next_url,
-          headers: headers,
+          headers: request_headers,
           open_timeout: open_timeout,
           read_timeout: read_timeout,
           limit: limit - 1

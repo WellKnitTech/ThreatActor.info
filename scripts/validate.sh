@@ -74,6 +74,7 @@ bundle exec ruby test/verify_weekly_data_workflow_test.rb
 bundle exec ruby test/verify_daily_news_workflow_test.rb
 bundle exec ruby test/news_feed_test.rb
 bundle exec ruby test/fetch_news_parse_deadline_test.rb
+bundle exec ruby test/fetch_news_cisa_fallback_test.rb
 bundle exec ruby test/generate_pages_news_only_test.rb
 bundle exec ruby test/liquid_safe_text_test.rb
 bundle exec ruby test/import_mitre_group_slug_map_test.rb

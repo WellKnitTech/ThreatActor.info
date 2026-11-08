@@ -1,0 +1,78 @@
+name: Probe CISA Feeds
+
+on:
+  workflow_dispatch:
+  # Also on PRs that touch the news/CISA fetch path so we can live-verify
+  # from GitHub-hosted runners (where the intermittent Akamai 403 appears).
+  pull_request:
+    paths:
+      - 'scripts/lib/news_feed.rb'
+      - 'scripts/fetch-news.rb'
+      - 'scripts/probe-cisa-feeds.rb'
+      - 'test/fetch_news_cisa_fallback_test.rb'
+      - 'test/news_feed_test.rb'
+      - '.github/workflows/probe-cisa-feeds.yml'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.5'
+          bundler-cache: true
+
+      - name: Unit tests (news / CISA fallback)
+        run: |
+          bundle exec ruby test/news_feed_test.rb
+          bundle exec ruby test/fetch_news_parse_deadline_test.rb
+          bundle exec ruby test/fetch_news_cisa_fallback_test.rb
+
+      - name: Live-probe CISA feed URLs
+        env:
+          CISA_PROBE_SUMMARY_PATH: tmp/cisa-probe-summary.json
+        run: ruby scripts/probe-cisa-feeds.rb
+
+      - name: Upload CISA probe summary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cisa-probe-summary
+          path: tmp/cisa-probe-summary.json
+          if-no-files-found: warn
+
+      # Post results onto the PR so they are readable without Actions log CDN access.
+      - name: Comment probe results on PR
+        if: always() && github.event_name == 'pull_request' && hashFiles('tmp/cisa-probe-summary.json') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ruby -rjson -e '
+            data = JSON.parse(File.read("tmp/cisa-probe-summary.json"))
+            urls = data.fetch("browser").map { |r| r["url"] }
+            fmt = ->(row) {
+              row["ok"] ? "ok (items~#{row["items"]}, #{row["ms"]}ms)" : "FAIL #{row["error"].to_s[0, 80]}"
+            }
+            lines = []
+            lines << "### CISA live probe (GitHub Actions runner)"
+            lines << ""
+            lines << "| URL | ruby-ua | ua+accept | browser headers |"
+            lines << "| --- | --- | --- | --- |"
+            urls.each_with_index do |url, i|
+              lines << "| `#{url}` | #{fmt.call(data["ruby_ua"][i])} | #{fmt.call(data["ua_accept"][i])} | #{fmt.call(data["browser"][i])} |"
+            end
+            lines << ""
+            lines << "Usable with production browser headers: **#{data["usable_with_browser_headers"]}/#{data["total_urls"]}**"
+            lines << ""
+            lines << "_From Probe CISA Feeds run #{ENV.fetch("GITHUB_RUN_ID", "?")} on `#{ENV.fetch("GITHUB_SHA", "?")[0, 7]}`._"
+            File.write("tmp/cisa-probe-comment.md", lines.join("\n") + "\n")
+          '
+          gh pr comment "${{ github.event.pull_request.number }}" --body-file tmp/cisa-probe-comment.md
