@@ -20,8 +20,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "29202e4d-0eb9-598d-a0c9-509f16988aa7"
     source_record_ids: ["29202e4d-0eb9-598d-a0c9-509f16988aa7"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "freeworld"
-  source_retrieved_at: "2026-11-01T09:56:56Z"
+  source_retrieved_at: "2026-11-08T21:03:44Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

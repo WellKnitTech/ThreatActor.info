@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "mimori"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/mimori"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "a5a31ba2-d519-4b5d-9122-656714c28641"
   misp_galaxy:
     meta_keys: ["refs"]
@@ -25,8 +25,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "a5a31ba2-d519-4b5d-9122-656714c28641"
     source_record_ids: ["a5a31ba2-d519-4b5d-9122-656714c28641"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "mimori"
-  source_retrieved_at: "2026-11-01T09:54:08Z"
+  source_retrieved_at: "2026-11-08T21:04:00Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

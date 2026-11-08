@@ -21,13 +21,13 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "e97f9ec0-b69d-408b-aa78-049e67d50c93"
-    source_retrieved_at: "2026-11-01T09:49:53Z"
+    source_retrieved_at: "2026-11-08T20:57:14Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     confidence: "High"
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "yingmob"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T20:57:30Z"
     source_version: "1.2"
     type: "Organized Crime"

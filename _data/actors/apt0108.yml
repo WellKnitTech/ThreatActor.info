@@ -139,6 +139,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-11-01T09:59:12Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-11-08T21:05:32Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   eternal_liberty:
     aliases_by_entity:
@@ -148,7 +151,7 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "bluemockingbird"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T20:57:30Z"
     source_version: "1.2"
     type: "Organized Crime"
   misp_galaxy:
@@ -158,20 +161,20 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "b82c6ed1-c74a-4128-8b4d-18d1e17e1134"
     source_record_ids: ["b82c6ed1-c74a-4128-8b4d-18d1e17e1134"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   mitre:
-    attack_version: "20.0"
+    attack_version: "20.1"
     attack_version_by_domain:
-      enterprise: "20.0"
-      ics: "20.0"
-      mobile: "20.0"
-    relationships_imported_at: "2026-11-01T09:59:12Z"
+      enterprise: "20.1"
+      ics: "20.1"
+      mobile: "20.1"
+    relationships_imported_at: "2026-11-08T21:05:32Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0108"
-    source_retrieved_at: "2026-11-01T09:59:12Z"
+    source_retrieved_at: "2026-11-08T21:05:32Z"
     stix_intrusion_set_id: "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee"
 source: "MITRE ATT&CK"

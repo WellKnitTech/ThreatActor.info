@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T08:33:49Z",
+  "generated_at": "2026-11-08T21:06:32Z",
   "actors": [
     {
       "kind": "actor",
@@ -16333,6 +16333,19 @@
       "name": "Desorden",
       "permalink": "/desorden/",
       "description": "Not much is known about this person or group, other than the breach reports. Seems to be a renamed ALTDOS.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Destello",
+      "permalink": "/destello/",
+      "description": "Destello is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -33922,6 +33935,19 @@
     },
     {
       "kind": "actor",
+      "name": "Obsoft",
+      "permalink": "/obsoft/",
+      "description": "Obsoft is an active extortion or ransomware group tracked by RansomLook.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Oceans",
       "permalink": "/oceans/",
       "description": "Oceans is an active extortion or ransomware group tracked by RansomLook.",
@@ -36223,6 +36249,19 @@
       "name": "Pirateware",
       "permalink": "/pirateware/",
       "description": "ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Pixelleaks",
+      "permalink": "/pixelleaks/",
+      "description": "Pixelleaks is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -42883,6 +42922,19 @@
     },
     {
       "kind": "actor",
+      "name": "Soul",
+      "permalink": "/soul/",
+      "description": "Soul is an active extortion or ransomware group tracked by RansomLook.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Sous-direction anti-terroriste (SDAT)",
       "permalink": "/sous-direction-anti-terroriste-sdat/",
       "description": "Sous-direction anti-terroriste (SDAT)",
@@ -48688,6 +48740,19 @@
     },
     {
       "kind": "actor",
+      "name": "UNC7228",
+      "permalink": "/unc7228/",
+      "description": "Uncategorized threat cluster tracked by Google Threat Intelligence Group for an ARTEX-enabled intrusion campaign also tracked by Wiz Research. GTIG states that it overlaps with the PRC-nexus actor Microsoft tracks as Storm-0940. Activity dates back to at least August 2026 and affe",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Unfading Sea Haze",
       "permalink": "/unfading-sea-haze/",
       "description": "Unfading Sea Haze is a threat actor focused on espionage, targeting government and military organizations in the South China Sea region since 2018. They employ spear-phishing emails with malicious attachments to gain initial access, followed by the deployment of custom malware suc",
@@ -49351,6 +49416,19 @@
     },
     {
       "kind": "actor",
+      "name": "UTA0576",
+      "permalink": "/uta0576/",
+      "description": "Previously unknown threat actor tracked by Volexity, which from 3 October 2026 exploited a zero-day chain in Ivanti Connect Secure (authentication bypass and RCE tracked as CVE-2026-104935, plus a privilege escalation) to obtain unauthenticated root code execution on a fully patch",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "UTG-Q-008",
       "permalink": "/utg-q-008/",
       "description": "UTG-Q-008 is a threat actor targeting Linux platforms, primarily focusing on government and enterprise entities in China. They utilize a massive botnet network for espionage activities, including reconnaissance, brute-forcing, and Trojan component delivery. The actor has a history",
@@ -49524,6 +49602,19 @@
       "permalink": "/vapelauncher/",
       "description": "Ransomware CryptoWire variant",
       "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Vapor Panda",
+      "permalink": "/vapor-panda/",
+      "description": "China-nexus targeted intrusion adversary tracked by CrowdStrike, formerly tracked as VexatiousTemper, active since at least 2021 against government, think tank, energy and extractive organisations across Europe, North America, Oceania and the UK. From 17 October 2026 CrowdStrike o",
+      "country": "China",
       "attck_techniques": [
 
       ],

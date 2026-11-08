@@ -18,7 +18,7 @@ provenance:
     sample_titles: ["Case Study: Operation Aurora","The Command Structure Of The Aurora Botnet","Operation Aurora: Detect, Diagnose, Respond","Operation Aurora","How Can I Tell If I Was Infected By Aurora?","Evidence Aurora Operation Still Active: Supply Chain Attack Through CCleaner","Evidence Aurora Operation Still Active: Supply Chain Attack Through CCleaner part2"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-08T21:05:56Z"
     sources: ["Damballa","HBGary","Intezer","McAfee","Triumfant"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "aurora"

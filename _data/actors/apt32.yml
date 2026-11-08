@@ -480,6 +480,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-11-01T09:59:12Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-11-08T21:05:31Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2015"
@@ -489,12 +492,12 @@ provenance:
     sample_titles: ["Oceanlotus","OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN","False flag or upgrade? Suspected sea lotus uses the Glitch platform to reproduce the attack sample"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-08T21:05:56Z"
     sources: ["Blog","SkyEye","Volexity"]
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "9adbce9a-231f-4bd0-a104-03324899afa8"
-    source_retrieved_at: "2026-11-01T09:49:53Z"
+    source_retrieved_at: "2026-11-08T20:57:14Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -514,14 +517,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "apt32"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T20:57:30Z"
     source_version: "1.2"
     type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt32"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt32"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "aa29ae56-e54b-47a2-ad16-d3ab0242d5d7"
   microsoft_threat_actor_list:
     license_status: "Microsoft publishes this workbook for public reuse and regular updates; imports preserve source attribution and importer provenance."
@@ -529,7 +532,7 @@ provenance:
     origin_category: "Vietnam"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "canvascyclone"
-    source_retrieved_at: "2026-11-01T09:50:12Z"
+    source_retrieved_at: "2026-11-08T20:57:32Z"
   misp_galaxy:
     meta_keys: ["attribution-confidence","cfr-suspected-state-sponsor","cfr-suspected-victims","cfr-target-category","cfr-type-of-incident","country","origin:APT-C-00","refs","synonyms","targeted-sector","group_attack_id","observed_countries","source","tags","target_categories","suspected-victims","target-category","microsoft-origin-threat","sector","name-attribution"]
     source_cluster: "threat-actor.json"
@@ -537,21 +540,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "aa29ae56-e54b-47a2-ad16-d3ab0242d5d7"
     source_record_ids: ["aa29ae56-e54b-47a2-ad16-d3ab0242d5d7","c0fe9859-e8de-4ce1-bc3c-b489e914a145","ad1a6df6-2251-5e47-a245-8693c1ace8fb","37808cab-cbb3-560b-bebd-375fa328ea1e"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   mitre:
-    attack_version: "20.0"
+    attack_version: "20.1"
     attack_version_by_domain:
-      enterprise: "20.0"
-      ics: "20.0"
-      mobile: "20.0"
-    relationships_imported_at: "2026-11-01T09:59:12Z"
+      enterprise: "20.1"
+      ics: "20.1"
+      mobile: "20.1"
+    relationships_imported_at: "2026-11-08T21:05:31Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0050"
-    source_retrieved_at: "2026-11-01T09:59:12Z"
+    source_retrieved_at: "2026-11-08T21:05:31Z"
     stix_intrusion_set_id: "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e"
   reddrip7_apt_digital_weapon:
     actor_folder: "OceanLotus"
@@ -559,4 +562,4 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/OceanLotus/OceanLotus_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-01T09:59:46Z"
+    source_retrieved_at: "2026-11-08T21:06:01Z"

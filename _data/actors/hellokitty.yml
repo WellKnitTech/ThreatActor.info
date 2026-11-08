@@ -2,7 +2,7 @@ name: "HelloKitty"
 aliases: ["FiveHands","HelloKitty"]
 description: "ransomware"
 url: "/hellokitty"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/fivehands"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "022c995a-f1ba-498f-b67e-92ef01fd06a3"
     source_record_ids: ["022c995a-f1ba-498f-b67e-92ef01fd06a3"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   ransomware_tool_matrix:
     references:
       - title: "www.ic3.gov"
@@ -34,7 +34,7 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
     source_label: "FiveHands"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-08T21:04:43Z"
     tools_by_category:
       Credential Theft: ["GrabFF","Mimikatz","Router Scan"]
       Defense Evasion: ["PCHunter"]
@@ -61,7 +61,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "FiveHands / HelloKitty"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-08T21:04:47Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "SonicWall"
@@ -75,6 +75,6 @@ provenance:
           source_links: ["https://cloud.google.com/blog/topics/threat-intelligence/unc2447-sombrat-and-fivehands-ransomware-sophisticated-financial-threat/","https://www.ic3.gov/CSA/2021/211029.pdf"]
           source_file: "Vulnerabilities/NetworkEdge.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
-  source_record_id: "fivehands"
-  source_retrieved_at: "2026-11-01T09:57:05Z"
+  source_record_id: "hellokitty"
+  source_retrieved_at: "2026-11-08T21:00:19Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

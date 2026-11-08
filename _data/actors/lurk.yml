@@ -19,12 +19,12 @@ provenance:
     sample_titles: ["Recent Observations In Tibet-Related Information Operations: Advanced Social Engineering For The Distribution Of Lurk Malware"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-08T21:05:56Z"
     sources: ["Citizen Lab"]
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "20da2b77-e300-48ff-afb9-a997e6c0f297"
-    source_retrieved_at: "2026-11-01T09:49:52Z"
+    source_retrieved_at: "2026-11-08T20:57:14Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -33,6 +33,6 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "lurk"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T20:57:30Z"
     source_version: "1.2"
     type: "Organized Crime"

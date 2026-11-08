@@ -15,7 +15,7 @@ provenance:
     origin_category: "Group in development"
     source_dataset_url: "https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx"
     source_record_id: "storm2470"
-    source_retrieved_at: "2026-11-01T09:50:12Z"
+    source_retrieved_at: "2026-11-08T20:57:32Z"
   misp_galaxy:
     meta_keys: ["country","microsoft-origin-threat","refs"]
     source_cluster: "microsoft-activity-group.json"
@@ -23,4 +23,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/microsoft-activity-group.json"
     source_record_id: "20935d1b-dafd-5373-bfd1-df8519507641"
     source_record_ids: ["20935d1b-dafd-5373-bfd1-df8519507641"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"

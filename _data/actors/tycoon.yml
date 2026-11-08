@@ -19,8 +19,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "39781a7a-cd3a-4e24-aeb8-94a767a2551b"
     source_record_ids: ["39781a7a-cd3a-4e24-aeb8-94a767a2551b"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "tycoon"
-  source_retrieved_at: "2026-11-01T09:53:18Z"
+  source_retrieved_at: "2026-11-08T20:58:43Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

@@ -19,7 +19,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "vantacore"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/vantacore"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "f668a512-ecf2-40ef-b75d-51b3aa9a121a"
   misp_galaxy:
     meta_keys: ["links","refs","country","synonyms"]
@@ -28,8 +28,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "3ecf7a76-9e37-4d36-9dda-be8d0a38d56a"
     source_record_ids: ["3ecf7a76-9e37-4d36-9dda-be8d0a38d56a","f668a512-ecf2-40ef-b75d-51b3aa9a121a"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "thor"
-  source_retrieved_at: "2026-11-01T09:53:35Z"
+  source_retrieved_at: "2026-11-08T21:02:22Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

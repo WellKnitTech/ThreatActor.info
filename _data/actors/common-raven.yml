@@ -16,14 +16,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "commonraven"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T20:57:30Z"
     source_version: "1.2"
     type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "common_raven"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/common_raven"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "da581c60-7c3d-4de6-b54c-cafea1c58389"
   misp_galaxy:
     meta_keys: ["refs","synonyms","name-attribution"]
@@ -32,11 +32,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "da581c60-7c3d-4de6-b54c-cafea1c58389"
     source_record_ids: ["da581c60-7c3d-4de6-b54c-cafea1c58389"]
-    source_retrieved_at: "2026-11-01T09:59:23Z"
+    source_retrieved_at: "2026-11-08T21:05:41Z"
   reddrip7_apt_digital_weapon:
     actor_folder: "OPERA1ER"
     actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/OPERA1ER/README.md"
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/OPERA1ER/OPERA1ER_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-01T09:59:46Z"
+    source_retrieved_at: "2026-11-08T21:06:01Z"

@@ -2,7 +2,7 @@ name: "Ranzy"
 aliases: ["Ranzy"]
 description: "Ranzy is an active extortion or ransomware group tracked by RansomLook."
 url: "/ranzy"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/ranzy"
@@ -15,10 +15,10 @@ provenance:
     source_files: ["Tools/Exfiltration.md"]
     source_label: "Ranzy"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-08T21:04:43Z"
     tools_by_category:
       Exfiltration: ["UFile"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "ranzy"
-  source_retrieved_at: "2026-11-01T09:57:23Z"
+  source_retrieved_at: "2026-11-08T20:59:31Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

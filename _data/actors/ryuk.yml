@@ -6,7 +6,7 @@ country: "Russia"
 sector_focus: ["Healthcare","Government","Education"]
 first_seen: "2018"
 last_activity: "2021"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 risk_level: "Critical"
 source_attribution: "Manually curated from open source intelligence"
 provenance:
@@ -56,7 +56,7 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md"]
     source_label: "Ryuk"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-08T21:04:47Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "Windows"
@@ -70,4 +70,4 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Ryuk/Ryuk_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-01T09:59:46Z"
+    source_retrieved_at: "2026-11-08T21:06:01Z"

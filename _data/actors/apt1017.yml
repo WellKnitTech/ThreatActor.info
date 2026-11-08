@@ -639,6 +639,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-01T09:59:12Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-08T21:05:31Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 campaigns:
 - name: Versa Director Zero Day Exploitation
   campaign_id: C0039
@@ -673,12 +676,12 @@ provenance:
     - https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF
     - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/critical-infrastructure-attacks
     - https://blog.lumen.com/routers-roasting-on-an-open-firewall-the-kv-botnet-investigation/
-    source_retrieved_at: '2026-11-01T09:59:39Z'
+    source_retrieved_at: '2026-11-08T21:05:54Z'
     tab_name: china
   dragos_threat_groups:
     source_name: Dragos Threat Groups
     source_dataset_url: https://www.dragos.com/threat-groups
-    source_retrieved_at: '2026-11-01T09:58:53Z'
+    source_retrieved_at: '2026-11-08T21:05:14Z'
     source_record_id: VOLTZITE
     source_urls:
     - https://www.dragos.com/threat/voltzite
@@ -693,14 +696,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: volttyphoon
-    source_retrieved_at: '2026-11-01T09:50:09Z'
+    source_retrieved_at: '2026-11-08T20:57:30Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: volt_typhoon
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/volt_typhoon
-    source_retrieved_at: '2026-11-01T09:59:30Z'
+    source_retrieved_at: '2026-11-08T21:05:47Z'
     source_uuid: f02679fa-5e85-4050-8eb5-c2677d93306f
   microsoft_threat_actor_list:
     license_status: Microsoft publishes this workbook for public reuse and regular
@@ -709,7 +712,7 @@ provenance:
     origin_category: China
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: volttyphoon
-    source_retrieved_at: '2026-11-01T09:50:12Z'
+    source_retrieved_at: '2026-11-08T20:57:32Z'
   misp_galaxy:
     meta_keys:
     - country
@@ -737,25 +740,25 @@ provenance:
     - f02679fa-5e85-4050-8eb5-c2677d93306f
     - 7c4a32dc-24d5-5d69-96a2-9d0a2ae0f31b
     - 4ea1245f-3f35-5168-bd10-1fc49142fd4e
-    source_retrieved_at: '2026-11-01T09:59:23Z'
+    source_retrieved_at: '2026-11-08T21:05:41Z'
   mitre:
-    attack_version: '20.0'
+    attack_version: '20.1'
     attack_version_by_domain:
-      enterprise: '20.0'
-      ics: '20.0'
-      mobile: '20.0'
-    relationships_imported_at: '2026-11-01T09:59:12Z'
+      enterprise: '20.1'
+      ics: '20.1'
+      mobile: '20.1'
+    relationships_imported_at: '2026-11-08T21:05:31Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1017
-    source_retrieved_at: '2026-11-01T09:59:12Z'
+    source_retrieved_at: '2026-11-08T21:05:31Z'
     stix_intrusion_set_id: intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Insidious Taurus
 source: MITRE ATT&CK

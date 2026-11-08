@@ -438,11 +438,14 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-01T09:59:13Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-08T21:05:32Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   etda_thai_group_cards:
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 92cc31c7-3c18-4ae2-9f9b-649b6cb029e1
-    source_retrieved_at: '2026-11-01T09:49:53Z'
+    source_retrieved_at: '2026-11-08T20:57:14Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -457,14 +460,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: shinyhunters
-    source_retrieved_at: '2026-11-01T09:50:09Z'
+    source_retrieved_at: '2026-11-08T20:57:30Z'
     source_version: '1.2'
     type: Organized Crime
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: unc5537
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc5537
-    source_retrieved_at: '2026-11-01T09:59:30Z'
+    source_retrieved_at: '2026-11-08T21:05:47Z'
     source_uuid: b8c6da46-4c9a-4075-b9f3-3b5ef7bd3534
   microsoft_threat_actor_list:
     categories:
@@ -475,7 +478,7 @@ provenance:
     origin_category: Financially motivated
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: storm3127
-    source_retrieved_at: '2026-11-01T09:50:12Z'
+    source_retrieved_at: '2026-11-08T20:57:32Z'
   misp_galaxy:
     meta_keys:
     - refs
@@ -490,25 +493,25 @@ provenance:
     source_record_ids:
     - d4fd0a30-15d4-4dfd-bf98-beff5fe34c33
     - ea3f99ec-76ad-5c71-950d-9324e3d48811
-    source_retrieved_at: '2026-11-01T09:59:23Z'
+    source_retrieved_at: '2026-11-08T21:05:41Z'
   mitre:
-    attack_version: '20.0'
+    attack_version: '20.1'
     attack_version_by_domain:
-      enterprise: '20.0'
-      ics: '20.0'
-      mobile: '20.0'
-    relationships_imported_at: '2026-11-01T09:59:13Z'
+      enterprise: '20.1'
+      ics: '20.1'
+      mobile: '20.1'
+    relationships_imported_at: '2026-11-08T21:05:32Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1057
-    source_retrieved_at: '2026-11-01T09:59:13Z'
+    source_retrieved_at: '2026-11-08T21:05:32Z'
     stix_intrusion_set_id: intrusion-set--5e30362d-935b-4b1c-8bf2-96c7b7b7e299
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: shinyhunters
-  source_retrieved_at: '2026-11-01T09:55:12Z'
+  source_retrieved_at: '2026-11-08T20:58:34Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -517,11 +520,11 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Bling Libra
   wiz_cloud_threat_landscape:
     source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
     source_name: Wiz Cloud Threat Landscape
     source_record_id: threat-actor--d083a682-3a37-51ad-9787-4978d9041f7c
     source_record_modified: '2024-09-19T12:11:00.000Z'
-    source_retrieved_at: '2026-11-01T09:49:33Z'
+    source_retrieved_at: '2026-11-08T20:56:57Z'

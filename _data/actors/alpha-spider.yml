@@ -2,7 +2,7 @@ name: "Alpha Spider"
 aliases: ["ALPHV Ransomware Group","Alpha Spider"]
 description: "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilities and leveraging legitimate administration tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence in exfiltrating data and have shown the ability to bypass security measures like DNS-based filtering and multifactor authentication. Despite lacking specific operational security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's operations effectively."
 url: "/alpha-spider"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/alpha_spider"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "alpha_spider"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/alpha_spider"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "6149f3b6-510d-4e45-bf88-cd25c7193702"
   misp_galaxy:
     meta_keys: ["refs","synonyms"]
@@ -89,7 +89,7 @@ provenance:
     source_files: ["GroupProfiles/BlackCat.md","Vulnerabilities/Applications.md","Vulnerabilities/Linux.md","Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
     source_label: "ALPHV / Black Cat / BlackCat"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-08T21:04:47Z"
     vulnerabilities_by_category:
       Applications:
         - vendor: "Veritas"

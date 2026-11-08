@@ -16,7 +16,7 @@ description: Cicada3301 is a sophisticated Ransomware-as-a-Service (RaaS) group 
   are believed to be highly professional, possibly involving former ALPHV developers
   or affiliates.
 url: "/cicada33o1"
-last_updated: '2026-11-01'
+last_updated: '2026-11-08'
 source_name: RansomLook
 source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
   Source: https://www.ransomlook.io/'
@@ -49,7 +49,7 @@ provenance:
     - Tools/Offsec.md
     source_label: Cicada3301
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-11-01T09:58:24Z'
+    source_retrieved_at: '2026-11-08T21:04:43Z'
     tools_by_category:
       Defense Evasion:
       - EDRSandBlast
@@ -71,7 +71,7 @@ provenance:
       - Rubeus
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: cicada33o1
-  source_retrieved_at: '2026-11-01T09:57:35Z'
+  source_retrieved_at: '2026-11-08T21:04:10Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -80,5 +80,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Repellent Scorpius

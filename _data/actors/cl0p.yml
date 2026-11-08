@@ -61,7 +61,7 @@ targeted_victims:
 - United States
 first_seen: '2019'
 last_activity: '2025'
-last_updated: '2026-11-01'
+last_updated: '2026-11-08'
 risk_level: Critical
 external_id: G0092
 external_url: https://attack.mitre.org/groups/G0092
@@ -81,7 +81,7 @@ provenance:
     source_attribution: MOVEit Transfer campaign events were reviewed from the Curated
       Intelligence MOVEit Transfer tracking repository (https://github.com/curated-intel/MOVEit-Transfer).
       Linked reports remain owned by their original publishers.
-    source_retrieved_at: '2026-11-01T09:59:54Z'
+    source_retrieved_at: '2026-11-08T21:06:08Z'
     event_count: 74
     events:
     - publish_date: '2023-05-31'
@@ -552,7 +552,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-11-01T09:59:53Z'
+    source_retrieved_at: '2026-11-08T21:06:07Z'
     reports:
     - organization: South Staffordshire Water
       breach_date: August 2022
@@ -579,7 +579,7 @@ provenance:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: ta505
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/ta505
-    source_retrieved_at: '2026-11-01T09:59:30Z'
+    source_retrieved_at: '2026-11-08T21:05:47Z'
     source_uuid: 03c80674-35f8-4fe0-be2b-226ed0fcd69f
   misp_galaxy:
     meta_keys:
@@ -596,7 +596,7 @@ provenance:
     source_record_id: 21b349c3-ede2-4e11-abda-1444eb272eff
     source_record_ids:
     - 21b349c3-ede2-4e11-abda-1444eb272eff
-    source_retrieved_at: '2026-11-01T09:59:24Z'
+    source_retrieved_at: '2026-11-08T21:05:42Z'
   mitre:
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_record_id: G0092
@@ -617,7 +617,7 @@ provenance:
     - Tools/Offsec.md
     source_label: CL0P
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-11-01T09:58:24Z'
+    source_retrieved_at: '2026-11-08T21:04:43Z'
     tools_by_category:
       OffSec:
       - Cobalt Strike
@@ -666,7 +666,7 @@ provenance:
     - Vulnerabilities/FileTransferServers.md
     source_label: Clop
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-11-01T09:58:28Z'
+    source_retrieved_at: '2026-11-08T21:04:47Z'
     vulnerabilities_by_category:
       Applications:
       - vendor: Oracle
@@ -799,10 +799,10 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-11-01T09:59:46Z'
+    source_retrieved_at: '2026-11-08T21:06:01Z'
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: clop
-  source_retrieved_at: '2026-11-01T09:56:10Z'
+  source_retrieved_at: '2026-11-08T21:00:37Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -811,11 +811,11 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Chubby Scorpius
   wiz_cloud_threat_landscape:
     source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
     source_name: Wiz Cloud Threat Landscape
     source_record_id: threat-actor--759f0092-5a60-5059-8a6c-850a7b0946aa
     source_record_modified: '2025-10-09T09:53:00.000Z'
-    source_retrieved_at: '2026-11-01T09:49:33Z'
+    source_retrieved_at: '2026-11-08T20:56:57Z'

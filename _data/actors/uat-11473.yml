@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "uat-11473"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/uat-11473"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "87e0e168-99df-4863-9fd1-23f529c5f24c"
   misp_galaxy:
     meta_keys: ["date","refs"]
@@ -25,4 +25,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "87e0e168-99df-4863-9fd1-23f529c5f24c"
     source_record_ids: ["87e0e168-99df-4863-9fd1-23f529c5f24c"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"

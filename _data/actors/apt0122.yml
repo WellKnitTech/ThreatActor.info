@@ -152,6 +152,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-01T09:59:12Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-08T21:05:32Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   apt_groups_operations:
     matched_mitre_ids:
@@ -169,14 +172,14 @@ provenance:
     - https://www.secureworks.com/research/threat-profiles/cobalt-dickens
     - https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/
     - https://blog.malwarebytes.com/cybercrime/2020/10/fake-covid-19-survey-hides-ransomware-in-canadian-university-attack/
-    source_retrieved_at: '2026-11-01T09:59:39Z'
+    source_retrieved_at: '2026-11-08T21:05:54Z'
     tab_name: iran
   etda_thai_group_cards:
     mitre_group_ids:
     - G0122
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: dfa23dfc-0cb8-4621-bde5-1583e1e7bfa4
-    source_retrieved_at: '2026-11-01T09:49:52Z'
+    source_retrieved_at: '2026-11-08T20:57:14Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -203,14 +206,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: mabnainstitute
-    source_retrieved_at: '2026-11-01T09:50:09Z'
+    source_retrieved_at: '2026-11-08T20:57:30Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: silent_librarian
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/silent_librarian
-    source_retrieved_at: '2026-11-01T09:59:30Z'
+    source_retrieved_at: '2026-11-08T21:05:47Z'
     source_uuid: 5059b44d-2753-4977-b987-4922f09afe6b
   misp_galaxy:
     meta_keys:
@@ -233,25 +236,25 @@ provenance:
     source_record_ids:
     - 5059b44d-2753-4977-b987-4922f09afe6b
     - 0e7bd4da-7974-49c9-b213-116bd7157761
-    source_retrieved_at: '2026-11-01T09:59:23Z'
+    source_retrieved_at: '2026-11-08T21:05:41Z'
   mitre:
-    attack_version: '20.0'
+    attack_version: '20.1'
     attack_version_by_domain:
-      enterprise: '20.0'
-      ics: '20.0'
-      mobile: '20.0'
-    relationships_imported_at: '2026-11-01T09:59:12Z'
+      enterprise: '20.1'
+      ics: '20.1'
+      mobile: '20.1'
+    relationships_imported_at: '2026-11-08T21:05:32Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0122
-    source_retrieved_at: '2026-11-01T09:59:12Z'
+    source_retrieved_at: '2026-11-08T21:05:32Z'
     stix_intrusion_set_id: intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Academic Serpens
 source: MITRE ATT&CK

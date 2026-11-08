@@ -23,7 +23,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "stac4749"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/stac4749"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "aa09600e-29a2-4ba0-a6c0-bd305c30140c"
   misp_galaxy:
     meta_keys: ["date","refs"]
@@ -32,4 +32,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "aa09600e-29a2-4ba0-a6c0-bd305c30140c"
     source_record_ids: ["aa09600e-29a2-4ba0-a6c0-bd305c30140c"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"

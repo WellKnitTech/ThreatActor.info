@@ -22,7 +22,7 @@ source_license_url: https://creativecommons.org/licenses/by/4.0/
 provenance:
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: cloak
-  source_retrieved_at: '2026-11-01T09:51:04Z'
+  source_retrieved_at: '2026-11-08T20:59:41Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases
@@ -31,5 +31,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Invisible Scorpius

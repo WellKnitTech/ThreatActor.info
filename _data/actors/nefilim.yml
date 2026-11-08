@@ -2,7 +2,7 @@ name: "Nefilim"
 aliases: ["Nefilim"]
 description: "According to Vitali Kremez and Michael Gillespie, this ransomware shares much code with Nemty 2.5. A difference is removal of the RaaS component, which was switched to email communications for payments. Uses AES-128, which is then protected RSA2048."
 url: "/nefilim"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/nefilim"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "d12f369c-f776-468a-8abf-8000b1b30642"
     source_record_ids: ["d12f369c-f776-468a-8abf-8000b1b30642"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   ransomware_vulnerability_matrix:
     references:
       - title: "sophos.com"
@@ -25,7 +25,7 @@ provenance:
     source_files: ["Vulnerabilities/Virtualization.md"]
     source_label: "Nefilim"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-08T21:04:47Z"
     vulnerabilities_by_category:
       Virtualization:
         - vendor: "Citrix"
@@ -35,5 +35,5 @@ provenance:
           source_file: "Vulnerabilities/Virtualization.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "nefilim"
-  source_retrieved_at: "2026-11-01T09:53:43Z"
+  source_retrieved_at: "2026-11-08T20:58:07Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

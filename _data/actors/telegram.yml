@@ -18,9 +18,9 @@ provenance:
     sample_titles: ["Telegram Malware Spotted in Latest Iranian Cyber Espionage Activity"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-08T21:05:56Z"
     sources: ["mandiant"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "telegram"
-  source_retrieved_at: "2026-11-01T09:52:43Z"
+  source_retrieved_at: "2026-11-08T21:03:01Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

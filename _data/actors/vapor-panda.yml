@@ -1,0 +1,47 @@
+name: "Vapor Panda"
+aliases: ["VexatiousTemper","Vapor Panda","VAPOR PANDA"]
+description: "China-nexus targeted intrusion adversary tracked by CrowdStrike, formerly tracked as VexatiousTemper, active since at least 2021 against government, think tank, energy and extractive organisations across Europe, North America, Oceania and the UK. From 17 October 2026 CrowdStrike observed it run the agentic AI framework ARTEX, mainly with DeepSeek plus a second commercial LLM, from a single controller against more than 200 organisations in at least 14 countries, including foreign ministries in Latin America, Europe, Asia and the Middle East, US pharmaceutical, semiconductor, defense and nuclear organisations, and telecommunications providers. A human operator steered the agents in Chinese, including instructions to find hosts without the CrowdStrike Falcon sensor. Post-exploitation at nine organisations included deployment of the BLOODALCHEMY backdoor, side-loaded by a renamed GameHook binary. CrowdStrike states this campaign is separate from the ARTEX activity tracked as Storm-0940. The Hacker News reports, without a CrowdStrike quote, that the group overlaps with Trend Micro's Earth Estries; this overlap is recorded as a similar relation, not as a synonym."
+url: "/vapor-panda"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/vapor_panda"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "Agent.btz"
+  - name: "China Chopper"
+  - name: "Nuclear RAT"
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  apt_groups_operations:
+    sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
+    source_dataset_url: "https://apt.threattracking.com/"
+    source_retrieved_at: "2026-11-08T21:05:54Z"
+    tab_name: "china"
+  eternal_liberty:
+    aliases_by_entity:
+      CrowdStrike: ["Vapor Panda"]
+    confidence: "Low"
+    license_status: "No explicit upstream license; approved as the sole no-license import exception."
+    source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
+    source_record_id: "vaporpanda"
+    source_retrieved_at: "2026-11-08T20:57:30Z"
+    source_version: "1.2"
+    type: "APT"
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "vapor_panda"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/vapor_panda"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
+    source_uuid: "4125764c-ec9a-4a11-88c3-140d8b6e2810"
+  misp_galaxy:
+    meta_keys: ["country","date","refs","synonyms"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "4125764c-ec9a-4a11-88c3-140d8b6e2810"
+    source_record_ids: ["4125764c-ec9a-4a11-88c3-140d8b6e2810"]
+    source_retrieved_at: "2026-11-08T21:05:42Z"

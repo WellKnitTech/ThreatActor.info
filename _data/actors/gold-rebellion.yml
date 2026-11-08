@@ -50,7 +50,7 @@ description: 'GOLD REBELLION is a financially motivated cybercriminal threat gro
   execution, RDP for lateral movement, batch files to delete their own tools and disable
   anti-virus programs for defense evasion, and both Rclone and MegaSync for data exfiltration.'
 url: "/gold-rebellion"
-last_updated: '2026-11-01'
+last_updated: '2026-11-08'
 source_name: MISP Galaxy
 source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
 source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/gold_rebellion
@@ -75,7 +75,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-11-01T09:59:53Z'
+    source_retrieved_at: '2026-11-08T21:06:07Z'
     reports:
     - organization: Capita
       breach_date: March 2023
@@ -102,14 +102,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: goldrebellion
-    source_retrieved_at: '2026-11-01T09:50:09Z'
+    source_retrieved_at: '2026-11-08T20:57:30Z'
     source_version: '1.2'
     type: Organized Crime
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: unc4393
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/unc4393
-    source_retrieved_at: '2026-11-01T09:59:30Z'
+    source_retrieved_at: '2026-11-08T21:05:47Z'
     source_uuid: 8191e28a-fb2d-4d50-b992-b877807a2f37
   misp_galaxy:
     meta_keys:
@@ -131,7 +131,7 @@ provenance:
     source_record_ids:
     - 835c7fc6-a066-447d-a0fc-b096bd9c412f
     - c88e3c8d-cb71-48e1-a2c4-5f00300dfa0b
-    source_retrieved_at: '2026-11-01T09:59:24Z'
+    source_retrieved_at: '2026-11-08T21:05:42Z'
   ransomware_tool_matrix:
     actor_roles:
     - ransomware_affiliate
@@ -170,7 +170,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Black Basta / BlackBasta / Lockean / Lockean*
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-11-01T09:58:24Z'
+    source_retrieved_at: '2026-11-08T21:04:43Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -285,7 +285,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: Black Basta / BlackBasta
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-11-01T09:58:28Z'
+    source_retrieved_at: '2026-11-08T21:04:47Z'
     vulnerabilities_by_category:
       Group Profile:
       - vendor: ConnectWise
@@ -415,9 +415,9 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-11-01T09:59:46Z'
+    source_retrieved_at: '2026-11-08T21:06:01Z'
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Dark Scorpius

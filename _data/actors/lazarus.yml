@@ -577,6 +577,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-11-01T09:59:12Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-11-08T21:05:32Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 campaigns:
   - name: "Operation Dream Job"
     campaign_id: "C0022"
@@ -588,7 +591,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["http://www.mcafee.com/us/resources/white-papers/wp-dissecting-operation-troy.pdf"]
-    source_retrieved_at: "2026-11-01T09:59:39Z"
+    source_retrieved_at: "2026-11-08T21:05:54Z"
     tab_name: "unknown"
   aptnotes:
     earliest_report_year: "2013"
@@ -598,18 +601,18 @@ provenance:
     sample_titles: ["Dissecting Operation Troy: Cyberespionage In South Korea","Dark Seoul Cyber Attack: Could It Be Worse?","Lazarus & Watering-Hole Attacks","Lazarus' False Flag Malware","Taiwan Heist: Lazarus Tools And Ransomware","Lazarus Group Targets More Cryptocurrency Exchanges and FinTech Companies","Attacks Of The Lazarus Cybercriminal Group Attended To Organizations In Russia","Lazarus supply-chain attack in South Korea","Lazarus covets COVID-19-related intelligence","North Korea's Lazarus APT leverages Windows Update client, GitHub in latest campaign"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-08T21:05:56Z"
     sources: ["Ahnlab","BAE Systems","Cyber Geeks","Dongseo University","ESET","Intezer","Kaspersky","MalwareBytes","McAfee","SecureSoft","Symantec","zscaler"]
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "f04ded49-5b0e-4422-9c6c-4c6e2ed7d3d3"
-    source_retrieved_at: "2026-11-01T09:49:52Z"
+    source_retrieved_at: "2026-11-08T20:57:14Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "unc1069"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/unc1069"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "b7e897da-108b-4f5b-b32b-3fd9375cc55e"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category","microsoft-origin-threat","sector"]
@@ -618,21 +621,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "e6f4af06-fbb5-5471-82ae-b0bdb4d446ce"
     source_record_ids: ["e6f4af06-fbb5-5471-82ae-b0bdb4d446ce","9630b0aa-ee9e-5b58-9f79-cf7fa8d291a8"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   mitre:
-    attack_version: "20.0"
+    attack_version: "20.1"
     attack_version_by_domain:
-      enterprise: "20.0"
-      ics: "20.0"
-      mobile: "20.0"
-    relationships_imported_at: "2026-11-01T09:59:12Z"
+      enterprise: "20.1"
+      ics: "20.1"
+      mobile: "20.1"
+    relationships_imported_at: "2026-11-08T21:05:32Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0032"
-    source_retrieved_at: "2026-11-01T09:59:12Z"
+    source_retrieved_at: "2026-11-08T21:05:32Z"
     stix_intrusion_set_id: "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a"
   reddrip7_apt_digital_weapon:
     actor_folder: "Lazarus Group"
@@ -640,10 +643,10 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Lazarus%20Group/Lazarus%20Group_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-01T09:59:46Z"
+    source_retrieved_at: "2026-11-08T21:06:01Z"
   wiz_cloud_threat_landscape:
     source_dataset_url: "https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json"
     source_name: "Wiz Cloud Threat Landscape"
     source_record_id: "threat-actor--0071e9af-b4ae-5d34-b345-5081e4148ab2"
     source_record_modified: "2024-10-14T13:50:00.000Z"
-    source_retrieved_at: "2026-11-01T09:49:33Z"
+    source_retrieved_at: "2026-11-08T20:56:57Z"

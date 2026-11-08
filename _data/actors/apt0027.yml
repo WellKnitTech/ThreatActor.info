@@ -413,6 +413,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-11-01T09:59:13Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-11-08T21:05:32Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2015"
@@ -422,13 +425,13 @@ provenance:
     sample_titles: ["Threat Group-3390 Targets Organizations For Cyberespionage","LuckyMouse hits national data center to organize country-level waterholing campaign"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-08T21:05:56Z"
     sources: ["Dell Secureworks","Kaspersky"]
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt27"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt27"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-08T21:05:47Z"
     source_uuid: "834e0acd-d92a-4e38-bb14-dc4159d7cb32"
   misp_galaxy:
     meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","source","tags","target_categories"]
@@ -437,21 +440,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "79be2f31-5626-425e-844c-fd9c99e38fe5"
     source_record_ids: ["79be2f31-5626-425e-844c-fd9c99e38fe5"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   mitre:
-    attack_version: "20.0"
+    attack_version: "20.1"
     attack_version_by_domain:
-      enterprise: "20.0"
-      ics: "20.0"
-      mobile: "20.0"
-    relationships_imported_at: "2026-11-01T09:59:13Z"
+      enterprise: "20.1"
+      ics: "20.1"
+      mobile: "20.1"
+    relationships_imported_at: "2026-11-08T21:05:32Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0027"
-    source_retrieved_at: "2026-11-01T09:59:13Z"
+    source_retrieved_at: "2026-11-08T21:05:32Z"
     stix_intrusion_set_id: "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c"
   reddrip7_apt_digital_weapon:
     actor_folder: "APT27"
@@ -459,5 +462,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT27/APT27_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-01T09:59:46Z"
+    source_retrieved_at: "2026-11-08T21:06:01Z"
 source: "MITRE ATT&CK"

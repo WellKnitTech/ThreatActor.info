@@ -78,12 +78,12 @@ provenance:
     - https://www.volexity.com/blog/2019/09/02/digital-crackdown-large-scale-surveillance-and-exploitation-of-uyghurs/
     - https://blog.trendmicro.com/trendlabs-security-intelligence/new-android-spyware-actionspy-revealed-via-phishing-attacks-from-earth-empusa/
     - https://about.fb.com/news/2021/03/taking-action-against-hackers-in-china/
-    source_retrieved_at: '2026-11-01T09:59:39Z'
+    source_retrieved_at: '2026-11-08T21:05:54Z'
     tab_name: china
   etda_thai_group_cards:
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 438f216f-2ba2-40d1-ae92-0a3919689bae
-    source_retrieved_at: '2026-11-01T09:49:53Z'
+    source_retrieved_at: '2026-11-08T20:57:14Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -104,14 +104,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: evileye
-    source_retrieved_at: '2026-11-01T09:50:09Z'
+    source_retrieved_at: '2026-11-08T20:57:30Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: poison_carp
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/poison_carp
-    source_retrieved_at: '2026-11-01T09:59:30Z'
+    source_retrieved_at: '2026-11-08T21:05:47Z'
     source_uuid: 7aa99279-4255-4d26-bb95-12e7156555a0
   misp_galaxy:
     meta_keys:
@@ -126,9 +126,9 @@ provenance:
     source_record_id: 7aa99279-4255-4d26-bb95-12e7156555a0
     source_record_ids:
     - 7aa99279-4255-4d26-bb95-12e7156555a0
-    source_retrieved_at: '2026-11-01T09:59:23Z'
+    source_retrieved_at: '2026-11-08T21:05:41Z'
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-08T21:05:18Z'
     source_record_id: Sentinel Taurus

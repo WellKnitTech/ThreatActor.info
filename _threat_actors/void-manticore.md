@@ -12,6 +12,10 @@ VOID MANTICORE is a threat group assessed to operate on behalf of Iran’s Minis
 ## Activities and Tactics
 **Country of Origin**: 🇮🇷 Iran
 
+
+
+
+
 ## Notable Campaigns
 - [HomeLand Justice (C0038)](https://attack.mitre.org/campaigns/C0038): HomeLand Justice was a disruptive cyber campaign conducted by Iranian state-affiliated actors against Albanian government networks in July and September 2022. The activity combined ransomware, wiper malware, and data leak operations. Initial access for HomeLand Justice was established as early as May 2021, and threat actors moved laterally, exfiltrated sensitive information, and maintained persistence for approximately 14 months prior to the destructive phase of the operation. Responsibility was 
 

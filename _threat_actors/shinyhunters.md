@@ -12,6 +12,10 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
 ## Activities and Tactics
 **Country of Origin**: 🏳️ ["[Unknown]"]
 
+
+
+
+
 ## Notable Campaigns
 - **000. Now it is being offered for free on hacker forums.**
 - **2020-01**
@@ -294,5 +298,5 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
 - [Dutch police confirm arrest in ShinyHunters hacking investigation](https://bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation)
   BleepingComputer — 2026-09-28
 
-*17 matched articles total. [Browse all security news](/news/archive/).*
+*17 matched articles total. [Browse all security news](/news/archive/).* 
 

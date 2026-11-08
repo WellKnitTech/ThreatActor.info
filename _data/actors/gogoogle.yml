@@ -2,7 +2,7 @@ name: "GoGoogle"
 aliases: ["GoGoogle"]
 description: "ransomware"
 url: "/gogoogle"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 provenance:
@@ -12,7 +12,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "df998c50-52d0-462d-9bbb-5b93a5adc7b0"
     source_record_ids: ["df998c50-52d0-462d-9bbb-5b93a5adc7b0"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-08T21:05:42Z"
   ransomware_tool_matrix:
     references:
       - title: "GoGoogle Ransomware"
@@ -23,7 +23,7 @@ provenance:
     source_files: ["ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md"]
     source_label: "GoGoogle"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-08T21:04:43Z"
     tools_by_category:
       Credential Theft: ["LaZagne","Mimikatz","NirSoft BulletsPassView","NirSoft ChromePass","NirSoft Dialupass","NirSoft IEPassView (iepv)","NirSoft MailPassView","NirSoft Netpass","NirSoft OperaPassView","NirSoft RemoteDesktopPassView (rdpv)","NirSoft RouterPassView","NirSoft SniffPass","NirSoft VNCPassView","NirSoft WebBrowserPassView","NirSoft WirelessKeyView","PasswordFox"]
       Discovery: ["Advanced IP Scanner"]
