@@ -16,15 +16,15 @@ require 'timeout'
 
 require_relative 'lib/news_feed'
 
-def feed_http_headers
-  NewsFeed.browser_http_headers
+def feed_http_headers(url = nil)
+  NewsFeed.browser_http_headers(url: url)
 end
 
 def open_feed(url)
   NewsFeed.fetch_url_with_deadline(
     url,
     deadline: NewsFeed::FEED_DEADLINE_SECONDS,
-    headers: feed_http_headers,
+    headers: feed_http_headers(url),
     open_timeout: NewsFeed::OPEN_TIMEOUT,
     read_timeout: NewsFeed::READ_TIMEOUT
   )
@@ -34,7 +34,7 @@ def open_feed_within_budget(url, deadline_seconds)
   NewsFeed.fetch_url_with_deadline(
     url,
     deadline: deadline_seconds,
-    headers: feed_http_headers,
+    headers: feed_http_headers(url),
     open_timeout: [NewsFeed::OPEN_TIMEOUT, deadline_seconds].min,
     read_timeout: [NewsFeed::READ_TIMEOUT, deadline_seconds].min
   )
@@ -128,37 +128,44 @@ end
 # item extraction) must share one wall-clock budget. Nov 2 showed CISA's HTTP
 # fetch finishing inside 45s while RSS::Parser.parse of the huge advisories
 # body continued for ~1000s more outside the deadline (ok=true, latency≈1050s).
+#
+# Fetch+parse both sit inside with_feed_url_fallbacks so HTTP 403, empty bodies,
+# Akamai HTML challenge pages, and unrecognized feed XML advance to the next
+# alternate URL while budget remains (still bounded by run_with_deadline).
 def fetch_and_parse_feed_within_deadline(feed, deadline_seconds: NewsFeed::FEED_DEADLINE_SECONDS)
   deadline_at = Time.now + deadline_seconds.to_f
-  fetch_ms = 0
-  parse_ms = 0
   used_url = nil
-  items = nil
+  result = nil
 
   NewsFeed.run_with_deadline(deadline_seconds) do
-    used_url, raw = NewsFeed.with_feed_url_fallbacks(
+    used_url, result = NewsFeed.with_feed_url_fallbacks(
       NewsFeed.feed_urls(feed),
       deadline_seconds: [deadline_at - Time.now, 0.05].max
     ) do |url, remaining|
       fetch_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
       body = open_feed_within_budget(url, remaining)
       fetch_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - fetch_started) * 1000).round
-      body
+      raise StandardError, 'empty feed body' if body.to_s.strip.empty?
+      raise StandardError, 'non-feed HTTP body' unless NewsFeed.feed_body_usable?(body)
+
+      parse_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+      parsed, parse_error = parse_feed_items(body, feed)
+      parse_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - parse_started) * 1000).round
+      raise StandardError, parse_error if parse_error
+
+      {
+        items: parsed,
+        fetch_ms: fetch_ms,
+        parse_ms: parse_ms
+      }
     end
-
-    parse_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-    parsed, parse_error = parse_feed_items(raw, feed)
-    parse_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - parse_started) * 1000).round
-    raise StandardError, parse_error if parse_error
-
-    items = parsed
   end
 
   {
     url: used_url,
-    items: items || [],
-    fetch_ms: fetch_ms,
-    parse_ms: parse_ms
+    items: (result && result[:items]) || [],
+    fetch_ms: (result && result[:fetch_ms]) || 0,
+    parse_ms: (result && result[:parse_ms]) || 0
   }
 end
 
