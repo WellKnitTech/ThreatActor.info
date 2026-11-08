@@ -3,6 +3,7 @@
 require 'minitest/autorun'
 require 'fileutils'
 require 'json'
+require 'socket'
 require 'tmpdir'
 require 'time'
 require_relative '../scripts/lib/news_feed'
@@ -663,6 +664,43 @@ class NewsFeedTest < Minitest::Test
     assert_equal 'https://www.cisa.gov/', headers['Referer']
     bare = NewsFeed.browser_http_headers
     refute bare.key?('Referer')
+  end
+
+  def test_http_get_does_not_invent_referer_for_probe_controls
+    captured = nil
+    server = TCPServer.new('127.0.0.1', 0)
+    port = server.addr[1]
+    thr = Thread.new do
+      client = server.accept
+      request = +''
+      while (line = client.gets)
+        request << line
+        break if line == "\r\n"
+      end
+      captured = request
+      client.print "HTTP/1.1 200 OK\r\nContent-Length: 5\r\nConnection: close\r\n\r\nokxml"
+      client.close
+    rescue StandardError
+      nil
+    end
+
+    begin
+      body = NewsFeed.http_get_with_timeouts(
+        "http://127.0.0.1:#{port}/feed.xml",
+        headers: { 'User-Agent' => 'Ruby' },
+        open_timeout: 2,
+        read_timeout: 2
+      )
+      assert_equal 'okxml', body
+      refute_match(/Referer:/i, captured.to_s)
+    ensure
+      begin
+        server.close
+      rescue StandardError
+        nil
+      end
+      thr.join(2)
+    end
   end
 
   def test_feed_body_usable_rejects_html_challenge_and_empty

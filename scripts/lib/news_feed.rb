@@ -1085,11 +1085,10 @@ module NewsFeed
     uri = URI.parse(url.to_s)
     raise ArgumentError, "unsupported URL: #{url}" unless uri.is_a?(URI::HTTP)
 
+    # Do not invent Referer here — probe controls pass bare header hashes to
+    # measure Akamai behavior without Referer. Production callers use
+    # browser_http_headers(url:) which sets Referer explicitly.
     request_headers = headers.is_a?(Hash) ? headers.dup : {}
-    unless request_headers.key?('Referer') || request_headers.key?('referer')
-      referer = origin_referer(url)
-      request_headers['Referer'] = referer if referer
-    end
 
     http = Net::HTTP.new(uri.host, uri.port)
     begin

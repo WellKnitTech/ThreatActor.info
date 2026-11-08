@@ -52,11 +52,13 @@ ua_only = {
   'Accept-Encoding' => 'gzip, deflate'
 }
 
-puts '=== Bare Ruby UA (control) ==='
+# Controls pass bare header hashes; http_get_with_timeouts does not invent
+# Referer, so these variants measure Akamai without that header.
+puts '=== Bare Ruby UA (control; no Referer) ==='
 ruby_results = URLS.map { |url| probe(url, ruby_ua, 'ruby-ua') }
 
 puts ''
-puts '=== Browser-like headers (production) ==='
+puts '=== Browser-like headers (production; includes Referer via browser_http_headers) ==='
 browser_results = URLS.map do |url|
   probe(url, NewsFeed.browser_http_headers(url: url), 'browser')
 end
