@@ -147,11 +147,11 @@ raw_reports.each do |filename, payload|
   end
 end
 
-reports = reports_by_source.values.sort_by { |filename, payload| report_source(filename, payload).to_s.downcase }
-
 # The runner writes this diagnostic even when it fails before a source adapter
 # can emit its normal report. Treat a non-zero command exit as a source failure;
-# otherwise the empty report set is misleadingly healthy.
+# otherwise the empty report set is misleadingly healthy. When a successful plan
+# report already exists for the same source key, upgrade that row to failed
+# rather than skipping the diagnostic (plan succeeded + import aborted).
 Dir[File.join(diagnostics_dir, '*.json')].sort.each do |path|
   begin
     payload = JSON.parse(File.read(path))
@@ -160,22 +160,39 @@ Dir[File.join(diagnostics_dir, '*.json')].sort.each do |path|
     source = payload['source'].to_s
     source = payload['requested_source'].to_s if source.empty?
     source = 'import-run' if source.empty?
-    next if reports.any? { |_filename, report| report_source('', report) == source }
-    next if reports_by_source.key?(source)
-
-    entry = [File.basename(path), payload.merge(
+    filename = File.basename(path)
+    failure_payload = payload.merge(
       'source' => source,
       'status' => 'failed',
       'diagnostic' => payload['error'] || "import command exited with #{payload['exit_code']}"
-    )]
-    reports << entry
-    reports_by_source[source] = entry
+    )
+    entry = [filename, failure_payload]
+
+    existing_key = if reports_by_source.key?(source)
+                     source
+                   else
+                     reports_by_source.keys.find do |key|
+                       report_source(*reports_by_source[key]) == source
+                     end
+                   end
+
+    if existing_key
+      existing = reports_by_source[existing_key]
+      next unless better_report?(filename, failure_payload, existing[0], existing[1])
+
+      reports_by_source.delete(existing_key)
+      reports_by_source[source] = entry
+    else
+      reports_by_source[source] = entry
+    end
   rescue JSON::ParserError
     # The invalid diagnostic is still represented by the importer report when
     # available; do not turn an ancillary artifact into a second failure row.
     next
   end
 end
+
+reports = reports_by_source.values.sort_by { |filename, payload| report_source(filename, payload).to_s.downcase }
 
 rows = reports.map do |filename, payload|
   source = report_source(filename, payload)

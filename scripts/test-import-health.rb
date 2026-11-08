@@ -148,6 +148,38 @@ class ImportHealthTest < Minitest::Test
     assert_includes workflow, 'log.scan'
   end
 
+  def test_command_failure_upgrades_existing_plan_report_for_same_source
+    Dir.mktmpdir do |dir|
+      reports = File.join(dir, 'reports')
+      diagnostics = File.join(dir, 'failure-diagnostics')
+      FileUtils.mkdir_p(reports)
+      FileUtils.mkdir_p(diagnostics)
+
+      # Plan succeeded but wrote no explicit source field; import then aborted.
+      File.write(File.join(reports, 'plan-mitre-attack-report.json'), JSON.generate(
+        'status' => 'completed', 'record_count' => 10
+      ))
+      File.write(File.join(diagnostics, 'import-run.json'), JSON.pretty_generate(
+        'phase' => 'import',
+        'source' => 'mitre-attack',
+        'retry_scope' => 'per-source',
+        'attempts' => 1,
+        'exit_code' => '1',
+        'error' => 'import aborted after plan'
+      ))
+
+      output, status = summarize(reports, File.join(dir, 'health.md'), diagnostics,
+                                 env: { 'FAIL_ON_SOURCE_FAILURE' => '1' })
+
+      refute status.success?, output
+      assert_includes output, '`mitre-attack` | failed'
+      assert_includes output, 'import aborted after plan'
+      assert_includes output, '**0 healthy**'
+      assert_includes output, '**1 failed**'
+      refute_includes output, '**1 healthy**'
+    end
+  end
+
   # Regression for weekly PR bodies that listed every source twice (plan+import)
   # plus a stray plan-anomalies.json row, and then over-counted quarantined.
   def test_duplicate_plan_import_and_ancillary_json_dedupe_to_distinct_sources
