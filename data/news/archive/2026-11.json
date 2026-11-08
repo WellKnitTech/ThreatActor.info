@@ -1,7 +1,41 @@
 {
   "month": "2026-11",
-  "item_count": 88,
+  "item_count": 90,
   "items": [
+    {
+      "title": "The Fridge-Hacking Spree Is an Internet-of-Things Wake-Up Call",
+      "link": "https://wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things",
+      "canonical_url": "https://wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things",
+      "date": "2026-11-07T13:00:00Z",
+      "source": "Wired Security",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "link": "https://securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins",
+      "canonical_url": "https://securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins",
+      "date": "2026-11-07T10:16:23Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
       "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
