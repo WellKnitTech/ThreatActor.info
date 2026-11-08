@@ -147,4 +147,131 @@ class ImportHealthTest < Minitest::Test
     assert_includes workflow, 'FAILED_SOURCE=$(ruby -e'
     assert_includes workflow, 'log.scan'
   end
+
+  def test_command_failure_upgrades_existing_plan_report_for_same_source
+    Dir.mktmpdir do |dir|
+      reports = File.join(dir, 'reports')
+      diagnostics = File.join(dir, 'failure-diagnostics')
+      FileUtils.mkdir_p(reports)
+      FileUtils.mkdir_p(diagnostics)
+
+      # Plan succeeded but wrote no explicit source field; import then aborted.
+      File.write(File.join(reports, 'plan-mitre-attack-report.json'), JSON.generate(
+        'status' => 'completed', 'record_count' => 10
+      ))
+      File.write(File.join(diagnostics, 'import-run.json'), JSON.pretty_generate(
+        'phase' => 'import',
+        'source' => 'mitre-attack',
+        'retry_scope' => 'per-source',
+        'attempts' => 1,
+        'exit_code' => '1',
+        'error' => 'import aborted after plan'
+      ))
+
+      output, status = summarize(reports, File.join(dir, 'health.md'), diagnostics,
+                                 env: { 'FAIL_ON_SOURCE_FAILURE' => '1' })
+
+      refute status.success?, output
+      assert_includes output, '`mitre-attack` | failed'
+      assert_includes output, 'import aborted after plan'
+      assert_includes output, '**0 healthy**'
+      assert_includes output, '**1 failed**'
+      refute_includes output, '**1 healthy**'
+    end
+  end
+
+  # Regression for weekly PR bodies that listed every source twice (plan+import)
+  # plus a stray plan-anomalies.json row, and then over-counted quarantined.
+  def test_duplicate_plan_import_and_ancillary_json_dedupe_to_distinct_sources
+    Dir.mktmpdir do |dir|
+      reports = File.join(dir, 'reports')
+      diagnostics = File.join(dir, 'failure-diagnostics')
+      FileUtils.mkdir_p(reports)
+      FileUtils.mkdir_p(diagnostics)
+
+      {
+        'aptmap' => 'aptmap',
+        'malwarebazaar' => 'malwarebazaar',
+        'dragos-threat-groups' => 'Dragos Threat Groups',
+        'unit42-threat-actor-groups' => 'Palo Alto Networks Unit 42 Threat Actor Groups',
+        'threatfox' => 'threatfox',
+        'urlhaus' => 'urlhaus',
+        'wiz-cloud-threat-landscape' => 'Wiz Cloud Threat Landscape'
+      }.each do |key, label|
+        File.write(File.join(reports, "plan-#{key}-report.json"), JSON.generate(
+          'source' => label, 'status' => 'completed', 'record_count' => 1
+        ))
+        File.write(File.join(reports, "import-#{key}-report.json"), JSON.generate(
+          'source' => label, 'status' => 'completed', 'record_count' => 2
+        ))
+      end
+
+      # Deferred IOC source reports quarantined=true on both plan and import.
+      File.write(File.join(reports, 'plan-malwarebazaar-report.json'), JSON.generate(
+        'source' => 'malwarebazaar', 'status' => 'quarantined', 'quarantined' => true,
+        'records' => 13
+      ))
+      File.write(File.join(reports, 'import-malwarebazaar-report.json'), JSON.generate(
+        'source' => 'malwarebazaar', 'status' => 'quarantined', 'quarantined' => true,
+        'records' => 13
+      ))
+
+      # Plan-threshold quarantine replaces plan reports for these sources.
+      FileUtils.rm_f(File.join(reports, 'plan-threatfox-report.json'))
+      FileUtils.rm_f(File.join(reports, 'import-threatfox-report.json'))
+      FileUtils.rm_f(File.join(reports, 'plan-urlhaus-report.json'))
+      FileUtils.rm_f(File.join(reports, 'import-urlhaus-report.json'))
+      File.write(File.join(reports, 'quarantine-threatfox-report.json'), JSON.generate(
+        'source' => 'threatfox', 'status' => 'quarantined', 'quarantined' => true,
+        'diagnostic' => 'match ratio 0.00 < 0.35; unmatched/new ratio 1.00 > 0.55'
+      ))
+      File.write(File.join(reports, 'quarantine-urlhaus-report.json'), JSON.generate(
+        'source' => 'urlhaus', 'status' => 'quarantined', 'quarantined' => true,
+        'diagnostic' => 'match ratio 0.00 < 0.45; unmatched/new ratio 1.00 > 0.50'
+      ))
+
+      # Quality-gate side reports must not create a second row under a short key.
+      File.write(File.join(reports, 'quality-dragos-threat-groups.json'), JSON.generate(
+        'source' => 'dragos', 'status' => 'accepted', 'record_count' => 26
+      ))
+      File.write(File.join(reports, 'quality-unit42-threat-actor-groups.json'), JSON.generate(
+        'source' => 'unit42', 'status' => 'accepted', 'record_count' => 70
+      ))
+
+      # Aggregate anomaly payload is not a source health report.
+      File.write(File.join(reports, 'plan-anomalies.json'), JSON.generate(
+        'generated_at' => '2026-11-08T00:00:00Z',
+        'checked' => 7,
+        'anomalies' => [
+          { 'source' => 'threatfox', 'issues' => ['match ratio 0.00 < 0.35'] },
+          { 'source' => 'urlhaus', 'issues' => ['match ratio 0.00 < 0.45'] }
+        ]
+      ))
+
+      output, status = summarize(reports, File.join(dir, 'health.md'), diagnostics)
+
+      assert status.success?, output
+      refute_includes output, '`anomalies.json`'
+      refute_includes output, '`plan-anomalies`'
+      refute_match(/\| `dragos` \|/, output)
+      refute_match(/\| `unit42` \|/, output)
+
+      source_rows = output.lines.select { |line| line.match?(/^\s*\| `[^`]+` \|/) }
+      sources = source_rows.map { |line| line[/\| `([^`]+)` \|/, 1] }
+      assert_equal sources, sources.uniq, "duplicate source rows:\n#{output}"
+
+      assert_equal 1, sources.count('malwarebazaar')
+      assert_equal 1, sources.count('threatfox')
+      assert_equal 1, sources.count('urlhaus')
+      assert_equal 1, sources.count('Dragos Threat Groups')
+      assert_equal 1, sources.count('aptmap')
+
+      assert_includes output, '**4 healthy**'
+      assert_includes output, '**0 degraded**'
+      assert_includes output, '**3 quarantined**'
+      assert_includes output, '**0 failed**'
+      assert_includes output, '`malwarebazaar` | quarantined | 13'
+      assert_includes output, 'Quarantined sources are diagnostic-only'
+    end
+  end
 end
