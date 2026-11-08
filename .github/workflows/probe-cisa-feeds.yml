@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write
 
 jobs:
   probe:
@@ -74,5 +75,4 @@ jobs:
             lines << "_From Probe CISA Feeds run #{ENV.fetch("GITHUB_RUN_ID", "?")} on `#{ENV.fetch("GITHUB_SHA", "?")[0, 7]}`._"
             File.write("tmp/cisa-probe-comment.md", lines.join("\n") + "\n")
           '
-          gh pr comment "$GITHUB_EVENT_PATH" --body-file tmp/cisa-probe-comment.md 2>/dev/null || \
-            gh pr comment "${{ github.event.pull_request.number }}" --body-file tmp/cisa-probe-comment.md
+          gh pr comment "${{ github.event.pull_request.number }}" --body-file tmp/cisa-probe-comment.md
