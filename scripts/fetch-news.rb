@@ -8,11 +8,14 @@
 require 'fileutils'
 require 'net/http'
 require 'uri'
-require 'rss'
 require 'json'
 require 'rexml/document'
 require 'time'
 require 'timeout'
+# `rss` is required lazily in parse_feed_items_via_rss so bundle-exec tests that
+# exercise the Nokogiri parse path (Gemfile dependency) can load this file
+# without the rss gem on the load path. Declare `gem "rss"` in the Gemfile for
+# the RSS::Parser fallback under bundle exec.
 
 require_relative 'lib/news_feed'
 
@@ -41,6 +44,7 @@ def open_feed_within_budget(url, deadline_seconds)
 end
 
 def parse_feed_items_via_rss(raw, feed)
+  require 'rss'
   items = []
   rss = RSS::Parser.parse(raw, false)
   return [items, 'unrecognized feed format'] unless rss && rss.respond_to?(:items)
