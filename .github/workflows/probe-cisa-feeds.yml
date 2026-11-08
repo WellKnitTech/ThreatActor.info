@@ -2,6 +2,16 @@ name: Probe CISA Feeds
 
 on:
   workflow_dispatch:
+  # Also on PRs that touch the news/CISA fetch path so we can live-verify
+  # from GitHub-hosted runners (where the intermittent Akamai 403 appears).
+  pull_request:
+    paths:
+      - 'scripts/lib/news_feed.rb'
+      - 'scripts/fetch-news.rb'
+      - 'scripts/probe-cisa-feeds.rb'
+      - 'test/fetch_news_cisa_fallback_test.rb'
+      - 'test/news_feed_test.rb'
+      - '.github/workflows/probe-cisa-feeds.yml'
 
 permissions:
   contents: read
