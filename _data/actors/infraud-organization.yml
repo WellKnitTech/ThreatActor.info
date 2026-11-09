@@ -12,13 +12,13 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "8dce2769-0cce-4166-a15b-872c64250170"
-    source_retrieved_at: "2026-11-01T09:49:53Z"
+    source_retrieved_at: "2026-11-08T23:53:24Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     confidence: "Mid"
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "infraudorganization"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T23:53:41Z"
     source_version: "1.2"
     type: "Organized Crime"

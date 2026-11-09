@@ -677,6 +677,9 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-11-01T09:59:12Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-11-09T00:04:58Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   aptnotes:
     earliest_report_year: "2021"
@@ -686,7 +689,7 @@ provenance:
     sample_titles: ["Kimsuky Espionage Campaign","Kimsuky Group's APT Attacks (AppleSeed, PebbleDash)"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-09T00:05:21Z"
     sources: ["Ahnlab","Inquest"]
   eternal_liberty:
     aliases_by_entity:
@@ -695,14 +698,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "ta427"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T23:53:41Z"
     source_version: "1.2"
     type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "kimsuky"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/kimsuky"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-09T00:05:13Z"
     source_uuid: "bcaaad6f-0597-4b89-b69b-84a6be2b7bc3"
   misp_galaxy:
     meta_keys: ["country","refs","suspected-victims","synonyms","target-category","microsoft-origin-threat","sector"]
@@ -711,21 +714,21 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/360net.json"
     source_record_id: "84e18657-3995-5837-88f1-f823520382a8"
     source_record_ids: ["84e18657-3995-5837-88f1-f823520382a8","44be06b1-e17a-5ea6-a0a2-067933a7af77"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   mitre:
-    attack_version: "20.0"
+    attack_version: "20.1"
     attack_version_by_domain:
-      enterprise: "20.0"
-      ics: "20.0"
-      mobile: "20.0"
-    relationships_imported_at: "2026-11-01T09:59:12Z"
+      enterprise: "20.1"
+      ics: "20.1"
+      mobile: "20.1"
+    relationships_imported_at: "2026-11-09T00:04:58Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0094"
-    source_retrieved_at: "2026-11-01T09:59:12Z"
+    source_retrieved_at: "2026-11-09T00:04:58Z"
     stix_intrusion_set_id: "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f"
   reddrip7_apt_digital_weapon:
     actor_folder: "Kimsuky"
@@ -733,5 +736,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/Kimsuky/Kimsuky_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-01T09:59:46Z"
+    source_retrieved_at: "2026-11-09T00:05:23Z"
 source: "MITRE ATT&CK"

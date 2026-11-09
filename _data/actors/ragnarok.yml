@@ -2,7 +2,7 @@ name: "Ragnarok"
 aliases: ["Ragnarok"]
 description: "Ragnarok is is a ransomware that targetscorporate networks in Big Game Huntingtargeted attacks. The ransomware is associated with 'double-extortion' tactic, stealing and publishing files on a data leak site (DLS)."
 url: "/ragnarok"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/ragnarok"
@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "fe7e4df0-97b9-4dd2-b3f8-79404fc8272d"
     source_record_ids: ["fe7e4df0-97b9-4dd2-b3f8-79404fc8272d"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   ransomware_vulnerability_matrix:
     references:
       - title: "news.sophos.com"
@@ -27,7 +27,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "Ragnarok"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-09T00:04:13Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "Sophos"

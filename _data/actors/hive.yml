@@ -2,7 +2,7 @@ name: "Hive"
 aliases: ["Hive"]
 description: "First observed in June 2021, Hive ransomware was originally written in GoLang but recently, new Hive variants have been seen written in Rust. Targets Healthcare sector."
 url: "/hive"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/hive"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "8ce915d3-8c6d-4841-b509-18379d7a8999"
     source_record_ids: ["8ce915d3-8c6d-4841-b509-18379d7a8999"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   ransomware_tool_matrix:
     references:
       - title: "From ScreenConnect to Hive Ransomware in 61 hours"
@@ -29,7 +29,7 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/TheDFIRReportGroups.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Hive"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-09T00:04:08Z"
     tools_by_category:
       Defense Evasion: ["GMER","PCHunter"]
       Discovery: ["Advanced IP Scanner","Bloodhound","SoftPerfect NetScan"]
@@ -65,7 +65,7 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md","Vulnerabilities/NetworkEdge.md"]
     source_label: "Hive"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-09T00:04:13Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "MS Server Products"

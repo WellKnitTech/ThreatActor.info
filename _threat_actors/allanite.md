@@ -41,5 +41,5 @@ Adversaries abusing ICS (based on Dragos Inc adversary list). ALLANITE accesses 
 ## References
 [1] [mitre-attack](https://attack.mitre.org/groups/G1000)
 [2] [Dragos](https://dragos.com/resource/allanite/)
-   Dragos   Allanite Retrieved. 2019/10/27
+   Dragos   Allanite Retrieved. 2019/10/27 
 

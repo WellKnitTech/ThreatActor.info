@@ -2,7 +2,7 @@ name: "Nightspire"
 aliases: ["NightSpire","Nightspire","nightspire"]
 description: "Nightspire is an active extortion or ransomware group tracked by RansomLook."
 url: "/nightspire"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/nightspire"
@@ -16,7 +16,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/tidal-groups.json"
     source_record_id: "35aa3c2a-eea0-480a-b338-c82808643026"
     source_record_ids: ["35aa3c2a-eea0-480a-b338-c82808643026","da06e334-31b3-5c4e-93ce-0f5b4d926208"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   ransomware_tool_matrix:
     references:
       - title: "www.s-rminform.com"
@@ -28,7 +28,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md"]
     source_label: "NightSpire"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-09T00:04:08Z"
     tools_by_category:
       Discovery: ["Everything.exe"]
       Exfiltration: ["MEGA","WinSCP"]
@@ -57,7 +57,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "NightSpire"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-09T00:04:13Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "Fortinet"

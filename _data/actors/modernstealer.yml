@@ -15,7 +15,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "modernstealer"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/modernstealer"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-09T00:05:13Z"
     source_uuid: "f06cd97d-3e32-4f45-99a3-c1415b1f5760"
   misp_galaxy:
     meta_keys: ["refs"]
@@ -24,4 +24,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "f06cd97d-3e32-4f45-99a3-c1415b1f5760"
     source_record_ids: ["f06cd97d-3e32-4f45-99a3-c1415b1f5760"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"

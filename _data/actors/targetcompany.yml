@@ -2,7 +2,7 @@ name: "Targetcompany"
 aliases: ["Targetcompany"]
 description: "Targetcompany is an active extortion or ransomware group tracked by RansomLook."
 url: "/targetcompany"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/targetcompany"
@@ -20,7 +20,7 @@ provenance:
     source_files: ["ThreatIntel/TrendMicroThreatGroups.md","Tools/DefenseEvasion.md","Tools/LOLBAS.md"]
     source_label: "TargetCompany"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-09T00:04:08Z"
     tools_by_category:
       Defense Evasion: ["GMER","PCHunter"]
       LOLBAS: ["WMIC"]
@@ -33,4 +33,4 @@ provenance:
     source_name: "Wiz Cloud Threat Landscape"
     source_record_id: "threat-actor--f180e21f-86c1-5c9b-9334-76b97417f1f8"
     source_record_modified: "2024-05-26T19:57:00.000Z"
-    source_retrieved_at: "2026-11-01T09:49:33Z"
+    source_retrieved_at: "2026-11-08T23:53:10Z"

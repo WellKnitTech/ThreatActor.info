@@ -27,12 +27,12 @@ provenance:
     sample_titles: ["Operation Poisoned Hurricane"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-09T00:05:21Z"
     sources: ["FireEye"]
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "14545b70-34d1-4034-a41e-5533fa30be7f"
-    source_retrieved_at: "2026-11-01T09:49:52Z"
+    source_retrieved_at: "2026-11-08T23:53:24Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -41,14 +41,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "hurricanepanda"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T23:53:41Z"
     source_version: "1.2"
     type: "Organized Crime"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "hurricane_panda"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hurricane_panda"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-09T00:05:13Z"
     source_uuid: "0286e80e-b0ed-464f-ad62-beec8536d0cb"
   misp_galaxy:
     meta_keys: ["attribution-confidence","country","refs","targeted-sector","name-attribution"]
@@ -57,4 +57,4 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "0286e80e-b0ed-464f-ad62-beec8536d0cb"
     source_record_ids: ["0286e80e-b0ed-464f-ad62-beec8536d0cb"]
-    source_retrieved_at: "2026-11-01T09:59:23Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"

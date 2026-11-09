@@ -2,7 +2,7 @@ name: "Royal"
 aliases: ["Gold Souvenir","Royal"]
 description: "Royal is an active extortion or ransomware group tracked by RansomLook."
 url: "/royal"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/royal"
@@ -16,7 +16,7 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "royal"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T23:53:41Z"
     source_version: "1.2"
     type: "Organized Crime"
   ransomware_vulnerability_matrix:
@@ -29,7 +29,7 @@ provenance:
     source_files: ["Vulnerabilities/Virtualization.md"]
     source_label: "Royal"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-09T00:04:13Z"
     vulnerabilities_by_category:
       Virtualization:
         - vendor: "Citrix"

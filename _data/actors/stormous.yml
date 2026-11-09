@@ -32,7 +32,7 @@ provenance:
     source_record_ids:
     - 1b76d6eb-ad30-4447-a32c-6e4ca9f28e63
     - 6e20bdd2-31ac-4429-8aa7-4ce8cb7dc7b5
-    source_retrieved_at: '2026-11-01T09:59:24Z'
+    source_retrieved_at: '2026-11-09T00:05:08Z'
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: stormous
   source_retrieved_at: '2026-11-01T09:51:13Z'
@@ -44,5 +44,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-09T00:04:44Z'
     source_record_id: Blustering Scorpius

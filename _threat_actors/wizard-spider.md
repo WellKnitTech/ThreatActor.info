@@ -14,6 +14,10 @@ Wizard Spider is reportedly associated with Grim Spider and Lunar Spider. The WI
 
 **Country of Origin**: 🇷🇺 Russia
 
+
+
+
+
 **Suspected Victims**: Australia, Bahamas, Canada, Costa Rica, France, Germany, India, Ireland, Italy, Japan...
 
 ## Notable Campaigns

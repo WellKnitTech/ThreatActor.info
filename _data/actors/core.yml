@@ -18,7 +18,7 @@ provenance:
     sample_titles: ["Mm Core In-Memory Backdoor Returns As Bigboss And Sillygoose","DNS Hijacking Abuses Trust In Core Internet Service"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-09T00:05:21Z"
     sources: ["Cisco","Forcepoint"]
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -27,7 +27,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "1a67d92a-b6df-524b-aae7-e322f97ea5b3"
     source_record_ids: ["1a67d92a-b6df-524b-aae7-e322f97ea5b3"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "core"
   source_retrieved_at: "2026-11-01T09:52:38Z"

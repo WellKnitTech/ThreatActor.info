@@ -13,10 +13,10 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://research.checkpoint.com/2022/twisted-panda-chinese-apt-espionage-operation-against-russians-state-owned-defense-institutes/"]
-    source_retrieved_at: "2026-11-01T09:59:39Z"
+    source_retrieved_at: "2026-11-09T00:05:19Z"
     tab_name: "china"
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "972bb21d-1172-47f8-85d1-a6aaf5ea175b"
-    source_retrieved_at: "2026-11-01T09:49:53Z"
+    source_retrieved_at: "2026-11-08T23:53:24Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

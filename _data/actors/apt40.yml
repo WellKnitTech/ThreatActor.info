@@ -606,6 +606,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-01T09:59:12Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-09T00:04:58Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 campaigns:
 - name: Leviathan Australian Intrusions
   campaign_id: C0049
@@ -623,7 +626,7 @@ provenance:
     source_dataset_url: https://apt.threattracking.com/
     source_links:
     - https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/
-    source_retrieved_at: '2026-11-01T09:59:39Z'
+    source_retrieved_at: '2026-11-09T00:05:19Z'
     tab_name: china
   aptnotes:
     earliest_report_year: '2014'
@@ -639,7 +642,7 @@ provenance:
     - Scanbox Ii
     source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
     source_repository: https://github.com/aptnotes/data
-    source_retrieved_at: '2026-11-01T09:59:41Z'
+    source_retrieved_at: '2026-11-09T00:05:21Z'
     sources:
     - Alienvault
     - PWC
@@ -648,7 +651,7 @@ provenance:
     - G0065
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: b106313a-d204-4d9f-866b-e750a98d0e06
-    source_retrieved_at: '2026-11-01T09:49:52Z'
+    source_retrieved_at: '2026-11-08T23:53:24Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -690,14 +693,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: leviathan
-    source_retrieved_at: '2026-11-01T09:50:09Z'
+    source_retrieved_at: '2026-11-08T23:53:41Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: electric_panda
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/electric_panda
-    source_retrieved_at: '2026-11-01T09:59:30Z'
+    source_retrieved_at: '2026-11-09T00:05:13Z'
     source_uuid: 69059ec9-45c9-4961-a07e-6b2f2228f0ce
   microsoft_threat_actor_list:
     license_status: Microsoft publishes this workbook for public reuse and regular
@@ -706,7 +709,7 @@ provenance:
     origin_category: China
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: ginghamtyphoon
-    source_retrieved_at: '2026-11-01T09:50:12Z'
+    source_retrieved_at: '2026-11-08T23:53:43Z'
   misp_galaxy:
     meta_keys:
     - attribution-confidence
@@ -741,21 +744,21 @@ provenance:
     - 99e708f7-1c01-467d-b0da-f6cebd434abc
     - dbc45b46-5b64-50d4-b0f1-d7de888d4e85
     - eadd78e3-3b5d-430a-b994-4360b172c871
-    source_retrieved_at: '2026-11-01T09:59:24Z'
+    source_retrieved_at: '2026-11-09T00:05:08Z'
   mitre:
-    attack_version: '20.0'
+    attack_version: '20.1'
     attack_version_by_domain:
-      enterprise: '20.0'
-      ics: '20.0'
-      mobile: '20.0'
-    relationships_imported_at: '2026-11-01T09:59:12Z'
+      enterprise: '20.1'
+      ics: '20.1'
+      mobile: '20.1'
+    relationships_imported_at: '2026-11-09T00:04:58Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0065
-    source_retrieved_at: '2026-11-01T09:59:12Z'
+    source_retrieved_at: '2026-11-09T00:04:58Z'
     stix_intrusion_set_id: intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e
   reddrip7_apt_digital_weapon:
     actor_folder: APT40
@@ -765,9 +768,9 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-11-01T09:59:46Z'
+    source_retrieved_at: '2026-11-09T00:05:23Z'
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-09T00:04:44Z'
     source_record_id: Jumper Taurus

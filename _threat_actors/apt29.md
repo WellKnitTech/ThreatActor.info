@@ -28,6 +28,7 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
 - [SolarWinds Compromise (C0024)](https://attack.mitre.org/campaigns/C0024): The SolarWinds Compromise was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign incl
 - [Operation Ghost (C0023)](https://attack.mitre.org/campaigns/C0023): Operation Ghost was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During Operation Ghost, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.(Citation: ESET Dukes October 2019)
 
+
 ## Tactics, Techniques, and Procedures (TTPs)
 - [T1621 Multi-Factor Authentication Request Generation](https://attack.mitre.org/techniques/T1621)
 - [T1003.002 Security Account Manager](https://attack.mitre.org/techniques/T1003/002)
@@ -325,6 +326,17 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
    Unit 42. (2020, December 23). SolarStorm Supply Chain Attack Timeline. Retrieved March 24, 2023.
 [45] [White House Imposing Costs RU Gov April 2021](https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/)
    White House. (2021, April 15). Imposing Costs for Harmful Foreign Activities by the Russian Government. Retrieved April 16, 2021.
+
+[46] [BushidoToken Breach Report Collection - Microsoft breach report (January 2024) via microsoft.com (1)](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[47] [BushidoToken Breach Report Collection - Microsoft breach report (January 2024) via microsoft.com (2)](https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[48] [BushidoToken Breach Report Collection - Microsoft breach report (February 2021) via msrc.microsoft.com](https://msrc.microsoft.com/blog/2021/02/microsoft-internal-solorigate-investigation-final-update/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[49] [BushidoToken Breach Report Collection - FireEye breach report (December 2020) via fireeye.com](https://www.fireeye.com/blog/threat-research/2020/12/unauthorized-access-of-fireeye-red-team-tools.html)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
+[50] [BushidoToken Breach Report Collection - SolarWinds breach report (December 2020) via solarwinds.com](https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*

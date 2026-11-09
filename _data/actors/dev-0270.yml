@@ -3,7 +3,7 @@ aliases: ["DEV-0270","DireFate","Lord Nemesis","Nemesis Kitten","Storm-0270","Ye
 description: "Microsoft threat intelligence teams have been tracking multiple ransomware campaigns and have tied these attacks to DEV-0270, also known as Nemesis Kitten, a sub-group of Iranian actor PHOSPHORUS. Microsoft assesses with moderate confidence that DEV-0270 conducts malicious network operations, including widespread vulnerability scanning, on behalf of the government of Iran."
 url: "/dev-0270"
 country: "Iran"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dev-0270"
@@ -24,7 +24,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "dev-0270"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/dev-0270"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-09T00:05:13Z"
     source_uuid: "7b90319a-9f7b-466d-9f90-7fcc270ed505"
   misp_galaxy:
     meta_keys: ["country","origin:DEV-0270","origin:Storm-0270","refs","synonyms","name-attribution"]
@@ -33,7 +33,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "7b90319a-9f7b-466d-9f90-7fcc270ed505"
     source_record_ids: ["7b90319a-9f7b-466d-9f90-7fcc270ed505"]
-    source_retrieved_at: "2026-11-01T09:59:23Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   ransomware_vulnerability_matrix:
     actor_roles: ["state_sponsored_ransomware"]
     references:
@@ -45,7 +45,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "Nemesis Kitten"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-09T00:04:13Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "Fortinet"
