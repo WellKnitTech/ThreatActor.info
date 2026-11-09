@@ -222,7 +222,7 @@
 
   ],
   "counts": {
-    "threat_actors": 3852,
+    "threat_actors": 3855,
     "iocs": 0,
     "techniques": 937,
     "tactics": 39,
@@ -230,7 +230,7 @@
     "mitigations": 109
   },
   "country_counts": {
-    "China": 272,
+    "China": 273,
     "Russia": 121,
     "[\"[Unknown]\"]": 98,
     "Iran": 82,
@@ -268,7 +268,7 @@
     "CyberGate:": 98,
     "Cyber Eye RAT:": 98,
     "China Chopper": 96,
-    "Xploit:": 75,
+    "Xploit:": 77,
     "Archelaus Beta": 71
   }
 }

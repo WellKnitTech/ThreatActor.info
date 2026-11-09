@@ -2,7 +2,7 @@ name: "Mespinoza"
 aliases: ["Mespinoza","Pysa","Pyza"]
 description: "Mespinoza ransomware is used at least since october 2018. First versions used the common extension \".locked\". SInce december 2019 a new version in open sourced and documented, this new version uses the \".pyza\" extension."
 url: "/mespinoza"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/pysa"
@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "deed3c10-93b6-41b9-b150-f4dd1b665d87"
     source_record_ids: ["deed3c10-93b6-41b9-b150-f4dd1b665d87"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   ransomware_tool_matrix:
     references:
       - title: "PYSA/Mespinoza Ransomware"
@@ -33,7 +33,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","ThreatIntel/TheDFIRReportGroups.md","Tools/CredentialTheft.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Offsec.md"]
     source_label: "PYSA"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-09T00:04:08Z"
     tools_by_category:
       Credential Theft: ["Mimikatz","ProcDump","SessionGopher"]
       Discovery: ["ADRecon","Advanced IP Scanner","Advanced Port Scanner"]

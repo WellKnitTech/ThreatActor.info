@@ -18,7 +18,7 @@ provenance:
     sample_titles: ["HrServ - Previously unknown web shell used in APT attack"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-09T00:05:21Z"
     sources: ["Kaspersky"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "unknown"
@@ -29,4 +29,4 @@ provenance:
     source_name: "Wiz Cloud Threat Landscape"
     source_record_id: "threat-actor--bf98e1db-6065-5b9d-b2c6-27eb1875e005"
     source_record_modified: "2024-01-18T13:25:00.000Z"
-    source_retrieved_at: "2026-11-01T09:49:33Z"
+    source_retrieved_at: "2026-11-08T23:53:10Z"

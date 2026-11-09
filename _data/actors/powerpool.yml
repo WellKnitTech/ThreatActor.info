@@ -39,12 +39,12 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://us-cert.cisa.gov/ncas/analysis-reports/ar20-275a","https://twitter.com/craiu/status/1311920398259367942"]
-    source_retrieved_at: "2026-11-01T09:59:39Z"
+    source_retrieved_at: "2026-11-09T00:05:19Z"
     tab_name: "others"
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "8ed6a653-b094-43f9-9127-628a84a6b72a"
-    source_retrieved_at: "2026-11-01T09:49:52Z"
+    source_retrieved_at: "2026-11-08T23:53:24Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]
   eternal_liberty:
     aliases_by_entity:
@@ -54,14 +54,14 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "iamtheking"
-    source_retrieved_at: "2026-11-01T09:50:09Z"
+    source_retrieved_at: "2026-11-08T23:53:41Z"
     source_version: "1.2"
     type: "APT"
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "powerpool"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/powerpool"
-    source_retrieved_at: "2026-11-01T09:59:30Z"
+    source_retrieved_at: "2026-11-09T00:05:13Z"
     source_uuid: "abd89986-b1b0-11e8-b857-efe290264006"
   misp_galaxy:
     meta_keys: ["refs","synonyms"]
@@ -70,11 +70,11 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "abd89986-b1b0-11e8-b857-efe290264006"
     source_record_ids: ["abd89986-b1b0-11e8-b857-efe290264006"]
-    source_retrieved_at: "2026-11-01T09:59:23Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   reddrip7_apt_digital_weapon:
     actor_folder: "PowerPool"
     actor_readme_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/PowerPool/README.md"
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/PowerPool/PowerPool_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-01T09:59:46Z"
+    source_retrieved_at: "2026-11-09T00:05:23Z"

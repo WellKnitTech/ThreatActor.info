@@ -2,7 +2,7 @@ name: "Superblack"
 aliases: ["Superblack"]
 description: "Superblack is an active extortion or ransomware group tracked by RansomLook."
 url: "/superblack"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/superblack"
@@ -34,7 +34,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md"]
     source_label: "SuperBlack"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:28Z"
+    source_retrieved_at: "2026-11-09T00:04:13Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "Fortinet"

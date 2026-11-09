@@ -15,5 +15,5 @@ provenance:
   etda_thai_group_cards:
     source_dataset_url: "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
     source_record_id: "e2ecfc72-93c2-4b6c-8edc-001b2b87261b"
-    source_retrieved_at: "2026-11-01T09:49:53Z"
+    source_retrieved_at: "2026-11-08T23:53:24Z"
     source_transforms: ["normalized-name","deduplicated-aliases","normalized-optional-fields","adapted-for-threatactor-info"]

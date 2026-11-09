@@ -2,7 +2,7 @@ name: "Zola"
 aliases: ["Zola"]
 description: "Zola is an active extortion or ransomware group tracked by RansomLook."
 url: "/zola"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/zola"
@@ -20,7 +20,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/LOLBAS.md"]
     source_label: "Zola"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-09T00:04:08Z"
     tools_by_category:
       Credential Theft: ["Mimikatz"]
       Defense Evasion: ["Defender Control","EMCO UnLock IT","ProcessHacker"]

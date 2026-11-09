@@ -29,5 +29,8 @@ Digital threat management company RiskIQ tracks the activity of MageCart group a
 *Information pending cataloguing.*
 
 ## References
-*References pending cataloguing.*
+[1] [BushidoToken Breach Report Collection - Direct Clothing Co. UK (DDCUK) breach report (August 2021) via ico.org.uk](https://ico.org.uk/media2/e3ef5pfb/direct-clothing-company-uk-reprimand.pdf)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Magecart (suspected) (eCrime).
+[2] [BushidoToken Breach Report Collection - Chartered Institute for Securities & Investment (CISI) breach report (February 2020) via ico.org.uk](https://ico.org.uk/media2/1kip5gw2/chartered-institiute-for-securities-and-investment-reprimand.pdf)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Magecart (suspected) (eCrime).
 

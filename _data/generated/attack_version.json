@@ -1,25 +1,25 @@
 {
   "active_version": "20.1",
-  "retrieved_at": "2026-11-08T20:59:52Z",
+  "retrieved_at": "2026-11-08T23:53:03Z",
   "domains": {
     "enterprise": {
       "version": "20.1",
       "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
-      "path": "data/mitre-cache/enterprise-attack-20.1.json",
+      "path": "data/imports/mitre-attack/2026-11-08/enterprise-attack.json",
       "techniques": 706,
       "tactics": 15
     },
     "mobile": {
       "version": "20.1",
       "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json",
-      "path": "data/mitre-cache/mobile-attack-20.1.json",
+      "path": "data/imports/mitre-attack/2026-11-08/mobile-attack.json",
       "techniques": 125,
       "tactics": 12
     },
     "ics": {
       "version": "20.1",
       "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json",
-      "path": "data/mitre-cache/ics-attack-20.1.json",
+      "path": "data/imports/mitre-attack/2026-11-08/ics-attack.json",
       "techniques": 104,
       "tactics": 12
     }

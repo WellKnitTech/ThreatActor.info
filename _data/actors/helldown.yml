@@ -11,7 +11,7 @@ description: 'Helldown is an emerging ransomware group first identified in Augus
   like hellenc.exe, and threatening victims with data dump releases via its Tor-hosted
   leak site.'
 url: "/helldown"
-last_updated: '2026-11-01'
+last_updated: '2026-11-09'
 source_name: RansomLook
 source_attribution: 'Contains data derived from RansomLook, used under CC BY 4.0.
   Source: https://www.ransomlook.io/'
@@ -39,7 +39,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Helldown
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-11-01T09:58:24Z'
+    source_retrieved_at: '2026-11-09T00:04:08Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -65,7 +65,7 @@ provenance:
     - Vulnerabilities/NetworkEdge.md
     source_label: Helldown
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-11-01T09:58:28Z'
+    source_retrieved_at: '2026-11-09T00:04:13Z'
     vulnerabilities_by_category:
       Network Edge:
       - vendor: Zyxel
@@ -87,5 +87,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-09T00:04:44Z'
     source_record_id: Fiery Scorpius

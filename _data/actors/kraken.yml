@@ -4,7 +4,7 @@ description: "Kraken leak blog (hellokitty)"
 url: "/kraken"
 first_seen: "2015"
 last_activity: "2015"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 source_name: "MISP Galaxy"
 source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
 source_record_url: "https://www.ransomlook.io/group/kraken"
@@ -19,7 +19,7 @@ provenance:
     sample_titles: ["Dissecting The Kraken"]
     source_dataset_url: "https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv"
     source_repository: "https://github.com/aptnotes/data"
-    source_retrieved_at: "2026-11-01T09:59:41Z"
+    source_retrieved_at: "2026-11-09T00:05:21Z"
     sources: ["Gdata"]
   misp_galaxy:
     meta_keys: ["links","refs"]
@@ -28,7 +28,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "5b60c7ec-fec9-5b80-aa37-c3b1c4c75ee4"
     source_record_ids: ["5b60c7ec-fec9-5b80-aa37-c3b1c4c75ee4"]
-    source_retrieved_at: "2026-11-01T09:59:24Z"
+    source_retrieved_at: "2026-11-09T00:05:08Z"
   ransomware_tool_matrix:
     references:
       - title: "blog.talosintelligence.com"
@@ -40,7 +40,7 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md"]
     source_label: "Kraken"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-01T09:58:24Z"
+    source_retrieved_at: "2026-11-09T00:04:08Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "kraken"
   source_retrieved_at: "2026-11-01T09:58:05Z"

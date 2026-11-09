@@ -10,7 +10,7 @@ description: |-
 
   Fortunately, the ransomware attack was quickly identified and was limited. While other healthcare organizations have not been as fortunate with ransomware attacks, the AvosLocker attack didn’t impact CHRISTUS Health’s patient care or clinical operations. CHRISTUS Health didn’t reveal whether or not the security incident included ransomware, data exfiltration or extortion, but due to AvosLocker’s reputation, it is more than likely that the incident included at least one of the three.
 url: "/avoslocker"
-last_updated: '2026-11-01'
+last_updated: '2026-11-09'
 source_name: MISP Galaxy
 source_attribution: Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)
 source_record_url: https://www.ransomlook.io/group/avos
@@ -33,7 +33,7 @@ provenance:
     source_record_id: 73d3d8f8-83cc-4fdc-a645-d03b9a7b5a9b
     source_record_ids:
     - 73d3d8f8-83cc-4fdc-a645-d03b9a7b5a9b
-    source_retrieved_at: '2026-11-01T09:59:24Z'
+    source_retrieved_at: '2026-11-09T00:05:08Z'
   ransomware_tool_matrix:
     references:
     - title: CISA Alert aa23-284a
@@ -74,7 +74,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: AvosLocker
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-11-01T09:58:24Z'
+    source_retrieved_at: '2026-11-09T00:04:08Z'
     tools_by_category:
       Credential Theft:
       - LaZagne
@@ -161,7 +161,7 @@ provenance:
     - Vulnerabilities/Microsoft.md
     source_label: AvosLocker
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-11-01T09:58:28Z'
+    source_retrieved_at: '2026-11-09T00:04:13Z'
     vulnerabilities_by_category:
       Applications:
       - vendor: Apache
@@ -229,5 +229,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-09T00:04:44Z'
     source_record_id: Spicy Scorpius

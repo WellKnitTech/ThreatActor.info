@@ -20,6 +20,7 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
 
 **Last Activity**: 2025
 
+
 ## Notable Campaigns
 - [Nissan Australia](https://www.nissan.com.au/website-update.html) (December 2023; Akira (Ransomware))
 - [BHI Energy](https://www.documentcloud.org/documents/24075435-bhi-notice) (October 2023; Akira (Ransomware))
@@ -133,6 +134,11 @@ Akira is a ransomware variant and ransomware deployment entity active since at l
    Will Thomas. (2023, September 15). Tracking Adversaries: Akira, another descendent of Conti. Retrieved February 21, 2024.
 [11] [Palo Alto Howling Scorpius DEC 2024](https://unit42.paloaltonetworks.com/threat-assessment-howling-scorpius-akira-ransomware/)
    Zemah, Y. (2024, December 2). Threat Assessment: Howling Scorpius (Akira Ransomware). Retrieved January 8, 2025.
+
+[12] [BushidoToken Breach Report Collection - Nissan Australia breach report (December 2023) via nissan.com.au](https://www.nissan.com.au/website-update.html)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Akira (Ransomware).
+[13] [BushidoToken Breach Report Collection - BHI Energy breach report (October 2023) via documentcloud.org](https://www.documentcloud.org/documents/24075435-bhi-notice)
+   Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Akira (Ransomware).
 
 ## CISA Known Exploited Vulnerabilities (KEV)
 *The following CVEs are known to be exploited by this actor, listed in the CISA KEV catalog.*

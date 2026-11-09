@@ -21,7 +21,7 @@ description: INC Ransom is a ransomware and data extortion threat group associat
   [Secureworks GOLD IONIC April 2024](https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware)
   [SentinelOne INC Ransomware](https://www.sentinelone.com/anthology/inc-ransom/)
 url: "/apt1032"
-last_updated: '2026-11-01'
+last_updated: '2026-11-09'
 confidence: high
 external_id: G1032
 external_url: https://attack.mitre.org/groups/G1032
@@ -266,6 +266,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-01T09:59:12Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-09T00:04:58Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   apt_groups_operations:
     sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
@@ -274,7 +277,7 @@ provenance:
     - https://www.cybereason.com/blog/threat-alert-inc-ransomware
     - https://www.sentinelone.com/anthology/inc-ransom/
     - https://www.malwarebytes.com/blog/threat-intelligence/2023/09/ransomware-review-september-2023
-    source_retrieved_at: '2026-11-01T09:59:39Z'
+    source_retrieved_at: '2026-11-09T00:05:19Z'
     tab_name: unknown
   misp_galaxy:
     meta_keys:
@@ -295,21 +298,21 @@ provenance:
     source_record_ids:
     - 8957f42d-a069-542b-bce6-3059a2fa0f2e
     - 382c9986-8a55-5917-b04e-b0bf2e495320
-    source_retrieved_at: '2026-11-01T09:59:24Z'
+    source_retrieved_at: '2026-11-09T00:05:08Z'
   mitre:
-    attack_version: '20.0'
+    attack_version: '20.1'
     attack_version_by_domain:
-      enterprise: '20.0'
-      ics: '20.0'
-      mobile: '20.0'
-    relationships_imported_at: '2026-11-01T09:59:12Z'
+      enterprise: '20.1'
+      ics: '20.1'
+      mobile: '20.1'
+    relationships_imported_at: '2026-11-09T00:04:58Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1032
-    source_retrieved_at: '2026-11-01T09:59:12Z'
+    source_retrieved_at: '2026-11-09T00:04:58Z'
     stix_intrusion_set_id: intrusion-set--cb41e991-65f4-4668-a65f-f4200545b5a1
   ransomware_tool_matrix:
     community_reports:
@@ -357,7 +360,7 @@ provenance:
     - Tools/LOLBAS.md
     source_label: INC Ransom
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-11-01T09:58:24Z'
+    source_retrieved_at: '2026-11-09T00:04:08Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -407,7 +410,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: INC Ransom
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-11-01T09:58:28Z'
+    source_retrieved_at: '2026-11-09T00:04:13Z'
     vulnerabilities_by_category:
       Virtualization:
       - vendor: Citrix
@@ -424,6 +427,6 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-01T09:58:57Z'
+    source_retrieved_at: '2026-11-09T00:04:44Z'
     source_record_id: Tarnished Scorpius
 source: MITRE ATT&CK
