@@ -38,3 +38,9 @@ The Bitter threat group initially started using RAT tools in their campaigns, as
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia](https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html)
+  The Hacker News — 2026-11-09
+
