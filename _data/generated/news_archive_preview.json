@@ -1,5 +1,465 @@
 [
   {
+    "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+    "link": "https://securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd",
+    "canonical_url": "https://securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd",
+    "date": "2026-11-11T08:42:44Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+    "link": "https://securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks",
+    "canonical_url": "https://securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks",
+    "date": "2026-11-11T07:53:51Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+      {
+        "name": "Barracuda",
+        "url": "/barracuda",
+        "matched_alias": "barracuda"
+      }
+    ]
+  },
+  {
+    "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+    "link": "https://securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms",
+    "canonical_url": "https://securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms",
+    "date": "2026-11-11T07:00:17Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026",
+    "canonical_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026",
+    "date": "2026-11-11T01:41:17Z",
+    "source": "Cisco Talos",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+    "link": "https://darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+    "canonical_url": "https://darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+    "date": "2026-11-10T22:26:51Z",
+    "source": "DarkReading",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Patch Tuesday - November 2026",
+    "link": "https://rapid7.com/blog/post/em-patch-tuesday-november-2026",
+    "canonical_url": "https://rapid7.com/blog/post/em-patch-tuesday-november-2026",
+    "date": "2026-11-10T21:55:37Z",
+    "source": "Rapid7",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+    "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities",
+    "canonical_url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities",
+    "date": "2026-11-10T21:55:03Z",
+    "source": "KrebsOnSecurity",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+    "link": "https://darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+    "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+    "date": "2026-11-10T21:01:14Z",
+    "source": "DarkReading",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
+    "link": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+    "canonical_url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+    "date": "2026-11-10T20:55:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+    "link": "https://securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft",
+    "canonical_url": "https://securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft",
+    "date": "2026-11-10T19:19:46Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+    "canonical_url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+    "date": "2026-11-10T19:19:39Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+    "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+    "date": "2026-11-10T18:12:21Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+    "link": "https://securityweek.com/adobe-patches-110-vulnerabilities-across-9-products",
+    "canonical_url": "https://securityweek.com/adobe-patches-110-vulnerabilities-across-9-products",
+    "date": "2026-11-10T18:11:54Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+    "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+    "canonical_url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+    "date": "2026-11-10T17:43:23Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+    "link": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+    "canonical_url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+    "date": "2026-11-10T16:08:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+    "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+    "date": "2026-11-10T16:00:55Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+    "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+    "canonical_url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+    "date": "2026-11-10T15:58:44Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Cybercriminals are increasingly infecting regular people with spyware",
+    "link": "https://therecord.media/spyware-cyber-crime-iverify",
+    "canonical_url": "https://therecord.media/spyware-cyber-crime-iverify",
+    "date": "2026-11-10T15:45:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+    "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+    "canonical_url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+    "date": "2026-11-10T15:33:59Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+    "link": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
+    "canonical_url": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
+    "date": "2026-11-10T15:00:00Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+      {
+        "name": "Turla",
+        "url": "/apt0010",
+        "matched_alias": "summit"
+      }
+    ]
+  },
+  {
+    "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+    "link": "https://securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities",
+    "canonical_url": "https://securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities",
+    "date": "2026-11-10T14:46:28Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+    "link": "https://therecord.media/michael-losapio-cisa-director-nomination",
+    "canonical_url": "https://therecord.media/michael-losapio-cisa-director-nomination",
+    "date": "2026-11-10T14:31:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown",
+    "link": "https://rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+    "canonical_url": "https://rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+    "date": "2026-11-10T14:20:34Z",
+    "source": "Rapid7",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+    "link": "https://darkreading.com/application-security/ai-reverse-engineering-apps",
+    "canonical_url": "https://darkreading.com/application-security/ai-reverse-engineering-apps",
+    "date": "2026-11-10T13:00:00Z",
+    "source": "DarkReading",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+    "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+    "canonical_url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+    "date": "2026-11-10T12:15:31Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+    "link": "https://cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+    "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+    "date": "2026-11-10T12:00:00Z",
+    "source": "CISA Advisories",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+    "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+    "canonical_url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+    "date": "2026-11-10T10:16:51Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+    "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+    "canonical_url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+    "date": "2026-11-10T10:07:29Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+      {
+        "name": "Turla",
+        "url": "/apt0010",
+        "matched_alias": "turla"
+      }
+    ]
+  },
+  {
     "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
     "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
     "canonical_url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
@@ -7792,476 +8252,6 @@
     "canonical_url": "https://bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer",
     "date": "2026-09-18T15:19:06Z",
     "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-    "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-    "canonical_url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-    "date": "2026-09-18T12:47:04Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "New Check Point flaw lets hackers execute code with root privileges",
-    "link": "https://bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root",
-    "canonical_url": "https://bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root",
-    "date": "2026-09-18T09:34:33Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-    "canonical_url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-    "date": "2026-09-18T09:18:03Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-    "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-    "canonical_url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-    "date": "2026-09-18T06:17:25Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "New RatHat Android malware uses AI to automate device control",
-    "link": "https://bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control",
-    "canonical_url": "https://bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control",
-    "date": "2026-09-17T21:50:26Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
-    "link": "https://darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
-    "canonical_url": "https://darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
-    "date": "2026-09-17T21:23:50Z",
-    "source": "DarkReading",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
-    "link": "https://darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
-    "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
-    "date": "2026-09-17T19:15:38Z",
-    "source": "DarkReading",
-    "cves": [
-
-    ],
-    "tags": [
-      "apt"
-    ],
-    "actors": [
-      {
-        "name": "Salt Typhoon",
-        "url": "/apt1045",
-        "matched_alias": "famoussparrow"
-      },
-      {
-        "name": "GhostEmperor",
-        "url": "/ghostemperor",
-        "matched_alias": "famoussparrow"
-      }
-    ]
-  },
-  {
-    "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-    "link": "https://bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites",
-    "canonical_url": "https://bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites",
-    "date": "2026-09-17T17:11:34Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-    "link": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
-    "canonical_url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
-    "date": "2026-09-17T14:03:13Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-      {
-        "name": "Handala",
-        "url": "/handala",
-        "matched_alias": "handala"
-      }
-    ]
-  },
-  {
-    "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-    "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-    "canonical_url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-    "date": "2026-09-17T12:30:00Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "US takes down NightmareStresser DDoS-for-hire platform",
-    "link": "https://bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks",
-    "canonical_url": "https://bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks",
-    "date": "2026-09-17T11:33:35Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-    "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-    "canonical_url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-    "date": "2026-09-17T10:05:45Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-      {
-        "name": "Salt Typhoon",
-        "url": "/apt1045",
-        "matched_alias": "famoussparrow"
-      },
-      {
-        "name": "GhostEmperor",
-        "url": "/ghostemperor",
-        "matched_alias": "famoussparrow"
-      }
-    ]
-  },
-  {
-    "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-    "link": "https://bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks",
-    "canonical_url": "https://bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks",
-    "date": "2026-09-17T07:20:54Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-    "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-    "canonical_url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-    "date": "2026-09-17T06:39:40Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
-    "link": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-    "canonical_url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-    "date": "2026-09-17T05:13:46Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
-    "link": "https://bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets",
-    "canonical_url": "https://bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets",
-    "date": "2026-09-16T20:24:55Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Spain's data agency gets first report of AI-powered data breach",
-    "link": "https://bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach",
-    "canonical_url": "https://bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach",
-    "date": "2026-09-16T17:26:41Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-      "breach"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-    "canonical_url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-    "date": "2026-09-16T15:50:59Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-    "canonical_url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-    "date": "2026-09-16T15:27:49Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-      "ransomware"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Webinar: What happens in the first hours of a Google Workspace breach",
-    "link": "https://bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach",
-    "canonical_url": "https://bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach",
-    "date": "2026-09-16T12:11:19Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-      "breach"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-    "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-    "canonical_url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-    "date": "2026-09-16T11:15:48Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-    "canonical_url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-    "date": "2026-09-16T11:08:54Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Atomic macOS (AMOS) Stealer Activity",
-    "link": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity",
-    "canonical_url": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity",
-    "date": "2026-09-16T10:00:06Z",
-    "source": "Unit 42",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Google fixes actively exploited Android zero-day on Pixel devices",
-    "link": "https://bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices",
-    "canonical_url": "https://bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices",
-    "date": "2026-09-16T07:00:19Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-    "canonical_url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-    "date": "2026-09-16T05:48:28Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-    "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-    "canonical_url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-    "date": "2026-09-15T18:54:14Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-    "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-    "canonical_url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-    "date": "2026-09-15T16:29:51Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-    "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
-    "canonical_url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
-    "date": "2026-09-15T05:31:05Z",
-    "source": "The Hacker News",
     "cves": [
 
     ],

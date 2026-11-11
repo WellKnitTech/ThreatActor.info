@@ -1,7 +1,495 @@
 {
   "month": "2026-11",
-  "item_count": 117,
+  "item_count": 145,
   "items": [
+    {
+      "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+      "link": "https://securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd",
+      "canonical_url": "https://securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd",
+      "date": "2026-11-11T08:42:44Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+      "link": "https://securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks",
+      "canonical_url": "https://securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks",
+      "date": "2026-11-11T07:53:51Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Barracuda",
+          "url": "/barracuda",
+          "matched_alias": "barracuda"
+        }
+      ]
+    },
+    {
+      "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+      "link": "https://securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms",
+      "canonical_url": "https://securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms",
+      "date": "2026-11-11T07:00:17Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026",
+      "canonical_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026",
+      "date": "2026-11-11T01:41:17Z",
+      "source": "Cisco Talos",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+      "link": "https://darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+      "canonical_url": "https://darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+      "date": "2026-11-10T22:26:51Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Patch Tuesday - November 2026",
+      "link": "https://rapid7.com/blog/post/em-patch-tuesday-november-2026",
+      "canonical_url": "https://rapid7.com/blog/post/em-patch-tuesday-november-2026",
+      "date": "2026-11-10T21:55:37Z",
+      "source": "Rapid7",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities",
+      "canonical_url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities",
+      "date": "2026-11-10T21:55:03Z",
+      "source": "KrebsOnSecurity",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "link": "https://darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "date": "2026-11-10T21:01:14Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
+      "link": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+      "canonical_url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+      "date": "2026-11-10T20:55:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+      "link": "https://securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft",
+      "canonical_url": "https://securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft",
+      "date": "2026-11-10T19:19:46Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "canonical_url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "date": "2026-11-10T19:19:39Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "date": "2026-11-10T18:12:21Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+      "link": "https://securityweek.com/adobe-patches-110-vulnerabilities-across-9-products",
+      "canonical_url": "https://securityweek.com/adobe-patches-110-vulnerabilities-across-9-products",
+      "date": "2026-11-10T18:11:54Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "canonical_url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "date": "2026-11-10T17:43:23Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+      "link": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+      "canonical_url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+      "date": "2026-11-10T16:08:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "date": "2026-11-10T16:00:55Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "canonical_url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "date": "2026-11-10T15:58:44Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Cybercriminals are increasingly infecting regular people with spyware",
+      "link": "https://therecord.media/spyware-cyber-crime-iverify",
+      "canonical_url": "https://therecord.media/spyware-cyber-crime-iverify",
+      "date": "2026-11-10T15:45:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "canonical_url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "date": "2026-11-10T15:33:59Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+      "link": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
+      "canonical_url": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
+      "date": "2026-11-10T15:00:00Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Turla",
+          "url": "/apt0010",
+          "matched_alias": "summit"
+        }
+      ]
+    },
+    {
+      "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+      "link": "https://securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities",
+      "canonical_url": "https://securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities",
+      "date": "2026-11-10T14:46:28Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+      "link": "https://therecord.media/michael-losapio-cisa-director-nomination",
+      "canonical_url": "https://therecord.media/michael-losapio-cisa-director-nomination",
+      "date": "2026-11-10T14:31:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown",
+      "link": "https://rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+      "canonical_url": "https://rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+      "date": "2026-11-10T14:20:34Z",
+      "source": "Rapid7",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+      "link": "https://darkreading.com/application-security/ai-reverse-engineering-apps",
+      "canonical_url": "https://darkreading.com/application-security/ai-reverse-engineering-apps",
+      "date": "2026-11-10T13:00:00Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "canonical_url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "date": "2026-11-10T12:15:31Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-10T12:00:00Z",
+      "source": "CISA Advisories",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+      "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+      "canonical_url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+      "date": "2026-11-10T10:16:51Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+      "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+      "canonical_url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+      "date": "2026-11-10T10:07:29Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Turla",
+          "url": "/apt0010",
+          "matched_alias": "turla"
+        }
+      ]
+    },
     {
       "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
       "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",

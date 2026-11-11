@@ -33,6 +33,8 @@ Barracuda is an active extortion or ransomware group tracked by RansomLook.
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Recently Patched Barracuda Vulnerabilities Exploited in Attacks](https://securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks)
+  SecurityWeek — 2026-11-11
 - [Critical Authentication Bypass in Barracuda Email Security Gateway (CVE-2026-116606, CVE-2026-111560)](https://labs.beazley.security/advisories/BSL-A1240)
   Beazley Security Labs Advisories — 2026-11-03 — CVE-2026-116606 — CVE-2026-111560 — tags: cve
 
