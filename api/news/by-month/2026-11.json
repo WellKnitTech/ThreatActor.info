@@ -1,7 +1,315 @@
 {
   "month": "2026-11",
-  "item_count": 145,
+  "item_count": 165,
   "items": [
+    {
+      "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+      "link": "https://securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt",
+      "canonical_url": "https://securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt",
+      "date": "2026-11-12T08:38:47Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "canonical_url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "date": "2026-11-12T06:42:47Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+      "link": "https://darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+      "canonical_url": "https://darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+      "date": "2026-11-12T00:00:00Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+      "link": "https://microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2",
+      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2",
+      "date": "2026-11-11T19:49:57Z",
+      "source": "Microsoft Security",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Vanderbilt restores systems after cyberattack as hackers claim data theft",
+      "link": "https://malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "canonical_url": "https://malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "date": "2026-11-11T18:29:01Z",
+      "source": "Malwarebytes",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin",
+      "canonical_url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin",
+      "date": "2026-11-11T18:06:01Z",
+      "source": "KrebsOnSecurity",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
+      "link": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
+      "canonical_url": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
+      "date": "2026-11-11T16:29:42Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Turla",
+          "url": "/apt0010",
+          "matched_alias": "summit"
+        }
+      ]
+    },
+    {
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "canonical_url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "date": "2026-11-11T16:12:46Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "link": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise",
+      "canonical_url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise",
+      "date": "2026-11-11T15:00:23Z",
+      "source": "Unit 42",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "date": "2026-11-11T14:01:00Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Remus malware claims Gmail access even after you change your password",
+      "link": "https://malwarebytes.com/blog/news/2026/11/remus-malware-claims-gmail-access-even-after-you-change-your-password",
+      "canonical_url": "https://malwarebytes.com/blog/news/2026/11/remus-malware-claims-gmail-access-even-after-you-change-your-password",
+      "date": "2026-11-11T13:42:10Z",
+      "source": "Malwarebytes",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "link": "https://securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities",
+      "canonical_url": "https://securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities",
+      "date": "2026-11-11T13:37:19Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Poland shuts down government services platform ePUAP following cyberattack",
+      "link": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+      "canonical_url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+      "date": "2026-11-11T13:18:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Britain, France set out first guidelines for commercial hacking firms",
+      "link": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+      "canonical_url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+      "date": "2026-11-11T13:11:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "October 2026 Cyber Threat Landscape: Record Ransomware, Rising GenAI Risk and an AI-Powered Newcomer",
+      "link": "https://blog.checkpoint.com/research/october-2026-cyber-threat-landscape-record-ransomware-rising-genai-risk-and-an-ai-powered-newcomer",
+      "canonical_url": "https://blog.checkpoint.com/research/october-2026-cyber-threat-landscape-record-ransomware-rising-genai-risk-and-an-ai-powered-newcomer",
+      "date": "2026-11-11T13:00:03Z",
+      "source": "Check Point",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+      "link": "https://securityweek.com/fortinet-patches-nearly-100-vulnerabilities",
+      "canonical_url": "https://securityweek.com/fortinet-patches-nearly-100-vulnerabilities",
+      "date": "2026-11-11T12:10:14Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft Patch Tuesday fixes Outlook flaw already under attack",
+      "link": "https://malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
+      "canonical_url": "https://malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
+      "date": "2026-11-11T11:25:05Z",
+      "source": "Malwarebytes",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+      "link": "https://securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure",
+      "canonical_url": "https://securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure",
+      "date": "2026-11-11T10:35:15Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "link": "https://securelist.com/citrus-ransomware/121879",
+      "canonical_url": "https://securelist.com/citrus-ransomware/121879",
+      "date": "2026-11-11T10:00:25Z",
+      "source": "Securelist",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
       "link": "https://securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd",
@@ -49,6 +357,41 @@
       ],
       "tags": [
 
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical SQL Injection in Ivanti Endpoint Manager (CVE-2026-121653)",
+      "link": "https://labs.beazley.security/advisories/BSL-A1243",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1243",
+      "date": "2026-11-11T07:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "cves": [
+        "CVE-2026-121653"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical Vulnerabilities in SAP NetWeaver, Web Dispatcher and Gateway (CVE-2026-76964, CVE-2026-89126, CVE-2026-89103, CVE-2026-120017)",
+      "link": "https://labs.beazley.security/advisories/BSL-A1244",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1244",
+      "date": "2026-11-11T07:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "cves": [
+        "CVE-2026-76964",
+        "CVE-2026-89126",
+        "CVE-2026-89103",
+        "CVE-2026-120017"
+      ],
+      "tags": [
+        "cve"
       ],
       "actors": [
 
@@ -308,26 +651,6 @@
       ],
       "actors": [
 
-      ]
-    },
-    {
-      "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
-      "link": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
-      "canonical_url": "https://securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
-      "date": "2026-11-10T15:00:00Z",
-      "source": "SecurityWeek",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-        {
-          "name": "Turla",
-          "url": "/apt0010",
-          "matched_alias": "summit"
-        }
       ]
     },
     {
