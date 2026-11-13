@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-12T09:15:39Z",
+  "updated": "2026-11-13T09:03:33Z",
   "window_days": 14,
   "display_items": 100,
   "item_count": 100,
-  "item_count_total": 772,
+  "item_count_total": 795,
   "retention": "additive_archive",
   "archive_dir": "data/news/archive",
   "archive_months": [
@@ -27,7 +27,7 @@
     },
     {
       "month": "2026-11",
-      "item_count": 165,
+      "item_count": 188,
       "path": "data/news/archive/2026-11.json",
       "api_path": "/api/news/by-month/2026-11.json"
     }
@@ -61,256 +61,564 @@
     "BleepingComputer": {
       "ok": true,
       "items": 15,
-      "latency_ms": 560,
-      "fetch_ms": 87,
-      "parse_ms": 11,
+      "latency_ms": 1030,
+      "fetch_ms": 140,
+      "parse_ms": 12,
       "url": "https://feeds.feedburner.com/BleepingComputer",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 283,
-      "fetch_ms": 209,
-      "parse_ms": 68,
+      "latency_ms": 328,
+      "fetch_ms": 252,
+      "parse_ms": 72,
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:39Z",
       "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 294,
-      "fetch_ms": 278,
-      "parse_ms": 10,
+      "latency_ms": 316,
+      "fetch_ms": 160,
+      "parse_ms": 153,
       "url": "https://krebsonsecurity.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:39Z",
       "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 399,
-      "fetch_ms": 387,
-      "parse_ms": 5,
+      "latency_ms": 410,
+      "fetch_ms": 400,
+      "parse_ms": 7,
       "url": "https://www.darkreading.com/rss.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "SecurityWeek": {
       "ok": true,
       "items": 10,
-      "latency_ms": 274,
-      "fetch_ms": 137,
-      "parse_ms": 130,
+      "latency_ms": 321,
+      "fetch_ms": 179,
+      "parse_ms": 139,
       "url": "https://www.securityweek.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:39Z",
       "unhealthy": false
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 296,
-      "fetch_ms": 286,
-      "parse_ms": 3,
+      "latency_ms": 315,
+      "fetch_ms": 158,
+      "parse_ms": 141,
       "url": "https://therecord.media/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:39Z",
       "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 108,
-      "fetch_ms": 62,
-      "parse_ms": 45,
+      "latency_ms": 217,
+      "fetch_ms": 106,
+      "parse_ms": 99,
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 126,
-      "fetch_ms": 118,
-      "parse_ms": 8,
+      "latency_ms": 104,
+      "fetch_ms": 86,
+      "parse_ms": 9,
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 141,
-      "fetch_ms": 122,
-      "parse_ms": 17,
+      "latency_ms": 234,
+      "fetch_ms": 211,
+      "parse_ms": 22,
       "url": "https://blog.talosintelligence.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1149,
-      "fetch_ms": 1132,
-      "parse_ms": 15,
+      "latency_ms": 1806,
+      "fetch_ms": 1787,
+      "parse_ms": 19,
       "url": "https://securelist.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:48Z",
+      "last_success_at": "2026-11-13T09:01:41Z",
       "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 113,
-      "fetch_ms": 105,
-      "parse_ms": 8,
+      "latency_ms": 262,
+      "fetch_ms": 249,
+      "parse_ms": 12,
       "url": "https://www.malwarebytes.com/blog/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 60,
-      "fetch_ms": 50,
+      "latency_ms": 146,
+      "fetch_ms": 136,
       "parse_ms": 10,
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 372,
-      "fetch_ms": 366,
-      "parse_ms": 6,
+      "latency_ms": 216,
+      "fetch_ms": 207,
+      "parse_ms": 8,
       "url": "https://blog.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Elastic Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 170,
-      "fetch_ms": 157,
-      "parse_ms": 13,
+      "latency_ms": 147,
+      "fetch_ms": 131,
+      "parse_ms": 15,
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 75,
-      "fetch_ms": 63,
-      "parse_ms": 11,
+      "latency_ms": 168,
+      "fetch_ms": 155,
+      "parse_ms": 13,
       "url": "https://blog.cloudflare.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 139,
-      "fetch_ms": 125,
+      "latency_ms": 147,
+      "fetch_ms": 133,
       "parse_ms": 14,
       "url": "https://blog.checkpoint.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 201,
-      "fetch_ms": 194,
-      "parse_ms": 7,
+      "latency_ms": 204,
+      "fetch_ms": 190,
+      "parse_ms": 9,
       "url": "https://www.sentinelone.com/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 207,
-      "fetch_ms": 199,
-      "parse_ms": 7,
+      "latency_ms": 187,
+      "fetch_ms": 172,
+      "parse_ms": 14,
       "url": "https://www.rapid7.com/blog/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 432,
-      "fetch_ms": 421,
-      "parse_ms": 10,
+      "latency_ms": 825,
+      "fetch_ms": 814,
+      "parse_ms": 11,
       "url": "https://arstechnica.com/security/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:48Z",
+      "last_success_at": "2026-11-13T09:01:41Z",
       "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 48,
-      "fetch_ms": 37,
-      "parse_ms": 9,
+      "latency_ms": 122,
+      "fetch_ms": 114,
+      "parse_ms": 8,
       "url": "https://techcrunch.com/tag/security/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 80,
-      "fetch_ms": 74,
+      "latency_ms": 134,
+      "fetch_ms": 127,
       "parse_ms": 7,
       "url": "https://www.wired.com/feed/category/security/latest/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:47Z",
+      "last_success_at": "2026-11-13T09:01:40Z",
       "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 447,
-      "fetch_ms": 440,
-      "parse_ms": 7,
+      "latency_ms": 729,
+      "fetch_ms": 719,
+      "parse_ms": 10,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:48Z",
+      "last_success_at": "2026-11-13T09:01:42Z",
       "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 272,
-      "fetch_ms": 266,
-      "parse_ms": 6,
+      "latency_ms": 461,
+      "fetch_ms": 454,
+      "parse_ms": 7,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-12T09:13:48Z",
+      "last_success_at": "2026-11-13T09:01:42Z",
       "unhealthy": false
     }
   },
   "items": [
+    {
+      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+      "link": "https://securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop",
+      "canonical_url": "https://securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop",
+      "date": "2026-11-13T08:50:36Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "date": "2026-11-13T08:05:49Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+      "link": "https://securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication",
+      "canonical_url": "https://securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication",
+      "date": "2026-11-13T07:20:50Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "date": "2026-11-13T05:43:28Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+      "link": "https://darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
+      "canonical_url": "https://darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
+      "date": "2026-11-12T20:09:41Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+        {
+          "name": "Luna Moth",
+          "url": "/luna-moth",
+          "matched_alias": "luna moth"
+        }
+      ]
+    },
+    {
+      "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "canonical_url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "date": "2026-11-12T18:02:51Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "canonical_url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "date": "2026-11-12T17:50:27Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+      "link": "https://microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents",
+      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents",
+      "date": "2026-11-12T17:00:00Z",
+      "source": "Microsoft Security",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "European authorities take down SteaIC malware servers for second time this year",
+      "link": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+      "canonical_url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+      "date": "2026-11-12T16:21:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+      "link": "https://securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google",
+      "canonical_url": "https://securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google",
+      "date": "2026-11-12T15:38:31Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "canonical_url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "date": "2026-11-12T15:15:40Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Security Advisory: Active Exploitation of PHP2Shell and Local Privilege Escalation",
+      "link": "https://blog.checkpoint.com/security/security-advisory-active-exploitation-of-php2shell-and-local-privilege-escalation",
+      "canonical_url": "https://blog.checkpoint.com/security/security-advisory-active-exploitation-of-php2shell-and-local-privilege-escalation",
+      "date": "2026-11-12T13:58:03Z",
+      "source": "Check Point",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+      "link": "https://securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities",
+      "canonical_url": "https://securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities",
+      "date": "2026-11-12T13:42:09Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+      "link": "https://securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign",
+      "canonical_url": "https://securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign",
+      "date": "2026-11-12T13:39:03Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "canonical_url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "date": "2026-11-12T13:08:28Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "canonical_url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "date": "2026-11-12T11:51:43Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "date": "2026-11-12T11:33:15Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+      "link": "https://securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack",
+      "canonical_url": "https://securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack",
+      "date": "2026-11-12T11:08:52Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "canonical_url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "date": "2026-11-12T09:25:00Z",
+      "source": "The Hacker News",
+      "cves": [
+        "CVE-2026-118383"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
       "link": "https://securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt",
@@ -328,11 +636,43 @@
       ]
     },
     {
+      "title": "Critical Vulnerabilities in Citrix NetScaler ADC, NetScaler Gateway, and NetScaler Console",
+      "link": "https://labs.beazley.security/advisories/BSL-A1246",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1246",
+      "date": "2026-11-12T07:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
       "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
       "canonical_url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
       "date": "2026-11-12T06:42:47Z",
       "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Emerging Threat: Campaign Targets ConnectWise ScreenConnect Partner Panels to Compromise MSP Customers",
+      "link": "https://labs.beazley.security/advisories/BSL-A1245",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1245",
+      "date": "2026-11-12T06:00:00Z",
+      "source": "Beazley Security Labs Advisories",
       "cves": [
 
       ],
@@ -625,6 +965,22 @@
       "canonical_url": "https://securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd",
       "date": "2026-11-11T08:42:44Z",
       "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The SASE “Trilemma”: How Regulated Enterprises are Navigating Digital Sovereignty, Resilience, and Global Cyber Threat Intelligence",
+      "link": "https://paloaltonetworks.com/blog/2026/11/the-sase-trilemma-how-regulated-enterprises-are-navigating-digital-sovereignty-resilience-and-global-cyber-threat-intelligence",
+      "canonical_url": "https://paloaltonetworks.com/blog/2026/11/the-sase-trilemma-how-regulated-enterprises-are-navigating-digital-sovereignty-resilience-and-global-cyber-threat-intelligence",
+      "date": "2026-11-11T08:01:01Z",
+      "source": "Palo Alto Networks",
       "cves": [
 
       ],
@@ -1335,6 +1691,22 @@
       ]
     },
     {
+      "title": "Digital Contagion: How AI Is Transforming Supply Chain Cyber Risk",
+      "link": "https://paloaltonetworks.com/blog/2026/11/digital-contagion-how-ai-is-transforming-supply-chain-cyber-risk",
+      "canonical_url": "https://paloaltonetworks.com/blog/2026/11/digital-contagion-how-ai-is-transforming-supply-chain-cyber-risk",
+      "date": "2026-11-09T15:19:01Z",
+      "source": "Palo Alto Networks",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
       "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
       "canonical_url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
@@ -1562,378 +1934,6 @@
       ],
       "tags": [
 
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
-      "canonical_url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
-      "date": "2026-11-06T20:56:41Z",
-      "source": "Ars Technica",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Certificate authority DigiCert reports data breach involving business customer info",
-      "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
-      "canonical_url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
-      "date": "2026-11-06T18:56:00Z",
-      "source": "The Record",
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "link": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
-      "canonical_url": "https://wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
-      "date": "2026-11-06T18:43:43Z",
-      "source": "Wired Security",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 45 (2026)",
-      "link": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
-      "canonical_url": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
-      "date": "2026-11-06T18:30:54Z",
-      "source": "SentinelOne",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
-      "link": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
-      "canonical_url": "https://securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
-      "date": "2026-11-06T18:28:41Z",
-      "source": "SecurityWeek",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
-      "link": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
-      "canonical_url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
-      "date": "2026-11-06T16:53:00Z",
-      "source": "The Record",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "date": "2026-11-06T15:21:49Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "DigiCert Data Breach Impacts Business Customer Information",
-      "link": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
-      "canonical_url": "https://securityweek.com/digicert-data-breach-impacts-business-customer-information",
-      "date": "2026-11-06T14:00:07Z",
-      "source": "SecurityWeek",
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
-      "link": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
-      "canonical_url": "https://rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
-      "date": "2026-11-06T13:52:11Z",
-      "source": "Rapid7",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
-      "link": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
-      "canonical_url": "https://securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
-      "date": "2026-11-06T12:47:55Z",
-      "source": "SecurityWeek",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "canonical_url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "date": "2026-11-06T12:06:43Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "date": "2026-11-06T12:00:00Z",
-      "source": "CISA Advisories",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-      "link": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
-      "canonical_url": "https://securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
-      "date": "2026-11-06T09:33:51Z",
-      "source": "SecurityWeek",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "canonical_url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "date": "2026-11-06T08:04:49Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "date": "2026-11-06T05:58:54Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
-      "link": "https://microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
-      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
-      "date": "2026-11-05T23:46:50Z",
-      "source": "Microsoft Security",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password",
-      "canonical_url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password",
-      "date": "2026-11-05T23:09:36Z",
-      "source": "Ars Technica",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
-      "link": "https://therecord.media/queens-library-ransomware-causes-disruptions",
-      "canonical_url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
-      "date": "2026-11-05T22:08:00Z",
-      "source": "The Record",
-      "cves": [
-
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
-      "link": "https://darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
-      "canonical_url": "https://darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
-      "date": "2026-11-05T21:00:47Z",
-      "source": "DarkReading",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "APT29's Watering Holes Target Thousands of Mobile Users",
-      "link": "https://darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
-      "canonical_url": "https://darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
-      "date": "2026-11-05T20:05:39Z",
-      "source": "DarkReading",
-      "cves": [
-
-      ],
-      "tags": [
-        "apt"
-      ],
-      "actors": [
-        {
-          "name": "APT29",
-          "url": "/apt29",
-          "matched_alias": "apt29"
-        }
-      ]
-    },
-    {
-      "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
-      "link": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
-      "canonical_url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
-      "date": "2026-11-05T17:00:00Z",
-      "source": "The Record",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Email threat landscape: Q3 2026 trends and insights",
-      "link": "https://microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
-      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
-      "date": "2026-11-05T16:00:00Z",
-      "source": "Microsoft Security",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-      "canonical_url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-      "date": "2026-11-05T14:41:10Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
       ],
       "actors": [
 

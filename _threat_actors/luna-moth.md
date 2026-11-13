@@ -34,6 +34,8 @@ Luna Moth conducts high-tempo callback phishing campaigns targeting legal and fi
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Extortion Group Luna Moth Flits Into Law Firms a Second Time](https://darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time)
+  DarkReading — 2026-11-12 — tags: breach
 - [How Luna Moth Runs Data Extortion Like a Business](https://blog.checkpoint.com/security/how-luna-moth-runs-data-extortion-like-a-business)
   Check Point — 2026-10-09 — tags: breach
 
