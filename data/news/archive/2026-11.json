@@ -1,7 +1,245 @@
 {
   "month": "2026-11",
-  "item_count": 188,
+  "item_count": 202,
   "items": [
+    {
+      "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+      "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+      "canonical_url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+      "date": "2026-11-13T19:43:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 46 (2026)",
+      "link": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-46-8",
+      "canonical_url": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-46-8",
+      "date": "2026-11-13T17:46:55Z",
+      "source": "SentinelOne",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+      "link": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+      "canonical_url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+      "date": "2026-11-13T17:26:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "canonical_url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "date": "2026-11-13T16:53:08Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+      "link": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+      "canonical_url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+      "date": "2026-11-13T16:32:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights",
+      "canonical_url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights",
+      "date": "2026-11-13T16:26:32Z",
+      "source": "Ars Technica",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+      "link": "https://securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach",
+      "canonical_url": "https://securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach",
+      "date": "2026-11-13T15:20:00Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "canonical_url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "date": "2026-11-13T14:28:58Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+      "link": "https://darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+      "canonical_url": "https://darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+      "date": "2026-11-13T13:00:00Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+      "link": "https://securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack",
+      "canonical_url": "https://securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack",
+      "date": "2026-11-13T12:41:01Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+      "link": "https://securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks",
+      "canonical_url": "https://securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks",
+      "date": "2026-11-13T12:20:28Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-13T12:00:00Z",
+      "source": "CISA Advisories",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+      "link": "https://securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities",
+      "canonical_url": "https://securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities",
+      "date": "2026-11-13T09:36:56Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "link": "https://securelist.com/esxi-ransomware/121959",
+      "canonical_url": "https://securelist.com/esxi-ransomware/121959",
+      "date": "2026-11-13T09:00:43Z",
+      "source": "Securelist",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
       "link": "https://securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop",
