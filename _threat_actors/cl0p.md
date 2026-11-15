@@ -142,6 +142,7 @@ Curated Intelligence MOVEit Transfer Tracking tracks 74 public events for the 20
 [5] [NCC Group TA505](https://research.nccgroup.com/2020/11/18/ta505-a-brief-history-of-their-time/)
 [6] [Korean FSI TA505 2020](https://www.fsec.or.kr/user/bbs/fsec/163/344/bbsDataView/1382.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=)
 
+
 [7] [BushidoToken Breach Report Collection - South Staffordshire Water breach report (August 2022) via ico.org.uk](https://ico.org.uk/media2/xdrfahsw/south-staffordshire-plc-and-south-staffordshire-water-plc-monetary-penalty-notice.pdf)
    Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: Clop (Ransomware).
 [8] [BushidoToken Breach Report Collection - New Zealand Reserve Bank breach report (January 2021) via rbnz.govt.nz](https://www.rbnz.govt.nz/about-us/responsibility-and-accountability/our-response-to-the-data-breach)

@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "The Gentlemen"
-aliases: ["GOLD SHERWOOD","Storm-2697","The Gentlemen","the gentlemen"]
+aliases: ["GOLD SHERWOOD","Storm-2697","The Gentlemen","the gentlemen","The Gentlemen ransomware"]
 description: "The Gentlemen is a ransomware group that employs a dual-extortion strategy, encrypting sensitive files while exfiltrating critical business data to pressure victims into paying ransoms. Their operation"
 permalink: /the-gentlemen/
 ---

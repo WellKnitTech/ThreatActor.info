@@ -378,12 +378,15 @@ sources:
   - source: "mitre-attack"
     imported_at: "2026-11-09T00:04:58Z"
     dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
+  - source: "mitre-attack"
+    imported_at: "2026-11-15T10:08:11Z"
+    dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
 provenance:
   malpedia:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "apt10"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/apt10"
-    source_retrieved_at: "2026-11-09T00:05:13Z"
+    source_retrieved_at: "2026-11-15T10:08:23Z"
     source_uuid: "56b37b05-72e7-4a89-ba8a-61ce45269a8c"
   misp_galaxy:
     meta_keys: ["country","group_attack_id","observed_countries","observed_motivations","source","target_categories"]
@@ -399,14 +402,14 @@ provenance:
       enterprise: "20.1"
       ics: "20.1"
       mobile: "20.1"
-    relationships_imported_at: "2026-11-09T00:04:58Z"
+    relationships_imported_at: "2026-11-15T10:08:11Z"
     source_dataset_url: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
     source_dataset_urls:
       enterprise: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
       ics: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json"
       mobile: "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json"
     source_record_id: "G0045"
-    source_retrieved_at: "2026-11-09T00:04:58Z"
+    source_retrieved_at: "2026-11-15T10:08:11Z"
     stix_intrusion_set_id: "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f"
   reddrip7_apt_digital_weapon:
     actor_folder: "APT10"
@@ -414,5 +417,5 @@ provenance:
     ioc_hashes_url: "https://raw.githubusercontent.com/RedDrip7/APT_Digital_Weapon/master/APT10/APT10_hash.md"
     source_attribution: "Indicators of compromise were reviewed from RedDrip7/APT_Digital_Weapon and are treated as secondary, community-curated leads requiring independent verification before operational use."
     source_dataset_url: "https://github.com/RedDrip7/APT_Digital_Weapon"
-    source_retrieved_at: "2026-11-09T00:05:23Z"
+    source_retrieved_at: "2026-11-15T10:08:35Z"
 source: "MITRE ATT&CK"
