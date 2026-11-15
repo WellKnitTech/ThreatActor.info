@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T08:49:35Z",
+  "generated_at": "2026-11-15T10:08:59Z",
   "actors": [
     {
       "kind": "actor",
@@ -11413,6 +11413,19 @@
     },
     {
       "kind": "actor",
+      "name": "Climax",
+      "permalink": "/climax/",
+      "description": "Climax is an active extortion or ransomware group tracked by RansomLook.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Cloak Su Locker Leak",
       "permalink": "/cloak-su-locker-leak/",
       "description": "Cloak Su Locker Leak is an active extortion or ransomware group tracked by RansomLook.",
@@ -16333,6 +16346,19 @@
       "name": "Desorden",
       "permalink": "/desorden/",
       "description": "Not much is known about this person or group, other than the breach reports. Seems to be a renamed ALTDOS.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Destello",
+      "permalink": "/destello/",
+      "description": "Destello is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -33922,6 +33948,19 @@
     },
     {
       "kind": "actor",
+      "name": "Obsoft",
+      "permalink": "/obsoft/",
+      "description": "Obsoft is an active extortion or ransomware group tracked by RansomLook.",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Oceans",
       "permalink": "/oceans/",
       "description": "Oceans is an active extortion or ransomware group tracked by RansomLook.",
@@ -36223,6 +36262,19 @@
       "name": "Pirateware",
       "permalink": "/pirateware/",
       "description": "ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Pixelleaks",
+      "permalink": "/pixelleaks/",
+      "description": "Pixelleaks is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -42873,6 +42925,19 @@
       "name": "Sorry HT",
       "permalink": "/sorry-ht/",
       "description": "ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Soul",
+      "permalink": "/soul/",
+      "description": "Soul is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -50274,6 +50339,19 @@
       "name": "Vortex Ransomware",
       "permalink": "/vortex-ransomware/",
       "description": "This is most likely to affect English speaking users, since the note is written in English. English is understood worldwide, thus anyone can be harmed. The hacker spread the virus using email spam, fake updates, and harmful attachments. All your files are compromised including mus",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Vortex",
+      "permalink": "/vortex/",
+      "description": "Vortex is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
