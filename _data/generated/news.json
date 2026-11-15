@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-14T08:34:35Z",
+  "updated": "2026-11-15T08:49:25Z",
   "window_days": 14,
   "display_items": 100,
   "item_count": 100,
-  "item_count_total": 808,
+  "item_count_total": 812,
   "retention": "additive_archive",
   "archive_dir": "data/news/archive",
   "archive_months": [
@@ -27,7 +27,7 @@
     },
     {
       "month": "2026-11",
-      "item_count": 202,
+      "item_count": 206,
       "path": "data/news/archive/2026-11.json",
       "api_path": "/api/news/by-month/2026-11.json"
     }
@@ -61,256 +61,320 @@
     "BleepingComputer": {
       "ok": true,
       "items": 15,
-      "latency_ms": 690,
-      "fetch_ms": 287,
-      "parse_ms": 20,
+      "latency_ms": 1192,
+      "fetch_ms": 316,
+      "parse_ms": 13,
       "url": "https://feeds.feedburner.com/BleepingComputer",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 381,
-      "fetch_ms": 369,
-      "parse_ms": 8,
+      "latency_ms": 345,
+      "fetch_ms": 306,
+      "parse_ms": 35,
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 357,
-      "fetch_ms": 165,
-      "parse_ms": 190,
+      "latency_ms": 327,
+      "fetch_ms": 147,
+      "parse_ms": 177,
       "url": "https://krebsonsecurity.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 372,
-      "fetch_ms": 358,
-      "parse_ms": 10,
+      "latency_ms": 651,
+      "fetch_ms": 641,
+      "parse_ms": 7,
       "url": "https://www.darkreading.com/rss.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "SecurityWeek": {
       "ok": true,
       "items": 10,
-      "latency_ms": 336,
-      "fetch_ms": 123,
-      "parse_ms": 209,
+      "latency_ms": 343,
+      "fetch_ms": 188,
+      "parse_ms": 145,
       "url": "https://www.securityweek.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 325,
-      "fetch_ms": 99,
-      "parse_ms": 219,
+      "latency_ms": 336,
+      "fetch_ms": 163,
+      "parse_ms": 163,
       "url": "https://therecord.media/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 204,
+      "latency_ms": 168,
       "fetch_ms": 75,
-      "parse_ms": 104,
+      "parse_ms": 82,
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 199,
-      "fetch_ms": 183,
-      "parse_ms": 12,
+      "latency_ms": 172,
+      "fetch_ms": 155,
+      "parse_ms": 8,
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 244,
-      "fetch_ms": 211,
-      "parse_ms": 31,
+      "latency_ms": 252,
+      "fetch_ms": 228,
+      "parse_ms": 24,
       "url": "https://blog.talosintelligence.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:12Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1108,
-      "fetch_ms": 1072,
-      "parse_ms": 27,
+      "latency_ms": 1399,
+      "fetch_ms": 1380,
+      "parse_ms": 18,
       "url": "https://securelist.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:24Z",
       "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 322,
-      "fetch_ms": 308,
-      "parse_ms": 13,
+      "latency_ms": 256,
+      "fetch_ms": 246,
+      "parse_ms": 9,
       "url": "https://www.malwarebytes.com/blog/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 127,
-      "fetch_ms": 92,
-      "parse_ms": 31,
+      "latency_ms": 135,
+      "fetch_ms": 106,
+      "parse_ms": 24,
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:22Z",
       "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 387,
-      "fetch_ms": 375,
-      "parse_ms": 12,
+      "latency_ms": 167,
+      "fetch_ms": 158,
+      "parse_ms": 8,
       "url": "https://blog.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Elastic Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 444,
-      "fetch_ms": 425,
-      "parse_ms": 18,
+      "latency_ms": 217,
+      "fetch_ms": 200,
+      "parse_ms": 13,
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 109,
-      "fetch_ms": 89,
-      "parse_ms": 19,
+      "latency_ms": 128,
+      "fetch_ms": 113,
+      "parse_ms": 14,
       "url": "https://blog.cloudflare.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 197,
-      "fetch_ms": 188,
-      "parse_ms": 8,
+      "latency_ms": 133,
+      "fetch_ms": 121,
+      "parse_ms": 11,
       "url": "https://blog.checkpoint.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 226,
-      "fetch_ms": 210,
-      "parse_ms": 13,
+      "latency_ms": 209,
+      "fetch_ms": 199,
+      "parse_ms": 9,
       "url": "https://www.sentinelone.com/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 205,
-      "fetch_ms": 191,
-      "parse_ms": 14,
+      "latency_ms": 293,
+      "fetch_ms": 282,
+      "parse_ms": 10,
       "url": "https://www.rapid7.com/blog/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 421,
-      "fetch_ms": 390,
-      "parse_ms": 31,
+      "latency_ms": 801,
+      "fetch_ms": 790,
+      "parse_ms": 11,
       "url": "https://arstechnica.com/security/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 69,
-      "fetch_ms": 53,
-      "parse_ms": 15,
+      "latency_ms": 143,
+      "fetch_ms": 133,
+      "parse_ms": 9,
       "url": "https://techcrunch.com/tag/security/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 116,
-      "fetch_ms": 104,
-      "parse_ms": 11,
+      "latency_ms": 145,
+      "fetch_ms": 136,
+      "parse_ms": 9,
       "url": "https://www.wired.com/feed/category/security/latest/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:13Z",
+      "last_success_at": "2026-11-15T08:47:23Z",
       "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 686,
-      "fetch_ms": 672,
-      "parse_ms": 13,
+      "latency_ms": 622,
+      "fetch_ms": 612,
+      "parse_ms": 10,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:14Z",
+      "last_success_at": "2026-11-15T08:47:24Z",
       "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 380,
-      "fetch_ms": 371,
-      "parse_ms": 8,
+      "latency_ms": 633,
+      "fetch_ms": 628,
+      "parse_ms": 6,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-14T08:32:14Z",
+      "last_success_at": "2026-11-15T08:47:24Z",
       "unhealthy": false
     }
   },
   "items": [
+    {
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "link": "https://securityweek.com/is-ai-making-us-worse-at-cybersecurity",
+      "canonical_url": "https://securityweek.com/is-ai-making-us-worse-at-cybersecurity",
+      "date": "2026-11-14T14:00:00Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "link": "https://wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+      "canonical_url": "https://wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+      "date": "2026-11-14T13:00:00Z",
+      "source": "Wired Security",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "date": "2026-11-14T12:38:35Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "link": "https://securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update",
+      "canonical_url": "https://securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update",
+      "date": "2026-11-14T08:40:22Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
       "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
@@ -1856,70 +1920,6 @@
       "canonical_url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation",
       "date": "2026-11-09T19:41:34Z",
       "source": "Ars Technica",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
-      "link": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
-      "canonical_url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
-      "date": "2026-11-09T18:30:00Z",
-      "source": "The Record",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-      "date": "2026-11-09T17:51:21Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-      "canonical_url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-      "date": "2026-11-09T17:36:28Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Digital Contagion: How AI Is Transforming Supply Chain Cyber Risk",
-      "link": "https://paloaltonetworks.com/blog/2026/11/digital-contagion-how-ai-is-transforming-supply-chain-cyber-risk",
-      "canonical_url": "https://paloaltonetworks.com/blog/2026/11/digital-contagion-how-ai-is-transforming-supply-chain-cyber-risk",
-      "date": "2026-11-09T15:19:01Z",
-      "source": "Palo Alto Networks",
       "cves": [
 
       ],

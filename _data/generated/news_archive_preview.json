@@ -1,5 +1,69 @@
 [
   {
+    "title": "Is AI Making Us Worse at Cybersecurity?",
+    "link": "https://securityweek.com/is-ai-making-us-worse-at-cybersecurity",
+    "canonical_url": "https://securityweek.com/is-ai-making-us-worse-at-cybersecurity",
+    "date": "2026-11-14T14:00:00Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Beware the New AI-Fueled Ransomware Boom",
+    "link": "https://wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+    "canonical_url": "https://wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+    "date": "2026-11-14T13:00:00Z",
+    "source": "Wired Security",
+    "cves": [
+
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "date": "2026-11-14T12:38:35Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+    "link": "https://securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update",
+    "canonical_url": "https://securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update",
+    "date": "2026-11-14T08:40:22Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
     "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
     "canonical_url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
@@ -8143,74 +8207,6 @@
     "canonical_url": "https://bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks",
     "date": "2026-09-29T07:33:12Z",
     "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
-    "link": "https://darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
-    "canonical_url": "https://darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
-    "date": "2026-09-28T20:23:58Z",
-    "source": "DarkReading",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-    "link": "https://bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation",
-    "canonical_url": "https://bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation",
-    "date": "2026-09-28T19:49:10Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-      {
-        "name": "ShinyHunters",
-        "url": "/shinyhunters",
-        "matched_alias": "shinyhunters"
-      }
-    ]
-  },
-  {
-    "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-    "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-    "canonical_url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-    "date": "2026-09-28T18:35:42Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-      "breach"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-    "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-    "canonical_url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-    "date": "2026-09-28T17:38:33Z",
-    "source": "The Hacker News",
     "cves": [
 
     ],

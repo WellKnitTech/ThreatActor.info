@@ -1,7 +1,75 @@
 {
   "month": "2026-11",
-  "item_count": 202,
+  "item_count": 206,
   "items": [
+    {
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "link": "https://securityweek.com/is-ai-making-us-worse-at-cybersecurity",
+      "canonical_url": "https://securityweek.com/is-ai-making-us-worse-at-cybersecurity",
+      "date": "2026-11-14T14:00:00Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "link": "https://wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+      "canonical_url": "https://wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+      "date": "2026-11-14T13:00:00Z",
+      "source": "Wired Security",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "canonical_url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "date": "2026-11-14T12:38:35Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "link": "https://securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update",
+      "canonical_url": "https://securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update",
+      "date": "2026-11-14T08:40:22Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
       "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
