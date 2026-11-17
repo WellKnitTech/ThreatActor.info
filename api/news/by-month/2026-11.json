@@ -1,13 +1,285 @@
 {
   "month": "2026-11",
-  "item_count": 207,
+  "item_count": 224,
   "items": [
+    {
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "date": "2026-11-17T07:12:13Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "canonical_url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "date": "2026-11-17T05:00:34Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+      "link": "https://darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+      "canonical_url": "https://darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+      "date": "2026-11-16T19:56:05Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
+      "link": "https://rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited",
+      "canonical_url": "https://rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited",
+      "date": "2026-11-16T18:14:14Z",
+      "source": "Rapid7",
+      "cves": [
+        "CVE-2026-90436"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "King Charles opens new HQ for National Cyber Force, UK’s offensive hacking unit",
+      "link": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
+      "canonical_url": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
+      "date": "2026-11-16T17:22:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+      "link": "https://darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+      "date": "2026-11-16T16:36:55Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
+      "link": "https://rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed",
+      "canonical_url": "https://rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed",
+      "date": "2026-11-16T16:24:38Z",
+      "source": "Rapid7",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+      "link": "https://securityweek.com/cursor-supply-chain-attack-started-at-fireworks",
+      "canonical_url": "https://securityweek.com/cursor-supply-chain-attack-started-at-fireworks",
+      "date": "2026-11-16T15:45:43Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "canonical_url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "date": "2026-11-16T14:00:00Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The Vulnerability Management Lifecycle: What Happens After Discovery?",
+      "link": "https://blog.checkpoint.com/exposure-management/the-vulnerability-management-lifecycle-what-happens-after-discovery",
+      "canonical_url": "https://blog.checkpoint.com/exposure-management/the-vulnerability-management-lifecycle-what-happens-after-discovery",
+      "date": "2026-11-16T13:00:13Z",
+      "source": "Check Point",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+      "link": "https://securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch",
+      "canonical_url": "https://securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch",
+      "date": "2026-11-16T12:48:03Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "canonical_url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "date": "2026-11-16T12:33:18Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+      "link": "https://securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks",
+      "canonical_url": "https://securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks",
+      "date": "2026-11-16T11:15:48Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+      "link": "https://securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers",
+      "canonical_url": "https://securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers",
+      "date": "2026-11-16T11:05:42Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Uber Data Breach Impacts 150,000 People",
+      "link": "https://securityweek.com/uber-data-breach-impacts-150000-people",
+      "canonical_url": "https://securityweek.com/uber-data-breach-impacts-150000-people",
+      "date": "2026-11-16T11:02:48Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "canonical_url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "date": "2026-11-16T09:32:57Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
       "link": "https://securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign",
       "canonical_url": "https://securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign",
       "date": "2026-11-16T08:15:12Z",
       "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Emerging Threat: Optimizely and Three Other Providers Poisoned in iOS Exploit and Skimming Campaign",
+      "link": "https://labs.beazley.security/advisories/BSL-A1247",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1247",
+      "date": "2026-11-16T08:00:00Z",
+      "source": "Beazley Security Labs Advisories",
       "cves": [
 
       ],
