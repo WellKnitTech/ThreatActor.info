@@ -72,7 +72,7 @@ Configure in the GitHub UI (org/repo **Settings**):
 
 ## Verification checklist
 
-1. Locally: `bash scripts/validate.sh` exits 0 (Ruby 3.2.5, `bundle install` first per [AGENTS.md](../AGENTS.md)).
+1. Locally: `bash scripts/validate.sh` exits 0 (Ruby 3.2.11, `bundle install` first per [AGENTS.md](../AGENTS.md)).
 2. After doc or workflow edits: open a PR to `main` and confirm **Content Validation** passes.
 3. Optional: **Actions → Automated Source Imports → Run workflow** (optionally set `source` / `limit`); merge the opened PR and spot-check an actor’s page for expected `provenance`-driven sections.
 

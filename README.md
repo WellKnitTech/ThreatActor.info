@@ -1,5 +1,5 @@
 [![Jekyll](https://img.shields.io/badge/Jekyll-4.4+-2e2642?style=flat&logo=jekyll)](https://jekyllrb.com)
-[![Ruby](https://img.shields.io/badge/Ruby-3.2.5-CC342D?style=flat&logo=ruby)](https://www.ruby-lang.org)
+[![Ruby](https://img.shields.io/badge/Ruby-3.2.11-CC342D?style=flat&logo=ruby)](https://www.ruby-lang.org)
 [![License: Unlicense](https://img.shields.io/badge/License-Public%20Domain-success?style=flat)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-24292F?style=flat&logo=github)](https://wellknittech.github.io/ThreatActor.info/)
 
@@ -21,7 +21,7 @@ Live site: https://wellknittech.github.io/ThreatActor.info/
 
 ## Current repository state
 
-- Jekyll static site with Ruby `3.2.5` and Bundler `2.5.10`
+- Jekyll static site with Ruby `3.2.11` and Bundler `2.5.10`
 - `1062` actor YAML records currently committed under `_data/actors/`
 - `271` malware pages currently committed under `_malware/`
 - No Node, TypeScript, package manager, or conventional unit-test framework
