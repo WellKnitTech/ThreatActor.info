@@ -30,3 +30,9 @@ ransomware
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [New PHP Vulnerabilities: What Organizations Need to Know and How Check Point Customers Are Protected](https://blog.checkpoint.com/security/new-php-vulnerabilities-what-organizations-need-to-know-and-how-check-point-customers-are-protected)
+  Check Point — 2026-11-19
+

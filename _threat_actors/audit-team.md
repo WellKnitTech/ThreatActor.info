@@ -30,3 +30,9 @@ Audit Team is an active extortion or ransomware group tracked by RansomLook.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting](https://securelist.com/auditteam-opsagent-forced-audit/122031)
+  Securelist — 2026-11-18 — tags: ransomware
+

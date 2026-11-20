@@ -53,3 +53,9 @@ Space Pirates is a cybercrime group that has been active since at least 2017. Th
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit](https://rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge)
+  Rapid7 — 2026-11-19
+
