@@ -4,7 +4,7 @@ Guidance for OpenCode sessions in this repository. Keep this file compact and re
 
 ## Repo Shape
 
-- This is a Ruby/Jekyll 4 static site. Use Ruby `3.2.5` from `.ruby-version` and Bundler `2.5.10` from `Gemfile.lock`.
+- This is a Ruby/Jekyll 4 static site. Use Ruby `3.2.11` from `.ruby-version` and Bundler `2.5.10` from `Gemfile.lock`.
 - There is no Node toolchain, package manager, TypeScript, Makefile, Rakefile, RuboCop, or conventional unit-test suite.
 - Canonical actor metadata is `_data/actors/*.yml`; actor pages in `_threat_actors/*.md` and public JSON under `_data/generated/*` plus `api/*` are regenerated from it.
 - `scripts/generate-indexes.rb` also writes `_malware/`, MITRE-derived indexes/pages, IOC shards under `_data/generated/iocs_by_*`, mirrored `api/iocs/by-*`, and may use `data/mitre-cache/` or MITRE snapshots.

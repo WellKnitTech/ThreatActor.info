@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Quick smoke test for the import plan validator guard (mixed report shapes).
-# Run from repo root in an environment with Ruby 3.2.5 + Bundler:
+# Run from repo root in an environment with Ruby 3.2.11 + Bundler:
 #
 #   bundle exec bash scripts/test-validate-import-plans.sh
 #
