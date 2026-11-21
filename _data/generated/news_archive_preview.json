@@ -1,5 +1,131 @@
 [
   {
+    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "date": "2026-11-21T08:49:13Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+    "link": "https://darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+    "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+    "date": "2026-11-20T21:03:27Z",
+    "source": "DarkReading",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+      {
+        "name": "Dragonfly",
+        "url": "/apt0035",
+        "matched_alias": "castle"
+      },
+      {
+        "name": "ENERGETIC BEAR",
+        "url": "/energetic-bear",
+        "matched_alias": "castle"
+      },
+      {
+        "name": "UTA0178",
+        "url": "/uta0178",
+        "matched_alias": "armory castle"
+      }
+    ]
+  },
+  {
+    "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+    "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+    "canonical_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+    "date": "2026-11-20T20:59:08Z",
+    "source": "Ars Technica",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+    "link": "https://blog.cloudflare.com/ruby2shell-waf-protection",
+    "canonical_url": "https://blog.cloudflare.com/ruby2shell-waf-protection",
+    "date": "2026-11-20T20:24:38Z",
+    "source": "Cloudflare",
+    "cves": [
+      "CVE-2026-132825"
+    ],
+    "tags": [
+      "cve"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Container Store restores systems after cyberattack",
+    "link": "https://therecord.media/container-store-restores-systems-cyberattack",
+    "canonical_url": "https://therecord.media/container-store-restores-systems-cyberattack",
+    "date": "2026-11-20T19:32:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+    "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+    "canonical_url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+    "date": "2026-11-20T17:30:00Z",
+    "source": "The Record",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+    "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+    "canonical_url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+    "date": "2026-11-20T16:58:16Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Mapping the AI threat landscape: MITRE ATLAS comes to Elastic Security",
     "link": "https://elastic.co/security-labs/blog/mitre-atlas-elastic-security-detection-coverage",
     "canonical_url": "https://elastic.co/security-labs/blog/mitre-atlas-elastic-security-detection-coverage",
@@ -90,6 +216,22 @@
     ],
     "tags": [
       "cve"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "date": "2026-11-20T12:00:00Z",
+    "source": "CISA Advisories",
+    "cves": [
+
+    ],
+    "tags": [
+
     ],
     "actors": [
 
@@ -599,22 +741,6 @@
     ],
     "tags": [
       "ransomware"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "date": "2026-11-18T12:00:00Z",
-    "source": "CISA Advisories",
-    "cves": [
-
-    ],
-    "tags": [
-
     ],
     "actors": [
 
@@ -8038,122 +8164,6 @@
     ],
     "tags": [
 
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "GitLab warns of max severity code execution vulnerability",
-    "link": "https://bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine",
-    "canonical_url": "https://bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine",
-    "date": "2026-10-12T13:09:09Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-    "canonical_url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-    "date": "2026-10-12T10:36:56Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-    "canonical_url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-    "date": "2026-10-12T09:02:14Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-    "link": "https://bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records",
-    "canonical_url": "https://bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records",
-    "date": "2026-10-11T14:23:46Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "canonical_url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "date": "2026-10-11T04:24:34Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-    "link": "https://bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers",
-    "canonical_url": "https://bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers",
-    "date": "2026-10-10T15:07:54Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-      {
-        "name": "ShinyHunters",
-        "url": "/shinyhunters",
-        "matched_alias": "shinyhunters"
-      }
-    ]
-  },
-  {
-    "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
-    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm",
-    "canonical_url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm",
-    "date": "2026-10-10T00:17:42Z",
-    "source": "KrebsOnSecurity",
-    "cves": [
-
-    ],
-    "tags": [
-      "ransomware"
     ],
     "actors": [
 

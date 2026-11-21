@@ -41,3 +41,9 @@ A Russian group that collects intelligence on the energy industry.
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day](https://darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day)
+  DarkReading — 2026-11-20
+
