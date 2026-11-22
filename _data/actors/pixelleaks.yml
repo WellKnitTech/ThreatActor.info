@@ -1,5 +1,5 @@
 name: "Pixelleaks"
-aliases: ["Pixelleaks"]
+aliases: ["PixelLeaks","Pixelleaks"]
 description: "Pixelleaks is an active extortion or ransomware group tracked by RansomLook."
 url: "/pixelleaks"
 source_name: "RansomLook"
@@ -7,8 +7,24 @@ source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0
 source_record_url: "https://www.ransomlook.io/group/pixelleaks"
 source_license: "CC BY 4.0"
 source_license_url: "https://creativecommons.org/licenses/by/4.0/"
+malware:
+  - name: "Plasma RAT"
 provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "pixelleaks"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/pixelleaks"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
+    source_uuid: "89eabfa6-bd41-4365-a4f3-0cd34c7ecb5c"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "89eabfa6-bd41-4365-a4f3-0cd34c7ecb5c"
+    source_record_ids: ["89eabfa6-bd41-4365-a4f3-0cd34c7ecb5c"]
+    source_retrieved_at: "2026-11-22T10:36:50Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "pixelleaks"
-  source_retrieved_at: "2026-11-15T10:04:36Z"
+  source_retrieved_at: "2026-11-22T10:26:42Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

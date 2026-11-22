@@ -35,6 +35,7 @@ TraderTraitor targets blockchain companies through spear-phishing messages. The 
 
 ## References
 
+
 [1] [BushidoToken Breach Report Collection - JumpCloud breach report (July 2023) via jumpcloud.com](https://jumpcloud.com/blog/security-update-incident-details)
    Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: UNC4899 (DPRK APT).
 [2] [BushidoToken Breach Report Collection - CircleCI breach report (January 2023) via circleci.com](https://circleci.com/blog/jan-4-2023-incident-report/)

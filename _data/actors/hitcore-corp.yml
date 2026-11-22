@@ -1,0 +1,25 @@
+name: "Hitcore Corp"
+aliases: ["Hitcore Corp"]
+description: "Hitcore claimed responsibility for a breach of Ukraine’s Air Alert app that sent false air-raid alerts to users in Kyiv on November 1. A Russian-language alert warned of a possible Oreshnik missile strike and linked to Hitcore’s Telegram channel. Zelensky described it as a Russian attack in a November 2 interview."
+url: "/hitcore-corp"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hitcore_corp"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "hitcore_corp"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/hitcore_corp"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
+    source_uuid: "da2ef8ce-e09f-418a-bd63-483d4d8542ab"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "da2ef8ce-e09f-418a-bd63-483d4d8542ab"
+    source_record_ids: ["da2ef8ce-e09f-418a-bd63-483d4d8542ab"]
+    source_retrieved_at: "2026-11-22T10:36:50Z"

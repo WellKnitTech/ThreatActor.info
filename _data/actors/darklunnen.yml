@@ -1,0 +1,31 @@
+name: "DarkLunnen"
+aliases: ["DarkLunnen"]
+description: "DarkLunnen targeted organizations across Europe using exposed services, known vulnerabilities, and weak or stolen credentials. Its activity included network appliance exploitation, credential theft, webshell tunneling, remote access, internal reconnaissance, and lateral movement. DarkLunnen used a modified watchTowr PoC for FortiGate CVE-2024-55591 to create a backdoor super-admin account named “service”. Group-IB has not linked DarkLunnen to a known actor or established its nationality or state affiliation."
+url: "/darklunnen"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/darklunnen"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Backdoor.Oldrea"
+  - name: "RemoteCMD"
+  - name: "Remote Utilities"
+  - name: "RemotePC"
+  - name: "Xploit"
+  - name: "CrossRat"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "darklunnen"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/darklunnen"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
+    source_uuid: "ce34603a-a4b9-4545-bd13-ab8964fa952b"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ce34603a-a4b9-4545-bd13-ab8964fa952b"
+    source_record_ids: ["ce34603a-a4b9-4545-bd13-ab8964fa952b"]
+    source_retrieved_at: "2026-11-22T10:36:50Z"

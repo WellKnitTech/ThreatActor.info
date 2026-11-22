@@ -6,7 +6,7 @@ country: "Unknown"
 sector_focus: ["Healthcare","Education","Government","Technology"]
 first_seen: "2021"
 last_activity: "2025"
-last_updated: "2026-11-15"
+last_updated: "2026-11-22"
 risk_level: "High"
 source_name: "APT Groups & Operations Spreadsheet"
 source_attribution: "Manually curated from open source intelligence"
@@ -22,7 +22,7 @@ provenance:
     sheet_id: "1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU"
     source_dataset_url: "https://apt.threattracking.com/"
     source_links: ["https://www.bleepingcomputer.com/news/security/medusa-ransomware-gang-picks-up-steam-as-it-targets-companies-worldwide/"]
-    source_retrieved_at: "2026-11-15T10:08:30Z"
+    source_retrieved_at: "2026-11-22T10:37:05Z"
     tab_name: "unknown"
   eternal_liberty:
     aliases_by_entity:
@@ -31,7 +31,7 @@ provenance:
     license_status: "No explicit upstream license; approved as the sole no-license import exception."
     source_dataset_url: "https://github.com/StrangerealIntel/EternalLiberty"
     source_record_id: "medusa"
-    source_retrieved_at: "2026-11-15T10:00:31Z"
+    source_retrieved_at: "2026-11-22T10:25:52Z"
     source_version: "1.2"
     type: "Organized Crime"
   misp_galaxy:
@@ -41,7 +41,7 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/ransomware.json"
     source_record_id: "620c3817-320a-5772-acf1-008cc8852b0f"
     source_record_ids: ["620c3817-320a-5772-acf1-008cc8852b0f"]
-    source_retrieved_at: "2026-11-15T10:08:20Z"
+    source_retrieved_at: "2026-11-22T10:36:51Z"
   ransomware_tool_matrix:
     references:
       - title: "CISA Alert aa22-181a"
@@ -69,7 +69,7 @@ provenance:
     source_files: ["ThreatIntel/CISAThreatGroups.md","ThreatIntel/ExtraThreatIntel.md","Tools/CredentialTheft.md","Tools/DefenseEvasion.md","Tools/DiscoveryEnum.md","Tools/Exfiltration.md","Tools/LOLBAS.md","Tools/Networking.md","Tools/Offsec.md","Tools/RMM-Tools.md"]
     source_label: "Medusa / Medusa Locker / MedusaLocker"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-15T10:07:29Z"
+    source_retrieved_at: "2026-11-22T10:35:49Z"
     tools_by_category:
       Credential Theft: ["Invoke-TheHash","Mimikatz"]
       Defense Evasion: ["EDRSandBlast","HRSword","KillAV","PCHunter","ProcessHacker","ThrottleStop driver (BYOVD)"]
@@ -107,7 +107,7 @@ provenance:
     source_files: ["Vulnerabilities/NetworkEdge.md","Vulnerabilities/Virtualization.md"]
     source_label: "Medusa"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-15T10:07:32Z"
+    source_retrieved_at: "2026-11-22T10:35:55Z"
     vulnerabilities_by_category:
       Network Edge:
         - vendor: "Fortinet"
@@ -123,5 +123,5 @@ provenance:
           source_file: "Vulnerabilities/Virtualization.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "medusa"
-  source_retrieved_at: "2026-11-15T10:04:10Z"
+  source_retrieved_at: "2026-11-22T10:28:40Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

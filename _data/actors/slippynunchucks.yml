@@ -1,0 +1,30 @@
+name: "SlippyNunchucks"
+aliases: ["SlippyNunchucks"]
+description: "SlippyNunchucks is a China-aligned APT group active since at least September 15, 2023, targeting organizations and Chinese-speaking individuals primarily in South and East Asia, with some victims in Europe. Its cyberespionage operations center on DarkVigil, a modular .NET implant with more than 20 known plugins. The group abuses Chinese applications to deploy DarkVigil, including by hijacking DNS resolution and injecting malicious configuration into Sogou Input Method’s insecure HTTP communications. ESET tracks SlippyNunchucks independently of Mustang Panda, with no known associations between the groups."
+url: "/slippynunchucks"
+country: "China"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slippynunchucks"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "China Chopper"
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "HTTP WEB BACKDOOR"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "slippynunchucks"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/slippynunchucks"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
+    source_uuid: "ebd89c47-0789-4e20-8d17-30be2b85b2b8"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "ebd89c47-0789-4e20-8d17-30be2b85b2b8"
+    source_record_ids: ["ebd89c47-0789-4e20-8d17-30be2b85b2b8"]
+    source_retrieved_at: "2026-11-22T10:36:50Z"

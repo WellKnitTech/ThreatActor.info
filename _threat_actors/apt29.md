@@ -328,6 +328,7 @@ APT29 is threat group that has been attributed to Russia's Foreign Intelligence 
    White House. (2021, April 15). Imposing Costs for Harmful Foreign Activities by the Russian Government. Retrieved April 16, 2021.
 
 
+
 [46] [BushidoToken Breach Report Collection - Microsoft breach report (January 2024) via microsoft.com (1)](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/)
    Source index: https://github.com/BushidoUK/Breach-Report-Collection; adversary label: CozyBear (RU APT).
 [47] [BushidoToken Breach Report Collection - Microsoft breach report (January 2024) via microsoft.com (2)](https://msrc.microsoft.com/blog/2024/03/update-on-microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/)
