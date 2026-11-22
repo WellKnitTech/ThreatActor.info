@@ -321,6 +321,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-15T10:08:11Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-22T10:36:39Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   bushido_breach_reports:
     source_repository: https://github.com/BushidoUK/Breach-Report-Collection
@@ -329,7 +332,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-11-15T10:08:40Z'
+    source_retrieved_at: '2026-11-22T10:37:19Z'
     reports:
     - organization: Avast/CCleaner
       breach_date: September 2016
@@ -345,7 +348,7 @@ provenance:
     - https://www.sig-switzerland.ch/wp-content/uploads/2016/03/SIGS_SOC_Forum_Sep2017_CrowdStrike_On_the_Hunt_for_Pandas_Kittens_and_Bears.pdf
       see slide 15
     - https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-july-wicked-spider/
-    source_retrieved_at: '2026-11-15T10:08:30Z'
+    source_retrieved_at: '2026-11-22T10:37:05Z'
     tab_name: others
   aptnotes:
     earliest_report_year: '2013'
@@ -372,7 +375,7 @@ provenance:
     - 'Blackfly: Espionage Group Targets Materials Technology'
     source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
     source_repository: https://github.com/aptnotes/data
-    source_retrieved_at: '2026-11-15T10:08:31Z'
+    source_retrieved_at: '2026-11-22T10:37:07Z'
     sources:
     - FireEye
     - Kaspersky
@@ -384,7 +387,7 @@ provenance:
   dragos_threat_groups:
     source_name: Dragos Threat Groups
     source_dataset_url: https://www.dragos.com/threat-groups
-    source_retrieved_at: '2026-11-15T10:07:56Z'
+    source_retrieved_at: '2026-11-22T10:36:23Z'
     source_record_id: VANADINITE
     source_urls:
     - https://www.dragos.com/threat/vanadinite
@@ -393,7 +396,7 @@ provenance:
     - G0044
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 55d0e323-bb26-4779-b09f-cae04740b0bd
-    source_retrieved_at: '2026-11-15T10:00:18Z'
+    source_retrieved_at: '2026-11-22T10:25:33Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -410,14 +413,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: vanadinite
-    source_retrieved_at: '2026-11-15T10:00:31Z'
+    source_retrieved_at: '2026-11-22T10:25:52Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: apt41
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt41
-    source_retrieved_at: '2026-11-15T10:08:23Z'
+    source_retrieved_at: '2026-11-22T10:36:56Z'
     source_uuid: 9c124874-042d-48cd-b72b-ccdc51ecbbd6
   microsoft_threat_actor_list:
     license_status: Microsoft publishes this workbook for public reuse and regular
@@ -426,7 +429,7 @@ provenance:
     origin_category: China
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: brasstyphoon
-    source_retrieved_at: '2026-11-15T10:00:33Z'
+    source_retrieved_at: '2026-11-22T10:25:54Z'
   misp_galaxy:
     meta_keys:
     - cfr-suspected-state-sponsor
@@ -461,21 +464,21 @@ provenance:
     - 2fc42ffc-dd1a-560e-ac97-05e8fa27bbe5
     - f542442e-ba0f-425d-b386-6c10351a468e
     - 6932662a-53a7-4e43-877f-6e940e2d744b
-    source_retrieved_at: '2026-11-15T10:08:19Z'
+    source_retrieved_at: '2026-11-22T10:36:50Z'
   mitre:
     attack_version: '20.1'
     attack_version_by_domain:
       enterprise: '20.1'
       ics: '20.1'
       mobile: '20.1'
-    relationships_imported_at: '2026-11-15T10:08:11Z'
+    relationships_imported_at: '2026-11-22T10:36:39Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0044
-    source_retrieved_at: '2026-11-15T10:08:11Z'
+    source_retrieved_at: '2026-11-22T10:36:39Z'
     stix_intrusion_set_id: intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff
   reddrip7_apt_digital_weapon:
     actor_folder: APT41
@@ -485,15 +488,15 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-11-15T10:08:35Z'
+    source_retrieved_at: '2026-11-22T10:37:12Z'
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-15T10:07:59Z'
+    source_retrieved_at: '2026-11-22T10:36:26Z'
     source_record_id: Starchy Taurus
   wiz_cloud_threat_landscape:
     source_dataset_url: https://www.wiz.io/api/feed/cloud-threat-landscape/stix.json
     source_name: Wiz Cloud Threat Landscape
     source_record_id: threat-actor--2424d3b7-f772-5290-97b3-80655bb13c86
     source_record_modified: '2024-12-25T12:03:00.000Z'
-    source_retrieved_at: '2026-11-15T10:00:03Z'
+    source_retrieved_at: '2026-11-22T10:25:15Z'

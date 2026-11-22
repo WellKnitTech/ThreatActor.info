@@ -1,7 +1,7 @@
 ---
 layout: threat_actor
 title: "Pixelleaks"
-aliases: ["Pixelleaks"]
+aliases: ["PixelLeaks","Pixelleaks"]
 description: "Pixelleaks is an active extortion or ransomware group tracked by RansomLook."
 permalink: /pixelleaks/
 ---
@@ -22,7 +22,7 @@ Pixelleaks is an active extortion or ransomware group tracked by RansomLook.
 *No curated IOCs are currently published for this actor. This section will be updated when stable, attributable indicators are available.*
 
 ## Malware and Tools
-*Information pending cataloguing.*
+- **Plasma RAT**: 
 
 ## Attribution and Evidence
 *Information pending cataloguing.*

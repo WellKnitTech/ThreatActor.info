@@ -2,7 +2,7 @@ name: "Lynx"
 aliases: ["Lynx"]
 description: "Lynx is an active ransomware-as-a-service operation tracked by RansomLook."
 url: "/lynx"
-last_updated: "2026-11-15"
+last_updated: "2026-11-22"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/lynx"
@@ -15,11 +15,11 @@ provenance:
     source_files: ["Tools/DiscoveryEnum.md","Tools/Exfiltration.md"]
     source_label: "Lynx"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-15T10:07:29Z"
+    source_retrieved_at: "2026-11-22T10:35:49Z"
     tools_by_category:
       Discovery: ["SoftPerfect NetScan"]
       Exfiltration: ["Restic"]
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "lynx"
-  source_retrieved_at: "2026-11-15T10:03:25Z"
+  source_retrieved_at: "2026-11-22T10:32:49Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

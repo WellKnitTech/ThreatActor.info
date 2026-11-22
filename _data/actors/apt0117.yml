@@ -26,7 +26,7 @@ description: Fox Kitten is threat actor with a suspected nexus to the Iranian go
   December 2020](https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf)
 url: "/apt0117"
 country: Iran
-last_updated: '2026-11-15'
+last_updated: '2026-11-22'
 confidence: high
 external_id: G0117
 external_url: https://attack.mitre.org/groups/G0117
@@ -373,6 +373,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-15T10:08:11Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-22T10:36:39Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 provenance:
   apt_groups_operations:
     sheet_id: 1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU
@@ -382,12 +385,12 @@ provenance:
     - https://dragos.com/blog/industry-news/the-state-of-threats-to-electric-entities-in-north-america/
     - https://www.crowdstrike.com/blog/who-is-pioneer-kitten/
     - https://us-cert.cisa.gov/ncas/alerts/aa20-259a
-    source_retrieved_at: '2026-11-15T10:08:30Z'
+    source_retrieved_at: '2026-11-22T10:37:05Z'
     tab_name: iran
   dragos_threat_groups:
     source_name: Dragos Threat Groups
     source_dataset_url: https://www.dragos.com/threat-groups
-    source_retrieved_at: '2026-11-15T10:07:56Z'
+    source_retrieved_at: '2026-11-22T10:36:23Z'
     source_record_id: PARISITE
     source_urls:
     - https://www.dragos.com/threat/parisite
@@ -396,7 +399,7 @@ provenance:
     - G0117
     source_dataset_url: https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g
     source_record_id: 9d13d133-e25a-4de0-8952-6b0cbdb92899
-    source_retrieved_at: '2026-11-15T10:00:18Z'
+    source_retrieved_at: '2026-11-22T10:25:32Z'
     source_transforms:
     - normalized-name
     - deduplicated-aliases
@@ -426,14 +429,14 @@ provenance:
       import exception.
     source_dataset_url: https://github.com/StrangerealIntel/EternalLiberty
     source_record_id: pay2key
-    source_retrieved_at: '2026-11-15T10:00:31Z'
+    source_retrieved_at: '2026-11-22T10:25:52Z'
     source_version: '1.2'
     type: APT
   malpedia:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: fox_kitten
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/fox_kitten
-    source_retrieved_at: '2026-11-15T10:08:23Z'
+    source_retrieved_at: '2026-11-22T10:36:56Z'
     source_uuid: bfb0bc20-5bdf-47ff-b07f-dbd9a3cb9772
   microsoft_threat_actor_list:
     license_status: Microsoft publishes this workbook for public reuse and regular
@@ -442,7 +445,7 @@ provenance:
     origin_category: Iran
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: lemonsandstorm
-    source_retrieved_at: '2026-11-15T10:00:33Z'
+    source_retrieved_at: '2026-11-22T10:25:54Z'
   misp_galaxy:
     meta_keys:
     - country
@@ -473,21 +476,21 @@ provenance:
     - 7094468a-2310-48b5-ad24-e669152bd66d
     - '0757856a-1313-57d8-bb6c-f4c537e110da'
     - 678bc24d-a5c3-4ddd-9292-40958afa3492
-    source_retrieved_at: '2026-11-15T10:08:20Z'
+    source_retrieved_at: '2026-11-22T10:36:51Z'
   mitre:
     attack_version: '20.1'
     attack_version_by_domain:
       enterprise: '20.1'
       ics: '20.1'
       mobile: '20.1'
-    relationships_imported_at: '2026-11-15T10:08:11Z'
+    relationships_imported_at: '2026-11-22T10:36:39Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0117
-    source_retrieved_at: '2026-11-15T10:08:11Z'
+    source_retrieved_at: '2026-11-22T10:36:39Z'
     stix_intrusion_set_id: intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee
   ransomware_vulnerability_matrix:
     actor_roles:
@@ -525,7 +528,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: Pioneer Kitten
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-11-15T10:07:32Z'
+    source_retrieved_at: '2026-11-22T10:35:55Z'
     vulnerabilities_by_category:
       Group Profile:
       - vendor: Check Point
@@ -657,10 +660,10 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-11-15T10:08:35Z'
+    source_retrieved_at: '2026-11-22T10:37:12Z'
   source_dataset_url: https://www.ransomlook.io/api/groups
   source_record_id: pay2key
-  source_retrieved_at: '2026-11-15T10:04:49Z'
+  source_retrieved_at: '2026-11-22T10:34:35Z'
   source_transforms:
   - normalized-name
   - deduplicated-aliases

@@ -2,7 +2,7 @@ name: "Mallox"
 aliases: ["Mallox"]
 description: "Mallox is an active extortion or ransomware group tracked by RansomLook."
 url: "/mallox"
-last_updated: "2026-11-15"
+last_updated: "2026-11-22"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/mallox"
@@ -15,7 +15,7 @@ provenance:
     source_files: ["Tools/Exfiltration.md"]
     source_label: "Mallox"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-15T10:07:29Z"
+    source_retrieved_at: "2026-11-22T10:35:49Z"
     tools_by_category:
       Exfiltration: ["Dropmefiles","File[.]io","Sendspace"]
   ransomware_vulnerability_matrix:
@@ -28,7 +28,7 @@ provenance:
     source_files: ["Vulnerabilities/Microsoft.md"]
     source_label: "Mallox"
     source_repository: "https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix"
-    source_retrieved_at: "2026-11-15T10:07:32Z"
+    source_retrieved_at: "2026-11-22T10:35:55Z"
     vulnerabilities_by_category:
       Microsoft Products:
         - vendor: "MS Server Products"
@@ -43,5 +43,5 @@ provenance:
           source_file: "Vulnerabilities/Microsoft.md"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "mallox"
-  source_retrieved_at: "2026-11-15T10:06:09Z"
+  source_retrieved_at: "2026-11-22T10:26:56Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

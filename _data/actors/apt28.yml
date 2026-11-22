@@ -110,7 +110,7 @@ targeted_victims:
 incident_type: Espionage
 first_seen: '2007'
 last_activity: '2024'
-last_updated: '2026-11-15'
+last_updated: '2026-11-22'
 risk_level: High
 confidence: high
 external_id: G0007
@@ -982,6 +982,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-15T10:08:11Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-22T10:36:39Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 campaigns:
 - name: APT28 Nearest Neighbor Campaign
   campaign_id: C0051
@@ -1000,7 +1003,7 @@ provenance:
     source_dataset_url: https://apt.threattracking.com/
     source_links:
     - https://www.trellix.com/en-us/about/newsroom/stories/research/shining-light-on-dark-power.html
-    source_retrieved_at: '2026-11-15T10:08:30Z'
+    source_retrieved_at: '2026-11-22T10:37:05Z'
     tab_name: unknown
   aptnotes:
     earliest_report_year: '2014'
@@ -1039,7 +1042,7 @@ provenance:
     - Threat Group-4127 Targets Google Accounts
     source_dataset_url: https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv
     source_repository: https://github.com/aptnotes/data
-    source_retrieved_at: '2026-11-15T10:08:31Z'
+    source_retrieved_at: '2026-11-22T10:37:07Z'
     sources:
     - CERT-UA
     - Crowdstrike
@@ -1057,7 +1060,7 @@ provenance:
     source_dataset_url: https://malpedia.caad.fkie.fraunhofer.de/api/get/actors
     source_record_id: apt28
     source_record_url: https://malpedia.caad.fkie.fraunhofer.de/actor/apt28
-    source_retrieved_at: '2026-11-15T10:08:23Z'
+    source_retrieved_at: '2026-11-22T10:36:56Z'
     source_uuid: 5b4ee3ea-eee3-4c8e-8323-85ae32658754
   microsoft_threat_actor_list:
     license_status: Microsoft publishes this workbook for public reuse and regular
@@ -1066,7 +1069,7 @@ provenance:
     origin_category: Russia
     source_dataset_url: https://download.microsoft.com/download/4/5/2/45208247-c1e9-432d-a9a2-1554d81074d9/microsoft-threat-actor-list.xlsx
     source_record_id: forestblizzard
-    source_retrieved_at: '2026-11-15T10:00:33Z'
+    source_retrieved_at: '2026-11-22T10:25:54Z'
   misp_galaxy:
     meta_keys:
     - country
@@ -1089,21 +1092,21 @@ provenance:
     - 8d84d7b0-7716-5ab3-a3a4-f373dd148347
     - 213cdde9-c11a-4ea9-8ce0-c868e9826fec
     - 64d155a9-8e33-4c3f-8f58-0a483475c65d
-    source_retrieved_at: '2026-11-15T10:08:20Z'
+    source_retrieved_at: '2026-11-22T10:36:51Z'
   mitre:
     attack_version: '20.1'
     attack_version_by_domain:
       enterprise: '20.1'
       ics: '20.1'
       mobile: '20.1'
-    relationships_imported_at: '2026-11-15T10:08:11Z'
+    relationships_imported_at: '2026-11-22T10:36:39Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G0007
-    source_retrieved_at: '2026-11-15T10:08:11Z'
+    source_retrieved_at: '2026-11-22T10:36:39Z'
     stix_intrusion_set_id: intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c
   reddrip7_apt_digital_weapon:
     actor_folder: APT28
@@ -1113,7 +1116,7 @@ provenance:
       and are treated as secondary, community-curated leads requiring independent
       verification before operational use.
     source_dataset_url: https://github.com/RedDrip7/APT_Digital_Weapon
-    source_retrieved_at: '2026-11-15T10:08:35Z'
+    source_retrieved_at: '2026-11-22T10:37:12Z'
   russian_apt_tool_matrix:
     references:
     - title: media.defense.gov
@@ -1174,7 +1177,7 @@ provenance:
     - Tools/Offsec.md
     source_label: FANCY BEAR
     source_repository: https://github.com/BushidoUK/Russian-APT-Tool-Matrix
-    source_retrieved_at: '2026-11-15T10:07:35Z'
+    source_retrieved_at: '2026-11-22T10:36:02Z'
     tools_by_category:
       Credential Theft:
       - Mimikatz
@@ -1196,5 +1199,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-15T10:07:59Z'
+    source_retrieved_at: '2026-11-22T10:36:26Z'
     source_record_id: Fighting Ursa

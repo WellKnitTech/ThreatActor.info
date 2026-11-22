@@ -30,7 +30,7 @@ sector_focus:
 - Technology
 first_seen: '2023'
 last_activity: '2025'
-last_updated: '2026-11-15'
+last_updated: '2026-11-22'
 risk_level: High
 confidence: high
 external_id: G1024
@@ -236,6 +236,9 @@ sources:
 - source: mitre-attack
   imported_at: '2026-11-15T10:08:11Z'
   dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+- source: mitre-attack
+  imported_at: '2026-11-22T10:36:39Z'
+  dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
 cisa_kev_cves:
 - cve: CVE-2019-6693
   dateAdded: '2025-06-25'
@@ -289,7 +292,7 @@ provenance:
       Collection (https://github.com/BushidoUK/Breach-Report-Collection), which is
       used here as a report index. Copyright in linked reports remains with the original
       publishers.
-    source_retrieved_at: '2026-11-15T10:08:40Z'
+    source_retrieved_at: '2026-11-22T10:37:19Z'
     reports:
     - organization: Nissan Australia
       breach_date: December 2023
@@ -311,14 +314,14 @@ provenance:
       enterprise: '20.1'
       ics: '20.1'
       mobile: '20.1'
-    relationships_imported_at: '2026-11-15T10:08:11Z'
+    relationships_imported_at: '2026-11-22T10:36:39Z'
     source_dataset_url: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
     source_dataset_urls:
       enterprise: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
       ics: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/ics-attack/ics-attack.json
       mobile: https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/mobile-attack/mobile-attack.json
     source_record_id: G1024
-    source_retrieved_at: '2026-11-15T10:08:11Z'
+    source_retrieved_at: '2026-11-22T10:36:39Z'
     stix_intrusion_set_id: intrusion-set--46bb06cb-f2d9-4b37-8c92-a27e224ad90d
   ransomware_tool_matrix:
     community_reports:
@@ -396,7 +399,7 @@ provenance:
     - Tools/RMM-Tools.md
     source_label: Akira
     source_repository: https://github.com/BushidoUK/Ransomware-Tool-Matrix
-    source_retrieved_at: '2026-11-15T10:07:29Z'
+    source_retrieved_at: '2026-11-22T10:35:49Z'
     tools_by_category:
       Credential Theft:
       - DonPAPI
@@ -523,7 +526,7 @@ provenance:
     - Vulnerabilities/Virtualization.md
     source_label: Akira
     source_repository: https://github.com/BushidoUK/Ransomware-Vulnerability-Matrix
-    source_retrieved_at: '2026-11-15T10:07:32Z'
+    source_retrieved_at: '2026-11-22T10:35:55Z'
     vulnerabilities_by_category:
       Applications:
       - vendor: Veeam
@@ -682,5 +685,5 @@ provenance:
   unit42_threat_actor_groups:
     source_name: Palo Alto Networks Unit 42 Threat Actor Groups
     source_dataset_url: https://unit42.paloaltonetworks.com/threat-actor-groups-tracked-by-palo-alto-networks-unit-42/
-    source_retrieved_at: '2026-11-15T10:07:59Z'
+    source_retrieved_at: '2026-11-22T10:36:26Z'
     source_record_id: Howling Scorpius

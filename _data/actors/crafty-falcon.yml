@@ -1,0 +1,29 @@
+name: "CRAFTY FALCON"
+aliases: ["CRAFTY FALCON"]
+description: "Crafty Falcon is an AI-assisted threat actor targeting Indian fintechs, lenders, payment firms and cryptocurrency exchanges. It exploits exposed test environments and shared credentials, then moves money through victims’ payment and disbursement APIs. Its tooling includes ARTEX, PentAGI, Cairn and CyberStrikeAI, and it rotates C2 infrastructure within hours to days."
+url: "/crafty-falcon"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/crafty_falcon"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "CyberGate"
+  - name: "Cyber Eye RAT"
+  - name: "Xploit"
+  - name: "PentagonRAT"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "crafty_falcon"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/crafty_falcon"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
+    source_uuid: "27396c22-9bc0-42ff-a99c-67fb882f86da"
+  misp_galaxy:
+    meta_keys: ["refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "27396c22-9bc0-42ff-a99c-67fb882f86da"
+    source_record_ids: ["27396c22-9bc0-42ff-a99c-67fb882f86da"]
+    source_retrieved_at: "2026-11-22T10:36:50Z"

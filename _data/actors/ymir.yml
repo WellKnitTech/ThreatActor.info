@@ -2,7 +2,7 @@ name: "Ymir"
 aliases: ["Ymir"]
 description: "Ymir is an active extortion or ransomware group tracked by RansomLook."
 url: "/ymir"
-last_updated: "2026-11-15"
+last_updated: "2026-11-22"
 source_name: "RansomLook"
 source_attribution: "Contains data derived from RansomLook, used under CC BY 4.0. Source: https://www.ransomlook.io/"
 source_record_url: "https://www.ransomlook.io/group/ymir"
@@ -20,8 +20,8 @@ provenance:
     source_files: ["ThreatIntel/ExtraThreatIntel.md"]
     source_label: "Ymir"
     source_repository: "https://github.com/BushidoUK/Ransomware-Tool-Matrix"
-    source_retrieved_at: "2026-11-15T10:07:29Z"
+    source_retrieved_at: "2026-11-22T10:35:49Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "ymir"
-  source_retrieved_at: "2026-11-15T10:07:04Z"
+  source_retrieved_at: "2026-11-22T10:27:34Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

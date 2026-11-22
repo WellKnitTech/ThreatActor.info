@@ -14,7 +14,7 @@ provenance:
     source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
     source_record_id: "shadowbyt3$"
     source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/shadowbyt3$"
-    source_retrieved_at: "2026-11-15T10:08:23Z"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
     source_uuid: "be618f7e-e6bf-4dcb-b805-695224885c49"
   misp_galaxy:
     meta_keys: ["refs","links"]
@@ -23,8 +23,8 @@ provenance:
     source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
     source_record_id: "be618f7e-e6bf-4dcb-b805-695224885c49"
     source_record_ids: ["be618f7e-e6bf-4dcb-b805-695224885c49","f4776664-ba4f-5abd-b9ef-14ac6ef5d4b5"]
-    source_retrieved_at: "2026-11-15T10:08:19Z"
+    source_retrieved_at: "2026-11-22T10:36:50Z"
   source_dataset_url: "https://www.ransomlook.io/api/groups"
   source_record_id: "shadowbyt3s"
-  source_retrieved_at: "2026-11-15T10:06:59Z"
+  source_retrieved_at: "2026-11-22T10:27:50Z"
   source_transforms: ["normalized-name","deduplicated-aliases","omitted-volatile-iocs","adapted-for-threatactor-info"]

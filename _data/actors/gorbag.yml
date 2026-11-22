@@ -1,0 +1,25 @@
+name: "Gorbag"
+aliases: ["Gorbag"]
+description: "Gorbag is a Russia-aligned threat actor active since at least February 2025 that targets Ukrainian organizations, including law enforcement, justice entities, frontline administrations, defense organizations, and a transportation hub for foreign military aid. It collects credentials, VPN configurations, documents, and .zs2 electronic signature keys in a single pass, including from mapped drives and removable media, before deleting its malware. ESET assesses that Gorbag may act as an initial access broker, passing stolen credentials to other Russia-aligned actors."
+url: "/gorbag"
+country: "Russia"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gorbag"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "gorbag"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/gorbag"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
+    source_uuid: "f07ba380-bd12-4c44-a4b2-238db4249465"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "f07ba380-bd12-4c44-a4b2-238db4249465"
+    source_record_ids: ["f07ba380-bd12-4c44-a4b2-238db4249465"]
+    source_retrieved_at: "2026-11-22T10:36:50Z"

@@ -1,0 +1,27 @@
+name: "Atesh"
+aliases: ["Atesh"]
+description: "Atesh is a pro-Ukrainian hacking group that claimed to have hacked an app and compromised regional ministry channels on the MAX messenger. It posted a screenshot of a fake alert on Telegram. Russian media and regional authorities confirmed that the ministry’s services were hacked, but Atesh’s involvement has not been independently confirmed."
+url: "/atesh"
+country: "Ukraine"
+source_name: "MISP Galaxy"
+source_attribution: "Data sourced from MISP Galaxy threat-actor cluster (CC0 licensed)"
+source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/atesh"
+source_license: "CC BY-NC-SA 3.0"
+source_license_url: "https://malpedia.caad.fkie.fraunhofer.de/legal"
+malware:
+  - name: "Hacking Team UEFI Rootkit"
+provenance:
+  malpedia:
+    source_dataset_url: "https://malpedia.caad.fkie.fraunhofer.de/api/get/actors"
+    source_record_id: "atesh"
+    source_record_url: "https://malpedia.caad.fkie.fraunhofer.de/actor/atesh"
+    source_retrieved_at: "2026-11-22T10:36:56Z"
+    source_uuid: "d01dc4f6-36a5-42b3-9d8f-b2f313487650"
+  misp_galaxy:
+    meta_keys: ["country","refs"]
+    source_cluster: "threat-actor.json"
+    source_clusters: ["threat-actor.json"]
+    source_dataset_url: "https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json"
+    source_record_id: "d01dc4f6-36a5-42b3-9d8f-b2f313487650"
+    source_record_ids: ["d01dc4f6-36a5-42b3-9d8f-b2f313487650"]
+    source_retrieved_at: "2026-11-22T10:36:50Z"

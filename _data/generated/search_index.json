@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T09:20:04Z",
+  "generated_at": "2026-11-22T10:37:43Z",
   "actors": [
     {
       "kind": "actor",
@@ -6993,6 +6993,19 @@
     },
     {
       "kind": "actor",
+      "name": "Atesh",
+      "permalink": "/atesh/",
+      "description": "Atesh is a pro-Ukrainian hacking group that claimed to have hacked an app and compromised regional ministry channels on the MAX messenger. It posted a screenshot of a fake alert on Telegram. Russian media and regional authorities confirmed that the ministry’s services were hacked,",
+      "country": "Ukraine",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "ATLAS",
       "permalink": "/atlas/",
       "description": "Ransomware",
@@ -12284,6 +12297,19 @@
     },
     {
       "kind": "actor",
+      "name": "CRAFTY FALCON",
+      "permalink": "/crafty-falcon/",
+      "description": "Crafty Falcon is an AI-assisted threat actor targeting Indian fintechs, lenders, payment firms and cryptocurrency exchanges. It exploits exposed test environments and shared credentials, then moves money through victims’ payment and disbursement APIs. Its tooling includes ARTEX, P",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Crazyhunter Team",
       "permalink": "/crazyhunter-team/",
       "description": "Crazyhunter Team is an active extortion or ransomware group tracked by RansomLook.",
@@ -14874,6 +14900,19 @@
     },
     {
       "kind": "actor",
+      "name": "CyberXero",
+      "permalink": "/cyberxero/",
+      "description": "CyberXero is a Russian-speaking, financially motivated IAB that conducts a global campaign against WordPress and e-commerce platforms alongside targeted reconnaissance of Ukrainian energy and utilities organizations. Its TTPs include exploiting disclosed vulnerabilities, using sha",
+      "country": "Russia",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Cyborg Ransomware",
       "permalink": "/cyborg-ransomware/",
       "description": "Ransomware delivered using fake Windows Update spam",
@@ -15423,6 +15462,19 @@
       "name": "DarkLocker",
       "permalink": "/darklocker/",
       "description": "Ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "DarkLunnen",
+      "permalink": "/darklunnen/",
+      "description": "DarkLunnen targeted organizations across Europe using exposed services, known vulnerabilities, and weak or stolen credentials. Its activity included network appliance exploitation, credential theft, webshell tunneling, remote access, internal reconnaissance, and lateral movement. ",
       "country": null,
       "attck_techniques": [
 
@@ -22670,6 +22722,19 @@
     },
     {
       "kind": "actor",
+      "name": "Gorbag",
+      "permalink": "/gorbag/",
+      "description": "Gorbag is a Russia-aligned threat actor active since at least February 2025 that targets Ukrainian organizations, including law enforcement, justice entities, frontline administrations, defense organizations, and a transportation hub for foreign military aid. It collects credentia",
+      "country": "Russia",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "Gorgon",
       "permalink": "/gorgon/",
       "description": "ransomware",
@@ -22777,6 +22842,19 @@
       "name": "GPGQwerty",
       "permalink": "/gpgqwerty/",
       "description": "ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Gptlocker",
+      "permalink": "/gptlocker/",
+      "description": "Gptlocker is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -24455,6 +24533,19 @@
       "permalink": "/himalayaa/",
       "description": "Himalayaa is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Hitcore Corp",
+      "permalink": "/hitcore-corp/",
+      "description": "Hitcore claimed responsibility for a breach of Ukraine’s Air Alert app that sent false air-raid alerts to users in Kyiv on November 1. A Russian-language alert warned of a possible Oreshnik missile strike and linked to Hitcore’s Telegram channel. Zelensky described it as a Russian",
+      "country": "Russia",
       "attck_techniques": [
 
       ],
@@ -27562,6 +27653,19 @@
       "permalink": "/kkk/",
       "description": "ransomware",
       "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Knaithe",
+      "permalink": "/knaithe/",
+      "description": "Knaithe is a Chinese-speaking operator assessed with moderate confidence to be operating from Zhuhai, China. The actor used Hermes Agent with DeepSeek, orchestrated via Telegram, for autonomous vulnerability scanning of Langflow and n8n instances. Separately, manual exploitation r",
+      "country": "China",
       "attck_techniques": [
 
       ],
@@ -42142,6 +42246,19 @@
     },
     {
       "kind": "actor",
+      "name": "SilentAir",
+      "permalink": "/silentair/",
+      "description": "SilentAir is a state-level threat actor assessed with low confidence to be aligned with China-nexus operations. It primarily targets Taiwan and launches attacks from hijacked mobile operator nodes, mostly over SS7 and sometimes Diameter. By manipulating subscriber location updates",
+      "country": "China",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "SilentRansomGroup",
       "permalink": "/silentransomgroup/",
       "description": "SilentRansomGroup is an active extortion or ransomware group tracked by RansomLook.",
@@ -42158,6 +42275,19 @@
       "name": "SilentSpring",
       "permalink": "/silentspring/",
       "description": "ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Silentvault",
+      "permalink": "/silentvault/",
+      "description": "Silentvault is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
@@ -42497,6 +42627,19 @@
       "permalink": "/slingshot/",
       "description": "While analysing an incident which involved a suspected keylogger, we identified a malicious library able to interact with a virtual file system, which is usually the sign of an advanced APT actor. This turned out to be a malicious loader internally named ‘Slingshot’, part of a new",
       "country": "[\"[Unknown]\"]",
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "SlippyNunchucks",
+      "permalink": "/slippynunchucks/",
+      "description": "SlippyNunchucks is a China-aligned APT group active since at least September 15, 2023, targeting organizations and Chinese-speaking individuals primarily in South and East Asia, with some victims in Europe. Its cyberespionage operations center on DarkVigil, a modular .NET implant ",
+      "country": "China",
       "attck_techniques": [
 
       ],
@@ -43715,6 +43858,19 @@
     },
     {
       "kind": "actor",
+      "name": "StingyBasilisk",
+      "permalink": "/stingybasilisk/",
+      "description": "StingyBasilisk is an unattributed espionage actor with active infrastructure since at least April 2022; its initial access vector is unknown. In February 2026, it expanded laterally using SMB and a modified Impacket atexec tool to execute commands through scheduled tasks. It maint",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
       "name": "STOP Ransomware",
       "permalink": "/stop-ransomware/",
       "description": "Emmanuel_ADC-Soft found a new STOP Ransomware variant that appends the .INFOWAIT extension and drops a ransom note named !readme.txt.",
@@ -44407,6 +44563,19 @@
       "name": "Storm-2992",
       "permalink": "/storm-2992/",
       "description": "Financially motivated threat actor tracked by Microsoft Threat Intelligence as the developer and support operator of the EvilTokens phishing-as-a-service platform, advertised and sold to other cybercriminals through Telegram channels. Storm-XXXX is Microsoft's designation for a de",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Storm-3358",
+      "permalink": "/storm-3358/",
+      "description": "Storm-3358 is a Cambodia-based, financially motivated intrusion cluster that primarily targets financial organizations in Southeast Asia. In October 2026, it began using the ARTEX framework alongside conventional tools to scan internet-facing systems and exploit flaws including an",
       "country": null,
       "attck_techniques": [
 
@@ -50690,6 +50859,19 @@
       "name": "Want Money",
       "permalink": "/want-money/",
       "description": "ransomware",
+      "country": null,
+      "attck_techniques": [
+
+      ],
+      "targeted_sectors": [
+
+      ]
+    },
+    {
+      "kind": "actor",
+      "name": "Warden",
+      "permalink": "/warden/",
+      "description": "Warden is an active extortion or ransomware group tracked by RansomLook.",
       "country": null,
       "attck_techniques": [
 
