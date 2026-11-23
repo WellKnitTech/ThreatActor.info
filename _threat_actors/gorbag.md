@@ -35,3 +35,9 @@ Gorbag is a Russia-aligned threat actor active since at least February 2025 that
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware](https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html)
+  The Hacker News — 2026-11-03
+

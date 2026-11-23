@@ -36,3 +36,9 @@ SilentAir is a state-level threat actor assessed with low confidence to be align
 ## References
 *References pending cataloguing.*
 
+## Recent News
+*Latest articles from security news feeds mentioning this actor.*
+
+- [SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks](https://securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks)
+  SecurityWeek — 2026-11-13
+

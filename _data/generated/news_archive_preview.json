@@ -1,5 +1,37 @@
 [
   {
+    "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+    "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+    "date": "2026-11-23T09:11:56Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+    "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+    "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+    "date": "2026-11-23T09:04:08Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
     "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
     "canonical_url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
@@ -238,6 +270,22 @@
     ]
   },
   {
+    "title": "Fake Instagram hacking tool leading to scams and malware",
+    "link": "https://youtube.com/watch?v=m32gQlmeZIo",
+    "canonical_url": "https://youtube.com/watch?v=m32gQlmeZIo",
+    "date": "2026-11-20T13:54:57Z",
+    "source": "BleepingComputer",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers",
     "link": "https://malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
     "canonical_url": "https://malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
@@ -392,6 +440,22 @@
     ],
     "tags": [
       "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Sneaky Miner Trojan Terminates Itself if Certain Games and Tools Are Detected",
+    "link": "https://youtube.com/watch?v=VpEe4PntR2k",
+    "canonical_url": "https://youtube.com/watch?v=VpEe4PntR2k",
+    "date": "2026-11-20T06:11:41Z",
+    "source": "BleepingComputer",
+    "cves": [
+
+    ],
+    "tags": [
+
     ],
     "actors": [
 
@@ -1595,7 +1659,11 @@
 
     ],
     "actors": [
-
+      {
+        "name": "SilentAir",
+        "url": "/silentair",
+        "matched_alias": "silentair"
+      }
     ]
   },
   {
@@ -4295,7 +4363,11 @@
 
     ],
     "actors": [
-
+      {
+        "name": "Gorbag",
+        "url": "/gorbag",
+        "matched_alias": "gorbag"
+      }
     ]
   },
   {
@@ -8094,70 +8166,6 @@
     "canonical_url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
     "date": "2026-10-13T17:28:50Z",
     "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
-    "link": "https://bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers",
-    "canonical_url": "https://bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers",
-    "date": "2026-10-13T16:44:18Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-    "link": "https://bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks",
-    "canonical_url": "https://bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks",
-    "date": "2026-10-13T15:45:50Z",
-    "source": "BleepingComputer",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Check Point Research Discovers High Risk Vulnerabilities in LiteLLM, One of the Most Widely Used LLM Gateways",
-    "link": "https://blog.checkpoint.com/security/check-point-research-discovers-high-risk-vulnerabilities-in-litellm-one-of-the-most-widely-used-llm-gateways",
-    "canonical_url": "https://blog.checkpoint.com/security/check-point-research-discovers-high-risk-vulnerabilities-in-litellm-one-of-the-most-widely-used-llm-gateways",
-    "date": "2026-10-13T12:00:53Z",
-    "source": "Check Point",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM",
-    "link": "https://paloaltonetworks.com/blog/2026/10/nhs-england-evolves-its-cybersecurity-strategy-with-palo-alto-networks",
-    "canonical_url": "https://paloaltonetworks.com/blog/2026/10/nhs-england-evolves-its-cybersecurity-strategy-with-palo-alto-networks",
-    "date": "2026-10-13T08:29:52Z",
-    "source": "Palo Alto Networks",
     "cves": [
 
     ],

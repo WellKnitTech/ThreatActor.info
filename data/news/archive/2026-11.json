@@ -1,7 +1,41 @@
 {
   "month": "2026-11",
-  "item_count": 287,
+  "item_count": 291,
   "items": [
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "date": "2026-11-23T09:11:56Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "date": "2026-11-23T09:04:08Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
       "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
@@ -255,6 +289,23 @@
       ]
     },
     {
+      "title": "Fake Instagram hacking tool leading to scams and malware",
+      "link": "https://youtube.com/watch?v=m32gQlmeZIo",
+      "canonical_url": "https://youtube.com/watch?v=m32gQlmeZIo",
+      "date": "2026-11-20T13:54:57Z",
+      "source": "BleepingComputer",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
       "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers",
       "link": "https://malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
       "canonical_url": "https://malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
@@ -419,6 +470,23 @@
       ],
       "tags": [
         "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Sneaky Miner Trojan Terminates Itself if Certain Games and Tools Are Detected",
+      "link": "https://youtube.com/watch?v=VpEe4PntR2k",
+      "canonical_url": "https://youtube.com/watch?v=VpEe4PntR2k",
+      "date": "2026-11-20T06:11:41Z",
+      "source": "BleepingComputer",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
       ],
       "actors": [
 
@@ -1696,7 +1764,11 @@
 
       ],
       "actors": [
-
+        {
+          "name": "SilentAir",
+          "url": "/silentair",
+          "matched_alias": "silentair"
+        }
       ]
     },
     {
@@ -4562,7 +4634,11 @@
 
       ],
       "actors": [
-
+        {
+          "name": "Gorbag",
+          "url": "/gorbag",
+          "matched_alias": "gorbag"
+        }
       ]
     },
     {
