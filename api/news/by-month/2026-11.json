@@ -1,7 +1,247 @@
 {
   "month": "2026-11",
-  "item_count": 291,
+  "item_count": 306,
   "items": [
+    {
+      "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+      "link": "https://securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco",
+      "canonical_url": "https://securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco",
+      "date": "2026-11-24T11:50:21Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+      "link": "https://securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking",
+      "canonical_url": "https://securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking",
+      "date": "2026-11-24T10:44:44Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "date": "2026-11-24T06:02:45Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
+      "link": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+      "canonical_url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+      "date": "2026-11-24T00:00:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
+      "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+      "canonical_url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+      "date": "2026-11-24T00:00:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+      "link": "https://therecord.media/fbi-cyberattack-data-breach",
+      "canonical_url": "https://therecord.media/fbi-cyberattack-data-breach",
+      "date": "2026-11-23T18:30:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+      "link": "https://darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+      "canonical_url": "https://darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+      "date": "2026-11-23T17:45:52Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack ",
+      "link": "https://securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack",
+      "canonical_url": "https://securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack",
+      "date": "2026-11-23T15:06:49Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
+      "link": "https://securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path",
+      "canonical_url": "https://securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path",
+      "date": "2026-11-23T13:58:07Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+      "link": "https://securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw",
+      "canonical_url": "https://securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw",
+      "date": "2026-11-23T13:26:22Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "date": "2026-11-23T12:41:04Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "canonical_url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "date": "2026-11-23T12:28:09Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+      "link": "https://securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos",
+      "canonical_url": "https://securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos",
+      "date": "2026-11-23T12:16:20Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-23T12:00:00Z",
+      "source": "CISA Advisories",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "OXLoader abuses DLL hijacking to distribute different malware families",
+      "link": "https://malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+      "canonical_url": "https://malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+      "date": "2026-11-23T11:35:39Z",
+      "source": "Malwarebytes",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
@@ -29,6 +269,22 @@
       ],
       "tags": [
 
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical Authentication Bypass Vulnerability in VMware vCenter Server Under Active Exploitation (CVE-2026-123890)",
+      "link": "https://labs.beazley.security/advisories/BSL-A1252",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1252",
+      "date": "2026-11-23T06:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "tags": [
+        "cve"
       ],
       "actors": [
 
@@ -1667,22 +1923,6 @@
           "url": "/silentair",
           "matched_alias": "silentair"
         }
-      ]
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "date": "2026-11-13T12:00:00Z",
-      "source": "CISA Advisories",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
       ]
     },
     {
