@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-24T12:00:49Z",
+  "updated": "2026-11-25T10:53:04Z",
   "window_days": 14,
   "display_items": 100,
-  "item_count_total": 912,
+  "item_count_total": 937,
   "item_count": 100,
   "retention": "additive_archive",
   "archive_dir": "data/news/archive",
@@ -24,7 +24,7 @@
     },
     {
       "month": "2026-11",
-      "item_count": 306,
+      "item_count": 331,
       "path": "data/news/archive/2026-11.json"
     }
   ],
@@ -57,256 +57,677 @@
     "BleepingComputer": {
       "ok": true,
       "items": 15,
-      "latency_ms": 621,
-      "fetch_ms": 158,
-      "parse_ms": 18,
+      "latency_ms": 462,
+      "fetch_ms": 128,
+      "parse_ms": 14,
       "url": "https://feeds.feedburner.com/BleepingComputer",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 587,
-      "fetch_ms": 263,
-      "parse_ms": 321,
+      "latency_ms": 440,
+      "fetch_ms": 346,
+      "parse_ms": 91,
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 574,
-      "fetch_ms": 128,
-      "parse_ms": 443,
+      "latency_ms": 422,
+      "fetch_ms": 112,
+      "parse_ms": 291,
       "url": "https://krebsonsecurity.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 598,
-      "fetch_ms": 345,
-      "parse_ms": 249,
+      "latency_ms": 445,
+      "fetch_ms": 386,
+      "parse_ms": 56,
       "url": "https://www.darkreading.com/rss.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "SecurityWeek": {
       "ok": true,
       "items": 10,
-      "latency_ms": 573,
-      "fetch_ms": 80,
-      "parse_ms": 454,
+      "latency_ms": 428,
+      "fetch_ms": 132,
+      "parse_ms": 294,
       "url": "https://www.securityweek.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 585,
-      "fetch_ms": 140,
-      "parse_ms": 433,
+      "latency_ms": 438,
+      "fetch_ms": 298,
+      "parse_ms": 129,
       "url": "https://therecord.media/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 94,
-      "fetch_ms": 63,
-      "parse_ms": 26,
+      "latency_ms": 112,
+      "fetch_ms": 88,
+      "parse_ms": 22,
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 103,
-      "fetch_ms": 93,
+      "latency_ms": 159,
+      "fetch_ms": 149,
       "parse_ms": 9,
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 154,
-      "fetch_ms": 135,
-      "parse_ms": 18,
+      "latency_ms": 125,
+      "fetch_ms": 106,
+      "parse_ms": 16,
       "url": "https://blog.talosintelligence.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1591,
-      "fetch_ms": 1558,
-      "parse_ms": 20,
+      "latency_ms": 1282,
+      "fetch_ms": 1266,
+      "parse_ms": 16,
       "url": "https://securelist.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:10Z",
+      "last_success_at": "2026-11-25T10:50:41Z",
       "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 174,
-      "fetch_ms": 161,
-      "parse_ms": 13,
+      "latency_ms": 156,
+      "fetch_ms": 147,
+      "parse_ms": 8,
       "url": "https://www.malwarebytes.com/blog/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 95,
-      "fetch_ms": 74,
-      "parse_ms": 17,
+      "latency_ms": 117,
+      "fetch_ms": 104,
+      "parse_ms": 13,
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:39Z",
       "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 257,
-      "fetch_ms": 245,
-      "parse_ms": 11,
+      "latency_ms": 419,
+      "fetch_ms": 411,
+      "parse_ms": 8,
       "url": "https://blog.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "Elastic Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 203,
-      "fetch_ms": 188,
-      "parse_ms": 14,
+      "latency_ms": 247,
+      "fetch_ms": 234,
+      "parse_ms": 12,
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 111,
-      "fetch_ms": 88,
-      "parse_ms": 23,
+      "latency_ms": 112,
+      "fetch_ms": 98,
+      "parse_ms": 14,
       "url": "https://blog.cloudflare.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 61,
-      "fetch_ms": 43,
-      "parse_ms": 16,
+      "latency_ms": 167,
+      "fetch_ms": 162,
+      "parse_ms": 5,
       "url": "https://blog.checkpoint.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 125,
-      "fetch_ms": 116,
-      "parse_ms": 9,
+      "latency_ms": 271,
+      "fetch_ms": 252,
+      "parse_ms": 20,
       "url": "https://www.sentinelone.com/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 136,
-      "fetch_ms": 124,
-      "parse_ms": 11,
+      "latency_ms": 226,
+      "fetch_ms": 216,
+      "parse_ms": 10,
       "url": "https://www.rapid7.com/blog/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 810,
-      "fetch_ms": 793,
-      "parse_ms": 16,
+      "latency_ms": 493,
+      "fetch_ms": 480,
+      "parse_ms": 13,
       "url": "https://arstechnica.com/security/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:09Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 65,
-      "fetch_ms": 52,
-      "parse_ms": 13,
+      "latency_ms": 76,
+      "fetch_ms": 64,
+      "parse_ms": 11,
       "url": "https://techcrunch.com/tag/security/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 79,
-      "fetch_ms": 67,
-      "parse_ms": 11,
+      "latency_ms": 99,
+      "fetch_ms": 90,
+      "parse_ms": 9,
       "url": "https://www.wired.com/feed/category/security/latest/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:08Z",
+      "last_success_at": "2026-11-25T10:50:40Z",
       "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 380,
-      "fetch_ms": 372,
+      "latency_ms": 642,
+      "fetch_ms": 635,
       "parse_ms": 7,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:10Z",
+      "last_success_at": "2026-11-25T10:50:41Z",
       "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 434,
-      "fetch_ms": 426,
-      "parse_ms": 7,
+      "latency_ms": 398,
+      "fetch_ms": 392,
+      "parse_ms": 6,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-24T11:58:10Z",
+      "last_success_at": "2026-11-25T10:50:41Z",
       "unhealthy": false
     }
   },
   "items": [
+    {
+      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+      "link": "https://securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack",
+      "canonical_url": "https://securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack",
+      "date": "2026-11-25T10:40:07Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "date": "2026-11-25T09:06:59Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+      "link": "https://securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library",
+      "canonical_url": "https://securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library",
+      "date": "2026-11-25T09:05:13Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "How to protect against preinstalled Android malware",
+      "link": "https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093",
+      "canonical_url": "https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093",
+      "date": "2026-11-25T09:00:35Z",
+      "source": "Securelist",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "date": "2026-11-25T06:50:19Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "canonical_url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "date": "2026-11-25T06:37:06Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+      "link": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+      "canonical_url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+      "date": "2026-11-25T00:00:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "link": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability",
+      "canonical_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability",
+      "date": "2026-11-24T23:00:14Z",
+      "source": "Unit 42",
+      "weight": 2,
+      "cves": [
+        "CVE-2026-123633"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "link": "https://securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says",
+      "canonical_url": "https://securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says",
+      "date": "2026-11-24T22:41:58Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Satellites Have a Ground-Level Cybersecurity Problem",
+      "link": "https://darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "canonical_url": "https://darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "date": "2026-11-24T22:05:34Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+      "link": "https://darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "canonical_url": "https://darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "date": "2026-11-24T21:48:06Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "apt"
+      ],
+      "actors": [
+        {
+          "name": "Webworm",
+          "url": "/webworm",
+          "matched_alias": "webworm"
+        }
+      ]
+    },
+    {
+      "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+      "link": "https://therecord.media/mycolorado-app-down-data-breach",
+      "canonical_url": "https://therecord.media/mycolorado-app-down-data-breach",
+      "date": "2026-11-24T20:52:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "canonical_url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "date": "2026-11-24T16:54:07Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "link": "https://securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities",
+      "canonical_url": "https://securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities",
+      "date": "2026-11-24T16:32:56Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Carnegie Endowment for International Peace says third-party breach leaked donation info",
+      "link": "https://therecord.media/carnegie-endowment-data-breach",
+      "canonical_url": "https://therecord.media/carnegie-endowment-data-breach",
+      "date": "2026-11-24T16:00:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "link": "https://securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation",
+      "canonical_url": "https://securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation",
+      "date": "2026-11-24T14:49:59Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "canonical_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "date": "2026-11-24T13:28:26Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "canonical_url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "date": "2026-11-24T13:28:21Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+        {
+          "name": "Inception",
+          "url": "/apt0100",
+          "matched_alias": "inception"
+        },
+        {
+          "name": "ShinyHunters",
+          "url": "/shinyhunters",
+          "matched_alias": "shinyhunters"
+        }
+      ]
+    },
+    {
+      "title": "Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
+      "link": "https://rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890",
+      "canonical_url": "https://rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890",
+      "date": "2026-11-24T13:01:25Z",
+      "source": "Rapid7",
+      "weight": 1,
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Darknet Forums Are Fragmenting as Observed Breach Activity Rises",
+      "link": "https://blog.checkpoint.com/security/darknet-forums-are-fragmenting-as-observed-breach-activity-rises",
+      "canonical_url": "https://blog.checkpoint.com/security/darknet-forums-are-fragmenting-as-observed-breach-activity-rises",
+      "date": "2026-11-24T13:00:10Z",
+      "source": "Check Point",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Volant Manticore: New Iranian Threat Group Expands Cyber Espionage Across Europe and the Middle East",
+      "link": "https://blog.checkpoint.com/security/volant-manticore-new-iranian-threat-group-expands-cyber-espionage-across-europe-and-the-middle-east",
+      "canonical_url": "https://blog.checkpoint.com/security/volant-manticore-new-iranian-threat-group-expands-cyber-espionage-across-europe-and-the-middle-east",
+      "date": "2026-11-24T13:00:07Z",
+      "source": "Check Point",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "date": "2026-11-24T12:42:09Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "canonical_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "date": "2026-11-24T12:30:05Z",
+      "source": "Ars Technica",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-24T12:00:00Z",
+      "source": "CISA Advisories",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
       "link": "https://securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco",
@@ -353,6 +774,23 @@
       ],
       "tags": [
 
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical Remote Code Execution Vulnerability in Drupal Core Under Active Exploitation (CVE-2026-132165)",
+      "link": "https://labs.beazley.security/advisories/BSL-A1253",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1253",
+      "date": "2026-11-24T06:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "weight": 2,
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "tags": [
+        "cve"
       ],
       "actors": [
 
@@ -1612,434 +2050,267 @@
       "actors": [
 
       ]
-    },
-    {
-      "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
-      "link": "https://sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus",
-      "canonical_url": "https://sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus",
-      "date": "2026-11-17T22:19:19Z",
-      "source": "SentinelOne",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
-      "link": "https://darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
-      "canonical_url": "https://darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
-      "date": "2026-11-17T20:58:13Z",
-      "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "How to Tell If It’s a Cyberattack or Just an Outage",
-      "link": "https://wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage",
-      "canonical_url": "https://wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage",
-      "date": "2026-11-17T19:40:57Z",
-      "source": "Wired Security",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
-      "link": "https://darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
-      "canonical_url": "https://darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
-      "date": "2026-11-17T18:38:37Z",
-      "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
-      "link": "https://rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
-      "canonical_url": "https://rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
-      "date": "2026-11-17T18:26:55Z",
-      "source": "Rapid7",
-      "weight": 1,
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CNN, BBC, Zoom, and other sites served malicious code in supply-chain attack",
-      "link": "https://malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack",
-      "canonical_url": "https://malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack",
-      "date": "2026-11-17T12:51:03Z",
-      "source": "Malwarebytes",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "date": "2026-11-17T12:00:00Z",
-      "source": "CISA Advisories",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "date": "2026-11-17T12:00:00Z",
-      "source": "CISA Advisories",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Java4Shell: Critical Vulnerability in Oracle Java OpenJDK (CVE-2026-114938)",
-      "link": "https://labs.beazley.security/advisories/BSL-A1248",
-      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1248",
-      "date": "2026-11-17T08:00:00Z",
-      "source": "Beazley Security Labs Advisories",
-      "weight": 2,
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "canonical_url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "date": "2026-11-17T07:12:13Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-      "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "canonical_url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "date": "2026-11-17T05:00:34Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
-      "link": "https://microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2",
-      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2",
-      "date": "2026-11-17T00:08:41Z",
-      "source": "Microsoft Security",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
-      "link": "https://darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
-      "canonical_url": "https://darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
-      "date": "2026-11-16T19:56:05Z",
-      "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Rapid7 Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
-      "link": "https://rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited",
-      "canonical_url": "https://rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited",
-      "date": "2026-11-16T18:14:14Z",
-      "source": "Rapid7",
-      "weight": 1,
-      "cves": [
-        "CVE-2026-90436"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "King Charles opens new HQ for National Cyber Force, UK’s offensive hacking unit",
-      "link": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
-      "canonical_url": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
-      "date": "2026-11-16T17:22:00Z",
-      "source": "The Record",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
-      "link": "https://darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
-      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
-      "date": "2026-11-16T16:36:55Z",
-      "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
-      "link": "https://rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed",
-      "canonical_url": "https://rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed",
-      "date": "2026-11-16T16:24:38Z",
-      "source": "Rapid7",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Cursor Supply Chain Attack Started at Fireworks AI",
-      "link": "https://securityweek.com/cursor-supply-chain-attack-started-at-fireworks",
-      "canonical_url": "https://securityweek.com/cursor-supply-chain-attack-started-at-fireworks",
-      "date": "2026-11-16T15:45:43Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-      "canonical_url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-      "date": "2026-11-16T14:00:00Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "The Vulnerability Management Lifecycle: What Happens After Discovery?",
-      "link": "https://blog.checkpoint.com/exposure-management/the-vulnerability-management-lifecycle-what-happens-after-discovery",
-      "canonical_url": "https://blog.checkpoint.com/exposure-management/the-vulnerability-management-lifecycle-what-happens-after-discovery",
-      "date": "2026-11-16T13:00:13Z",
-      "source": "Check Point",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-      "link": "https://securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch",
-      "canonical_url": "https://securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch",
-      "date": "2026-11-16T12:48:03Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "canonical_url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "date": "2026-11-16T12:33:18Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
-      "link": "https://securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks",
-      "canonical_url": "https://securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks",
-      "date": "2026-11-16T11:15:48Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
-      "link": "https://securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers",
-      "canonical_url": "https://securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers",
-      "date": "2026-11-16T11:05:42Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Uber Data Breach Impacts 150,000 People",
-      "link": "https://securityweek.com/uber-data-breach-impacts-150000-people",
-      "canonical_url": "https://securityweek.com/uber-data-breach-impacts-150000-people",
-      "date": "2026-11-16T11:02:48Z",
-      "source": "SecurityWeek",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
     }
   ],
   "actor_news": {
+    "Webworm": [
+      {
+        "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+        "link": "https://darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+        "date": "2026-11-24T21:48:06Z",
+        "source": "DarkReading",
+        "cves": [
+
+        ],
+        "tags": [
+          "apt"
+        ]
+      },
+      {
+        "title": "Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit",
+        "link": "https://rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge",
+        "date": "2026-11-19T15:05:34Z",
+        "source": "Rapid7",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "Inception": [
+      {
+        "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+        "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+        "date": "2026-11-24T13:28:21Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      }
+    ],
+    "ShinyHunters": [
+      {
+        "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+        "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+        "date": "2026-11-24T13:28:21Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+        "date": "2026-10-28T06:04:58Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+        "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site",
+        "date": "2026-10-19T13:48:56Z",
+        "source": "KrebsOnSecurity",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+        "link": "https://bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers",
+        "date": "2026-10-10T15:07:54Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+        "link": "https://bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach",
+        "date": "2026-10-09T17:02:29Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+        "date": "2026-10-06T06:56:57Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+        "link": "https://bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi",
+        "date": "2026-10-03T19:09:38Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "Dutch police arrest ShinyHunters hacker accused of planning two murders",
+        "link": "https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders",
+        "date": "2026-09-29T17:27:09Z",
+        "source": "TechCrunch",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+        "link": "https://bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation",
+        "date": "2026-09-28T19:49:10Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+        "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation",
+        "date": "2026-09-28T15:08:57Z",
+        "source": "KrebsOnSecurity",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+        "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+        "date": "2026-09-23T05:30:09Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+        "link": "https://bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach",
+        "date": "2026-09-22T19:13:29Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
+        "link": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data",
+        "date": "2026-09-22T18:40:30Z",
+        "source": "TechCrunch",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+        "link": "https://bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang",
+        "date": "2026-09-19T13:48:32Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "ransomware"
+        ]
+      },
+      {
+        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
+        "link": "https://bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database",
+        "date": "2026-09-08T16:35:47Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+        "link": "https://darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+        "date": "2026-09-03T19:42:39Z",
+        "source": "DarkReading",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "link": "https://bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft",
+        "date": "2026-08-28T22:40:17Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      },
+      {
+        "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+        "link": "https://bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach",
+        "date": "2026-08-24T15:17:16Z",
+        "source": "BleepingComputer",
+        "cves": [
+
+        ],
+        "tags": [
+          "breach"
+        ]
+      }
+    ],
     "Dragonfly": [
       {
         "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
@@ -2088,20 +2359,6 @@
         "link": "https://blog.checkpoint.com/security/new-php-vulnerabilities-what-organizations-need-to-know-and-how-check-point-customers-are-protected",
         "date": "2026-11-19T19:12:07Z",
         "source": "Check Point",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      }
-    ],
-    "Webworm": [
-      {
-        "title": "Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit",
-        "link": "https://rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge",
-        "date": "2026-11-19T15:05:34Z",
-        "source": "Rapid7",
         "cves": [
 
         ],
@@ -2416,212 +2673,6 @@
         ],
         "tags": [
           "ransomware"
-        ]
-      }
-    ],
-    "ShinyHunters": [
-      {
-        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-        "date": "2026-10-28T06:04:58Z",
-        "source": "The Hacker News",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      },
-      {
-        "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-        "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site",
-        "date": "2026-10-19T13:48:56Z",
-        "source": "KrebsOnSecurity",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-        "link": "https://bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers",
-        "date": "2026-10-10T15:07:54Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      },
-      {
-        "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
-        "link": "https://bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach",
-        "date": "2026-10-09T17:02:29Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-        "date": "2026-10-06T06:56:57Z",
-        "source": "The Hacker News",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
-        "link": "https://bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi",
-        "date": "2026-10-03T19:09:38Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      },
-      {
-        "title": "Dutch police arrest ShinyHunters hacker accused of planning two murders",
-        "link": "https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders",
-        "date": "2026-09-29T17:27:09Z",
-        "source": "TechCrunch",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      },
-      {
-        "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-        "link": "https://bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation",
-        "date": "2026-09-28T19:49:10Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      },
-      {
-        "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-        "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation",
-        "date": "2026-09-28T15:08:57Z",
-        "source": "KrebsOnSecurity",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      },
-      {
-        "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-        "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-        "date": "2026-09-23T05:30:09Z",
-        "source": "The Hacker News",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-        "link": "https://bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach",
-        "date": "2026-09-22T19:13:29Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
-        "link": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data",
-        "date": "2026-09-22T18:40:30Z",
-        "source": "TechCrunch",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-        "link": "https://bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang",
-        "date": "2026-09-19T13:48:32Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-          "ransomware"
-        ]
-      },
-      {
-        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-        "link": "https://bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database",
-        "date": "2026-09-08T16:35:47Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
-        "link": "https://darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
-        "date": "2026-09-03T19:42:39Z",
-        "source": "DarkReading",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-        "link": "https://bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft",
-        "date": "2026-08-28T22:40:17Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
-        ]
-      },
-      {
-        "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-        "link": "https://bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach",
-        "date": "2026-08-24T15:17:16Z",
-        "source": "BleepingComputer",
-        "cves": [
-
-        ],
-        "tags": [
-          "breach"
         ]
       }
     ],

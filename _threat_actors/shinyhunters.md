@@ -281,6 +281,8 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
 ## Recent News
 *Latest articles from security news feeds mentioning this actor.*
 
+- [Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site](https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html)
+  The Hacker News — 2026-11-24 — tags: breach
 - [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
   The Hacker News — 2026-10-28
 - [Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site](https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site)
@@ -295,8 +297,6 @@ ShinyHunters is a cyber criminal collective that has been active since at least 
   BleepingComputer — 2026-10-03
 - [Dutch police arrest ShinyHunters hacker accused of planning two murders](https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders)
   TechCrunch — 2026-09-29
-- [Dutch police confirm arrest in ShinyHunters hacking investigation](https://bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation)
-  BleepingComputer — 2026-09-28
 
-*17 matched articles total. [Browse all security news](/news/archive/).*
+*18 matched articles total. [Browse all security news](/news/archive/).*
 

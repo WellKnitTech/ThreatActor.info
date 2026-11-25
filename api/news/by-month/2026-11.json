@@ -1,7 +1,404 @@
 {
   "month": "2026-11",
-  "item_count": 306,
+  "item_count": 331,
   "items": [
+    {
+      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+      "link": "https://securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack",
+      "canonical_url": "https://securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack",
+      "date": "2026-11-25T10:40:07Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "date": "2026-11-25T09:06:59Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+      "link": "https://securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library",
+      "canonical_url": "https://securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library",
+      "date": "2026-11-25T09:05:13Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "How to protect against preinstalled Android malware",
+      "link": "https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093",
+      "canonical_url": "https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093",
+      "date": "2026-11-25T09:00:35Z",
+      "source": "Securelist",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "date": "2026-11-25T06:50:19Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "canonical_url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "date": "2026-11-25T06:37:06Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+      "link": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+      "canonical_url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+      "date": "2026-11-25T00:00:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "link": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability",
+      "canonical_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability",
+      "date": "2026-11-24T23:00:14Z",
+      "source": "Unit 42",
+      "cves": [
+        "CVE-2026-123633"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "link": "https://securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says",
+      "canonical_url": "https://securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says",
+      "date": "2026-11-24T22:41:58Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Satellites Have a Ground-Level Cybersecurity Problem",
+      "link": "https://darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "canonical_url": "https://darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "date": "2026-11-24T22:05:34Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+      "link": "https://darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "canonical_url": "https://darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "date": "2026-11-24T21:48:06Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+        "apt"
+      ],
+      "actors": [
+        {
+          "name": "Webworm",
+          "url": "/webworm",
+          "matched_alias": "webworm"
+        }
+      ]
+    },
+    {
+      "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+      "link": "https://therecord.media/mycolorado-app-down-data-breach",
+      "canonical_url": "https://therecord.media/mycolorado-app-down-data-breach",
+      "date": "2026-11-24T20:52:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "canonical_url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "date": "2026-11-24T16:54:07Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "link": "https://securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities",
+      "canonical_url": "https://securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities",
+      "date": "2026-11-24T16:32:56Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Carnegie Endowment for International Peace says third-party breach leaked donation info",
+      "link": "https://therecord.media/carnegie-endowment-data-breach",
+      "canonical_url": "https://therecord.media/carnegie-endowment-data-breach",
+      "date": "2026-11-24T16:00:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "link": "https://securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation",
+      "canonical_url": "https://securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation",
+      "date": "2026-11-24T14:49:59Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "canonical_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "date": "2026-11-24T13:28:26Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "canonical_url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "date": "2026-11-24T13:28:21Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+        {
+          "name": "Inception",
+          "url": "/apt0100",
+          "matched_alias": "inception"
+        },
+        {
+          "name": "ShinyHunters",
+          "url": "/shinyhunters",
+          "matched_alias": "shinyhunters"
+        }
+      ]
+    },
+    {
+      "title": "Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
+      "link": "https://rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890",
+      "canonical_url": "https://rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890",
+      "date": "2026-11-24T13:01:25Z",
+      "source": "Rapid7",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Darknet Forums Are Fragmenting as Observed Breach Activity Rises",
+      "link": "https://blog.checkpoint.com/security/darknet-forums-are-fragmenting-as-observed-breach-activity-rises",
+      "canonical_url": "https://blog.checkpoint.com/security/darknet-forums-are-fragmenting-as-observed-breach-activity-rises",
+      "date": "2026-11-24T13:00:10Z",
+      "source": "Check Point",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Volant Manticore: New Iranian Threat Group Expands Cyber Espionage Across Europe and the Middle East",
+      "link": "https://blog.checkpoint.com/security/volant-manticore-new-iranian-threat-group-expands-cyber-espionage-across-europe-and-the-middle-east",
+      "canonical_url": "https://blog.checkpoint.com/security/volant-manticore-new-iranian-threat-group-expands-cyber-espionage-across-europe-and-the-middle-east",
+      "date": "2026-11-24T13:00:07Z",
+      "source": "Check Point",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "date": "2026-11-24T12:42:09Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "canonical_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "date": "2026-11-24T12:30:05Z",
+      "source": "Ars Technica",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-24T12:00:00Z",
+      "source": "CISA Advisories",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
       "link": "https://securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco",
@@ -45,6 +442,22 @@
       ],
       "tags": [
 
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical Remote Code Execution Vulnerability in Drupal Core Under Active Exploitation (CVE-2026-132165)",
+      "link": "https://labs.beazley.security/advisories/BSL-A1253",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1253",
+      "date": "2026-11-24T06:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "tags": [
+        "cve"
       ],
       "actors": [
 
