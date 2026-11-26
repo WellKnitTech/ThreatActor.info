@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-25T10:53:04Z",
+  "updated": "2026-11-26T10:26:44Z",
   "window_days": 14,
   "display_items": 100,
-  "item_count_total": 937,
+  "item_count_total": 959,
   "item_count": 100,
   "retention": "additive_archive",
   "archive_dir": "data/news/archive",
@@ -24,7 +24,7 @@
     },
     {
       "month": "2026-11",
-      "item_count": 331,
+      "item_count": 353,
       "path": "data/news/archive/2026-11.json"
     }
   ],
@@ -57,256 +57,622 @@
     "BleepingComputer": {
       "ok": true,
       "items": 15,
-      "latency_ms": 462,
-      "fetch_ms": 128,
-      "parse_ms": 14,
+      "latency_ms": 696,
+      "fetch_ms": 154,
+      "parse_ms": 11,
       "url": "https://feeds.feedburner.com/BleepingComputer",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 440,
-      "fetch_ms": 346,
-      "parse_ms": 91,
+      "latency_ms": 423,
+      "fetch_ms": 236,
+      "parse_ms": 184,
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 422,
-      "fetch_ms": 112,
-      "parse_ms": 291,
+      "latency_ms": 417,
+      "fetch_ms": 187,
+      "parse_ms": 227,
       "url": "https://krebsonsecurity.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 445,
-      "fetch_ms": 386,
-      "parse_ms": 56,
+      "latency_ms": 577,
+      "fetch_ms": 569,
+      "parse_ms": 6,
       "url": "https://www.darkreading.com/rss.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "SecurityWeek": {
       "ok": true,
       "items": 10,
-      "latency_ms": 428,
-      "fetch_ms": 132,
-      "parse_ms": 294,
+      "latency_ms": 408,
+      "fetch_ms": 135,
+      "parse_ms": 249,
       "url": "https://www.securityweek.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 438,
-      "fetch_ms": 298,
-      "parse_ms": 129,
+      "latency_ms": 416,
+      "fetch_ms": 159,
+      "parse_ms": 246,
       "url": "https://therecord.media/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 112,
-      "fetch_ms": 88,
-      "parse_ms": 22,
+      "latency_ms": 160,
+      "fetch_ms": 134,
+      "parse_ms": 17,
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 159,
-      "fetch_ms": 149,
-      "parse_ms": 9,
+      "latency_ms": 168,
+      "fetch_ms": 157,
+      "parse_ms": 5,
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 125,
-      "fetch_ms": 106,
-      "parse_ms": 16,
+      "latency_ms": 108,
+      "fetch_ms": 93,
+      "parse_ms": 11,
       "url": "https://blog.talosintelligence.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1282,
-      "fetch_ms": 1266,
-      "parse_ms": 16,
+      "latency_ms": 1342,
+      "fetch_ms": 1329,
+      "parse_ms": 11,
       "url": "https://securelist.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:41Z",
+      "last_success_at": "2026-11-26T10:24:48Z",
       "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 156,
-      "fetch_ms": 147,
-      "parse_ms": 8,
+      "latency_ms": 188,
+      "fetch_ms": 181,
+      "parse_ms": 6,
       "url": "https://www.malwarebytes.com/blog/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 117,
-      "fetch_ms": 104,
-      "parse_ms": 13,
+      "latency_ms": 134,
+      "fetch_ms": 125,
+      "parse_ms": 9,
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:39Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 419,
-      "fetch_ms": 411,
-      "parse_ms": 8,
+      "latency_ms": 330,
+      "fetch_ms": 324,
+      "parse_ms": 6,
       "url": "https://blog.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Elastic Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 247,
-      "fetch_ms": 234,
-      "parse_ms": 12,
+      "latency_ms": 5858,
+      "fetch_ms": 5849,
+      "parse_ms": 8,
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:53Z",
       "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 112,
-      "fetch_ms": 98,
-      "parse_ms": 14,
+      "latency_ms": 128,
+      "fetch_ms": 117,
+      "parse_ms": 10,
       "url": "https://blog.cloudflare.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 167,
-      "fetch_ms": 162,
+      "latency_ms": 196,
+      "fetch_ms": 190,
       "parse_ms": 5,
       "url": "https://blog.checkpoint.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 271,
-      "fetch_ms": 252,
-      "parse_ms": 20,
+      "latency_ms": 302,
+      "fetch_ms": 297,
+      "parse_ms": 5,
       "url": "https://www.sentinelone.com/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 226,
-      "fetch_ms": 216,
-      "parse_ms": 10,
+      "latency_ms": 348,
+      "fetch_ms": 328,
+      "parse_ms": 20,
       "url": "https://www.rapid7.com/blog/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 493,
-      "fetch_ms": 480,
-      "parse_ms": 13,
+      "latency_ms": 632,
+      "fetch_ms": 623,
+      "parse_ms": 9,
       "url": "https://arstechnica.com/security/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:48Z",
       "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 76,
-      "fetch_ms": 64,
-      "parse_ms": 11,
+      "latency_ms": 102,
+      "fetch_ms": 95,
+      "parse_ms": 7,
       "url": "https://techcrunch.com/tag/security/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 99,
-      "fetch_ms": 90,
-      "parse_ms": 9,
+      "latency_ms": 119,
+      "fetch_ms": 111,
+      "parse_ms": 7,
       "url": "https://www.wired.com/feed/category/security/latest/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:40Z",
+      "last_success_at": "2026-11-26T10:24:47Z",
       "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 642,
-      "fetch_ms": 635,
-      "parse_ms": 7,
+      "latency_ms": 545,
+      "fetch_ms": 535,
+      "parse_ms": 10,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:41Z",
+      "last_success_at": "2026-11-26T10:24:53Z",
       "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 398,
-      "fetch_ms": 392,
-      "parse_ms": 6,
+      "latency_ms": 603,
+      "fetch_ms": 589,
+      "parse_ms": 13,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-25T10:50:41Z",
+      "last_success_at": "2026-11-26T10:24:53Z",
       "unhealthy": false
     }
   },
   "items": [
+    {
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "link": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
+      "canonical_url": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
+      "date": "2026-11-26T09:12:26Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "link": "https://securityweek.com/1password-breach-exposes-customer-data-internal-source-code",
+      "canonical_url": "https://securityweek.com/1password-breach-exposes-customer-data-internal-source-code",
+      "date": "2026-11-26T08:32:10Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Cyprus Becomes Espionage Target for Iranian Hackers",
+      "link": "https://darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+      "date": "2026-11-26T08:00:00Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "date": "2026-11-26T07:02:34Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "date": "2026-11-26T06:44:46Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "date": "2026-11-26T04:20:22Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "canonical_url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "date": "2026-11-26T03:48:52Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+      "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "canonical_url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "date": "2026-11-25T21:18:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Salt Typhoon",
+          "url": "/apt1045",
+          "matched_alias": "salt typhoon"
+        },
+        {
+          "name": "GhostEmperor",
+          "url": "/ghostemperor",
+          "matched_alias": "salt typhoon"
+        }
+      ]
+    },
+    {
+      "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+      "link": "https://therecord.media/fifa-data-breach-limited",
+      "canonical_url": "https://therecord.media/fifa-data-breach-limited",
+      "date": "2026-11-25T20:40:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+      "link": "https://microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse",
+      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse",
+      "date": "2026-11-25T18:09:06Z",
+      "source": "Microsoft Security",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+      "link": "https://therecord.media/ransomware-doj-indictment-recovery",
+      "canonical_url": "https://therecord.media/ransomware-doj-indictment-recovery",
+      "date": "2026-11-25T17:30:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+      "link": "https://securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack",
+      "canonical_url": "https://securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack",
+      "date": "2026-11-25T15:27:36Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense",
+      "link": "https://unit42.paloaltonetworks.com/ai-threat-horizon",
+      "canonical_url": "https://unit42.paloaltonetworks.com/ai-threat-horizon",
+      "date": "2026-11-25T15:00:09Z",
+      "source": "Unit 42",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+      "link": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos",
+      "canonical_url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos",
+      "date": "2026-11-25T14:29:43Z",
+      "source": "Ars Technica",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Our 2026 Cybersecurity Predictions: What We Got Right, What We Got Wrong, and What Changed",
+      "link": "https://rapid7.com/blog/post/it-2026-cybersecurity-predictions-wrong-or-right",
+      "canonical_url": "https://rapid7.com/blog/post/it-2026-cybersecurity-predictions-wrong-or-right",
+      "date": "2026-11-25T13:48:40Z",
+      "source": "Rapid7",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+      "link": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+      "canonical_url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+      "date": "2026-11-25T13:30:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "date": "2026-11-25T12:48:54Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter",
+      "link": "https://rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter",
+      "canonical_url": "https://rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter",
+      "date": "2026-11-25T12:19:20Z",
+      "source": "Rapid7",
+      "weight": 1,
+      "cves": [
+        "CVE-2026-123903"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-25T12:00:00Z",
+      "source": "CISA Advisories",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "canonical_url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "date": "2026-11-25T11:51:48Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "date": "2026-11-25T11:23:26Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
       "link": "https://securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack",
@@ -404,6 +770,23 @@
       ],
       "tags": [
         "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical XML Injection Vulnerability in Mitel MiCollab Under Active Exploitation (CVE-2026-133303)",
+      "link": "https://labs.beazley.security/advisories/BSL-A1254",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1254",
+      "date": "2026-11-25T06:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "weight": 2,
+      "cves": [
+        "CVE-2026-133303"
+      ],
+      "tags": [
+        "cve"
       ],
       "actors": [
 
@@ -1663,396 +2046,85 @@
       "actors": [
 
       ]
-    },
-    {
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "canonical_url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "date": "2026-11-19T15:18:07Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "canonical_url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "date": "2026-11-19T15:11:06Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit",
-      "link": "https://rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge",
-      "canonical_url": "https://rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge",
-      "date": "2026-11-19T15:05:34Z",
-      "source": "Rapid7",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-        {
-          "name": "Webworm",
-          "url": "/webworm",
-          "matched_alias": "webworm"
-        }
-      ]
-    },
-    {
-      "title": "How to tell a cyberattack from a plain old outage",
-      "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage",
-      "canonical_url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage",
-      "date": "2026-11-19T11:13:01Z",
-      "source": "Ars Technica",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Scattered Spider’s phishing and SIM-swap tactics led to six-year sentence",
-      "link": "https://malwarebytes.com/blog/news/2026/11/scattered-spiders-phishing-and-sim-swap-tactics-led-to-six-year-sentence",
-      "canonical_url": "https://malwarebytes.com/blog/news/2026/11/scattered-spiders-phishing-and-sim-swap-tactics-led-to-six-year-sentence",
-      "date": "2026-11-19T09:41:18Z",
-      "source": "Malwarebytes",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-        {
-          "name": "Scattered Spider",
-          "url": "/apt1015",
-          "matched_alias": "scattered spider"
-        }
-      ]
-    },
-    {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "canonical_url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "date": "2026-11-19T09:31:26Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Ruby2ßhell: Critical Remote Code Execution Vulnerability in Ruby (CVE-2026-132825)",
-      "link": "https://labs.beazley.security/advisories/BSL-A1251",
-      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1251",
-      "date": "2026-11-19T08:00:00Z",
-      "source": "Beazley Security Labs Advisories",
-      "weight": 2,
-      "cves": [
-        "CVE-2026-132825"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Critical Vulnerabilities in PHP: November 2026 Security Releases",
-      "link": "https://labs.beazley.security/advisories/BSL-A1250",
-      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1250",
-      "date": "2026-11-19T06:00:00Z",
-      "source": "Beazley Security Labs Advisories",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
-      "link": "https://darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
-      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
-      "date": "2026-11-18T21:59:46Z",
-      "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "apt",
-        "breach"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
-      "link": "https://wired.com/story/artex-ai-hacking-tools",
-      "canonical_url": "https://wired.com/story/artex-ai-hacking-tools",
-      "date": "2026-11-18T16:35:24Z",
-      "source": "Wired Security",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
-      "link": "https://blog.cloudflare.com/java4shell-waf-protection",
-      "canonical_url": "https://blog.cloudflare.com/java4shell-waf-protection",
-      "date": "2026-11-18T14:52:10Z",
-      "source": "Cloudflare",
-      "weight": 1,
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Open by Default, Already Occupied: Threat Actors are Renting your Compute",
-      "link": "https://rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers",
-      "canonical_url": "https://rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers",
-      "date": "2026-11-18T14:38:55Z",
-      "source": "Rapid7",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Major Brazilian Signature Apps Enable RCE & Fraud",
-      "link": "https://darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
-      "canonical_url": "https://darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
-      "date": "2026-11-18T14:00:00Z",
-      "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)",
-      "link": "https://rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed",
-      "canonical_url": "https://rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed",
-      "date": "2026-11-18T13:56:42Z",
-      "source": "Rapid7",
-      "weight": 1,
-      "cves": [
-        "CVE-2026-123007"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Ransomware Reaches Record Highs in Q3 2026 as the Threat Landscape Fragments",
-      "link": "https://blog.checkpoint.com/security/ransomware-reaches-record-highs-in-q3-2026-as-the-threat-landscape-fragments",
-      "canonical_url": "https://blog.checkpoint.com/security/ransomware-reaches-record-highs-in-q3-2026-as-the-threat-landscape-fragments",
-      "date": "2026-11-18T13:00:18Z",
-      "source": "Check Point",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Java4Shell (CVE-2026-114938): Check Your Java Services Now ",
-      "link": "https://blog.checkpoint.com/security/java4shell-cve-2026-114938-check-your-java-services-now",
-      "canonical_url": "https://blog.checkpoint.com/security/java4shell-cve-2026-114938-check-your-java-services-now",
-      "date": "2026-11-18T09:19:33Z",
-      "source": "Check Point",
-      "weight": 1,
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "NGINX2Root: Critical Vulnerability in Nginx",
-      "link": "https://labs.beazley.security/advisories/BSL-A1249",
-      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1249",
-      "date": "2026-11-18T08:00:00Z",
-      "source": "Beazley Security Labs Advisories",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting",
-      "link": "https://securelist.com/auditteam-opsagent-forced-audit/122031",
-      "canonical_url": "https://securelist.com/auditteam-opsagent-forced-audit/122031",
-      "date": "2026-11-18T07:00:07Z",
-      "source": "Securelist",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "actors": [
-        {
-          "name": "Audit Team",
-          "url": "/audit-team",
-          "matched_alias": "auditteam"
-        }
-      ]
-    },
-    {
-      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
-      "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites",
-      "canonical_url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites",
-      "date": "2026-11-18T02:52:04Z",
-      "source": "KrebsOnSecurity",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CVE-2026-114938: Critical vulnerability in OpenJDK Java",
-      "link": "https://blog.talosintelligence.com/java4shell",
-      "canonical_url": "https://blog.talosintelligence.com/java4shell",
-      "date": "2026-11-18T01:53:03Z",
-      "source": "Cisco Talos",
-      "weight": 2,
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "tags": [
-        "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
-      "link": "https://darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
-      "canonical_url": "https://darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
-      "date": "2026-11-17T22:34:22Z",
-      "source": "DarkReading",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
-      "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites",
-      "canonical_url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites",
-      "date": "2026-11-17T22:32:16Z",
-      "source": "Ars Technica",
-      "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
     }
   ],
   "actor_news": {
+    "Salt Typhoon": [
+      {
+        "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+        "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+        "date": "2026-11-25T21:18:00Z",
+        "source": "The Record",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
+        "link": "https://darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
+        "date": "2026-09-17T19:15:38Z",
+        "source": "DarkReading",
+        "cves": [
+
+        ],
+        "tags": [
+          "apt"
+        ]
+      },
+      {
+        "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+        "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+        "date": "2026-09-17T10:05:45Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
+    "GhostEmperor": [
+      {
+        "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+        "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+        "date": "2026-11-25T21:18:00Z",
+        "source": "The Record",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      },
+      {
+        "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
+        "link": "https://darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
+        "date": "2026-09-17T19:15:38Z",
+        "source": "DarkReading",
+        "cves": [
+
+        ],
+        "tags": [
+          "apt"
+        ]
+      },
+      {
+        "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+        "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+        "date": "2026-09-17T10:05:45Z",
+        "source": "The Hacker News",
+        "cves": [
+
+        ],
+        "tags": [
+
+        ]
+      }
+    ],
     "Webworm": [
       {
         "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
@@ -3131,58 +3203,6 @@
         "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
         "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
         "date": "2026-09-18T15:24:16Z",
-        "source": "The Hacker News",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      }
-    ],
-    "Salt Typhoon": [
-      {
-        "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
-        "link": "https://darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
-        "date": "2026-09-17T19:15:38Z",
-        "source": "DarkReading",
-        "cves": [
-
-        ],
-        "tags": [
-          "apt"
-        ]
-      },
-      {
-        "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-        "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-        "date": "2026-09-17T10:05:45Z",
-        "source": "The Hacker News",
-        "cves": [
-
-        ],
-        "tags": [
-
-        ]
-      }
-    ],
-    "GhostEmperor": [
-      {
-        "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
-        "link": "https://darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
-        "date": "2026-09-17T19:15:38Z",
-        "source": "DarkReading",
-        "cves": [
-
-        ],
-        "tags": [
-          "apt"
-        ]
-      },
-      {
-        "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-        "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-        "date": "2026-09-17T10:05:45Z",
         "source": "The Hacker News",
         "cves": [
 

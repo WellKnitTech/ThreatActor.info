@@ -1,7 +1,352 @@
 {
   "month": "2026-11",
-  "item_count": 331,
+  "item_count": 353,
   "items": [
+    {
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "link": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
+      "canonical_url": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
+      "date": "2026-11-26T09:12:26Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "link": "https://securityweek.com/1password-breach-exposes-customer-data-internal-source-code",
+      "canonical_url": "https://securityweek.com/1password-breach-exposes-customer-data-internal-source-code",
+      "date": "2026-11-26T08:32:10Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Cyprus Becomes Espionage Target for Iranian Hackers",
+      "link": "https://darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+      "canonical_url": "https://darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+      "date": "2026-11-26T08:00:00Z",
+      "source": "DarkReading",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "date": "2026-11-26T07:02:34Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "date": "2026-11-26T06:44:46Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "date": "2026-11-26T04:20:22Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "canonical_url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "date": "2026-11-26T03:48:52Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+      "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "canonical_url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "date": "2026-11-25T21:18:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+        {
+          "name": "Salt Typhoon",
+          "url": "/apt1045",
+          "matched_alias": "salt typhoon"
+        },
+        {
+          "name": "GhostEmperor",
+          "url": "/ghostemperor",
+          "matched_alias": "salt typhoon"
+        }
+      ]
+    },
+    {
+      "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+      "link": "https://therecord.media/fifa-data-breach-limited",
+      "canonical_url": "https://therecord.media/fifa-data-breach-limited",
+      "date": "2026-11-25T20:40:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+      "link": "https://microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse",
+      "canonical_url": "https://microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse",
+      "date": "2026-11-25T18:09:06Z",
+      "source": "Microsoft Security",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+      "link": "https://therecord.media/ransomware-doj-indictment-recovery",
+      "canonical_url": "https://therecord.media/ransomware-doj-indictment-recovery",
+      "date": "2026-11-25T17:30:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+      "link": "https://securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack",
+      "canonical_url": "https://securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack",
+      "date": "2026-11-25T15:27:36Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense",
+      "link": "https://unit42.paloaltonetworks.com/ai-threat-horizon",
+      "canonical_url": "https://unit42.paloaltonetworks.com/ai-threat-horizon",
+      "date": "2026-11-25T15:00:09Z",
+      "source": "Unit 42",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+      "link": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos",
+      "canonical_url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos",
+      "date": "2026-11-25T14:29:43Z",
+      "source": "Ars Technica",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Our 2026 Cybersecurity Predictions: What We Got Right, What We Got Wrong, and What Changed",
+      "link": "https://rapid7.com/blog/post/it-2026-cybersecurity-predictions-wrong-or-right",
+      "canonical_url": "https://rapid7.com/blog/post/it-2026-cybersecurity-predictions-wrong-or-right",
+      "date": "2026-11-25T13:48:40Z",
+      "source": "Rapid7",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+      "link": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+      "canonical_url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+      "date": "2026-11-25T13:30:00Z",
+      "source": "The Record",
+      "cves": [
+
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "date": "2026-11-25T12:48:54Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter",
+      "link": "https://rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter",
+      "canonical_url": "https://rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter",
+      "date": "2026-11-25T12:19:20Z",
+      "source": "Rapid7",
+      "cves": [
+        "CVE-2026-123903"
+      ],
+      "tags": [
+        "cve"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-25T12:00:00Z",
+      "source": "CISA Advisories",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "canonical_url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "date": "2026-11-25T11:51:48Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "canonical_url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "date": "2026-11-25T11:23:26Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
       "link": "https://securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack",
@@ -93,6 +438,22 @@
       ],
       "tags": [
         "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Critical XML Injection Vulnerability in Mitel MiCollab Under Active Exploitation (CVE-2026-133303)",
+      "link": "https://labs.beazley.security/advisories/BSL-A1254",
+      "canonical_url": "https://labs.beazley.security/advisories/BSL-A1254",
+      "date": "2026-11-25T06:00:00Z",
+      "source": "Beazley Security Labs Advisories",
+      "cves": [
+        "CVE-2026-133303"
+      ],
+      "tags": [
+        "cve"
       ],
       "actors": [
 
