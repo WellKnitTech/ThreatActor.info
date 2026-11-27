@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-26T10:26:44Z",
+  "updated": "2026-11-27T10:32:06Z",
   "window_days": 14,
   "display_items": 100,
   "item_count": 100,
-  "item_count_total": 959,
+  "item_count_total": 966,
   "retention": "additive_archive",
   "archive_dir": "data/news/archive",
   "archive_months": [
@@ -27,7 +27,7 @@
     },
     {
       "month": "2026-11",
-      "item_count": 353,
+      "item_count": 360,
       "path": "data/news/archive/2026-11.json",
       "api_path": "/api/news/by-month/2026-11.json"
     }
@@ -61,256 +61,384 @@
     "BleepingComputer": {
       "ok": true,
       "items": 15,
-      "latency_ms": 696,
-      "fetch_ms": 154,
-      "parse_ms": 11,
+      "latency_ms": 558,
+      "fetch_ms": 200,
+      "parse_ms": 17,
       "url": "https://feeds.feedburner.com/BleepingComputer",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "The Hacker News": {
       "ok": true,
       "items": 15,
-      "latency_ms": 423,
-      "fetch_ms": 236,
-      "parse_ms": 184,
+      "latency_ms": 529,
+      "fetch_ms": 264,
+      "parse_ms": 257,
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "KrebsOnSecurity": {
       "ok": true,
       "items": 10,
-      "latency_ms": 417,
-      "fetch_ms": 187,
-      "parse_ms": 227,
+      "latency_ms": 525,
+      "fetch_ms": 181,
+      "parse_ms": 332,
       "url": "https://krebsonsecurity.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "DarkReading": {
       "ok": true,
       "items": 15,
-      "latency_ms": 577,
-      "fetch_ms": 569,
-      "parse_ms": 6,
+      "latency_ms": 557,
+      "fetch_ms": 461,
+      "parse_ms": 74,
       "url": "https://www.darkreading.com/rss.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "SecurityWeek": {
       "ok": true,
       "items": 10,
-      "latency_ms": 408,
-      "fetch_ms": 135,
-      "parse_ms": 249,
+      "latency_ms": 516,
+      "fetch_ms": 117,
+      "parse_ms": 359,
       "url": "https://www.securityweek.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "The Record": {
       "ok": true,
       "items": 5,
-      "latency_ms": 416,
-      "fetch_ms": 159,
-      "parse_ms": 246,
+      "latency_ms": 538,
+      "fetch_ms": 288,
+      "parse_ms": 235,
       "url": "https://therecord.media/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "CISA Advisories": {
       "ok": true,
       "items": 15,
-      "latency_ms": 160,
-      "fetch_ms": 134,
-      "parse_ms": 17,
+      "latency_ms": 120,
+      "fetch_ms": 88,
+      "parse_ms": 24,
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Microsoft Security": {
       "ok": true,
       "items": 10,
-      "latency_ms": 168,
-      "fetch_ms": 157,
-      "parse_ms": 5,
+      "latency_ms": 87,
+      "fetch_ms": 71,
+      "parse_ms": 10,
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Cisco Talos": {
       "ok": true,
       "items": 15,
-      "latency_ms": 108,
-      "fetch_ms": 93,
-      "parse_ms": 11,
+      "latency_ms": 134,
+      "fetch_ms": 107,
+      "parse_ms": 16,
       "url": "https://blog.talosintelligence.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Securelist": {
       "ok": true,
       "items": 10,
-      "latency_ms": 1342,
-      "fetch_ms": 1329,
-      "parse_ms": 11,
+      "latency_ms": 1940,
+      "fetch_ms": 1903,
+      "parse_ms": 19,
       "url": "https://securelist.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:48Z",
+      "last_success_at": "2026-11-27T10:29:30Z",
       "unhealthy": false
     },
     "Malwarebytes": {
       "ok": true,
       "items": 15,
-      "latency_ms": 188,
-      "fetch_ms": 181,
-      "parse_ms": 6,
+      "latency_ms": 208,
+      "fetch_ms": 196,
+      "parse_ms": 11,
       "url": "https://www.malwarebytes.com/blog/feed",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Unit 42": {
       "ok": true,
       "items": 15,
-      "latency_ms": 134,
-      "fetch_ms": 125,
-      "parse_ms": 9,
+      "latency_ms": 769,
+      "fetch_ms": 749,
+      "parse_ms": 19,
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Palo Alto Networks": {
       "ok": true,
       "items": 10,
-      "latency_ms": 330,
-      "fetch_ms": 324,
-      "parse_ms": 6,
+      "latency_ms": 226,
+      "fetch_ms": 215,
+      "parse_ms": 11,
       "url": "https://blog.paloaltonetworks.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Elastic Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 5858,
-      "fetch_ms": 5849,
-      "parse_ms": 8,
+      "latency_ms": 187,
+      "fetch_ms": 171,
+      "parse_ms": 14,
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:53Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Cloudflare": {
       "ok": true,
       "items": 15,
-      "latency_ms": 128,
-      "fetch_ms": 117,
-      "parse_ms": 10,
+      "latency_ms": 77,
+      "fetch_ms": 59,
+      "parse_ms": 18,
       "url": "https://blog.cloudflare.com/rss/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Check Point": {
       "ok": true,
       "items": 10,
-      "latency_ms": 196,
-      "fetch_ms": 190,
-      "parse_ms": 5,
+      "latency_ms": 144,
+      "fetch_ms": 137,
+      "parse_ms": 7,
       "url": "https://blog.checkpoint.com/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "SentinelOne": {
       "ok": true,
       "items": 10,
-      "latency_ms": 302,
-      "fetch_ms": 297,
-      "parse_ms": 5,
+      "latency_ms": 449,
+      "fetch_ms": 439,
+      "parse_ms": 10,
       "url": "https://www.sentinelone.com/blog/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Rapid7": {
       "ok": true,
       "items": 15,
-      "latency_ms": 348,
-      "fetch_ms": 328,
-      "parse_ms": 20,
+      "latency_ms": 132,
+      "fetch_ms": 120,
+      "parse_ms": 11,
       "url": "https://www.rapid7.com/blog/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Ars Technica": {
       "ok": true,
       "items": 15,
-      "latency_ms": 632,
-      "fetch_ms": 623,
-      "parse_ms": 9,
+      "latency_ms": 316,
+      "fetch_ms": 300,
+      "parse_ms": 16,
       "url": "https://arstechnica.com/security/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:48Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "TechCrunch": {
       "ok": true,
       "items": 15,
-      "latency_ms": 102,
-      "fetch_ms": 95,
-      "parse_ms": 7,
+      "latency_ms": 54,
+      "fetch_ms": 28,
+      "parse_ms": 25,
       "url": "https://techcrunch.com/tag/security/feed/",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Wired Security": {
       "ok": true,
       "items": 15,
-      "latency_ms": 119,
-      "fetch_ms": 111,
-      "parse_ms": 7,
+      "latency_ms": 102,
+      "fetch_ms": 87,
+      "parse_ms": 15,
       "url": "https://www.wired.com/feed/category/security/latest/rss",
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:47Z",
+      "last_success_at": "2026-11-27T10:29:28Z",
       "unhealthy": false
     },
     "Beazley Security Labs Articles": {
       "ok": true,
       "items": 10,
-      "latency_ms": 545,
-      "fetch_ms": 535,
-      "parse_ms": 10,
+      "latency_ms": 419,
+      "fetch_ms": 411,
+      "parse_ms": 8,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:53Z",
+      "last_success_at": "2026-11-27T10:29:30Z",
       "unhealthy": false
     },
     "Beazley Security Labs Advisories": {
       "ok": true,
       "items": 10,
-      "latency_ms": 603,
-      "fetch_ms": 589,
-      "parse_ms": 13,
+      "latency_ms": 461,
+      "fetch_ms": 455,
+      "parse_ms": 6,
       "consecutive_failures": 0,
-      "last_success_at": "2026-11-26T10:24:53Z",
+      "last_success_at": "2026-11-27T10:29:30Z",
       "unhealthy": false
     }
   },
   "items": [
+    {
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "link": "https://securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
+      "canonical_url": "https://securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
+      "date": "2026-11-27T09:30:54Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "link": "https://securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+      "canonical_url": "https://securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+      "date": "2026-11-27T07:44:49Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised  ",
+      "link": "https://securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+      "canonical_url": "https://securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+      "date": "2026-11-27T07:36:14Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "canonical_url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "date": "2026-11-27T05:48:20Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "link": "https://securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
+      "canonical_url": "https://securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
+      "date": "2026-11-26T17:06:55Z",
+      "source": "SecurityWeek",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "canonical_url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "date": "2026-11-26T15:13:41Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "date": "2026-11-26T10:57:55Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "date": "2026-11-26T10:57:25Z",
+      "source": "The Hacker News",
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
       "link": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
@@ -386,22 +514,6 @@
       ],
       "tags": [
 
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "date": "2026-11-26T04:20:22Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
       ],
       "actors": [
 
@@ -1830,122 +1942,6 @@
       ],
       "tags": [
         "cve"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Navigating Vulnerability Hysteria in the AI Era",
-      "link": "https://darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
-      "canonical_url": "https://darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
-      "date": "2026-11-19T19:46:44Z",
-      "source": "DarkReading",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-      "link": "https://securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt",
-      "canonical_url": "https://securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt",
-      "date": "2026-11-19T19:21:06Z",
-      "source": "SecurityWeek",
-      "cves": [
-
-      ],
-      "tags": [
-        "apt"
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "New PHP Vulnerabilities: What Organizations Need to Know and How Check Point Customers Are Protected",
-      "link": "https://blog.checkpoint.com/security/new-php-vulnerabilities-what-organizations-need-to-know-and-how-check-point-customers-are-protected",
-      "canonical_url": "https://blog.checkpoint.com/security/new-php-vulnerabilities-what-organizations-need-to-know-and-how-check-point-customers-are-protected",
-      "date": "2026-11-19T19:12:07Z",
-      "source": "Check Point",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-        {
-          "name": "Protected",
-          "url": "/protected",
-          "matched_alias": "protected"
-        }
-      ]
-    },
-    {
-      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-      "canonical_url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-      "date": "2026-11-19T18:47:58Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "Two Critical NGINX HTTP/2 Flaws: What to Patch First",
-      "link": "https://blog.checkpoint.com/security/two-critical-nginx-http-2-flaws-what-to-patch-first",
-      "canonical_url": "https://blog.checkpoint.com/security/two-critical-nginx-http-2-flaws-what-to-patch-first",
-      "date": "2026-11-19T17:41:16Z",
-      "source": "Check Point",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-      "canonical_url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-      "date": "2026-11-19T16:59:56Z",
-      "source": "The Hacker News",
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
-      "link": "https://securityweek.com/php-patches-seven-critical-rce-vulnerabilities",
-      "canonical_url": "https://securityweek.com/php-patches-seven-critical-rce-vulnerabilities",
-      "date": "2026-11-19T15:54:20Z",
-      "source": "SecurityWeek",
-      "cves": [
-
-      ],
-      "tags": [
-
       ],
       "actors": [
 

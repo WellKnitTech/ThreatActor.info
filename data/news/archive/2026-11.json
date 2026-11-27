@@ -1,7 +1,143 @@
 {
   "month": "2026-11",
-  "item_count": 353,
+  "item_count": 360,
   "items": [
+    {
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "link": "https://securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
+      "canonical_url": "https://securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
+      "date": "2026-11-27T09:30:54Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "link": "https://securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+      "canonical_url": "https://securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+      "date": "2026-11-27T07:44:49Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised  ",
+      "link": "https://securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+      "canonical_url": "https://securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+      "date": "2026-11-27T07:36:14Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "canonical_url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "date": "2026-11-27T05:48:20Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "link": "https://securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
+      "canonical_url": "https://securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
+      "date": "2026-11-26T17:06:55Z",
+      "source": "SecurityWeek",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "canonical_url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "date": "2026-11-26T15:13:41Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "date": "2026-11-26T10:57:55Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "date": "2026-11-26T10:57:25Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
       "link": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
@@ -82,23 +218,6 @@
       ],
       "tags": [
 
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "date": "2026-11-26T04:20:22Z",
-      "source": "The Hacker News",
-      "weight": 2,
-      "cves": [
-
-      ],
-      "tags": [
-        "breach"
       ],
       "actors": [
 

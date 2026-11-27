@@ -1,5 +1,133 @@
 [
   {
+    "title": "100,000 Potentially Impacted by Colorado Data Breach",
+    "link": "https://securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
+    "canonical_url": "https://securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
+    "date": "2026-11-27T09:30:54Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Hex Package Manager Warns of Potential Data Breach",
+    "link": "https://securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+    "canonical_url": "https://securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+    "date": "2026-11-27T07:44:49Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised  ",
+    "link": "https://securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+    "canonical_url": "https://securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+    "date": "2026-11-27T07:36:14Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+    "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+    "canonical_url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+    "date": "2026-11-27T05:48:20Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+    "link": "https://securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
+    "canonical_url": "https://securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
+    "date": "2026-11-26T17:06:55Z",
+    "source": "SecurityWeek",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+    "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+    "canonical_url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+    "date": "2026-11-26T15:13:41Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+    "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+    "canonical_url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+    "date": "2026-11-26T10:57:55Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+
+    ],
+    "actors": [
+
+    ]
+  },
+  {
+    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "date": "2026-11-26T10:57:25Z",
+    "source": "The Hacker News",
+    "cves": [
+
+    ],
+    "tags": [
+      "breach"
+    ],
+    "actors": [
+
+    ]
+  },
+  {
     "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
     "link": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
     "canonical_url": "https://securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
@@ -74,22 +202,6 @@
     ],
     "tags": [
 
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-    "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-    "canonical_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-    "date": "2026-11-26T04:20:22Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-      "breach"
     ],
     "actors": [
 
@@ -8044,122 +8156,6 @@
     "canonical_url": "https://darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
     "date": "2026-10-20T21:45:47Z",
     "source": "DarkReading",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
-    "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257",
-    "canonical_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257",
-    "date": "2026-10-20T20:30:42Z",
-    "source": "Unit 42",
-    "cves": [
-      "CVE-2026-0257"
-    ],
-    "tags": [
-      "cve"
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-    "link": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs",
-    "canonical_url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs",
-    "date": "2026-10-20T19:47:35Z",
-    "source": "Ars Technica",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-    "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-    "canonical_url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-    "date": "2026-10-20T17:09:53Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-    "canonical_url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-    "date": "2026-10-20T15:38:52Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-    "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-    "canonical_url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-    "date": "2026-10-20T15:32:27Z",
-    "source": "The Hacker News",
-    "cves": [
-
-    ],
-    "tags": [
-      "ransomware"
-    ],
-    "actors": [
-      {
-        "name": "INC Ransom",
-        "url": "/apt1032",
-        "matched_alias": "inc ransomware"
-      }
-    ]
-  },
-  {
-    "title": "There's only so much code: the rise in vulnerability numbers",
-    "link": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers",
-    "canonical_url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers",
-    "date": "2026-10-20T15:31:22Z",
-    "source": "Cisco Talos",
-    "cves": [
-
-    ],
-    "tags": [
-
-    ],
-    "actors": [
-
-    ]
-  },
-  {
-    "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-    "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-    "canonical_url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-    "date": "2026-10-20T12:59:44Z",
-    "source": "The Hacker News",
     "cves": [
 
     ],
