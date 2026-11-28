@@ -1,7 +1,143 @@
 {
   "month": "2026-11",
-  "item_count": 360,
+  "item_count": 369,
   "items": [
+    {
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "canonical_url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "date": "2026-11-28T08:08:11Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "canonical_url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "date": "2026-11-27T16:36:11Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+      "link": "https://darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+      "canonical_url": "https://darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+      "date": "2026-11-27T15:27:20Z",
+      "source": "DarkReading",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Japan’s education ministry discloses breach of government procurement system",
+      "link": "https://therecord.media/japan-education-ministry-cyberattack",
+      "canonical_url": "https://therecord.media/japan-education-ministry-cyberattack",
+      "date": "2026-11-27T14:15:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 48 (2026)",
+      "link": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-48-8",
+      "canonical_url": "https://sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-48-8",
+      "date": "2026-11-27T14:00:00Z",
+      "source": "SentinelOne",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+      "link": "https://therecord.media/sap-germany-cyberattack-github",
+      "canonical_url": "https://therecord.media/sap-germany-cyberattack-github",
+      "date": "2026-11-27T13:15:00Z",
+      "source": "The Record",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+        "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Malware steals Gmail messages using a fake Google Sheets extension",
+      "link": "https://malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension",
+      "canonical_url": "https://malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension",
+      "date": "2026-11-27T12:09:14Z",
+      "source": "Malwarebytes",
+      "weight": 1,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "date": "2026-11-27T12:00:00Z",
+      "source": "CISA Advisories",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
     {
       "title": "100,000 Potentially Impacted by Colorado Data Breach",
       "link": "https://securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
@@ -14,6 +150,23 @@
       ],
       "tags": [
         "breach"
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "canonical_url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "date": "2026-11-27T09:29:30Z",
+      "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
       ],
       "actors": [
 
@@ -59,6 +212,23 @@
       "canonical_url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
       "date": "2026-11-27T05:48:20Z",
       "source": "The Hacker News",
+      "weight": 2,
+      "cves": [
+
+      ],
+      "tags": [
+
+      ],
+      "actors": [
+
+      ]
+    },
+    {
+      "title": "Cyberattack disrupts global news distribution platform at France’s AFP",
+      "link": "https://therecord.media/france-afp-hit-by-cyberattack",
+      "canonical_url": "https://therecord.media/france-afp-hit-by-cyberattack",
+      "date": "2026-11-27T00:00:00Z",
+      "source": "The Record",
       "weight": 2,
       "cves": [
 
@@ -898,23 +1068,6 @@
       "date": "2026-11-24T12:30:05Z",
       "source": "Ars Technica",
       "weight": 1,
-      "cves": [
-
-      ],
-      "tags": [
-
-      ],
-      "actors": [
-
-      ]
-    },
-    {
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-      "link": "https://cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "canonical_url": "https://cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "date": "2026-11-24T12:00:00Z",
-      "source": "CISA Advisories",
-      "weight": 2,
       "cves": [
 
       ],
